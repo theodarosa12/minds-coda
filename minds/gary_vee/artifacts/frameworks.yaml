@@ -1,0 +1,194 @@
+# Gary Vaynerchuk - Operational Frameworks
+# Generated: 2025-12-12
+
+frameworks:
+  subject: "Gary Vaynerchuk"
+  version: "1.0"
+  total_frameworks: 8
+
+  # ============================================================================
+  # SIGNATURE FRAMEWORKS
+  # ============================================================================
+
+  signature:
+    attention_arbitrage:
+      name: "Day Trading Attention"
+      category: "platform_strategy"
+      origin: "Gary Vaynerchuk"
+
+      definition: |
+        Identificar gaps entre o VALOR da atencao em uma plataforma
+        e o CUSTO de adquiri-la. Quando atencao e subvalorizada,
+        investir pesado. Quando supervalorizada, reduzir.
+
+      process:
+        - "Identificar plataforma emergente (onde atencao e barata)"
+        - "Estudar comportamento nativo da plataforma"
+        - "Produzir volume massivo de conteudo nativo"
+        - "Construir audiencia antes da competicao"
+        - "Monetizar quando a atencao ainda e barata"
+
+      examples:
+        - platform: "YouTube 2006"
+          insight: "TV pessoal gratuita"
+          action: "Wine Library TV diario"
+
+        - platform: "Twitter 2007"
+          insight: "Early adopter platform"
+          action: "Adoptou em 48 horas"
+
+        - platform: "TikTok 2018"
+          insight: "Paralelos com YouTube 2006"
+          action: "Investimento pesado antes do mainstream"
+
+      quote: "Attention is the asset. I day trade attention."
+
+    jab_jab_jab_right_hook:
+      name: "Jab, Jab, Jab, Right Hook"
+      category: "content_strategy"
+
+      definition: |
+        Dar valor repetidamente (jabs) antes de pedir algo (right hook).
+        A proporcao ideal e 3:1 ou mais.
+
+      components:
+        jab:
+          definition: "Conteudo que da valor sem pedir nada"
+          examples: ["Educacao", "Entretenimento", "Inspiracao"]
+
+        right_hook:
+          definition: "Call to action, pedido, venda"
+          examples: ["Compre", "Inscreva-se", "Participe"]
+
+      application: |
+        Nunca lidere com right hook. Construa goodwill primeiro.
+        Quanto mais jabs, mais poderoso o right hook.
+
+    document_dont_create:
+      name: "Document, Don't Create"
+      category: "content_philosophy"
+
+      definition: |
+        Ao inves de criar conteudo "perfeito", documente sua jornada
+        real. Autenticidade > producao polida.
+
+      benefits:
+        - "Volume: pode produzir infinitamente"
+        - "Autenticidade: impossivel de copiar"
+        - "Conexao: pessoas se relacionam com a jornada"
+        - "Sustentabilidade: nao precisa de ideias novas"
+
+      process:
+        - "Camera ligada o tempo todo"
+        - "Captura momentos reais"
+        - "Edita para plataforma especifica"
+        - "Publica em volume"
+
+  # ============================================================================
+  # STRATEGIC FRAMEWORKS
+  # ============================================================================
+
+  strategic:
+    clouds_and_dirt:
+      name: "Clouds and Dirt"
+      category: "execution"
+
+      definition: |
+        Opere simultaneamente em dois niveis:
+        - CLOUDS: Visao de longo prazo, estrategia de decadas
+        - DIRT: Execucao tatica do dia-a-dia
+
+      instruction: |
+        Ignore o "meio". Nao fique preso em planejamento medio.
+        Pense em 30 anos E execute hoje.
+
+      application:
+        clouds: "Comprar os Jets, VeeFriends legacy"
+        dirt: "Responder DMs, produzir conteudo diario"
+
+    reverse_engineering:
+      name: "Reverse Engineering Success"
+      category: "goal_setting"
+
+      process:
+        - "Definir objetivo final (ex: comprar Jets)"
+        - "Calcular quanto precisa para chegar la"
+        - "Identificar o que precisa construir"
+        - "Executar backwards do objetivo"
+
+    99_1_rule:
+      name: "99/1 Rule"
+      category: "focus"
+
+      definition: |
+        Diga NAO a 99% das oportunidades para poder dizer
+        SIM com toda energia ao 1% que importa.
+
+      application: |
+        Ignorancia estrategica - deliberadamente ignora maioria
+        da informacao disponivel para focar no que importa.
+
+  # ============================================================================
+  # CONTENT FRAMEWORKS
+  # ============================================================================
+
+  content:
+    pyramid_model:
+      name: "Inverted Pyramid Content Model"
+      category: "content_production"
+
+      structure:
+        pillar: "1 peca longa de conteudo (podcast, video)"
+        micro: "30+ pecas curtas extraidas"
+        platforms: "Adaptado para cada plataforma"
+
+      process:
+        - "Grava 1 hora de conteudo denso"
+        - "Equipe extrai 30+ clips"
+        - "Cada clip adaptado para plataforma"
+        - "Publica volume massivo"
+
+    platform_native:
+      name: "Platform Native Content"
+      category: "content_adaptation"
+
+      principle: |
+        Cada plataforma tem linguagem propria. Nao faca cross-post
+        identico. Adapte o conteudo para ser NATIVO da plataforma.
+
+      examples:
+        tiktok: "Vertical, rapido, trends, musica"
+        linkedin: "Profissional, texto longo, stories de carreira"
+        twitter: "Opiniao forte, threads, engagement"
+        instagram: "Visual, carrossel, stories, reels"
+
+  # ============================================================================
+  # DECISION FRAMEWORKS
+  # ============================================================================
+
+  decision:
+    five_minute_rule:
+      name: "5-Minute Decision Rule"
+      category: "decision_making"
+
+      principle: |
+        Se nao consegue decidir em 5 minutos, provavelmente
+        nao tem informacao suficiente. Pegue mais dados ou
+        decida com o que tem.
+
+      quote: "9 em 10 vezes, a decisao rapida e a certa"
+
+    100_year_test:
+      name: "100-Year Test"
+      category: "perspective"
+
+      application: |
+        Quando algo te estressa, pergunte:
+        "Isso vai importar em 100 anos?"
+
+        Se nao, reduza a importancia.
+        Se sim, dobre a atencao.
+
+metadata:
+  created: "2025-12-12"
+  confidence_score: 9.0

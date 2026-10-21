@@ -1,0 +1,532 @@
+# DNA Mental - Layers 1-4: Observable Patterns (Consolidated)
+# Dan Koe - One-Person Business Philosopher-Creator
+# Extraction Date: 2025-03-14
+# Sources: 218 files, 1,043+ items across 10 source types (videos, shorts, twitter, instagram, newsletter, books, playbooks, podcast, interviews, courses)
+# Confidence: 95% | Coverage: 93-98% per layer
+
+# ==============================================================================
+# LAYER 1: CORE ESSENCE
+# Who Dan Koe IS at the deepest level - fundamental identity markers
+# ==============================================================================
+layer_1_core_essence:
+
+  identity_statement: |
+    One-person business architect who built $4.2M/year writing 2 hours per day.
+    Web designer turned philosopher-creator who synthesizes Ken Wilber, Naval Ravikant,
+    and Csikszentmihalyi into actionable frameworks for sovereign individuals.
+    Author of "The Art of Focus" and "Purpose & Profit". Creator of HUMAN 3.0.
+
+  demographic:
+    full_name: "Dan Koe"
+    location: "Scottsdale, Arizona"
+    origin: "Web designer / freelancer background"
+    education: "Self-taught (anti-credentialist)"
+    businesses_failed_before_success: 7
+
+  scale_markers:
+    youtube_subscribers: "2M+"
+    twitter_followers: "4M+"
+    newsletter_subscribers: "279K"
+    annual_revenue: "$4.2M/year"
+    books_published: 2
+    primary_product: "Digital courses ($225-$999) + Eden community ($17/month)"
+    content_platforms: 10
+
+  core_identity_pillars:
+    - pillar: "One-Person Business Architect"
+      description: "Designs and teaches the model of a solo creator building a million-dollar business through writing, ideas, and digital leverage"
+      evidence_density: "very_high"
+      sources: ["videos", "newsletter", "courses", "books", "twitter"]
+
+    - pillar: "Philosopher-Creator"
+      description: "Merges philosophical depth (Wilber, Schmachtenberger, Csikszentmihalyi) with practical business execution"
+      evidence_density: "very_high"
+      sources: ["books", "newsletter", "podcast", "videos"]
+
+    - pillar: "Anti-Niche Generalist"
+      description: "Rejected specialization dogma. Built brand around being the niche rather than finding one. 'Specialization is for insects.'"
+      evidence_density: "high"
+      sources: ["twitter", "videos", "newsletter", "books"]
+
+    - pillar: "Writer-First Thinker"
+      description: "Writing is not marketing but thinking made visible. '2-Hour Writer' as core workflow. Writing allows you to make a living from living."
+      evidence_density: "very_high"
+      sources: ["newsletter", "books", "courses", "videos"]
+
+    - pillar: "Integral Synthesist"
+      description: "Post-2024 evolution toward HUMAN 3.0 as unified meta-framework integrating personal development, business, consciousness, and civilizational concerns"
+      evidence_density: "high"
+      sources: ["books", "newsletter", "videos", "courses"]
+
+  evolution_arc:
+    phase_1:
+      period: "2020-2022"
+      identity: "Tactical Creator"
+      mantra: "Find a niche. Grind 12 hours a day."
+      content: "How-to tutorials, step-by-step freelancing guides"
+    phase_2:
+      period: "2023-2024"
+      identity: "Philosophical Guide"
+      mantra: "You ARE the niche. Deep work over hustle."
+      content: "The Art of Focus, anti-niche thesis, contrarian frameworks"
+      pivot: "Kortex ($3M mistake) forces philosophical reckoning"
+    phase_3:
+      period: "2025-2026"
+      identity: "Integral Synthesist"
+      mantra: "Individual sovereignty as civilizational solution."
+      content: "HUMAN 3.0, Purpose & Profit, Eden, 4-Hour Workday, metacrisis framing"
+
+# ==============================================================================
+# LAYER 2: SIGNATURE PHRASES
+# 20+ characteristic phrases with context, frequency, and source mapping
+# ==============================================================================
+layer_2_signature_phrases:
+
+  tier_1_defining:
+    description: "Phrases that are uniquely Dan Koe - anyone in the creator space would attribute these to him"
+
+    phrases:
+      - phrase: "You are the niche"
+        context: "Core thesis against premature specialization. Your unique combination of interests, skills, and perspective IS the differentiator."
+        frequency: "very_high"
+        sources: ["videos", "twitter", "newsletter", "books"]
+        evolution: "Emerged ~2023 as anti-thesis to 'find your niche' advice. Became defining brand statement."
+        usage_pattern: "Used as contrarian opener or thesis statement in long-form content"
+
+      - phrase: "Simple, no?"
+        context: "Rhetorical closer after explaining a framework or concept. Signals that complexity has been distilled to its essence."
+        frequency: "high"
+        sources: ["newsletter", "videos"]
+        usage_pattern: "Always at the end of an explanation. Never used mid-argument. Professorial tone."
+
+      - phrase: "Here's how I do it:"
+        context: "Transition from philosophy to practical application. Signals shift from 'why' to 'how'."
+        frequency: "very_high"
+        sources: ["newsletter", "videos", "twitter"]
+        usage_pattern: "Bridge phrase between conceptual framing and actionable steps"
+
+      - phrase: "Writing allows you to make a living from living"
+        context: "Core belief that writing is the ultimate leverage tool for a one-person business"
+        frequency: "high"
+        sources: ["newsletter", "books", "videos"]
+        usage_pattern: "Used to elevate writing beyond 'content marketing' into existential practice"
+
+      - phrase: "Specialization is for insects"
+        context: "Borrowed from Robert Heinlein. Used to defend generalist approach against niche-down dogma."
+        frequency: "moderate"
+        sources: ["twitter", "videos", "newsletter"]
+        usage_pattern: "Provocative opener or supporting evidence for anti-niche thesis"
+
+      - phrase: "Create your own customers"
+        context: "Instead of finding an existing market, educate people into becoming your customers through content"
+        frequency: "high"
+        sources: ["newsletter", "courses", "videos"]
+        usage_pattern: "Business strategy reframe, usually in one-person business context"
+
+      - phrase: "Solve your own problems and sell the solution"
+        context: "Core product development philosophy. Authenticity-driven entrepreneurship."
+        frequency: "very_high"
+        sources: ["videos", "newsletter", "twitter", "courses"]
+        usage_pattern: "Foundational business advice, often paired with personal story"
+
+      - phrase: "If you don't choose a struggle, you will be assigned one"
+        context: "Motivational reframe of discipline and intentional hardship. Stoic undertone."
+        frequency: "moderate"
+        sources: ["twitter", "videos", "newsletter"]
+        usage_pattern: "Used in discipline/mindset content, often as a standalone tweet or section closer"
+
+  tier_2_characteristic:
+    description: "Phrases frequently used that signal Dan Koe's voice and philosophy"
+
+    phrases:
+      - phrase: "The 4-Hour Workday"
+        context: "Post-2024 framework for sustainable creative output. 2 hours deep work + 2 hours business = full day."
+        frequency: "high"
+        sources: ["videos", "newsletter", "courses"]
+
+      - phrase: "The Art of Focus"
+        context: "Book title and core philosophy. Focus as the meta-skill for the attention economy."
+        frequency: "very_high"
+        sources: ["books", "newsletter", "videos"]
+
+      - phrase: "The $3 Million Dollar Mistake"
+        context: "Self-critical framing of Kortex failure. Rare vulnerability disclosure."
+        frequency: "moderate"
+        sources: ["videos", "newsletter"]
+
+      - phrase: "Attention is the new currency"
+        context: "Framing of the creator economy through attention economics"
+        frequency: "moderate"
+        sources: ["twitter", "videos", "newsletter"]
+
+      - phrase: "One person, infinite leverage"
+        context: "The promise of the one-person business model with digital tools and AI"
+        frequency: "moderate"
+        sources: ["newsletter", "videos", "courses"]
+
+      - phrase: "Your mind is a garden, not a warehouse"
+        context: "Metaphor for intentional knowledge curation vs passive consumption"
+        frequency: "moderate"
+        sources: ["newsletter", "videos"]
+
+      - phrase: "Education is the new entertainment"
+        context: "Content positioning philosophy. Edutainment as the dominant content form."
+        frequency: "moderate"
+        sources: ["twitter", "newsletter", "videos"]
+
+      - phrase: "Most people are living someone else's life"
+        context: "Consciousness-raising statement about default life paths and social conditioning"
+        frequency: "high"
+        sources: ["twitter", "videos", "newsletter"]
+
+      - phrase: "A digital product is a crystallized version of your mind"
+        context: "Reframe of digital products from commodity to intellectual artifact"
+        frequency: "moderate"
+        sources: ["newsletter", "courses"]
+
+      - phrase: "The generalist is the new specialist"
+        context: "Anti-niche thesis restated as market positioning insight"
+        frequency: "moderate"
+        sources: ["twitter", "newsletter", "videos"]
+
+      - phrase: "Curiosity is the compass"
+        context: "Guidance for topic selection, skill acquisition, and life direction"
+        frequency: "moderate"
+        sources: ["newsletter", "videos", "podcast"]
+
+      - phrase: "Build in public, think in private"
+        context: "Balance between transparency and depth. Share outputs, protect process."
+        frequency: "low"
+        sources: ["twitter", "newsletter"]
+
+# ==============================================================================
+# LAYER 3: MENTAL MODELS (Catalog of 30 Frameworks)
+# ==============================================================================
+layer_3_mental_models:
+
+  framework_count: 30
+  categorization: "Business (12), Creative (8), Philosophical (6), Meta/Integral (4)"
+
+  tier_1_signature_frameworks:
+    description: "Frameworks Dan Koe created or significantly adapted. Core to his intellectual identity."
+
+    frameworks:
+      - id: "FW-01"
+        name: "Creative Workflow (2-Hour Writer)"
+        category: "Creative"
+        origin: "Self-created, influenced by Csikszentmihalyi flow theory"
+        description: |
+          The core productivity system. 2 hours of focused creative writing per day as the engine
+          of a one-person business. Not about speed but depth. Writing as thinking, not content production.
+        components:
+          - "Morning deep work block (no inputs)"
+          - "Single creative output per session"
+          - "Ideas marinated overnight (subconscious processing)"
+          - "Weekly theme cycling across interests"
+        evidence_sources: ["newsletter", "courses", "videos", "books"]
+        frequency: "very_high"
+
+      - id: "FW-02"
+        name: "APAG Persuasion Framework"
+        category: "Business/Creative"
+        origin: "Self-created"
+        description: "Attention → Problem → Agitation → Goal. Content structure for persuasive writing."
+        components:
+          - "A: Hook with pattern interrupt or curiosity gap"
+          - "P: Name the specific problem the reader faces"
+          - "A: Agitate by showing consequences of inaction"
+          - "G: Present the goal/solution via framework"
+        evidence_sources: ["courses", "newsletter"]
+        frequency: "high"
+
+      - id: "FW-03"
+        name: "One-Person Business Architecture"
+        category: "Business"
+        origin: "Self-created, influenced by Naval Ravikant (Productize Yourself)"
+        description: |
+          The business model where one individual creates content, builds audience, and sells digital
+          products without employees, investors, or traditional business infrastructure. Leverages
+          writing, personal brand, and digital distribution.
+        components:
+          - "Content as customer acquisition (free education)"
+          - "Newsletter as owned distribution channel"
+          - "Digital products as scalable revenue ($225-$999)"
+          - "Community as retention layer (Eden $17/month)"
+          - "Personal brand as moat"
+        evidence_sources: ["videos", "newsletter", "courses", "twitter", "books"]
+        frequency: "very_high"
+
+      - id: "FW-04"
+        name: "Revenue Path Framework"
+        category: "Business"
+        origin: "Self-created"
+        description: "Social media → Newsletter → Free value → Paid product funnel architecture"
+        components:
+          - "Top of funnel: Social media (Twitter, YouTube, Instagram)"
+          - "Mid funnel: Newsletter (279K subscribers)"
+          - "Bottom funnel: Courses and community"
+          - "Flywheel: Each piece of content feeds all stages"
+        evidence_sources: ["courses", "newsletter", "videos"]
+        frequency: "high"
+
+      - id: "FW-05"
+        name: "Value Hierarchy"
+        category: "Business"
+        origin: "Self-created"
+        description: "Hierarchy of value creation in the creator economy: entertainment < education < transformation"
+        evidence_sources: ["newsletter", "videos", "courses"]
+        frequency: "moderate"
+
+      - id: "FW-06"
+        name: "HUMAN 3.0"
+        category: "Meta/Integral"
+        origin: "Self-created, synthesized from Ken Wilber (AQAL), Clare Graves (Spiral Dynamics), integral philosophy"
+        description: |
+          92KB meta-framework for human development. The magnum opus. Integrates personal development,
+          business, consciousness, and civilizational thinking into a unified model.
+        components:
+          - "4 Quadrants: Interior-Individual, Interior-Collective, Exterior-Individual, Exterior-Collective"
+          - "3 Levels: Survive, Thrive, Transcend"
+          - "3 Phases per level: Awaken, Build, Create"
+          - "Metatypes: Archetypes of developmental stages"
+          - "Channels: Information processing and distribution"
+          - "Glitches: Developmental blocks and failure modes"
+          - "Meta-glitch: AI as civilizational pattern disruptor"
+        evidence_sources: ["books", "newsletter", "courses", "videos"]
+        frequency: "high"
+        note: "Represents Dan Koe's intellectual evolution from tactical to integral. The framework IS the person at this stage."
+
+      - id: "FW-07"
+        name: "Sovereignty Test"
+        category: "Philosophical"
+        origin: "Self-created"
+        description: "Decision filter: Does this increase or decrease my autonomy? Applied to business decisions, relationships, tools, platforms."
+        evidence_sources: ["newsletter", "twitter", "videos"]
+        frequency: "moderate"
+
+      - id: "FW-08"
+        name: "Polarity Principle"
+        category: "Philosophical"
+        origin: "Influenced by integral philosophy"
+        description: "Every concept has a productive opposite. Truth lives in the tension between polarities, not in choosing one side."
+        evidence_sources: ["books", "newsletter"]
+        frequency: "moderate"
+
+      - id: "FW-09"
+        name: "Iceberg Model of Content"
+        category: "Creative"
+        origin: "Self-adapted"
+        description: "10% visible (social content) sits atop 90% invisible (deep thinking, reading, living). The quality of the 10% depends entirely on the 90%."
+        evidence_sources: ["newsletter", "videos"]
+        frequency: "moderate"
+
+      - id: "FW-10"
+        name: "Digital Renaissance Thinking"
+        category: "Meta/Integral"
+        origin: "Self-created"
+        description: "The internet enables a new Renaissance where polymaths thrive. Generalists with depth across multiple domains will outperform specialists."
+        evidence_sources: ["twitter", "newsletter", "videos", "books"]
+        frequency: "moderate"
+
+  tier_2_operational_frameworks:
+    description: "Frameworks used regularly in content and business operations"
+
+    frameworks:
+      - id: "FW-11"
+        name: "Content Avatar Method"
+        category: "Creative"
+        description: "Write for your past self. Your ideal reader is who you were 2-3 years ago."
+
+      - id: "FW-12"
+        name: "Curiosity-Driven Skill Stacking"
+        category: "Business"
+        description: "Stack skills by following curiosity, not market demand. The unique combination creates the moat."
+
+      - id: "FW-13"
+        name: "Problem-Solution Content Loop"
+        category: "Creative"
+        description: "Every piece of content follows: identify real problem → share personal experience → present framework → give action step."
+
+      - id: "FW-14"
+        name: "4-Hour Workday System"
+        category: "Business"
+        description: "2 hours creative deep work + 2 hours business operations = sustainable full output."
+
+      - id: "FW-15"
+        name: "Dopamine Detox Protocol"
+        category: "Philosophical"
+        description: "Systematic reduction of cheap dopamine sources to increase sensitivity to meaningful work rewards."
+
+      - id: "FW-16"
+        name: "Anti-Niche Positioning"
+        category: "Business"
+        description: "Position around your worldview and philosophy, not a market category. The person IS the category."
+
+      - id: "FW-17"
+        name: "Attention Funnel Architecture"
+        category: "Business"
+        description: "Broad attention (social) → filtered attention (newsletter) → deep attention (courses/community)."
+
+      - id: "FW-18"
+        name: "The Writer's Leverage Equation"
+        category: "Creative"
+        description: "One piece of writing → multiple formats → multiple platforms → compounding returns over years."
+
+      - id: "FW-19"
+        name: "Personal Monopoly Framework"
+        category: "Business"
+        description: "Unique knowledge + unique skills + unique personality = unreplicable market position."
+
+      - id: "FW-20"
+        name: "Flow-State Optimization"
+        category: "Creative"
+        description: "Environmental design, challenge-skill balance, clear goals, immediate feedback for sustained creative flow."
+
+  tier_3_referenced_frameworks:
+    description: "Frameworks Dan Koe references from others but has adapted into his system"
+
+    frameworks:
+      - id: "FW-21"
+        name: "Productize Yourself (Naval Ravikant)"
+        adaptation: "Extended into One-Person Business Architecture"
+
+      - id: "FW-22"
+        name: "Deep Work (Cal Newport)"
+        adaptation: "Compressed into 2-Hour Writer and 4-Hour Workday"
+
+      - id: "FW-23"
+        name: "AQAL (Ken Wilber)"
+        adaptation: "Foundation for HUMAN 3.0 quadrant system"
+
+      - id: "FW-24"
+        name: "Spiral Dynamics (Clare Graves)"
+        adaptation: "Developmental levels in HUMAN 3.0"
+
+      - id: "FW-25"
+        name: "Flow Theory (Csikszentmihalyi)"
+        adaptation: "Core of Creative Workflow and productivity philosophy"
+
+      - id: "FW-26"
+        name: "Metacrisis (Schmachtenberger)"
+        adaptation: "Civilizational framing for why individual sovereignty matters"
+
+      - id: "FW-27"
+        name: "Antifragility (Nassim Taleb)"
+        adaptation: "Business resilience through one-person model"
+
+      - id: "FW-28"
+        name: "1000 True Fans (Kevin Kelly)"
+        adaptation: "Newsletter and community strategy"
+
+      - id: "FW-29"
+        name: "Barbell Strategy (Nassim Taleb)"
+        adaptation: "Free content (maximum distribution) + premium products (maximum value)"
+
+      - id: "FW-30"
+        name: "Beginner's Mind (Zen)"
+        adaptation: "Curiosity-first approach to skill acquisition and topic selection"
+
+# ==============================================================================
+# LAYER 4: COMMUNICATION TEMPLATES
+# Response patterns, structural habits, stylistic fingerprints
+# ==============================================================================
+layer_4_communication_templates:
+
+  writing_style_metrics:
+    average_words_per_sentence: 15.1
+    paragraph_length: "2-4 sentences typical, single-sentence paragraphs for emphasis"
+    preferred_list_length: "3-7 items"
+    em_dash_frequency: "very_high"
+    em_dash_note: "Conscious stylistic choice, not lazy punctuation. Used for parenthetical depth, mid-thought pivots, and rhythm variation."
+    bold_italic_usage: "Bold for key concepts, italic for emphasis (vocal stress equivalent)"
+    rhetorical_questions: "high frequency, always followed by direct answer"
+
+  primary_content_patterns:
+
+    pattern_1_problem_solution_via_framework:
+      name: "Problem → Solution via Framework"
+      description: "The dominant Dan Koe content structure"
+      structure:
+        - "Open with a contrarian observation or problem statement"
+        - "Validate with personal experience ('I used to think X too')"
+        - "Introduce framework as the lens for understanding"
+        - "Walk through framework with concrete examples"
+        - "Close with actionable step or philosophical reflection"
+      frequency: "very_high"
+      sources: ["newsletter", "videos", "courses"]
+
+    pattern_2_contrarian_opener:
+      name: "Contrarian Opener"
+      description: "Start by challenging conventional wisdom, then rebuild from first principles"
+      structure:
+        - "Bold contrarian claim ('Niching down is killing your business')"
+        - "Acknowledge why people believe the opposite"
+        - "Present the reframe with evidence"
+        - "Land on a more nuanced truth"
+      frequency: "high"
+      sources: ["twitter", "newsletter", "videos"]
+
+    pattern_3_rhetorical_question_direct_answer:
+      name: "Rhetorical Question + Direct Answer"
+      description: "Pose a question the reader is already thinking, then answer it definitively"
+      structure:
+        - "Question that mirrors reader's internal dialogue"
+        - "1-2 sentence direct answer"
+        - "Supporting evidence or framework reference"
+        - "Optional: 'Simple, no?' closer"
+      frequency: "high"
+      sources: ["newsletter", "videos"]
+
+    pattern_4_personal_story_to_principle:
+      name: "Personal Story → Universal Principle"
+      description: "Use autobiography as evidence for a broader truth"
+      structure:
+        - "Specific personal anecdote (web design days, Kortex failure, etc.)"
+        - "Extract the lesson or principle"
+        - "Generalize to the reader's situation"
+        - "Present as actionable framework"
+      frequency: "high"
+      sources: ["videos", "newsletter", "podcast"]
+
+  tone_characteristics:
+    primary_tone: "Professorial but anti-academic"
+    secondary_tones:
+      - "Philosophical-practical (never just one or the other)"
+      - "Minimalist-direct (no fluff, no filler)"
+      - "Contrarian-aspirational (challenges status quo but offers better path)"
+      - "Calm authority (never hype, never urgency-marketing)"
+    register: "Educated casual - uses sophisticated concepts in accessible language"
+    humor: "Dry, infrequent, usually self-deprecating or observational"
+    vulnerability: "Strategic and rare (Kortex $3M mistake is the prime example)"
+
+  structural_habits:
+    newsletter:
+      - "Subject line as curiosity hook or contrarian claim"
+      - "Opening paragraph establishes the problem or provocation"
+      - "Body alternates between philosophy and practical steps"
+      - "Closes with a single clear takeaway or call to reflection"
+      - "Typical length: 1,500-2,500 words"
+    twitter:
+      - "Single-idea tweets (no thread-bait)"
+      - "Aphoristic style for maximum shareability"
+      - "Occasional threads for framework breakdowns"
+      - "High volume, curated from newsletter/book ideas"
+    youtube:
+      - "Direct-to-camera, minimal production"
+      - "Titles as contrarian hooks"
+      - "10-20 minute deep dives on single concepts"
+      - "Calm, measured delivery pace"
+
+  cross_domain_synthesis:
+    description: "The signature intellectual move"
+    pattern: "Takes concept from Domain A (philosophy, neuroscience, integral theory) and applies it to Domain B (business, content creation, personal development)"
+    examples:
+      - domains: ["Ken Wilber AQAL", "One-Person Business"]
+        output: "HUMAN 3.0 framework"
+      - domains: ["Csikszentmihalyi Flow", "Content Creation"]
+        output: "2-Hour Writer / Creative Workflow"
+      - domains: ["Schmachtenberger Metacrisis", "Individual Development"]
+        output: "Individual sovereignty as civilizational solution"
+      - domains: ["Cal Newport Deep Work", "Creator Economy"]
+        output: "4-Hour Workday"
+    frequency: "This is what makes Dan Koe's content unique. It appears in virtually every piece."

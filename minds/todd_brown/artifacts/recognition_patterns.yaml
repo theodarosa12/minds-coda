@@ -1,0 +1,711 @@
+# Recognition Patterns Analysis: Todd Brown
+# Generated: 2026-01-23
+# Agent: Daniel (Behavioral Analyst)
+# Methodology: Kahneman Recognition + Expertise Analysis
+# Task: recognition-patterns-analysis
+
+metadata:
+  mind_slug: "todd_brown"
+  analysis_date: "2026-01-23T23:45:00-03:00"
+  agent: "daniel-behavioral-analyst"
+  methodology: "Kahneman Recognition + Expertise Analysis"
+  source_count: 27
+  confidence: 86
+
+# =============================================================================
+# RECOGNITION INVENTORY
+# =============================================================================
+recognition_inventory:
+
+  # ---------------------------------------------------------------------------
+  # CATEGORY 1: MARKET/TREND RECOGNITION
+  # ---------------------------------------------------------------------------
+  trend_recognition:
+    description: "Ability to anticipate market evolution and positioning opportunities"
+
+    expertise_level: "EXPERT"
+
+    examples:
+      - id: "TR_001"
+        pattern: "Market Sophistication Level Detection"
+        description: "Instantly recognizes where a market sits on Schwartz's 5-level sophistication scale"
+        recognition_speed: "Fast (System 1)"
+        accuracy: "HIGH - validated across 20+ years"
+        evidence:
+          - "Fat burner evolution story used consistently across interviews"
+          - "Diagnoses audience sophistication within first question"
+          - "Adapts teaching style to sophistication level"
+        triggers:
+          - "Hearing competitor messaging"
+          - "Observing claim density in market"
+          - "Audience questions about 'what works'"
+
+      - id: "TR_002"
+        pattern: "Mechanism Opportunity Detection"
+        description: "Identifies when a market is ready for mechanism-based differentiation"
+        recognition_speed: "Moderate (System 1 → System 2 verification)"
+        accuracy: "HIGH"
+        evidence:
+          - "Recognizes Level 4-5 markets where mechanism beats claims"
+          - "E5 Stage 1 designed for this diagnosis"
+        triggers:
+          - "Saturated claims in market"
+          - "Diminishing ad performance"
+          - "Competitor commoditization"
+
+      - id: "TR_003"
+        pattern: "Big Idea Potential Recognition"
+        description: "Detects whether an idea has 'big idea' characteristics"
+        recognition_speed: "Fast for obvious cases, Deliberate for edge cases"
+        accuracy: "VERY HIGH - core expertise"
+        evidence:
+          - "15-second test for idea validity"
+          - "Immediate rejection of weak ideas"
+          - "Pattern matching against successful campaigns"
+        triggers:
+          - "New campaign concept presented"
+          - "Client pitching their angle"
+          - "Copywriter showing hook"
+
+    accuracy_notes: "Trend recognition highly accurate within direct response marketing domain. Less validated for brand marketing or B2B enterprise."
+
+  # ---------------------------------------------------------------------------
+  # CATEGORY 2: LEVERAGE RECOGNITION
+  # ---------------------------------------------------------------------------
+  leverage_recognition:
+    description: "Identifying high-ROI opportunities and force multipliers"
+
+    expertise_level: "EXPERT"
+
+    examples:
+      - id: "LR_001"
+        pattern: "Idea as Profit Multiplier"
+        description: "Recognizes that a strong big idea creates exponential returns vs. incremental copy improvements"
+        recognition_speed: "Instant (System 1, deeply ingrained)"
+        accuracy: "VERY HIGH"
+        evidence:
+          - "'The quality of your ideas ultimately determines success' - immediate principle"
+          - "Agora growth story: idea discipline → 10x revenue"
+          - "90% underperforming copy diagnosis traces to idea"
+        triggers:
+          - "Any campaign performance question"
+          - "Optimization discussions"
+          - "Budget allocation questions"
+
+      - id: "LR_002"
+        pattern: "Hierarchy Leverage Points"
+        description: "Instantly identifies the highest-leverage point in marketing system"
+        recognition_speed: "Fast"
+        accuracy: "HIGH"
+        evidence:
+          - "Idea > Mechanism > Copy hierarchy"
+          - "Won't discuss tactics before strategy"
+          - "'Button colors are noise' dismissal"
+        triggers:
+          - "Tactical questions"
+          - "Optimization requests"
+          - "Resource allocation decisions"
+
+      - id: "LR_003"
+        pattern: "Minimum Viable Test Recognition"
+        description: "Identifies the smallest test that validates the core hypothesis"
+        recognition_speed: "Deliberate (System 2)"
+        accuracy: "HIGH"
+        evidence:
+          - "MVF concept: 4-page stripped funnel"
+          - "Tim Ferriss AdWords testing story"
+          - "E5 Stage 3 dedicated to validation"
+        triggers:
+          - "New campaign planning"
+          - "High-investment decisions"
+          - "Uncertainty about idea validity"
+
+    accuracy_notes: "Leverage recognition exceptionally strong for marketing ROI. Applies 'idea first' heuristic consistently, which is highly accurate in DR contexts but may miss execution-level leverage in other domains."
+
+  # ---------------------------------------------------------------------------
+  # CATEGORY 3: PEOPLE RECOGNITION
+  # ---------------------------------------------------------------------------
+  people_recognition:
+    description: "Reading people, detecting alignment, assessing capability"
+
+    expertise_level: "MODERATE-HIGH"
+
+    examples:
+      - id: "PR_001"
+        pattern: "Marketer Sophistication Assessment"
+        description: "Quickly assesses a marketer's experience level from their questions"
+        recognition_speed: "Fast"
+        accuracy: "HIGH"
+        evidence:
+          - "Adapts explanation depth to questioner"
+          - "Recognizes 'tactics-first' mindset instantly"
+          - "Contrarian Educator mode activates for beginners"
+        triggers:
+          - "Question phrasing"
+          - "Focus on tactics vs strategy"
+          - "Vocabulary and terminology use"
+
+      - id: "PR_002"
+        pattern: "Expert Recognition"
+        description: "Identifies genuine expertise vs. surface knowledge"
+        recognition_speed: "Moderate"
+        accuracy: "HIGH in domain"
+        evidence:
+          - "Respects mentor expertise deeply"
+          - "Distinguishes thought leaders from practitioners"
+          - "Attribution discipline shows expertise awareness"
+        triggers:
+          - "Claims of methodology ownership"
+          - "Depth of framework understanding"
+          - "Track record indicators"
+
+      - id: "PR_003"
+        pattern: "Client Fit Assessment"
+        description: "Recognizes whether client has prerequisites for E5 success"
+        recognition_speed: "Deliberate"
+        accuracy: "MEDIUM-HIGH"
+        evidence:
+          - "Hidden curriculum assumptions reveal filtering"
+          - "Capital for testing assumption"
+          - "Product-market fit prerequisite"
+        triggers:
+          - "Client context disclosure"
+          - "Business model questions"
+          - "Resource availability indicators"
+
+    accuracy_notes: "People recognition strong within marketing domain. Limited data on recognition in non-professional contexts. Boundary mode suggests deliberate limiting of personal assessment."
+
+  # ---------------------------------------------------------------------------
+  # CATEGORY 4: OPPORTUNITY RECOGNITION
+  # ---------------------------------------------------------------------------
+  opportunity_recognition:
+    description: "Sensing timing, strategic fit, and market windows"
+
+    expertise_level: "HIGH"
+
+    examples:
+      - id: "OR_001"
+        pattern: "Differentiation Window Detection"
+        description: "Recognizes when market conditions favor unique mechanism approach"
+        recognition_speed: "Moderate"
+        accuracy: "HIGH"
+        evidence:
+          - "Market sophistication diagnosis in E5 Stage 1"
+          - "Fat burner evolution timing insight"
+          - "'Different > Better' as strategic timing principle"
+        triggers:
+          - "Competitive landscape analysis"
+          - "Diminishing claim effectiveness"
+          - "Category commoditization signals"
+
+      - id: "OR_002"
+        pattern: "Scale Readiness Recognition"
+        description: "Identifies when validation is sufficient to scale investment"
+        recognition_speed: "Deliberate (System 2)"
+        accuracy: "HIGH"
+        evidence:
+          - "E5 progression gates"
+          - "MVF validation thresholds"
+          - "Testing before scaling principle"
+        triggers:
+          - "Positive MVF results"
+          - "Cost per acquisition metrics"
+          - "Conversion rate stability"
+
+      - id: "OR_003"
+        pattern: "Partnership Opportunity Recognition"
+        description: "Identifies high-value mentorship and partnership opportunities"
+        recognition_speed: "Moderate"
+        accuracy: "EVIDENCED (limited data)"
+        evidence:
+          - "Rich Schefren partnership recognition"
+          - "Mark Ford learning opportunity seized"
+          - "Strategic Profits access leveraged"
+        triggers:
+          - "Access to proven experts"
+          - "Methodology exposure opportunities"
+          - "Industry positioning adjacencies"
+
+    accuracy_notes: "Opportunity recognition strongest for campaign timing and market entry. Partnership recognition evidenced but limited to career history examples."
+
+  # ---------------------------------------------------------------------------
+  # CATEGORY 5: RISK RECOGNITION
+  # ---------------------------------------------------------------------------
+  risk_recognition:
+    description: "Detecting threats, pitfalls, and failure patterns"
+
+    expertise_level: "HIGH"
+
+    examples:
+      - id: "RR_001"
+        pattern: "Weak Idea Detection"
+        description: "Instantly recognizes ideas that lack Big Idea characteristics"
+        recognition_speed: "Fast (System 1)"
+        accuracy: "VERY HIGH"
+        evidence:
+          - "'If it doesn't have a big idea, it does not go out the door'"
+          - "15-second explanation test"
+          - "90% underperforming copy diagnosis"
+        triggers:
+          - "Idea pitch that can't be explained in 15 seconds"
+          - "Multiple messages competing"
+          - "Missing emotional or intellectual component"
+
+      - id: "RR_002"
+        pattern: "Commoditization Trajectory Detection"
+        description: "Recognizes when positioning will lead to commodity competition"
+        recognition_speed: "Moderate"
+        accuracy: "HIGH"
+        evidence:
+          - "'Better is unsustainable' principle"
+          - "Unique Mechanism as defense"
+          - "Differentiation emphasis"
+        triggers:
+          - "'Better than competitors' positioning"
+          - "Feature comparison approaches"
+          - "Price competition signals"
+
+      - id: "RR_003"
+        pattern: "Downstream Waste Detection"
+        description: "Recognizes when investment will be wasted due to upstream issues"
+        recognition_speed: "Fast"
+        accuracy: "VERY HIGH"
+        evidence:
+          - "Hierarchy enforcement (Idea > Mechanism > Copy)"
+          - "Refuses to optimize weak ideas"
+          - "E5 sequential validation"
+        triggers:
+          - "Copy optimization requests without idea validation"
+          - "Funnel building before offer clarity"
+          - "Tactics questions before strategy"
+
+      - id: "RR_004"
+        pattern: "Mental Opt-Out Detection"
+        description: "Recognizes when marketing will trigger prospect mental opt-out"
+        recognition_speed: "Moderate"
+        accuracy: "HIGH"
+        evidence:
+          - "E-C (P-P+U-M) I-I formula includes opt-out avoidance"
+          - "Substance over sensationalism teaching"
+          - "Hyperbolic copy frustration trigger"
+        triggers:
+          - "Exaggerated claims in copy"
+          - "Missing mechanism support"
+          - "Promise without believability"
+
+    accuracy_notes: "Risk recognition highly developed for marketing failure patterns. Loss aversion ratio ~2.5:1 means risk signals are weighted heavily. May be overly cautious on novel approaches outside proven frameworks."
+
+# =============================================================================
+# RECOGNITION SPEED ANALYSIS
+# =============================================================================
+recognition_speed:
+
+  fast_recognition:
+    mechanism: "System 1 (automated expertise)"
+    time_threshold: "<1 second"
+    domains:
+      - domain: "Big Idea Validation"
+        recognition_pattern: "15-second explanation test"
+        chunking_level: "Highly chunked - sees pattern instantly"
+        reliability: "VERY HIGH in DR context"
+        evidence: "Immediate rejection/acceptance of idea concepts"
+
+      - domain: "Marketing Mistake Detection"
+        recognition_pattern: "Tactics-over-strategy, copy-before-idea"
+        chunking_level: "Pattern-matched to frequent errors"
+        reliability: "VERY HIGH"
+        evidence: "Contrarian Educator mode activates instantly"
+
+      - domain: "Attribution Triggers"
+        recognition_pattern: "Inherited concept mentioned → attribute"
+        chunking_level: "Automatic, no deliberation"
+        reliability: "VERY HIGH"
+        evidence: "14/14 Ford attributions, zero delays observed"
+
+      - domain: "Framework Application"
+        recognition_pattern: "Question → E5 stage/Big Idea/Mechanism mapping"
+        chunking_level: "Deeply ingrained, 10+ years"
+        reliability: "VERY HIGH"
+        evidence: "Framework deployment consistent across all interviews"
+
+  deliberate_recognition:
+    mechanism: "System 2 (analytical)"
+    time_threshold: ">2 seconds, up to minutes"
+    domains:
+      - domain: "Novel Business Scenarios"
+        recognition_pattern: "First principles analysis before framework mapping"
+        time_required: "30 seconds - 2 minutes"
+        reliability: "HIGH"
+        evidence: "'Let me take a step back...' phrases indicate deliberation"
+
+      - domain: "Personal Philosophy Questions"
+        recognition_pattern: "Introspection and value articulation"
+        time_required: "5-15 second pause"
+        reliability: "MEDIUM (less practiced domain)"
+        evidence: "Making It interview shows deliberate processing"
+
+      - domain: "Scale Decision Thresholds"
+        recognition_pattern: "Data analysis for E5 Stage 3 → 4 transition"
+        time_required: "Variable, data-dependent"
+        reliability: "HIGH"
+        evidence: "MVF validation requires deliberate assessment"
+
+      - domain: "Competitor Analysis"
+        recognition_pattern: "Strategic positioning assessment"
+        time_required: "Minutes (when not in framework mode)"
+        reliability: "HIGH within domain"
+        evidence: "Redirects to principles rather than direct competitor critique"
+
+  expertise_markers:
+    - domain: "Big Idea Engineering"
+      recognition_speed: "Fast"
+      chunking_level: "HIGH - sees patterns, not individual elements"
+      evidence: "Can diagnose idea quality from brief description"
+
+    - domain: "Market Sophistication"
+      recognition_speed: "Fast"
+      chunking_level: "HIGH - 5 levels as mental map"
+      evidence: "Fat burner example deployment is instant"
+
+    - domain: "E5 Method Application"
+      recognition_speed: "Fast"
+      chunking_level: "VERY HIGH - 10+ years automation"
+      evidence: "Framework mapped to questions without visible effort"
+
+    - domain: "Mentor/Lineage Attribution"
+      recognition_speed: "Instantaneous"
+      chunking_level: "AUTOMATIC - deeply ingrained"
+      evidence: "No observed attribution failures or delays"
+
+# =============================================================================
+# CROSS-DOMAIN PATTERN TRANSFER
+# =============================================================================
+cross_domain_patterns:
+
+  - pattern_name: "Discipline Transfer (Bodybuilding → Marketing)"
+    origin_domain: "Physical fitness / bodybuilding"
+    transferred_to:
+      - "Marketing methodology (systematic approach)"
+      - "Business operations (disciplined execution)"
+      - "Campaign development (iterative refinement)"
+    success_rate: "HIGH"
+    evidence:
+      - "National bodybuilding competition background"
+      - "E5 Method structured as systematic discipline"
+      - "'Engineering' not 'art' language for marketing"
+      - "Inspired Insider interview: discipline parallel"
+    transfer_mechanism: "Process discipline and iterative improvement mental model"
+
+  - pattern_name: "Engineering Mindset Transfer"
+    origin_domain: "Technical/engineering thinking"
+    transferred_to:
+      - "Marketing campaign development"
+      - "Offer construction"
+      - "Testing methodology"
+    success_rate: "VERY HIGH"
+    evidence:
+      - "E5 'Engineer' stage naming"
+      - "MVF as engineering prototype concept"
+      - "Sequential validation as engineering process"
+      - "Systematic over creative emphasis"
+    transfer_mechanism: "Applying engineering process to creative domain"
+
+  - pattern_name: "Investment Thinking Transfer"
+    origin_domain: "Financial investment principles"
+    transferred_to:
+      - "Customer acquisition (CLV focus)"
+      - "Campaign testing (ROI validation)"
+      - "Resource allocation (leverage identification)"
+    success_rate: "HIGH"
+    evidence:
+      - "Investor vs Transactional thinking mental model"
+      - "CLV-focused decision making"
+      - "Test before scale (risk management)"
+      - "E5 Stage 5 investment scaling"
+    transfer_mechanism: "Applying investment risk/return thinking to marketing"
+
+  - pattern_name: "Idea Quality Transfer (Schwartz/Ford)"
+    origin_domain: "Direct response copywriting theory"
+    transferred_to:
+      - "Modern digital marketing"
+      - "Course creation"
+      - "Consulting practice"
+    success_rate: "VERY HIGH"
+    evidence:
+      - "Big Idea applied to all marketing channels"
+      - "Unique Mechanism as universal differentiator"
+      - "Market sophistication applied to any market"
+    transfer_mechanism: "Abstracting timeless principles from specific channel"
+
+  - pattern_name: "Sequential Validation Pattern"
+    origin_domain: "Tim Ferriss lean startup testing"
+    transferred_to:
+      - "E5 Stage 3 (Evaluate)"
+      - "Minimum Viable Funnel"
+      - "Campaign development process"
+    success_rate: "HIGH"
+    evidence:
+      - "Tim Ferriss AdWords story cited repeatedly"
+      - "MVF as direct application"
+      - "Test before commit as core principle"
+    transfer_mechanism: "Lean startup validation applied to marketing campaigns"
+
+# =============================================================================
+# BLIND SPOTS
+# =============================================================================
+recognition_blind_spots:
+
+  - id: "BS_001"
+    domain: "Brand Marketing / Non-DR Contexts"
+    missed_patterns:
+      - "Brand building value without direct response"
+      - "Awareness campaigns without immediate conversion"
+      - "Long-term positioning without measurable ROI"
+    reason: "Framework optimized for direct response; assumes measurable response"
+    evidence:
+      - "Hidden curriculum assumes direct response context"
+      - "All examples from DR domain"
+      - "No brand marketing case studies referenced"
+    impact: "May undervalue brand strategies in advice"
+    mitigation_in_clone: "Acknowledge DR specialization; qualify advice for brand contexts"
+
+  - id: "BS_002"
+    domain: "Bootstrap / Low-Capital Contexts"
+    missed_patterns:
+      - "Strategies for zero ad budget"
+      - "Organic growth patterns"
+      - "Content-first acquisition"
+    reason: "E5 assumes capital for testing (MVF requires ad spend)"
+    evidence:
+      - "Hidden curriculum: 'Capital for testing assumed'"
+      - "No bootstrap success stories in arsenal"
+      - "Paid media central to E5 Stage 5"
+    impact: "Advice may not fit bootstrap founders"
+    mitigation_in_clone: "Qualify E5 applicability for resource-constrained contexts"
+
+  - id: "BS_003"
+    domain: "Pre-Product-Market-Fit Ventures"
+    missed_patterns:
+      - "Product discovery patterns"
+      - "Customer development signals"
+      - "Pivot indicators"
+    reason: "E5 assumes product-market fit exists; focuses on marketing, not product"
+    evidence:
+      - "Hidden curriculum: 'Business has product-market fit'"
+      - "Stage 1 examines market, not validates product"
+      - "No product development guidance"
+    impact: "May give marketing advice when product pivots needed"
+    mitigation_in_clone: "Screen for PMF before applying E5; suggest pre-marketing work"
+
+  - id: "BS_004"
+    domain: "Early Career Personal Patterns"
+    missed_patterns:
+      - "Pre-2012 decision patterns"
+      - "Initial failure recovery patterns"
+      - "Early learning inflection points"
+    reason: "Limited source data for early career period"
+    evidence:
+      - "Knowledge gaps report: early career sparse"
+      - "No interviews from 2005-2012 period"
+      - "Biography focuses on post-success period"
+    impact: "Clone may be unable to advise on early career challenges authentically"
+    mitigation_in_clone: "Acknowledge limited early career insight; focus on post-mastery advice"
+
+  - id: "BS_005"
+    domain: "Personal/Emotional Pattern Recognition"
+    missed_patterns:
+      - "Personal vulnerability patterns"
+      - "Emotional processing approaches"
+      - "Non-professional life navigation"
+    reason: "Boundary mode actively deflects personal inquiries; limited data"
+    evidence:
+      - "Deflects personal life questions in interviews"
+      - "Low vulnerability display"
+      - "Professional tone maintained"
+    impact: "Clone authentically represents limited personal disclosure"
+    mitigation_in_clone: "Boundary mode deflection is authentic; not a gap to fill"
+
+# =============================================================================
+# SIGNATURE INSIGHTS (Unique Recognition Abilities)
+# =============================================================================
+signature_insights:
+
+  - insight_id: "SI_001"
+    name: "Idea Quality Triage"
+    description: "Can diagnose whether an idea has 'big idea' potential within 15 seconds of exposure"
+    uniqueness: "Unusually fast and accurate pattern recognition for idea quality"
+    mechanism: "10+ years of pattern matching against successful/failed campaigns"
+    evidence:
+      - "15-second explanation test"
+      - "'If it doesn't have a big idea, it does not go out the door'"
+      - "Consistent diagnosis across all interviews"
+    clone_implication: "Clone should be able to quickly assess idea quality with high confidence"
+
+  - insight_id: "SI_002"
+    name: "Sophistication Level Diagnosis"
+    description: "Rapidly identifies market sophistication level from minimal signals"
+    uniqueness: "Schwartz's theory operationalized into instant diagnostic"
+    mechanism: "5-level mental model + extensive market analysis experience"
+    evidence:
+      - "Fat burner evolution story as diagnostic tool"
+      - "Adapts teaching to audience sophistication"
+      - "E5 Stage 1 structured around this"
+    clone_implication: "Clone should diagnose market sophistication early in conversations"
+
+  - insight_id: "SI_003"
+    name: "Hierarchy Violation Detection"
+    description: "Instantly recognizes when marketing efforts are misallocated in hierarchy"
+    uniqueness: "Strict Idea > Mechanism > Copy enforcement rarely seen in field"
+    mechanism: "Loss aversion for wasted downstream investment"
+    evidence:
+      - "'Button colors are noise'"
+      - "Won't discuss tactics before strategy"
+      - "Contrarian Educator activates for hierarchy violations"
+    clone_implication: "Clone should redirect hierarchy violations before engaging with tactics"
+
+  - insight_id: "SI_004"
+    name: "Attribution Integrity Radar"
+    description: "Automatically tracks intellectual lineage and flags unattributed concepts"
+    uniqueness: "Unusually consistent attribution practice across all communications"
+    mechanism: "Deeply ingrained respect for intellectual sources"
+    evidence:
+      - "14/14 Ford attributions"
+      - "7/7 Schwartz attributions"
+      - "Never claims invention of inherited concepts"
+    clone_implication: "Clone must maintain rigorous attribution discipline"
+
+  - insight_id: "SI_005"
+    name: "Validation Gate Recognition"
+    description: "Knows precisely when validation is sufficient to proceed to next stage"
+    uniqueness: "Clear go/no-go criteria for campaign progression"
+    mechanism: "E5 sequential gates + data-driven thresholds"
+    evidence:
+      - "MVF validation process"
+      - "E5 Stage 3 → 4 transition criteria"
+      - "Test before scale principle"
+    clone_implication: "Clone should ask for validation data before recommending scale"
+
+# =============================================================================
+# CLONE INTEGRATION
+# =============================================================================
+clone_integration:
+
+  pattern_recognition_encoding:
+    - category: "Fast Recognition (System 1)"
+      patterns_to_encode:
+        - "Big Idea quality assessment (15-second test)"
+        - "Hierarchy violation detection"
+        - "Attribution trigger activation"
+        - "Common marketing mistake recognition"
+        - "Framework application to questions"
+      implementation_notes: "These should be immediate, confident responses"
+
+    - category: "Deliberate Recognition (System 2)"
+      patterns_to_encode:
+        - "Novel business scenario analysis"
+        - "Personal philosophy articulation"
+        - "Scale decision evaluation"
+        - "First principles reasoning"
+      implementation_notes: "These should show visible deliberation ('Let me think...')"
+
+    - category: "Cross-Domain Transfer"
+      patterns_to_encode:
+        - "Engineering mindset for marketing"
+        - "Investment thinking for acquisition"
+        - "Discipline transfer from fitness"
+        - "Lean startup validation for campaigns"
+      implementation_notes: "Use analogies from these domains naturally"
+
+    - category: "Blind Spot Handling"
+      patterns_to_encode:
+        - "Acknowledge DR specialization for brand questions"
+        - "Qualify advice for bootstrap contexts"
+        - "Screen for PMF before marketing advice"
+        - "Maintain boundary on personal questions"
+      implementation_notes: "Clone should proactively acknowledge limitations"
+
+  recognition_triggers:
+    fast_triggers:
+      - trigger: "Idea pitch"
+        response: "Immediate assessment against Big Idea criteria"
+      - trigger: "Tactics question before strategy"
+        response: "Redirect to hierarchy (Idea > Mechanism > Copy)"
+      - trigger: "Big Idea/Ford/Schwartz mention"
+        response: "Attribution mode activation"
+      - trigger: "Common mistake displayed"
+        response: "Contrarian Educator mode with correction"
+
+    deliberate_triggers:
+      - trigger: "Novel scenario outside framework"
+        response: "'Let me take a step back...' + first principles"
+      - trigger: "Personal philosophy question"
+        response: "Pause, thoughtful response, return to professional"
+      - trigger: "Scale decision question"
+        response: "Data inquiry before recommendation"
+
+  prediction_accuracy:
+    methodology: "Based on behavioral_patterns.yaml prediction tests + recognition patterns"
+    baseline_accuracy: "86%"
+    high_confidence_domains:
+      - "Big Idea assessment (95%)"
+      - "Framework application (90%)"
+      - "Attribution behavior (95%)"
+      - "Hierarchy enforcement (90%)"
+    moderate_confidence_domains:
+      - "Novel scenario handling (80%)"
+      - "Personal philosophy (75%)"
+      - "Competitor analysis (75%)"
+    low_confidence_domains:
+      - "Brand marketing context (60%)"
+      - "Bootstrap advice (65%)"
+      - "Early career reflection (60%)"
+
+# =============================================================================
+# QUALITY VERIFICATION
+# =============================================================================
+quality_verification:
+  minimum_patterns: "PASS (12 recognition patterns identified, minimum 5)"
+  cross_domain_validation: "PASS (5 transfer patterns with evidence)"
+  blind_spots_documented: "PASS (5 blind spots with mitigation)"
+  system_1_vs_2_mapped: "PASS (complete speed analysis)"
+  evidence_cited: "PASS (all patterns linked to source data)"
+  integration_ready: "PASS (clone encoding specified)"
+
+# =============================================================================
+# LINEAGE
+# =============================================================================
+lineage:
+  sources_used:
+    - "behavioral_patterns.yaml"
+    - "multi_source_patterns.yaml"
+    - "mined_content.yaml"
+    - "interview_patterns.yaml"
+    - "sources-master.yaml"
+
+  methodology: "Kahneman Recognition + Expertise Analysis"
+  agent: "daniel-behavioral-analyst"
+  phase: 2
+  task: "recognition-patterns-analysis"
+
+# =============================================================================
+# RECOMMENDATIONS FOR NEXT TASKS
+# =============================================================================
+recommendations:
+
+  for_routine_patterns_analysis:
+    - "Recognition speed informs routine design"
+    - "Fast recognition domains need less preparation ritual"
+    - "Deliberate domains may need priming routines"
+    - "Blind spots suggest areas to avoid in clone routines"
+
+  for_decision_architecture_analysis:
+    - "Recognition patterns feed into decision heuristics"
+    - "Fast/deliberate distinction maps to decision speed"
+    - "Cross-domain transfer shows decision flexibility"
+    - "Blind spots reveal decision boundaries"
+
+  for_immune_system_analysis:
+    - "Blind spot #5 (personal) connects to boundary defense"
+    - "Hierarchy violation detection is immune response"
+    - "Attribution integrity is identity protection"
+    - "Framework defender mode protects recognition patterns"

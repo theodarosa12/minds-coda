@@ -1,0 +1,520 @@
+{
+  "profile": {
+    "id": "naval_ravikant",
+    "name": "Naval Ravikant",
+    "disc": {
+      "D": 85,
+      "I": 55,
+      "S": 25,
+      "C": 65,
+      "pattern": "DI/DC",
+      "pattern_name": "Desenvolvedor Criativo",
+      "natural_profile": "D alto/I médio/S baixo/C médio-alto",
+      "adapted_profile": "D alto/I aumentado/S baixo/C médio",
+      "stress_profile": "D máximo/I mínimo/S mínimo/C alto",
+      "specific_behaviors": [
+        "Sai imediatamente de situações que considera perda de tempo",
+        "Cria negócios em 3 meses do conceito ao lançamento",
+        "Toma decisões rápidas baseadas em primeiros princípios",
+        "Rejeita estruturas e horários tradicionais",
+        "Comunica verdades difíceis sem rodeios"
+      ]
+    },
+    "enneagram": {
+      "type": "5w4",
+      "type_name": "The Investigator with Individualist wing",
+      "core_fear": "Ser invadido ou mostrar-se incompetente",
+      "core_desire": "Compreender a realidade e ser auto-suficiente",
+      "development_level": "3 (saudável)",
+      "stress_direction": "7",
+      "stress_behaviors": [
+        "Escapismo através de múltiplos projetos",
+        "Dispersão mental e falta de foco",
+        "Busca por estímulos e novidades excessivas",
+        "Evitação de profundidade emocional"
+      ],
+      "growth_direction": "8",
+      "growth_behaviors": "Assertividade saudável, liderança natural, ação decisiva, proteção dos vulneráveis",
+      "instinct_stack": "SP/SX/SO",
+      "instinct_descriptions": {
+        "self_preservation": "Dominante - Foco obsessivo em saúde, independência financeira e autonomia pessoal",
+        "social": "Reprimido - Evita dinâmicas de grupo e status games conscientemente",
+        "sexual": "Secundário - Intensidade em interesses específicos e conexões one-on-one selecionadas"
+      },
+      "behavioral_evidence": [
+        "Passou anos estudando sozinho na biblioteca quando criança",
+        "Criou fortuna para garantir independência total",
+        "Pratica meditação diária de 60 minutos",
+        "Lê obsessivamente sobre tópicos de interesse",
+        "Rejeita hierarquias e busca apenas relações peer-to-peer",
+        "Desenvolveu filosofia própria (Rational Buddhism)",
+        "Compartilha conhecimento gratuitamente após sintetizá-lo"
+      ]
+    },
+    "mbti": {
+      "type": "INTJ",
+      "type_name": "The Architect",
+      "E_percentage": 35,
+      "N_percentage": 85,
+      "T_percentage": 80,
+      "J_percentage": 70,
+      "cognitive_stack": {
+        "dominant": {
+          "function": "Ni",
+          "name": "Intuição Introvertida",
+          "manifestations": [
+            "Síntese de conceitos complexos em tweets concisos",
+            "Visão de longo prazo sobre tecnologia e sociedade",
+            "Identificação de padrões não óbvios em sistemas",
+            "Criação do conceito 'Productize Yourself'",
+            "Previsão precisa sobre cryptocurrency e descentralização"
+          ]
+        },
+        "auxiliary": {
+          "function": "Te",
+          "name": "Pensamento Extrovertido",
+          "manifestations": [
+            "Execução eficiente de ideias complexas (AngelList)",
+            "Comunicação clara e estruturada de conceitos",
+            "Criação de sistemas escaláveis",
+            "Tomada de decisão rápida e lógica",
+            "Organização de conhecimento em frameworks acionáveis"
+          ]
+        },
+        "tertiary": {
+          "function": "Fi",
+          "name": "Sentimento Introvertido",
+          "manifestations": [
+            "Sistema de valores pessoais não-negociáveis",
+            "Busca por autenticidade e verdade pessoal",
+            "Desenvolvimento de filosofia de vida única"
+          ]
+        },
+        "inferior": {
+          "function": "Se",
+          "name": "Sensação Extrovertida",
+          "manifestations": [
+            "Negligência histórica do corpo físico",
+            "Desenvolvimento tardio de rotina de exercícios",
+            "Grip manifesto em escapismo sensorial quando estressado",
+            "Integração através de meditação e cold showers"
+          ]
+        }
+      }
+    },
+    "cognitive_stratum": {
+      "level": "VI-VII",
+      "level_name": "Corporate Strategic transitioning to Corporate Prescient",
+      "time_horizon": "10-50 anos",
+      "processing_type": "Systematic",
+      "transitioning_to": "Level VII - Corporate Prescient",
+      "evidence": [
+        "Criou AngelList - infraestrutura para toda indústria de venture capital",
+        "Pensamento em termos de impacto civilizacional",
+        "Visão de 20+ anos sobre futuro do trabalho e educação",
+        "Considera implicações de tecnologia em escala de gerações",
+        "Articula mudanças de paradigma antes que sejam visíveis"
+      ],
+      "temporal_horizons": {
+        "immediate": "Execução rápida mas considerada - 'impatience with actions'",
+        "short": "Ciclos de 3 meses para criar e lançar empresas",
+        "medium": "Investimentos com retorno esperado em 3-7 anos",
+        "long": "AngelList como infraestrutura de 10-20 anos",
+        "ultra_long": "Impacto de cryptocurrency e descentralização em 50+ anos"
+      },
+      "cognitive_capabilities": {
+        "serial_processing": false,
+        "parallel_processing": true,
+        "complexity_level": "Máxima",
+        "processing_type": "Systematic",
+        "symbolic_representation": "Opera em múltiplos níveis de abstração simultaneamente",
+        "domain_translation": "Conecta filosofia, economia, tecnologia, psicologia fluidamente"
+      }
+    },
+    "big_five": {
+      "openness": {
+        "total": 92,
+        "percentile": 98,
+        "facets": {
+          "imagination": 95,
+          "artistic_interest": 70,
+          "emotionality": 60,
+          "adventure": 85,
+          "intellect": 98,
+          "liberalism": 88
+        }
+      },
+      "conscientiousness": {
+        "total": 75,
+        "percentile": 80,
+        "facets": {
+          "self_efficacy": 90,
+          "order": 40,
+          "dutifulness": 60,
+          "achievement_striving": 95,
+          "self_discipline": 85,
+          "cautiousness": 50
+        }
+      },
+      "extraversion": {
+        "total": 35,
+        "percentile": 20,
+        "facets": {
+          "warmth": 40,
+          "gregariousness": 20,
+          "assertiveness": 85,
+          "activity_level": 70,
+          "excitement_seeking": 30,
+          "positive_emotions": 60
+        }
+      },
+      "agreeableness": {
+        "total": 45,
+        "percentile": 35,
+        "facets": {
+          "trust": 40,
+          "morality": 85,
+          "altruism": 50,
+          "cooperation": 35,
+          "modesty": 30,
+          "sympathy": 45
+        }
+      },
+      "neuroticism": {
+        "total": 25,
+        "percentile": 15,
+        "facets": {
+          "anxiety": 30,
+          "anger": 20,
+          "depression": 25,
+          "self_consciousness": 20,
+          "immoderation": 30,
+          "vulnerability": 25
+        }
+      }
+    },
+    "hexaco": {
+      "honesty_humility": {
+        "total": 70,
+        "percentile": 75,
+        "facets": {
+          "sincerity": 90,
+          "fairness": 85,
+          "greed_avoidance": 60,
+          "modesty": 45
+        }
+      }
+    },
+    "dark_triad": {
+      "narcissism": {
+        "score": 3.5,
+        "max_scale": 7,
+        "percentile": 55,
+        "evidence": [
+          "Autoconfiança elevada: 'I'm perfectly happy being me'",
+          "Mas reconhece limitações: 'I'm not going to be the most successful person on the planet'",
+          "Foco em auto-desenvolvimento sem grandiosidade patológica"
+        ]
+      },
+      "machiavellianism": {
+        "score": 4,
+        "max_scale": 7,
+        "percentile": 65,
+        "evidence": [
+          "Pensamento estratégico sofisticado em negócios",
+          "Mas preferência por transparência: 'Total honesty at all times'",
+          "Joga jogos de longo prazo com ética"
+        ]
+      },
+      "psychopathy": {
+        "score": 2,
+        "max_scale": 7,
+        "percentile": 20,
+        "evidence": [
+          "Baixa impulsividade - decisões muito calculadas",
+          "Alta preocupação com consequências de longo prazo",
+          "Valoriza relacionamentos duradouros e compound interest"
+        ]
+      }
+    },
+    "intelligence": {
+      "iq_estimated": {
+        "range": "130-145",
+        "methodologies": [
+          "Admissão em Stuyvesant High School (teste competitivo)",
+          "Graduação em Dartmouth (computer science + economics)",
+          "Capacidade de síntese cross-disciplinar demonstrada",
+          "Velocidade de aprendizado e aplicação documentada"
+        ],
+        "evidence": [
+          "Aprendeu programação e economia simultaneamente em Dartmouth",
+          "Criou múltiplas empresas de sucesso em domínios diferentes",
+          "Sintetiza filosofia, ciência e negócios em frameworks únicos",
+          "Capacidade de prever tendências tecnológicas com anos de antecedência"
+        ]
+      },
+      "eq_estimated": {
+        "total": 72,
+        "components": {
+          "self_awareness": 90,
+          "self_regulation": 85,
+          "motivation": 95,
+          "empathy": 60,
+          "social_skills": 65
+        }
+      },
+      "gardner_intelligences": {
+        "logical_mathematical": {
+          "level": "95º percentil",
+          "evidence": "Formação em computer science, compreensão profunda de economia e game theory"
+        },
+        "linguistic": {
+          "level": "90º percentil",
+          "evidence": "Capacidade de comunicar ideias complexas em tweets concisos e memoráveis"
+        },
+        "interpersonal": {
+          "level": "70º percentil",
+          "evidence": "Capability presente mas não exercida por escolha - 'antisocial introvert'"
+        },
+        "intrapersonal": {
+          "level": "95º percentil",
+          "evidence": "Auto-conhecimento profundo, meditação diária, filosofia pessoal desenvolvida"
+        },
+        "spatial_visual": {
+          "level": "75º percentil",
+          "evidence": "Visualiza sistemas complexos e suas interações"
+        },
+        "bodily_kinesthetic": {
+          "level": "60º percentil",
+          "evidence": "Desenvolvimento tardio, agora exercita diariamente"
+        },
+        "musical": {
+          "level": "Não observável",
+          "evidence": "Sem dados disponíveis"
+        },
+        "naturalist": {
+          "level": "70º percentil",
+          "evidence": "Compreensão de sistemas naturais e evolutivos"
+        },
+        "existential": {
+          "level": "90º percentil",
+          "evidence": "Questões profundas sobre significado, desenvolvimento de filosofia própria"
+        }
+      }
+    },
+    "additional_assessments": {
+      "grit_scale": {
+        "consistency_of_interests": 60,
+        "perseverance_of_effort": 90,
+        "total": 75,
+        "evidence": "Persiste em visões de longo prazo mas muda interesses específicos"
+      },
+      "need_for_cognition": {
+        "percentile": 99,
+        "evidence": "Leitura obsessiva, busca constante por compreensão, 'perpetual learner'"
+      },
+      "tolerance_for_ambiguity": {
+        "percentile": 85,
+        "evidence": "Confortável com incerteza, investe em fronteiras tecnológicas"
+      },
+      "locus_of_control": {
+        "type": "Interno",
+        "evidence": "Acredita em responsabilidade pessoal total: 'Save yourself'"
+      },
+      "attachment_style": {
+        "type": "Evitativo-Seguro",
+        "evidence": "Independente mas capaz de conexões profundas selecionadas"
+      }
+    },
+    "unique_characteristics": {
+      "superpower": [
+        "Síntese de complexidade em simplicidade",
+        "Visão de sistemas e infraestrutura futura",
+        "Capacidade de criar leverage através de código e capital"
+      ],
+      "kryptonite": [
+        "Impaciência com ineficiência e desperdício de tempo",
+        "Tendência ao isolamento intelectual",
+        "Dificuldade com aspectos políticos/sociais de organizações",
+        "Perfeccionismo que pode atrasar execução"
+      ],
+      "work_hours_per_day": "Varia - trabalha em bursts intensos quando inspirado",
+      "companies_founded": [
+        "Epinions",
+        "Vast.com",
+        "AngelList",
+        "Spearhead",
+        "MetaStable"
+      ],
+      "daily_routine": [
+        "Meditação de 60 minutos pela manhã",
+        "Exercício diário não-negociável",
+        "Leitura de 1-2 horas",
+        "Trabalho em bursts quando inspirado",
+        "Evita reuniões e calendários estruturados"
+      ],
+      "main_focus": "Criar sistemas de leverage que geram liberdade e impacto",
+      "statistical_rarity": "~0.1% população (INTJ 5w4 com sucesso empresarial e filosófico)",
+      "key_relationships": {
+        "spouse": "Esposa - relacionamento baseado em valores familiares compartilhados",
+        "children": "Um filho - mudou completamente suas prioridades",
+        "parents": "Mãe teve influência fundamental com amor incondicional",
+        "mentors": "Principalmente através de livros - Munger, Feynman, Krishnamurti",
+        "proteges": "Milhares através de conteúdo público",
+        "inner_circle": "Muito seletivo - apenas relações peer de longo prazo",
+        "pattern": "Qualidade extrema sobre quantidade, apenas relações autênticas"
+      },
+      "philosophy": {
+        "core": "Rational Buddhism - reconciliação de ciência com sabedoria antiga",
+        "framework": "Primeiros princípios + compound interest em todos os domínios",
+        "belief": "Happiness é uma escolha e habilidade que pode ser desenvolvida",
+        "method": "Experimentação pessoal e verificação de toda sabedoria",
+        "mantra": "Peace is happiness at rest, and happiness is peace in motion"
+      }
+    },
+    "behavioral_patterns": [],
+    "crisis_patterns": {
+      "stress_empresarial": [
+        "Aumenta isolamento e foco analítico",
+        "Pode tornar-se excessivamente direto/brusco",
+        "Tendência a cortar perdas rapidamente",
+        "Busca solução através de leverage e sistemas"
+      ],
+      "stress_pessoal": [
+        "Retrai para meditação e reflexão",
+        "Aumenta leitura e busca por compreensão",
+        "Pode negligenciar necessidades físicas",
+        "Emerge com nova filosofia ou framework"
+      ]
+    },
+    "convergence_analysis": {
+      "powerful_alignments": [
+        "INTJ + Enea 5 + Alto Openness = Máquina de aprendizado e síntese",
+        "Alto D + Baixo S + Estrato VI = Criador serial de sistemas",
+        "Ni-dom + 5w4 + Rational Buddhism = Filósofo-empresário único"
+      ],
+      "productive_tensions": [
+        "Desejo de impacto (D alto) vs necessidade de solidão (Enea 5)",
+        "Visão de longo prazo (Ni) vs impaciência com execução (D alto)"
+      ],
+      "compound_limitations": [
+        "Baixo S + Enea 5 + Introversão = Dificuldade com aspectos humanos de escala",
+        "Alto padrão + Perfeccionismo 5 + INTJ = Pode paralisar execução"
+      ]
+    },
+    "predictions": {
+      "high_probability": [
+        "Continuará criando empresas/projetos a cada 3-5 anos",
+        "Expandirá foco em educação e disseminação de sabedoria",
+        "Aprofundará práticas meditativas e espirituais",
+        "Reduzirá ainda mais compromissos sociais não-essenciais",
+        "Criará mais conteúdo sobre filosofia de vida"
+      ],
+      "behavioral_manifestations": [
+        "Tweets cada vez mais filosóficos e menos sobre negócios",
+        "Investimentos em empresas alinhadas com valores pessoais",
+        "Maior seletividade em com quem interage"
+      ],
+      "optimal_scenarios": [
+        "Criar sistemas autônomos que geram impacto sem sua presença",
+        "Resolver problemas de coordenação humana em escala global"
+      ],
+      "worst_scenarios": [
+        "Gestão operacional diária de grandes equipes",
+        "Ambientes com alta política e baixa meritocracia"
+      ]
+    },
+    "comparative_analysis": {
+      "vs_same_mbti": {
+        "elon_musk": "Ambos INTJ visionários, mas Naval mais filosófico, Elon mais hands-on",
+        "mark_zuckerberg": "Zuck mais focado em execução e escala, Naval em sistemas e liberdade",
+        "peter_thiel": "Similaridades fortes, mas Thiel mais maquiavélico, Naval mais transparente"
+      },
+      "vs_same_enneagram": {
+        "bill_gates": "Gates 5w6 mais sistemático, Naval 5w4 mais criativo/filosófico",
+        "warren_buffett": "Buffett 5w6 mais tradicional, Naval busca disrupção",
+        "larry_page": "Ambos 5s tech, mas Page mais focado em uma empresa"
+      }
+    },
+    "interaction_guide": {
+      "communication_style": {
+        "optimal": "Direto, focado em ideias, respeitando seu tempo, comunicação assíncrona quando possível",
+        "avoid": "Small talk, reuniões desnecessárias, hierarquia, apelos emocionais",
+        "triggers": "Positivo: ideias originais, eficiência. Negativo: desperdício de tempo, status games"
+      },
+      "management": {
+        "if_managing_them": "Impossível - ele não aceita hierarquia, apenas parcerias peer",
+        "if_they_manage_you": "Espere autonomia máxima, feedback direto, foco em resultados",
+        "as_peer": "Melhor configuração - troca de ideias, respeito mútuo, projetos específicos"
+      },
+      "team_dynamics": {
+        "ideal_team_size": "2-4 pessoas máximo, preferencialmente remoto/assíncrono",
+        "complementary_profiles": "Executores práticos, pessoas com alto S para continuidade",
+        "conflicting_profiles": "Políticos corporativos, pessoas focadas em status"
+      }
+    },
+    "development_roadmap": {
+      "immediate_priorities": [
+        "Continuar integração de práticas físicas/corporais",
+        "Balancear necessidade de solidão com impacto desejado"
+      ],
+      "medium_term_goals": [
+        "Desenvolver sistemas ainda mais autônomos",
+        "Expandir alcance educacional sem sacrificar profundidade"
+      ],
+      "long_term_potential": [
+        "Criar instituições duradouras além de empresas",
+        "Influenciar direção civilizacional através de ideias"
+      ],
+      "recommended_practices": [
+        "Manter routine de meditação e exercício",
+        "Continuar experimentação com filosofias antigas",
+        "Delegar ainda mais aspectos operacionais"
+      ]
+    },
+    "data_sources": {
+      "primary": [
+        "The Almanack of Naval Ravikant - compilação de 10+ anos de conteúdo",
+        "Podcasts: Tim Ferriss Show (múltiplos episódios)",
+        "Podcast: Joe Rogan Experience #1309",
+        "Twitter: Anos de tweets e tweetstorms",
+        "Periscope: Múltiplas sessões ao vivo",
+        "Essays em Naval.blog e startupboy.com",
+        "Entrevistas em Farnam Street com Shane Parrish",
+        "Venture Hacks blog posts",
+        "AngelList desenvolvimento e evolução",
+        "Citações de colegas e parceiros de negócio"
+      ],
+      "confidence_levels": {
+        "high": "Traços cognitivos, filosofia, valores, padrões de trabalho",
+        "medium": "Dinâmicas familiares específicas, alguns aspectos emocionais",
+        "low": "Infância detalhada, relacionamentos íntimos",
+        "speculative": "Progressão futura exata, motivações inconscientes profundas"
+      }
+    }
+  },
+  "metadata": {
+    "schema_version": "1.0",
+    "original_file": "naval.json",
+    "normalized_at": "2025-12-12T19:28:32.067Z",
+    "analysis_date": "2024-12-17",
+    "analyzer": "Análise Psicométrica Profunda - Naval Ravikant",
+    "version": "1.0",
+    "confidence": null,
+    "special_notes": "Perfil único de filósofo-empresário-investidor com rara combinação de sucesso material e desenvolvimento espiritual. Representa arquétipo emergente do 'sovereign individual' na era da informação.",
+    "disclaimer": "Análise baseada em persona pública documentada, comportamento privado pode diferir significativamente. Não constitui avaliação clínica ou diagnóstico psicológico.",
+    "assessment_scales": {
+      "disc": "0-100",
+      "enneagram": "Tipos 1-9, níveis 1-9",
+      "mbti": "16 tipos, percentagens 0-100",
+      "cognitive_stratum": "Níveis I-VIII (Elliott Jaques)",
+      "big_five": "0-100 por traço e faceta",
+      "hexaco": "0-100 por dimensão",
+      "dark_triad": "1-7 por traço",
+      "iq": "Estimativa baseada em evidências, não teste formal",
+      "eq": "0-100 estimado"
+    },
+    "data_sources": [],
+    "limitations": []
+  }
+}

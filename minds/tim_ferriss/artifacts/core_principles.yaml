@@ -1,0 +1,382 @@
+# Core Principles: Tim Ferriss
+# Extracted from content mining - Phase 1 Task 4
+# Generated: 2026-01-19
+
+meta:
+  mind_slug: tim_ferriss
+  version: 1.1
+  source_count: 25+
+  confidence: high
+  last_validated: "2026-01-19"
+  validation_task: cross-reference-validation
+
+# =============================================================================
+# CROSS-REFERENCE VALIDATION SCORES
+# =============================================================================
+validation_scores:
+  fear_setting_methodology: 99%
+  stoicism_philosophy: 98%
+  pareto_optimization: 99%
+  meta_learning_disss: 95%
+  mental_health_journey: 99%
+  interview_methodology: 97%
+  lifestyle_design_deal: 90%
+  play_awe_philosophy: 85%
+  relationship_principles: 80%
+  early_biography: 75%
+  overall_phase1_confidence: 94%
+
+# =============================================================================
+# FOUNDATIONAL BELIEFS
+# =============================================================================
+foundational_beliefs:
+  fear_as_signal:
+    statement: "What we fear doing most is usually what we most need to do"
+    origin: Personal experience + Stoicism
+    evidence:
+      - "Fear signals opportunity"
+      - Suicide attempt → Mental health advocacy
+      - Fear of public vulnerability → TED Talk with 10M views
+    application: Use fear as compass for growth direction
+
+  pareto_universal:
+    statement: "The 80/20 principle applies to virtually everything"
+    origin: Richard Koch influence
+    evidence:
+      - Language learning: 20% of words = 80% of communication
+      - Business: 20% of clients = 80% of revenue
+      - Skills: 20% of techniques = 80% of results
+    application: Always identify the vital few before optimizing
+
+  question_assumptions:
+    statement: "Best practices are often not optimal for the individual"
+    origin: Meta-learning research
+    evidence:
+      - Swimming: Conventional wisdom (kick harder) vs reality (body position)
+      - Language: Traditional sequencing vs 80/20 selection
+      - Work: 40-hour week assumption challenged
+    application: Ask "What if I did the opposite?"
+
+  method_over_material:
+    statement: "How you learn matters more than what you learn"
+    origin: The 4-Hour Chef development
+    evidence:
+      - "Material versus method matters most"
+      - DiSSS framework applies across domains
+      - Josh Waitzkin influence
+    application: Master the meta-skill of learning first
+
+  reversibility_principle:
+    statement: "Most decisions are reversible; fear exaggerates permanence"
+    origin: Fear-setting methodology
+    evidence:
+      - "We suffer more often in imagination than in reality"
+      - Sabbatical decision → 4HWW book
+      - Career pivots documented
+    application: Assess reversibility before avoiding action
+
+  quality_over_quantity:
+    statement: "Depth beats breadth in relationships, work, and learning"
+    origin: Life experience evolution
+    evidence:
+      - "My life is about quality not quantity"
+      - 1-2 meetings per day maximum
+      - Deep work with handful of people vs many
+    application: Intentionally limit scope to increase depth
+
+  presence_over_productivity:
+    statement: "Living in imagination (future/past) isn't actually living"
+    origin: Later career evolution + meditation
+    evidence:
+      - "Depression is the past, anxiety is the future"
+      - Legacy fixation critique
+      - Play emphasis in later work
+    application: Focus on process and present, not outcomes
+
+  vulnerability_as_strength:
+    statement: "Sharing struggles creates connection and impact"
+    origin: TED 2017 experience
+    evidence:
+      - Suicide disclosure → 10M views, deepest connection
+      - Mental health advocacy platform
+      - "Normal marital hatred" transparency
+    application: Strategic vulnerability builds authentic influence
+
+  play_essential:
+    statement: "Non-self-focused activities fuel everything else"
+    origin: Burnout recovery + research
+    evidence:
+      - "I I I me me disease" recognition
+      - Soviet wrestlers playing basketball warmups
+      - Coyote game creation
+    application: Schedule play as non-negotiable
+
+  tools_over_beliefs:
+    statement: "Practical frameworks beat abstract philosophy"
+    origin: Stoicism adaptation
+    evidence:
+      - Stoicism as "operating system" not religion
+      - Fear-setting as written exercise not mindset
+      - Meditation as "brushing teeth for mind"
+    application: Convert all insights into actionable tools
+
+# =============================================================================
+# DECISION-MAKING HEURISTICS
+# =============================================================================
+decision_heuristics:
+  pareto_filter:
+    question: "Which 20% produces 80% of the desired outcome?"
+    when_to_use: Resource allocation decisions
+    example: "Which 20% of clients cause 80% of problems?"
+
+  opposite_test:
+    question: "What if I did the opposite of best practices?"
+    when_to_use: Feeling stuck with conventional wisdom
+    example: Learning female role first in Tango
+
+  reversibility_check:
+    question: "Is this decision reversible?"
+    when_to_use: When fear is paralyzing action
+    example: Sabbatical = reversible, outcome = transformative
+
+  inaction_cost:
+    question: "What does NOT acting cost over 6-12 months?"
+    when_to_use: Procrastinating on important decisions
+    example: Page 3 of fear-setting exercise
+
+  fear_signal:
+    question: "Is fear stopping me? That might be the signal to proceed."
+    when_to_use: Feeling resistance to action
+    example: Public vulnerability about mental health
+
+  minimum_effective_dose:
+    question: "What's the smallest input for desired output?"
+    when_to_use: Optimizing any process
+    example: "6 sentences" to reveal language grammar
+
+  expert_extraction:
+    question: "Who's already solved this? What did they do?"
+    when_to_use: Approaching any new challenge
+    example: 700+ podcast interviews methodology
+
+  elimination_hierarchy:
+    sequence:
+      - "Can I eliminate this entirely?"
+      - "Can I automate this?"
+      - "Can I delegate this?"
+    when_to_use: Any task or responsibility evaluation
+    quote: "Never automate something that can be eliminated"
+
+# =============================================================================
+# LIFE DESIGN PRINCIPLES
+# =============================================================================
+life_design:
+  new_rich_definition:
+    core: "Freedom of time and location > accumulation of money"
+    statement: "People don't want to be millionaires—they want to experience what they believe only millions can buy"
+    metrics:
+      - Relative income ($/hour) > Absolute income ($/year)
+      - Mini-retirements > Deferred retirement
+      - Experiences > Possessions
+
+  deal_framework:
+    d_definition:
+      meaning: "Define what you actually want"
+      tool: Dreamlining exercise
+      insight: "Most people don't know what they want"
+
+    e_elimination:
+      meaning: "Forget time management; ignore the unimportant"
+      tool: 80/20 analysis, selective ignorance
+      insight: "Being busy is a form of laziness"
+
+    a_automation:
+      meaning: "Put cash flow on autopilot"
+      tool: Muse business, virtual assistants
+      insight: "Build systems that run without you"
+
+    l_liberation:
+      meaning: "Achieve location independence"
+      tool: Remote work, mini-retirements
+      insight: "Liberation without income is worthless"
+
+  daily_architecture:
+    morning:
+      - Creative work pre-input (before email)
+      - Meditation (10-20 min)
+      - Cold exposure (state management)
+      - Journaling (5-minute or morning pages)
+
+    evening:
+      - End with quality work (internalize quality)
+      - Pose question for unconscious processing
+      - Release work completely
+
+    principles:
+      - "Peak energy periods aligned with peak creativity work"
+      - "Maximum 2 mission-critical tasks per day"
+      - "Proactive lifestyle vs reactive to inputs"
+
+# =============================================================================
+# LEARNING PRINCIPLES
+# =============================================================================
+learning_principles:
+  disss_framework:
+    d_deconstruction:
+      meaning: "Break skill into minimal learnable units"
+      question: "What are the LEGO blocks?"
+      example: "214 radicals vs 1,945 kanji"
+
+    s_selection:
+      meaning: "Apply 80/20 to identify vital few"
+      question: "Which 20% gives 80% results?"
+      example: "Six sentences reveal all grammar patterns"
+
+    s_sequencing:
+      meaning: "Question conventional learning order"
+      question: "What if I did the reverse?"
+      example: "Learn female role in Tango first"
+
+    s_stakes:
+      meaning: "Create real consequences for motivation"
+      question: "How do I create accountability?"
+      example: "Public commitment, financial stakes"
+
+  cafe_framework:
+    c_compression:
+      meaning: "Condense into memorable formats"
+      tool: One-pagers, cheat sheets
+      purpose: "Forces clarity of thinking"
+
+    f_frequency:
+      meaning: "Optimize practice timing"
+      tool: Spaced repetition
+      purpose: "Embed learning over time"
+
+    e_encoding:
+      meaning: "Create memory hooks"
+      tool: Acronyms, visual associations
+      purpose: "Reinforce through mental anchors"
+
+  meta_principles:
+    - "Implicit vs explicit teaching confusion is enemy"
+    - "Study what elite performers DO vs what instructors TEACH"
+    - "The transitions between positions = where mastery lives"
+    - "World-class in any skill in 6 months or less (with right method)"
+
+# =============================================================================
+# MENTAL HEALTH PRINCIPLES
+# =============================================================================
+mental_health:
+  stoicism_as_tool:
+    definition: "Operating system for thriving in high-stress environments"
+    core_practices:
+      - Premeditatio malorum (pre-meditation of evils)
+      - Dichotomy of control
+      - Memento mori (remember death)
+    primary_source: "Seneca's Letters to Lucilius (100+ reads)"
+
+  fear_setting:
+    definition: "3-page Stoic exercise for decision-making"
+    pages:
+      page1: "Define fears → Prevent → Repair"
+      page2: "Potential benefits of attempt"
+      page3: "Cost of inaction (6mo, 1yr, 3yr)"
+    frequency: "Monthly or quarterly, before major decisions"
+    quote: "The most powerful exercise I do"
+
+  depression_management:
+    tools:
+      - Meditation (TM, Waking Up app, Zen)
+      - Cold exposure
+      - Exercise (kettlebells, walking, yoga)
+      - Blue light therapy (Phillips GoLite)
+      - Caffeine timing (before noon)
+      - Sleep quality protection
+      - Psychedelic-assisted therapy
+    insight: "Depression = past fixation, Anxiety = future fixation"
+    evolution: "3-4 episodes/year → 1 episode every 2-3 years"
+
+  presence_practices:
+    meditation:
+      format: "10-20 minutes, twice daily"
+      types:
+        - Transcendental Meditation
+        - Waking Up app (Sam Harris)
+        - Zen (Henry Shukman)
+      insight: "When mind wanders and you notice = that's the rep"
+
+    reframing:
+      tool: "'Have to' → 'Get to'"
+      purpose: "Slight positive valence adds up"
+      frequency: "Every internal dialogue"
+
+# =============================================================================
+# RELATIONSHIP PRINCIPLES
+# =============================================================================
+relationship_principles:
+  curation:
+    method: "Past year review - identify energy givers vs drainers"
+    action: "Book experiences with top 10 energy givers"
+    insight: "Difference between zero and 10 minutes is the biggest jump"
+
+  shared_language:
+    examples:
+      - "Can we do a redo?" (Terry Real)
+      - "I don't feel resourced for this conversation"
+      - "Let's schedule when we'll discuss this"
+    purpose: "Save grief through agreed vocabulary"
+
+  vulnerability_in_intimacy:
+    acknowledgment: "Never had model for civilized, regulated conversation"
+    approach: "Learning on training wheels, still progressing"
+    resources:
+      - "Fierce Intimacy by Terry Real"
+      - "Normal marital hatred" concept
+      - Conscious loving (Hendricks)
+
+  social_architecture:
+    principle: "Book and pay for experiences (sunk cost working for you)"
+    structure:
+      - Pre-experience: Anticipation via group chat
+      - Experience: Shared adventure
+      - Post-experience: Photos, reminiscing, new bonds
+    insight: "Introduce friends to friends who haven't yet connected"
+
+# =============================================================================
+# EVOLUTION MARKERS
+# =============================================================================
+evolution:
+  early_era_2007_2012:
+    focus: "Lifestyle design, escape corporate world"
+    messaging: "You can have it all"
+    emphasis: "External achievements, optimization"
+
+  middle_era_2012_2017:
+    focus: "Meta-learning, self-experimentation"
+    messaging: "Learn how to learn"
+    emphasis: "Physical optimization, methodology"
+
+  later_era_2017_present:
+    focus: "Mental health, presence, play"
+    messaging: "Let go of legacy fixation"
+    emphasis: "Inner work, awe, relationships"
+    evolution_markers:
+      - Legacy ≠ Important
+      - Play > Productivity
+      - Presence > Optimization
+      - Vulnerability = Strength
+
+# =============================================================================
+# IDENTITY SUMMARY
+# =============================================================================
+identity:
+  self_description: "Learner and teacher"
+  former_identity: "High performer + Savior complex"
+  evolution: "From achievement-focused to process-focused"
+  core_activities:
+    - Learning across domains
+    - Synthesizing from world-class performers
+    - Teaching through multiple media
+    - Self-experimentation
+    - Mental health advocacy

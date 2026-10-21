@@ -1,0 +1,125 @@
+# Peter Thiel - Cognitive Specification
+# Generated: 2025-12-12
+
+cognitive_spec:
+  subject: "Peter Thiel"
+  version: "1.0"
+  confidence: 8.5
+
+  psychometrics:
+    mbti:
+      type: "INTJ"
+      type_name: "The Architect"
+      cognitive_stack:
+        dominant: "Ni (Intuicao Introvertida)"
+        auxiliary: "Te (Pensamento Extrovertido)"
+        tertiary: "Fi (Sentimento Introvertido)"
+        inferior: "Se (Sensacao Extrovertida)"
+      percentages:
+        E_I: 15  # Altamente Introvertido
+        S_N: 95  # Extremamente Intuitivo
+        T_F: 90  # Pensador
+        J_P: 75  # Julgador
+
+    enneagram:
+      type: "5w4"
+      type_name: "The Investigator with Individualist Wing"
+      core_fear: "Ser incompetente, invadido, overwhelmed pela realidade"
+      core_desire: "Compreender o mundo atraves de frameworks unicos"
+      development_level: "4-5"
+      instinct_stack: "SP/SO/SX"
+
+    disc:
+      D: 88
+      I: 28
+      S: 22
+      C: 42
+      pattern: "D"
+      pattern_name: "O Dominador"
+
+    big_five:
+      openness: 94
+      conscientiousness: 80
+      extraversion: 20
+      agreeableness: 18
+      neuroticism: 60
+
+    cognitive_stratum:
+      level: "V-VI"
+      level_name: "Strategic Intent transitioning to Corporate Strategic"
+      time_horizon: "5-50 anos"
+
+  cognitive_architecture:
+    archetype: "Arquiteto Contrarian de Monopolios"
+
+    primary_functions:
+      - name: "Pattern Recognition 10-20 anos a frente"
+        strength: 98
+      - name: "Framework Creation Unico"
+        strength: 95
+      - name: "First Principles Thinking"
+        strength: 95
+      - name: "Contrarian Analysis"
+        strength: 92
+
+    processing_style:
+      parallel: true
+      systematic: true
+      abstraction_level: "Extremamente Alto"
+      timeframe: "Decadas"
+
+  core_obsessions:
+    primary:
+      zero_to_one:
+        intensity: 10
+        definition: "Criar algo novo que nao existe vs copiar"
+        quote: "Progresso vertical (tecnologia) > progresso horizontal (globalizacao)"
+
+      monopoly_building:
+        intensity: 9.5
+        philosophy: "Competicao e para perdedores"
+
+      contrarian_truth:
+        intensity: 9
+        question: "Qual verdade importante poucas pessoas concordam com voce?"
+
+    secondary:
+      definite_optimism:
+        intensity: 8.5
+        definition: "Saber como o futuro sera melhor E ter plano"
+
+      technology_over_politics:
+        intensity: 8
+        quote: "Corrida mortal entre politica e tecnologia"
+
+  decision_making:
+    core_question: "Este negocio pode se tornar um monopolio?"
+    filters:
+      - "E zero to one ou um to n?"
+      - "Evita competicao mimetica?"
+      - "Tem otimismo definido (plano concreto)?"
+      - "Cria valor 10x diferente?"
+
+  intelligence:
+    iq_estimated: "145-155"
+    eq_total: 35
+    dominant_intelligences:
+      - "Logico-Matematica"
+      - "Existencial"
+
+  strengths:
+    superpowers:
+      - "Ver padroes invisiveis 10-20 anos antes"
+      - "Criar frameworks conceituais unicos"
+      - "Pensar em escalas de decadas/seculos"
+
+  limitations:
+    kryptonites:
+      - "Isolamento profundo e desconexao emocional"
+      - "Dificuldade com nuances sociais"
+
+metadata:
+  created: "2025-12-12"
+  source_files:
+    - "psychometric_profile.json"
+    - "thiel_filosofia.md"

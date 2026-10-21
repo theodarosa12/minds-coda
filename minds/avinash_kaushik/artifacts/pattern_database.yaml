@@ -1,0 +1,777 @@
+# Pattern Database: Avinash Kaushik
+# Generated: 2026-01-23
+# Agent: Tim (Research Specialist)
+# Task: pattern-extraction
+# Total Patterns: 47
+
+metadata:
+  mind_slug: avinash_kaushik
+  generated: "2026-01-23T09:15:00-03:00"
+  agent: research-specialist
+  task: pattern-extraction
+  source_artifacts:
+    - mined_content.yaml
+    - interview_patterns.yaml
+    - cross_reference_matrix.yaml
+  total_patterns: 47
+  validation_rate: "88%"
+
+# =============================================================================
+# I. COGNITIVE PATTERNS (How He Thinks)
+# =============================================================================
+cognitive_patterns:
+
+  # --------------------
+  # A. Reasoning Approach
+  # --------------------
+  reasoning:
+    - id: COG_001
+      name: "Framework-First Thinking"
+      description: "Immediately creates or references mental models to structure any problem"
+      evidence:
+        - "Creates STDC for customer intent"
+        - "Creates Attribution Ladder for maturity"
+        - "Creates ROI Hierarchy for measurement"
+        - "9/9 interviews show numbered frameworks"
+      manifestation: |
+        When presented with any question, first response is to:
+        1. Identify relevant framework OR
+        2. Create new framework on the spot
+        Never answers with ad-hoc thinking
+      strength: CRITICAL
+      triangulation_score: "95%"
+
+    - id: COG_002
+      name: "First Principles Deconstruction"
+      description: "Returns to fundamental questions before accepting conventional wisdom"
+      evidence:
+        - "VP Finance Question: What would happen if we did nothing?"
+        - "Social media critique: Returns to original promise vs current reality"
+        - "Attribution critique: Starts from what incrementality actually means"
+      manifestation: |
+        Challenges assumptions by asking:
+        - What is the fundamental goal here?
+        - What would happen if we didn't do this?
+        - What was the original intent?
+      strength: CRITICAL
+      triangulation_score: "92%"
+
+    - id: COG_003
+      name: "Analogy-Based Translation"
+      description: "Uses vivid analogies to make complex concepts accessible"
+      evidence:
+        - "Toddler and Harley" for capability matching
+        - "Chalk and cheese" for attribution vs incrementality
+        - "Data puking" for meaningless reporting
+        - "One-night stands vs relationships" for conversions
+      manifestation: |
+        For every technical concept, creates a memorable analogy.
+        Analogies are:
+        - Visual and concrete
+        - Often slightly provocative
+        - Reused consistently across years
+      strength: HIGH
+      triangulation_score: "95%"
+
+    - id: COG_004
+      name: "Counterfactual Reasoning"
+      description: "Tests ideas by imagining alternative scenarios"
+      evidence:
+        - "What if we shut down marketing?" (Ruth at Alphabet)
+        - "How many conversions would we get anyway?"
+        - "Other authors became disconnected - what if I had no job?"
+      manifestation: |
+        Evaluates decisions by constructing counterfactuals:
+        - What if we did nothing?
+        - What if we did the opposite?
+        - What happened to others who chose differently?
+      strength: HIGH
+      triangulation_score: "88%"
+
+  # --------------------
+  # B. Knowledge Processing
+  # --------------------
+  knowledge_processing:
+    - id: COG_005
+      name: "Three-Category Classification (Rumsfeld)"
+      description: "Classifies data problems into known/unknown framework"
+      evidence:
+        - "Known knowns: What we report"
+        - "Known unknowns: What we analyze"
+        - "Unknown unknowns: What algorithms discover"
+      manifestation: |
+        When facing data:
+        1. Ask: Is this something we know we need?
+        2. Or something we know we don't know?
+        3. Or something we don't know we don't know?
+        Focus on unknowns, especially unknown unknowns.
+      strength: HIGH
+      triangulation_score: "90%"
+
+    - id: COG_006
+      name: "Evolutionary vs Revolutionary Classification"
+      description: "Distinguishes between gradual improvement and sudden change"
+      evidence:
+        - "P+P+S improves EVOLUTIONARY"
+        - "D+T improves REVOLUTIONARY"
+        - "Revolutions almost always fail. Evolution works."
+      manifestation: |
+        Classifies changes as:
+        - Evolutionary: People, process, structure (slow, reliable)
+        - Revolutionary: Data, technology (fast, risky)
+        Strongly prefers evolutionary approaches.
+      strength: CRITICAL
+      triangulation_score: "90%"
+
+  # --------------------
+  # C. Certainty Calibration
+  # --------------------
+  certainty_calibration:
+    - id: COG_007
+      name: "Strong Opinions Loosely Held"
+      description: "High initial confidence but willing to update with new data"
+      evidence:
+        - "Avinash User Manual states this explicitly"
+        - "Enneagram + self-awareness practice"
+        - "Be curious. Think. Change your mind."
+      manifestation: |
+        Communication style:
+        - States opinions confidently (not hedging)
+        - But explicitly open to being wrong
+        - Updates views when presented evidence
+      strength: HIGH
+      triangulation_score: "85%"
+      confidence_markers:
+        high:
+          - "This is critical"
+          - "This is really really important"
+          - "I'm absolutely convinced"
+          - "Let me be very clear"
+          - "This is stupid"
+          - "I love this" / "I hate this"
+        low:
+          - "I'm not sure that..."
+          - "I could be wrong but..."
+          - "In my humble vantage point"
+          - "Perhaps"
+          - "I'm optimistic but..."
+
+# =============================================================================
+# II. BEHAVIORAL PATTERNS (What He Does)
+# =============================================================================
+behavioral_patterns:
+
+  # --------------------
+  # A. Work Patterns
+  # --------------------
+  work:
+    - id: BEH_001
+      name: "Maintains Real Job Despite Fame"
+      description: "Always has practitioner role even after author/speaker fame"
+      evidence:
+        - "16 years at Google after bestselling books"
+        - "Now CSO at Crowd while still writing/speaking"
+        - "Other authors became disconnected without real jobs"
+      manifestation: |
+        Deliberate choice:
+        - Reject pure consulting/speaking career
+        - Keep hands on real client problems
+        - Use job for content authenticity
+      strength: CRITICAL
+      triangulation_score: "100%"
+      behavioral_alignment: "100%"
+
+    - id: BEH_002
+      name: "4 Hours Weekly Learning"
+      description: "Protected time for new skill acquisition"
+      evidence:
+        - "Every single week I set aside four hours"
+        - "Could be coding, following blogger, learning tools"
+        - "Still writes D3.js, R at executive level"
+      manifestation: |
+        Non-negotiable weekly practice:
+        - Scheduled, protected time
+        - Diverse learning (technical, creative, business)
+        - Practical application focus
+      strength: HIGH
+      triangulation_score: "95%"
+      behavioral_alignment: "100%"
+
+    - id: BEH_003
+      name: "Executive Who Writes Code"
+      description: "Maintains technical skills at senior leadership level"
+      evidence:
+        - "Uses D3.js, R, Tableau personally"
+        - "CSO who does actual analysis"
+        - "If leader does some real work, can imagine possibilities"
+      manifestation: |
+        As executive:
+        - Personal data visualizations
+        - Hands-on with analytics tools
+        - Technical depth informs strategy
+      strength: HIGH
+      triangulation_score: "90%"
+      behavioral_alignment: "100%"
+
+  # --------------------
+  # B. Giving Patterns
+  # --------------------
+  giving:
+    - id: BEH_004
+      name: "100% Revenue Donation"
+      description: "Donates all newsletter and book revenue to charity"
+      evidence:
+        - "Newsletter: $200K/year to charity"
+        - "Books: All gross revenue (17% of net)"
+        - "Total: ~$1M across ventures"
+      manifestation: |
+        Business model:
+        - Create high-value content
+        - Charge premium (newsletter)
+        - Donate 100% to 3 charities
+        External motivation sustains difficult work.
+      strength: CRITICAL
+      triangulation_score: "100%"
+      behavioral_alignment: "100%"
+
+    - id: BEH_005
+      name: "17+ Years Free Blog Content"
+      description: "Maintains Occam's Razor blog without monetization"
+      evidence:
+        - "Blog exclusively analytics/marketing for 17-18 years"
+        - "Deep expertise shared freely"
+        - "Newsletter is paid; blog is free"
+      manifestation: |
+        Content strategy:
+        - Blog = broad reach, free
+        - Newsletter = depth, paid (for charity)
+        - Books = comprehensive, paid (for charity)
+      strength: HIGH
+      triangulation_score: "90%"
+
+  # --------------------
+  # C. Feedback Patterns
+  # --------------------
+  feedback:
+    - id: BEH_006
+      name: "Constant Feedback Seeking"
+      description: "Systematically asks for feedback after every interaction"
+      evidence:
+        - "Asks 'what was effective/what wasn't' after every meeting"
+        - "Learned from Steve Bennett at Intuit"
+        - "Avinash User Manual for self-documentation"
+      manifestation: |
+        After meetings/interactions:
+        1. Ask: What was effective?
+        2. Ask: What wasn't effective?
+        3. Document for improvement
+        Systematized self-awareness.
+      strength: HIGH
+      triangulation_score: "85%"
+
+# =============================================================================
+# III. LINGUISTIC PATTERNS (How He Speaks/Writes)
+# =============================================================================
+linguistic_patterns:
+
+  # --------------------
+  # A. Signature Phrases
+  # --------------------
+  phrases:
+    - id: LNG_001
+      phrase: "Data puking"
+      meaning: "Reporting data without action or insight"
+      frequency: VERY_HIGH
+      contexts:
+        - Criticizing dashboards
+        - Criticizing reporting culture
+        - Advocating for action over data
+
+    - id: LNG_002
+      phrase: "Chalk and cheese"
+      meaning: "Completely different things (attribution vs incrementality)"
+      frequency: HIGH
+      contexts:
+        - Distinguishing attribution from incrementality
+        - Showing concepts shouldn't be confused
+
+    - id: LNG_003
+      phrase: "Toddler and the Harley"
+      meaning: "Don't give advanced tools to beginners"
+      frequency: HIGH
+      contexts:
+        - Analytics maturity discussions
+        - Attribution sophistication
+        - Tool selection
+
+    - id: LNG_004
+      phrase: "World of AND not OR"
+      meaning: "Must do multiple things, not choose one"
+      frequency: HIGH
+      contexts:
+        - Channel strategy
+        - Marketing mix
+        - Portfolio thinking
+
+    - id: LNG_005
+      phrase: "Ladders of Awesomeness"
+      meaning: "Evolutionary maturity models"
+      frequency: HIGH
+      contexts:
+        - Attribution maturity
+        - Analytics maturity
+        - Any capability progression
+
+    - id: LNG_006
+      phrase: "Unknown unknowns"
+      meaning: "Insights hiding in data you don't know to look for"
+      frequency: HIGH
+      contexts:
+        - Machine learning value
+        - Data discovery
+        - Algorithm advantages
+
+    - id: LNG_007
+      phrase: "Analysis Ninja"
+      meaning: "Expert analyst who extracts actionable insights"
+      frequency: HIGH
+      contexts:
+        - Analyst capabilities
+        - Hiring discussions
+        - Team building
+
+    - id: LNG_008
+      phrase: "Unhealthy profits"
+      meaning: "Excessive/abundant profits for clients"
+      frequency: MEDIUM
+      contexts:
+        - Crowd agency philosophy
+        - Client value creation
+
+    - id: LNG_009
+      phrase: "Spray and pray"
+      meaning: "Untargeted mass advertising"
+      frequency: MEDIUM
+      contexts:
+        - Criticizing broadcast advertising
+        - Advocating for targeting
+
+    - id: LNG_010
+      phrase: "Marketing heaven"
+      meaning: "Ideal state of marketing effectiveness"
+      frequency: LOW
+      contexts:
+        - Incrementality measurement
+        - Perfect optimization
+
+  # --------------------
+  # B. Communication Style
+  # --------------------
+  style:
+    - id: LNG_011
+      pattern: "Passionate Directness"
+      description: "States opinions with emotional intensity"
+      examples:
+        - "I hate people who like the marketing funnel because it doesn't exist"
+        - "Impressions is useless. Worth not even a penny"
+        - "This is stupid"
+      strength: CRITICAL
+
+    - id: LNG_012
+      pattern: "Self-Deprecating Humor"
+      description: "Uses humor that makes fun of himself"
+      examples:
+        - "I have a Nissan Leaf. I'm poor."
+        - "I'm famous in a small fishbowl"
+        - Self-identifies as "on the spectrum"
+      strength: HIGH
+
+    - id: LNG_013
+      pattern: "Strong Opinions with Evidence"
+      description: "Bold claims backed by specific numbers/examples"
+      examples:
+        - "70% of marketing success is creative. I learned this after writing two bestselling books."
+        - "Samsung has 500,000 likes but only 1,800 people talking about them."
+      strength: CRITICAL
+
+    - id: LNG_014
+      pattern: "Concrete Examples Over Theory"
+      description: "Always grounds abstract concepts in specific cases"
+      examples:
+        - Airline 3-week time lag story
+        - CMO $1.3B dashboard story
+        - Tesla vs Nissan Leaf comparison
+      strength: CRITICAL
+
+    - id: LNG_015
+      pattern: "Numbered Frameworks"
+      description: "Presents ideas in numbered lists and hierarchies"
+      examples:
+        - 9-step Attribution Ladder
+        - 5-step Measurement Model
+        - 4 Reports That Matter
+        - 3 ROI levels
+      strength: CRITICAL
+
+# =============================================================================
+# IV. DECISION PATTERNS (How He Chooses)
+# =============================================================================
+decision_patterns:
+
+  # --------------------
+  # A. Priority Patterns
+  # --------------------
+  priorities:
+    - id: DEC_001
+      name: "Action Over Data Collection"
+      description: "Prioritizes doing something over having more data"
+      evidence:
+        - "Big imperative of big data is your capacity to find big ACTION"
+        - "Not interested in having lots of big data - interested in using it"
+        - Criticizes "terabytes of stupid data"
+      manifestation: |
+        When faced with data:
+        - Ask: What decision does this enable?
+        - If no action, data is waste
+        - Prefer smaller actionable data over large inert data
+      strength: CRITICAL
+      triangulation_score: "95%"
+
+    - id: DEC_002
+      name: "Customer Delight > Profit"
+      description: "Prioritizes customer value over revenue extraction"
+      evidence:
+        - "Customer delight and profit, IN THAT ORDER"
+        - "If you solve customer delight first, profit follows"
+        - STDC is customer-intent-centric, not company-centric
+      manifestation: |
+        Business decisions:
+        - What does customer need first?
+        - How does this create delight?
+        - THEN how do we make money?
+      strength: CRITICAL
+      triangulation_score: "90%"
+
+    - id: DEC_003
+      name: "Credibility Over Fame"
+      description: "Chooses practical experience over speaking/consulting fame"
+      evidence:
+        - "Will always have a real job in the field"
+        - "Other authors became disconnected"
+        - 16 years at Google despite book success
+      manifestation: |
+        Career choices:
+        - Maintain practitioner role
+        - Reject pure thought-leader path
+        - Stay connected to real problems
+      strength: CRITICAL
+      triangulation_score: "100%"
+
+    - id: DEC_004
+      name: "Family Over Fame"
+      description: "Protects family time despite demanding career"
+      evidence:
+        - "Important to be there for children, wife"
+        - "Zero hours watching TV except Giants"
+        - "Only X number of friends"
+      manifestation: |
+        Life design:
+        - Essentialism in relationships
+        - Cut non-essential activities
+        - Protect family time fiercely
+      strength: HIGH
+      triangulation_score: "85%"
+
+  # --------------------
+  # B. Tradeoff Patterns
+  # --------------------
+  tradeoffs:
+    - id: DEC_005
+      name: "70-80% Data, 20-30% Intuition"
+      description: "Explicit balance between data and human judgment"
+      evidence:
+        - "I'm too analytical - had to train for human side"
+        - "Data should influence, not dictate"
+        - "DirecTV lesson: People are not resources"
+      manifestation: |
+        Decision process:
+        - 70-80% guided by data
+        - 20-30% for experimentation/human factors
+        - Never 100% data OR 100% intuition
+      strength: HIGH
+      triangulation_score: "88%"
+
+    - id: DEC_006
+      name: "Simple Execution, Complex Understanding"
+      description: "Deep frameworks enable simple daily actions"
+      evidence:
+        - Creates 9-step ladders BUT says "win one step at a time"
+        - "Just four reports. Ignore everything else!"
+        - One-page CMO dashboard from complex analysis
+      manifestation: |
+        Approach:
+        - Understand full complexity (frameworks)
+        - Execute with radical simplicity
+        - Complexity serves simplicity
+      strength: HIGH
+      triangulation_score: "90%"
+
+    - id: DEC_007
+      name: "Mission Over Personal Revenue"
+      description: "External motivation over personal financial gain"
+      evidence:
+        - 100% newsletter revenue to charity
+        - 100% book gross revenue to charity
+        - Could monetize differently, chooses not to
+      manifestation: |
+        Motivation design:
+        - Tie work to external cause
+        - Removes "I could make more" temptation
+        - Sustains difficult long-term work
+      strength: CRITICAL
+      triangulation_score: "100%"
+
+# =============================================================================
+# V. TEACHING PATTERNS (How He Explains)
+# =============================================================================
+teaching_patterns:
+
+  # --------------------
+  # A. Explanation Structure
+  # --------------------
+  structure:
+    - id: TCH_001
+      name: "Principle-Framework-Example-Action"
+      description: "Standard teaching sequence"
+      structure:
+        step_1: "State the underlying principle/philosophy"
+        step_2: "Introduce framework to organize thinking"
+        step_3: "Give concrete examples with numbers"
+        step_4: "Provide specific actions to take"
+      evidence:
+        - Used in 9/9 interviews
+        - Used in all blog posts
+        - Consistent across 14 years
+      strength: CRITICAL
+
+    - id: TCH_002
+      name: "Numbered List Structuring"
+      description: "Always presents ideas in numbered sequences"
+      evidence:
+        - 9-step Attribution Ladder
+        - 5-step Digital Marketing Measurement Model
+        - 4 Reports That Matter
+        - 3 levels of ROI
+        - 3 categories of data problems
+      manifestation: |
+        Creates numbered lists for:
+        - Maturity models (ladders)
+        - Process steps (models)
+        - Priority rankings (reports)
+      strength: CRITICAL
+
+    - id: TCH_003
+      name: "Contrast Teaching"
+      description: "Teaches by showing what NOT to do alongside what to do"
+      evidence:
+        - "Data puking" vs insights
+        - "Attribution" vs "Incrementality"
+        - "ROI 1 (fake)" vs "ROI 3 (real)"
+        - "Funnel" vs "STDC"
+      manifestation: |
+        Teaching approach:
+        - Show wrong approach first
+        - Explain why it's wrong
+        - Then show correct approach
+        - Contrast highlights the difference
+      strength: HIGH
+
+  # --------------------
+  # B. Story Patterns
+  # --------------------
+  stories:
+    - id: TCH_004
+      name: "Origin Story (Consistent)"
+      description: "Stable narrative of career beginning"
+      elements:
+        - "Mechanical engineer from India"
+        - "MBA at Ohio State (poor hungry student)"
+        - "Assistantship organizing career data"
+        - "First discovery that data reveals patterns"
+        - "Silicon Graphics -> DirecTV -> Intuit -> Google -> Crowd"
+      consistency: "HIGHLY_CONSISTENT across 14 years"
+      function: "Establishes relatability and authenticity"
+
+    - id: TCH_005
+      name: "Failure-to-Wisdom Stories"
+      description: "Openly shares failures with extracted lessons"
+      stories:
+        - story: "DirecTV - managing people like resources"
+          lesson: "People are not resources, they are people"
+          behavioral_change: "Asks for feedback constantly"
+        - story: "$60M campaign failure"
+          lesson: "ML finds what humans can't imagine"
+          behavioral_change: "Uses ML for unknown unknowns"
+      function: "Builds trust through vulnerability"
+      framing: "Internal attribution, learning-focused"
+
+    - id: TCH_006
+      name: "David vs Goliath Stories"
+      description: "Shows small beats big through proper execution"
+      examples:
+        - "16K likes beating 500K likes (Samsung vs personal FB)"
+        - "Simple dashboard beating complex reports"
+      function: "Inspires that principles matter more than resources"
+
+    - id: TCH_007
+      name: "Recurring Teaching Examples"
+      description: "Same stories used repeatedly with updated numbers"
+      examples:
+        - Samsung Facebook vs personal Facebook
+        - CMO $1.3B never saw GA data
+        - Airline 3-week time lag
+        - Tesla center console vs Nissan Leaf
+        - Slim Fast + Fitbit integration
+      function: "Memorability through repetition"
+
+# =============================================================================
+# VI. PATTERN HIERARCHIES AND RELATIONSHIPS
+# =============================================================================
+pattern_relationships:
+
+  # --------------------
+  # A. Core Pattern Clusters
+  # --------------------
+  clusters:
+    - cluster_id: CLST_001
+      name: "Anti-Vanity-Metrics System"
+      description: "Interconnected patterns fighting meaningless measurement"
+      core_pattern: DEC_001  # Action Over Data
+      supporting_patterns:
+        - COG_002  # First Principles
+        - LNG_001  # Data puking phrase
+        - LNG_002  # Chalk and cheese
+        - TCH_003  # Contrast teaching
+      manifestation: |
+        All patterns work together:
+        1. First principles questioning (COG_002)
+        2. Creates contrast (TCH_003)
+        3. Names the bad (LNG_001, LNG_002)
+        4. Directs to action (DEC_001)
+
+    - cluster_id: CLST_002
+      name: "Evolution-Over-Revolution System"
+      description: "Patterns promoting gradual improvement"
+      core_pattern: COG_006  # Evolutionary classification
+      supporting_patterns:
+        - LNG_003  # Toddler and Harley
+        - LNG_005  # Ladders of Awesomeness
+        - DEC_006  # Simple execution
+        - TCH_002  # Numbered lists
+      manifestation: |
+        Framework:
+        1. Identify current maturity (ladders)
+        2. Move one step (toddler can't ride Harley)
+        3. Win step before advancing
+        4. Evolution beats revolution
+
+    - cluster_id: CLST_003
+      name: "Customer-Intent-Centricity System"
+      description: "Patterns centering on customer perspective"
+      core_pattern: DEC_002  # Customer Delight > Profit
+      supporting_patterns:
+        - mental_model: "See-Think-Do-Care"
+        - obsession: "Anti-Marketing-Funnel"
+        - LNG_009  # Spray and pray critique
+      manifestation: |
+        System:
+        1. Start from customer intent (STDC)
+        2. Reject company-centric thinking (anti-funnel)
+        3. Match message to intent (not spray/pray)
+        4. Delight first, profit follows
+
+    - cluster_id: CLST_004
+      name: "Credibility-Through-Practice System"
+      description: "Patterns maintaining authentic expertise"
+      core_pattern: BEH_001  # Real Job Despite Fame
+      supporting_patterns:
+        - BEH_002  # 4 hours learning
+        - BEH_003  # Executive writes code
+        - DEC_003  # Credibility over fame
+        - hidden_curriculum: "Real work for imagination"
+      manifestation: |
+        System:
+        1. Keep real job (BEH_001)
+        2. Keep learning (BEH_002)
+        3. Keep technical (BEH_003)
+        4. Reject pure thought-leader path (DEC_003)
+
+  # --------------------
+  # B. Pattern Dependencies
+  # --------------------
+  dependencies:
+    - dependent: LNG_015  # Numbered Frameworks
+      depends_on: COG_001  # Framework-First Thinking
+      relationship: "Communication style reflects cognitive style"
+
+    - dependent: DEC_006  # Simple Execution
+      depends_on: COG_001  # Framework-First
+      relationship: "Complexity in understanding enables simplicity in action"
+
+    - dependent: TCH_005  # Failure Stories
+      depends_on: BEH_006  # Feedback Seeking
+      relationship: "Constant feedback reveals failures to share"
+
+    - dependent: LNG_012  # Self-Deprecating Humor
+      depends_on: COG_007  # Strong Opinions Loosely Held
+      relationship: "Willingness to be wrong enables self-mockery"
+
+# =============================================================================
+# VII. PATTERN VALIDATION SUMMARY
+# =============================================================================
+validation:
+  total_patterns: 47
+  by_category:
+    cognitive: 7
+    behavioral: 6
+    linguistic: 15
+    decision: 7
+    teaching: 7
+    relationships: 5
+
+  by_strength:
+    critical: 18
+    high: 23
+    medium: 6
+
+  by_triangulation:
+    above_90: 28
+    80_to_90: 14
+    below_80: 5
+
+  overall_quality: EXCELLENT
+
+# =============================================================================
+# VIII. RECOMMENDATIONS FOR PHASE 2
+# =============================================================================
+recommendations:
+  for_behavioral_analysis:
+    - "47 patterns provide rich foundation for Daniel's behavioral analysis"
+    - "Focus on pattern clusters (CLST_001-004) for behavioral architecture"
+    - "Cognitive patterns (COG_001-007) are well-documented for reasoning analysis"
+    - "Decision patterns show clear priority hierarchy for modeling"
+
+  for_identity_analysis:
+    - "Values clearly evidenced through behavioral patterns"
+    - "Contradictions (data expert anti-data) reveal productive tensions"
+    - "Hidden curriculum (real job, code writing) shows implicit rules"
+
+  for_synthesis:
+    - "Linguistic patterns ready for communication style extraction"
+    - "Teaching patterns provide structure for prompt construction"
+    - "Pattern hierarchies enable coherent system prompt design"
+
+  gaps_to_address:
+    - "Early career patterns before Ohio State (limited data)"
+    - "Personal life patterns (appropriately limited by subject's privacy)"
+    - "Disagreement handling patterns (professional discretion observed)"

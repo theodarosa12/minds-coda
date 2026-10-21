@@ -1,0 +1,443 @@
+# Expert Map: Avinash Kaushik's Domain
+# Generated: 2026-01-23
+# Agent: Tim (Research Specialist)
+# Task: expert-identification-analysis
+
+metadata:
+  domain: "Digital Analytics, Marketing Measurement, Data-Driven Decision Making"
+  mind_slug: avinash_kaushik
+  generated: "2026-01-23T03:30:00-03:00"
+  agent: "research-specialist"
+  task: "expert-identification-analysis"
+  methodology: "Ferriss Discovery Protocol"
+
+# =============================================================================
+# DOMAIN DECONSTRUCTION
+# =============================================================================
+domain_definition:
+  primary_domain: "Digital Analytics & Marketing Measurement"
+  sub_domains:
+    - "Web Analytics Implementation & Strategy"
+    - "Marketing Attribution & Incrementality"
+    - "Conversion Rate Optimization"
+    - "Customer Journey Analytics"
+    - "Data-Driven Marketing Strategy"
+    - "AI/ML in Marketing"
+
+  success_metrics:
+    - metric: "Industry influence (citations, speaking, thought leadership)"
+      benchmark: "Recognized by peers as authoritative voice"
+    - metric: "Published works (books, articles, frameworks)"
+      benchmark: "Original frameworks widely adopted"
+    - metric: "Practical impact (client transformations, ROI delivered)"
+      benchmark: "Measurable business outcomes"
+    - metric: "Teaching effectiveness (students who became experts)"
+      benchmark: "Lineage of successful practitioners"
+
+# =============================================================================
+# TIER 1 EXPERTS (World-Class, Verified, Primary Source Priority)
+# =============================================================================
+tier_1_experts:
+
+  - id: "exp_001"
+    name: "Jim Sterne"
+    expertise_type: "Pioneer"
+    tier: "TIER 1"
+    track_record_score: 10
+    skin_in_game: "HIGH"
+    circle_of_competence: "Web Analytics Industry Creation, Conference Organization, Standards"
+
+    key_contributions:
+      - "Founded Web Analytics Association (now Digital Analytics Association)"
+      - "Created eMetrics Summit (first web analytics conference, 2002)"
+      - "Authored 'Web Metrics: Proven Methods for Measuring Web Site Success' (2002)"
+      - "Pioneered web analytics industry standards and definitions"
+      - "Established professional community infrastructure"
+
+    best_sources:
+      - type: "book"
+        title: "Web Metrics: Proven Methods for Measuring Web Site Success"
+        year: 2002
+      - type: "conference"
+        title: "eMetrics Summit (ongoing since 2002)"
+      - type: "organization"
+        title: "Digital Analytics Association (co-founder)"
+
+    meta_learning_insights:
+      - "Community building creates industry momentum"
+      - "Standards enable professional credibility"
+      - "Conferences accelerate knowledge sharing"
+
+    lineage:
+      role: "Teacher/Pioneer"
+      students:
+        - "Eric Peterson"
+        - "Bryan Eisenberg"
+        - "Avinash Kaushik (indirect)"
+      influence_on_avinash: "Created the professional infrastructure (WAA, eMetrics) that enabled Avinash's rise"
+
+    relationship_to_avinash: "Industry godfather - created the ecosystem where Avinash operates"
+    credibility_notes: "Universally recognized as 'Godfather of Web Analytics'"
+
+  - id: "exp_002"
+    name: "Eric T. Peterson"
+    expertise_type: "Practitioner/Teacher"
+    tier: "TIER 1"
+    track_record_score: 9
+    skin_in_game: "HIGH"
+    circle_of_competence: "Web Analytics Strategy, KPI Development, Enterprise Consulting"
+
+    key_contributions:
+      - "Founded Analytics Demystified (2007)"
+      - "Authored 'Web Analytics Demystified' (foundational text)"
+      - "Authored 'The Big Book of Key Performance Indicators'"
+      - "Created 'The Analysis Exchange' (pro bono analytics training)"
+      - "Developed enterprise-grade analytics consulting methodologies"
+
+    best_sources:
+      - type: "book"
+        title: "Web Analytics Demystified"
+        year: 2004
+      - type: "book"
+        title: "The Big Book of Key Performance Indicators"
+        year: 2006
+      - type: "blog"
+        title: "Analytics Demystified Blog"
+        url: "https://analyticsdemystified.com"
+
+    meta_learning_insights:
+      - "Free knowledge distribution builds authority"
+      - "KPIs must be actionable, not just measurable"
+      - "Consulting methodology creates repeatable value"
+
+    lineage:
+      role: "Peer/Mentor"
+      teachers:
+        - "Jim Sterne"
+      students:
+        - "Multiple enterprise analytics teams"
+      influence_on_avinash: "Peer who validated Avinash's approach; mutual respect in the community"
+
+    relationship_to_avinash: "Peer pioneer - blazed trail that Avinash acknowledges following"
+    credibility_notes: "Avinash publicly stated 'We are all following the trail that Eric has blazed'"
+
+  - id: "exp_003"
+    name: "Bryan Eisenberg"
+    expertise_type: "Pioneer/Synthesizer"
+    tier: "TIER 1"
+    track_record_score: 9
+    skin_in_game: "HIGH"
+    circle_of_competence: "Conversion Optimization, Persuasion Architecture, Customer Psychology"
+
+    key_contributions:
+      - "Coined 'Conversion Rate Optimization' (CRO)"
+      - "Co-founded Web Analytics Association (with Jim Sterne, Andrew Edwards)"
+      - "Authored 'Call to Action' (NYT Bestseller)"
+      - "Authored 'Waiting for Your Cat to Bark?' (NYT Bestseller)"
+      - "Developed Persuasion Architecture framework"
+      - "Co-founded Future Now agency"
+
+    best_sources:
+      - type: "book"
+        title: "Call to Action"
+        year: 2005
+      - type: "book"
+        title: "Waiting for Your Cat to Bark?"
+        year: 2006
+      - type: "book"
+        title: "Always Be Testing"
+        year: 2008
+
+    meta_learning_insights:
+      - "Combine psychology with analytics for optimization"
+      - "Persuasion is architecture, not art"
+      - "Testing culture beats guessing"
+
+    lineage:
+      role: "Co-Founder/Pioneer"
+      collaborators:
+        - "Jeffrey Eisenberg (brother, co-author)"
+        - "Jim Sterne (WAA co-founder)"
+      influence_on_avinash: "Complementary domain - CRO connects to Avinash's analytics"
+
+    relationship_to_avinash: "Peer pioneer in adjacent domain; wrote endorsement for Avinash's book"
+    credibility_notes: "First to systematize conversion optimization; endorsed Avinash's 'Building a Digital Analytics Organization'"
+
+  - id: "exp_004"
+    name: "Gary Angel"
+    expertise_type: "Practitioner/Researcher"
+    tier: "TIER 1"
+    track_record_score: 9
+    skin_in_game: "HIGH"
+    circle_of_competence: "Advanced Analytics Methodology, Segmentation, Digital Transformation"
+
+    key_contributions:
+      - "Founded Semphonic (1997, one of first web analytics consultancies)"
+      - "Developed Two-Tiered Segmentation methodology"
+      - "Created Functionalism framework for web analytics"
+      - "Authored 'Measuring the Digital World' (Pearson, 2015)"
+      - "Led EY Digital Analytics Center of Excellence"
+      - "Voted 'Most Influential Industry Contributor' by DAA"
+
+    best_sources:
+      - type: "book"
+        title: "Measuring the Digital World"
+        year: 2015
+        publisher: "Pearson"
+      - type: "blog"
+        title: "SemAngel / Measuring the Digital World"
+        url: "https://semphonic.blogs.com"
+
+    meta_learning_insights:
+      - "Methodological rigor creates defensible insights"
+      - "Segmentation is the foundation of actionable analytics"
+      - "Enterprise analytics requires systematic approaches"
+
+    lineage:
+      role: "Methodologist"
+      company_lineage:
+        - "Semphonic (founded 1997)"
+        - "EY Digital Analytics (acquired 2013)"
+        - "Digital Mortar (founded 2016)"
+      influence_on_avinash: "Peer methodologist; different but complementary approach"
+
+    relationship_to_avinash: "Peer expert with more technical/methodological focus"
+    credibility_notes: "Started consulting in 1997; deeper on methodology than evangelism"
+
+# =============================================================================
+# TIER 2 EXPERTS (Strong Track Record, Use with Cross-Validation)
+# =============================================================================
+tier_2_experts:
+
+  - id: "exp_005"
+    name: "Judah Phillips"
+    expertise_type: "Practitioner/Teacher"
+    tier: "TIER 2"
+    track_record_score: 7
+    skin_in_game: "HIGH"
+    circle_of_competence: "Analytics Organization Building, Big Data Strategy"
+
+    key_contributions:
+      - "Authored 'Building a Digital Analytics Organization' (endorsed by Avinash)"
+      - "Analytics organizational transformation specialist"
+
+    best_sources:
+      - type: "book"
+        title: "Building a Digital Analytics Organization"
+
+    relationship_to_avinash: "Avinash wrote endorsement for his book"
+    credibility_notes: "Focus on organizational aspects complements Avinash's framework focus"
+
+  - id: "exp_006"
+    name: "Jacques Warren"
+    expertise_type: "Practitioner"
+    tier: "TIER 2"
+    track_record_score: 7
+    skin_in_game: "MEDIUM"
+    circle_of_competence: "Web Analytics Implementation, Canadian Market"
+
+    key_contributions:
+      - "Long-time analytics consultant and speaker"
+      - "Active community contributor"
+
+    relationship_to_avinash: "Industry peer, active in same community"
+
+  - id: "exp_007"
+    name: "Tim Wilson"
+    expertise_type: "Practitioner/Teacher"
+    tier: "TIER 2"
+    track_record_score: 7
+    skin_in_game: "HIGH"
+    circle_of_competence: "Analytics Process, R for Analytics, Podcast (Digital Analytics Power Hour)"
+
+    key_contributions:
+      - "Co-host Digital Analytics Power Hour podcast"
+      - "Analytics process and methodology expert"
+      - "R programming for analysts"
+
+    relationship_to_avinash: "Next-generation practitioner influenced by Avinash's work"
+
+# =============================================================================
+# HIDDEN MASTERS (Exceptional but Lesser-Known)
+# =============================================================================
+hidden_masters:
+
+  - id: "hm_001"
+    name: "Andrew Edwards"
+    why_hidden: "Less public profile than Jim Sterne or Bryan Eisenberg"
+    why_valuable: "Co-founder of Web Analytics Association; early industry builder"
+    how_to_access: "Industry history research; DAA archives"
+
+  - id: "hm_002"
+    name: "The Google Analytics Engineering Team"
+    why_hidden: "Individual contributors often anonymous"
+    why_valuable: "Built the tool that democratized web analytics"
+    how_to_access: "Google engineering blogs; conference presentations"
+
+  - id: "hm_003"
+    name: "Urchin Software Founders (Paul Muret, Brett Crosby)"
+    why_hidden: "Absorbed into Google; less public after acquisition"
+    why_valuable: "Created Urchin, which became Google Analytics"
+    how_to_access: "Historical interviews; Google acquisition history"
+
+# =============================================================================
+# INTELLECTUAL LINEAGE MAP
+# =============================================================================
+lineage_map:
+
+  - generation: "Gen 0 - Industry Founders (1995-2000)"
+    experts:
+      - "WebTrends founders (1993)"
+      - "NetGenesis founders (1994)"
+      - "Urchin founders (1995)"
+    contribution: "Created the first web analytics tools"
+
+  - generation: "Gen 1 - Industry Builders (2000-2006)"
+    experts:
+      - name: "Jim Sterne"
+        role: "Community/Standards Creator"
+      - name: "Eric T. Peterson"
+        role: "Methodology Pioneer"
+      - name: "Bryan Eisenberg"
+        role: "CRO Pioneer"
+      - name: "Gary Angel"
+        role: "Enterprise Consulting Pioneer"
+    contribution: "Created WAA, eMetrics, published foundational books, established consulting"
+
+  - generation: "Gen 2 - Evangelists & Popularizers (2006-2015)"
+    experts:
+      - name: "Avinash Kaushik"
+        role: "Analytics Evangelist (Google)"
+        differentiation: "Framework-driven, accessible teaching, massive reach"
+    contribution: "Democratized analytics knowledge; created accessible frameworks"
+
+  - generation: "Gen 3 - Specialists & Next Wave (2015-present)"
+    experts:
+      - "Tim Wilson (podcaster, R specialist)"
+      - "Simo Ahava (GTM specialist)"
+      - "Charles Farina (Adobe specialist)"
+    contribution: "Deep specialization; tool-specific expertise"
+
+# =============================================================================
+# AVINASH'S POSITION IN THE ECOSYSTEM
+# =============================================================================
+avinash_positioning:
+
+  unique_contribution:
+    - "Framework inventor (See-Think-Do-Care, Web Analytics 2.0, Attribution Ladder)"
+    - "Accessibility champion (made analytics understandable to executives)"
+    - "Anti-data-puking philosophy (insight over volume)"
+    - "Google platform (massive distribution reach)"
+
+  differentiation_from_peers:
+    vs_jim_sterne: "Jim built infrastructure; Avinash built frameworks"
+    vs_eric_peterson: "Eric is more technical/methodological; Avinash is more strategic/communicative"
+    vs_bryan_eisenberg: "Bryan focuses on CRO; Avinash focuses on measurement strategy"
+    vs_gary_angel: "Gary is enterprise/technical; Avinash is accessible/evangelical"
+
+  intellectual_influences:
+    acknowledged:
+      - "Jim Sterne (WAA infrastructure)"
+      - "Eric Peterson (methodology validation)"
+      - "Bryan Eisenberg (CRO integration)"
+    implicit:
+      - "Google engineering culture (data-driven everything)"
+      - "Intuit culture (customer-centric design)"
+      - "Management consulting frameworks (structured thinking)"
+
+  teaching_lineage:
+    direct_students:
+      - "Thousands via Google Analytics Evangelist role"
+      - "Millions via Occam's Razor blog readers"
+      - "University advisory board students (Toronto, UC Irvine, USC)"
+    indirect_influence:
+      - "See-Think-Do-Care adopted by marketing teams globally"
+      - "90/10 rule widely referenced"
+      - "Anti-data-puking philosophy mainstream"
+
+# =============================================================================
+# DOMAIN COVERAGE ASSESSMENT
+# =============================================================================
+domain_coverage:
+
+  expertise_types_covered:
+    - type: "Pioneer"
+      experts: ["Jim Sterne", "Bryan Eisenberg"]
+      coverage: "EXCELLENT"
+
+    - type: "Practitioner"
+      experts: ["Eric Peterson", "Gary Angel", "Avinash Kaushik"]
+      coverage: "EXCELLENT"
+
+    - type: "Teacher"
+      experts: ["Avinash Kaushik", "Eric Peterson", "Jim Sterne"]
+      coverage: "EXCELLENT"
+
+    - type: "Researcher"
+      experts: ["Gary Angel"]
+      coverage: "GOOD"
+
+    - type: "Synthesizer"
+      experts: ["Bryan Eisenberg", "Avinash Kaushik"]
+      coverage: "EXCELLENT"
+
+  expertise_types_missing:
+    - type: "Academic Researchers"
+      gap: "Limited coverage of academic web analytics research"
+      priority: "LOW"
+      reason: "Avinash is practitioner-focused, not academic"
+
+    - type: "Tool Builders"
+      gap: "Engineers who built the analytics tools"
+      priority: "MEDIUM"
+      reason: "Influenced Avinash's thinking about what's possible"
+
+  overall_coverage: "EXCELLENT"
+  coverage_notes: "Strong coverage of practitioner/teacher lineage; Avinash's domain is well-mapped"
+
+# =============================================================================
+# RECOMMENDATIONS
+# =============================================================================
+recommendations:
+
+  priority_experts_for_source_collection:
+    - name: "Jim Sterne"
+      reason: "Industry godfather; provides historical context"
+      sources_to_acquire: "Web Metrics book, eMetrics presentations"
+
+    - name: "Eric Peterson"
+      reason: "Peer validation; complementary methodology"
+      sources_to_acquire: "Web Analytics Demystified, Big Book of KPIs"
+
+    - name: "Bryan Eisenberg"
+      reason: "CRO integration; endorsed Avinash"
+      sources_to_acquire: "Call to Action, Waiting for Your Cat to Bark"
+
+  hidden_masters_to_explore:
+    - "Google Analytics engineering team history"
+    - "Urchin acquisition story"
+    - "Andrew Edwards (WAA co-founder)"
+
+  additional_research_needed:
+    - "Avinash's specific acknowledgments in his books (who he thanks)"
+    - "Conference co-presentations (who shares stage with Avinash)"
+    - "Google internal mentors (harder to discover)"
+
+  cross_validation_opportunities:
+    - "Compare Avinash's frameworks to Eric Peterson's methodologies"
+    - "Map Bryan Eisenberg's CRO to Avinash's See-Think-Do-Care"
+    - "Validate Avinash's claims against Gary Angel's technical depth"
+
+# =============================================================================
+# VALIDATION GATES STATUS
+# =============================================================================
+validation_gates:
+  gate_1_domain_deconstructed: true
+  gate_2_ferriss_protocol_applied: true
+  gate_3_track_record_verified: true
+  gate_4_skin_in_game_assessed: true
+  gate_5_circle_of_competence_mapped: true
+  gate_6_meta_learning_extracted: true
+  gate_7_lineages_traced: true
+  gate_8_expert_map_generated: true
+  gate_9_human_checkpoint: "AUTO_MODE - Documented for review"

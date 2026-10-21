@@ -1,0 +1,689 @@
+# =============================================================================
+# MMOS Interview Pattern Analysis: Sean Ellis
+# Phase 1, Task 5: Interview Pattern Analysis
+# Agent: Tim (Research Specialist)
+# Generated: 2026-01-23
+# =============================================================================
+
+metadata:
+  mind_slug: sean_ellis
+  generated: "2026-01-23T07:00:00-03:00"
+  agent: "research-specialist"
+  task: "interview-pattern-analysis"
+  interviews_analyzed: 9
+  total_duration_minutes: 580
+  methodology: "Ferriss Interview Mining Framework"
+
+# =============================================================================
+# INTERVIEW INVENTORY
+# =============================================================================
+
+interviews:
+  - id: "INT_001"
+    title: "The original growth hacker reveals his secrets"
+    interviewer: "Lenny Rachitsky"
+    platform: "Lenny's Podcast"
+    date: "2024"
+    duration: "104:25"
+    format: "Long-form podcast"
+    priority: "HIGHEST"
+    mining_status: "Complete"
+    key_topics:
+      - "PMF test origin story"
+      - "ICE framework creation"
+      - "LogMeIn 10x activation story"
+      - "Dropbox growth engine"
+      - "North Star metric workshops"
+    notable_quotes:
+      - "95% of the people who came in and signed up for the product never once did a remote control session"
+      - "I could not be a very good marketer if the product was not set up in such a way that customers could easily get in and get value"
+
+  - id: "INT_002"
+    title: "Hacking Growth with Sean Ellis"
+    interviewer: "Mahmoud Khodor"
+    platform: "Podcast"
+    date: "2024"
+    duration: "86:48"
+    format: "Long-form podcast"
+    priority: "HIGH"
+    mining_status: "Complete"
+    key_topics:
+      - "Growth hacking definition"
+      - "PMF survey methodology"
+      - "Activation importance"
+      - "Cross-functional teams"
+      - "Common mistakes"
+    notable_quotes:
+      - "Before you really focus on the growth hacking side of things you need to make sure that your product actually is a must have"
+      - "Almost any business over 100 employees that tries to do growth hacking fails"
+
+  - id: "INT_003"
+    title: "How to Ignite Startup Growth (Glasp Talk)"
+    interviewer: "Kazuki / Glasp Team"
+    platform: "Glasp Talk"
+    date: "2025"
+    duration: "46:00"
+    format: "Long-form video interview"
+    priority: "HIGH"
+    mining_status: "Complete"
+    key_topics:
+      - "Growth hacking origin"
+      - "Activation revelation at LogMeIn"
+      - "Dropbox Japan surprise"
+      - "PMF test invention"
+      - "AI tools recommendation"
+    notable_quotes:
+      - "In 1995 there wasn't really books to read on growth so I had to kind of invent it as I was going"
+      - "My appreciation for product market fit has actually grown a lot since I first came across the term"
+
+  - id: "INT_004"
+    title: "Evolution of Growth, PMF, and Testing in AI Era"
+    interviewer: "Alex Burkett"
+    platform: "Long Game Podcast"
+    date: "2024"
+    duration: "63:00"
+    format: "Long-form podcast"
+    priority: "HIGH"
+    mining_status: "Complete"
+    key_topics:
+      - "Then vs now comparison"
+      - "AI impact on growth"
+      - "High tempo testing origin"
+      - "Scripted first 10 experiments"
+      - "Cross-functional challenges"
+    notable_quotes:
+      - "Success in growth is 90% product market fit and 10% your ability to execute on that product market fit"
+      - "I don't go five minutes in a day now where I'm not using AI"
+
+  - id: "INT_005"
+    title: "Billion Dollar Growth Playbook for 2025"
+    interviewer: "Rick Kleta"
+    platform: "GTM Vault Podcast"
+    date: "2025"
+    duration: "24:00"
+    format: "Short-form podcast"
+    priority: "MEDIUM"
+    mining_status: "Complete"
+    key_topics:
+      - "Common PMF trait"
+      - "CEO involvement importance"
+      - "Founder traits"
+      - "AI leverage for small teams"
+    notable_quotes:
+      - "The founder CEOs all took a super hands-on role working with me on growth"
+      - "You can do more with a team of 5 people today than you could with a team of 20 people two years ago"
+
+  - id: "INT_006"
+    title: "High Tempo Testing with Growth Model"
+    interviewer: "Unknown"
+    platform: "Conference/Webinar"
+    date: "2024"
+    duration: "55:00"
+    format: "Presentation + Q&A"
+    priority: "MEDIUM"
+    mining_status: "Complete"
+    key_topics:
+      - "Testing methodology"
+      - "Growth model construction"
+      - "Experimentation velocity"
+
+  - id: "INT_007"
+    title: "How to Rapidly Scale Growth (SaaS Revolution)"
+    interviewer: "SaaS Revolution Show"
+    platform: "Podcast"
+    date: "2024"
+    duration: "35:00"
+    format: "Medium-form podcast"
+    priority: "MEDIUM"
+    mining_status: "Complete"
+    key_topics:
+      - "Scaling principles"
+      - "SaaS-specific growth"
+
+  - id: "INT_008"
+    title: "Growth Marketing Summit Conversation"
+    interviewer: "Growth Marketing Summit"
+    platform: "Conference"
+    date: "2024"
+    duration: "36:00"
+    format: "Stage interview"
+    priority: "MEDIUM"
+    mining_status: "Complete"
+
+  - id: "INT_009"
+    title: "Science of Growth"
+    interviewer: "Unknown"
+    platform: "Podcast"
+    date: "2024"
+    duration: "45:00"
+    format: "Long-form podcast"
+    priority: "MEDIUM"
+    mining_status: "Complete"
+
+# =============================================================================
+# QUESTION FRAMING PATTERNS
+# =============================================================================
+
+patterns:
+  question_framing:
+    reasoning_style: "Framework-First with Empirical Grounding"
+
+    dominant_reasoning_mode:
+      type: "Inductive-to-Framework"
+      description: |
+        Ellis typically reasons from specific experiences to general principles,
+        then crystallizes those into reusable frameworks. He rarely reasons
+        from pure first principles without empirical grounding.
+
+      evidence:
+        - pattern: "Story → Pattern → Framework → Application"
+          example: "LogMeIn 95% abandonment → Activation insight → Framework for all startups"
+        - pattern: "Multiple experiences → Common thread → Named concept"
+          example: "Multiple companies' survey results → 40% threshold → Sean Ellis Test"
+
+    framework_application:
+      observed: true
+      favorite_frameworks:
+        - framework: "Sean Ellis Test / PMF Survey"
+          usage_frequency: "Every interview"
+          how_applied: "Diagnostic first, then prescriptive"
+        - framework: "ICE Prioritization"
+          usage_frequency: "Most interviews"
+          how_applied: "When discussing experiment selection"
+        - framework: "North Star Metric"
+          usage_frequency: "Most interviews"
+          how_applied: "When discussing alignment"
+        - framework: "Activation as 1000lb Gorilla"
+          usage_frequency: "Every interview"
+          how_applied: "When diagnosing growth problems"
+
+    analogy_based_reasoning:
+      observed: true
+      favorite_analogies:
+        - analogy: "Football high tempo offense"
+          context: "Experimentation velocity"
+          frequency: "Occasional"
+        - analogy: "Scripting first 10 plays"
+          context: "De-risking first experiments"
+          frequency: "Occasional"
+        - analogy: "Flight simulator"
+          context: "GoPractice learning approach"
+          frequency: "When promoting course"
+        - analogy: "Puzzle pieces fitting together"
+          context: "Growth as integrated system"
+          frequency: "Common"
+
+    certainty_calibration:
+      high_confidence_markers:
+        - "I have found in company after company that..."
+        - "I've seen over time that..."
+        - "The data consistently shows..."
+        - "What I learned was..."
+
+      uncertainty_markers:
+        - "It depends on..."
+        - "I'm not sure that..."
+        - "Who knows..."
+        - "In a year we would look at it and go that was stupid"
+
+      examples:
+        - statement: "40% of people saying they'd be very disappointed"
+          confidence_level: "Very High"
+          linguistic_markers: "Over time I started to realize... I honed in..."
+        - statement: "AI predictions"
+          confidence_level: "Low"
+          linguistic_markers: "Who the hell knows... that's changing so fast"
+
+    counterfactual_thinking:
+      observed: true
+      examples:
+        - question: "What if we weren't approaching it the right way?"
+          counterfactual_considered: "Counter-examples like IM products with millions of downloads"
+        - question: "What would have happened without activation fix?"
+          counterfactual_considered: "Would have been a very small company"
+
+    system_1_vs_system_2:
+      system_1_fast:
+        triggers:
+          - "Questions about PMF test methodology"
+          - "Questions about activation importance"
+          - "Questions about frameworks he invented"
+        examples:
+          - "Immediate, confident responses about 40% threshold"
+          - "Quick stories about LogMeIn activation"
+
+      system_2_slow:
+        triggers:
+          - "Questions about AI future"
+          - "Questions about specific company situations"
+          - "Questions about organizational structure"
+        examples:
+          - "Pauses and qualifies when asked about AI predictions"
+          - "Deliberate when discussing CMO evolution"
+
+# =============================================================================
+# STORY PATTERNS
+# =============================================================================
+
+  stories:
+    origin:
+      core_narrative: |
+        Self-taught marketer who learned by doing in Eastern Europe (Hungary)
+        and then US East Coast, discovered growth principles through necessity
+        rather than formal training, validated approach across two successful
+        IPOs before moving to Silicon Valley.
+
+      key_turning_points:
+        - event: "Started first startup in Budapest, Hungary (1995-96)"
+          age_or_date: "1995"
+          significance: "No books on internet marketing existed, forced to invent approach"
+          how_framed: "Advantage - 'maybe I approached it that way just because I didn't know the right way'"
+
+        - event: "NYU marketing course that made him worse"
+          age_or_date: "Late 1990s"
+          significance: "Traditional marketing training hurt his effectiveness"
+          how_framed: "Had to 'forget everything' and return to his instincts"
+
+        - event: "LogMeIn activation revelation (95% abandonment)"
+          age_or_date: "~2005-2006"
+          significance: "Core insight about activation as the bottleneck"
+          how_framed: "Pivotal moment that shaped all future work"
+
+        - event: "Moving to Silicon Valley (2007)"
+          age_or_date: "2007"
+          significance: "Saw the contrast between traditional marketing and growth approaches"
+          how_framed: "Discovery that most weren't doing growth his way"
+
+        - event: "Dropbox - fastest SaaS to $1B ARR"
+          age_or_date: "2007-2008"
+          significance: "Validation at scale of his methodology"
+          how_framed: "Proof point for the entire framework"
+
+      hero_journey_elements:
+        call_to_adventure: "Invested in startups in Eastern Europe, had to figure out growth"
+        mentor_figures:
+          - "CEO at first company (great engineer who trusted him)"
+          - "Mark Andreessen (via archived blog posts)"
+          - "Drew Houston (collaboration at Dropbox)"
+        trials:
+          - "LogMeIn 95% abandonment rate"
+          - "Lookout 7% PMF score"
+          - "CatchFree pivot"
+        transformation: "From accidental marketer to growth methodology creator"
+
+      consistency_across_interviews:
+        stable_elements:
+          - "No formal marketing training"
+          - "Learned by doing"
+          - "Eastern Europe origin"
+          - "LogMeIn activation story"
+          - "Two IPOs before Silicon Valley"
+        variable_elements:
+          - "Specific dates sometimes vary"
+          - "Emphasis shifts based on audience"
+        evolution_of_story: "More emphasis on AI integration in 2024-2025 interviews"
+
+    failures:
+      - id: "FAIL_001"
+        failure_description: "LogMeIn's 95% abandonment rate"
+        when_occurred: "~2005-2006"
+        framing_analysis:
+          attribution_style: "Internal - systemic problem they could fix"
+          emotional_tone: "Learning opportunity, not regret"
+          distance_from_event: "Distant (20 years)"
+        learning_extraction:
+          stated_lesson: "Activation is the key lever, requires cross-functional work"
+          behavioral_change: "Always prioritizes activation in every company since"
+          applied_since: "Every company - Dropbox, Lookout, Eventbrite, all consulting"
+        story_function:
+          why_told: "Teaching - most impactful revelation of career"
+          audience_effect: "Makes activation importance concrete and memorable"
+
+      - id: "FAIL_002"
+        failure_description: "Lookout's 7% PMF score"
+        when_occurred: "~2009"
+        framing_analysis:
+          attribution_style: "Mixed - they hadn't asked the right question before"
+          emotional_tone: "Humor ('Oh crap') then redemption"
+          distance_from_event: "Distant"
+        learning_extraction:
+          stated_lesson: "PMF can be built, not just found"
+          behavioral_change: "Always runs PMF survey before committing"
+          applied_since: "All engagements since"
+        story_function:
+          why_told: "Teaching - PMF test is diagnostic not just evaluative"
+          audience_effect: "Shows survey can guide improvement, not just judge"
+
+      - id: "FAIL_003"
+        failure_description: "NYU marketing course made him worse"
+        when_occurred: "Late 1990s"
+        framing_analysis:
+          attribution_style: "External - traditional education was wrong"
+          emotional_tone: "Slight humor, vindication"
+          distance_from_event: "Very distant"
+        learning_extraction:
+          stated_lesson: "Traditional marketing approaches don't work for growth"
+          behavioral_change: "Trust instincts over conventional wisdom"
+          applied_since: "Career-defining principle"
+        story_function:
+          why_told: "Credibility - shows his approach is different by design"
+          audience_effect: "Positions him as contrarian who was proven right"
+
+    teaching:
+      recurring_examples:
+        - story_id: "TEACH_001"
+          story_summary: "LogMeIn 5% to 50% activation improvement"
+          teaching_point: "Activation is the most overlooked high-leverage point"
+          frequency: "Every single interview"
+          variations: "Sometimes emphasizes CEO role, sometimes team collaboration"
+
+        - story_id: "TEACH_002"
+          story_summary: "Dropbox scripted first 10 experiments"
+          teaching_point: "De-risk experimentation culture building"
+          frequency: "Many interviews"
+          variations: "Sometimes connects to football play scripting"
+
+        - story_id: "TEACH_003"
+          story_summary: "Dropbox in Japan surprise"
+          teaching_point: "Power of organic word-of-mouth engine"
+          frequency: "Occasional"
+          variations: "Told when discussing international growth"
+
+        - story_id: "TEACH_004"
+          story_summary: "Nubank 50% threshold"
+          teaching_point: "40% is a floor, not a ceiling"
+          frequency: "Many interviews"
+          variations: "Sometimes includes their product launch process"
+
+        - story_id: "TEACH_005"
+          story_summary: "Classified company wrong North Star"
+          teaching_point: "North Star must be simple and memorable"
+          frequency: "In workshop-related discussions"
+          variations: "Focuses on complexity problem"
+
+      story_archetypes:
+        - archetype: "Revelation through failure"
+          examples:
+            - "LogMeIn 95% abandonment → Activation insight"
+            - "Lookout 7% → PMF can be built"
+        - archetype: "Underdog vindication"
+          examples:
+            - "No marketing training → better than trained marketers"
+            - "Coining growth hacking → global adoption"
+        - archetype: "Counter-example discovery"
+          examples:
+            - "IM products disproved 'downloadable software can't scale'"
+
+      hero_villain_patterns:
+        heroes_referenced:
+          - name: "Jeff Bezos"
+            why_admired: "High velocity testing philosophy"
+            frequency: "Often quotes his experimentation statement"
+          - name: "Drew Houston"
+            why_admired: "Hands-on CEO involvement in growth"
+            frequency: "When discussing Dropbox"
+          - name: "Paul Graham"
+            why_admired: "'Do things that don't scale' principle"
+            frequency: "When discussing early stage"
+          - name: "Mark Andreessen"
+            why_admired: "PMF concept articulation"
+            frequency: "When explaining PMF origins"
+
+        villains_or_anti_examples:
+          - description: "Traditional marketers focused on awareness"
+            what_they_represent: "Wrong approach to growth"
+          - description: "Companies that scale before PMF"
+            what_they_represent: "Fastest way to kill a startup"
+          - description: "Siloed organizations"
+            what_they_represent: "Barriers to effective growth"
+          - description: "'Growth at all costs' mentality"
+            what_they_represent: "Unsustainable, short-term thinking"
+
+# =============================================================================
+# MICRO-DECISION PATTERNS
+# =============================================================================
+
+  micro_decisions:
+    time_allocation:
+      - activity: "First two weeks at new company"
+        time_invested: "100% on data analysis and surveys"
+        why_important: "Don't break what's working, understand before acting"
+        evidence_quote: "All I did was study data for the first few weeks"
+
+      - activity: "Full-day workshop before any growth work"
+        time_invested: "1 full day minimum"
+        why_important: "Alignment prerequisite for success"
+        evidence_quote: "It's in my contract that's required up front"
+
+      - activity: "Running PMF survey before committing"
+        time_invested: "1-2 weeks"
+        why_important: "Determines if there's a fighting chance"
+        evidence_quote: "I only work with companies that have PMF"
+
+    what_they_protect:
+      - protected_item: "Cross-functional alignment time"
+        how_protected: "Contract requirement"
+        trade_offs_made: "Turns down roles without it"
+
+      - protected_item: "PMF validation"
+        how_protected: "Won't take roles without it"
+        trade_offs_made: "Passes on opportunities"
+
+      - protected_item: "Six-month engagement limit"
+        how_protected: "Negotiates exit before starting"
+        trade_offs_made: "Leaves before long-term execution"
+
+    what_they_delegate:
+      - delegated_item: "Long-term product development"
+        why_delegated: "His value is in early growth engine"
+        delegation_criteria: "Once engine is built, team can scale"
+
+      - delegated_item: "Later-stage optimization"
+        why_delegated: "Higher leverage in early stage"
+        delegation_criteria: "Prefers companies with 10-20 employees"
+
+    tradeoffs:
+      decision_examples:
+        - id: "DEC_001"
+          decision_context: "Choosing between Dropbox and similar competitor"
+          options_considered:
+            - "Dropbox with Drew Houston"
+            - "Similar product with respected founder"
+          choice_made: "Dropbox"
+          reasoning_revealed: "Chemistry with team is most important factor"
+          underlying_priority: "Relationship quality over opportunity quality"
+
+        - id: "DEC_002"
+          decision_context: "Writing AI book"
+          options_considered:
+            - "Write book now"
+            - "Wait and write blog posts"
+          choice_made: "Blog posts only"
+          reasoning_revealed: "In a year it would look stupid"
+          underlying_priority: "Accuracy over timeliness"
+
+        - id: "DEC_003"
+          decision_context: "China presentation on AI"
+          options_considered:
+            - "Accept high-paying gig on AI"
+            - "Decline because no practical experience"
+          choice_made: "Declined"
+          reasoning_revealed: "Only presents on things actually done"
+          underlying_priority: "Authenticity over revenue"
+
+      recurring_tradeoff_patterns:
+        - tradeoff_type: "Speed vs Understanding"
+          typical_resolution: "Always understand first, even if slower"
+          exceptions: "None observed"
+
+        - tradeoff_type: "Revenue vs Authenticity"
+          typical_resolution: "Authenticity wins"
+          exceptions: "None observed"
+
+        - tradeoff_type: "Breadth vs Depth"
+          typical_resolution: "Deep focus on PMF and activation"
+          exceptions: "Broader when consulting"
+
+    exceptions:
+      stated_rules:
+        - rule: "Only work with companies that have PMF"
+          context: "General principle"
+        - rule: "Don't write about AI"
+          context: "Changes too fast"
+
+      exceptions_revealed:
+        - rule_broken: "Don't present on AI"
+          exception_context: "Six months later, presented heavily on AI"
+          justification: "Comfort level increased with practical experience"
+          what_this_reveals: "Rules evolve with experience"
+
+# =============================================================================
+# HIDDEN CURRICULUM
+# =============================================================================
+
+  hidden_curriculum:
+    behavior_advice_gaps:
+      - id: "GAP_001"
+        advice_given: "Don't write books on fast-changing topics like AI"
+        behavior_observed: "Uses AI constantly, presents on AI now"
+        gap_description: "Advises caution but personally adopts rapidly"
+        possible_explanations:
+          - "Difference between writing (permanent) vs speaking (ephemeral)"
+          - "Personal experimentation vs public commitment"
+        implicit_rule: "Experiment privately, publish only proven things"
+
+      - id: "GAP_002"
+        advice_given: "Focus on must-have users, ignore somewhat disappointed"
+        behavior_observed: "Praises Superhuman for studying somewhat disappointed"
+        gap_description: "Acknowledges evolution beyond his original method"
+        possible_explanations:
+          - "Original advice was for resource-constrained startups"
+          - "More sophisticated analysis useful at scale"
+        implicit_rule: "Simple rules for beginners, nuance for advanced"
+
+    unstated_assumptions:
+      - assumption: "You have access to customer data and can run surveys"
+        evidence: "Never discusses what to do without data access"
+        implications: "Method may not work for all business types"
+        who_might_miss_this: "B2B companies with limited customer access"
+
+      - assumption: "CEO is willing to be hands-on with growth"
+        evidence: "All success stories feature engaged CEOs"
+        implications: "Method requires executive buy-in"
+        who_might_miss_this: "Growth leaders without CEO access"
+
+      - assumption: "Company has enough users to survey (30-50 minimum)"
+        evidence: "Always mentions sample size requirements"
+        implications: "Very early stage may need different approaches"
+        who_might_miss_this: "Pre-product companies"
+
+    environmental_design:
+      workspace_design:
+        - element: "Workshop format with all stakeholders"
+          purpose: "Force alignment before execution"
+          evidence: "Contract requirement for full-day workshops"
+
+      routine_design:
+        - routine: "Survey before commitment"
+          function: "Risk reduction, signal before investment"
+          evidence: "Won't take roles without PMF signal"
+
+        - routine: "First 10 experiments scripted"
+          function: "De-risk experimentation culture building"
+          evidence: "Dropbox case study"
+
+      social_environment:
+        - design_element: "Chemistry as selection criterion"
+          purpose: "Ensure enjoyable collaboration"
+          evidence: "Dropbox choice over competitor"
+
+# =============================================================================
+# SYNTHESIS
+# =============================================================================
+
+synthesis:
+  signature_patterns:
+    communication:
+      - "Framework-first answering (names the framework before explaining)"
+      - "Story-to-principle pattern (specific example → general rule)"
+      - "Quantified claims (40%, 95%, 10x)"
+      - "Self-deprecating origin story (no training, learned by doing)"
+      - "Counter-example discovery (disproves limiting beliefs)"
+
+    reasoning:
+      - "Empirical grounding (won't claim without experience)"
+      - "Simplicity preference (one question, one metric, 30 minutes)"
+      - "Cross-validation (multiple companies, same pattern)"
+      - "Temporal consistency check (what worked then vs now)"
+
+    values_expressed:
+      - "Authenticity (declines AI presentation)"
+      - "Practicality (theory must be tested)"
+      - "Generosity (shares everything, names later)"
+      - "Humility (acknowledges luck, limitations)"
+
+  evolution_over_time:
+    - topic: "AI usage"
+      earlier_position: "Wouldn't present on AI (early 2024)"
+      later_position: "Heavy AI integration in presentations (late 2024)"
+      what_changed: "Personal experience and comfort level"
+
+    - topic: "Product market fit importance"
+      earlier_position: "Important prerequisite"
+      later_position: "90% of success is PMF"
+      what_changed: "Appreciation increased with more experience"
+
+    - topic: "PMF test methodology"
+      earlier_position: "Ignore somewhat disappointed users"
+      later_position: "Acknowledge Superhuman's more nuanced approach"
+      what_changed: "Learned from others who built on his work"
+
+  cross_interview_consistency: "HIGHLY CONSISTENT"
+
+  consistency_notes: |
+    Sean Ellis demonstrates remarkable consistency across all interviews:
+    - Core frameworks (PMF test, ICE, activation) told identically
+    - Teaching stories (LogMeIn, Dropbox, Lookout) stable across years
+    - Values and priorities consistent
+    - Only evolution is in AI-related topics (appropriate given rapid change)
+
+    The consistency suggests deeply internalized principles rather than
+    rehearsed talking points. When topics evolve (AI), he openly acknowledges
+    the change in his position.
+
+  meta_learning_revealed:
+    how_they_learn: |
+      Ellis learns primarily through:
+      1. Direct experience at companies (doing, not reading)
+      2. Data analysis and customer feedback
+      3. Cross-company pattern recognition
+      4. Counter-example discovery (what disproves assumptions)
+      5. Network learning (sharing with other founders, getting feedback)
+
+    who_influenced_them:
+      - "Drew Houston (Dropbox) - collaboration model"
+      - "Mark Andreessen - PMF concept articulation"
+      - "Jeff Bezos - experimentation philosophy"
+      - "Paul Graham - 'do things that don't scale'"
+      - "Steve Blank - Four Steps to the Epiphany"
+      - "Morgan Brown (co-author) - systematizing ideas"
+      - "Ethan (GoPractice partner) - data science perspective"
+
+    what_they_practice: |
+      Daily/Weekly:
+      - ChatGPT for ideation and analysis (claims not 5 minutes without it)
+      - Survey design and analysis
+      - Framework refinement through workshops
+
+      Per Engagement:
+      - Data immersion (first 2 weeks)
+      - Alignment workshop facilitation
+      - Experiment scripting and analysis
+
+    learning_style: |
+      Strongly experiential learner who:
+      - Distrusts formal education (NYU course made him worse)
+      - Values practical application over theoretical knowledge
+      - Builds frameworks from accumulated experience
+      - Updates beliefs when data contradicts them
+      - Shares learnings publicly to force continued innovation

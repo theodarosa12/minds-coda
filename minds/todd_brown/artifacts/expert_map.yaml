@@ -1,0 +1,379 @@
+# Expert Map: Todd Brown
+# Generated: 2026-01-23
+# Agent: Tim (Research Specialist)
+# Task: expert-identification-analysis
+
+metadata:
+  domain: "Direct Response Marketing"
+  mind_slug: "todd_brown"
+  generated: "2026-01-23T16:30:00-03:00"
+  agent: "research-specialist"
+  task: "expert-identification-analysis"
+  version: "1.0"
+
+# =============================================================================
+# TIER 1 EXPERTS (World-class, Primary Sources)
+# =============================================================================
+experts:
+
+  - id: "exp_001"
+    name: "Mark Ford (Michael Masterson)"
+    expertise_type: "Pioneer/Practitioner"
+    tier: "TIER 1"
+    relationship: "Primary Mentor"
+
+    track_record_score: 10
+    skin_in_game: "HIGH"
+    circle_of_competence: "Direct response copywriting, business scaling"
+
+    key_contributions:
+      - "Big Marketing Idea concept"
+      - "Power of One principle"
+      - "Agora methodology"
+      - "AWAI co-founder"
+
+    best_sources:
+      - type: "book"
+        title: "Ready, Fire, Aim"
+        priority: "HIGH"
+      - type: "podcast"
+        title: "Copy Chief Radio EP 130"
+        url: "https://copychief.com/ep-130-mark-ford/"
+        priority: "CRITICAL"
+      - type: "program"
+        title: "AWAI materials"
+        priority: "MEDIUM"
+
+    meta_learning_insights:
+      - "Focus on ideas, not just copy technique"
+      - "Build businesses, not just write copy"
+      - "Scale through systems and people"
+
+    lineage:
+      teachers: []
+      students:
+        - "Todd Brown"
+        - "Ben Settle"
+        - "Roy Furr"
+        - "John Forde"
+
+    accessibility: "Medium"
+    notes: "Primary mentor - understanding Ford is essential to understanding Todd"
+
+  - id: "exp_002"
+    name: "Gary Halbert"
+    expertise_type: "Pioneer/Teacher"
+    tier: "TIER 1"
+    relationship: "Foundational Influence (posthumous)"
+
+    track_record_score: 10
+    skin_in_game: "HIGH"
+    circle_of_competence: "Direct mail copywriting"
+
+    key_contributions:
+      - "A-Pile vs B-Pile concept"
+      - "Conversational copy style"
+      - "Coat of Arms letter (millions in sales)"
+      - "The Boron Letters"
+
+    best_sources:
+      - type: "book"
+        title: "The Boron Letters"
+        priority: "CRITICAL"
+        url: "https://thegaryhalbertletter.com/"
+      - type: "newsletter_archive"
+        title: "The Gary Halbert Letter"
+        url: "https://thegaryhalbertletter.com/newsletters.htm"
+        priority: "HIGH"
+
+    meta_learning_insights:
+      - "The list is more important than the copy"
+      - "Write like you talk to a friend"
+      - "Study what works, then adapt"
+
+    lineage:
+      teachers: []
+      students:
+        - "Bond Halbert"
+        - "Countless copywriters"
+
+    accessibility: "Easy (free archives)"
+    notes: "Foundational - his style influenced Todd's approach to copy"
+
+  - id: "exp_003"
+    name: "Dan Kennedy"
+    expertise_type: "Teacher/Practitioner"
+    tier: "TIER 1"
+    relationship: "Foundational Influence"
+
+    track_record_score: 10
+    skin_in_game: "HIGH"
+    circle_of_competence: "Direct response marketing, information marketing"
+
+    key_contributions:
+      - "No BS approach to marketing"
+      - "Magnetic Marketing system"
+      - "GKIC/No BS Inner Circle"
+      - "32+ books on marketing"
+
+    best_sources:
+      - type: "book"
+        title: "No B.S. Direct Marketing for Non-Direct Marketing Businesses"
+        priority: "HIGH"
+      - type: "book"
+        title: "Magnetic Marketing"
+        priority: "HIGH"
+      - type: "newsletter"
+        title: "No BS Newsletter"
+        url: "https://magneticmarketing.com/nobsnewsletter"
+        priority: "MEDIUM"
+
+    meta_learning_insights:
+      - "Marketing is math, not magic"
+      - "Attract, don't chase"
+      - "Build systems that work without you"
+
+    lineage:
+      teachers: []
+      students:
+        - "Rich Schefren"
+        - "Thousands of entrepreneurs"
+
+    accessibility: "Easy (extensive published work)"
+    notes: "Foundational - Todd adopted systematic approach from Kennedy"
+
+  - id: "exp_004"
+    name: "Eugene Schwartz"
+    expertise_type: "Pioneer/Researcher"
+    tier: "TIER 1"
+    relationship: "Intellectual Foundation"
+
+    track_record_score: 10
+    skin_in_game: "HIGH"
+    circle_of_competence: "Advertising theory, copywriting psychology"
+
+    key_contributions:
+      - "5 Levels of Market Sophistication"
+      - "5 Levels of Awareness"
+      - "Mass desire channeling concept"
+      - "Mechanism as differentiation"
+      - "Breakthrough Advertising (1966)"
+
+    best_sources:
+      - type: "book"
+        title: "Breakthrough Advertising"
+        priority: "CRITICAL"
+        notes: "Todd explicitly recommends this book"
+        price: "$500+ (rare)"
+
+    meta_learning_insights:
+      - "Copy doesn't create desire, it channels existing desire"
+      - "Match your message to market sophistication"
+      - "Mechanism creates believability"
+
+    lineage:
+      teachers: []
+      students:
+        - "Every modern direct response marketer"
+
+    accessibility: "Medium (expensive book, but essential)"
+    notes: "Theoretical foundation - E5 builds on Schwartz's frameworks"
+
+# =============================================================================
+# TIER 2 EXPERTS (Strong track record, Contextual)
+# =============================================================================
+
+  - id: "exp_005"
+    name: "Rich Schefren"
+    expertise_type: "Synthesizer/Teacher"
+    tier: "TIER 2"
+    relationship: "Business Partner/Collaborator"
+
+    track_record_score: 8
+    skin_in_game: "MEDIUM-HIGH"
+    circle_of_competence: "Online business strategy, positioning"
+
+    key_contributions:
+      - "Strategic Profits"
+      - "Helped position Todd as 'funnel expert'"
+      - "Steal Our Winners program"
+
+    best_sources:
+      - type: "podcast"
+        title: "EOFire interview"
+        url: "https://www.eofire.com/podcast/richschefren2/"
+        priority: "MEDIUM"
+      - type: "program"
+        title: "Steal Our Winners"
+        url: "https://richschefren.com/steal-our-winners/"
+        priority: "LOW"
+
+    lineage:
+      teachers:
+        - "Mark Ford"
+        - "Jay Abraham"
+        - "Dan Kennedy"
+      students: []
+
+    accessibility: "Medium"
+    notes: "Business relationship - helped Todd's positioning"
+
+  - id: "exp_006"
+    name: "John Forde"
+    expertise_type: "Practitioner/Teacher"
+    tier: "TIER 2"
+    relationship: "Peer at Agora"
+
+    track_record_score: 8
+    skin_in_game: "HIGH"
+    circle_of_competence: "Copywriting, lead writing"
+
+    key_contributions:
+      - "Co-author of 'Great Leads'"
+      - "Copywriter's Roundtable newsletter"
+      - "23+ years at Agora"
+
+    best_sources:
+      - type: "book"
+        title: "Great Leads"
+        priority: "HIGH"
+      - type: "newsletter"
+        title: "Copywriter's Roundtable"
+        priority: "MEDIUM"
+
+    accessibility: "Medium"
+    notes: "Peer perspective on Agora methodology"
+
+  - id: "exp_007"
+    name: "Ben Settle"
+    expertise_type: "Practitioner/Teacher"
+    tier: "TIER 2"
+    relationship: "Peer (Agora-adjacent)"
+
+    track_record_score: 7
+    skin_in_game: "HIGH"
+    circle_of_competence: "Email marketing, copywriting"
+
+    key_contributions:
+      - "Email Players newsletter"
+      - "Daily email philosophy"
+      - "Anti-guru positioning"
+
+    best_sources:
+      - type: "newsletter"
+        title: "Email Players"
+        priority: "LOW"
+      - type: "blog"
+        title: "bensettle.com"
+        url: "https://bensettle.com/"
+        priority: "LOW"
+
+    accessibility: "Easy"
+    notes: "Perspective on Agora from outside"
+
+  - id: "exp_008"
+    name: "Joe Schriefer"
+    expertise_type: "Practitioner"
+    tier: "TIER 2"
+    relationship: "Direct teacher at Agora"
+
+    track_record_score: 8
+    skin_in_game: "HIGH"
+    circle_of_competence: "Copywriting, Agora methodology"
+
+    key_contributions:
+      - "Copy Chief at Agora Financial"
+      - "Trained Todd on Big Idea at AF headquarters"
+      - "Agora's copywriter training system"
+
+    best_sources:
+      - type: "limited"
+        notes: "Internal Agora materials, not publicly available"
+        priority: "LOW"
+
+    accessibility: "Very Hard"
+    notes: "Hidden master - key influence but limited public content"
+
+# =============================================================================
+# HIDDEN MASTERS
+# =============================================================================
+hidden_masters:
+
+  - name: "Joe Schriefer"
+    why_hidden: "Works inside Agora, low public profile"
+    why_valuable: "Directly trained Todd on Big Idea at Agora headquarters"
+    how_to_access: "Limited - may appear in Agora internal materials"
+
+  - name: "Boardroom Inc. copywriters"
+    why_hidden: "Company-focused, not individual brands"
+    why_valuable: "Where Schwartz applied his methods"
+    how_to_access: "Study Boardroom promotions"
+
+# =============================================================================
+# INTELLECTUAL LINEAGES
+# =============================================================================
+lineage_map:
+
+  - lineage_id: "lin_001"
+    name: "Direct Mail Pioneers → Modern DR"
+    chain:
+      - "Eugene Schwartz (theory)"
+      - "Gary Halbert (practice)"
+      - "Mark Ford (scale)"
+      - "Todd Brown (synthesis)"
+    insight: "Todd synthesized theory + practice into teachable system"
+
+  - lineage_id: "lin_002"
+    name: "Information Marketing Lineage"
+    chain:
+      - "Dan Kennedy (founder)"
+      - "Rich Schefren (online)"
+      - "Todd Brown (funnels)"
+    insight: "Kennedy's systematic approach became Todd's E5 structure"
+
+  - lineage_id: "lin_003"
+    name: "Agora School"
+    chain:
+      - "Mark Ford (architect)"
+      - "John Forde (leads)"
+      - "Joe Schriefer (training)"
+      - "Todd Brown (external)"
+    insight: "Todd learned Agora methodology and externalized it"
+
+# =============================================================================
+# DOMAIN COVERAGE
+# =============================================================================
+domain_coverage:
+  expertise_types_covered:
+    - "Pioneer (Schwartz, Halbert)"
+    - "Practitioner (Ford, Kennedy)"
+    - "Teacher (Kennedy, Halbert)"
+    - "Synthesizer (Todd, Schefren)"
+
+  expertise_types_missing:
+    - "Academic researchers (minimal)"
+    - "International perspective"
+
+  overall_coverage: "EXCELLENT"
+
+# =============================================================================
+# RECOMMENDATIONS
+# =============================================================================
+recommendations:
+  priority_experts:
+    - expert: "Mark Ford"
+      reason: "Primary mentor - core to understanding Todd"
+    - expert: "Eugene Schwartz"
+      reason: "Theoretical foundation of E5"
+    - expert: "Gary Halbert"
+      reason: "Copy style and fundamentals"
+
+  hidden_masters_to_explore:
+    - expert: "Joe Schriefer"
+      challenge: "Limited public content"
+      approach: "Look for Agora training materials"
+
+  additional_research_needed:
+    - "Todd's specific quotes about each influence"
+    - "Chronology of when Todd encountered each expert"
+    - "Specific concepts Todd adapted vs created"

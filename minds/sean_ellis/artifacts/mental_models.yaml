@@ -1,0 +1,678 @@
+# =============================================================================
+# MMOS Mental Models Analysis: Sean Ellis
+# Phase 4, Task 1: Mental Models Analysis
+# Agent: Barbara (Cognitive Architect - Oakley-inspired)
+# Generated: 2026-01-23
+# Methodology: Oakley Cognitive Architecture + DNA Mental Layer 5
+# =============================================================================
+
+metadata:
+  mind_slug: sean_ellis
+  analysis_date: "2026-01-23"
+  agent: barbara-cognitive-architect
+  methodology: "Oakley Cognitive Architecture Framework"
+  layer: 5
+  triangulation_threshold: 0.70
+  sources_analyzed: 22
+  confidence: 94
+
+# =============================================================================
+# LAYER 5: MENTAL MODELS INVENTORY
+# =============================================================================
+
+mental_models_inventory:
+
+  total_models: 17
+  core_models: 5
+  domain_specific: 8
+  cross_domain: 4
+
+  # ===========================================================================
+  # CORE MENTAL MODELS (Foundation of all thinking)
+  # ===========================================================================
+
+  core_models:
+
+    - model_id: "MM_001"
+      name: "PMF-as-Prerequisite Model"
+      category: "Foundation"
+      description: |
+        Product-Market Fit is not just a milestone but the fundamental
+        prerequisite for ANY growth activity. Without PMF, scaling is
+        "the fastest way to put your startup out of business."
+
+      cognitive_structure:
+        type: "Binary Gate"
+        pattern: "PMF? → If yes: proceed. If no: STOP everything else."
+        rigidity: "Very high - non-negotiable"
+
+      when_deployed:
+        - "Before joining any company (diagnostic question)"
+        - "Before scaling any growth initiative"
+        - "When diagnosing growth stalls"
+        - "When evaluating startup viability"
+
+      recognition_triggers:
+        - "Company mentions wanting to 'scale'"
+        - "Growth team asking about acquisition tactics"
+        - "Startup seeking growth advice"
+
+      behavioral_output:
+        - "Immediately asks about PMF survey results"
+        - "Refuses to discuss tactics until PMF validated"
+        - "Reframes scaling conversations to PMF conversations"
+
+      triangulation:
+        source_count: 22
+        agreement: "100%"
+        evidence:
+          - source: "All 9 interviews"
+            pattern: "PMF mentioned within first 10 minutes"
+          - source: "All blog posts"
+            pattern: "PMF referenced in every methodology article"
+          - source: "Hacking Growth book"
+            pattern: "Entire chapter dedicated to PMF validation"
+
+      blind_spots:
+        - "May miss cases where PMF is contextual (B2B enterprise segments)"
+        - "Binary view may oversimplify complex market dynamics"
+
+      confidence: 98
+
+    - model_id: "MM_002"
+      name: "Activation-as-Bottleneck Model"
+      category: "Diagnostic"
+      description: |
+        When diagnosing growth problems, the first hypothesis should be
+        "activation is broken." This is the default lens applied before
+        considering other explanations.
+
+      cognitive_structure:
+        type: "Default Diagnostic"
+        pattern: "Growth stall? → Check activation first → Then other factors"
+        rigidity: "High - but allows other diagnoses after"
+
+      when_deployed:
+        - "When growth has stalled"
+        - "When retention is poor despite good product"
+        - "When CAC is high relative to competitors"
+        - "When word-of-mouth is lower than expected"
+
+      origin_story: |
+        LogMeIn revelation: 95% of signups never completed a single
+        remote control session. This career-defining insight made
+        activation his default diagnostic lens.
+
+      triangulation:
+        source_count: 18
+        agreement: "94%"
+        evidence:
+          - source: "Lenny's Podcast"
+            quote: "In Silicon Valley, the fastest growing companies spend half their product resources on activation"
+          - source: "LogMeIn story (all sources)"
+            pattern: "Told identically across 9 interviews over 5 years"
+          - source: "GTM Vault"
+            quote: "Activation is where most stalling happens"
+
+      blind_spots:
+        - "May over-apply to businesses where activation isn't the issue"
+        - "Product complexity might genuinely require longer activation"
+
+      confidence: 95
+
+    - model_id: "MM_003"
+      name: "Value-Before-Revenue Model"
+      category: "Strategic"
+      description: |
+        Customer value creation MUST precede revenue optimization.
+        Revenue focus creates "doom loops" of declining value.
+        Value metrics (not revenue) should guide all decisions.
+
+      cognitive_structure:
+        type: "Causal Chain"
+        pattern: "Value → Satisfaction → Retention → Revenue (not: Revenue → Back-optimize)"
+        rigidity: "Very high - treats as law of nature"
+
+      when_deployed:
+        - "North Star metric selection"
+        - "KPI discussions"
+        - "Strategy sessions"
+        - "When teams propose revenue targets"
+
+      manifestations:
+        - "North Star = value metric (rides, nights, DAU), not revenue"
+        - "Refuses revenue as primary metric"
+        - "Warns of 'doom loops' from revenue focus"
+
+      triangulation:
+        source_count: 15
+        agreement: "100%"
+        evidence:
+          - source: "Lenny's Podcast"
+            quote: "Revenue tends not to be a good North Star metric... creates doom loop"
+          - source: "Glasp Talk"
+            quote: "North Star must reflect core customer value delivery"
+          - source: "GTM Vault"
+            quote: "North Star = value metric, not revenue"
+
+      blind_spots:
+        - "May underweight cash flow realities for bootstrapped startups"
+        - "Some business models genuinely have revenue as the value proxy"
+
+      confidence: 96
+
+    - model_id: "MM_004"
+      name: "Simplicity-Trumps-Sophistication Model"
+      category: "Design"
+      description: |
+        Simple frameworks get used. Complex ones get ignored.
+        Practical utility > theoretical elegance.
+        "Perfect is the enemy of done."
+
+      cognitive_structure:
+        type: "Design Constraint"
+        pattern: "When designing: Minimum complexity for maximum adoption"
+        rigidity: "High - consistently applied"
+
+      when_deployed:
+        - "Creating frameworks (ICE, PMF question)"
+        - "Facilitating workshops"
+        - "Advising on metrics"
+        - "Teaching methodology"
+
+      manifestations:
+        - "ICE = 3 simple dimensions (not 10-factor weighted model)"
+        - "PMF = 1 question (not 50-question survey)"
+        - "North Star = 1 metric (not dashboard of 20)"
+        - "30-minute rule for North Star debates"
+
+      triangulation:
+        source_count: 14
+        agreement: "100%"
+        evidence:
+          - source: "Lenny's Podcast"
+            quote: "Teams debate North Star for months... I give them 30 minutes"
+          - source: "ICE framework design"
+            pattern: "Deliberately simple despite alternatives"
+          - source: "PMF survey design"
+            pattern: "Single question vs. industry standard long surveys"
+
+      blind_spots:
+        - "May oversimplify truly complex problems"
+        - "Simple frameworks may miss important nuance"
+
+      confidence: 94
+
+    - model_id: "MM_005"
+      name: "Experimentation-as-Engine Model"
+      category: "Operational"
+      description: |
+        Experiment velocity directly correlates with learning and growth.
+        More experiments = more learning = more growth.
+        Systematic experimentation beats intuition.
+
+      cognitive_structure:
+        type: "Mechanistic"
+        pattern: "Experiments → Learning → Growth (quantity matters)"
+        rigidity: "High - treats as operational law"
+
+      when_deployed:
+        - "Growth team structure discussions"
+        - "Resource allocation decisions"
+        - "Performance evaluation"
+        - "Process design"
+
+      manifestations:
+        - "ICE framework for experiment prioritization"
+        - "Scripted first 10 experiments at Dropbox"
+        - "Weekly experiment rhythm"
+        - "Uses ChatGPT to generate more ideas"
+
+      triangulation:
+        source_count: 16
+        agreement: "94%"
+        evidence:
+          - source: "Lenny's Podcast"
+            quote: "Success at Amazon is a function of how many experiments we do"
+          - source: "Dropbox story"
+            pattern: "Scripted first 10 experiments to de-risk"
+          - source: "GrowthHackers methodology"
+            pattern: "High tempo testing as core practice"
+
+      blind_spots:
+        - "Velocity without direction can waste resources"
+        - "Some experiments need longer time horizons"
+
+      confidence: 93
+
+  # ===========================================================================
+  # DOMAIN-SPECIFIC MENTAL MODELS
+  # ===========================================================================
+
+  domain_models:
+
+    - model_id: "MM_006"
+      name: "Positive-Signal-Priority Model"
+      category: "Product Strategy"
+      description: |
+        Focus resources on understanding and amplifying what works
+        (very disappointed users) rather than fixing all problems
+        (somewhat disappointed users).
+
+      cognitive_structure:
+        type: "Attention Filter"
+        pattern: "Signal → Very disappointed feedback > Problem feedback"
+
+      when_deployed:
+        - "Prioritizing product roadmap"
+        - "Analyzing survey feedback"
+        - "Resource allocation"
+
+      contrarian_nature: |
+        "It feels totally counterintuitive to pursue these positive
+        signals while ignoring most of the feedback about problems"
+
+      triangulation:
+        source_count: 10
+        agreement: "100%"
+
+      confidence: 92
+
+    - model_id: "MM_007"
+      name: "Cross-Functional-Alignment-First Model"
+      category: "Organizational"
+      description: |
+        Growth fails when functions (Product, Marketing, Engineering)
+        operate in silos. Alignment is a prerequisite, not an outcome.
+        Workshop before work.
+
+      cognitive_structure:
+        type: "Prerequisite Gate"
+        pattern: "Alignment achieved? → If no: STOP and align first"
+
+      when_deployed:
+        - "Starting any new engagement (contract requirement)"
+        - "When diagnosing organizational growth failures"
+        - "When building growth teams"
+
+      manifestations:
+        - "Full-day workshop in contract"
+        - "North Star as alignment tool"
+        - "Won't work without CEO buy-in"
+
+      triangulation:
+        source_count: 12
+        agreement: "100%"
+
+      confidence: 94
+
+    - model_id: "MM_008"
+      name: "Economic-Constraint-as-Feature Model"
+      category: "Strategic"
+      description: |
+        Economic constraints (ROI requirements, payback windows) are
+        beneficial because they force prioritization and prevent
+        accepting marginal opportunities.
+
+      cognitive_structure:
+        type: "Paradox"
+        pattern: "More constraints → Better focus → Faster growth"
+
+      when_deployed:
+        - "Fundraising discussions"
+        - "Growth at all costs debates"
+        - "Budget allocation"
+
+      contrarian_nature: |
+        "Economic constraints are a good thing. They actually can
+        help you grow faster."
+
+      triangulation:
+        source_count: 8
+        agreement: "100%"
+
+      confidence: 88
+
+    - model_id: "MM_009"
+      name: "Network-Effects-Density Model"
+      category: "Market Strategy"
+      description: |
+        Network effect businesses require critical mass before PMF
+        can be validated. Must constrain to narrow market, achieve
+        density, then expand.
+
+      cognitive_structure:
+        type: "Sequential Gate"
+        pattern: "Narrow market → Density → PMF → Then expand"
+
+      when_deployed:
+        - "Marketplace/platform strategy"
+        - "Geographic expansion decisions"
+        - "Two-sided market growth"
+
+      triangulation:
+        source_count: 6
+        agreement: "100%"
+
+      confidence: 85
+
+    - model_id: "MM_010"
+      name: "Freemium-Economics Model"
+      category: "Business Model"
+      description: |
+        Freemium requires fundamentally different economics:
+        5-10% of premium acquisition cost, heavy word-of-mouth
+        reliance, 3-month payback windows.
+
+      cognitive_structure:
+        type: "Economic Framework"
+        pattern: "Free tier → Must be genuinely valuable → WoM compounds"
+
+      when_deployed:
+        - "Freemium pricing decisions"
+        - "Customer acquisition strategy"
+        - "Unit economics discussions"
+
+      triangulation:
+        source_count: 9
+        agreement: "95%"
+
+      confidence: 90
+
+    - model_id: "MM_011"
+      name: "Greenfield-vs-Competitive Model"
+      category: "Market Strategy"
+      description: |
+        Two distinct market types require different strategies:
+        Greenfield (no current solution) → Simplicity focus
+        Competitive (switching from alternatives) → Differentiation focus
+
+      cognitive_structure:
+        type: "Branching"
+        pattern: "Market type? → Different strategy branch"
+
+      triangulation:
+        source_count: 5
+        agreement: "100%"
+
+      confidence: 82
+
+    - model_id: "MM_012"
+      name: "CEO-Involvement-as-Proxy Model"
+      category: "Success Factor"
+      description: |
+        CEO hands-on involvement strongly correlates with growth success.
+        If CEO is disengaged, probability of success drops significantly.
+
+      cognitive_structure:
+        type: "Predictive Indicator"
+        pattern: "CEO engaged? → High success probability"
+
+      when_deployed:
+        - "Evaluating engagement viability"
+        - "Setting contract requirements"
+        - "Predicting success likelihood"
+
+      triangulation:
+        source_count: 7
+        agreement: "100%"
+
+      confidence: 88
+
+    - model_id: "MM_013"
+      name: "Cohort-Retention-as-Truth Model"
+      category: "Analytics"
+      description: |
+        Cohort retention curves are the most reliable measure of PMF.
+        Curve stabilization indicates PMF within that cohort.
+        PMF survey gives the "why", retention gives the "what".
+
+      cognitive_structure:
+        type: "Validation Framework"
+        pattern: "Survey = leading indicator + why. Retention = lagging + certainty"
+
+      triangulation:
+        source_count: 8
+        agreement: "100%"
+
+      confidence: 90
+
+  # ===========================================================================
+  # CROSS-DOMAIN MENTAL MODELS (Transfer across contexts)
+  # ===========================================================================
+
+  cross_domain_models:
+
+    - model_id: "MM_014"
+      name: "Validation-Before-Action Model"
+      category: "Universal"
+      description: |
+        Always validate assumptions before investing significant resources.
+        Measure first, understand why, then act.
+
+      cross_domain_applications:
+        - domain: "Product"
+          application: "PMF survey before scaling"
+        - domain: "Career"
+          application: "Won't take roles without PMF signal"
+        - domain: "Speaking"
+          application: "Declined AI presentation until had experience"
+        - domain: "Experiments"
+          application: "ICE scoring before running tests"
+
+      triangulation:
+        source_count: 20
+        agreement: "100%"
+
+      confidence: 96
+
+    - model_id: "MM_015"
+      name: "Story-to-Framework Pattern"
+      category: "Universal"
+      description: |
+        Transform specific experiences into reusable frameworks.
+        Stories provide credibility, frameworks enable transfer.
+
+      cross_domain_applications:
+        - domain: "Teaching"
+          application: "LogMeIn story → Activation importance framework"
+        - domain: "Methodology"
+          application: "Multiple companies → 40% PMF threshold"
+        - domain: "Communication"
+          application: "Specific examples → General principles"
+
+      triangulation:
+        source_count: 15
+        agreement: "100%"
+
+      confidence: 92
+
+    - model_id: "MM_016"
+      name: "Experience-Before-Expertise Model"
+      category: "Universal"
+      description: |
+        Won't present or advise on topics without direct practical
+        experience. Authenticity over authority.
+
+      cross_domain_applications:
+        - domain: "Speaking"
+          application: "Declined China AI presentation"
+        - domain: "Advising"
+          application: "Won't join without PMF validation"
+        - domain: "Teaching"
+          application: "Created simulator for experiential learning"
+
+      triangulation:
+        source_count: 10
+        agreement: "100%"
+
+      confidence: 91
+
+    - model_id: "MM_017"
+      name: "Counter-Example-Discovery Model"
+      category: "Universal"
+      description: |
+        When facing limiting beliefs, actively seek counter-examples
+        that disprove the constraint.
+
+      cross_domain_applications:
+        - domain: "Product Strategy"
+          application: "IM products disproved 'downloadable software can't scale'"
+        - domain: "Growth Methods"
+          application: "Counter-examples to 'listen to all feedback'"
+        - domain: "Business Models"
+          application: "Freemium counter-examples to 'free doesn't work'"
+
+      triangulation:
+        source_count: 8
+        agreement: "100%"
+
+      confidence: 88
+
+# =============================================================================
+# FOCUSED vs DIFFUSE MODE ANALYSIS (Oakley Framework)
+# =============================================================================
+
+thinking_modes:
+
+  focused_mode:
+    description: "Concentrated, analytical, sequential thinking"
+
+    when_dominant:
+      - "Running PMF survey analysis"
+      - "Scoring experiments with ICE"
+      - "Analyzing retention cohorts"
+      - "Executing workshop protocols"
+      - "Explaining established frameworks"
+
+    characteristics:
+      - "High precision with numbers (40%, 95%, 10x)"
+      - "Systematic checklist approach"
+      - "Framework-first answering"
+      - "Consistent story delivery"
+
+    cognitive_load: "Low for established frameworks (highly chunked)"
+
+  diffuse_mode:
+    description: "Relaxed, creative, big-picture thinking"
+
+    when_dominant:
+      - "Generating experiment ideas"
+      - "Workshop facilitation (reading room dynamics)"
+      - "Recognizing patterns across companies"
+      - "Synthesizing frameworks from experience"
+
+    characteristics:
+      - "Open to unexpected connections"
+      - "Uses ChatGPT as diffuse-mode amplifier"
+      - "Reflective synthesis after engagements"
+
+    cognitive_load: "Higher - pattern recognition across contexts"
+
+  mode_transitions:
+    focused_to_diffuse:
+      - trigger: "Question outside expertise (AI)"
+        transition: "Immediate shift to uncertainty, hedging"
+      - trigger: "Stuck on growth problem"
+        transition: "Steps back to look for patterns"
+
+    diffuse_to_focused:
+      - trigger: "Question about PMF/activation/ICE"
+        transition: "Immediate framework deployment"
+      - trigger: "Data available for analysis"
+        transition: "Systematic analysis mode"
+
+# =============================================================================
+# CHUNKING ANALYSIS
+# =============================================================================
+
+chunking_profile:
+
+  highly_chunked_knowledge:
+    description: "Automated, instantly retrievable knowledge sequences"
+
+    examples:
+      - chunk: "PMF Test Protocol"
+        components: ["Question", "40% threshold", "Sample requirements", "Interpretation"]
+        retrieval_time: "Instant - System 1"
+
+      - chunk: "ICE Framework"
+        components: ["Impact", "Confidence", "Ease", "Scoring method"]
+        retrieval_time: "Instant - System 1"
+
+      - chunk: "LogMeIn Story"
+        components: ["95% abandonment", "CEO stopped roadmap", "3 months to fix", "10x improvement"]
+        retrieval_time: "Instant - told identically every time"
+
+      - chunk: "Activation Diagnosis"
+        components: ["Check first", "Silicon Valley insight", "Marketing + Product together"]
+        retrieval_time: "Instant - default diagnostic"
+
+  working_memory_strategies:
+    external_aids:
+      - "Written frameworks (ICE, PMF)"
+      - "Workshop documentation"
+      - "ChatGPT for ideation overflow"
+
+    grouping_strategies:
+      - "3 dimensions for ICE (within working memory limits)"
+      - "Single metric for North Star (reduces cognitive load)"
+      - "One question for PMF (simplest possible)"
+
+    cognitive_load_distribution:
+      - "Offloads ideation to ChatGPT"
+      - "Uses workshops to distribute thinking across team"
+      - "Simple frameworks reduce individual load"
+
+# =============================================================================
+# MODEL BLIND SPOTS (Einstellung Effect)
+# =============================================================================
+
+blind_spots:
+
+  systematic_blind_spots:
+    - domain: "B2B Enterprise"
+      blind_spot: "PMF threshold may not apply to high-touch enterprise sales"
+      evidence: "Most examples are B2C or SMB SaaS"
+
+    - domain: "Deep Tech"
+      blind_spot: "Long development cycles don't fit rapid experimentation"
+      evidence: "Framework examples all fast-iteration products"
+
+    - domain: "Creative Products"
+      blind_spot: "Artistic value may not be measurable via PMF survey"
+      evidence: "All examples are utility/productivity focused"
+
+  einstellung_risks:
+    - "May apply activation diagnosis when problem is elsewhere"
+    - "May oversimplify genuinely complex situations"
+    - "PMF-first thinking may delay exploration in novel markets"
+    - "Simple framework preference may miss important nuance"
+
+# =============================================================================
+# VALIDATION
+# =============================================================================
+
+validation:
+
+  quality_gates:
+    - gate: "Minimum 5 distinct mental models identified"
+      status: "PASSED (17 models)"
+    - gate: "Usage context documented for each"
+      status: "PASSED"
+    - gate: "Frameworks from multiple domains"
+      status: "PASSED (Product, Strategy, Ops, Universal)"
+    - gate: "Blind spots documented"
+      status: "PASSED"
+    - gate: "At least 2 cross-domain models"
+      status: "PASSED (4 cross-domain)"
+    - gate: "Triangulation >= 70% on all core models"
+      status: "PASSED (lowest: 93%)"
+
+  overall_confidence: 94
+
+  recommendations_for_synthesis:
+    - "Core 5 models are foundational - must be in system prompt"
+    - "Thinking mode transitions important for authentic responses"
+    - "Chunked knowledge (stories, frameworks) should be encoded verbatim"
+    - "Blind spots should inform response calibration"

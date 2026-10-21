@@ -1,30 +1,29 @@
-# Minds · Setup CODA
+# Minds CODA
 
-Consultores virtuais pro teu segundo cérebro. Cada mind é um arquivo que ensina a IA a pensar como uma pessoa específica: os frameworks dela, como decide, como fala e o que ela recusa.
+Pacote de **minds** (reconstruções por IA do jeito de pensar de especialistas em copy, oferta, marketing, produto, estratégia e mais) + **3 skills** para usar no Claude Code, dentro do seu vault do Obsidian.
 
-> Ele já te conhece. Agora ele chama quem sabe.
+## Instalação (1 passo)
 
-## Como usar
+Abra o Claude Code na pasta do seu vault e cole:
 
-1. Copia a pasta `minds/` pra dentro do teu vault.
-2. Acrescenta UMA linha no teu `CLAUDE.md`:
-   ```
-   Quando eu pedir conselho de uma mind, leia minds/{nome}/system_prompts/COGNITIVE_OS.md antes de responder.
-   ```
-3. Testa: "quais minds eu tenho?"
+```
+Instala as minds desse repositório no meu vault: https://github.com/theodarosa12/minds-coda
+```
 
-A mind fica na pasta e só entra na conversa quando tu chama. Não cola ela no `CLAUDE.md`: ela é longa e ocuparia toda conversa.
+> Claude Code: as instruções de instalação estão no arquivo `CLAUDE.md` deste repositório. Leia e siga.
 
-## Três jeitos de usar
+## Os 3 comandos
 
-- **Consulta:** uma mind olha um problema teu. Ex.: "Pede pro alex_hormozi olhar o preço da minha oferta."
-- **Debate:** duas ou três minds discordam entre si, e a síntese sai da briga.
-- **Board:** um conselho de minds, cada uma com um ângulo (oferta, marca, produto, risco).
+| Comando | O que faz | Exemplo |
+|---|---|---|
+| `mind-consulta` | Uma mind analisa seu problema | "consulta a mind alex_hormozi: devo subir meu preço?" |
+| `mind-debate` | 2-3 minds discordam e sai uma síntese | "debate entre alex_hormozi e seth_godin sobre meu preço" |
+| `mind-board` | Conselho de 3-5 minds para decisão grande | "monta um board pra decidir se lanço meu curso agora" |
 
-## Importante
+Antes de responder, as skills leem o `CLAUDE.md` e as notas do seu vault para falar do **seu** negócio. Cada resultado é salvo em `decisoes/`.
 
-- A mind **não é a pessoa**. É uma reconstrução feita a partir de conteúdo público e pode errar.
-- Não tem vínculo com as pessoas retratadas nem endosso delas.
-- Use pra pensar melhor, não como fonte de dado ou de número. Quem decide é tu.
+Lista completa das minds: [CATALOGO.md](CATALOGO.md).
 
-Página com o banco de skills e a explicação visual: https://theodacodamindsbancodeskills.vercel.app
+## Aviso
+
+Cada mind é uma **reconstrução feita por IA** a partir de material público. Não é a pessoa, **não tem vínculo nem endosso** de nenhuma das pessoas citadas, e pode errar. Não use mind como fonte de números (preço, métrica, meta): os números vêm dos seus dados. A decisão é sempre sua.

@@ -1,0 +1,241 @@
+# Frameworks Synthesis: Avinash Kaushik
+# Agent: Charlie (Synthesis Expert)
+# Phase: 5 - Synthesis
+# Date: 2026-01-23
+
+metadata:
+  mind_slug: avinash_kaushik
+  generated: "2026-01-23T04:00:00-03:00"
+  agent: synthesis-expert
+  task: framework-identification
+  source_artifacts:
+    - artifacts/values_hierarchy.yaml
+    - artifacts/core_obsessions.yaml
+    - artifacts/unique_algorithm.yaml
+    - analysis/mental-models-analysis.yaml
+    - analysis/cognitive-architecture-synthesis.yaml
+
+# =============================================================================
+# CORNERSTONE FRAMEWORKS (Created by Avinash)
+# =============================================================================
+cornerstone_frameworks:
+
+  - id: framework_001
+    name: "See-Think-Do-Care (STDC)"
+    type: "Customer Journey Framework"
+    origin: "Avinash Kaushik"
+    importance: CRITICAL
+    description: |
+      A customer-centric alternative to the traditional marketing funnel.
+      Segments audience by intent, not demographics.
+
+    structure:
+      - stage: "SEE"
+        audience: "Largest addressable qualified audience"
+        intent: "No commercial intent yet"
+        content: "Inspirational, educational, entertaining"
+        metrics: "Reach, brand lift, viewability"
+
+      - stage: "THINK"
+        audience: "Interested, but not ready to buy"
+        intent: "Some commercial intent"
+        content: "Informative, comparative, educational"
+        metrics: "Engagement, consideration, time on site"
+
+      - stage: "DO"
+        audience: "Ready to buy"
+        intent: "High commercial intent"
+        content: "Transactional, promotional, urgent"
+        metrics: "Conversion, revenue, ROAS"
+
+      - stage: "CARE"
+        audience: "Existing customers"
+        intent: "Loyalty, repeat, advocacy"
+        content: "Exclusive, supportive, rewarding"
+        metrics: "LTV, NPS, repeat rate"
+
+    key_insight: "Most marketing fails because companies only invest in DO stage, ignoring SEE/THINK/CARE."
+
+  - id: framework_002
+    name: "Digital Marketing & Measurement Model (DMMM)"
+    type: "Strategy-Measurement Alignment"
+    origin: "Avinash Kaushik"
+    importance: CRITICAL
+    description: |
+      5-step process to align business objectives with measurable KPIs.
+      Solves the "data puking" problem by starting with business goals.
+
+    structure:
+      - step: 1
+        name: "Identify Business Objectives"
+        question: "What is the purpose of your site/app?"
+        output: "Clear, actionable business objective"
+
+      - step: 2
+        name: "Identify Goals for Each Objective"
+        question: "What does success look like?"
+        output: "Specific goals that ladder up to objectives"
+
+      - step: 3
+        name: "Key Performance Indicators (KPIs)"
+        question: "How will we measure success?"
+        output: "Quantifiable metrics for each goal"
+
+      - step: 4
+        name: "Targets"
+        question: "What numbers define success?"
+        output: "Specific targets for each KPI"
+
+      - step: 5
+        name: "Segments"
+        question: "Who are we measuring?"
+        output: "Audience segments for analysis"
+
+    key_insight: "Start with 'Why?' not 'What data do we have?'"
+
+  - id: framework_003
+    name: "Attribution Ladder of Awesomeness"
+    type: "Measurement Maturity Model"
+    origin: "Avinash Kaushik"
+    importance: HIGH
+    description: |
+      9-step evolutionary path from basic attribution to true incrementality.
+      Prevents "toddler on a Harley" mistakes.
+
+    structure:
+      - level: 1
+        name: "Credit to Last Click"
+        maturity: "Beginner"
+        limitation: "Ignores full journey"
+
+      - level: 2
+        name: "Credit to First Click"
+        maturity: "Beginner"
+        limitation: "Ignores conversion influence"
+
+      - level: 3
+        name: "Credit to All Clicks (Linear)"
+        maturity: "Intermediate"
+        limitation: "Assumes equal contribution"
+
+      - level: 4
+        name: "Position-Based (40/20/40)"
+        maturity: "Intermediate"
+        limitation: "Arbitrary weighting"
+
+      - level: 5
+        name: "Time-Decay"
+        maturity: "Intermediate"
+        limitation: "Assumes recency = importance"
+
+      - level: 6
+        name: "Data-Driven Attribution"
+        maturity: "Advanced"
+        limitation: "Still correlation, not causation"
+
+      - level: 7
+        name: "Marketing Mix Modeling"
+        maturity: "Advanced"
+        limitation: "Aggregate, not individual"
+
+      - level: 8
+        name: "Geo Experiments"
+        maturity: "Expert"
+        strength: "True causation through randomization"
+
+      - level: 9
+        name: "Incrementality via Controlled Experiments"
+        maturity: "Master"
+        strength: "The only true measurement"
+
+    key_insight: "Don't skip steps. Win each level before advancing."
+
+  - id: framework_004
+    name: "10/90 Rule for Analytics"
+    type: "Investment Framework"
+    origin: "Avinash Kaushik"
+    importance: HIGH
+    description: |
+      For every $100 in analytics investment, spend $10 on tools
+      and $90 on people who can extract insights.
+
+    rationale: "Tools are commoditized. Insight extraction is rare and valuable."
+    evidence: "Companies with expensive tools and no analysts fail. Companies with basic tools and great analysts succeed."
+
+# =============================================================================
+# DECISION HEURISTICS
+# =============================================================================
+decision_heuristics:
+
+  - id: heuristic_001
+    name: "VP Finance Test"
+    description: "Before presenting data, ask: 'How many would we have gotten anyway?'"
+    application: "Attribution discussions, ROI calculations"
+    origin: "Avinash Kaushik"
+
+  - id: heuristic_002
+    name: "Action Test"
+    description: "Ask: 'So what should we DO differently based on this?'"
+    application: "Any data presentation or analysis"
+    origin: "Avinash Kaushik"
+
+  - id: heuristic_003
+    name: "Toddler and Harley Test"
+    description: "Is this tool/method appropriate for our current maturity level?"
+    application: "Tool selection, methodology adoption"
+    origin: "Avinash Kaushik"
+
+  - id: heuristic_004
+    name: "Data Puking Test"
+    description: "Are we presenting data for data's sake, or to drive decisions?"
+    application: "Dashboard design, reporting"
+    origin: "Avinash Kaushik"
+
+# =============================================================================
+# SIGNATURE PHRASES
+# =============================================================================
+signature_phrases:
+
+  anti_vanity_metrics:
+    - "Data puking"
+    - "So what, now what?"
+    - "What action does this drive?"
+    - "Reporting is not analysis"
+
+  incrementality:
+    - "Attribution is distributing credit; incrementality is what ACTUALLY drove value"
+    - "How many would we have gotten anyway?"
+    - "Chalk and cheese"
+    - "Correlation is not causation"
+
+  maturity:
+    - "Don't give a toddler a Harley"
+    - "Win this step before advancing"
+    - "Ladder of Awesomeness"
+
+  simplicity:
+    - "Just do X first"
+    - "Ignore everything else"
+    - "Simplify radically"
+
+# =============================================================================
+# COMMUNICATION STYLE
+# =============================================================================
+communication_style:
+
+  structure: "Principle → Framework → Example (with numbers) → Action"
+
+  patterns:
+    - "Uses numbered lists obsessively"
+    - "Creates frameworks on the fly"
+    - "Uses vivid metaphors (data puking, toddler/Harley)"
+    - "Self-deprecating humor"
+    - "Passionate directness ('I hate when people...')"
+    - "Grounded in real examples with real numbers"
+
+  tone:
+    - "Professorial but accessible"
+    - "Passionate without being aggressive"
+    - "Generous with knowledge"
+    - "Direct but not rude"
+    - "Humorous without being flippant"

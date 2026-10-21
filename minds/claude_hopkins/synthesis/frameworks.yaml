@@ -1,0 +1,1175 @@
+# frameworks.yaml - Claude Hopkins
+# Mind Mapper OS (MMOS) Pipeline
+# Task: framework-identification
+# Agent: Charlie (Synthesis Expert - Munger Method)
+# Phase: 5 - Synthesis
+# Generated: 2026-01-23
+
+metadata:
+  mind_slug: claude_hopkins
+  mind_name: Claude C. Hopkins
+  analysis_date: "2026-01-23"
+  agent: charlie-synthesis-expert
+  methodology: "Mental Model Lattice Synthesis (Munger Method)"
+  phase: 5
+  task: framework-identification
+  sources_synthesized:
+    - analysis/mental-models.yaml
+    - analysis/cognitive-spec.yaml
+    - analysis/linguistic-patterns.yaml
+    - analysis/psychometric-profile.yaml
+    - artifacts/values_hierarchy.yaml
+    - artifacts/decision_architecture.yaml
+    - artifacts/multi_source_patterns.yaml
+    - artifacts/behavioral_patterns.yaml
+  confidence: 91
+
+  synthesis_approach: |
+    Following Charlie Munger's mental model lattice approach:
+    1. Extract fundamental frameworks from all analysis artifacts
+    2. Identify relationships and dependencies between frameworks
+    3. Create hierarchy from first principles to tactical applications
+    4. Map cross-domain applicability
+    5. Develop operational rules for each framework
+
+# ============================================
+# FRAMEWORK HIERARCHY
+# From First Principles to Tactical Application
+# ============================================
+
+hierarchy:
+  description: |
+    Hopkins' frameworks form a coherent system where higher-level
+    principles inform lower-level tactics. Understanding this hierarchy
+    enables proper application of Hopkins' thinking.
+
+  levels:
+    - level: 1
+      name: "Meta-Principles"
+      description: "Foundational beliefs that govern everything"
+
+    - level: 2
+      name: "Strategic Frameworks"
+      description: "Systems for major decisions and positioning"
+
+    - level: 3
+      name: "Methodological Frameworks"
+      description: "Repeatable processes and workflows"
+
+    - level: 4
+      name: "Tactical Frameworks"
+      description: "Specific techniques for execution"
+
+# ============================================
+# LEVEL 1: META-PRINCIPLES
+# Foundational frameworks that govern all others
+# ============================================
+
+meta_principles:
+
+  # === META-PRINCIPLE 1: SCIENTIFIC ADVERTISING ===
+  - framework_id: META_001
+    name: "Scientific Advertising Paradigm"
+    level: 1
+    category: meta_principle
+
+    essence: |
+      Advertising is not art, creativity, or entertainment. It is a SCIENCE
+      governed by measurable laws. Like physics or chemistry, advertising
+      has principles that can be tested, validated, and systematized.
+      What works can be known, not guessed.
+
+    core_tenets:
+      - tenet: "Advertising is salesmanship, multiplied by print"
+        implication: "Apply salesman standards, not artistic standards"
+
+      - tenet: "What works can be tested and proven"
+        implication: "Never proceed on opinion alone"
+
+      - tenet: "Principles, once discovered, are universal"
+        implication: "Systems beat talent; methods beat genius"
+
+      - tenet: "The customer is the ultimate judge"
+        implication: "Market response overrules expert opinion"
+
+    relationships:
+      enables:
+        - "Testing Supremacy Framework"
+        - "Data Over Opinion Framework"
+        - "Systematization Framework"
+      contradicts:
+        - "Advertising as art"
+        - "Creative instinct paradigm"
+        - "Award-culture values"
+
+    application_rule: |
+      ALWAYS ask: "Can this be tested? Can this be measured? Can this be
+      systematized?" If the answer is no, find a way to make it yes.
+      If still no, proceed with extreme caution.
+
+    source_evidence:
+      - "Book titled 'Scientific Advertising' - not 'Creative Advertising'"
+      - "Entire methodology built on measurement"
+      - "'Almost any question can be answered by a test campaign'"
+
+  # === META-PRINCIPLE 2: SALESMANSHIP IN PRINT ===
+  - framework_id: META_002
+    name: "Salesmanship in Print Framework"
+    level: 1
+    category: meta_principle
+
+    essence: |
+      Every advertisement is a salesman calling on prospects. The ad must
+      do everything a salesman would do: understand the prospect, present
+      the offer, address objections, close the sale. Any element that a
+      salesman wouldn't use in person is suspect.
+
+    core_tenets:
+      - tenet: "Ads are salesmen, not entertainers"
+        implication: "Judge by sales effectiveness, not entertainment value"
+
+      - tenet: "Salesmen don't use puns, tricks, or clever wordplay"
+        implication: "Plain language outperforms creative language"
+
+      - tenet: "Salesmen focus on customer benefit"
+        implication: "Service frame beats product feature frame"
+
+      - tenet: "Salesmen ask for the order"
+        implication: "Every ad needs clear call to action"
+
+    heuristic_form: |
+      THE SALESMAN TEST:
+      "Would a salesman say this in person to a customer?"
+      YES → Consider accepting
+      NO → Reject immediately
+
+    relationships:
+      enables:
+        - "Customer Service Framework"
+        - "Plain Language Framework"
+        - "CTA Clarity Framework"
+      contradicts:
+        - "Creative entertainment priority"
+        - "Award-focused advertising"
+        - "Brand awareness without action"
+
+    application_rule: |
+      For EVERY piece of copy, run the salesman test. Imagine a real
+      salesperson visiting a real customer. Would they say these words?
+      Would they use this approach? If not, revise.
+
+    source_evidence:
+      - "John E. Kennedy origin: 'Advertising is salesmanship in print'"
+      - "'The purpose of advertising is to sell'"
+      - "'Apply the salesman's standards to all advertising'"
+
+# ============================================
+# LEVEL 2: STRATEGIC FRAMEWORKS
+# Systems for major decisions and positioning
+# ============================================
+
+strategic_frameworks:
+
+  # === STRATEGIC FRAMEWORK 1: TESTING SUPREMACY ===
+  - framework_id: STRAT_001
+    name: "Testing Supremacy Framework"
+    level: 2
+    category: strategic
+    parent: META_001  # Scientific Advertising Paradigm
+
+    essence: |
+      Testing is not optional, not a nice-to-have, not something we do
+      when we have time. Testing is the FOUNDATION of all good decisions.
+      Data from real customers overrules all expert opinion, intuition,
+      experience, and boardroom debate.
+
+    hierarchy_of_evidence:
+      level_1: "Measured test results (highest authority)"
+      level_2: "Patterns from previous tests"
+      level_3: "Expert opinion with track record"
+      level_4: "Untested theory (lowest authority)"
+
+    operational_rules:
+      - rule: "Never scale without testing"
+        explanation: "Small test → Validate → Scale winner"
+
+      - rule: "Test, don't argue"
+        explanation: "Disputes are settled by data, not debate"
+
+      - rule: "Build measurement into infrastructure"
+        explanation: "Tracking is designed upfront, not added later"
+
+      - rule: "Data overrules intuition - always"
+        explanation: "Even when intuition feels strong"
+
+    commitment_devices:
+      - "Build tracking into every campaign from start"
+      - "Never present 'opinion' - present 'hypothesis for testing'"
+      - "Celebrate being proven wrong (system working)"
+
+    failure_modes:
+      - mode: "Testing trivial variations (analysis paralysis)"
+        prevention: "Test significant variables; quick decisions on minor"
+
+      - mode: "Ignoring test results that feel wrong"
+        prevention: "Commit upfront to follow data"
+
+      - mode: "Testing without statistical significance"
+        prevention: "Define success criteria before testing"
+
+    relationships:
+      parent: META_001
+      enables:
+        - "Headline Testing Framework"
+        - "Offer Optimization Framework"
+        - "Continuous Improvement System"
+      requires:
+        - "Measurement Infrastructure"
+        - "Client education on testing value"
+
+    source_evidence:
+      - "'Almost any question can be answered by a test campaign'"
+      - "'Not by arguments around a table'"
+      - "'Go to the court of last resort - the buyers'"
+      - "'Not one dollar spent on my own opinions'"
+
+  # === STRATEGIC FRAMEWORK 2: SPECIFICITY DOCTRINE ===
+  - framework_id: STRAT_002
+    name: "Specificity Doctrine"
+    level: 2
+    category: strategic
+    parent: META_001
+
+    essence: |
+      General claims are worthless. Specific facts are powerful.
+      "25% more suds" beats "improved formula" every time.
+      Specificity is not just more effective - it is the ONLY effective
+      approach. Generality is not a lesser strategy; it is no strategy.
+
+    specificity_spectrum:
+      level_1_fatal: "General superlatives ('best', 'improved', 'quality')"
+      level_2_weak: "Vague benefits ('saves time', 'works better')"
+      level_3_acceptable: "Directional claims ('faster than', '3 times more')"
+      level_4_strong: "Precise facts ('37% increase', '4.2 hour process')"
+      level_5_compelling: "Specific stories ('Schlitz bottles washed 4 times')"
+
+    operational_rules:
+      - rule: "Reject all general claims"
+        application: "If it could apply to any competitor, it's too general"
+
+      - rule: "Find the specific fact"
+        application: "Research deeper until you find a unique, specific truth"
+
+      - rule: "Numbers over adjectives"
+        application: "Replace every adjective with a number when possible"
+
+      - rule: "Process over outcome"
+        application: "'Bottles washed 4 times' beats 'pure beer'"
+
+    heuristic_form: |
+      THE SPECIFICITY CHECK:
+      "Is this specific or general?"
+      SPECIFIC (numbers, facts, details) → Accept
+      GENERAL ('best', 'improved', 'quality') → Reject immediately
+
+    anti_patterns:
+      - pattern: "Best in the world"
+        problem: "Everyone claims this; says nothing"
+        fix: "Find what makes you best; say that specifically"
+
+      - pattern: "Improved formula"
+        problem: "How improved? Compared to what?"
+        fix: "What changed? What's the measurable result?"
+
+      - pattern: "Quality you can trust"
+        problem: "Meaningless platitude"
+        fix: "What specific quality markers? What verification?"
+
+    relationships:
+      parent: META_001
+      enables:
+        - "Preemptive Claim Strategy"
+        - "Reason-Why Copy Framework"
+      requires:
+        - "Deep Research Framework"
+        - "Factory Visit Protocol"
+
+    source_evidence:
+      - "'Platitudes roll off like water from a duck'"
+      - "'Superlatives are usually damaging'"
+      - "Schlitz: specific process details, not 'pure beer'"
+      - "Pepsodent: 'film on teeth', not 'clean your teeth'"
+
+  # === STRATEGIC FRAMEWORK 3: CUSTOMER-FIRST SEQUENCING ===
+  - framework_id: STRAT_003
+    name: "Customer-First Sequencing Framework"
+    level: 2
+    category: strategic
+    parent: META_002  # Salesmanship in Print
+
+    essence: |
+      The SEQUENCE of work determines its quality. Always start from
+      customer problems and desires, THEN map product to those needs.
+      Never start from product features and try to make them interesting.
+      The customer is the hero; the product is the tool.
+
+    correct_sequence:
+      step_1: "What does the customer WANT? (desire, aspiration, outcome)"
+      step_2: "What PROBLEM prevents them from having it?"
+      step_3: "How does our product SOLVE that problem?"
+      step_4: "What PROOF do we have that it works?"
+      step_5: "What ACTION should they take?"
+
+    wrong_sequence:
+      step_1: "What features does our product have?"
+      step_2: "Why are these features good?"
+      step_3: "Who might want these features?"
+      problem: "This is product-centric, not customer-centric"
+
+    operational_rules:
+      - rule: "Ask customer questions before product questions"
+        application: "Start every project with: What do they want?"
+
+      - rule: "Service frame, not product frame"
+        application: "We serve needs; we don't push products"
+
+      - rule: "Outcome over mechanism"
+        application: "Beauty (outcome) beats soap chemistry (mechanism)"
+
+    case_study_applications:
+      - case: "Pepsodent"
+        customer_first: "Why don't people brush? What would make them start?"
+        result: "Film on teeth as enemy; beauty as promise"
+
+      - case: "Palmolive"
+        customer_first: "What do women want? Beauty and youth."
+        result: "Cleopatra's beauty secret, not soap ingredients"
+
+      - case: "Schlitz"
+        customer_first: "Why do consumers distrust beer? Purity concerns."
+        result: "Detailed purity process, not 'quality beer'"
+
+    relationships:
+      parent: META_002
+      enables:
+        - "Problem-Solution Copy Framework"
+        - "Benefit-Led Headlines"
+      contradicts:
+        - "Product-feature focused advertising"
+        - "Technical specification emphasis"
+
+    source_evidence:
+      - "'They care nothing about your interest or your profit'"
+      - "'They seek service for themselves'"
+      - "Every case study starts from customer problem"
+
+  # === STRATEGIC FRAMEWORK 4: PREEMPTIVE CLAIMING ===
+  - framework_id: STRAT_004
+    name: "Preemptive Claim Strategy"
+    level: 2
+    category: strategic
+    parent: STRAT_002  # Specificity Doctrine
+
+    essence: |
+      You don't have to be different - you have to be FIRST to articulate
+      what everyone does. The brewery that claims "pure" first owns purity,
+      even if all breweries are equally pure. First to articulate wins
+      the perception; followers are seen as copycats.
+
+    strategic_logic:
+      premise_1: "Most products in a category have similar qualities"
+      premise_2: "Most of these qualities are never communicated"
+      premise_3: "The first to articulate a quality OWNS that quality"
+      conclusion: "Find universal truths and claim them first"
+
+    discovery_process:
+      step_1: "Research what ALL competitors in category do"
+      step_2: "Identify quality standards that are UNIVERSAL"
+      step_3: "Find which universal truths have NOT been claimed"
+      step_4: "Articulate the universal truth FIRST with specificity"
+      step_5: "Own the perception; competitors become 'me too'"
+
+    operational_rules:
+      - rule: "Research competitors before claiming"
+        application: "Understand what's claimable vs. already claimed"
+
+      - rule: "Universal truths are claimable"
+        application: "If everyone does it but no one says it, it's yours"
+
+      - rule: "Specificity protects claims"
+        application: "Specific process claims are harder to copy"
+
+      - rule: "First mover advantage in communication"
+        application: "Speed matters - claim before competitors do"
+
+    case_study_applications:
+      - case: "Schlitz"
+        universal_truth: "All breweries use clean processes"
+        preemptive_claim: "Bottles washed 4 times, plate-glass rooms, filtered air"
+        result: "Schlitz owned 'purity' despite equal purity elsewhere"
+
+      - case: "Quaker Oats"
+        universal_truth: "All puffed cereals use similar process"
+        preemptive_claim: "'Shot from guns' (dramatic naming)"
+        result: "Quaker owned the process perception"
+
+    limitations:
+      - "Requires research to find claimable truths"
+      - "Competitors can eventually catch up"
+      - "Claims must be defensible (ethics)"
+
+    relationships:
+      parent: STRAT_002
+      enables:
+        - "Unique Positioning Framework"
+        - "Competitive Differentiation"
+      requires:
+        - "Deep Research Framework"
+        - "Competitive Intelligence"
+
+    source_evidence:
+      - "'I was first to tell them'"
+      - "Schlitz brewery case study"
+      - "Extended by Rosser Reeves (USP), Ries & Trout (Positioning)"
+
+# ============================================
+# LEVEL 3: METHODOLOGICAL FRAMEWORKS
+# Repeatable processes and workflows
+# ============================================
+
+methodological_frameworks:
+
+  # === METHODOLOGICAL FRAMEWORK 1: RESEARCH-SPECIFICITY-SIMPLICITY PIPELINE ===
+  - framework_id: METHOD_001
+    name: "Research-Specificity-Simplicity Pipeline"
+    level: 3
+    category: methodological
+    parent: STRAT_002  # Specificity Doctrine
+
+    essence: |
+      Simple output requires deep input. You cannot write simply about
+      what you don't understand deeply. The pipeline is non-negotiable:
+      WEEKS of research enable SENTENCES of simplicity.
+
+    pipeline_stages:
+      stage_1:
+        name: "Research Immersion"
+        duration: "Days to weeks"
+        activities:
+          - "Factory/site visits"
+          - "Expert interviews"
+          - "Technical deep-dives"
+          - "Competitive analysis"
+          - "Customer understanding"
+        output: "Comprehensive product knowledge"
+
+      stage_2:
+        name: "Specificity Extraction"
+        duration: "Hours to days"
+        activities:
+          - "Identify unique/claimable facts"
+          - "Find specific numbers and processes"
+          - "Discover differentiating details"
+          - "Map competitor claims"
+        output: "List of specific, claimable facts"
+
+      stage_3:
+        name: "Simplicity Synthesis"
+        duration: "Hours"
+        activities:
+          - "Select most compelling specifics"
+          - "Translate to simple language"
+          - "Create clear, direct copy"
+          - "Test for salesman standard"
+        output: "Simple, powerful copy"
+
+    quality_gate: |
+      READINESS CHECK:
+      "Can I explain this product simply to a stranger?"
+      YES → Ready to write
+      NO → More research needed
+
+    anti_patterns:
+      - pattern: "Writing before understanding"
+        symptom: "Vague, general copy"
+        fix: "Go back to research; you don't understand deeply enough"
+
+      - pattern: "Complex copy despite research"
+        symptom: "Technical jargon, convoluted sentences"
+        fix: "You understand; now simplify for the customer"
+
+      - pattern: "Skipping to simplicity"
+        symptom: "Simple but empty copy"
+        fix: "Simplicity must come FROM specificity, not INSTEAD of it"
+
+    relationships:
+      parent: STRAT_002
+      enables:
+        - "Copy Creation Workflow"
+        - "Product Positioning"
+      requires:
+        - "Research Commitment"
+        - "Time Investment"
+
+    source_evidence:
+      - "Every Hopkins case study shows this pattern"
+      - "'I went through that brewery'"
+      - "Weeks of research; simple campaigns"
+
+  # === METHODOLOGICAL FRAMEWORK 2: HEADLINE-FIRST WORKFLOW ===
+  - framework_id: METHOD_002
+    name: "Headline-First Workflow"
+    level: 3
+    category: methodological
+    parent: STRAT_001  # Testing Supremacy
+
+    essence: |
+      Headlines do 80% of the work. Five times as many people read
+      headlines as body copy. Therefore, 80% of effort should go to
+      headlines. The workflow: MANY headlines → TEST → SELECT → THEN body.
+
+    workflow_stages:
+      stage_1:
+        name: "Headline Generation"
+        quantity: "20-50 variants minimum"
+        approaches:
+          - "Benefit-focused headlines"
+          - "Curiosity-gap headlines"
+          - "News-style headlines"
+          - "Problem-focused headlines"
+          - "Question headlines"
+          - "How-to headlines"
+          - "Reason-why headlines"
+        output: "Large pool of headline options"
+
+      stage_2:
+        name: "Headline Testing"
+        method: "Split testing with tracking"
+        metrics:
+          - "Click-through rate"
+          - "Response rate"
+          - "Conversion rate"
+        output: "Data on which headlines work"
+
+      stage_3:
+        name: "Winner Selection"
+        method: "Data selects winner, not copywriter"
+        rule: "Follow data even when counterintuitive"
+        output: "Proven winning headline"
+
+      stage_4:
+        name: "Body Copy Development"
+        input: "Proven headline"
+        approach: "Body supports headline promise"
+        output: "Complete ad unit"
+
+    resource_allocation: |
+      EFFORT DISTRIBUTION:
+      - Headlines: 60-80% of creative effort
+      - Body copy: 15-30% of creative effort
+      - Other elements: 5-10% of creative effort
+
+    headline_heuristics:
+      - heuristic: "Flag down the right buyer"
+        application: "Headlines identify prospects, like ticket on meat"
+
+      - heuristic: "Make complete sales pitch"
+        application: "If only headline is read, pitch should be clear"
+
+      - heuristic: "Create curiosity gap"
+        application: "Incomplete information drives reading"
+
+      - heuristic: "Promise specific benefit"
+        application: "What does reader gain from reading?"
+
+    relationships:
+      parent: STRAT_001
+      enables:
+        - "Copy Creation Workflow"
+        - "A/B Testing Protocol"
+      requires:
+        - "Testing Infrastructure"
+        - "Multiple Variant Generation"
+
+    source_evidence:
+      - "'The headline is the most important element'"
+      - "'Five times as many read headlines as body'"
+      - "'The ticket on the meat'"
+      - "'80% of your money wasted if headline fails'"
+
+  # === METHODOLOGICAL FRAMEWORK 3: DEEP RESEARCH PROTOCOL ===
+  - framework_id: METHOD_003
+    name: "Deep Research Protocol"
+    level: 3
+    category: methodological
+    parent: METHOD_001  # Research-Specificity-Simplicity
+
+    essence: |
+      Hopkins' research depth was 10x industry standard. Not desk research -
+      physical immersion. Factory visits, expert interviews, technical
+      deep-dives. This wasn't just thoroughness; it was strategic advantage.
+      Others summarized; Hopkins understood.
+
+    research_depth_ladder:
+      level_1_surface: "Read marketing materials (INSUFFICIENT)"
+      level_2_secondary: "Read industry publications (INSUFFICIENT)"
+      level_3_primary: "Interview company experts (MINIMUM)"
+      level_4_immersion: "Visit production, observe process (STANDARD)"
+      level_5_mastery: "Understand enough to explain simply (TARGET)"
+
+    research_activities:
+      physical_investigation:
+        - "Factory/production facility visits"
+        - "Observe manufacturing process"
+        - "Talk to workers on the line"
+        - "See quality control in action"
+        - "Document specific details"
+
+      expert_consultation:
+        - "Interview company scientists/engineers"
+        - "Talk to industry experts"
+        - "Consult technical literature"
+        - "Understand competitive landscape"
+
+      customer_understanding:
+        - "Understand customer problems"
+        - "Know customer language"
+        - "Identify decision factors"
+        - "Map customer journey"
+
+    output_requirements:
+      - "Specific, claimable facts discovered"
+      - "Unique differentiators identified"
+      - "Customer problem deeply understood"
+      - "Able to explain simply to stranger"
+
+    time_investment: |
+      RESEARCH DURATION:
+      - New product category: 2-4 weeks
+      - Familiar category: 1-2 weeks
+      - Campaign update: 2-5 days
+      - Never: Less than 2 days for major campaign
+
+    relationships:
+      parent: METHOD_001
+      enables:
+        - "Specificity in copy"
+        - "Preemptive claims"
+        - "Confident positioning"
+      requires:
+        - "Client cooperation"
+        - "Access to product/facility"
+        - "Time commitment"
+
+    source_evidence:
+      - "'I went through that brewery'"
+      - "Pepsodent dental research"
+      - "Every case study shows extensive research"
+      - "Hidden curriculum: what he DID > what he SAID"
+
+# ============================================
+# LEVEL 4: TACTICAL FRAMEWORKS
+# Specific techniques for execution
+# ============================================
+
+tactical_frameworks:
+
+  # === TACTICAL FRAMEWORK 1: CURIOSITY GAP TECHNIQUE ===
+  - framework_id: TACT_001
+    name: "Curiosity Gap Technique"
+    level: 4
+    category: tactical
+    parent: METHOD_002  # Headline-First
+
+    essence: |
+      Create an information gap that readers must close. Promise something
+      they don't know. Create a question in their mind. Human curiosity
+      is a powerful driver - harness it to pull readers into copy.
+
+    mechanism: |
+      PSYCHOLOGY: Humans have drive to close information gaps.
+      APPLICATION: Create gap in headline; body copy closes it.
+      RESULT: Reader pulled through entire message.
+
+    curiosity_types:
+      - type: "Knowledge gap"
+        example: "What dentists don't tell you about clean teeth"
+        mechanism: "Reader wants to know the secret"
+
+      - type: "Story gap"
+        example: "How a $5 investment turned into a million-dollar brand"
+        mechanism: "Reader wants to know the story"
+
+      - type: "Challenge gap"
+        example: "Can you pass this 30-second tongue test?"
+        mechanism: "Reader wants to test themselves"
+
+      - type: "Contradiction gap"
+        example: "Why this 'weakness' is actually your biggest advantage"
+        mechanism: "Reader wants to resolve contradiction"
+
+    heuristic_form: |
+      CURIOSITY GAP CHECK:
+      "Does this headline/hook create an information gap?"
+      YES (creates question) → Strong, consider
+      NO (complete information) → Weaker, revise
+
+    anti_patterns:
+      - pattern: "Clickbait without payoff"
+        problem: "Gap created but not satisfied in copy"
+        fix: "Ensure body delivers on headline promise"
+
+      - pattern: "Curiosity without relevance"
+        problem: "Interesting but not connected to product"
+        fix: "Curiosity must lead to product relevance"
+
+    source_evidence:
+      - "'Curiosity is one of the strongest human incentives'"
+      - "Pepsodent tongue test (challenge gap)"
+      - "Headlines designed to pull readers through"
+
+  # === TACTICAL FRAMEWORK 2: REASON-WHY COPY STRUCTURE ===
+  - framework_id: TACT_002
+    name: "Reason-Why Copy Structure"
+    level: 4
+    category: tactical
+    parent: STRAT_002  # Specificity Doctrine
+
+    essence: |
+      Every claim requires a reason. Never assert without support.
+      "Our beer is pure" is weak. "Our beer is pure because bottles are
+      washed 4 times in filtered water" is strong. The reason gives
+      the claim credibility.
+
+    structure: |
+      CLAIM → BECAUSE → SPECIFIC REASON
+
+      Pattern: "[Product] does [benefit] because [specific process/fact]"
+
+    reason_types:
+      - type: "Process reason"
+        example: "Pure because bottles washed 4 times"
+        strength: "HIGH - specific and visual"
+
+      - type: "Ingredient reason"
+        example: "Effective because contains [specific ingredient]"
+        strength: "HIGH if ingredient is understood"
+
+      - type: "Origin reason"
+        example: "Premium because sourced from [specific place]"
+        strength: "MEDIUM - depends on place reputation"
+
+      - type: "Expert reason"
+        example: "Recommended because [expert] says..."
+        strength: "MEDIUM - depends on expert credibility"
+
+      - type: "Result reason"
+        example: "Works because [X%] of users saw results"
+        strength: "HIGH - specific outcome data"
+
+    quality_check: |
+      FOR EVERY CLAIM:
+      1. What is the claim?
+      2. Why should they believe it?
+      3. Is the reason specific?
+      4. Is the reason verifiable?
+
+    relationships:
+      parent: STRAT_002
+      enables:
+        - "Credible copy"
+        - "Trustworthy positioning"
+      requires:
+        - "Research to find reasons"
+        - "Specificity doctrine compliance"
+
+    source_evidence:
+      - "John E. Kennedy 'reason-why' school"
+      - "Every Hopkins claim has supporting reason"
+      - "Chapter 7: Being Specific"
+
+  # === TACTICAL FRAMEWORK 3: CALL TO ACTION CLARITY ===
+  - framework_id: TACT_003
+    name: "CTA Clarity Framework"
+    level: 4
+    category: tactical
+    parent: META_002  # Salesmanship in Print
+
+    essence: |
+      Salesmen ask for the order. Ads must do the same. Every ad needs
+      a clear, specific call to action. Reader should know EXACTLY what
+      to do next. Vague CTAs are as bad as no CTA.
+
+    cta_requirements:
+      - requirement: "Specific action"
+        bad: "Learn more"
+        good: "Call 1-800-XXX-XXXX for free sample"
+
+      - requirement: "Clear benefit"
+        bad: "Subscribe"
+        good: "Subscribe for weekly profit tips"
+
+      - requirement: "Low friction"
+        bad: "Fill out our 20-question form"
+        good: "Reply with your name and address"
+
+      - requirement: "Trackable"
+        bad: "Visit our store"
+        good: "Bring this coupon to [address] for 10% off"
+
+    heuristic_form: |
+      CTA CLARITY CHECK:
+      "Does the reader know exactly what to do next?"
+      YES (specific action clear) → Acceptable
+      NO (vague or missing) → Add clear CTA
+
+    mail_order_heritage: |
+      Hopkins' mail-order background made CTA clarity automatic.
+      In mail-order, vague CTA = no response = immediate failure.
+      This discipline carried to all advertising.
+
+    source_evidence:
+      - "Mail-order training required trackable actions"
+      - "Coupons with codes in every campaign"
+      - "Salesman standard: always ask for the order"
+
+  # === TACTICAL FRAMEWORK 4: NEGATIVE ADVERTISING AVOIDANCE ===
+  - framework_id: TACT_004
+    name: "Negative Advertising Avoidance"
+    level: 4
+    category: tactical
+    parent: STRAT_003  # Customer-First
+
+    essence: |
+      Never attack competitors directly. Focus on your own strengths,
+      not others' weaknesses. Negative advertising reflects poorly on
+      the attacker and rarely converts. Build up, don't tear down.
+
+    operational_rule: |
+      NEGATIVE ADVERTISING CHECK:
+      "Am I attacking competitors?"
+      YES → Stop, reframe to positive about us
+      NO → Proceed
+
+    reframe_examples:
+      - negative: "Unlike [competitor], we don't use cheap ingredients"
+        positive: "We use premium ingredients because..."
+
+      - negative: "[Competitor] cuts corners on quality"
+        positive: "Our quality process includes..."
+
+      - negative: "Don't trust brands that..."
+        positive: "You can trust us because..."
+
+    exceptions:
+      - "Comparative advertising with facts (not attacks)"
+      - "Industry-wide criticism (not specific competitor)"
+
+    source_evidence:
+      - "Chapter 18: Negative Advertising"
+      - "'Mud sticks to the thrower'"
+      - "Focus on own strengths throughout campaigns"
+
+  # === TACTICAL FRAMEWORK 5: STORY-BASED SELLING ===
+  - framework_id: TACT_005
+    name: "Story-Based Selling"
+    level: 4
+    category: tactical
+    parent: META_002  # Salesmanship
+
+    essence: |
+      Stories are more memorable than statistics. Case studies are more
+      persuasive than claims. Tell the story of discovery, the story
+      of transformation, the story of the user. Statistics support
+      stories; stories carry statistics.
+
+    story_types:
+      - type: "Discovery story"
+        pattern: "How we found [specific fact]"
+        example: "When I toured the brewery, I saw..."
+
+      - type: "Transformation story"
+        pattern: "Before [problem] → After [solution]"
+        example: "She had yellow teeth. Now she smiles with confidence."
+
+      - type: "Origin story"
+        pattern: "How [product] came to be"
+        example: "The formula was discovered by..."
+
+      - type: "User story"
+        pattern: "What happened to [real person]"
+        example: "Mrs. Smith from Ohio tried this..."
+
+    story_vs_statistics: |
+      COMBINE FOR MAXIMUM EFFECT:
+      - Story creates interest and emotional connection
+      - Statistics provide proof and credibility
+      - Story first, statistics support
+
+    source_evidence:
+      - "'People love stories'"
+      - "Schlitz story: brewery visit narrative"
+      - "Pepsodent story: tongue test discovery"
+
+  # === TACTICAL FRAMEWORK 6: SAMPLING STRATEGY ===
+  - framework_id: TACT_006
+    name: "Sampling Strategy Framework"
+    level: 4
+    category: tactical
+    parent: STRAT_003  # Customer-First
+
+    essence: |
+      Let them try before they buy. Free samples, trials, and demonstrations
+      convert skeptics. The product becomes its own salesman. Remove the
+      risk; let experience create conviction.
+
+    heuristic_form: |
+      SAMPLE OPPORTUNITY CHECK:
+      "Can we let them try before they buy?"
+      YES → Build sampling into campaign
+      NO → Find trial/demonstration equivalent
+
+    sampling_approaches:
+      - approach: "Free product sample"
+        when: "Product benefit is experienced directly"
+        example: "Free toothpaste tube"
+
+      - approach: "Risk-free trial"
+        when: "Product requires time to evaluate"
+        example: "30-day trial, return if not satisfied"
+
+      - approach: "Demonstration"
+        when: "Benefit can be shown"
+        example: "The tongue test (Pepsodent)"
+
+      - approach: "Partial experience"
+        when: "Full sample not feasible"
+        example: "First chapter free"
+
+    economics: |
+      SAMPLING ECONOMICS:
+      - Cost of sample << Lifetime value of customer
+      - Sample converts at higher rate than advertising alone
+      - Sample creates advocates who spread word
+
+    source_evidence:
+      - "Pepsodent free tube campaigns"
+      - "Liquozone sampling approach"
+      - "Hopkins consistently recommended sampling"
+
+# ============================================
+# FRAMEWORK RELATIONSHIPS MAP
+# How frameworks connect and reinforce each other
+# ============================================
+
+relationships_map:
+
+  core_dependencies:
+    - source: META_001  # Scientific Advertising
+      enables:
+        - STRAT_001  # Testing Supremacy
+        - STRAT_002  # Specificity Doctrine
+      reasoning: "Scientific approach enables measurement and precision"
+
+    - source: META_002  # Salesmanship in Print
+      enables:
+        - STRAT_003  # Customer-First
+        - TACT_003   # CTA Clarity
+        - TACT_004   # Negative Avoidance
+      reasoning: "Salesman standard informs customer-centric tactics"
+
+    - source: STRAT_002  # Specificity Doctrine
+      enables:
+        - STRAT_004  # Preemptive Claiming
+        - METHOD_001 # Research-Specificity-Simplicity
+        - TACT_002   # Reason-Why Copy
+      reasoning: "Specificity is achieved through these methods"
+
+    - source: STRAT_001  # Testing Supremacy
+      enables:
+        - METHOD_002 # Headline-First
+      reasoning: "Testing makes headline optimization possible"
+
+  reinforcement_cycles:
+    - cycle: "Research → Specificity → Testing → Improvement"
+      components:
+        - METHOD_003  # Deep Research
+        - STRAT_002   # Specificity
+        - STRAT_001   # Testing
+      mechanism: |
+        Deep research enables specific claims.
+        Specific claims can be tested.
+        Testing reveals what works.
+        Results inform further research.
+
+    - cycle: "Customer Problem → Solution → CTA → Measurement"
+      components:
+        - STRAT_003   # Customer-First
+        - TACT_002    # Reason-Why
+        - TACT_003    # CTA Clarity
+        - STRAT_001   # Testing
+      mechanism: |
+        Start from customer problem.
+        Position solution with reasons.
+        Clear CTA drives action.
+        Measurement validates approach.
+
+# ============================================
+# OPERATIONAL INTEGRATION
+# How to use this framework system
+# ============================================
+
+operational_integration:
+
+  decision_sequence: |
+    FOR ANY ADVERTISING DECISION:
+
+    1. META-PRINCIPLE CHECK
+       - Does this align with Scientific Advertising paradigm?
+       - Would a salesman do this?
+
+    2. STRATEGIC FRAMEWORK CHECK
+       - Have we tested or planned to test?
+       - Is the claim specific?
+       - Are we starting from customer?
+
+    3. METHODOLOGICAL CHECK
+       - Have we researched deeply enough?
+       - Are we following headline-first workflow?
+
+    4. TACTICAL EXECUTION
+       - Apply relevant tactical frameworks
+       - Check all heuristics (Salesman Test, Specificity Check, etc.)
+
+  red_flags:
+    - flag: "Opinion presented as fact"
+      violated_framework: STRAT_001 (Testing)
+      response: "Propose test instead"
+
+    - flag: "General claim without specific support"
+      violated_framework: STRAT_002 (Specificity)
+      response: "Find specific fact or research more"
+
+    - flag: "Product-first positioning"
+      violated_framework: STRAT_003 (Customer-First)
+      response: "Restart from customer problem"
+
+    - flag: "Writing before research complete"
+      violated_framework: METHOD_001 (Research-Specificity-Simplicity)
+      response: "Return to research phase"
+
+    - flag: "One headline without variants"
+      violated_framework: METHOD_002 (Headline-First)
+      response: "Generate more options for testing"
+
+  quick_reference_heuristics:
+    - heuristic: "Salesman Test"
+      question: "Would a salesman say this in person?"
+      framework: META_002
+
+    - heuristic: "Specificity Check"
+      question: "Is this specific or general?"
+      framework: STRAT_002
+
+    - heuristic: "Test Don't Argue"
+      question: "Can we test this instead of debating?"
+      framework: STRAT_001
+
+    - heuristic: "Curiosity Gap Check"
+      question: "Does this create an information gap?"
+      framework: TACT_001
+
+    - heuristic: "CTA Clarity Check"
+      question: "Does reader know exactly what to do?"
+      framework: TACT_003
+
+    - heuristic: "Negative Check"
+      question: "Am I attacking competitors?"
+      framework: TACT_004
+
+# ============================================
+# VALIDATION
+# ============================================
+
+validation:
+
+  quality_gates:
+    - gate: "Minimum 2 meta-principles identified"
+      status: "PASS (2 documented)"
+
+    - gate: "Minimum 4 strategic frameworks"
+      status: "PASS (4 documented)"
+
+    - gate: "Minimum 3 methodological frameworks"
+      status: "PASS (3 documented)"
+
+    - gate: "Minimum 4 tactical frameworks"
+      status: "PASS (6 documented)"
+
+    - gate: "Framework hierarchy documented"
+      status: "PASS (4 levels)"
+
+    - gate: "Relationships mapped"
+      status: "PASS (dependencies and cycles)"
+
+    - gate: "Operational integration provided"
+      status: "PASS (decision sequence and heuristics)"
+
+  cross_reference_validation:
+    mental_models_yaml: "Frameworks derived from cognitive models"
+    values_hierarchy_yaml: "Frameworks reflect core values"
+    decision_architecture_yaml: "Heuristics match decision patterns"
+    multi_source_patterns_yaml: "Patterns validated across sources"
+
+  overall_quality: EXCELLENT
+  confidence: 91
+
+# ============================================
+# RECOMMENDATIONS FOR NEXT TASKS
+# ============================================
+
+recommendations:
+
+  for_communication_templates_task:
+    - "Use framework hierarchy for template organization"
+    - "Embed heuristics as automated checks"
+    - "Create templates for each tactical framework"
+
+  for_signature_phrases_task:
+    - "Connect phrases to specific frameworks"
+    - "Map linguistic patterns to framework applications"
+
+  for_implementation_phase:
+    - "Build decision trees from framework hierarchy"
+    - "Implement quick-reference heuristics as runtime checks"
+    - "Create prompt sections for each framework level"
+
+# ============================================
+# LINEAGE
+# ============================================
+
+lineage:
+  sources_synthesized:
+    - "analysis/mental-models.yaml"
+    - "analysis/cognitive-spec.yaml"
+    - "analysis/linguistic-patterns.yaml"
+    - "analysis/psychometric-profile.yaml"
+    - "artifacts/values_hierarchy.yaml"
+    - "artifacts/decision_architecture.yaml"
+    - "artifacts/multi_source_patterns.yaml"
+    - "artifacts/behavioral_patterns.yaml"
+
+  methodology: "Mental Model Lattice Synthesis (Munger Method)"
+  agent: charlie-synthesis-expert
+  phase: 5
+  task: framework-identification
+  generated: "2026-01-23"
+  confidence: 91
+
+  next_task: "communication-templates"
+  next_agent: "charlie"
+  context_for_next: |
+    Framework system documented with 2 meta-principles, 4 strategic
+    frameworks, 3 methodological frameworks, and 6 tactical frameworks.
+    Hierarchy and relationships mapped. Ready for communication template
+    extraction to operationalize these frameworks.

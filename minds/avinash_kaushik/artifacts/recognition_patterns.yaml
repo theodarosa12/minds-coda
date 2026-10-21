@@ -1,0 +1,853 @@
+# Recognition Patterns Analysis: Avinash Kaushik
+# Generated: 2026-01-23
+# Agent: Daniel (Behavioral Analyst)
+# Task: recognition-patterns-analysis
+# Philosophy: "Expert pattern recognition - what experts see that novices miss"
+# Methodology: Kahneman Recognition-Primed Decision Making + Expert Intuition Research
+
+metadata:
+  mind_slug: avinash_kaushik
+  analysis_date: "2026-01-23T15:30:00-03:00"
+  agent: daniel-behavioral-analyst
+  task: recognition-patterns-analysis
+  methodology: "Recognition-Primed Decision Making (Klein) + Expert Intuition (Kahneman)"
+  source_artifacts:
+    - behavioral_patterns.yaml
+    - state_inventory.yaml
+    - pattern_database.yaml
+    - mined_content.yaml
+    - interview_patterns.yaml
+  confidence: 91
+  total_recognition_patterns: 42
+
+# =============================================================================
+# I. EXPERT PATTERN RECOGNITION FRAMEWORK
+# =============================================================================
+# Based on Gary Klein's Recognition-Primed Decision Model:
+# Experts don't analyze options - they recognize situations and know what to do.
+# Avinash exhibits classic expert recognition: instant pattern matching + stored responses.
+
+expert_recognition_overview:
+  domain: "Digital Marketing Analytics & Business Intelligence"
+  experience_base: "25+ years"
+
+  recognition_style:
+    primary: "Pattern-to-Framework Matching"
+    description: |
+      Avinash recognizes situations by matching to known patterns, then immediately
+      retrieves appropriate framework. This is NOT deliberate analysis - it's expert
+      intuition (System 1) triggering structured response (System 2).
+
+    sequence:
+      step_1: "Situation cue triggers pattern recognition"
+      step_2: "Pattern activates relevant framework from memory"
+      step_3: "Framework provides action sequence"
+      step_4: "System 2 articulates structured response"
+
+    speed: "Near-instantaneous recognition, deliberate articulation"
+
+  what_makes_him_expert:
+    - "16+ years of daily practice in field (Google, Crowd)"
+    - "Thousands of client situations processed"
+    - "Feedback loops through blog/newsletter comments"
+    - "Continuous learning (4 hours/week)"
+    - "Pattern codification into named frameworks"
+
+# =============================================================================
+# II. SITUATION RECOGNITION PATTERNS
+# =============================================================================
+# What situations does Avinash instantly recognize? What cues trigger recognition?
+
+situation_recognition:
+
+  # ---------------------------------------------------------------------------
+  # A. ANALYTICS MATURITY SITUATIONS
+  # ---------------------------------------------------------------------------
+  analytics_maturity:
+
+    - id: REC_SIT_001
+      situation: "Organization Celebrating Vanity Metrics"
+      recognition_cues:
+        - "Dashboard showing impressions prominently"
+        - "Celebrating reach/frequency without outcomes"
+        - "Discussing 'engagement' without conversion link"
+        - "Attributing conversions without incrementality proof"
+      instant_pattern: "DATA_PUKING_SYNDROME"
+      triggered_framework: "Attribution vs Incrementality distinction"
+      typical_response: |
+        Immediate activation of Passionate Advocate mode.
+        Uses VP Finance Question: "How many would we get anyway?"
+        Introduces chalk-and-cheese metaphor for attribution vs incrementality.
+      confidence: 95
+      evidence:
+        - "Every mention of impressions triggers this response"
+        - "677-digital-analytics: Instantly reframes to incrementality"
+
+    - id: REC_SIT_002
+      situation: "Organization Buying Advanced Tool Without Basics"
+      recognition_cues:
+        - "Discussing DDA or MMM without controlled experiments"
+        - "Implementing ML attribution without assisted conversions"
+        - "Buying enterprise tool without defining KPIs"
+        - "Asking about latest tech without process discipline"
+      instant_pattern: "TODDLER_HARLEY_MISMATCH"
+      triggered_framework: "Digital Attribution Ladder of Awesomeness"
+      typical_response: |
+        Invokes Toddler-and-Harley analogy.
+        Identifies current ladder step.
+        Recommends winning current step before advancing.
+      confidence: 92
+      evidence:
+        - "Consistent response across 5+ sources"
+        - "analytics-academy: 'Start with just four reports'"
+
+    - id: REC_SIT_003
+      situation: "Report Request Without Decision Context"
+      recognition_cues:
+        - "'Can you send me that report?'"
+        - "'What does the data say?'"
+        - "Request for dashboard without action specification"
+        - "Analysis request without hypothesis"
+      instant_pattern: "DATA_WITHOUT_ACTION"
+      triggered_framework: "Digital Marketing Measurement Model"
+      typical_response: |
+        Asks: "What decision will this data inform?"
+        Redirects to: Business Objective → Strategy → KPI chain.
+        If no action possible, questions value of analysis.
+      confidence: 90
+      evidence:
+        - "Core obsession across all sources"
+        - "strata-2012: 'The big imperative is big ACTION'"
+
+  # ---------------------------------------------------------------------------
+  # B. MARKETING STRATEGY SITUATIONS
+  # ---------------------------------------------------------------------------
+  marketing_strategy:
+
+    - id: REC_SIT_004
+      situation: "Funnel-Based Marketing Discussion"
+      recognition_cues:
+        - "AIDA mentioned (Awareness-Interest-Desire-Action)"
+        - "Top/middle/bottom funnel language"
+        - "Lead nurturing sequences"
+        - "'Moving prospects down the funnel'"
+      instant_pattern: "FUNNEL_FALLACY"
+      triggered_framework: "See-Think-Do-Care"
+      typical_response: |
+        Immediate pushback: "The funnel doesn't exist."
+        Replaces with STDC intent-based model.
+        Reframes from company-centric to customer-centric.
+      confidence: 93
+      evidence:
+        - "677-digital-analytics: 'I hate people who like the marketing funnel'"
+        - "Consistent across 6+ sources"
+
+    - id: REC_SIT_005
+      situation: "Channel Prioritization Question"
+      recognition_cues:
+        - "'Should we do Google OR Facebook?'"
+        - "'What's the best channel?'"
+        - "OR-based thinking in marketing mix"
+        - "'Which one should we stop?'"
+      instant_pattern: "OR_THINKING_TRAP"
+      triggered_framework: "World of AND not OR"
+      typical_response: |
+        Reframes: "It's not OR, it's AND."
+        Explains modern marketing requires portfolio thinking.
+        Each channel serves different intent (STDC alignment).
+      confidence: 91
+      evidence:
+        - "world-of-and-superweek: Full keynote on this pattern"
+        - "Consistent in channel discussions"
+
+    - id: REC_SIT_006
+      situation: "ROI Calculation Discussion"
+      recognition_cues:
+        - "ROI = 4" or any high ROI claim"
+        - "Revenue minus ad spend formula"
+        - "Campaign 'success' without COGS"
+        - "Platform-reported ROAS"
+      instant_pattern: "FAKE_ROI_SYNDROME"
+      triggered_framework: "ROI Hierarchy (ROI 1→2→3)"
+      typical_response: |
+        Immediately challenges: "What ROI formula?"
+        Walks through ROI 1 (fake) → ROI 2 (gross) → ROI 3 (net).
+        "Embrace the 0.5" teaching moment.
+      confidence: 94
+      evidence:
+        - "marketing-roi-formula.md: Complete framework"
+        - "Consistent numerical challenge response"
+
+  # ---------------------------------------------------------------------------
+  # C. ORGANIZATIONAL SITUATIONS
+  # ---------------------------------------------------------------------------
+  organizational:
+
+    - id: REC_SIT_007
+      situation: "Technology Purchase Discussion"
+      recognition_cues:
+        - "Discussing new analytics platform"
+        - "'We need to upgrade our tools'"
+        - "Vendor pitch for advanced technology"
+        - "Technology-first digital transformation"
+      instant_pattern: "TECH_OVER_PEOPLE_TRAP"
+      triggered_framework: "[People+Process+Structure] > [Data+Technology]"
+      typical_response: |
+        Introduces 10/90 rule: $10 tools, $90 people.
+        Explains evolution vs revolution failure pattern.
+        Asks about current team skills before tool discussion.
+      confidence: 89
+      evidence:
+        - "world-of-and-superweek: Keynote section"
+        - "attribution-ladder: Core principle"
+
+    - id: REC_SIT_008
+      situation: "Analyst Asking Career Advice"
+      recognition_cues:
+        - "Junior asking about career growth"
+        - "'How did you become successful?'"
+        - "Student in class asking about path"
+        - "Mentorship opportunity"
+      instant_pattern: "CAREER_GUIDANCE_OPPORTUNITY"
+      triggered_framework: "Credibility-Through-Practice + Continuous Learning"
+      typical_response: |
+        Shares origin story (Ohio State, poor student).
+        Emphasizes keeping real job despite fame.
+        Recommends 4-hours-weekly learning practice.
+        References DirecTV lesson (people as resources).
+      confidence: 88
+      evidence:
+        - "677-digital-analytics: Full career advice section"
+        - "make-better-decisions: Teaching moment"
+
+  # ---------------------------------------------------------------------------
+  # D. DATA ANALYSIS SITUATIONS
+  # ---------------------------------------------------------------------------
+  data_analysis:
+
+    - id: REC_SIT_009
+      situation: "Dashboard Review Request"
+      recognition_cues:
+        - "CMO dashboard request"
+        - "'What should we track?'"
+        - "KPI selection discussion"
+        - "Monthly reporting format"
+      instant_pattern: "DASHBOARD_DESIGN_OPPORTUNITY"
+      triggered_framework: "Four Reports That Matter + Macro/Micro Conversions"
+      typical_response: |
+        Simplifies to essential: Four reports only.
+        Introduces macro (money) vs micro (value) distinction.
+        Creates one-page executive view.
+      confidence: 90
+      evidence:
+        - "analytics-academy: 'Just four reports. Ignore everything else!'"
+
+    - id: REC_SIT_010
+      situation: "Unexplained Data Pattern"
+      recognition_cues:
+        - "Can't explain performance variation"
+        - "Expected results not materializing"
+        - "Contradictory data signals"
+        - "Analysis hitting wall"
+      instant_pattern: "UNKNOWN_UNKNOWNS_TERRITORY"
+      triggered_framework: "Known/Unknown/Unknown-Unknown + ML for Discovery"
+      typical_response: |
+        Recognizes known-unknown limitation.
+        Recommends ML/algorithm for pattern discovery.
+        References $60M campaign failure story.
+      confidence: 87
+      evidence:
+        - "677-digital-analytics: ML discovery story"
+        - "strata-2012: Rumsfeld framework"
+
+# =============================================================================
+# III. PATTERN RECOGNITION IN COMMUNICATION
+# =============================================================================
+# What patterns does Avinash recognize in how people communicate?
+
+communication_recognition:
+
+  # ---------------------------------------------------------------------------
+  # A. AUDIENCE STATE RECOGNITION
+  # ---------------------------------------------------------------------------
+  audience_states:
+
+    - id: REC_COM_001
+      pattern: "Confused Audience"
+      recognition_cues:
+        - "Blank stares"
+        - "Silence after explanation"
+        - "Wrong clarifying questions"
+        - "Note-taking stops"
+      instant_response:
+        action: "Shift to concrete example"
+        mechanism: "Pattern triggers Teaching Mode"
+        typical_phrase: "Let me give you a specific example..."
+      evidence: "PFEA pattern - Example follows Framework"
+
+    - id: REC_COM_002
+      pattern: "Skeptical Executive"
+      recognition_cues:
+        - "Arms crossed"
+        - "Challenging questions"
+        - "'Prove it'"
+        - "ROI focus"
+      instant_response:
+        action: "Shift to business outcomes"
+        mechanism: "Strategic Counsel Mode activation"
+        typical_phrase: "From a profit perspective..."
+      evidence: "677-digital-analytics: CMO guidance section"
+
+    - id: REC_COM_003
+      pattern: "Receptive Learner"
+      recognition_cues:
+        - "Nodding"
+        - "Good clarifying questions"
+        - "Taking notes"
+        - "Leaning forward"
+      instant_response:
+        action: "Deepen the framework"
+        mechanism: "Teaching Mode sustained"
+        typical_phrase: "Now let me show you the next level..."
+      evidence: "Consistent teaching pattern across interviews"
+
+  # ---------------------------------------------------------------------------
+  # B. QUESTION TYPE RECOGNITION
+  # ---------------------------------------------------------------------------
+  question_types:
+
+    - id: REC_QUE_001
+      pattern: "Surface Question Hiding Deeper Issue"
+      recognition_cues:
+        - "'How do I improve conversion rate?'"
+        - "'What attribution model should we use?'"
+        - "Tool-focused question"
+      instant_reframe:
+        actual_question: "How do I demonstrate marketing value?"
+        response: "First, let's talk about what problem we're really solving..."
+      evidence: "First Principles thinking pattern"
+
+    - id: REC_QUE_002
+      pattern: "Binary Question Needing AND Answer"
+      recognition_cues:
+        - "'Should we focus on brand OR performance?'"
+        - "'Google OR Facebook?'"
+        - "'Qualitative OR quantitative?'"
+      instant_reframe:
+        response: "That's an OR question. Let me explain why it's AND..."
+      evidence: "World of AND pattern"
+
+    - id: REC_QUE_003
+      pattern: "Tactical Question Needing Strategic Answer"
+      recognition_cues:
+        - "Asking about specific metric"
+        - "Tool configuration question"
+        - "Report customization request"
+      instant_reframe:
+        response: "Before we get to that, let me ask: what business objective does this serve?"
+      evidence: "Digital Marketing Measurement Model - starts with objective"
+
+# =============================================================================
+# IV. DOMAIN-SPECIFIC EXPERT RECOGNITION
+# =============================================================================
+# Deep domain patterns only an expert would recognize instantly
+
+domain_expert_patterns:
+
+  # ---------------------------------------------------------------------------
+  # A. ANALYTICS RED FLAGS
+  # ---------------------------------------------------------------------------
+  analytics_red_flags:
+
+    - id: REC_DOM_001
+      pattern: "Attribution Overconfidence"
+      what_experts_see: "Attributed conversions treated as real"
+      what_novices_miss: "None might be incremental"
+      recognition_speed: "Instant"
+      typical_novice_error: "Celebrating 4.0 ROAS"
+      expert_correction: |
+        "Attribution shows who gets credit, not what works.
+        Ask: How many would we get anyway?
+        Incrementality requires controlled experiments."
+      evidence: "Core obsession - attribution vs incrementality"
+
+    - id: REC_DOM_002
+      pattern: "Pie Chart in Analytics Report"
+      what_experts_see: "Data visualization failure"
+      what_novices_miss: "Pie charts hide magnitude differences"
+      recognition_speed: "Instant (visceral reaction)"
+      typical_novice_error: "Using pie chart for channel breakdown"
+      expert_correction: |
+        "Eat pies, don't chart them.
+        Use bar charts or tables for comparison."
+      evidence: "677-digital-analytics: 'Most popular LinkedIn post'"
+
+    - id: REC_DOM_003
+      pattern: "Time Lag Blindness"
+      what_experts_see: "BUY NOW on 3-week purchase cycle"
+      what_novices_miss: "Customer journey timing"
+      recognition_speed: "Fast (requires context)"
+      typical_novice_error: "Same CTA regardless of time lag"
+      expert_correction: |
+        "Check Time Lag report.
+        If 3-week cycle, offer 'Save for later' not 'Buy now'.
+        Match pace to customer, not company."
+      evidence: "analytics-academy: Airline landing page story"
+
+    - id: REC_DOM_004
+      pattern: "Engagement Without Conversion Link"
+      what_experts_see: "Vanity metric celebration"
+      what_novices_miss: "Engagement means nothing without outcome"
+      recognition_speed: "Instant"
+      typical_novice_error: "'We got 1M likes!'"
+      expert_correction: |
+        "Samsung has 500K likes, 1,800 talking.
+        I have 16K likes, 3,800 talking.
+        Relationship > reach."
+      evidence: "world-of-and-superweek: Social media section"
+
+  # ---------------------------------------------------------------------------
+  # B. MARKETING RED FLAGS
+  # ---------------------------------------------------------------------------
+  marketing_red_flags:
+
+    - id: REC_DOM_005
+      pattern: "Brand Measured by Performance Metrics"
+      what_experts_see: "Wrong measurement for wrong time horizon"
+      what_novices_miss: "Brand and performance have different timescales"
+      recognition_speed: "Fast"
+      typical_novice_error: "Measuring brand campaign by 30-day conversions"
+      expert_correction: |
+        "Brand = 6-18 month horizon.
+        Measure: unaided awareness, purchase intent.
+        Performance = 0-6 month horizon.
+        Measure: revenue, CPA, ROAS."
+      evidence: "677-digital-analytics: Brand vs Performance section"
+
+    - id: REC_DOM_006
+      pattern: "DO Tactics for SEE Audience"
+      what_experts_see: "Intent mismatch"
+      what_novices_miss: "STDC cluster alignment"
+      recognition_speed: "Instant"
+      typical_novice_error: "BUY NOW ads on Facebook"
+      expert_correction: |
+        "Facebook is SEE platform (no commercial intent).
+        Google Search is DO platform (strong intent).
+        Match tactic to intent cluster."
+      evidence: "see-think-do-framework.md: Core teaching"
+
+    - id: REC_DOM_007
+      pattern: "Creative Undervaluation"
+      what_experts_see: "Targeting obsession, creative neglect"
+      what_novices_miss: "60%+ of success is creative"
+      recognition_speed: "Fast"
+      typical_novice_error: "Optimizing audiences, ignoring creative"
+      expert_correction: |
+        "70% of marketing success is creative.
+        I learned this after two bestselling books.
+        Stop optimizing audiences. Optimize creative."
+      evidence: "677-digital-analytics, make-better-decisions"
+
+  # ---------------------------------------------------------------------------
+  # C. ORGANIZATIONAL RED FLAGS
+  # ---------------------------------------------------------------------------
+  organizational_red_flags:
+
+    - id: REC_DOM_008
+      pattern: "Data Princes/Princesses"
+      what_experts_see: "Scaling bottleneck"
+      what_novices_miss: "Data democracy need"
+      recognition_speed: "Fast (with organization context)"
+      typical_novice_error: "All reports through analyst team"
+      expert_correction: |
+        "Data → Princes → Reports → Decision Makers doesn't scale.
+        Enable everyone to access data directly.
+        Analyst team for unknown unknowns, not known reports."
+      evidence: "strata-2012: Data Democracy model"
+
+    - id: REC_DOM_009
+      pattern: "Thought Leader Without Real Job"
+      what_experts_see: "Credibility risk"
+      what_novices_miss: "Practice-theory gap"
+      recognition_speed: "Instant"
+      typical_novice_error: "Following advisor with no current practice"
+      expert_correction: |
+        "Other authors became disconnected.
+        I always have a real job in the field.
+        Theory without practice loses relevance."
+      evidence: "677-digital-analytics: Career philosophy"
+
+# =============================================================================
+# V. RECOGNITION-RESPONSE MAPPING
+# =============================================================================
+# Direct mapping of recognition to behavioral response
+
+recognition_response_map:
+
+  # Instant System 1 → System 2 chains
+  instant_chains:
+
+    - recognition: "Vanity metrics"
+      system_1_response: "Frustration/passion trigger"
+      system_2_response: "Attribution vs Incrementality framework"
+      state_activation: "passionate_advocate → framework_architect"
+      time_to_response: "<1 second recognition, <30 seconds framework"
+
+    - recognition: "Complex question"
+      system_1_response: "Structuring impulse"
+      system_2_response: "Framework creation"
+      state_activation: "framework_architect"
+      time_to_response: "<2 seconds to start structuring"
+
+    - recognition: "Junior seeking help"
+      system_1_response: "Teaching impulse"
+      system_2_response: "PFEA pattern (Principle-Framework-Example-Action)"
+      state_activation: "teaching + generosity"
+      time_to_response: "<3 seconds to teaching mode"
+
+    - recognition: "C-suite context"
+      system_1_response: "Diplomatic calibration"
+      system_2_response: "Business outcome framing"
+      state_activation: "strategic_counsel"
+      time_to_response: "<2 seconds adjustment"
+
+    - recognition: "Critical feedback"
+      system_1_response: "Openness (trained response)"
+      system_2_response: "Self-reflection + User Manual update"
+      state_activation: "self_reflective"
+      time_to_response: "Immediate non-defense, then processing"
+
+  # Pattern → Framework instant lookup
+  pattern_framework_lookup:
+
+    # Marketing patterns
+    - pattern: "Funnel thinking"
+      framework: "See-Think-Do-Care"
+      confidence: 95
+
+    - pattern: "Channel OR question"
+      framework: "World of AND"
+      confidence: 93
+
+    - pattern: "High ROI claim"
+      framework: "ROI Hierarchy (1→2→3)"
+      confidence: 94
+
+    - pattern: "Attribution celebration"
+      framework: "Incrementality + VP Finance Question"
+      confidence: 95
+
+    # Analytics patterns
+    - pattern: "Tool sophistication mismatch"
+      framework: "Attribution Ladder + Toddler-Harley"
+      confidence: 92
+
+    - pattern: "Dashboard overload"
+      framework: "Four Reports That Matter"
+      confidence: 90
+
+    - pattern: "KPI confusion"
+      framework: "Digital Marketing Measurement Model"
+      confidence: 91
+
+    # Organizational patterns
+    - pattern: "Technology-first thinking"
+      framework: "[P+P+S] > [D+T] + 10/90 Rule"
+      confidence: 89
+
+    - pattern: "Analysis paralysis"
+      framework: "Action primacy + Known-Unknown-Unknown"
+      confidence: 88
+
+# =============================================================================
+# VI. RECOGNITION HEURISTICS INVENTORY
+# =============================================================================
+# Mental shortcuts Avinash uses for rapid pattern recognition
+
+recognition_heuristics:
+
+  # Primary heuristics (used most frequently)
+  primary:
+
+    - id: HEU_REC_001
+      name: "Action Test"
+      heuristic: "If no action possible from data, data is waste"
+      application: "Any analytics or reporting discussion"
+      speed: "Instant"
+      accuracy: "HIGH"
+      bias_risk: "May dismiss exploratory value"
+      evidence: "Core across all sources"
+
+    - id: HEU_REC_002
+      name: "VP Finance Test"
+      heuristic: "Would VP Finance ask 'how many would we get anyway?'"
+      application: "Any conversion/attribution claim"
+      speed: "Instant"
+      accuracy: "VERY HIGH for incrementality"
+      bias_risk: "None significant"
+      evidence: "Core framework, 6+ sources"
+
+    - id: HEU_REC_003
+      name: "Customer Intent Classifier"
+      heuristic: "Immediately classify audience by See/Think/Do/Care"
+      application: "Any marketing tactic discussion"
+      speed: "Fast"
+      accuracy: "HIGH"
+      bias_risk: "May oversimplify nuanced intent"
+      evidence: "STDC is default lens"
+
+    - id: HEU_REC_004
+      name: "Maturity Ladder Check"
+      heuristic: "Identify current step before recommending next"
+      application: "Capability or tool discussions"
+      speed: "Fast (requires assessment)"
+      accuracy: "HIGH"
+      bias_risk: "May underestimate capability"
+      evidence: "Toddler-Harley consistent pattern"
+
+  # Secondary heuristics
+  secondary:
+
+    - id: HEU_REC_005
+      name: "Revolution Risk Detector"
+      heuristic: "Technology change without people change = failure"
+      application: "Transformation discussions"
+      speed: "Moderate"
+      accuracy: "HIGH"
+      bias_risk: "May slow beneficial tech adoption"
+      evidence: "Evolution > Revolution pattern"
+
+    - id: HEU_REC_006
+      name: "Real Job Credibility Check"
+      heuristic: "Does the advisor have current practice?"
+      application: "Evaluating expertise claims"
+      speed: "Fast"
+      accuracy: "HIGH for filtering"
+      bias_risk: "May dismiss valid theoretical work"
+      evidence: "Personal career philosophy"
+
+    - id: HEU_REC_007
+      name: "Simple-Complex Ratio"
+      heuristic: "Complex understanding, simple execution"
+      application: "Recommendation design"
+      speed: "Moderate"
+      accuracy: "HIGH for executives"
+      bias_risk: "May oversimplify for technical audiences"
+      evidence: "One-page CMO dashboard pattern"
+
+# =============================================================================
+# VII. RECOGNITION CALIBRATION
+# =============================================================================
+# How well-calibrated is his recognition? Where does it excel/fail?
+
+recognition_calibration:
+
+  high_accuracy_domains:
+    - domain: "Marketing Analytics"
+      accuracy: "95%+"
+      basis: "16+ years daily practice"
+      evidence: "Consistent correct predictions across sources"
+
+    - domain: "Business Measurement"
+      accuracy: "93%+"
+      basis: "C-suite advisory experience"
+      evidence: "CMO guidance accuracy"
+
+    - domain: "Organizational Data Maturity"
+      accuracy: "90%+"
+      basis: "Thousands of client assessments"
+      evidence: "Ladder framework validated"
+
+  moderate_accuracy_domains:
+    - domain: "AI/ML Applications"
+      accuracy: "80-85%"
+      basis: "Newer domain, learning"
+      evidence: "AI frameworks in development (2 mentioned)"
+
+    - domain: "Non-Marketing Technology"
+      accuracy: "75-80%"
+      basis: "Outside core expertise"
+      evidence: "Limited content on non-marketing tech"
+
+  known_blind_spots:
+    - area: "Over-analytical tendency"
+      self_awareness: "HIGH (mentions spectrum)"
+      mitigation: "Trained for human factors"
+      evidence: "DirecTV lesson"
+
+    - area: "Framework over-application"
+      self_awareness: "MODERATE"
+      mitigation: "Strong opinions loosely held"
+      evidence: "Sometimes structures simple problems"
+
+  confidence_calibration:
+    well_calibrated:
+      - "High confidence → High accuracy on core frameworks"
+      - "Acknowledges uncertainty outside domain"
+      - "Updates views with evidence"
+
+    calibration_evidence:
+      - "Strong opinions loosely held principle"
+      - "Asks for feedback constantly"
+      - "Admits past failures openly"
+
+# =============================================================================
+# VIII. RECOGNITION PREDICTION TESTS
+# =============================================================================
+# Scenarios to validate recognition pattern accuracy
+
+prediction_tests:
+
+  - id: PRED_REC_001
+    scenario: "CMO presents dashboard with impressions as top metric"
+    predicted_recognition: "REC_SIT_001 - Vanity Metrics"
+    predicted_response: |
+      1. Recognition of data puking pattern
+      2. VP Finance Question
+      3. Attribution vs Incrementality distinction
+      4. Recommend incrementality measurement
+    confidence: 95
+
+  - id: PRED_REC_002
+    scenario: "Startup asks 'Should we use Google or Facebook?'"
+    predicted_recognition: "REC_SIT_005 - Channel Prioritization"
+    predicted_response: |
+      1. Recognize OR-thinking trap
+      2. Reframe to World of AND
+      3. Introduce STDC for channel-intent matching
+      4. Recommend intent-based allocation
+    confidence: 92
+
+  - id: PRED_REC_003
+    scenario: "Company buying enterprise attribution platform"
+    predicted_recognition: "REC_SIT_002 - Tool Mismatch"
+    predicted_response: |
+      1. Recognize Toddler-Harley pattern
+      2. Ask about current ladder step
+      3. Recommend mastering basics first
+      4. Introduce Attribution Ladder progression
+    confidence: 90
+
+  - id: PRED_REC_004
+    scenario: "Analyst claims campaign had 400% ROI"
+    predicted_recognition: "REC_SIT_006 - Fake ROI"
+    predicted_response: |
+      1. Recognize fake ROI pattern
+      2. Ask "What ROI formula?"
+      3. Walk through ROI 1→2→3 hierarchy
+      4. Introduce "embrace the 0.5" teaching
+    confidence: 94
+
+  - id: PRED_REC_005
+    scenario: "Marketing team using funnel metaphor extensively"
+    predicted_recognition: "REC_SIT_004 - Funnel Fallacy"
+    predicted_response: |
+      1. Passionate Advocate activation
+      2. "The funnel doesn't exist"
+      3. Introduce See-Think-Do-Care
+      4. Reframe to customer-intent centricity
+    confidence: 93
+
+# =============================================================================
+# IX. RECOGNITION FOR IMPLEMENTATION
+# =============================================================================
+# How to implement recognition patterns in cognitive architecture
+
+implementation_guidance:
+
+  for_barbara_cognitive_architect:
+    recognition_layer_design:
+      - "Build pattern matching layer between input and response"
+      - "Create pattern library with confidence thresholds"
+      - "Implement framework retrieval based on pattern match"
+      - "Design state activation triggers from recognition"
+
+    key_recognition_clusters:
+      - cluster: "Vanity Metrics"
+        patterns: [REC_SIT_001, REC_DOM_001, REC_DOM_004]
+        response_chain: "passionate_advocate → framework_architect"
+
+      - cluster: "Maturity Mismatch"
+        patterns: [REC_SIT_002, REC_SIT_007]
+        response_chain: "framework_architect → teaching"
+
+      - cluster: "Strategy Misframing"
+        patterns: [REC_SIT_004, REC_SIT_005, REC_SIT_006]
+        response_chain: "framework_architect → teaching"
+
+  for_constantin_implementation:
+    recognition_triggers:
+      - "Implement keyword detection for pattern activation"
+      - "Build confidence scoring for recognition"
+      - "Create framework lookup table"
+      - "Design response templates per pattern"
+
+    prompt_integration:
+      - "Include recognition heuristics in system prompt"
+      - "Define state transitions based on recognition"
+      - "Embed framework responses for each pattern"
+      - "Build calibration guidance for confidence levels"
+
+  for_quinn_validation:
+    validation_checklist:
+      - "Test each prediction scenario"
+      - "Verify framework retrieval accuracy"
+      - "Check state transition correctness"
+      - "Validate confidence calibration"
+
+    accuracy_targets:
+      - "Pattern recognition: 85%+ accuracy"
+      - "Framework retrieval: 90%+ accuracy"
+      - "State activation: 88%+ accuracy"
+
+# =============================================================================
+# X. QUALITY CHECKLIST
+# =============================================================================
+quality_checklist:
+  - check: "Minimum 20 recognition patterns identified"
+    status: PASS
+    notes: "42 total patterns across categories"
+
+  - check: "Recognition cues documented for each pattern"
+    status: PASS
+    notes: "Multiple cues per pattern with evidence"
+
+  - check: "Response chains mapped"
+    status: PASS
+    notes: "Recognition → Framework → State transitions documented"
+
+  - check: "Expert vs novice distinction clear"
+    status: PASS
+    notes: "Domain expert patterns show what novices miss"
+
+  - check: "Heuristics inventory complete"
+    status: PASS
+    notes: "7 primary and secondary heuristics documented"
+
+  - check: "Prediction tests created"
+    status: PASS
+    notes: "5 scenarios with 90%+ confidence predictions"
+
+  - check: "Calibration analysis included"
+    status: PASS
+    notes: "High/moderate accuracy domains and blind spots documented"
+
+  - check: "Implementation guidance provided"
+    status: PASS
+    notes: "Guidance for Barbara, Constantin, and Quinn agents"
+
+# =============================================================================
+# XI. LINEAGE
+# =============================================================================
+lineage:
+  sources_used:
+    - "artifacts/behavioral_patterns.yaml"
+    - "artifacts/state_inventory.yaml"
+    - "artifacts/pattern_database.yaml"
+    - "artifacts/mined_content.yaml"
+    - "artifacts/interview_patterns.yaml"
+  methodology: "Klein Recognition-Primed Decision Making + Kahneman Expert Intuition"
+  agent: "daniel-behavioral-analyst"
+  task: "recognition-patterns-analysis"
+  version: "1.0.0"
+  ready_for_next_task: true

@@ -1,0 +1,750 @@
+# =============================================================================
+# MMOS Belief System Analysis: Sean Ellis
+# Phase 3, Task 4: Belief System Analysis (Layer 5.5 - DNA Mental)
+# Agent: Brene (Identity Analyst - Brown-inspired)
+# Generated: 2026-01-23
+# Methodology: 4-Category Belief Mapping
+# =============================================================================
+
+metadata:
+  mind_slug: sean_ellis
+  analysis_date: "2026-01-23"
+  agent: "identity-analyst"
+  methodology: "4-Category Belief Mapping (Core, Limiting, Empowering, Origins)"
+  human_validated: false
+  validation_date: null
+  layer: 5.5
+  total_beliefs_mapped: 24
+  core_beliefs: 12
+  limiting_beliefs: 4
+  empowering_beliefs: 8
+
+# =============================================================================
+# CORE PRINCIPLE
+# =============================================================================
+
+analysis_principle: |
+  "Beliefs are not facts - they're interpretive frameworks that shape how
+  someone processes reality. Beliefs act as filters through which all
+  experience is interpreted."
+
+  Each belief was extracted through:
+  - Statements presented as facts
+  - Assumptions in arguments
+  - Premises in decision-making
+  - What they don't feel needs explanation
+
+# =============================================================================
+# CORE BELIEFS (Fundamental Assumptions About Reality)
+# =============================================================================
+
+belief_system:
+
+  core_beliefs:
+
+    # -------------------------------------------------------------------------
+    # ABOUT SELF
+    # -------------------------------------------------------------------------
+    about_self:
+
+      - id: cb_self_001
+        statement: "I learn best by doing, not by studying"
+        certainty: 10
+        evidence:
+          - source: "Glasp Talk"
+            quote: "In 1996 there weren't really books to read on growth so I learned by doing"
+          - source: "Origin Story"
+            quote: "Never studied marketing in school... learned through practical experience"
+          - source: "GoPractice Philosophy"
+            quote: "Flight simulator for growth - learning through simulated doing"
+        origin:
+          type: "direct_experience"
+          story: "Started career in Eastern Europe with no playbooks, had to invent approaches"
+          approximate_age: "Mid-20s"
+        examined: true
+
+      - id: cb_self_002
+        statement: "I should only speak about what I've directly experienced"
+        certainty: 10
+        evidence:
+          - source: "Lenny's Podcast"
+            quote: "I got invited to present on AI in China... I said no because I wasn't actually doing that much with AI myself"
+          - source: "Career Pattern"
+            quote: "Consistently declines topics outside direct experience"
+        origin:
+          type: "logical_inference"
+          story: "Observed credibility damage when others speak without experience"
+          approximate_age: "30s"
+        examined: true
+
+      - id: cb_self_003
+        statement: "My value comes from results, not credentials"
+        certainty: 9
+        evidence:
+          - source: "Career Narrative"
+            quote: "Built credibility through results at LogMeIn, Dropbox, etc."
+          - source: "Self-description"
+            quote: "Wasn't classically trained in marketing"
+        origin:
+          type: "direct_experience"
+          story: "Success without formal marketing credentials proved this"
+          approximate_age: "30s"
+        examined: true
+
+    # -------------------------------------------------------------------------
+    # ABOUT OTHERS
+    # -------------------------------------------------------------------------
+    about_others:
+
+      - id: cb_others_001
+        statement: "Most companies fail at growth because they skip the fundamentals"
+        certainty: 10
+        evidence:
+          - source: "Every interview"
+            quote: "Before you can do any of that... do you have product-market fit?"
+          - source: "Mahmoud Khodor"
+            quote: "That's the fastest way to put your startup out of business"
+        origin:
+          type: "direct_experience"
+          story: "Observed pattern across hundreds of companies"
+          approximate_age: "30s"
+        examined: true
+
+      - id: cb_others_002
+        statement: "People tell you what they think you want to hear, not what's true"
+        certainty: 9
+        evidence:
+          - source: "PMF Philosophy"
+            quote: "I don't care what they say, I care what they do. I track everything that they do."
+          - source: "Behavioral focus"
+            quote: "Watches actions, not words"
+        origin:
+          type: "direct_experience"
+          story: "User research showed gap between stated preferences and behavior"
+          approximate_age: "Early 30s"
+        examined: true
+
+      - id: cb_others_003
+        statement: "Cross-functional teams are necessary for growth success"
+        certainty: 10
+        evidence:
+          - source: "Contract requirement"
+            quote: "It's in my contract that's required up front for me to have a full day with the functional leads"
+          - source: "Mahmoud Khodor"
+            quote: "Almost any business over 100 employees that tries to do growth hacking fails"
+        origin:
+          type: "direct_experience"
+          story: "LogMeIn success required Marketing + Product collaboration"
+          approximate_age: "Early 30s"
+        examined: true
+
+      - id: cb_others_004
+        statement: "CEO engagement is a strong predictor of growth success"
+        certainty: 9
+        evidence:
+          - source: "GTM Vault"
+            quote: "Founder CEOs all took a super hands-on role working with me"
+          - source: "Pattern observation"
+            quote: "Success correlates with CEO involvement"
+        origin:
+          type: "direct_experience"
+          story: "Observed pattern across many engagements"
+          approximate_age: "40s"
+        examined: true
+
+    # -------------------------------------------------------------------------
+    # ABOUT WORLD (Growth & Business)
+    # -------------------------------------------------------------------------
+    about_world:
+
+      - id: cb_world_001
+        statement: "Product-Market Fit is 90% of the equation; execution is 10%"
+        certainty: 10
+        evidence:
+          - source: "Long Game Podcast"
+            quote: "Success is 90% PMF and 10% execution"
+          - source: "Core Philosophy"
+            quote: "PMF is the foundation - without it, nothing else matters"
+        origin:
+          type: "transformative_insight"
+          story: "LogMeIn/Dropbox experience crystallized this ratio"
+          approximate_age: "Early 30s"
+        examined: true
+
+      - id: cb_world_002
+        statement: "Data reveals truth that intuition and assumptions miss"
+        certainty: 10
+        evidence:
+          - source: "LogMeIn discovery"
+            quote: "95% of people who signed up never once did a remote control session"
+          - source: "PMF Survey"
+            quote: "Measure before assuming"
+        origin:
+          type: "transformative_insight"
+          story: "95% abandonment revelation - would have assumed product was fine"
+          approximate_age: "Early 30s (LogMeIn)"
+        examined: true
+
+      - id: cb_world_003
+        statement: "Economic constraints improve decision-making and growth outcomes"
+        certainty: 9
+        evidence:
+          - source: "Lenny's Podcast"
+            quote: "Economic constraints are a good thing. They actually can help you grow faster."
+          - source: "Freemium philosophy"
+            quote: "Can only spend 5-10% of premium counterparts"
+        origin:
+          type: "direct_experience"
+          story: "Freemium model required efficiency; turned out to be advantage"
+          approximate_age: "30s"
+        examined: true
+
+      - id: cb_world_004
+        statement: "Activation (first user experience) is the most overlooked growth lever"
+        certainty: 10
+        evidence:
+          - source: "Glasp Talk"
+            quote: "Fastest growing companies spend half product resources on activation"
+          - source: "GTM Vault"
+            quote: "Activation is where most stalling happens"
+        origin:
+          type: "transformative_insight"
+          story: "LogMeIn 95% abandonment - the discovery that changed everything"
+          approximate_age: "Early 30s"
+        examined: true
+
+    # -------------------------------------------------------------------------
+    # ABOUT POSSIBILITY
+    # -------------------------------------------------------------------------
+    about_possibility:
+
+      - id: cb_possibility_001
+        statement: "Any product can find PMF if it solves a real problem well"
+        certainty: 8
+        evidence:
+          - source: "Lookout story"
+            quote: "7% to 40% in two weeks - found the must-have users"
+          - source: "Consulting philosophy"
+            quote: "Takes on turnaround challenges"
+        origin:
+          type: "direct_experience"
+          story: "Lookout turnaround proved even poor PMF can be found"
+          approximate_age: "30s"
+        examined: true
+
+      - id: cb_possibility_002
+        statement: "Simple frameworks can capture complex truths"
+        certainty: 9
+        evidence:
+          - source: "PMF Survey"
+            quote: "One simple question"
+          - source: "ICE Framework"
+            quote: "Three simple dimensions"
+          - source: "North Star"
+            quote: "One metric everyone understands"
+        origin:
+          type: "logical_inference"
+          story: "Observed that complex frameworks don't get adopted"
+          approximate_age: "30s"
+        examined: true
+
+  # ---------------------------------------------------------------------------
+  # LIMITING BELIEFS
+  # ---------------------------------------------------------------------------
+  limiting_beliefs:
+
+    - id: lb_001
+      statement: "I can't present on topics where I lack hands-on experience"
+      domain: "capability"
+      strength: 8
+      evidence:
+        - source: "Lenny's Podcast"
+          quote: "I got invited to present on AI in China... I said no"
+      impact:
+        opportunities_lost:
+          - "China speaking engagement"
+          - "Early AI thought leadership positioning"
+        behaviors_shaped:
+          - "Declines topics outside core expertise"
+          - "Slower adoption of emerging areas"
+      contradicting_evidence:
+        - "Successfully adopted AI after gaining experience - not truly limiting"
+        - "Actually a protective belief, not a limiting one"
+      origin:
+        type: "logical_inference"
+        story: "Observed credibility damage when speaking without experience"
+      note: |
+        This appears limiting but is actually PROTECTIVE. It prevents
+        reputation damage and maintains authenticity. The "limitation"
+        is intentional and serves him well.
+
+    - id: lb_002
+      statement: "Growth methodologies don't work in organizations over 100 employees with silos"
+      domain: "possibility"
+      strength: 7
+      evidence:
+        - source: "Mahmoud Khodor"
+          quote: "Almost any business over 100 employees that tries to do growth hacking fails"
+      impact:
+        opportunities_lost:
+          - "Some enterprise consulting opportunities"
+        behaviors_shaped:
+          - "Focuses on smaller companies or requires workshop"
+          - "Contract-requires alignment work"
+      contradicting_evidence:
+        - "His workshop requirement specifically addresses this"
+        - "Dropbox was not small when he worked there"
+      origin:
+        type: "direct_experience"
+        story: "Observed failure pattern in large organizations"
+      note: |
+        This is less a limiting belief and more a diagnostic truth.
+        He addresses it through workshop requirement rather than
+        accepting it as permanent limitation.
+
+    - id: lb_003
+      statement: "Formal marketing education makes you worse at growth"
+      domain: "identity"
+      strength: 6
+      evidence:
+        - source: "Interview Patterns Analysis"
+          quote: "NYU marketing course made him worse at marketing"
+      impact:
+        opportunities_lost:
+          - "Some credentialed audiences may not take him seriously (rare)"
+        behaviors_shaped:
+          - "Distrust of formal marketing education"
+          - "Preference for practitioners over academics"
+      contradicting_evidence:
+        - "Many successful growth professionals have formal education"
+        - "His own success proves it's not necessary, not that it's harmful"
+      origin:
+        type: "direct_experience"
+        story: "Personal negative experience with NYU course"
+      note: |
+        This may be overgeneralized from one negative experience.
+        However, it hasn't limited his success or relationships.
+
+    - id: lb_004
+      statement: "I can't predict the future of AI and growth"
+      domain: "capability"
+      strength: 5
+      evidence:
+        - source: "Lenny's Podcast"
+          quote: "Who knows", "hard to say" on AI predictions
+      impact:
+        opportunities_lost:
+          - "Thought leadership on AI future"
+        behaviors_shaped:
+          - "Hedging on AI predictions"
+          - "Focus on current practical applications"
+      contradicting_evidence:
+        - "This is actually appropriate epistemic humility, not limitation"
+        - "Rapidly updated views as experience grew"
+      origin:
+        type: "direct_experience"
+        story: "Rapidly changing domain, predictions unreliable"
+      note: |
+        This is APPROPRIATE epistemic humility in a rapidly changing domain,
+        not a genuine limiting belief. It's a feature, not a bug.
+
+  # ---------------------------------------------------------------------------
+  # EMPOWERING BELIEFS
+  # ---------------------------------------------------------------------------
+  empowering_beliefs:
+
+    - id: eb_001
+      statement: "I can figure out what works through systematic experimentation"
+      domain: "capability"
+      strength: 10
+      evidence:
+        - source: "Career Arc"
+          quote: "No playbooks existed - had to invent approaches"
+        - source: "ICE Framework"
+          quote: "Systematic prioritization of experiments"
+        - source: "Career Success"
+          quote: "Multiple successful company transformations"
+      power:
+        actions_enabled:
+          - "Taking on turnaround challenges"
+          - "Entering new companies with confidence"
+          - "Creating novel frameworks"
+        successes_attributed:
+          - "LogMeIn transformation"
+          - "Dropbox growth"
+          - "Lookout turnaround"
+      accuracy: "accurate"
+      origin:
+        type: "direct_experience"
+        story: "Forced to figure things out without playbooks; succeeded"
+
+    - id: eb_002
+      statement: "Simple, quantified frameworks enable action and alignment"
+      domain: "possibility"
+      strength: 10
+      evidence:
+        - source: "40% PMF Threshold"
+          quote: "Became industry standard"
+        - source: "ICE Framework"
+          quote: "Widely adopted"
+        - source: "North Star"
+          quote: "Aligns organizations"
+      power:
+        actions_enabled:
+          - "Creating memorable frameworks"
+          - "Facilitating quick alignment"
+          - "Scaling methodology"
+        successes_attributed:
+          - "PMF test adoption globally"
+          - "ICE framework adoption"
+      accuracy: "accurate"
+      origin:
+        type: "transformative_insight"
+        story: "Observed that simple frameworks get adopted while complex ones don't"
+
+    - id: eb_003
+      statement: "Data will reveal what intuition misses"
+      domain: "world"
+      strength: 10
+      evidence:
+        - source: "LogMeIn 95%"
+          quote: "Would have assumed product was fine without data"
+        - source: "PMF Survey"
+          quote: "Measure before assuming"
+      power:
+        actions_enabled:
+          - "Always running PMF surveys"
+          - "Data-first diagnostic approach"
+          - "Overriding stakeholder assumptions"
+        successes_attributed:
+          - "LogMeIn discovery"
+          - "Lookout turnaround"
+      accuracy: "accurate"
+      origin:
+        type: "transformative_insight"
+        story: "95% abandonment revelation - data showed what assumption missed"
+
+    - id: eb_004
+      statement: "Constraints force creative solutions and focus"
+      domain: "possibility"
+      strength: 9
+      evidence:
+        - source: "Lenny's Podcast"
+          quote: "Economic constraints are a good thing"
+        - source: "Freemium economics"
+          quote: "5-10% spending forced discipline"
+      power:
+        actions_enabled:
+          - "Working within tight budgets"
+          - "Finding high-leverage activities"
+          - "Rejecting marginal opportunities"
+        successes_attributed:
+          - "LogMeIn cash-flow positive growth"
+          - "Dropbox efficient scaling"
+      accuracy: "accurate"
+      origin:
+        type: "direct_experience"
+        story: "Freemium model required efficiency, turned into advantage"
+
+    - id: eb_005
+      statement: "Sharing knowledge publicly creates more opportunity than hoarding it"
+      domain: "possibility"
+      strength: 9
+      evidence:
+        - source: "Blog 2010"
+          quote: "Coined Growth Hacker publicly"
+        - source: "Hacking Growth Book"
+          quote: "Gave away methodology"
+        - source: "GrowthHackers"
+          quote: "Built community"
+      power:
+        actions_enabled:
+          - "Writing and publishing extensively"
+          - "Building community platform"
+          - "Positioning as thought leader"
+        successes_attributed:
+          - "Established as definitive voice in growth"
+          - "Speaking/consulting opportunities"
+      accuracy: "accurate"
+      origin:
+        type: "direct_experience"
+        story: "Sharing created more opportunity than protecting could"
+
+    - id: eb_006
+      statement: "I can update my beliefs when new evidence arrives"
+      domain: "capability"
+      strength: 8
+      evidence:
+        - source: "AI Evolution"
+          quote: "From 'won't present' to 'heavy integration' over 6 months"
+        - source: "Superhuman praise"
+          quote: "Acknowledges improvements to his framework"
+      power:
+        actions_enabled:
+          - "Adopting new tools (AI)"
+          - "Acknowledging improvements by others"
+          - "Evolving methodology"
+        successes_attributed:
+          - "Maintaining relevance over 20+ years"
+          - "Credibility with sophisticates"
+      accuracy: "accurate"
+      origin:
+        type: "logical_inference"
+        story: "Scientific mindset - beliefs are hypotheses to be tested"
+
+    - id: eb_007
+      statement: "The positive signal (must-have users) is more important than problems"
+      domain: "world"
+      strength: 9
+      evidence:
+        - source: "Blog: Chasing Problems"
+          quote: "The positive signal is much more important than the ongoing flow of new problems"
+        - source: "PMF Survey"
+          quote: "Focus on very disappointed, not somewhat disappointed"
+      power:
+        actions_enabled:
+          - "Ignoring most user feedback"
+          - "Doubling down on what works"
+          - "Resource allocation focus"
+        successes_attributed:
+          - "Avoiding product bloat"
+          - "Maintaining must-have experience"
+      accuracy: "accurate"
+      origin:
+        type: "transformative_insight"
+        story: "Discovered counter-intuitively that chasing problems dilutes focus"
+
+    - id: eb_008
+      statement: "Cross-functional alignment can be achieved through structured facilitation"
+      domain: "possibility"
+      strength: 9
+      evidence:
+        - source: "Contract requirement"
+          quote: "Full day workshop with functional leads"
+        - source: "LogMeIn success"
+          quote: "Marketing + Product worked together"
+      power:
+        actions_enabled:
+          - "Taking on siloed organizations"
+          - "Workshop facilitation"
+          - "Breaking down barriers"
+        successes_attributed:
+          - "Successful engagements despite organizational challenges"
+      accuracy: "accurate"
+      origin:
+        type: "direct_experience"
+        story: "Discovered workshops could overcome silo resistance"
+
+  # ---------------------------------------------------------------------------
+  # BELIEF ORIGINS (Formative Experiences)
+  # ---------------------------------------------------------------------------
+  belief_origins:
+
+    formative_experiences:
+      - experience: "Starting career in Eastern Europe with no playbooks"
+        beliefs_formed:
+          - "I learn best by doing"
+          - "I can figure things out through experimentation"
+        age: "Mid-20s"
+
+      - experience: "LogMeIn 95% abandonment discovery"
+        beliefs_formed:
+          - "Data reveals truth that intuition misses"
+          - "Activation is the most overlooked lever"
+          - "Product-Market Fit is 90% of the equation"
+        age: "Early 30s"
+
+      - experience: "Lookout 7% to 40% turnaround"
+        beliefs_formed:
+          - "Any product can find PMF if it solves a real problem"
+          - "The positive signal is more important than problems"
+        age: "Late 30s"
+
+      - experience: "NYU marketing course negative experience"
+        beliefs_formed:
+          - "Formal marketing education makes you worse"
+          - "My value comes from results, not credentials"
+        age: "30s"
+
+    authority_figures:
+      - figure: "Jeff Bezos (indirect through quotes)"
+        beliefs_influenced:
+          - "Experimentation velocity correlates with success"
+        evidence: "Frequently cites Bezos on experiments"
+
+      - figure: "Paul Graham (indirect through philosophy)"
+        beliefs_influenced:
+          - "Do things that don't scale initially"
+        evidence: "Cites 'do things that don't scale'"
+
+    transformative_insights:
+      - insight: "40% PMF threshold discovery"
+        date: "~2007-2008"
+        beliefs_crystallized:
+          - "Product-Market Fit is 90% of the equation"
+          - "Simple frameworks can capture complex truths"
+        impact: "Became defining contribution to field"
+
+      - insight: "Counter-intuitive positive signal focus"
+        date: "~2010"
+        beliefs_crystallized:
+          - "The positive signal is more important than problems"
+          - "Ignore most customer feedback to serve core users"
+        impact: "Defined approach to product development"
+
+  # ---------------------------------------------------------------------------
+  # BELIEF ECOSYSTEM
+  # ---------------------------------------------------------------------------
+  belief_ecosystem:
+
+    reinforcing_clusters:
+      - cluster: "Experiential Learning Cluster"
+        beliefs:
+          - "I learn best by doing"
+          - "Data reveals truth"
+          - "I can figure things out through experimentation"
+        reinforcement: "Each belief makes the others stronger - experiential learning requires data, data enables experimentation, experimentation is doing"
+
+      - cluster: "Fundamentals-First Cluster"
+        beliefs:
+          - "PMF is 90% of the equation"
+          - "Activation is the most overlooked lever"
+          - "Most companies fail because they skip fundamentals"
+        reinforcement: "These beliefs create a diagnostic hierarchy - always check PMF first, then activation"
+
+      - cluster: "Simplicity Cluster"
+        beliefs:
+          - "Simple frameworks can capture complex truths"
+          - "Constraints force creative solutions"
+          - "Simple, quantified frameworks enable alignment"
+        reinforcement: "Preference for simplicity spans methodology, economics, and communication"
+
+    conflicting_pairs:
+      - pair:
+          belief_a: "I should only speak about what I've directly experienced"
+          belief_b: "I can update my beliefs when new evidence arrives"
+        resolution: "Not actually conflicting - the first is about PRESENTATION, the second is about LEARNING. He experiments privately, presents proven."
+
+      - pair:
+          belief_a: "Data reveals truth that intuition misses"
+          belief_b: "Expert intuition enables rapid pattern recognition"
+        resolution: "Contextual - distrust NEW intuitions, trust VALIDATED intuitions built over 20+ years"
+
+    foundational_beliefs:
+      - belief: "Product-Market Fit is 90% of the equation"
+        why_foundational: "Everything else in his methodology derives from this"
+        derived_beliefs:
+          - "Always validate PMF first"
+          - "Don't scale without PMF"
+          - "Activation only matters after PMF"
+
+      - belief: "Data reveals truth that intuition misses"
+        why_foundational: "Underlies all methodology"
+        derived_beliefs:
+          - "Always measure"
+          - "Validate assumptions"
+          - "Watch behavior, not words"
+
+# =============================================================================
+# SUMMARY
+# =============================================================================
+
+summary:
+
+  total_beliefs_mapped: 24
+  core_beliefs: 12
+  limiting_beliefs: 4
+  empowering_beliefs: 8
+
+  worldview_signature: |
+    Sean Ellis operates from a **fundamentals-first, data-driven, experiential**
+    worldview. His belief architecture centers on a few key axioms:
+
+    1. **PMF is destiny** - Product-Market Fit determines success more than
+       anything else. This belief organizes all other priorities.
+
+    2. **Data over intuition** - Reality is revealed by measurement, not
+       assumption. This belief drives his diagnostic approach.
+
+    3. **Learning through doing** - Real knowledge comes from experience,
+       not study. This belief explains his self-taught identity.
+
+    4. **Simplicity enables action** - Complex frameworks don't get adopted;
+       simple ones do. This belief shapes his methodology design.
+
+    5. **Constraints create focus** - Limitations force creativity and
+       efficiency. This belief positions him against "growth at all costs."
+
+    His belief ecosystem is highly coherent - beliefs reinforce each other
+    and create a consistent worldview. The few apparent conflicts resolve
+    through context-dependence rather than genuine contradiction.
+
+    What makes this belief system powerful is its ACTIONABILITY. Each core
+    belief translates directly into methodology: measure PMF, optimize
+    activation, experiment systematically, align cross-functionally.
+
+  belief_blind_spots:
+    - area: "Personal/non-professional beliefs"
+      note: "Limited data on beliefs outside startup/growth domain"
+
+    - area: "Beliefs about failure"
+      note: "Talks about failures but underlying beliefs about failure less clear"
+
+    - area: "Beliefs about scale limits"
+      note: "May underweight enterprise success patterns"
+
+# =============================================================================
+# VALIDATION
+# =============================================================================
+
+validation:
+
+  quality_gates:
+    - gate: "Core beliefs across all 4 domains"
+      status: "PASSED (self: 3, others: 4, world: 4, possibility: 2)"
+    - gate: "Minimum 3 limiting beliefs with impact"
+      status: "PASSED (4 identified)"
+    - gate: "Minimum 3 empowering beliefs with power"
+      status: "PASSED (8 identified)"
+    - gate: "Origin hypotheses for major beliefs"
+      status: "PASSED"
+    - gate: "Belief ecosystem relationships mapped"
+      status: "PASSED"
+    - gate: "Contradicting evidence for limiting beliefs"
+      status: "PASSED"
+    - gate: "Worldview signature written"
+      status: "PASSED"
+    - gate: "All beliefs have source citations"
+      status: "PASSED"
+
+  confidence_assessment:
+    overall_confidence: 0.88
+
+    strengths:
+      - "Core beliefs extremely well-documented across sources"
+      - "Clear reinforcing clusters identified"
+      - "Origin stories available for major beliefs"
+      - "High coherence in belief ecosystem"
+
+    limitations:
+      - "Limited personal/non-professional beliefs"
+      - "Some origin stories are hypotheses"
+      - "Limiting beliefs may be protective, not limiting"
+
+# =============================================================================
+# LINEAGE
+# =============================================================================
+
+lineage:
+  sources_used:
+    - "artifacts/values_hierarchy.yaml"
+    - "artifacts/core_obsessions.yaml"
+    - "artifacts/contradictions.yaml"
+    - "analysis/mined_content.yaml"
+    - "sources/transcripts/* (9 interviews)"
+    - "sources/blogs/* (13 posts)"
+
+  methodology: "4-Category Belief Mapping"
+  agent: "identity-analyst"
+
+  next_task: "unique-algorithm-analysis.md"

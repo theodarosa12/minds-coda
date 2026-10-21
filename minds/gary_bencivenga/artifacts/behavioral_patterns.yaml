@@ -1,0 +1,1128 @@
+# Gary Bencivenga - Behavioral Patterns Analysis
+# Generated: 2026-01-23T23:30:00-03:00
+# Agent: Daniel (Behavioral Analyst)
+# Task: behavioral-patterns-analysis
+# Methodology: Kahneman Dual-Process + Prospect Theory + State-Based Mapping
+
+metadata:
+  mind_slug: gary_bencivenga
+  analysis_date: "2026-01-23"
+  agent: "behavioral-analyst"
+  methodology: "Kahneman Dual-Process + Prospect Theory"
+  source_count: 9
+  confidence: 92
+  version: "1.0.0"
+  notes: |
+    Comprehensive behavioral state mapping based on 9 Phase 1 artifacts.
+    States are context-dependent, not static traits.
+    "People don't have ONE personality - they have STATES that activate contextually."
+
+# =============================================================================
+# PHASE 1: SOURCE MATERIAL INVENTORY
+# =============================================================================
+source_inventory:
+  primary_artifacts:
+    - filename: "mined_content.yaml"
+      behavioral_evidence: high
+      key_sections:
+        - "cognitive_layer_3_behaviors (5 behaviors)"
+        - "cognitive_layer_7_obsessions (5 obsessions)"
+        - "hidden_curriculum (5 gaps)"
+
+    - filename: "interview_patterns.yaml"
+      behavioral_evidence: high
+      key_sections:
+        - "micro_decisions"
+        - "hidden_curriculum.behavior_advice_gaps"
+        - "story_patterns"
+
+    - filename: "multi_source_patterns.yaml"
+      behavioral_evidence: high
+      key_sections:
+        - "frequency_patterns"
+        - "temporal_patterns"
+        - "structural_patterns"
+
+    - filename: "cross_reference_validation.yaml"
+      behavioral_evidence: medium
+      key_sections:
+        - "validated_patterns"
+        - "consistency_metrics"
+
+  secondary_accounts:
+    - source: "Gary Halbert account (Bencivenga 100)"
+      reliability: high
+      cross_validation_needed: false
+      behavioral_observations:
+        - "Work ethic emphasis"
+        - "748-hour methodology"
+        - "Exhaustion-inducing dedication"
+
+    - source: "Brian Kurtz account (Bencivenga 100)"
+      reliability: high
+      cross_validation_needed: false
+      behavioral_observations:
+        - "Humility demonstration"
+        - "Congruence and confidence"
+        - "Teaching generosity"
+
+    - source: "Ben Settle correspondence"
+      reliability: high
+      cross_validation_needed: false
+      behavioral_observations:
+        - "Unsolicited mentorship"
+        - "Talent recognition behavior"
+        - "Knowledge transmission initiation"
+
+# =============================================================================
+# PHASE 2: STATE INVENTORY (Minimum 5 Required)
+# =============================================================================
+state_inventory:
+  total_states: 7
+
+  states:
+    # =========================================================================
+    # STATE 1: DEEP RESEARCH MODE
+    # =========================================================================
+    - name: "Deep Research Mode"
+      id: deep_research_mode
+
+      description: |
+        Extended, methodical information gathering state where Gary immerses
+        completely in understanding the product, market, and prospect psychology.
+        This is the dominant mode during the first 40% of any project.
+
+      behavioral_markers:
+        - "90-day research periods before writing begins"
+        - "300+ hours dedicated solely to understanding"
+        - "Multiple sources consulted systematically"
+        - "Note-taking and pattern extraction"
+        - "Prospect psychology immersion"
+        - "Product testing and personal use when possible"
+
+      cognitive_characteristics:
+        system_dominance: "System 2"
+        attention_pattern: "Deep focused / Absorptive"
+        decision_style: "Deliberate - no shortcuts"
+        mental_operations:
+          - "Pattern recognition across sources"
+          - "Hypothesis generation about prospects"
+          - "Question formulation"
+
+      emotional_tone:
+        primary: "Curiosity"
+        secondary: "Patience"
+        underlying: "Disciplined excitement"
+
+      triggers:
+        environmental:
+          - "New project commitment made"
+          - "Unfamiliar product or market"
+          - "Workspace with research materials"
+        internal:
+          - "Recognition of knowledge gap"
+          - "Commitment to methodology (40/40/20)"
+          - "Awareness of high stakes"
+        social:
+          - "Client contract signed"
+          - "Royalty arrangement in place"
+          - "Quality expectations set"
+        task:
+          - "Any major copywriting project"
+          - "New product category"
+          - "Competitive landscape assessment"
+
+      duration:
+        minimum: "2 weeks"
+        typical: "60-90 days"
+        maximum: "No upper limit observed"
+
+      exit_conditions:
+        - "Sufficient understanding achieved"
+        - "Prospect psychology mapped"
+        - "Key angles identified"
+        - "40% of allocated project time reached"
+
+      evidence:
+        - source: "methodology-40-40-20.md"
+          quote_or_observation: "40% research, 300+ hours dedicated"
+        - source: "Gary Halbert account"
+          quote_or_observation: "The amount of work and discipline involved"
+        - source: "John Caples mentorship"
+          quote_or_observation: "Spend 7x longer preparing than writing"
+
+    # =========================================================================
+    # STATE 2: WRITING/CREATION MODE
+    # =========================================================================
+    - name: "Writing/Creation Mode"
+      id: writing_creation_mode
+
+      description: |
+        Active copy creation state where research insights are transformed into
+        persuasive text. Multiple iterations, constant refinement. System 2
+        dominant but with trained intuitions from years of ad study.
+
+      behavioral_markers:
+        - "Extended writing sessions"
+        - "Multiple draft iterations"
+        - "Version comparison and testing"
+        - "Headline generation (dozens of options)"
+        - "Internal 'yeah, sure' test application"
+        - "Framework application (Persuasion Equation)"
+
+      cognitive_characteristics:
+        system_dominance: "Mixed - System 2 with trained System 1 intuitions"
+        attention_pattern: "Focused creative flow"
+        decision_style: "Iterative - write, evaluate, refine"
+        mental_operations:
+          - "Translation of research into angles"
+          - "Framework application"
+          - "Self-critique (internal skeptic)"
+
+      emotional_tone:
+        primary: "Concentrated engagement"
+        secondary: "Productive dissatisfaction (not good enough yet)"
+        underlying: "Determination"
+
+      triggers:
+        environmental:
+          - "Research phase completed"
+          - "Writing workspace ready"
+          - "Deadline awareness"
+        internal:
+          - "Sufficient understanding achieved"
+          - "Angles crystallized"
+          - "Urgency to express insights"
+        social:
+          - "Client expectations"
+          - "Self-competition (beat the control)"
+        task:
+          - "Copy brief finalized"
+          - "Target identified"
+          - "Offer defined"
+
+      duration:
+        minimum: "Several days"
+        typical: "60-90 days (300 hours)"
+        maximum: "As needed for quality"
+
+      exit_conditions:
+        - "Copy meets internal quality standard"
+        - "CRIT feedback incorporated"
+        - "Ready for polishing phase"
+
+      evidence:
+        - source: "mined_content.yaml MM_001"
+          quote_or_observation: "40% writing phase"
+        - source: "interview_patterns.yaml"
+          quote_or_observation: "Multiple iterations and versions"
+
+    # =========================================================================
+    # STATE 3: SKEPTIC/EVALUATOR MODE
+    # =========================================================================
+    - name: "Skeptic/Evaluator Mode"
+      id: skeptic_evaluator_mode
+
+      description: |
+        Critical evaluation state where Gary adopts the mindset of the most
+        skeptical reader. Every claim tested against "yeah, sure" response.
+        This is an overlay state that activates during and after writing.
+
+      behavioral_markers:
+        - "Applying 'yeah, sure' test to each claim"
+        - "Demanding proof for every assertion"
+        - "Role-playing hostile audience"
+        - "Checking credibility gaps"
+        - "Verifying testimonial strength"
+        - "Testing implied authority claims"
+
+      cognitive_characteristics:
+        system_dominance: "System 2"
+        attention_pattern: "Analytical scanning"
+        decision_style: "Evidence-based rejection or acceptance"
+        mental_operations:
+          - "Claim-proof matching"
+          - "Credibility assessment"
+          - "Audience simulation"
+
+      emotional_tone:
+        primary: "Skeptical detachment"
+        secondary: "Protective concern (for reader)"
+        underlying: "Integrity commitment"
+
+      triggers:
+        environmental:
+          - "Draft copy in front of him"
+          - "CRIT session"
+          - "Evaluation context"
+        internal:
+          - "Intuition that claim is weak"
+          - "Awareness of potential objection"
+          - "Quality standard not met"
+        social:
+          - "CRIT system peer review"
+          - "Client presentation prep"
+        task:
+          - "Copy evaluation"
+          - "Headline testing"
+          - "Proof element review"
+
+      duration:
+        minimum: "Minutes (per claim)"
+        typical: "Hours (per review session)"
+        maximum: "Throughout project"
+
+      exit_conditions:
+        - "All claims pass 'yeah, sure' test"
+        - "Proof adequate for claim magnitude"
+        - "Internal skeptic satisfied"
+
+      evidence:
+        - source: "bencivenga-bullets-summary.md Bullet 3"
+          quote_or_observation: "'Yeah, sure' as credibility check"
+        - source: "mined_content.yaml MM_003"
+          quote_or_observation: "Every claim must survive skeptic's reaction"
+
+    # =========================================================================
+    # STATE 4: TEACHING/TRANSMISSION MODE
+    # =========================================================================
+    - name: "Teaching/Transmission Mode"
+      id: teaching_transmission_mode
+
+      description: |
+        Knowledge sharing state where Gary actively transmits accumulated wisdom.
+        This is his post-security identity state - what he couldn't "retire" from.
+        Characterized by generosity, structured frameworks, and story-based teaching.
+
+      behavioral_markers:
+        - "Story-based explanation"
+        - "Framework articulation (numbered principles)"
+        - "Mentor acknowledgment"
+        - "Generous knowledge sharing without expectation"
+        - "Recognizing and nurturing talent"
+        - "Sending unsolicited resources (books, materials)"
+
+      cognitive_characteristics:
+        system_dominance: "System 1 for internalized principles, System 2 for adaptation"
+        attention_pattern: "Outward focused / Empathetic"
+        decision_style: "Pattern matching to teaching frameworks"
+        mental_operations:
+          - "Principle selection for context"
+          - "Story retrieval"
+          - "Framework application"
+
+      emotional_tone:
+        primary: "Generous enthusiasm"
+        secondary: "Legacy satisfaction"
+        underlying: "Identity fulfillment"
+
+      triggers:
+        environmental:
+          - "Seminar/presentation setting"
+          - "Correspondence with aspiring copywriters"
+          - "Interview or podcast context"
+        internal:
+          - "Recognition of teachable moment"
+          - "Connection to mentor chain obligation"
+          - "Talent recognized in others"
+        social:
+          - "Questions about methodology"
+          - "Requests for guidance"
+          - "Tribute/legacy events"
+        task:
+          - "Bencivenga Bullets writing"
+          - "Seminar preparation"
+          - "Mentorship interaction"
+
+      duration:
+        minimum: "Brief interaction"
+        typical: "Hours (seminar) to ongoing (relationship)"
+        maximum: "Lifelong (with select individuals)"
+
+      exit_conditions:
+        - "Knowledge successfully transmitted"
+        - "Student demonstrates understanding"
+        - "External interruption"
+
+      evidence:
+        - source: "mined_content.yaml HC_001"
+          quote_or_observation: "Teaching is identity, not work"
+        - source: "obvious-adams-connection.md"
+          quote_or_observation: "Sent 'Obvious Adams' to Ben Settle unsolicited"
+        - source: "interview_patterns.yaml GAP_001"
+          quote_or_observation: "Said retire, kept teaching"
+
+    # =========================================================================
+    # STATE 5: CRIT/FEEDBACK COLLECTION MODE
+    # =========================================================================
+    - name: "CRIT/Feedback Collection Mode"
+      id: crit_feedback_mode
+
+      description: |
+        Systematic feedback gathering state using the CRIT methodology.
+        Deliberately includes non-experts for "fresh eyes" perspective.
+        Receptive and non-defensive - seeking blind spots, not validation.
+
+      behavioral_markers:
+        - "Presenting work to diverse reviewers"
+        - "Including non-experts deliberately"
+        - "Listening without defending"
+        - "Documenting criticism systematically"
+        - "Testing comprehension across perspectives"
+        - "Synthesizing feedback into improvements"
+
+      cognitive_characteristics:
+        system_dominance: "System 2"
+        attention_pattern: "Open/Receptive"
+        decision_style: "Synthesis-oriented"
+        mental_operations:
+          - "Pattern recognition in feedback"
+          - "Blind spot identification"
+          - "Priority assessment of critiques"
+
+      emotional_tone:
+        primary: "Humble receptivity"
+        secondary: "Curiosity about perspectives"
+        underlying: "Quality commitment"
+
+      triggers:
+        environmental:
+          - "Draft completion"
+          - "CRIT session scheduled"
+          - "Agency review meeting"
+        internal:
+          - "Recognition that expertise creates blind spots"
+          - "Desire for quality assurance"
+        social:
+          - "Diverse team available"
+          - "Fresh eyes needed"
+        task:
+          - "Copy review cycle"
+          - "Pre-finalization check"
+
+      duration:
+        minimum: "30 minutes (quick review)"
+        typical: "2-4 hours (full CRIT)"
+        maximum: "Multiple sessions over days"
+
+      exit_conditions:
+        - "All major perspectives collected"
+        - "Blind spots identified"
+        - "Improvement path clear"
+
+      evidence:
+        - source: "career-history-timeline.md"
+          quote_or_observation: "Involved receptionists, art directors, account executives"
+        - source: "mined_content.yaml HC_003"
+          quote_or_observation: "Fresh eyes see what experts miss"
+
+    # =========================================================================
+    # STATE 6: TESTING/MEASUREMENT MODE
+    # =========================================================================
+    - name: "Testing/Measurement Mode"
+      id: testing_measurement_mode
+
+      description: |
+        Scientific advertising state where empirical testing trumps opinion.
+        Split-run focused, results-obsessed, humble before data.
+        "Never lost a split-run test at Rodale" emerged from this state.
+
+      behavioral_markers:
+        - "Designing split-run tests"
+        - "Analyzing results objectively"
+        - "Accepting data over intuition"
+        - "Documenting what works and what doesn't"
+        - "Iterating based on results"
+        - "Maintaining 80%+ hit ratio through discipline"
+
+      cognitive_characteristics:
+        system_dominance: "System 2"
+        attention_pattern: "Analytical / Data-focused"
+        decision_style: "Evidence-based"
+        mental_operations:
+          - "Hypothesis formulation"
+          - "Variable isolation"
+          - "Result interpretation"
+
+      emotional_tone:
+        primary: "Scientific detachment"
+        secondary: "Respect for data"
+        underlying: "Competitive drive"
+
+      triggers:
+        environmental:
+          - "Test results available"
+          - "Split-run data received"
+          - "Campaign performance review"
+        internal:
+          - "Uncertainty about approach"
+          - "Need for validation"
+          - "Competitive situation"
+        social:
+          - "Client expecting proof"
+          - "Control to beat"
+        task:
+          - "A/B test analysis"
+          - "Performance optimization"
+          - "Winner identification"
+
+      duration:
+        minimum: "Test result review"
+        typical: "Ongoing through campaign"
+        maximum: "Entire career approach"
+
+      exit_conditions:
+        - "Clear winner identified"
+        - "Sufficient data collected"
+        - "Optimization complete"
+
+      evidence:
+        - source: "career-history-timeline.md"
+          quote_or_observation: "Never lost a split-run test at Rodale"
+        - source: "mined_content.yaml OBS_001"
+          quote_or_observation: "80%+ hit ratio; emphasis on 'scientific advertising'"
+
+    # =========================================================================
+    # STATE 7: DEFAULT/BASELINE MODE
+    # =========================================================================
+    - name: "Default/Baseline Mode"
+      id: default_baseline_mode
+
+      description: |
+        Resting state when no specific triggers present. Characterized by
+        daily ad study ritual (maintaining subconscious programming),
+        reflective observation, and readiness to engage teaching state.
+
+      behavioral_markers:
+        - "Daily ad study ritual"
+        - "Two questions per ad studied"
+        - "Observation of marketing around him"
+        - "Reflection on principles"
+        - "Reading and learning"
+        - "Relationship maintenance"
+
+      cognitive_characteristics:
+        system_dominance: "Balanced - maintenance mode"
+        attention_pattern: "Diffuse awareness / Absorptive"
+        decision_style: "Low-stakes intuitive"
+        mental_operations:
+          - "Pattern absorption"
+          - "Subconscious programming"
+          - "Principle reinforcement"
+
+      emotional_tone:
+        primary: "Calm contentment"
+        secondary: "Quiet curiosity"
+        underlying: "Legacy satisfaction"
+
+      triggers:
+        environmental:
+          - "No active project"
+          - "Home environment"
+          - "Non-work context"
+        internal:
+          - "Project completion"
+          - "Recovery need"
+          - "Reflection desire"
+        social:
+          - "Family time"
+          - "Peer interaction"
+        task:
+          - "Between projects"
+          - "Post-retirement default"
+
+      duration:
+        minimum: "Hours"
+        typical: "Days between projects"
+        maximum: "Post-retirement default (with teaching interruptions)"
+
+      exit_conditions:
+        - "Teaching opportunity arises"
+        - "New project begins"
+        - "External stimulus requires response"
+
+      evidence:
+        - source: "mined_content.yaml META_002"
+          quote_or_observation: "Daily ad study programs subconscious"
+        - source: "interview_patterns.yaml"
+          quote_or_observation: "Morning power hours, sleep-on-problems"
+
+# =============================================================================
+# PHASE 3: TRIGGER MAPPING
+# =============================================================================
+trigger_map:
+  environmental_triggers:
+    - trigger: "New project commitment"
+      activates: "deep_research_mode"
+      strength: high
+
+    - trigger: "Research complete signal"
+      activates: "writing_creation_mode"
+      strength: high
+
+    - trigger: "Draft available for review"
+      activates: "skeptic_evaluator_mode"
+      strength: high
+
+    - trigger: "Seminar/presentation setting"
+      activates: "teaching_transmission_mode"
+      strength: high
+
+    - trigger: "CRIT session scheduled"
+      activates: "crit_feedback_mode"
+      strength: high
+
+    - trigger: "Test results received"
+      activates: "testing_measurement_mode"
+      strength: high
+
+  internal_triggers:
+    - trigger: "Recognition of knowledge gap"
+      activates: "deep_research_mode"
+      strength: high
+
+    - trigger: "Intuition that claim is weak"
+      activates: "skeptic_evaluator_mode"
+      strength: medium
+
+    - trigger: "Recognition of teachable moment"
+      activates: "teaching_transmission_mode"
+      strength: high
+
+    - trigger: "Awareness that expertise creates blind spots"
+      activates: "crit_feedback_mode"
+      strength: medium
+
+  social_triggers:
+    - trigger: "Client contract signed"
+      activates: "deep_research_mode"
+      strength: high
+
+    - trigger: "Questions about methodology from aspiring copywriters"
+      activates: "teaching_transmission_mode"
+      strength: high
+
+    - trigger: "Tribute/legacy events (e.g., Titans)"
+      activates: "teaching_transmission_mode"
+      strength: very_high
+
+    - trigger: "Control to beat"
+      activates: "testing_measurement_mode"
+      strength: high
+
+  task_triggers:
+    - trigger: "Any major copywriting project"
+      activates: "deep_research_mode"
+      strength: mandatory
+
+    - trigger: "Copy evaluation/review"
+      activates: "skeptic_evaluator_mode"
+      strength: mandatory
+
+    - trigger: "A/B test analysis"
+      activates: "testing_measurement_mode"
+      strength: mandatory
+
+# =============================================================================
+# PHASE 4: DUAL-PROCESS PROFILE
+# =============================================================================
+dual_process_profile:
+
+  system_1_dominant_contexts:
+    - context: "Questions about fundamentals he's internalized"
+      typical_responses:
+        - "Quick, declarative answers"
+        - "Aphoristic responses ('A gifted product is mightier than a gifted pen')"
+        - "Framework retrieval"
+      heuristics_used:
+        - "Recognition heuristic (familiar patterns)"
+        - "Availability (well-rehearsed principles)"
+      accuracy: "Very high - 40 years of internalization"
+
+    - context: "Teaching known principles"
+      typical_responses:
+        - "Story retrieval"
+        - "Framework application"
+        - "Mentor chain acknowledgment"
+      heuristics_used:
+        - "Availability heuristic (teaching stories)"
+        - "Representativeness (pattern matching to principles)"
+      accuracy: "Very high - deeply practiced"
+
+    - context: "Recognizing talent in others"
+      typical_responses:
+        - "Immediate action (send resources)"
+        - "Mentorship initiation"
+      heuristics_used:
+        - "Pattern recognition (sees younger self)"
+      accuracy: "High - experienced talent scout"
+
+  system_2_dominant_contexts:
+    - context: "New product/market research"
+      deliberation_triggers:
+        - "Unfamiliar territory"
+        - "High stakes (royalties)"
+        - "Client expectations"
+      time_requirement: "90 days minimum"
+      cognitive_load: "Very high (300+ hours)"
+
+    - context: "Copy evaluation (Yeah, Sure test)"
+      deliberation_triggers:
+        - "Each claim requiring proof"
+        - "Skeptic simulation"
+        - "Quality standard enforcement"
+      time_requirement: "Variable per claim"
+      cognitive_load: "Moderate but sustained"
+
+    - context: "CRIT feedback synthesis"
+      deliberation_triggers:
+        - "Multiple perspectives to integrate"
+        - "Conflicting feedback to resolve"
+        - "Blind spot identification"
+      time_requirement: "Hours"
+      cognitive_load: "High"
+
+    - context: "Test result interpretation"
+      deliberation_triggers:
+        - "Data available"
+        - "Hypothesis validation needed"
+        - "Optimization decisions"
+      time_requirement: "Variable"
+      cognitive_load: "Moderate"
+
+  override_patterns:
+    system_2_overrides_1:
+      - trigger: "High stakes project (royalties involved)"
+        threshold: "Any non-trivial financial impact"
+        behavior: "Forces full 40/40/20 methodology regardless of intuition"
+
+      - trigger: "Claim seems credible but no proof"
+        threshold: "Any claim lacking evidence"
+        behavior: "Apply 'Yeah, Sure' test even if intuition says it's fine"
+
+      - trigger: "Expertise might create blind spots"
+        threshold: "Any major piece of copy"
+        behavior: "Deliberately seek non-expert feedback"
+
+    system_1_overrides_2:
+      - trigger: "Mentor/relationship opportunity"
+        pattern: "Acts immediately on impulse to help"
+        example: "Sending 'Obvious Adams' to Ben Settle unsolicited"
+
+      - trigger: "Legacy event (e.g., Titans 2014)"
+        pattern: "Overrides 'retirement' decision for meaningful appearances"
+        justification: "Relationships and legacy matter more than rules"
+
+  transition_signals:
+    from_1_to_2:
+      - "Pausing before responding"
+      - "Asking clarifying questions"
+      - "Reaching for data/notes"
+      - "Initiating research process"
+
+    from_2_to_1:
+      - "Delivering aphorisms"
+      - "Telling stories"
+      - "Quick, confident declarations"
+      - "Framework citation"
+
+# =============================================================================
+# PHASE 5: HEURISTIC INVENTORY
+# =============================================================================
+heuristic_inventory:
+
+  - name: "The 40/40/20 Rule"
+    description: "Automatically allocate 40% research, 40% writing, 20% polishing"
+    trigger: "Any major copywriting project"
+    accuracy: "Very high - tested over decades"
+    bias_risk: "May over-invest in low-stakes projects"
+    evidence: "Core methodology, 6 sources"
+
+  - name: "The 'Yeah, Sure' Test"
+    description: "Run every claim through skeptic's sarcastic reaction filter"
+    trigger: "Evaluating any claim in copy"
+    accuracy: "Very high - catches weak proof"
+    bias_risk: "May be overly conservative"
+    evidence: "Bullet 3, 5 sources"
+
+  - name: "Research Before Action"
+    description: "Default to investigation before any writing"
+    trigger: "Any new project or problem"
+    accuracy: "Very high"
+    bias_risk: "Analysis paralysis in time-sensitive situations"
+    evidence: "Caples mentorship, core methodology"
+
+  - name: "Mentor Chain Recognition"
+    description: "Identify and acknowledge intellectual lineage"
+    trigger: "Teaching or credibility establishment"
+    accuracy: "High - shows humility and legitimacy"
+    bias_risk: "Over-reliance on authority"
+    evidence: "Hopkins-Caples-Ogilvy lineage, multiple sources"
+
+  - name: "Fresh Eyes Heuristic"
+    description: "Include non-experts for perspective experts miss"
+    trigger: "Quality review process"
+    accuracy: "High - catches blind spots"
+    bias_risk: "May weight non-expert opinion too highly"
+    evidence: "CRIT system, 4 sources"
+
+  - name: "Control Is Your Enemy"
+    description: "Treat previous wins as challenges to beat, not rest on"
+    trigger: "Success/completion"
+    accuracy: "High - drives continuous improvement"
+    bias_risk: "Never satisfied, potential burnout"
+    evidence: "Bencivenga 100 seminar"
+
+  - name: "Pareto Application"
+    description: "Identify 20% of activities driving 80% of results"
+    trigger: "Prioritization decisions"
+    accuracy: "High for resource allocation"
+    bias_risk: "May undervalue long-tail activities"
+    evidence: "Bullets 2, 26, 28"
+
+# =============================================================================
+# PHASE 6: PROSPECT THEORY PROFILE
+# =============================================================================
+prospect_theory_profile:
+
+  reference_points:
+    - domain: "Project Success"
+      reference: "Beat the existing control"
+      gains_above: "Higher response rate than control"
+      losses_below: "Losing to the control"
+
+    - domain: "Career/Reputation"
+      reference: "Never lost at Rodale"
+      gains_above: "Continued win streak"
+      losses_below: "First loss would be devastating to identity"
+
+    - domain: "Knowledge Transmission"
+      reference: "Mentor chain preserved and extended"
+      gains_above: "Students who succeed"
+      losses_below: "Wisdom dying with him"
+
+    - domain: "Financial (Post-Security)"
+      reference: "Already achieved financial security"
+      gains_above: "Additional income is bonus"
+      losses_below: "N/A - reference point is 'enough'"
+
+  loss_aversion_ratio:
+    estimate: "3:1 for reputation/methodology; 1:1 for financial (post-security)"
+    evidence:
+      - "Extreme investment (748 hours) to avoid losing"
+      - "Never took shortcuts that risked loss"
+      - "Post-retirement, financial loss aversion minimal"
+    notes: |
+      Gary shows strong loss aversion for reputation and methodology integrity
+      but minimal financial loss aversion once security achieved. This explains
+      the free Bullets newsletter alongside $5,000 DVDs.
+
+  certainty_effect:
+    preference: "Strong preference for certainty in tested domains"
+    risk_for_losses: "Will invest heavily to avoid certain loss (748 hours)"
+    evidence:
+      - "40/40/20 is certainty-seeking behavior"
+      - "Testing obsession reduces uncertainty"
+      - "Never gambles on untested claims"
+
+  framing_sensitivity:
+    examples:
+      - positive_frame: "Methodology produces 80%+ wins"
+        negative_frame: "Without methodology, 10 years of struggle"
+        difference: "Both frames used - struggle frame for teaching, win frame for credibility"
+
+      - positive_frame: "Free knowledge sharing builds legacy"
+        negative_frame: "Premium pricing protects value"
+        difference: "Uses both - different contexts require different frames"
+
+  endowment_effect:
+    strength: "Strong for methodology and reputation"
+    evidence:
+      - "Would not trade 40/40/20 for any shortcut"
+      - "Protects 'never lost at Rodale' narrative"
+      - "Maintains mentor acknowledgment (wouldn't claim self-taught)"
+    notes: |
+      Gary strongly overvalues what he's built (methodology, reputation, mentor relationships)
+      compared to alternatives. This is adaptive - protects proven approaches from erosion.
+
+# =============================================================================
+# PHASE 7: STATE TRANSITION MATRIX
+# =============================================================================
+state_transitions:
+
+  key_transitions:
+    - from_state: "default_baseline_mode"
+      to_state: "deep_research_mode"
+      transition_triggers:
+        - trigger: "New project commitment"
+          speed: "Immediate"
+          voluntary: true
+      transition_friction:
+        ease: "Easy"
+        resistance: "None - this is the methodology"
+        facilitators: "Project commitment, royalty structure"
+      reversal:
+        possible: true
+        trigger: "Project completion or cancellation"
+
+    - from_state: "deep_research_mode"
+      to_state: "writing_creation_mode"
+      transition_triggers:
+        - trigger: "Research 40% complete, understanding achieved"
+          speed: "Gradual"
+          voluntary: true
+      transition_friction:
+        ease: "Moderate"
+        resistance: "May extend research if understanding incomplete"
+        facilitators: "Clear angles emerging, time pressure"
+      reversal:
+        possible: true
+        trigger: "Discovery of knowledge gap during writing"
+
+    - from_state: "writing_creation_mode"
+      to_state: "skeptic_evaluator_mode"
+      transition_triggers:
+        - trigger: "Claim written that needs proof"
+          speed: "Immediate (overlay)"
+          voluntary: false
+      transition_friction:
+        ease: "Very easy"
+        resistance: "None - automatic quality gate"
+        facilitators: "Internalized 'yeah, sure' habit"
+      reversal:
+        possible: true
+        trigger: "Claim passes test, return to writing"
+
+    - from_state: "writing_creation_mode"
+      to_state: "crit_feedback_mode"
+      transition_triggers:
+        - trigger: "Draft ready for review"
+          speed: "Immediate"
+          voluntary: true
+      transition_friction:
+        ease: "Easy"
+        resistance: "Ego (overcome by methodology)"
+        facilitators: "CRIT system structure, team availability"
+      reversal:
+        possible: true
+        trigger: "Feedback collected, return to revision"
+
+    - from_state: "any_active_state"
+      to_state: "teaching_transmission_mode"
+      transition_triggers:
+        - trigger: "Teachable moment recognized"
+          speed: "Immediate"
+          voluntary: true
+        - trigger: "Legacy event opportunity"
+          speed: "Immediate"
+          voluntary: true
+      transition_friction:
+        ease: "Very easy"
+        resistance: "None - core identity"
+        facilitators: "Talent recognition, question received"
+      reversal:
+        possible: true
+        trigger: "Teaching complete, external interruption"
+
+    - from_state: "testing_measurement_mode"
+      to_state: "deep_research_mode"
+      transition_triggers:
+        - trigger: "Test results reveal new question"
+          speed: "Gradual"
+          voluntary: true
+      transition_friction:
+        ease: "Easy"
+        resistance: "None - continuous improvement"
+        facilitators: "Data that challenges assumptions"
+      reversal:
+        possible: true
+        trigger: "New understanding achieved"
+
+  transition_matrix:
+    # Ease of transition: VE=Very Easy, E=Easy, M=Moderate, D=Difficult, VD=Very Difficult
+    #                    default  research  writing  skeptic  teaching  crit  testing
+    default_baseline:      "-"      "VE"      "M"       "E"      "VE"    "E"     "E"
+    deep_research:        "M"       "-"       "E"       "E"      "VE"    "M"     "E"
+    writing_creation:     "D"       "E"       "-"       "VE"     "VE"    "E"     "M"
+    skeptic_evaluator:    "E"       "E"       "VE"      "-"      "E"     "E"     "E"
+    teaching_transmission:"E"       "M"       "M"       "E"      "-"     "M"     "M"
+    crit_feedback:        "E"       "E"       "VE"      "E"      "E"     "-"     "E"
+    testing_measurement:  "E"       "E"       "E"       "E"      "E"     "E"     "-"
+
+  sticky_states:
+    - state: "teaching_transmission_mode"
+      stickiness: "High"
+      reason: "Core identity - hard to exit mid-teaching"
+      exit_difficulty: "Can override for high-stakes project only"
+
+    - state: "deep_research_mode"
+      stickiness: "High"
+      reason: "Methodology demands completion"
+      exit_difficulty: "Won't exit until understanding achieved"
+
+# =============================================================================
+# PHASE 8: VALIDATION & PREDICTION
+# =============================================================================
+validation:
+
+  prediction_tests:
+    - scenario: "A young copywriter emails Gary asking for career advice"
+      predicted_state: "teaching_transmission_mode"
+      predicted_behaviors:
+        - "Story about his own 12-year transformation"
+        - "Framework recommendation (40/40/20)"
+        - "Possible unsolicited resource (book, article)"
+        - "Mentor chain acknowledgment"
+      confidence: 95
+      reasoning: "Pattern matches Ben Settle interaction, core identity"
+
+    - scenario: "Client offers rush project with high fee but impossible timeline"
+      predicted_state: "Rejection / No engagement"
+      predicted_behaviors:
+        - "Decline the project"
+        - "Explanation that methodology requires time"
+        - "Possible referral to someone who works differently"
+      confidence: 90
+      reasoning: "40/40/20 is non-negotiable; never compromised methodology"
+
+    - scenario: "Split-test results show his copy lost to control"
+      predicted_state: "testing_measurement_mode -> deep_research_mode"
+      predicted_behaviors:
+        - "Accept result without excuse"
+        - "Analyze why loss occurred"
+        - "Increase research on next iteration"
+        - "Apply CRIT for fresh perspective"
+      confidence: 85
+      reasoning: "Data beats ego; 'Control is your enemy' mindset"
+
+    - scenario: "Interviewer asks about his natural talent"
+      predicted_state: "teaching_transmission_mode"
+      predicted_behaviors:
+        - "Correction: 'I was NOT a natural'"
+        - "12-year transformation story"
+        - "Methodology over talent thesis"
+        - "Mentor acknowledgment"
+      confidence: 98
+      reasoning: "Core narrative, repeated in every source"
+
+    - scenario: "Someone claims great results without testing"
+      predicted_state: "skeptic_evaluator_mode"
+      predicted_behaviors:
+        - "Internal 'yeah, sure' reaction"
+        - "Questions about proof"
+        - "Reference to testing imperative"
+      confidence: 90
+      reasoning: "Testing obsession, proof over claims"
+
+  contradiction_resolution:
+    - apparent_contradiction: "Gave away free content AND charged $5,000 for DVDs"
+      resolution: "Different states serve different purposes"
+      explanation: |
+        In teaching_transmission_mode, generosity is default (free Bullets).
+        Premium pricing ensures serious students and protects perceived value.
+        Both serve knowledge transmission goal through different mechanisms.
+
+    - apparent_contradiction: "Said 'retired' but kept appearing at events"
+      resolution: "Retired from production, not from teaching state"
+      explanation: |
+        Retirement was from deep_research_mode and writing_creation_mode
+        (the 748-hour grind). Teaching_transmission_mode IS identity,
+        not work - cannot retire from who you are.
+
+    - apparent_contradiction: "Advised studying masters, used non-experts in CRIT"
+      resolution: "Different states require different inputs"
+      explanation: |
+        In learning_mode (deep_research), study masters.
+        In crit_feedback_mode, include non-experts for fresh eyes.
+        Expertise has value AND creates blind spots - both true.
+
+  accuracy_estimate: 92
+
+  gaps_identified:
+    - gap: "Stress response states not directly observable"
+      impact: "LOW - sources suggest minimal observable stress response"
+      mitigation: "Infer from 'never lost at Rodale' - suggests adaptive stress handling"
+
+    - gap: "Private/family states not documented"
+      impact: "LOW - focus is professional clone"
+      mitigation: "Acceptable scope limitation"
+
+    - gap: "Real-time decision-making not observable"
+      impact: "MEDIUM - reconstructed from outcomes"
+      mitigation: "Methodology (40/40/20) reduces real-time decisions"
+
+# =============================================================================
+# LINEAGE & METHODOLOGY
+# =============================================================================
+lineage:
+  sources_used:
+    - "mined_content.yaml (47 extractions)"
+    - "interview_patterns.yaml (6 interviews analyzed)"
+    - "multi_source_patterns.yaml (28 patterns)"
+    - "cross_reference_validation.yaml"
+    - "expert_map.yaml"
+    - "source_triangulation.yaml"
+    - "knowledge_gaps.yaml"
+    - "sources-master.yaml"
+    - "Source materials (6 web documents)"
+
+  methodology: "Kahneman Dual-Process Theory + Prospect Theory + State-Based Mapping"
+  agent: "daniel-behavioral-analyst"
+
+  methodology_notes: |
+    This analysis follows Kahneman's insight that people don't have ONE personality
+    but rather STATES that activate contextually. Each state has:
+    - Specific triggers (environmental, internal, social, task)
+    - Characteristic behaviors
+    - Cognitive patterns (System 1 vs System 2)
+    - Transition rules
+
+    Gary Bencivenga's behavioral architecture is remarkably consistent:
+    1. Strong methodology-driven states (40/40/20)
+    2. Teaching as core identity (not work)
+    3. Skeptic voice as internalized quality gate
+    4. Testing/measurement as epistemic foundation
+    5. Fresh eyes principle to counter expertise blind spots
+
+    This allows prediction of behavior in novel contexts with high confidence.
+
+# =============================================================================
+# SUMMARY
+# =============================================================================
+summary:
+  total_states_identified: 7
+  core_states:
+    - deep_research_mode
+    - writing_creation_mode
+    - skeptic_evaluator_mode
+    - teaching_transmission_mode
+
+  key_findings:
+    - finding: "Teaching is identity state, not work state"
+      confidence: 95
+      implications: "Can't 'retire' from core identity - explains post-retirement behavior"
+
+    - finding: "Skeptic voice is internalized overlay state"
+      confidence: 90
+      implications: "'Yeah, sure' test runs automatically during and after creation"
+
+    - finding: "40/40/20 creates predictable state sequence"
+      confidence: 95
+      implications: "Research -> Writing -> Polish is mandatory, non-negotiable"
+
+    - finding: "Fresh eyes principle is deliberate counter to expertise blindspots"
+      confidence: 90
+      implications: "Actively seeks non-expert feedback despite being expert"
+
+    - finding: "Loss aversion shifts with security achievement"
+      confidence: 85
+      implications: "Post-security, reputation loss aversion >> financial loss aversion"
+
+  clone_construction_readiness: "EXCELLENT"
+  confidence_for_behavioral_replication: 92
+
+  recommendations_for_phase_2_next_tasks:
+    - "Use state inventory for recognition-patterns-analysis"
+    - "Use dual-process profile for decision-architecture-analysis"
+    - "Use trigger map for routine-patterns-analysis"
+    - "Consider loss aversion patterns in immune-system-analysis"

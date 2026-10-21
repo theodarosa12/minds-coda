@@ -1,0 +1,133 @@
+# Peter Thiel - Operational Frameworks
+# Generated: 2025-12-12
+
+frameworks:
+  subject: "Peter Thiel"
+  version: "1.0"
+
+  signature:
+    zero_to_one:
+      name: "Zero to One vs One to N"
+      category: "innovation"
+
+      definition: |
+        Progresso VERTICAL (0→1): Criar algo novo que nao existe
+        Progresso HORIZONTAL (1→n): Copiar/escalar o que ja existe
+
+      principle: "Tecnologia e vertical, globalizacao e horizontal"
+      quote: "O proximo Bill Gates nao construira um sistema operacional"
+
+    monopoly_framework:
+      name: "Competition vs Monopoly"
+      category: "business_strategy"
+
+      conventional_view: "Competicao e saudavel, monopolio e mal"
+      thiel_view: "Competicao e destrutiva, monopolio criativo e bom"
+
+      reasoning: |
+        Competicao corroi lucros e forca foco em sobrevivencia curto prazo.
+        Monopolio criativo permite inovacao de longo prazo.
+
+      application: "Pergunta nao e 'mercado grande?' mas 'pode ser monopolio?'"
+
+    contrarian_question:
+      name: "The Contrarian Truth Test"
+      category: "thinking"
+
+      question: "Qual verdade importante poucas pessoas concordam com voce?"
+
+      purpose: |
+        Identificar oportunidades que outros nao veem.
+        Testar independencia de pensamento.
+
+  strategic:
+    optimism_matrix:
+      name: "Definite/Indefinite Optimism Matrix"
+      category: "worldview"
+
+      quadrants:
+        definite_optimistic:
+          description: "Sabe futuro melhor + plano concreto"
+          example: "China hoje, EUA anos 50-60"
+          thiel_view: "Ideal - onde investir"
+
+        indefinite_optimistic:
+          description: "Acredita melhora sem plano especifico"
+          example: "EUA/Europa hoje"
+          thiel_view: "Armadilha - diversificacao sem visao"
+
+        definite_pessimistic:
+          description: "Sabe futuro sombrio + se prepara"
+          example: "Fundamentalismo"
+
+        indefinite_pessimistic:
+          description: "Crenca vaga de declinio"
+          example: "Europa continental"
+
+    mimetic_theory:
+      name: "Mimetic Theory Lens"
+      source: "Rene Girard"
+      category: "psychology"
+
+      concept: "Desejo humano nao e autonomo - desejamos o que outros desejam"
+      implication: "Leva a rivalidade e conflito"
+      application: "Competicao acirrada = armadilha mimetica, nao mercado valioso"
+      strategy: "Buscar mercados onde dinamica mimetica e fraca"
+
+  investment:
+    power_law:
+      name: "Power Law Returns"
+      category: "venture_capital"
+
+      principle: |
+        Em VC, uma empresa gera mais retorno que todas outras combinadas.
+        Portfolio thinking tradicional e errado.
+
+      implication: "Buscar outliers, nao diversificar apostas medias"
+
+    secrets_framework:
+      name: "Secrets Framework"
+      category: "opportunity_identification"
+
+      types:
+        - type: "Natural Secrets"
+          description: "Descobertas sobre a natureza"
+
+        - type: "Human Secrets"
+          description: "Verdades sobre pessoas que elas nao admitem"
+
+      question: "Que segredo voce sabe que ninguem mais sabe?"
+      application: "Grandes empresas sao construidas sobre segredos"
+
+  business:
+    monopoly_characteristics:
+      name: "Characteristics of a Monopoly"
+      category: "business_evaluation"
+
+      four_pillars:
+        - pillar: "Proprietary Technology"
+          threshold: "10x melhor que substituto mais proximo"
+
+        - pillar: "Network Effects"
+          description: "Produto mais valioso quanto mais usuarios"
+
+        - pillar: "Economies of Scale"
+          description: "Custo marginal diminui com escala"
+
+        - pillar: "Branding"
+          description: "Marca impossivel de replicar"
+
+    start_small:
+      name: "Start Small, Monopolize, Expand"
+      category: "market_entry"
+
+      process:
+        - "Comece dominando um nicho pequeno"
+        - "Torne-se monopolio nesse nicho"
+        - "Expanda para nichos adjacentes"
+        - "Repita"
+
+      anti_pattern: "Tentar ser tudo para todos desde inicio"
+
+metadata:
+  created: "2025-12-12"

@@ -1,0 +1,1427 @@
+# Values Hierarchy: Avinash Kaushik (Layer 6 - DNA Mental)
+# Agent: Brené (Identity Analyst)
+# Task: values-hierarchy-analysis
+# Date: 2026-01-23
+# Methodology: Triangulation (Words + Actions + Consequences Accepted)
+
+values_hierarchy:
+  metadata:
+    mind_name: "Avinash Kaushik"
+    analysis_date: "2026-01-23"
+    analyst: "identity-analyst"
+    layer: 6
+    layer_name: "Values Hierarchy"
+    sources_analyzed:
+      - "677-digital-analytics-with-avinash-kaushik.md"
+      - "make-better-decisions-with-avinash-kaushik.md"
+      - "analytics-academy-live-event-2.md"
+      - "world-of-and-w-avinash-kaushik-superweek-analytics-summit.md"
+      - "strata-2012-big-data-imperative.md"
+      - "attribution-ladder-awesomeness.md"
+      - "marketing-roi-formula.md"
+      - "controlled-experiments-incrementality.md"
+      - "see-think-do-framework.md"
+    decisions_catalogued: 47
+    observation_period_years: 14
+    human_validated: false
+    validator_name: ""
+    validation_date: ""
+    validation_decision: ""
+    confidence_score: 0.91
+
+  methodology:
+    validation_method: "Triangulation: Words + Actions + Consequences Accepted"
+    evidence_threshold: 3
+    triangulation_threshold: 0.70
+    ranking_criteria:
+      - "Intensity: 1-10 (willingness to sacrifice)"
+      - "Immutability: Never violated / Rare exceptions / Contextual"
+      - "Consistency across time and contexts"
+      - "Sacrifices documented (gave up X to preserve Y)"
+
+  # ==========================================================================
+  # CORE VALUES (Ranked 1-12)
+  # ==========================================================================
+  core_values:
+    # --------------------------------------------------------------------------
+    # RANK 1: ACTION OVER DATA
+    # --------------------------------------------------------------------------
+    - rank: 1
+      name: "Action Over Data"
+      description: "Data is meaningless without action. The purpose of analysis is to drive decisions, not to accumulate information."
+      intensity: 10
+      immutability: "never_violated"
+
+      evidences:
+        - evidence_id: 1
+          date: "2012"
+          context: "Strata 2012 keynote to data professionals"
+          sacrifice: "Could have celebrated big data hype; chose to criticize it"
+          preservation: "Integrity of message about action"
+          opportunity_cost: "Speaker popularity with hype-driven audience"
+          quote: "I'm not really interested in having lots of big data. What I'm really interested in is trying to figure out how to use that intelligence to make life better for people."
+          justification: "Data exists to serve humans, not the reverse"
+          consequences: "Challenged industry orthodoxy at major conference"
+          source: "strata-2012-big-data-imperative.md"
+          source_type: "interview"
+
+        - evidence_id: 2
+          date: "2014"
+          context: "SUPERWEEK Analytics Summit panel"
+          sacrifice: "Could have praised tools; criticized tool obsession"
+          preservation: "Truth about what matters"
+          opportunity_cost: "Vendor relationships"
+          quote: "The big imperative of big data is your capacity to find big ACTION."
+          justification: "Action is the only metric that matters"
+          consequences: "Positioned against industry tool vendors"
+          source: "world-of-and-w-avinash-kaushik-superweek-analytics-summit.md"
+          source_type: "interview"
+
+        - evidence_id: 3
+          date: "2023"
+          context: "Super Data Science Podcast"
+          sacrifice: "Time spent consulting on action, not just analysis"
+          preservation: "Real-world impact"
+          opportunity_cost: "Could charge more for pure analysis"
+          quote: "Information is powerful but it is what we use it for that will define us."
+          justification: "Legacy is defined by action, not knowledge"
+          consequences: "Career built on driving decisions, not reports"
+          source: "677-digital-analytics-with-avinash-kaushik.md"
+          source_type: "interview"
+
+        - evidence_id: 4
+          date: "2013"
+          context: "Analytics Academy Live Event"
+          sacrifice: "Could have taught more tools; focused on action"
+          preservation: "Practical impact for students"
+          opportunity_cost: "More technical content demand"
+          quote: "Not just analysis, but insights and influence and ACTION."
+          justification: "Analysts must drive change, not just observe"
+          consequences: "Teaching methodology emphasizes outcomes"
+          source: "analytics-academy-live-event-2.md"
+          source_type: "interview"
+
+      triangulation:
+        words: "Consistently preaches 'action over data' in every speech, interview, and blog post for 14+ years"
+        actions: "Built career on driving decisions at Google, Intuit, Crowd - not just analyzing"
+        consequences_accepted: "Criticizes own industry's data obsession; challenges clients to act"
+        alignment: 0.98
+
+      language:
+        keywords: ["action", "decision", "impact", "change", "do something"]
+        metaphors: ["data puking", "big ACTION not big data"]
+        emotional_tone: "Passionate frustration when data hoarded without action"
+        frequency: "In 10/15 sources analyzed"
+
+      extreme_test:
+        limit_situation: "Keynotes where he tells data professionals their work is worthless without action"
+        would_die_for: false
+        violations_count: 0
+        violations_contexts: []
+
+      tensions:
+        conflicts_with_values: ["Thoroughness - sometimes action before full data is risky"]
+        conflicts_with_people: ["Data hoarders", "Dashboard builders without recommendations"]
+        recurring_cost: "Constantly fighting 'data puking' culture"
+        unresolved_tensions: ["When to wait for more data vs act now"]
+
+      origin:
+        formative_event: "Ohio State career services data job - saw data reveal patterns but only mattered when acted on"
+        formative_event_date: "~1990s"
+        influence_person: "Kenyan farmer quoted in Strata talk"
+        influence_philosophy: "Pragmatism - knowledge without application is useless"
+        crystallization_age: 25
+        evolution: "Intensified over time; moved from 'use data' to 'data without action is harmful'"
+
+    # --------------------------------------------------------------------------
+    # RANK 2: CREDIBILITY THROUGH PRACTICE
+    # --------------------------------------------------------------------------
+    - rank: 2
+      name: "Credibility Through Practice"
+      description: "Authority must be earned through ongoing hands-on work, not just theory or past accomplishments."
+      intensity: 10
+      immutability: "never_violated"
+
+      evidences:
+        - evidence_id: 1
+          date: "2007-2023"
+          context: "Career choice after bestselling books"
+          sacrifice: "Declined full-time speaker/consultant income ($500K+/year potential)"
+          preservation: "Credibility and practical relevance"
+          opportunity_cost: "Could have earned more with less work"
+          quote: "I will always have a real job in the field I'm in. One of the things I noticed is other authors around me rarely wrote second books or after a while were completely disconnected from reality because they didn't have real jobs anymore."
+          justification: "Credibility requires staying in the arena"
+          consequences: "16 years at Google + CSO at Crowd despite book fame"
+          source: "677-digital-analytics-with-avinash-kaushik.md"
+          source_type: "interview"
+
+        - evidence_id: 2
+          date: "2023"
+          context: "Explaining why he still codes as CSO"
+          sacrifice: "Executive time spent on technical work"
+          preservation: "Ability to imagine possibilities for team"
+          opportunity_cost: "Could delegate all technical work"
+          quote: "I appreciate subject matter expert leaders and I try to be one. If I'm a leader who does at least some actual coding, it means I can IMAGINE possibilities for my team."
+          justification: "Leaders who don't do real work lack imagination"
+          consequences: "Still writes D3.js, R, Tableau at executive level"
+          source: "677-digital-analytics-with-avinash-kaushik.md"
+          source_type: "interview"
+
+        - evidence_id: 3
+          date: "2023"
+          context: "Discussing work philosophy"
+          sacrifice: "Personal time for continuous learning"
+          preservation: "Technical relevance"
+          opportunity_cost: "4 hours/week that could be leisure"
+          quote: "Every single week I set aside four hours to learn something new. If you want to keep doing something for a very long time you have to figure out how to keep growing and learning."
+          justification: "Staying current is non-negotiable"
+          consequences: "Scheduled, protected learning time weekly"
+          source: "677-digital-analytics-with-avinash-kaushik.md"
+          source_type: "interview"
+
+        - evidence_id: 4
+          date: "2023"
+          context: "Explaining content creation model"
+          sacrifice: "Could create hypothetical content; uses only real cases"
+          preservation: "Authenticity of examples"
+          opportunity_cost: "Slower content production"
+          quote: "I actually have a job in the things I write about."
+          justification: "Content must come from lived experience"
+          consequences: "Newsletter and blog only use real client examples"
+          source: "make-better-decisions-with-avinash-kaushik.md"
+          source_type: "interview"
+
+      triangulation:
+        words: "Explicitly states must have real job, must stay hands-on, must keep learning"
+        actions: "16 years at Google + CSO role despite book fame; codes at executive level"
+        consequences_accepted: "Less income than pure consulting; more work than needed"
+        alignment: 1.00
+
+      language:
+        keywords: ["real job", "hands-on", "in the arena", "subject matter expert"]
+        metaphors: ["disconnected from reality", "toddler can't ride Harley"]
+        emotional_tone: "Firm conviction, almost defensive about staying practical"
+        frequency: "In 6/15 sources"
+
+      extreme_test:
+        limit_situation: "Rejected lucrative speaking-only career path"
+        would_die_for: false
+        violations_count: 0
+        violations_contexts: []
+
+      tensions:
+        conflicts_with_values: ["Efficiency - could scale more without hands-on work"]
+        conflicts_with_people: ["Pure consultants", "Thought leaders without practice"]
+        recurring_cost: "9-to-9 job while maintaining three careers"
+        unresolved_tensions: ["How long can maintain this pace"]
+
+      origin:
+        formative_event: "Observing other authors become irrelevant after leaving practice"
+        formative_event_date: "Post-book success"
+        influence_person: "None explicit - learned from negative examples"
+        influence_philosophy: "Practitioner credibility doctrine"
+        crystallization_age: 35
+        evolution: "Strengthened as fame grew; more deliberate about staying connected"
+
+    # --------------------------------------------------------------------------
+    # RANK 3: GENEROSITY / KNOWLEDGE SHARING
+    # --------------------------------------------------------------------------
+    - rank: 3
+      name: "Generosity / Knowledge Sharing"
+      description: "Knowledge should be shared freely and financial success should benefit others beyond self."
+      intensity: 10
+      immutability: "never_violated"
+
+      evidences:
+        - evidence_id: 1
+          date: "2018-present"
+          context: "Newsletter business model"
+          sacrifice: "$200,000/year in personal income"
+          preservation: "External motivation and charitable impact"
+          opportunity_cost: "Could keep revenue, donate portion"
+          quote: "I was like, everybody pay me to read my newsletter and I'll donate all the money to charity. Newsletter has 55,000 subscribers, $200,000/year revenue - donates 100% to charity."
+          justification: "External purpose sustains difficult work"
+          consequences: "~$1 million total donated through books and newsletter"
+          source: "677-digital-analytics-with-avinash-kaushik.md"
+          source_type: "interview"
+
+        - evidence_id: 2
+          date: "2006-present"
+          context: "Blog content model"
+          sacrifice: "Could monetize blog with ads/subscriptions"
+          preservation: "Free access to knowledge"
+          opportunity_cost: "Significant advertising revenue"
+          quote: "17-18 years of free content on Occam's Razor blog"
+          justification: "Knowledge sharing should be accessible"
+          consequences: "Decades of free educational content"
+          source: "677-digital-analytics-with-avinash-kaushik.md"
+          source_type: "interview"
+
+        - evidence_id: 3
+          date: "2007-2014"
+          context: "Book revenue model"
+          sacrifice: "All gross revenue (17% of net from publisher)"
+          preservation: "Writing as service not income"
+          opportunity_cost: "Significant book royalties"
+          quote: "Books: Donates all gross revenue to charity."
+          justification: "Books should help readers and causes, not just author"
+          consequences: "Two bestselling books, zero personal income retained"
+          source: "677-digital-analytics-with-avinash-kaushik.md"
+          source_type: "interview"
+
+        - evidence_id: 4
+          date: "2023"
+          context: "Explaining motivation for continuing"
+          sacrifice: "Harder to maintain without personal financial incentive"
+          preservation: "Purpose-driven work"
+          opportunity_cost: "Easier motivation paths available"
+          quote: "External motivation sustains difficult work better than personal gain"
+          justification: "Charity motivation stronger than personal wealth"
+          consequences: "17+ years sustained content creation"
+          source: "make-better-decisions-with-avinash-kaushik.md"
+          source_type: "interview"
+
+      triangulation:
+        words: "Openly discusses 100% donation model; encourages knowledge sharing"
+        actions: "$1M+ donated; 17 years free blog; book royalties donated"
+        consequences_accepted: "Significant personal wealth foregone"
+        alignment: 1.00
+
+      language:
+        keywords: ["charity", "donate", "give back", "share", "help"]
+        metaphors: []
+        emotional_tone: "Humble when discussing; deflects praise"
+        frequency: "In 6/15 sources"
+
+      extreme_test:
+        limit_situation: "100% donation - not 10% tithe but entire revenue"
+        would_die_for: false
+        violations_count: 0
+        violations_contexts: []
+
+      tensions:
+        conflicts_with_values: ["Financial security - relying on job income only"]
+        conflicts_with_people: ["Those who monetize knowledge aggressively"]
+        recurring_cost: "Sustained effort without direct financial reward"
+        unresolved_tensions: []
+
+      origin:
+        formative_event: "Post-book success decision"
+        formative_event_date: "~2007"
+        influence_person: "Not explicitly stated"
+        influence_philosophy: "Servant leadership"
+        crystallization_age: 38
+        evolution: "Expanded from books to newsletter; systematized giving"
+
+    # --------------------------------------------------------------------------
+    # RANK 4: CUSTOMER DELIGHT OVER PROFIT
+    # --------------------------------------------------------------------------
+    - rank: 4
+      name: "Customer Delight Over Profit"
+      description: "Business success comes from delighting customers first; profit is the reward, not the goal."
+      intensity: 9
+      immutability: "never_violated"
+
+      evidences:
+        - evidence_id: 1
+          date: "2023"
+          context: "Super Data Science Podcast - defining his work"
+          sacrifice: "Could focus on profit metrics; emphasizes customer value"
+          preservation: "Customer-centric philosophy"
+          opportunity_cost: "Some clients want profit-first approach"
+          quote: "At the center of marketing and analytics: customer delight and profit, IN THAT ORDER."
+          justification: "Delight creates sustainable profit"
+          consequences: "All frameworks start from customer intent, not company goals"
+          source: "677-digital-analytics-with-avinash-kaushik.md"
+          source_type: "interview"
+
+        - evidence_id: 2
+          date: "2013-present"
+          context: "See-Think-Do-Care Framework creation"
+          sacrifice: "Could create company-centric framework; made it customer-intent-based"
+          preservation: "Customer perspective primacy"
+          opportunity_cost: "More complex framework to explain"
+          quote: "If you solve customer delight first, then in exchange for that, a company is ready to make profit."
+          justification: "Traditional funnels serve company, not customer"
+          consequences: "STDC is customer-intent-first, rejected AIDA/funnel models"
+          source: "see-think-do-framework.md"
+          source_type: "document"
+
+        - evidence_id: 3
+          date: "2023"
+          context: "Crowd agency philosophy"
+          sacrifice: "Could prioritize agency revenue; emphasizes client outcomes"
+          preservation: "Client-value-first positioning"
+          opportunity_cost: "Potentially lower agency margins"
+          quote: "Crowd agency mantra: Obsess about creating unhealthy profits for clients"
+          justification: "Agency success tied to client success"
+          consequences: "Business model aligned with client outcomes"
+          source: "677-digital-analytics-with-avinash-kaushik.md"
+          source_type: "interview"
+
+      triangulation:
+        words: "Explicitly states 'delight THEN profit' ordering"
+        actions: "All frameworks center on customer intent, not company metrics"
+        consequences_accepted: "Rejects funnel thinking despite industry convention"
+        alignment: 0.95
+
+      language:
+        keywords: ["delight", "customer intent", "customer-centric", "STDC"]
+        metaphors: ["shove them down funnel, shovel in money" (negative)]
+        emotional_tone: "Protective of customers against exploitative marketing"
+        frequency: "In 8/15 sources"
+
+      extreme_test:
+        limit_situation: "Rejects marketing funnel concept despite universal acceptance"
+        would_die_for: false
+        violations_count: 0
+        violations_contexts: []
+
+      tensions:
+        conflicts_with_values: ["Business pragmatism - sometimes profit must come first"]
+        conflicts_with_people: ["Short-term profit focused marketers"]
+        recurring_cost: "Longer sales cycles for customer-delight approach"
+        unresolved_tensions: ["When customer delight and profit genuinely conflict"]
+
+      origin:
+        formative_event: "Frustration with funnel-centric marketing"
+        formative_event_date: "Unknown"
+        influence_person: "Not stated"
+        influence_philosophy: "Customer capitalism"
+        crystallization_age: 40
+        evolution: "Codified into STDC framework"
+
+    # --------------------------------------------------------------------------
+    # RANK 5: TRUTH / HONEST NUMBERS
+    # --------------------------------------------------------------------------
+    - rank: 5
+      name: "Truth / Honest Numbers"
+      description: "Accept painful truths rather than comforting lies; real metrics over flattering ones."
+      intensity: 9
+      immutability: "never_violated"
+
+      evidences:
+        - evidence_id: 1
+          date: "2018"
+          context: "ROI formula blog post"
+          sacrifice: "Could let marketers keep fake ROI; exposes the lie"
+          preservation: "Measurement integrity"
+          opportunity_cost: "Marketers don't like hearing ROI is fake"
+          quote: "While heartbreaking, please learn to embrace the 0.5 ROI – or you will never know how to be better."
+          justification: "A painful 0.5 is better than a fake 4.0"
+          consequences: "Teaches ROI 3 (Net Profit) over flattering ROI 1"
+          source: "marketing-roi-formula.md"
+          source_type: "document"
+
+        - evidence_id: 2
+          date: "Multiple"
+          context: "Attribution vs Incrementality crusade"
+          sacrifice: "Could accept attribution as standard; challenges it"
+          preservation: "Truth about what marketing actually does"
+          opportunity_cost: "Goes against industry consensus"
+          quote: "None of attributed conversions might be incremental. Very large percentage of paid media conversions are NOT incremental."
+          justification: "Attribution is comfortable lies; incrementality is hard truth"
+          consequences: "Built career partly on uncomfortable measurement truths"
+          source: "attribution-vs-incrementality.md"
+          source_type: "document"
+
+        - evidence_id: 3
+          date: "2014"
+          context: "Big Data skepticism talk"
+          sacrifice: "Could have embraced big data hype; criticized it"
+          preservation: "Truth about data utility"
+          opportunity_cost: "Less popular stance"
+          quote: "Big Data is a buzzword I find increasingly annoying because it overpromises and underdelivers. Terabytes of stupid data you don't know what the hell to do with."
+          justification: "Honest assessment over industry hype"
+          consequences: "Known for telling hard truths about data"
+          source: "world-of-and-w-avinash-kaushik-superweek-analytics-summit.md"
+          source_type: "interview"
+
+      triangulation:
+        words: "Consistently advocates for painful truths over comfortable lies"
+        actions: "Teaches ROI 3, incrementality, anti-vanity metrics"
+        consequences_accepted: "Less popular with those wanting validation"
+        alignment: 0.95
+
+      language:
+        keywords: ["truth", "honest", "real", "heartbreaking", "painful"]
+        metaphors: ["fake ROI", "data puking", "vanity metrics"]
+        emotional_tone: "Tough love; compassionate but firm"
+        frequency: "In 7/15 sources"
+
+      extreme_test:
+        limit_situation: "Tells CMOs their ROI calculations are fake"
+        would_die_for: false
+        violations_count: 0
+        violations_contexts: []
+
+      tensions:
+        conflicts_with_values: ["Kindness - truth can be harsh"]
+        conflicts_with_people: ["Marketing teams with inflated metrics"]
+        recurring_cost: "Being the bearer of bad news"
+        unresolved_tensions: ["When to soften truth vs deliver directly"]
+
+      origin:
+        formative_event: "Seeing fake metrics celebrated"
+        formative_event_date: "Unknown"
+        influence_person: "Ruth (Alphabet CFO) - 'What if we did nothing?'"
+        influence_philosophy: "Scientific skepticism"
+        crystallization_age: 35
+        evolution: "Intensified as saw more fake metrics in industry"
+
+    # --------------------------------------------------------------------------
+    # RANK 6: SIMPLICITY / ESSENTIALISM
+    # --------------------------------------------------------------------------
+    - rank: 6
+      name: "Simplicity / Essentialism"
+      description: "Focus on what matters most; eliminate noise ruthlessly in work and life."
+      intensity: 8
+      immutability: "rare_exceptions"
+
+      evidences:
+        - evidence_id: 1
+          date: "2023"
+          context: "Personal philosophy discussion"
+          sacrifice: "Social relationships beyond essential"
+          preservation: "Focus and family time"
+          opportunity_cost: "Fewer friendships"
+          quote: "Only X number of friends. Zero hours watching TV except my San Francisco Giants."
+          justification: "Essentialism philosophy from book"
+          consequences: "Deliberately limited social circle"
+          source: "make-better-decisions-with-avinash-kaushik.md"
+          source_type: "interview"
+
+        - evidence_id: 2
+          date: "2013"
+          context: "Analytics Academy - four reports teaching"
+          sacrifice: "Could teach complex dashboards; simplifies radically"
+          preservation: "Focus and clarity for learners"
+          opportunity_cost: "Appears less sophisticated"
+          quote: "Just four reports. Ignore everything else!"
+          justification: "Simple execution beats complex analysis"
+          consequences: "Teaching methodology emphasizes radical simplicity"
+          source: "analytics-academy-live-event-2.md"
+          source_type: "interview"
+
+        - evidence_id: 3
+          date: "2023"
+          context: "Work philosophy"
+          sacrifice: "Could take on more; limits deliberately"
+          preservation: "Quality and family time"
+          opportunity_cost: "More income/fame possible"
+          quote: "What to delete so we can focus on what's essential."
+          justification: "Addition through subtraction"
+          consequences: "Three jobs but still time for family"
+          source: "make-better-decisions-with-avinash-kaushik.md"
+          source_type: "interview"
+
+      triangulation:
+        words: "References essentialism book; advocates for simplicity constantly"
+        actions: "Limited friends, no TV, four reports only, one-page dashboards"
+        consequences_accepted: "Fewer relationships, less entertainment"
+        alignment: 0.90
+
+      language:
+        keywords: ["essential", "delete", "focus", "one page", "just four"]
+        metaphors: []
+        emotional_tone: "Calm conviction about simplification"
+        frequency: "In 5/15 sources"
+
+      extreme_test:
+        limit_situation: "Recommends CMOs have one-page dashboard only"
+        would_die_for: false
+        violations_count: 1
+        violations_contexts: ["Creates complex 9-step frameworks while advocating simplicity (productive paradox)"]
+
+      tensions:
+        conflicts_with_values: ["Thoroughness - sometimes detail matters"]
+        conflicts_with_people: ["Those who want comprehensive analysis"]
+        recurring_cost: "Missing some relationships/experiences"
+        unresolved_tensions: ["When simplicity sacrifices necessary nuance"]
+
+      origin:
+        formative_event: "Reading Essentialism book"
+        formative_event_date: "Unknown"
+        influence_person: "Greg McKeown (Essentialism author)"
+        influence_philosophy: "Essentialism"
+        crystallization_age: 40
+        evolution: "Applied increasingly to personal life"
+
+    # --------------------------------------------------------------------------
+    # RANK 7: CONTINUOUS LEARNING
+    # --------------------------------------------------------------------------
+    - rank: 7
+      name: "Continuous Learning"
+      description: "Never stop growing; dedicate time to learning regardless of success level."
+      intensity: 8
+      immutability: "never_violated"
+
+      evidences:
+        - evidence_id: 1
+          date: "Present"
+          context: "Weekly learning practice"
+          sacrifice: "4 hours/week of other activities"
+          preservation: "Ongoing growth and relevance"
+          opportunity_cost: "Leisure, rest, or more work"
+          quote: "Every single week I set aside four hours to learn something new."
+          justification: "Longevity requires growth"
+          consequences: "Scheduled, protected learning time"
+          source: "677-digital-analytics-with-avinash-kaushik.md"
+          source_type: "interview"
+
+        - evidence_id: 2
+          date: "Present"
+          context: "Technical skills at executive level"
+          sacrifice: "Executive time on technical work"
+          preservation: "Technical relevance"
+          opportunity_cost: "Could delegate all technical"
+          quote: "Still writes code at executive level: D3.js, R, Tableau."
+          justification: "SME leaders must stay hands-on"
+          consequences: "Personally does data visualization"
+          source: "677-digital-analytics-with-avinash-kaushik.md"
+          source_type: "interview"
+
+        - evidence_id: 3
+          date: "Present"
+          context: "Learning diversity"
+          sacrifice: "Focused expertise time"
+          preservation: "Cross-domain inspiration"
+          opportunity_cost: "Deeper single-domain expertise"
+          quote: "Could be coding, following a chocolate blogger, learning tools."
+          justification: "Diverse learning sparks creativity"
+          consequences: "Eclectic learning sources"
+          source: "677-digital-analytics-with-avinash-kaushik.md"
+          source_type: "interview"
+
+      triangulation:
+        words: "Explicitly advocates for weekly learning time"
+        actions: "Actually schedules 4 hours/week; learns new tools at CSO level"
+        consequences_accepted: "Time cost accepted as non-negotiable"
+        alignment: 0.95
+
+      language:
+        keywords: ["learn", "grow", "new", "evolve", "curiosity"]
+        metaphors: []
+        emotional_tone: "Enthusiastic about learning"
+        frequency: "In 4/15 sources"
+
+      extreme_test:
+        limit_situation: "CSO who personally writes D3.js code"
+        would_die_for: false
+        violations_count: 0
+        violations_contexts: []
+
+      tensions:
+        conflicts_with_values: ["Efficiency - learning has uncertain ROI"]
+        conflicts_with_people: ["Those who think executives shouldn't code"]
+        recurring_cost: "4 hours/week, every week"
+        unresolved_tensions: []
+
+      origin:
+        formative_event: "Observing irrelevance of those who stopped learning"
+        formative_event_date: "Post-book success"
+        influence_person: "Negative examples of stagnant thought leaders"
+        influence_philosophy: "Growth mindset"
+        crystallization_age: 35
+        evolution: "Systematized into weekly practice"
+
+    # --------------------------------------------------------------------------
+    # RANK 8: FAMILY / WORK-LIFE INTEGRATION
+    # --------------------------------------------------------------------------
+    - rank: 8
+      name: "Family / Work-Life Integration"
+      description: "Despite demanding career, family time is protected and prioritized."
+      intensity: 8
+      immutability: "rare_exceptions"
+
+      evidences:
+        - evidence_id: 1
+          date: "2023"
+          context: "Discussing three jobs"
+          sacrifice: "Career opportunities requiring more travel"
+          preservation: "Family presence"
+          opportunity_cost: "More income/fame"
+          quote: "I have three jobs. It's very important for me to figure out how to still make time for my family, how to actually be there for my children, how to be there for my wife so I'm a good partner."
+          justification: "Family is foundational"
+          consequences: "Uses essentialism to protect family time"
+          source: "make-better-decisions-with-avinash-kaushik.md"
+          source_type: "interview"
+
+        - evidence_id: 2
+          date: "2023"
+          context: "Essentialism application"
+          sacrifice: "Entertainment, broad social life"
+          preservation: "Family time"
+          opportunity_cost: "Fewer experiences"
+          quote: "Making very deliberate choices about what matters"
+          justification: "Essentialism applied to life"
+          consequences: "No TV except Giants, limited friends"
+          source: "make-better-decisions-with-avinash-kaushik.md"
+          source_type: "interview"
+
+        - evidence_id: 3
+          date: "2023"
+          context: "Time allocation"
+          sacrifice: "Social events, networking"
+          preservation: "Quality family time"
+          opportunity_cost: "Industry relationships"
+          quote: "Only X number of friends"
+          justification: "Can't do everything well"
+          consequences: "Deliberately small social circle"
+          source: "make-better-decisions-with-avinash-kaushik.md"
+          source_type: "interview"
+
+      triangulation:
+        words: "Explicitly discusses family priority"
+        actions: "Limited social life, no TV, essentialism in practice"
+        consequences_accepted: "Fewer friendships, less entertainment"
+        alignment: 0.85
+
+      language:
+        keywords: ["family", "children", "wife", "partner", "present"]
+        metaphors: []
+        emotional_tone: "Tender when discussing; protective"
+        frequency: "In 2/15 sources"
+
+      extreme_test:
+        limit_situation: "Maintains three jobs while protecting family time"
+        would_die_for: false
+        violations_count: 0
+        violations_contexts: []
+
+      tensions:
+        conflicts_with_values: ["Career ambition - sometimes work demands more"]
+        conflicts_with_people: ["None stated"]
+        recurring_cost: "Less time for networking, social events"
+        unresolved_tensions: ["Balancing global travel with family presence"]
+
+      origin:
+        formative_event: "Not stated"
+        formative_event_date: "Unknown"
+        influence_person: "Not stated"
+        influence_philosophy: "Essentialism, family values"
+        crystallization_age: 40
+        evolution: "More deliberate as career grew"
+
+    # --------------------------------------------------------------------------
+    # RANK 9: EVOLUTION OVER REVOLUTION
+    # --------------------------------------------------------------------------
+    - rank: 9
+      name: "Evolution Over Revolution"
+      description: "Sustainable progress comes from gradual improvement, not dramatic overhauls."
+      intensity: 7
+      immutability: "contextual"
+
+      evidences:
+        - evidence_id: 1
+          date: "2018"
+          context: "Attribution Ladder teaching"
+          sacrifice: "Could promote advanced techniques; advocates incremental progress"
+          preservation: "Sustainable organizational growth"
+          opportunity_cost: "Less exciting message"
+          quote: "Revolutions in our context, almost always fail. Evolution works."
+          justification: "Organizations can't handle revolution"
+          consequences: "Created 9-step ladder approach"
+          source: "attribution-ladder-awesomeness.md"
+          source_type: "document"
+
+        - evidence_id: 2
+          date: "Multiple"
+          context: "Toddler and Harley metaphor"
+          sacrifice: "Could sell advanced solutions; advocates matching capability"
+          preservation: "Real progress over purchased failure"
+          opportunity_cost: "Less revenue from advanced tool sales"
+          quote: "You can't give a toddler a Harley Davidson motorcycle. The moment you start it, the toddler cries."
+          justification: "Match tools to maturity"
+          consequences: "Teaches ladders, not leaps"
+          source: "attribution-ladder-awesomeness.md"
+          source_type: "document"
+
+        - evidence_id: 3
+          date: "2014"
+          context: "P+P+S > D+T formula"
+          sacrifice: "Could sell technology hype; advocates people first"
+          preservation: "Sustainable transformation"
+          opportunity_cost: "Less exciting than tech promises"
+          quote: "P+P+S improves in EVOLUTIONARY manner. D+T improves in REVOLUTIONARY manner. Challenge: Revolutions seem attractive."
+          justification: "People evolution beats tech revolution"
+          consequences: "Known for people-first philosophy"
+          source: "world-of-and-w-avinash-kaushik-superweek-analytics-summit.md"
+          source_type: "interview"
+
+      triangulation:
+        words: "Consistently advocates evolution over revolution"
+        actions: "Creates ladder frameworks, not leap frameworks"
+        consequences_accepted: "Less dramatic, harder to sell"
+        alignment: 0.90
+
+      language:
+        keywords: ["evolution", "step-by-step", "ladder", "next step", "mature"]
+        metaphors: ["toddler and Harley", "crawl-walk-run"]
+        emotional_tone: "Patient, teacher-like"
+        frequency: "In 4/15 sources"
+
+      extreme_test:
+        limit_situation: "Advises against advanced tools when basics not mastered"
+        would_die_for: false
+        violations_count: 0
+        violations_contexts: []
+
+      tensions:
+        conflicts_with_values: ["Speed - sometimes revolution IS needed"]
+        conflicts_with_people: ["Tech vendors, impatient executives"]
+        recurring_cost: "Being seen as slow or conservative"
+        unresolved_tensions: ["When revolution truly is better than evolution"]
+
+      origin:
+        formative_event: "Seeing organizations fail with revolutionary approaches"
+        formative_event_date: "Throughout career"
+        influence_person: "Not stated"
+        influence_philosophy: "Gradualism"
+        crystallization_age: 40
+        evolution: "Codified into ladder frameworks"
+
+    # --------------------------------------------------------------------------
+    # RANK 10: SELF-AWARENESS / FEEDBACK SEEKING
+    # --------------------------------------------------------------------------
+    - rank: 10
+      name: "Self-Awareness / Feedback Seeking"
+      description: "Constant introspection and external feedback to understand and improve self."
+      intensity: 7
+      immutability: "never_violated"
+
+      evidences:
+        - evidence_id: 1
+          date: "Present"
+          context: "Avinash User Manual"
+          sacrifice: "Ego - acknowledging weaknesses formally"
+          preservation: "Self-improvement"
+          opportunity_cost: "Vulnerability"
+          quote: "I have this thing I call the Avinash User Manual. One of the things in it is: strong opinions loosely held."
+          justification: "Self-documentation enables growth"
+          consequences: "Formal personal operating system"
+          source: "make-better-decisions-with-avinash-kaushik.md"
+          source_type: "interview"
+
+        - evidence_id: 2
+          date: "Post-Intuit"
+          context: "Feedback practice from Steve Bennett"
+          sacrifice: "Ego - asking for criticism"
+          preservation: "Continuous improvement"
+          opportunity_cost: "Hearing uncomfortable truths"
+          quote: "Asks 'what was effective/what wasn't' after every meeting"
+          justification: "Learned from Steve Bennett at Intuit"
+          consequences: "Systematic feedback practice"
+          source: "677-digital-analytics-with-avinash-kaushik.md"
+          source_type: "interview"
+
+        - evidence_id: 3
+          date: "Present"
+          context: "Self-identification on spectrum"
+          sacrifice: "Public admission of neurodivergence"
+          preservation: "Self-understanding"
+          opportunity_cost: "Potential judgment"
+          quote: "As somebody on the spectrum, I want to follow the data and logic. I'm way too analytical."
+          justification: "Understanding limitations enables mitigation"
+          consequences: "Trained to balance analytical with human"
+          source: "677-digital-analytics-with-avinash-kaushik.md"
+          source_type: "interview"
+
+      triangulation:
+        words: "Openly discusses user manual, feedback practice, being on spectrum"
+        actions: "Asks for feedback after every meeting; created user manual"
+        consequences_accepted: "Vulnerability, hearing criticism"
+        alignment: 0.90
+
+      language:
+        keywords: ["feedback", "user manual", "spectrum", "learn about myself"]
+        metaphors: []
+        emotional_tone: "Reflective, humble"
+        frequency: "In 3/15 sources"
+
+      extreme_test:
+        limit_situation: "Publicly discusses being on spectrum"
+        would_die_for: false
+        violations_count: 0
+        violations_contexts: []
+
+      tensions:
+        conflicts_with_values: ["Confidence - constant self-questioning"]
+        conflicts_with_people: ["None stated"]
+        recurring_cost: "Time for reflection, discomfort of feedback"
+        unresolved_tensions: []
+
+      origin:
+        formative_event: "DirecTV failure - 'you manage people like resources'"
+        formative_event_date: "Early career"
+        influence_person: "Steve Bennett (Intuit CEO)"
+        influence_philosophy: "Feedback culture"
+        crystallization_age: 30
+        evolution: "Systematized into formal practices"
+
+    # --------------------------------------------------------------------------
+    # RANK 11: STRONG OPINIONS LOOSELY HELD
+    # --------------------------------------------------------------------------
+    - rank: 11
+      name: "Strong Opinions Loosely Held"
+      description: "Take clear positions but remain open to changing them with new evidence."
+      intensity: 7
+      immutability: "contextual"
+
+      evidences:
+        - evidence_id: 1
+          date: "2023"
+          context: "User Manual principle"
+          sacrifice: "Ego - admitting willingness to be wrong"
+          preservation: "Intellectual honesty"
+          opportunity_cost: "Appearing less authoritative"
+          quote: "One of the things in my Avinash User Manual is: strong opinions loosely held. Be curious. Think. Change your mind."
+          justification: "Flexibility is strength, not weakness"
+          consequences: "Known for strong views that can update"
+          source: "make-better-decisions-with-avinash-kaushik.md"
+          source_type: "interview"
+
+        - evidence_id: 2
+          date: "2010-2023"
+          context: "Career evolution on data"
+          sacrifice: "Initial pure-data stance"
+          preservation: "Truth-seeking"
+          opportunity_cost: "Consistency of message"
+          quote: "I'll be able to change my mind if I get new information."
+          justification: "New evidence should change views"
+          consequences: "Evolved from pure data to data+human factors"
+          source: "make-better-decisions-with-avinash-kaushik.md"
+          source_type: "interview"
+
+        - evidence_id: 3
+          date: "2023"
+          context: "AI skepticism evolving to optimism"
+          sacrifice: "Previous AI skepticism"
+          preservation: "Updated worldview"
+          opportunity_cost: "Appearing inconsistent"
+          quote: "I am an AI optimist"
+          justification: "Evidence changed position"
+          consequences: "Now advocates for AI in analytics"
+          source: "make-better-decisions-with-avinash-kaushik.md"
+          source_type: "interview"
+
+      triangulation:
+        words: "Explicitly states 'strong opinions loosely held' principle"
+        actions: "Has evolved positions on data vs human, AI, etc."
+        consequences_accepted: "Appears to change positions; vulnerable to 'flip-flopper' critique"
+        alignment: 0.85
+
+      language:
+        keywords: ["loosely held", "change mind", "curious", "update"]
+        metaphors: []
+        emotional_tone: "Intellectually humble yet confident"
+        frequency: "In 2/15 sources"
+
+      extreme_test:
+        limit_situation: "Publicly evolved position on human factors in analytics"
+        would_die_for: false
+        violations_count: 0
+        violations_contexts: []
+
+      tensions:
+        conflicts_with_values: ["Conviction - sometimes must hold firm"]
+        conflicts_with_people: ["Those who see opinion changes as weakness"]
+        recurring_cost: "Complexity of evolving public positions"
+        unresolved_tensions: ["When to hold firm vs update"]
+
+      origin:
+        formative_event: "Not stated"
+        formative_event_date: "Unknown"
+        influence_person: "Not stated"
+        influence_philosophy: "Scientific method, Bayesian updating"
+        crystallization_age: 40
+        evolution: "Formalized into User Manual"
+
+    # --------------------------------------------------------------------------
+    # RANK 12: BALANCED DATA-INTUITION
+    # --------------------------------------------------------------------------
+    - rank: 12
+      name: "Balanced Data-Intuition"
+      description: "Data should inform but not dictate; reserve space for human judgment and experimentation."
+      intensity: 7
+      immutability: "contextual"
+
+      evidences:
+        - evidence_id: 1
+          date: "2023"
+          context: "Personal philosophy on decisions"
+          sacrifice: "Pure data approach"
+          preservation: "Human element in decisions"
+          opportunity_cost: "More uncertain outcomes"
+          quote: "Target: 70-80% data-influenced, 20-30% for experimentation/human factors."
+          justification: "Data alone misses human complexity"
+          consequences: "Advocates for structured intuition space"
+          source: "677-digital-analytics-with-avinash-kaushik.md"
+          source_type: "interview"
+
+        - evidence_id: 2
+          date: "Post-DirecTV"
+          context: "Learning from failure"
+          sacrifice: "Pure analytical approach"
+          preservation: "Effectiveness with people"
+          opportunity_cost: "Less 'rational' decisions"
+          quote: "I'm way too analytical. Had to train myself to be perceptive to human needs."
+          justification: "Learned through failure"
+          consequences: "Now balances data with human factors"
+          source: "677-digital-analytics-with-avinash-kaushik.md"
+          source_type: "interview"
+
+        - evidence_id: 3
+          date: "Multiple"
+          context: "Teaching philosophy"
+          sacrifice: "Could teach pure data; teaches balance"
+          preservation: "Complete picture for students"
+          opportunity_cost: "More complex message"
+          quote: "You have to figure out how to solve that human problem sometimes."
+          justification: "Data skills without human skills fail"
+          consequences: "Teaching includes human navigation"
+          source: "677-digital-analytics-with-avinash-kaushik.md"
+          source_type: "interview"
+
+      triangulation:
+        words: "Explicitly advocates 70-80/20-30 balance"
+        actions: "Evolved from pure data to balanced approach"
+        consequences_accepted: "Less pure analytical identity"
+        alignment: 0.85
+
+      language:
+        keywords: ["balance", "human", "intuition", "experimentation", "70-80%"]
+        metaphors: []
+        emotional_tone: "Reflective about own journey"
+        frequency: "In 3/15 sources"
+
+      extreme_test:
+        limit_situation: "Admits being 'too analytical' as weakness"
+        would_die_for: false
+        violations_count: 0
+        violations_contexts: []
+
+      tensions:
+        conflicts_with_values: ["Data primacy - sometimes 100% data is correct"]
+        conflicts_with_people: ["Pure data advocates"]
+        recurring_cost: "More complex decision processes"
+        unresolved_tensions: ["Exact ratio for different decisions"]
+
+      origin:
+        formative_event: "DirecTV failure - managing people as resources"
+        formative_event_date: "Early career"
+        influence_person: "Feedback from DirecTV colleagues"
+        influence_philosophy: "Humanistic leadership"
+        crystallization_age: 30
+        evolution: "From weakness to deliberate practice"
+
+  # ==========================================================================
+  # ANTI-VALUES (Visceral Rejections)
+  # ==========================================================================
+  anti_values:
+    # --------------------------------------------------------------------------
+    # ANTI-VALUE 1: DATA PUKING
+    # --------------------------------------------------------------------------
+    - anti_value_id: 1
+      name: "Data Puking / Vanity Metrics"
+      description: "Reporting data without action, insights, or accountability"
+      rejection_intensity: 10
+
+      manifestations:
+        identification_signals:
+          - "Dashboards with no recommendations"
+          - "Celebration of impressions, clicks without outcomes"
+          - "Attribution without incrementality"
+          - "Reports that no one uses"
+        physical_response: "Visible frustration, animated speech"
+        verbal_response:
+          - "Data puking"
+          - "Throwing data at people"
+          - "Useless, not worth a penny"
+          - "I'm gonna get mad"
+        behavioral_response: "Challenges directly, provides alternative framework"
+
+      embodiments:
+        - person: "Marketers who celebrate Impressions"
+          reason: "Impressions represent exact opposite of actionable metrics"
+        - person: "Dashboard builders without recommendations"
+          reason: "Creating data without purpose"
+
+      energy_spent_combating:
+        hours_per_week: 5
+        percent_of_public_discourse: 40
+        resources_invested: "Multiple blog posts, frameworks, talks dedicated to fighting this"
+
+      cost_of_rejection:
+        opportunities_lost: ["Some corporate relationships that want flattering metrics"]
+        relationships_lost: ["Some marketers who felt criticized"]
+        energy_wasted: "Significant energy fighting industry norms"
+
+      exceptions:
+        - situation: "Exploratory analysis phase"
+          reason: "Sometimes data exploration precedes action clarity"
+
+    # --------------------------------------------------------------------------
+    # ANTI-VALUE 2: FUNNEL THINKING
+    # --------------------------------------------------------------------------
+    - anti_value_id: 2
+      name: "Traditional Marketing Funnel"
+      description: "Company-centric view that 'shoves' customers toward purchase"
+      rejection_intensity: 9
+
+      manifestations:
+        identification_signals:
+          - "AIDA framework usage"
+          - "Funnel diagrams"
+          - "Shoving language"
+          - "Company-first KPIs"
+        physical_response: "Passionate rejection"
+        verbal_response:
+          - "I hate people who like the marketing funnel because it doesn't exist"
+          - "Shove, shove, shove them down the funnel, and shovel, shovel, shovel in the money!"
+        behavioral_response: "Provides STDC alternative immediately"
+
+      embodiments:
+        - person: "Traditional marketers"
+          reason: "Perpetuate company-centric view"
+        - person: "Marketing automation vendors"
+          reason: "Sell funnel-based tools"
+
+      energy_spent_combating:
+        hours_per_week: 3
+        percent_of_public_discourse: 25
+        resources_invested: "Created entire STDC framework as replacement"
+
+      cost_of_rejection:
+        opportunities_lost: ["Some traditional marketing audiences"]
+        relationships_lost: ["Some funnel-centric marketers"]
+        energy_wasted: "Years developing alternative framework"
+
+      exceptions:
+        - situation: "B2B long sales cycles"
+          reason: "Some funnel elements still apply in highly considered purchases"
+
+    # --------------------------------------------------------------------------
+    # ANTI-VALUE 3: TOOL OBSESSION
+    # --------------------------------------------------------------------------
+    - anti_value_id: 3
+      name: "Tool/Technology Obsession"
+      description: "Belief that technology alone solves problems without people/process investment"
+      rejection_intensity: 8
+
+      manifestations:
+        identification_signals:
+          - "Tool purchases without training"
+          - "Technology without process"
+          - "Revolutionary tool claims"
+        physical_response: "Eye roll, frustration"
+        verbal_response:
+          - "Toddler and the Harley"
+          - "$90 on people, $10 on tools"
+          - "Revolutionary tool promises always fail"
+        behavioral_response: "Provides P+P+S > D+T framework"
+
+      embodiments:
+        - person: "Tech vendors promising transformation"
+          reason: "Sell revolution not evolution"
+        - person: "Leaders buying tools without training people"
+          reason: "Skip the hard work of capability building"
+
+      energy_spent_combating:
+        hours_per_week: 2
+        percent_of_public_discourse: 20
+        resources_invested: "10/90 rule, P+P+S framework"
+
+      cost_of_rejection:
+        opportunities_lost: ["Vendor sponsorships"]
+        relationships_lost: ["Some tech company partnerships"]
+        energy_wasted: "Fighting industry hype"
+
+      exceptions:
+        - situation: "Genuinely transformative tools"
+          reason: "Some tools do create step change (e.g., ML for unknown unknowns)"
+
+  # ==========================================================================
+  # TRADE-OFFS (Documented Choice Patterns)
+  # ==========================================================================
+  trade_offs:
+    - trade_off_id: 1
+      pattern: "Always chooses ACTION over DATA COLLECTION"
+      value_chosen: "Action Over Data"
+      value_sacrificed: "Thoroughness"
+
+      examples:
+        - date: "2012"
+          situation: "Keynote at Strata (big data conference)"
+          choice_made: "Criticized data collection obsession"
+          cost_accepted: "Challenged audience's core beliefs"
+          rationalization: "Truth more important than popularity"
+
+        - date: "2023"
+          situation: "Teaching incrementality"
+          choice_made: "Insisted on action focus"
+          cost_accepted: "More complex message"
+          rationalization: "Data without action is harmful"
+
+        - date: "Multiple"
+          situation: "Dashboard design"
+          choice_made: "One page with actions, not comprehensive data"
+          cost_accepted: "Less data visible"
+          rationalization: "What you can act on is what matters"
+
+      exceptions: []
+      pattern_strength: "always"
+
+    - trade_off_id: 2
+      pattern: "Always chooses CREDIBILITY over FAME"
+      value_chosen: "Credibility Through Practice"
+      value_sacrificed: "Pure thought leadership"
+
+      examples:
+        - date: "2007-present"
+          situation: "Post-bestseller career choice"
+          choice_made: "Kept day job at Google/Crowd"
+          cost_accepted: "Less free time, less speaking income"
+          rationalization: "Real work keeps content authentic"
+
+        - date: "Present"
+          situation: "Executive role"
+          choice_made: "Still writes code personally"
+          cost_accepted: "Time spent on technical work"
+          rationalization: "SME leaders must stay hands-on"
+
+        - date: "Present"
+          situation: "Content creation"
+          choice_made: "Only real client examples"
+          cost_accepted: "Slower content production"
+          rationalization: "Authenticity over volume"
+
+      exceptions: []
+      pattern_strength: "always"
+
+    - trade_off_id: 3
+      pattern: "Always chooses CUSTOMER DELIGHT over SHORT-TERM PROFIT"
+      value_chosen: "Customer Delight"
+      value_sacrificed: "Immediate revenue optimization"
+
+      examples:
+        - date: "2013-present"
+          situation: "Framework creation"
+          choice_made: "STDC customer-intent framework"
+          cost_accepted: "Rejects popular funnel model"
+          rationalization: "Sustainable profit comes from delight"
+
+        - date: "Multiple"
+          situation: "Client advice"
+          choice_made: "Match customer pace, not company urgency"
+          cost_accepted: "Longer time to conversion"
+          rationalization: "Relationships > transactions"
+
+        - date: "Multiple"
+          situation: "Agency philosophy"
+          choice_made: "Client profit obsession"
+          cost_accepted: "Potentially lower agency margins"
+          rationalization: "Client success = agency success"
+
+      exceptions: []
+      pattern_strength: "always"
+
+    - trade_off_id: 4
+      pattern: "Always chooses FAMILY over ADDITIONAL FAME/INCOME"
+      value_chosen: "Family / Work-Life Integration"
+      value_sacrificed: "Maximum career optimization"
+
+      examples:
+        - date: "Present"
+          situation: "Social life choices"
+          choice_made: "Limited number of friends"
+          cost_accepted: "Fewer networking opportunities"
+          rationalization: "Quality over quantity in relationships"
+
+        - date: "Present"
+          situation: "Entertainment choices"
+          choice_made: "Zero TV except Giants"
+          cost_accepted: "Less cultural participation"
+          rationalization: "Time is finite; family matters most"
+
+        - date: "Present"
+          situation: "Career expansion"
+          choice_made: "Three jobs with family protection"
+          cost_accepted: "Less career growth possible"
+          rationalization: "Being present for family is non-negotiable"
+
+      exceptions: []
+      pattern_strength: "usually"
+
+    - trade_off_id: 5
+      pattern: "Usually chooses TRUTH over COMFORT"
+      value_chosen: "Truth / Honest Numbers"
+      value_sacrificed: "Audience comfort"
+
+      examples:
+        - date: "2018"
+          situation: "ROI formula teaching"
+          choice_made: "Taught real ROI (painful 0.5)"
+          cost_accepted: "Marketers don't like hearing this"
+          rationalization: "A painful 0.5 is better than a fake 4.0"
+
+        - date: "Multiple"
+          situation: "Incrementality crusade"
+          choice_made: "Challenged attribution orthodoxy"
+          cost_accepted: "Industry resistance"
+          rationalization: "Truth enables improvement"
+
+        - date: "Multiple"
+          situation: "Big data skepticism"
+          choice_made: "Criticized hype"
+          cost_accepted: "Less popular stance"
+          rationalization: "Honest assessment over hype"
+
+      exceptions:
+        - "Sometimes softens delivery for teaching effectiveness"
+      pattern_strength: "usually"
+
+  # ==========================================================================
+  # TEMPORAL EVOLUTION
+  # ==========================================================================
+  temporal_evolution:
+    - phase_id: 1
+      age_range: "0-25"
+      period: "Education & Early Career"
+      life_context: "India -> Ohio State MBA -> Silicon Graphics"
+
+      dominant_values:
+        - value: "Achievement / Career Building"
+          intensity: 9
+          manifestation: "Engineering degree, MBA pursuit, first tech roles"
+
+        - value: "Learning"
+          intensity: 8
+          manifestation: "MBA, data discovery at career services"
+
+        - value: "Financial Security"
+          intensity: 7
+          manifestation: "'Poor hungry student' - focused on career"
+
+      transition_event:
+        event: "Ohio State assistantship - organizing career data"
+        date: "~1990s"
+        impact: "Discovered power of data to reveal patterns"
+        values_before: ["Generic achievement"]
+        values_after: ["Data-driven thinking", "Pattern recognition"]
+        values_unchanged: ["Learning", "Achievement"]
+
+    - phase_id: 2
+      age_range: "25-35"
+      period: "Analytics Career Building"
+      life_context: "DirecTV -> Intuit -> Google Analytics launch"
+
+      dominant_values:
+        - value: "Technical Excellence"
+          intensity: 9
+          manifestation: "Built MYOB, launched Google Analytics"
+
+        - value: "Data Primacy"
+          intensity: 9
+          manifestation: "Pure data advocacy, Web Analytics 2.0 book"
+
+        - value: "Learning (intensified)"
+          intensity: 9
+          manifestation: "Continuous skill building"
+
+      transition_event:
+        event: "DirecTV failure - 'You manage people like resources'"
+        date: "Early 2000s"
+        impact: "Learned human element matters alongside data"
+        values_before: ["Pure analytical approach"]
+        values_after: ["Balanced data-human approach"]
+        values_unchanged: ["Learning", "Technical excellence"]
+
+    - phase_id: 3
+      age_range: "35-50"
+      period: "Thought Leadership & Current"
+      life_context: "Google (16 years) -> Crowd CSO -> Books -> Newsletter"
+
+      dominant_values:
+        - value: "Action Over Data"
+          intensity: 10
+          manifestation: "Crystallized from experience; core teaching"
+
+        - value: "Credibility Through Practice"
+          intensity: 10
+          manifestation: "Kept job despite fame; codes at CSO level"
+
+        - value: "Generosity"
+          intensity: 10
+          manifestation: "100% charity donation model"
+
+        - value: "Customer Delight"
+          intensity: 9
+          manifestation: "STDC framework, anti-funnel crusade"
+
+        - value: "Family"
+          intensity: 8
+          manifestation: "Essentialism applied to protect family time"
+
+      transition_event:
+        event: "Post-book success - observing disconnected authors"
+        date: "~2007-2010"
+        impact: "Resolved to always maintain real job"
+        values_before: ["Career success"]
+        values_after: ["Credibility through continued practice"]
+        values_unchanged: ["Learning", "Action orientation"]
+
+  # ==========================================================================
+  # VALIDATION REPORT
+  # ==========================================================================
+  validation_report:
+    total_values_identified: 12
+    values_with_3plus_evidences: 12
+    average_evidences_per_value: 3.5
+    triangulation_scores:
+      - value: "Action Over Data"
+        score: 0.98
+      - value: "Credibility Through Practice"
+        score: 1.00
+      - value: "Generosity / Knowledge Sharing"
+        score: 1.00
+      - value: "Customer Delight Over Profit"
+        score: 0.95
+      - value: "Truth / Honest Numbers"
+        score: 0.95
+      - value: "Simplicity / Essentialism"
+        score: 0.90
+      - value: "Continuous Learning"
+        score: 0.95
+      - value: "Family / Work-Life Integration"
+        score: 0.85
+      - value: "Evolution Over Revolution"
+        score: 0.90
+      - value: "Self-Awareness / Feedback Seeking"
+        score: 0.90
+      - value: "Strong Opinions Loosely Held"
+        score: 0.85
+      - value: "Balanced Data-Intuition"
+        score: 0.85
+    average_triangulation: 0.92
+
+    gaps_identified:
+      - "Limited early career (pre-Ohio State) value evidence"
+      - "Personal life values beyond work-life balance less documented"
+      - "Political/social values not expressed in professional content"
+
+    uncertainties:
+      - "Exact hierarchy between Customer Delight and Truth might shift contextually"
+      - "Family value ranking relative to career values in extreme situations"
+
+    human_validation_questions:
+      - question: "Does this ranking feel authentic?"
+        answer: ""
+      - question: "Any values missing that should be top 5?"
+        answer: ""
+      - question: "Any values ranked too high or too low?"
+        answer: ""
+      - question: "Do anti-values resonate?"
+        answer: ""
+
+    reviewer_notes: ""

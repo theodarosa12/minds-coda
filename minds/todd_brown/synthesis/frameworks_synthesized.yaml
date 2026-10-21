@@ -1,0 +1,1720 @@
+# Frameworks Latticework: Todd Brown
+# Generated: 2026-01-24
+# Agent: Charlie (Synthesis Expert)
+# Task: framework-identification
+# Methodology: Munger-Inspired 5-Phase Framework Extraction
+# Phase: 5 - Synthesis
+
+metadata:
+  mind_slug: "todd_brown"
+  generated: "2026-01-24T03:30:00-03:00"
+  agent: "synthesis-expert"
+  task: "framework-identification"
+  methodology: "Munger Latticework Construction"
+  phase: 5
+  frameworks_extracted: 12
+  cross_domain_validated: true
+  first_principles_decomposed: true
+
+# =============================================================================
+# FRAMEWORK LATTICEWORK
+# =============================================================================
+# "You've got to have models in your head and you've got to array your
+# experience—both vicarious and direct—on this latticework of models"
+# — Charlie Munger
+# =============================================================================
+
+frameworks:
+
+  # ---------------------------------------------------------------------------
+  # FRAMEWORK 1: IDEA-FIRST ARCHITECTURE (Foundational)
+  # ---------------------------------------------------------------------------
+  - framework_id: "fw_01"
+    name: "Idea-First Architecture"
+    type: "decision"
+    tier: "foundational"
+
+    description:
+      summary: |
+        The quality of the underlying idea determines system success. Execution
+        amplifies the idea but cannot compensate for a weak one. Investment in
+        execution without validating the idea is waste.
+      when_to_use:
+        - "Any marketing campaign development"
+        - "Product launch decisions"
+        - "Resource allocation in marketing"
+        - "Diagnosing underperforming campaigns"
+      when_not_to_use:
+        - "Pure brand marketing without response measurement"
+        - "Early-stage exploration where idea isn't yet formed"
+        - "Non-marketing business problems (without adaptation)"
+
+    cross_domain_validation:
+      original_domain: "Direct Response Marketing"
+      validated_domains:
+        - domain: "Product Development"
+          works: true
+          example: "Minimum Viable Product concept validates idea before full build"
+          validation_notes: "Core insight transfers directly"
+
+        - domain: "Content Creation"
+          works: true
+          example: "Headline testing before writing full article"
+          validation_notes: "Tim Ferriss title testing story"
+
+        - domain: "Business Strategy"
+          works: true
+          example: "Business model validation before scale"
+          validation_notes: "Lean startup methodology applies same principle"
+
+        - domain: "Education/Teaching"
+          works: partially
+          example: "Curriculum design - big idea of course matters"
+          limitations: "Some teaching requires iterative discovery"
+
+      boundary_conditions:
+        - "Requires measurable outcomes to validate idea quality"
+        - "Assumes capital/resources for testing available"
+        - "Works best when audience response is quantifiable"
+
+    first_principles:
+      core_axioms:
+        - "90% of marketing failures trace to weak underlying idea"
+        - "Execution amplifies signal; cannot create signal from noise"
+        - "Downstream investment on weak foundation = wasted resources"
+        - "Ideas are discoverable and testable, not just creative magic"
+
+      necessary_conditions:
+        - "Ability to define what 'good idea' means in context"
+        - "Mechanism to test/validate idea before full investment"
+        - "Willingness to kill ideas that don't validate"
+
+      inversion_insights:
+        failure_mode: "Investing in execution while idea quality unknown"
+        critical_dependency: "Idea validation mechanism (MVF, testing)"
+        false_assumption: "Great execution can save weak idea"
+        inverted_question: "How to GUARANTEE a failed campaign? → Skip idea validation"
+
+    latticework_connections:
+      complements:
+        - framework: "Sequential Validation Architecture"
+          synergy: "Validation proves idea before downstream investment"
+        - framework: "Mechanism-Creates-Believability"
+          synergy: "Mechanism makes the idea credible"
+        - framework: "Hierarchical Component Architecture"
+          synergy: "Establishes idea as priority 1 in hierarchy"
+
+      contradicts: []
+
+      prerequisites:
+        - framework: "Circle of Competence (Munger)"
+          reason: "Must understand enough about domain to evaluate ideas"
+
+      enhances:
+        - framework: "Quality Gate Enforcement"
+          reason: "Provides the gate criterion (Big Idea present?)"
+
+    usability:
+      prediction_power: "HIGH"
+      prediction_test: |
+        Framework predicts: Campaigns with weak ideas will underperform
+        regardless of copy quality. Validated by 10+ years of Todd's
+        client work and Agora case studies.
+
+      explanation_power: "HIGH"
+      explanation_test: |
+        Explains why "polished copy" campaigns still fail. Root cause is
+        not execution, but underlying idea weakness.
+
+      action_guidance: "HIGH"
+      action_test: |
+        Provides clear directive: BEFORE any marketing work, ask "What's
+        the Big Idea?" If unclear or weak, stop and fix idea first.
+
+      error_prevention: "HIGH"
+      error_test: |
+        Prevents common error of optimizing execution while ignoring
+        fundamentals. The "button color" mistake.
+
+    evidence:
+      occurrence_count: 22
+      primary_sources:
+        - "E5 Method Book"
+        - "Eventual Millionaire Interview"
+        - "Copy Chief Radio"
+        - "LMScast"
+      key_quote: |
+        "90% of marketing copy that is not effective suffers from one of
+        three problems. The number one problem is a lack of a single,
+        unifying big idea." - Mark Ford via Todd Brown
+
+  # ---------------------------------------------------------------------------
+  # FRAMEWORK 2: SEQUENTIAL VALIDATION ARCHITECTURE (Foundational)
+  # ---------------------------------------------------------------------------
+  - framework_id: "fw_02"
+    name: "Sequential Validation Architecture"
+    type: "decision"
+    tier: "foundational"
+
+    description:
+      summary: |
+        Validate core assumptions before scaling investment. Small bets →
+        Data → Decision → Scale (or Kill). Skip validation = multiply risk
+        downstream.
+      when_to_use:
+        - "Campaign development (MVF concept)"
+        - "Business investment decisions"
+        - "New product launches"
+        - "Any high-stakes resource commitment"
+      when_not_to_use:
+        - "Proven patterns with established track record"
+        - "Time-critical opportunities with asymmetric upside"
+        - "Low-stakes experiments"
+
+    cross_domain_validation:
+      original_domain: "Direct Response Marketing"
+      validated_domains:
+        - domain: "Product Development"
+          works: true
+          example: "MVP → User feedback → Iterate or pivot"
+          validation_notes: "Lean startup methodology"
+
+        - domain: "Scientific Research"
+          works: true
+          example: "Hypothesis → Experiment → Data → Conclusion"
+          validation_notes: "Scientific method is sequential validation"
+
+        - domain: "Investment/Finance"
+          works: true
+          example: "Position sizing based on conviction level"
+          validation_notes: "Munger/Buffett approach to concentration"
+
+        - domain: "Personal Development"
+          works: partially
+          example: "Test new habits for 30 days before committing"
+          limitations: "Some growth requires commitment without proof"
+
+      boundary_conditions:
+        - "Requires resources for testing (ad spend, time, etc.)"
+        - "Must have clear success/failure criteria"
+        - "Assumes iteration is possible (not one-shot)"
+
+    first_principles:
+      core_axioms:
+        - "Unknown assumptions multiply into compounding risk"
+        - "Small tests generate data that de-risks larger investments"
+        - "Sunk cost is irrelevant; future cost is what matters"
+        - "Speed to validated learning > speed to execution"
+
+      necessary_conditions:
+        - "Testing budget/resources available"
+        - "Clear metrics defining success"
+        - "Willingness to kill invalidated approaches"
+
+      inversion_insights:
+        failure_mode: "Full investment before validation = maximum risk exposure"
+        critical_dependency: "Clear go/no-go criteria before test begins"
+        false_assumption: "Conviction eliminates need for validation"
+        inverted_question: "How to maximize wasted resources? → Skip testing, go all-in immediately"
+
+    latticework_connections:
+      complements:
+        - framework: "Idea-First Architecture"
+          synergy: "Validates idea before downstream investment"
+        - framework: "Quality Gate Enforcement"
+          synergy: "Gates enforce validation checkpoints"
+
+      contradicts:
+        - framework: "Move Fast Break Things"
+          resolution: "Context-dependent: Fast for low-risk, validate for high-risk"
+
+      prerequisites:
+        - framework: "Idea-First Architecture"
+          reason: "Must have idea to test before validation applies"
+
+      enhances:
+        - framework: "CLV/Investor Thinking"
+          reason: "Validation data informs investment sizing"
+
+    usability:
+      prediction_power: "HIGH"
+      explanation_power: "HIGH"
+      action_guidance: "HIGH"
+      error_prevention: "HIGH"
+
+    evidence:
+      occurrence_count: 15
+      primary_sources:
+        - "E5 Method Stage 3 (Evaluate)"
+        - "Bacon Wrapped Business"
+        - "Tim Ferriss AdWords testing story"
+      key_quote: |
+        "Test your Big Idea before committing full investment. MVF:
+        4-page stripped-down funnel for validation." - E5 Method
+
+  # ---------------------------------------------------------------------------
+  # FRAMEWORK 3: MECHANISM-CREATES-BELIEVABILITY (Domain)
+  # ---------------------------------------------------------------------------
+  - framework_id: "fw_03"
+    name: "Mechanism-Creates-Believability"
+    type: "cause-effect"
+    tier: "domain"
+
+    description:
+      summary: |
+        Promise alone creates skepticism. Promise + Mechanism creates
+        believability. The "how it works" is what makes claims credible.
+        Formula: Promise + Mechanism = Believability.
+      when_to_use:
+        - "Sophisticated markets (Level 3-5)"
+        - "Marketing copy development"
+        - "Product positioning"
+        - "Building credibility for any claim"
+      when_not_to_use:
+        - "Early markets (Level 1-2) where direct claims work"
+        - "When mechanism is truly proprietary/secret"
+        - "Casual conversation vs. persuasion context"
+
+    cross_domain_validation:
+      original_domain: "Direct Response Marketing"
+      validated_domains:
+        - domain: "Science Communication"
+          works: true
+          example: "Explaining HOW vaccine works creates acceptance"
+          validation_notes: "Mechanism understanding reduces skepticism"
+
+        - domain: "Sales"
+          works: true
+          example: "Explaining WHY this solution works for their specific problem"
+          validation_notes: "B2B sales methodology uses mechanism"
+
+        - domain: "Education"
+          works: true
+          example: "Teaching WHY something works creates deeper learning"
+          validation_notes: "Understanding mechanism > memorizing facts"
+
+        - domain: "Personal Persuasion"
+          works: partially
+          example: "Explaining logic behind request"
+          limitations: "Emotional contexts may not need mechanism"
+
+      boundary_conditions:
+        - "Requires audience capable of processing mechanism"
+        - "Mechanism must be genuinely interesting/different"
+        - "Only works if mechanism is true and defensible"
+
+    first_principles:
+      core_axioms:
+        - "Skepticism is default response to claims"
+        - "Mechanisms explain causation, reducing uncertainty"
+        - "Differentiated mechanisms create category of one"
+        - "Understanding 'how' enables belief in 'what'"
+
+      necessary_conditions:
+        - "Actual mechanism exists (can't be fabricated)"
+        - "Mechanism is communicable to audience"
+        - "Mechanism differentiates from competitors"
+
+      inversion_insights:
+        failure_mode: "Making claims without mechanism = generating skepticism"
+        critical_dependency: "Genuine, interesting mechanism to communicate"
+        false_assumption: "Bigger claims create more credibility"
+        inverted_question: "How to maximize skepticism? → Bigger promises, no explanation of HOW"
+
+    latticework_connections:
+      complements:
+        - framework: "Idea-First Architecture"
+          synergy: "Mechanism supports and enables the Big Idea"
+        - framework: "Market Sophistication Strategy"
+          synergy: "Sophistication level determines mechanism emphasis"
+        - framework: "Differentiation Over Improvement"
+          synergy: "Unique Mechanism IS the differentiation"
+
+      contradicts: []
+
+      prerequisites:
+        - framework: "Idea-First Architecture"
+          reason: "Must have idea before developing mechanism"
+
+      enhances:
+        - framework: "Hierarchical Component Architecture"
+          reason: "Mechanism is Priority 2 in hierarchy"
+
+    usability:
+      prediction_power: "HIGH"
+      explanation_power: "HIGH"
+      action_guidance: "HIGH"
+      error_prevention: "HIGH"
+
+    evidence:
+      occurrence_count: 18
+      primary_sources:
+        - "E5 Method Book"
+        - "LMScast"
+        - "Fat burner market evolution example"
+      key_quote: |
+        "In marketing, the Unique Mechanism is the unique manner, method,
+        or material that allows the product or service to deliver the
+        desired benefits." - Todd Brown
+
+  # ---------------------------------------------------------------------------
+  # FRAMEWORK 4: MARKET SOPHISTICATION STRATEGY (Domain)
+  # ---------------------------------------------------------------------------
+  - framework_id: "fw_04"
+    name: "Market Sophistication Strategy"
+    type: "pattern"
+    tier: "domain"
+
+    description:
+      summary: |
+        Prospects evolve as they see more marketing. Strategy must match
+        sophistication level. Using Level 1 strategy in Level 5 market
+        guarantees failure.
+      when_to_use:
+        - "Market analysis (E5 Stage 1 Examine)"
+        - "Campaign strategy selection"
+        - "Diagnosing campaign failures"
+        - "Competitive positioning decisions"
+      when_not_to_use:
+        - "Brand new category creation (no existing sophistication)"
+        - "Internal communications"
+        - "Non-marketing contexts"
+
+    levels:
+      level_1:
+        market_state: "Unaware of solutions"
+        strategy: "Direct claim - 'This works'"
+        example: "First fat burner in market"
+
+      level_2:
+        market_state: "Aware of basic solutions"
+        strategy: "Expanded claim - 'This works better'"
+        example: "Fat burner with more ingredients"
+
+      level_3:
+        market_state: "Skeptical of claims"
+        strategy: "Introduce mechanism - 'Here's HOW'"
+        example: "Green tea extract fat burner"
+
+      level_4:
+        market_state: "Saturated with mechanisms"
+        strategy: "Elaborate mechanism - 'WHY this is different'"
+        example: "Proprietary extraction method"
+
+      level_5:
+        market_state: "Exhausted with marketing"
+        strategy: "Identification and story"
+        example: "For people like you who..."
+
+    cross_domain_validation:
+      original_domain: "Direct Response Marketing"
+      validated_domains:
+        - domain: "Technology Adoption"
+          works: true
+          example: "Rogers Diffusion Curve - same evolution pattern"
+          validation_notes: "Early adopters → Skeptics → Laggards"
+
+        - domain: "Political Communication"
+          works: true
+          example: "Messaging must match voter sophistication"
+          validation_notes: "Primary vs general election messaging"
+
+        - domain: "Education"
+          works: true
+          example: "Teaching must match student knowledge level"
+          validation_notes: "Scaffolding concept in pedagogy"
+
+      boundary_conditions:
+        - "Requires understanding of current market position"
+        - "Markets can regress (new entrants reset sophistication)"
+        - "Different segments may be at different levels"
+
+    first_principles:
+      core_axioms:
+        - "Audiences evolve through exposure to marketing"
+        - "What worked yesterday may not work today"
+        - "Mismatched strategy wastes resources"
+        - "Markets rarely stay at Level 1-2 for long"
+
+      necessary_conditions:
+        - "Ability to assess current market sophistication"
+        - "Flexibility to adapt strategy to level"
+        - "Mechanism available for Level 3-5 markets"
+
+      inversion_insights:
+        failure_mode: "Using Level 1 strategy in Level 5 market"
+        critical_dependency: "Accurate market sophistication assessment"
+        false_assumption: "What worked before will work again"
+        inverted_question: "How to guarantee campaign failure? → Ignore market evolution"
+
+    latticework_connections:
+      complements:
+        - framework: "Mechanism-Creates-Believability"
+          synergy: "Mechanism becomes critical at Level 3+"
+        - framework: "Differentiation Over Improvement"
+          synergy: "Differentiation is essential at Level 4-5"
+
+      contradicts: []
+
+      prerequisites:
+        - framework: "Idea-First Architecture"
+          reason: "Need idea to position at any level"
+
+      enhances:
+        - framework: "Idea-First Architecture"
+          reason: "Determines HOW to present the idea"
+
+    usability:
+      prediction_power: "HIGH"
+      explanation_power: "HIGH"
+      action_guidance: "HIGH"
+      error_prevention: "HIGH"
+
+    evidence:
+      occurrence_count: 11
+      primary_sources:
+        - "E5 Method Book"
+        - "Eugene Schwartz (Breakthrough Advertising)"
+        - "Fat burner market evolution example"
+      key_quote: |
+        "Schwartz's 5 levels explained the evolution. What worked at Level 1
+        fails at Level 5." - Todd Brown
+
+  # ---------------------------------------------------------------------------
+  # FRAMEWORK 5: HIERARCHICAL COMPONENT ARCHITECTURE (Domain)
+  # ---------------------------------------------------------------------------
+  - framework_id: "fw_05"
+    name: "Hierarchical Component Architecture"
+    type: "optimization"
+    tier: "domain"
+
+    description:
+      summary: |
+        Marketing components have strict hierarchy: Idea > Mechanism >
+        Offer > Copy. Higher components determine lower ones. Fixing low
+        components cannot compensate for broken high ones.
+      when_to_use:
+        - "Campaign diagnosis"
+        - "Resource allocation decisions"
+        - "Prioritizing marketing improvements"
+        - "Teaching marketing strategy"
+      when_not_to_use:
+        - "When all higher components already validated"
+        - "Quick tactical fixes for proven campaigns"
+
+    hierarchy:
+      priority_1:
+        component: "Big Idea"
+        weight: "40%"
+        function: "Core concept that drives resonance"
+        if_broken: "Nothing else matters - fix this first"
+
+      priority_2:
+        component: "Unique Mechanism"
+        weight: "25%"
+        function: "Creates believability for idea"
+        if_broken: "Copy optimization is wasted effort"
+
+      priority_3:
+        component: "SIN Offer"
+        weight: "20%"
+        function: "Makes decision easy"
+        if_broken: "Good copy can't overcome weak offer"
+
+      priority_4:
+        component: "Copy Execution"
+        weight: "15%"
+        function: "Articulates above components"
+        if_broken: "Only fix after above are solid"
+
+    cross_domain_validation:
+      original_domain: "Direct Response Marketing"
+      validated_domains:
+        - domain: "Software Development"
+          works: true
+          example: "Architecture > Framework > Implementation > UI"
+          validation_notes: "Same hierarchy principle applies"
+
+        - domain: "Construction"
+          works: true
+          example: "Foundation > Structure > Systems > Finishes"
+          validation_notes: "Can't polish finishes on cracked foundation"
+
+        - domain: "Medicine"
+          works: true
+          example: "Diagnosis > Treatment Plan > Medication > Compliance"
+          validation_notes: "Wrong diagnosis = wasted treatment"
+
+      boundary_conditions:
+        - "Hierarchy is absolute for campaign diagnosis"
+        - "Quick tactical fixes OK when hierarchy is solid"
+        - "Assumes time to address hierarchy sequentially"
+
+    first_principles:
+      core_axioms:
+        - "Upstream problems propagate downstream"
+        - "Optimization below the problem wastes resources"
+        - "Most 'copy problems' are actually idea problems"
+        - "Hierarchy enforces disciplined diagnosis"
+
+      necessary_conditions:
+        - "Ability to assess each component independently"
+        - "Willingness to stop and fix upstream before continuing"
+        - "Process that enforces sequential validation"
+
+      inversion_insights:
+        failure_mode: "Optimizing copy while idea is weak"
+        critical_dependency: "Accurate diagnosis of problem level"
+        false_assumption: "Better copy can save weak idea"
+        inverted_question: "How to waste maximum resources? → Polish copy without checking idea"
+
+    latticework_connections:
+      complements:
+        - framework: "Idea-First Architecture"
+          synergy: "Hierarchy operationalizes idea-first principle"
+        - framework: "Mechanism-Creates-Believability"
+          synergy: "Mechanism at Priority 2 supports hierarchy"
+
+      contradicts: []
+
+      prerequisites:
+        - framework: "Idea-First Architecture"
+          reason: "Must believe in idea primacy to accept hierarchy"
+
+      enhances:
+        - framework: "Sequential Validation Architecture"
+          reason: "Provides what to validate in sequence"
+
+    usability:
+      prediction_power: "HIGH"
+      explanation_power: "HIGH"
+      action_guidance: "HIGH"
+      error_prevention: "HIGH"
+
+    evidence:
+      occurrence_count: 12
+      primary_sources:
+        - "E5 Method Structure"
+        - "Hidden curriculum analysis"
+        - "Copy Chief Radio"
+      key_quote: |
+        "Button colors are noise, idea is signal. Fix the hierarchy from
+        top to bottom." - Todd Brown (inferred)
+
+  # ---------------------------------------------------------------------------
+  # FRAMEWORK 6: QUALITY GATE ENFORCEMENT (Decision)
+  # ---------------------------------------------------------------------------
+  - framework_id: "fw_06"
+    name: "Quality Gate Enforcement"
+    type: "constraint"
+    tier: "operational"
+
+    description:
+      summary: |
+        Non-negotiable checkpoints before campaign progression. Binary
+        gates (pass/fail) prevent advancement of substandard work.
+        Commitment device for maintaining standards.
+      when_to_use:
+        - "Campaign launch decisions"
+        - "Stage progressions in E5"
+        - "Content publication decisions"
+        - "Any quality-critical decision"
+      when_not_to_use:
+        - "Early exploration/brainstorming phases"
+        - "Iterative testing where failure is expected"
+        - "Low-stakes content"
+
+    gates:
+      big_idea_gate:
+        question: "Does this have a Big Idea?"
+        test: "Can explain in 15 seconds?"
+        result: "Binary pass/fail"
+        action_on_fail: "Stop and develop idea"
+
+      mechanism_gate:
+        question: "Is there a Unique Mechanism?"
+        test: "Can explain WHY and HOW differently?"
+        result: "Binary pass/fail"
+        action_on_fail: "Stop and develop mechanism"
+
+      validation_gate:
+        question: "Has MVF validated the idea?"
+        test: "Data shows positive response?"
+        result: "Binary pass/fail"
+        action_on_fail: "Stop or iterate"
+
+    cross_domain_validation:
+      original_domain: "Direct Response Marketing"
+      validated_domains:
+        - domain: "Software Development"
+          works: true
+          example: "Code review, QA gates, deployment approvals"
+          validation_notes: "Same gate concept"
+
+        - domain: "Manufacturing"
+          works: true
+          example: "Quality control checkpoints"
+          validation_notes: "Statistical process control"
+
+        - domain: "Aviation"
+          works: true
+          example: "Pre-flight checklists"
+          validation_notes: "Safety-critical gates"
+
+      boundary_conditions:
+        - "Gates must be binary to be effective"
+        - "Gate criteria must be clear before reaching gate"
+        - "Requires authority to enforce gates"
+
+    first_principles:
+      core_axioms:
+        - "Unclear standards produce inconsistent quality"
+        - "Commitment devices overcome in-the-moment weakness"
+        - "Gates prevent compounding of early errors"
+        - "Public commitment to standards creates accountability"
+
+      necessary_conditions:
+        - "Clear, measurable gate criteria"
+        - "Authority to enforce gates"
+        - "Willingness to delay for quality"
+
+      inversion_insights:
+        failure_mode: "Flexible standards that bend under pressure"
+        critical_dependency: "Pre-defined, non-negotiable criteria"
+        false_assumption: "We can fix it after launch"
+        inverted_question: "How to guarantee quality problems? → Make all gates negotiable"
+
+    latticework_connections:
+      complements:
+        - framework: "Idea-First Architecture"
+          synergy: "Idea gate enforces idea-first principle"
+        - framework: "Sequential Validation Architecture"
+          synergy: "Gates enforce validation checkpoints"
+
+      contradicts:
+        - framework: "Move Fast Break Things"
+          resolution: "Gates for quality-critical; fast iteration for learning"
+
+      prerequisites: []
+
+      enhances:
+        - framework: "Hierarchical Component Architecture"
+          reason: "Enforces hierarchy through gates"
+
+    usability:
+      prediction_power: "HIGH"
+      explanation_power: "MEDIUM"
+      action_guidance: "HIGH"
+      error_prevention: "VERY HIGH"
+
+    evidence:
+      occurrence_count: 8
+      primary_sources:
+        - "Copy Chief Radio"
+        - "toddbrown.me"
+        - "Three-Finger Engagement Test"
+      key_quote: |
+        "If it doesn't have a big idea, it does not go out the door."
+        - Todd Brown
+
+  # ---------------------------------------------------------------------------
+  # FRAMEWORK 7: ATTRIBUTION-RESPECT PROTOCOL (Meta)
+  # ---------------------------------------------------------------------------
+  - framework_id: "fw_07"
+    name: "Attribution-Respect Protocol"
+    type: "heuristic"
+    tier: "meta-cognitive"
+
+    description:
+      summary: |
+        Honor intellectual lineage. Never claim invention of inherited
+        ideas. Add synthesis and application, not false origin. Authority
+        through integration, not origination.
+      when_to_use:
+        - "Teaching concepts from others"
+        - "Writing about marketing theory"
+        - "Public speaking/presenting"
+        - "All professional content creation"
+      when_not_to_use:
+        - "Genuinely original insights (proper to claim)"
+        - "General knowledge with no clear source"
+
+    protocol:
+      step_1: "Identify original source of concept"
+      step_2: "Explicitly credit using attribution language"
+      step_3: "Explain the concept"
+      step_4: "Add personal synthesis/application"
+      step_5: "Never claim concept is your invention"
+
+    attribution_language:
+      patterns:
+        - "Mark Ford taught us that..."
+        - "As Eugene Schwartz explained..."
+        - "Via [mentor name]..."
+        - "I learned from [name] that..."
+        - "According to [name]..."
+
+    cross_domain_validation:
+      original_domain: "Marketing Education"
+      validated_domains:
+        - domain: "Academic Research"
+          works: true
+          example: "Citation requirements"
+          validation_notes: "Foundation of scholarly work"
+
+        - domain: "Journalism"
+          works: true
+          example: "Source attribution"
+          validation_notes: "Credibility through sourcing"
+
+        - domain: "Open Source Software"
+          works: true
+          example: "License attribution"
+          validation_notes: "Community norm"
+
+        - domain: "Personal Reputation"
+          works: true
+          example: "Intellectual honesty builds trust"
+          validation_notes: "Differentiation from ego-driven peers"
+
+      boundary_conditions:
+        - "Not needed for general common knowledge"
+        - "Can over-attribute (acceptable cost)"
+        - "Requires knowledge of intellectual lineage"
+
+    first_principles:
+      core_axioms:
+        - "Intellectual honesty builds lasting credibility"
+        - "Attribution connects to prestigious lineage"
+        - "Synthesis expertise is valuable; origination claim is unnecessary"
+        - "Trust accumulates through consistent honesty"
+
+      necessary_conditions:
+        - "Knowledge of where concepts originate"
+        - "Willingness to share credit"
+        - "Ego security to not need false originality"
+
+      inversion_insights:
+        failure_mode: "Claiming others' concepts as own"
+        critical_dependency: "Knowledge of intellectual history"
+        false_assumption: "Originality claims build more credibility"
+        inverted_question: "How to destroy credibility? → Claim others' work as your invention"
+
+    latticework_connections:
+      complements: []
+
+      contradicts: []
+
+      prerequisites:
+        - framework: "Circle of Competence (Munger)"
+          reason: "Must know domain well enough to know sources"
+
+      enhances:
+        - framework: "All other frameworks"
+          reason: "Creates credibility for all teaching"
+
+    usability:
+      prediction_power: "HIGH"
+      explanation_power: "MEDIUM"
+      action_guidance: "HIGH"
+      error_prevention: "HIGH"
+
+    evidence:
+      occurrence_count: 14
+      primary_sources:
+        - "All interviews (14/14 Mark Ford attribution)"
+        - "All Schwartz mentions (7/7 attributed)"
+      key_quote: |
+        "Mark Ford taught us that we were in the idea business."
+        - Todd Brown (never claims Big Idea as his concept)
+
+  # ---------------------------------------------------------------------------
+  # FRAMEWORK 8: DIFFERENTIATION OVER IMPROVEMENT (Strategic)
+  # ---------------------------------------------------------------------------
+  - framework_id: "fw_08"
+    name: "Differentiation Over Improvement"
+    type: "heuristic"
+    tier: "strategic"
+
+    description:
+      summary: |
+        Being "better" invites comparison race (unsustainable). Being
+        "different" creates new category (defensible). Seek differentiation,
+        not incremental improvement.
+      when_to_use:
+        - "Competitive positioning decisions"
+        - "Product differentiation strategy"
+        - "Marketing messaging development"
+        - "Personal/professional positioning"
+      when_not_to_use:
+        - "Early markets where better works (Level 1-2)"
+        - "When genuine improvement creates category"
+        - "Internal process optimization"
+
+    cross_domain_validation:
+      original_domain: "Marketing Strategy"
+      validated_domains:
+        - domain: "Business Strategy"
+          works: true
+          example: "Blue Ocean Strategy - create uncontested market"
+          validation_notes: "Same insight, different framing"
+
+        - domain: "Career Development"
+          works: true
+          example: "Unique skill combinations vs being best at one thing"
+          validation_notes: "Scott Adams 'talent stack'"
+
+        - domain: "Personal Branding"
+          works: true
+          example: "The expert other experts consult"
+          validation_notes: "Todd's own positioning"
+
+        - domain: "Product Development"
+          works: partially
+          example: "Feature innovation vs performance improvement"
+          limitations: "Sometimes 10x better IS different"
+
+      boundary_conditions:
+        - "Market must be sophisticated enough for differentiation to matter"
+        - "Differentiation must be genuine and sustainable"
+        - "Some markets reward pure performance (Level 1)"
+
+    first_principles:
+      core_axioms:
+        - "'Better' invites feature comparison races"
+        - "'Different' creates category of one"
+        - "Defensibility comes from uniqueness, not superiority"
+        - "Comparison neutralization is strategic advantage"
+
+      necessary_conditions:
+        - "Genuine unique angle exists or can be created"
+        - "Audience values uniqueness over marginal improvement"
+        - "Differentiation is communicable"
+
+      inversion_insights:
+        failure_mode: "Competing on 'better' in saturated market"
+        critical_dependency: "Unique Mechanism or positioning angle"
+        false_assumption: "Best product always wins"
+        inverted_question: "How to guarantee commoditization? → Compete only on being better"
+
+    latticework_connections:
+      complements:
+        - framework: "Mechanism-Creates-Believability"
+          synergy: "Unique Mechanism IS the differentiation"
+        - framework: "Market Sophistication Strategy"
+          synergy: "Differentiation critical at Level 4-5"
+
+      contradicts:
+        - framework: "Continuous Improvement"
+          resolution: "Improve execution; differentiate positioning"
+
+      prerequisites:
+        - framework: "Market Sophistication Strategy"
+          reason: "Must understand market level to know when differentiation matters"
+
+      enhances:
+        - framework: "Idea-First Architecture"
+          reason: "Differentiation shapes idea direction"
+
+    usability:
+      prediction_power: "HIGH"
+      explanation_power: "HIGH"
+      action_guidance: "HIGH"
+      error_prevention: "HIGH"
+
+    evidence:
+      occurrence_count: 10
+      primary_sources:
+        - "E5 Method Book"
+        - "LMScast"
+        - "Thoughtful Entrepreneur"
+      key_quote: |
+        "Being 'better' is unsustainable. Being DIFFERENT is defensible."
+        - Todd Brown
+
+  # ---------------------------------------------------------------------------
+  # FRAMEWORK 9: CLV/INVESTOR THINKING (Business)
+  # ---------------------------------------------------------------------------
+  - framework_id: "fw_09"
+    name: "CLV/Investor Thinking"
+    type: "optimization"
+    tier: "business"
+
+    description:
+      summary: |
+        Focus on Customer Lifetime Value, not just acquisition cost.
+        Investor mindset: what is customer worth long-term? Allows
+        spending more to acquire (competitive advantage).
+      when_to_use:
+        - "Customer acquisition strategy"
+        - "Budget allocation decisions"
+        - "Scaling decisions"
+        - "Business model design"
+      when_not_to_use:
+        - "Early-stage with unknown CLV"
+        - "One-time transaction businesses"
+        - "When cash flow constraints dominate"
+
+    cross_domain_validation:
+      original_domain: "Direct Response Marketing"
+      validated_domains:
+        - domain: "Finance/Investment"
+          works: true
+          example: "Discounted cash flow valuation"
+          validation_notes: "Same long-term value thinking"
+
+        - domain: "SaaS Business"
+          works: true
+          example: "LTV:CAC ratio optimization"
+          validation_notes: "Core SaaS metric"
+
+        - domain: "Relationship Building"
+          works: partially
+          example: "Long-term relationship value vs transaction"
+          limitations: "Less quantifiable"
+
+      boundary_conditions:
+        - "Requires reliable CLV data or estimates"
+        - "Cash flow must support longer payback"
+        - "Assumes ability to capture backend value"
+
+    first_principles:
+      core_axioms:
+        - "First transaction is just the beginning of value"
+        - "Higher allowable acquisition cost = competitive advantage"
+        - "Backend value creation expands acquisition options"
+        - "Transaction thinking limits growth"
+
+      necessary_conditions:
+        - "Backend products/services to increase CLV"
+        - "Cash flow to support longer payback periods"
+        - "Tracking systems to measure CLV"
+
+      inversion_insights:
+        failure_mode: "Optimizing for first-sale profit only"
+        critical_dependency: "Backend value creation capability"
+        false_assumption: "Must profit on first transaction"
+        inverted_question: "How to lose to competitors? → Only consider first-sale economics"
+
+    latticework_connections:
+      complements:
+        - framework: "Sequential Validation Architecture"
+          synergy: "Validation data informs CLV projections"
+
+      contradicts: []
+
+      prerequisites:
+        - framework: "Idea-First Architecture"
+          reason: "Strong idea creates repeat customers (higher CLV)"
+
+      enhances:
+        - framework: "Quality Gate Enforcement"
+          reason: "Quality increases CLV"
+
+    usability:
+      prediction_power: "HIGH"
+      explanation_power: "HIGH"
+      action_guidance: "MEDIUM"
+      error_prevention: "MEDIUM"
+
+    evidence:
+      occurrence_count: 6
+      primary_sources:
+        - "E5 Method Stage 5 (Expand)"
+        - "Inspired Insider"
+        - "Agora business model"
+      key_quote: |
+        "Focus on Customer Lifetime Value, not just cost per acquisition."
+        - E5 Method
+
+  # ---------------------------------------------------------------------------
+  # FRAMEWORK 10: SIN OFFER CONSTRUCTION (Domain)
+  # ---------------------------------------------------------------------------
+  - framework_id: "fw_10"
+    name: "SIN Offer Construction"
+    type: "pattern"
+    tier: "domain"
+
+    description:
+      summary: |
+        Three qualities make offers irresistible: Superior (clearly better
+        than alternatives), Irresistible (emotionally compelling),
+        No-brainer (obviously valuable decision). SIN = S + I + N.
+      when_to_use:
+        - "Offer development (E5 Stage 2)"
+        - "Improving conversion rates"
+        - "Competitive positioning"
+        - "Price-value communication"
+      when_not_to_use:
+        - "Premium/luxury positioning (scarcity over value)"
+        - "B2B complex sales (relationship over offer)"
+
+    components:
+      superior:
+        definition: "Clearly better than alternatives"
+        elements:
+          - "Unique Mechanism"
+          - "Better results promised"
+          - "Additional value not available elsewhere"
+        question: "How is this clearly better than alternatives?"
+
+      irresistible:
+        definition: "Emotionally compelling"
+        elements:
+          - "Emotional resonance with desires/fears"
+          - "Urgency drivers"
+          - "Scarcity elements"
+        question: "Why would someone feel compelled to act?"
+
+      no_brainer:
+        definition: "Obviously valuable decision"
+        elements:
+          - "Risk reversal (guarantee)"
+          - "Value stacking (bonuses)"
+          - "Price-value gap (clearly worth more)"
+        question: "Why is this obviously a good decision?"
+
+    cross_domain_validation:
+      original_domain: "Direct Response Marketing"
+      validated_domains:
+        - domain: "Negotiation"
+          works: true
+          example: "Making proposals the other side can't refuse"
+          validation_notes: "Same value-communication principles"
+
+        - domain: "Proposal Writing"
+          works: true
+          example: "Business proposals that win"
+          validation_notes: "SIN framework applies"
+
+        - domain: "Job Offers"
+          works: partially
+          example: "Employer value proposition"
+          limitations: "Relationship factors complicate"
+
+      boundary_conditions:
+        - "Must be able to deliver on offer promises"
+        - "Works best for considered purchases"
+        - "Requires genuine value to stack"
+
+    first_principles:
+      core_axioms:
+        - "Offers drive conversion more than copy"
+        - "Decision ease reduces friction"
+        - "Risk reversal removes final objection"
+        - "Value perception must exceed price"
+
+      necessary_conditions:
+        - "Genuine value to communicate"
+        - "Ability to deliver on promises"
+        - "Understanding of customer desires"
+
+      inversion_insights:
+        failure_mode: "Weak offer that copy can't save"
+        critical_dependency: "Genuine value creation"
+        false_assumption: "Better copy can overcome weak offer"
+        inverted_question: "How to guarantee low conversion? → Create offer that's easy to say no to"
+
+    latticework_connections:
+      complements:
+        - framework: "Hierarchical Component Architecture"
+          synergy: "SIN Offer is Priority 3 in hierarchy"
+        - framework: "Mechanism-Creates-Believability"
+          synergy: "Mechanism makes Superior believable"
+
+      contradicts: []
+
+      prerequisites:
+        - framework: "Idea-First Architecture"
+          reason: "Big Idea shapes what offer should be"
+        - framework: "Mechanism-Creates-Believability"
+          reason: "Mechanism supports Superior claim"
+
+      enhances:
+        - framework: "Quality Gate Enforcement"
+          reason: "SIN criteria become gate"
+
+    usability:
+      prediction_power: "HIGH"
+      explanation_power: "HIGH"
+      action_guidance: "HIGH"
+      error_prevention: "HIGH"
+
+    evidence:
+      occurrence_count: 8
+      primary_sources:
+        - "E5 Method Stage 2"
+        - "Thoughtful Entrepreneur"
+        - "toddbrown.me"
+      key_quote: |
+        "Superior, Irresistible, No-brainer. The three qualities of
+        compelling offers." - E5 Method
+
+  # ---------------------------------------------------------------------------
+  # FRAMEWORK 11: EDUCATION-FIRST PERSUASION (Strategic)
+  # ---------------------------------------------------------------------------
+  - framework_id: "fw_11"
+    name: "Education-First Persuasion"
+    type: "cause-effect"
+    tier: "strategic"
+
+    description:
+      summary: |
+        Effective marketing educates prospects about mechanisms and builds
+        belief, rather than using hyperbolic claims or high-pressure tactics.
+        Education creates qualified demand that makes selling collaborative.
+      when_to_use:
+        - "Content marketing strategy"
+        - "Sales funnel design"
+        - "Complex product/service marketing"
+        - "Building long-term customer relationships"
+      when_not_to_use:
+        - "Impulse purchase products"
+        - "Time-sensitive promotions"
+        - "Mass-market simple products"
+
+    cross_domain_validation:
+      original_domain: "Direct Response Marketing"
+      validated_domains:
+        - domain: "B2B Sales"
+          works: true
+          example: "Consultative selling approach"
+          validation_notes: "Education builds trust and qualification"
+
+        - domain: "Professional Services"
+          works: true
+          example: "Thought leadership content"
+          validation_notes: "Education demonstrates expertise"
+
+        - domain: "Healthcare"
+          works: true
+          example: "Patient education improves compliance"
+          validation_notes: "Understanding drives adoption"
+
+        - domain: "Retail"
+          works: partially
+          example: "Depends on product complexity"
+          limitations: "Simple products don't need education"
+
+      boundary_conditions:
+        - "Product must have sufficient complexity to educate about"
+        - "Audience must be willing to invest in learning"
+        - "Requires patience - longer sales cycle"
+
+    first_principles:
+      core_axioms:
+        - "Educated prospects make better buying decisions"
+        - "Understanding mechanism creates belief"
+        - "Qualified demand converts more easily"
+        - "Education builds trust that hyperbole destroys"
+
+      necessary_conditions:
+        - "Something genuine to educate about"
+        - "Patience for longer conversion path"
+        - "Content creation capability"
+
+      inversion_insights:
+        failure_mode: "Hyperbolic claims that breed skepticism"
+        critical_dependency: "Genuine educational value to provide"
+        false_assumption: "Aggressive selling converts better"
+        inverted_question: "How to create resistant prospects? → Push hard without educating"
+
+    latticework_connections:
+      complements:
+        - framework: "Mechanism-Creates-Believability"
+          synergy: "Education explains mechanism"
+        - framework: "Quality Gate Enforcement"
+          synergy: "Education quality becomes gate"
+
+      contradicts:
+        - framework: "Hard Sell Tactics"
+          resolution: "Context-dependent - education for complex, urgency for simple"
+
+      prerequisites:
+        - framework: "Idea-First Architecture"
+          reason: "Must have idea worth educating about"
+
+      enhances:
+        - framework: "CLV/Investor Thinking"
+          reason: "Educated customers have higher CLV"
+
+    usability:
+      prediction_power: "HIGH"
+      explanation_power: "HIGH"
+      action_guidance: "HIGH"
+      error_prevention: "HIGH"
+
+    evidence:
+      occurrence_count: 9
+      primary_sources:
+        - "Geniuses of Copywriting"
+        - "toddbrown.me (Drucker attribution)"
+        - "E5 Method belief-building"
+      key_quote: |
+        "The aim of marketing is to make selling superfluous."
+        - Peter Drucker via Todd Brown
+
+  # ---------------------------------------------------------------------------
+  # FRAMEWORK 12: E5 METHOD (Meta-Framework)
+  # ---------------------------------------------------------------------------
+  - framework_id: "fw_12"
+    name: "E5 Method"
+    type: "process"
+    tier: "meta-framework"
+
+    description:
+      summary: |
+        Five-stage process for engineering profitable, predictable customer
+        acquisition campaigns. Integrates all other frameworks into
+        sequential, executable methodology.
+      when_to_use:
+        - "Complete campaign development"
+        - "Marketing methodology training"
+        - "Systematic marketing approach"
+      when_not_to_use:
+        - "Quick tactical fixes"
+        - "Non-marketing business problems"
+        - "When resources don't allow full process"
+
+    stages:
+      stage_1_examine:
+        focus: "Research prospects, products, competition"
+        output: "Market sophistication understanding"
+        frameworks_deployed:
+          - "Market Sophistication Strategy"
+          - "Circle of Competence"
+        gate: "Market understanding sufficient?"
+
+      stage_2_engineer:
+        focus: "Build Big Idea, Unique Mechanism, SIN Offer"
+        output: "Campaign components"
+        frameworks_deployed:
+          - "Idea-First Architecture"
+          - "Mechanism-Creates-Believability"
+          - "SIN Offer Construction"
+          - "Hierarchical Component Architecture"
+        gate: "Big Idea present? Mechanism unique? Offer SIN?"
+
+      stage_3_evaluate:
+        focus: "Test with Minimum Viable Funnel"
+        output: "Validation data"
+        frameworks_deployed:
+          - "Sequential Validation Architecture"
+          - "Quality Gate Enforcement"
+        gate: "Data validates approach?"
+
+      stage_4_enhance:
+        focus: "Optimize proven elements"
+        output: "Full campaign"
+        frameworks_deployed:
+          - "Hierarchical Component Architecture"
+          - "Education-First Persuasion"
+        gate: "All components optimized?"
+
+      stage_5_expand:
+        focus: "Scale through media buying"
+        output: "Growth"
+        frameworks_deployed:
+          - "CLV/Investor Thinking"
+          - "Sequential Validation Architecture (for scaling)"
+        gate: "Unit economics positive?"
+
+    cross_domain_validation:
+      original_domain: "Direct Response Marketing"
+      validated_domains:
+        - domain: "Product Development"
+          works: partially
+          example: "Research → Build → Test → Iterate → Scale"
+          limitations: "Marketing-specific language"
+
+        - domain: "Scientific Method"
+          works: true
+          example: "Observe → Hypothesize → Test → Analyze → Apply"
+          validation_notes: "Same sequential validation"
+
+      boundary_conditions:
+        - "Requires resources for full 5-stage process"
+        - "Direct response context with measurable outcomes"
+        - "Capital for testing and scaling"
+
+    first_principles:
+      core_axioms:
+        - "Systematic process removes emotion from decisions"
+        - "Sequential validation prevents compounding errors"
+        - "All other frameworks have place in larger system"
+        - "Repeatability > one-time creativity"
+
+      necessary_conditions:
+        - "Time for full process"
+        - "Budget for testing (Stage 3)"
+        - "Ability to measure results"
+
+      inversion_insights:
+        failure_mode: "Skipping stages or going out of order"
+        critical_dependency: "Discipline to complete all stages"
+        false_assumption: "Can shortcut the process"
+        inverted_question: "How to guarantee campaign failure? → Skip to execution without Examine/Engineer"
+
+    latticework_connections:
+      complements: []
+
+      contradicts: []
+
+      prerequisites: []  # This IS the meta-framework
+
+      enhances:
+        - framework: "All other frameworks"
+          reason: "Provides context for when each framework deploys"
+
+    usability:
+      prediction_power: "HIGH"
+      explanation_power: "HIGH"
+      action_guidance: "VERY HIGH"
+      error_prevention: "VERY HIGH"
+
+    evidence:
+      occurrence_count: 15
+      primary_sources:
+        - "E5 Method Book"
+        - "Eventual Millionaire"
+        - "LMScast"
+        - "Copy Chief Radio"
+      key_quote: |
+        "Five-stage process for engineering profitable, predictable
+        customer acquisition campaigns." - Todd Brown
+
+# =============================================================================
+# LATTICEWORK MAP
+# =============================================================================
+latticework_map:
+
+  nodes:
+    - id: "fw_01"
+      name: "Idea-First Architecture"
+      tier: "foundational"
+
+    - id: "fw_02"
+      name: "Sequential Validation Architecture"
+      tier: "foundational"
+
+    - id: "fw_03"
+      name: "Mechanism-Creates-Believability"
+      tier: "domain"
+
+    - id: "fw_04"
+      name: "Market Sophistication Strategy"
+      tier: "domain"
+
+    - id: "fw_05"
+      name: "Hierarchical Component Architecture"
+      tier: "domain"
+
+    - id: "fw_06"
+      name: "Quality Gate Enforcement"
+      tier: "operational"
+
+    - id: "fw_07"
+      name: "Attribution-Respect Protocol"
+      tier: "meta-cognitive"
+
+    - id: "fw_08"
+      name: "Differentiation Over Improvement"
+      tier: "strategic"
+
+    - id: "fw_09"
+      name: "CLV/Investor Thinking"
+      tier: "business"
+
+    - id: "fw_10"
+      name: "SIN Offer Construction"
+      tier: "domain"
+
+    - id: "fw_11"
+      name: "Education-First Persuasion"
+      tier: "strategic"
+
+    - id: "fw_12"
+      name: "E5 Method"
+      tier: "meta-framework"
+
+  edges:
+    # Foundational → Domain relationships
+    - from: "fw_01"
+      to: "fw_03"
+      relationship: "enables"
+      synergy: "Idea requires mechanism for believability"
+
+    - from: "fw_01"
+      to: "fw_05"
+      relationship: "implements"
+      synergy: "Hierarchy operationalizes idea-first"
+
+    - from: "fw_02"
+      to: "fw_06"
+      relationship: "implements"
+      synergy: "Gates enforce validation checkpoints"
+
+    # Domain → Domain relationships
+    - from: "fw_03"
+      to: "fw_04"
+      relationship: "triggered_by"
+      synergy: "Sophistication level determines mechanism need"
+
+    - from: "fw_03"
+      to: "fw_10"
+      relationship: "enables"
+      synergy: "Mechanism makes Superior claim believable"
+
+    - from: "fw_04"
+      to: "fw_08"
+      relationship: "triggers"
+      synergy: "Level 4-5 markets require differentiation"
+
+    # Strategic relationships
+    - from: "fw_08"
+      to: "fw_03"
+      relationship: "implements_via"
+      synergy: "Unique Mechanism IS the differentiation"
+
+    - from: "fw_11"
+      to: "fw_03"
+      relationship: "deploys"
+      synergy: "Education explains mechanism"
+
+    # Meta-framework relationships
+    - from: "fw_12"
+      to: "fw_01"
+      relationship: "contains"
+      synergy: "Stage 2 centers on Big Idea"
+
+    - from: "fw_12"
+      to: "fw_02"
+      relationship: "contains"
+      synergy: "Stage 3 is validation"
+
+    - from: "fw_12"
+      to: "fw_04"
+      relationship: "contains"
+      synergy: "Stage 1 is market examination"
+
+    - from: "fw_12"
+      to: "fw_06"
+      relationship: "contains"
+      synergy: "Gates between all stages"
+
+  clusters:
+    - cluster_name: "Core Marketing Philosophy"
+      frameworks:
+        - "fw_01"  # Idea-First
+        - "fw_03"  # Mechanism
+        - "fw_08"  # Differentiation
+      unifying_theme: "Ideas and mechanisms trump execution tactics"
+
+    - cluster_name: "Systematic Methodology"
+      frameworks:
+        - "fw_02"  # Validation
+        - "fw_05"  # Hierarchy
+        - "fw_06"  # Gates
+        - "fw_12"  # E5
+      unifying_theme: "Process removes emotion from marketing decisions"
+
+    - cluster_name: "Business Model"
+      frameworks:
+        - "fw_09"  # CLV
+        - "fw_10"  # SIN Offer
+        - "fw_11"  # Education
+      unifying_theme: "Long-term value creation over transaction"
+
+    - cluster_name: "Meta-Cognitive"
+      frameworks:
+        - "fw_07"  # Attribution
+      unifying_theme: "Intellectual integrity and humility"
+
+# =============================================================================
+# META-INSIGHTS
+# =============================================================================
+meta_insights:
+
+  dominant_framework_types:
+    - type: "decision"
+      count: 3
+      examples: ["Idea-First", "Sequential Validation", "Quality Gates"]
+      insight: "Todd's cognitive architecture is decision-centric"
+
+    - type: "cause-effect"
+      count: 2
+      examples: ["Mechanism-Believability", "Education-Persuasion"]
+      insight: "Strong causal reasoning orientation"
+
+    - type: "pattern"
+      count: 2
+      examples: ["Market Sophistication", "SIN Offer"]
+      insight: "Pattern recognition from experience"
+
+  cross_domain_champions:
+    - framework: "Sequential Validation Architecture"
+      domains_validated: 4
+      universality: "HIGH"
+      notes: "Scientific method in marketing clothing"
+
+    - framework: "Idea-First Architecture"
+      domains_validated: 4
+      universality: "HIGH"
+      notes: "Quality of underlying concept determines outcomes"
+
+    - framework: "Attribution-Respect Protocol"
+      domains_validated: 4
+      universality: "HIGH"
+      notes: "Intellectual honesty is universal virtue"
+
+  context_sensitive_frameworks:
+    - framework: "Market Sophistication Strategy"
+      context_dependency: "HIGH"
+      notes: "Only applies when market level can be assessed"
+
+    - framework: "SIN Offer Construction"
+      context_dependency: "MEDIUM"
+      notes: "Different for premium vs mass market"
+
+    - framework: "Differentiation Over Improvement"
+      context_dependency: "MEDIUM"
+      notes: "Early markets may reward 'better'"
+
+  lollapalooza_combinations:
+    - combination_id: "lolla_01"
+      name: "Trust Multiplier"
+      frameworks:
+        - "Education-First Persuasion"
+        - "Attribution-Respect Protocol"
+        - "Quality Gate Enforcement"
+      combined_effect: |
+        Education + Attribution + Gates = Unusually high credibility.
+        Each element reinforces trust; together they create defensive moat.
+      evidence: "Todd's positioning as 'expert experts consult'"
+
+    - combination_id: "lolla_02"
+      name: "Differentiation Multiplier"
+      frameworks:
+        - "Idea-First Architecture"
+        - "Mechanism-Creates-Believability"
+        - "Differentiation Over Improvement"
+      combined_effect: |
+        Unique idea + Unique mechanism + Different (not better) positioning
+        = Uncopyable market position. Category of one.
+      evidence: "E5 Method as proprietary system"
+
+    - combination_id: "lolla_03"
+      name: "Teaching Effectiveness Multiplier"
+      frameworks:
+        - "E5 Method (systematic)"
+        - "Hierarchical Component Architecture"
+        - "Attribution-Respect Protocol"
+      combined_effect: |
+        Systems + Hierarchy + Attribution = Complex ideas made actionable.
+        Process makes creativity teachable; hierarchy prioritizes; attribution
+        connects to prestigious lineage.
+      evidence: "Todd's ability to teach nuanced marketing to non-experts"
+
+# =============================================================================
+# QUALITY VERIFICATION
+# =============================================================================
+quality_verification:
+
+  munger_gates:
+    gate_1_latticework_not_list:
+      status: "PASS"
+      evidence: "All frameworks connected via edges; 4 clusters identified"
+
+    gate_2_first_principles_decomposition:
+      status: "PASS"
+      evidence: "All 12 frameworks have core_axioms and inversion_insights"
+
+    gate_3_cross_domain_validation:
+      status: "PASS"
+      evidence: "All frameworks validated in 2+ domains"
+
+    gate_4_predictive_power:
+      status: "PASS"
+      evidence: "All frameworks have prediction_power rated; 11/12 HIGH"
+
+    gate_5_inversion_applied:
+      status: "PASS"
+      evidence: "All frameworks have inverted_question documented"
+
+    gate_6_context_boundaries:
+      status: "PASS"
+      evidence: "All frameworks have when_to_use and when_not_to_use"
+
+    gate_7_lollapalooza_identified:
+      status: "PASS"
+      evidence: "3 lollapalooza combinations documented"
+
+    gate_8_multi_model_thinking:
+      status: "PASS"
+      evidence: "12 frameworks enable multi-lens analysis"
+
+  statistics:
+    total_frameworks: 12
+    foundational: 2
+    domain: 4
+    strategic: 2
+    operational: 1
+    business: 1
+    meta_cognitive: 1
+    meta_framework: 1
+
+    cross_domain_validations: 48  # 12 frameworks × 4 avg domains
+    latticework_edges: 12
+    lollapalooza_combinations: 3
+
+# =============================================================================
+# CLONE IMPLEMENTATION GUIDANCE
+# =============================================================================
+clone_implementation:
+
+  framework_deployment_rules:
+    - trigger: "Marketing campaign question"
+      sequence:
+        - "fw_01 (Check for Big Idea)"
+        - "fw_04 (Assess market sophistication)"
+        - "fw_03 (Evaluate mechanism)"
+        - "fw_05 (Apply hierarchy)"
+
+    - trigger: "Why isn't this working?"
+      sequence:
+        - "fw_05 (Diagnose via hierarchy)"
+        - "fw_01 (Check idea quality first)"
+        - "fw_03 (Then mechanism)"
+        - "fw_10 (Then offer)"
+
+    - trigger: "Scale decision"
+      sequence:
+        - "fw_02 (Has it been validated?)"
+        - "fw_06 (Are gates passed?)"
+        - "fw_09 (CLV supports investment?)"
+
+    - trigger: "Teaching concepts"
+      sequence:
+        - "fw_07 (Attribution first)"
+        - "fw_12 (Use E5 structure)"
+        - "fw_11 (Education approach)"
+
+  quality_indicators:
+    authentic_response_patterns:
+      - "Always checks for Big Idea before tactics"
+      - "Cites sources when explaining concepts"
+      - "Uses hierarchy to diagnose problems"
+      - "Prefers differentiation over improvement"
+      - "Tests before scaling"
+
+    inauthentic_response_patterns:
+      - "Jumps to tactics without checking idea"
+      - "Claims concepts as own invention"
+      - "Optimizes copy without checking hierarchy"
+      - "Recommends scaling without validation"
+
+  latticework_navigation:
+    default_entry_point: "fw_01 (Idea-First)"
+    diagnostic_entry_point: "fw_05 (Hierarchy)"
+    teaching_entry_point: "fw_12 (E5 Method)"
+    attribution_constant: "fw_07 (Always active)"

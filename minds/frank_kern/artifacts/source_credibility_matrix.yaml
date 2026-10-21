@@ -1,0 +1,242 @@
+# Source Credibility Matrix: Frank Kern
+# Generated: 2026-01-23
+# Agent: Tim (Research Specialist)
+# Task: source-validation-report
+
+metadata:
+  mind_slug: frank_kern
+  generated: "2026-01-23T15:00:00-03:00"
+  agent: "research-specialist"
+  task: "source-validation-report"
+
+sources:
+  - id: src_001
+    name: "Frank Kern | Frank Kern (Dan Kennedy Interview)"
+    type: youtube_interview
+    tier: primary
+    credibility_score: 25
+    credibility_rating: HIGH
+    bias_risk: low
+    validated_claims:
+      - "Dan Kennedy is Frank's primary copywriting influence"
+      - "Direct response principles from 40+ years experience"
+
+  - id: src_002
+    name: "The Frank Kern Show Episode 4"
+    type: youtube_educational
+    tier: primary
+    credibility_score: 25
+    credibility_rating: HIGH
+    bias_risk: low
+    validated_claims:
+      - "Email marketing framework"
+      - "Problem-solving methodology"
+
+  - id: src_003
+    name: "How To Double ANY Business"
+    type: youtube_educational
+    tier: primary
+    credibility_score: 25
+    credibility_rating: HIGH
+    bias_risk: low
+    validated_claims:
+      - "Conversion optimization without traffic increase"
+
+  - id: src_004
+    name: "Market Like A Mindreader"
+    type: youtube_educational
+    tier: primary
+    credibility_score: 25
+    credibility_rating: HIGH
+    bias_risk: low
+    validated_claims:
+      - "Behavioral prediction in marketing"
+
+  - id: src_005
+    name: "The Secrets Of Success"
+    type: youtube_educational
+    tier: primary
+    credibility_score: 25
+    credibility_rating: HIGH
+    bias_risk: low
+    validated_claims:
+      - "Content creation simplicity"
+
+  - id: src_006
+    name: "Tony Robbins Interview"
+    type: youtube_interview
+    tier: secondary
+    credibility_score: 23
+    credibility_rating: HIGH
+    bias_risk: low
+    validated_claims:
+      - "Self-taught through reading Dan Kennedy"
+      - "Started 1999 selling credit card machines"
+      - "6 years before real success"
+      - "First success: dog training manuals"
+
+  - id: src_007
+    name: "Grant Cardone Power Players"
+    type: youtube_interview
+    tier: secondary
+    credibility_score: 22
+    credibility_rating: HIGH
+    bias_risk: medium
+    validated_claims:
+      - "Created Behavioral Dynamic Response"
+      - "Intent-based branding methodology"
+
+  - id: src_008
+    name: "5 Things Before You Advertise"
+    type: youtube_educational
+    tier: secondary
+    credibility_score: 22
+    credibility_rating: HIGH
+    bias_risk: medium
+    validated_claims:
+      - "Pre-advertising framework"
+
+  - id: src_009
+    name: "The Holy Grail of Marketing"
+    type: youtube_interview
+    tier: secondary
+    credibility_score: 21
+    credibility_rating: HIGH
+    bias_risk: low
+    validated_claims:
+      - "Intent-Based Branding definition"
+      - "Career journey details"
+
+  - id: src_010
+    name: "3 Steps to Great Copywriting"
+    type: youtube_educational
+    tier: secondary
+    credibility_score: 21
+    credibility_rating: HIGH
+    bias_risk: low
+    validated_claims:
+      - "Copywriting framework"
+
+  - id: src_011
+    name: "Multi-Million Dollar Brand Secret"
+    type: youtube_interview
+    tier: secondary
+    credibility_score: 20
+    credibility_rating: MEDIUM
+    bias_risk: low
+    validated_claims:
+      - "Intent-based approach definition"
+
+  - id: src_012
+    name: "AI Content Machine Day 3"
+    type: youtube_workshop
+    tier: primary
+    credibility_score: 24
+    credibility_rating: HIGH
+    bias_risk: medium
+    validated_claims:
+      - "AI integration in marketing"
+      - "Current methodology (2023-2026)"
+
+  - id: src_013
+    name: "Selling on Social Day 1"
+    type: youtube_workshop
+    tier: primary
+    credibility_score: 24
+    credibility_rating: HIGH
+    bias_risk: medium
+    validated_claims:
+      - "Social selling framework"
+
+# Major Claims Cross-Validation
+claims:
+  - id: claim_001
+    statement: "Frank Kern pioneered Intent-Based Branding"
+    validation_status: VALIDATED
+    confidence: HIGH
+    supporting_sources:
+      - src_007  # Grant Cardone interview
+      - src_009  # Holy Grail interview
+      - src_011  # Omar Elattar interview
+    contradicting_sources: []
+    notes: "Core methodology, consistently presented across sources"
+
+  - id: claim_002
+    statement: "Frank started career in 1999 selling credit card machines door-to-door"
+    validation_status: VALIDATED
+    confidence: HIGH
+    supporting_sources:
+      - src_006  # Tony Robbins interview
+      - src_007  # Grant Cardone interview
+      - src_009  # Holy Grail interview
+    contradicting_sources: []
+    notes: "Consistent origin story across all interviews"
+
+  - id: claim_003
+    statement: "Dan Kennedy is Frank's primary influence in copywriting"
+    validation_status: VALIDATED
+    confidence: HIGH
+    supporting_sources:
+      - src_001  # Dan Kennedy interview by Frank
+      - src_006  # Tony Robbins interview
+      - src_009  # Holy Grail interview
+    contradicting_sources: []
+    notes: "Frank explicitly interviews Dan Kennedy and cites him"
+
+  - id: claim_004
+    statement: "Created Behavioral Dynamic Response (BDR) methodology"
+    validation_status: VALIDATED
+    confidence: HIGH
+    supporting_sources:
+      - src_007  # Grant Cardone interview
+      - src_009  # Holy Grail interview
+    contradicting_sources: []
+    notes: "Signature methodology for automated marketing"
+
+  - id: claim_005
+    statement: "First major success was selling dog training information products"
+    validation_status: VALIDATED
+    confidence: HIGH
+    supporting_sources:
+      - src_006  # Tony Robbins interview
+    contradicting_sources: []
+    notes: "Single source but highly credible (Tony Robbins)"
+
+  - id: claim_006
+    statement: "Known as 'The President of the Internet'"
+    validation_status: VALIDATED
+    confidence: MEDIUM
+    supporting_sources:
+      - src_007  # Grant Cardone
+      - External web research (HuffPost)
+    contradicting_sources: []
+    notes: "Self-created persona/title"
+
+  - id: claim_007
+    statement: "Mass Control was his signature product launch"
+    validation_status: PARTIAL
+    confidence: MEDIUM
+    supporting_sources:
+      - External web research
+    contradicting_sources: []
+    notes: "Referenced but not detailed in current transcripts"
+
+  - id: claim_008
+    statement: "Took 6 years to achieve real success"
+    validation_status: VALIDATED
+    confidence: HIGH
+    supporting_sources:
+      - src_006  # Tony Robbins interview
+      - src_007  # Grant Cardone interview
+    contradicting_sources: []
+    notes: "Consistent timeline across sources"
+
+# Summary Statistics
+summary:
+  overall_quality: "GOOD"
+  primary_source_ratio: 0.54
+  claim_validation_ratio: 0.875  # 7/8 fully validated
+  recommendations:
+    - "Proceed to content mining - sources are sufficient quality"
+    - "Consider acquiring Mass Control course materials later"
+    - "Podcast content would enhance but not required"

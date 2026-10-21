@@ -1,0 +1,556 @@
+# Knowledge Gaps Database: Todd Brown
+# Generated: 2026-01-23
+# Agent: Tim (Research Specialist)
+# Task: knowledge-gap-identification
+
+metadata:
+  mind_slug: "todd_brown"
+  generated: "2026-01-23T21:30:00-03:00"
+  agent: "research-specialist"
+  task: "knowledge-gap-identification"
+  total_gaps: 14
+  critical_gaps: 1
+
+# =============================================================================
+# LAYER COVERAGE ANALYSIS (DNA Mental 8 Layers)
+# =============================================================================
+layer_coverage:
+
+  layer_1_facts:
+    description: "Basic biographical information"
+    status: "Partial"
+    sources_count: 8
+    confidence: "MEDIUM"
+    gaps:
+      - "Exact education details (degrees, institutions)"
+      - "Early career dates (2008-2012 period sparse)"
+      - "Family structure details"
+    notes: "Core facts established (West Palm Beach, bodybuilding background, career progression). Personal details appropriately private."
+
+  layer_2_skills:
+    description: "Demonstrated abilities and competencies"
+    status: "Complete"
+    sources_count: 15
+    confidence: "HIGH"
+    gaps: []
+    notes: "E5 Method demonstrates systematic marketing methodology. Copywriting, funnel engineering, strategic positioning all well-documented."
+
+  layer_3_behaviors:
+    description: "Observable patterns and routines"
+    status: "Complete"
+    sources_count: 12
+    confidence: "HIGH"
+    gaps:
+      - "Daily routines not documented (not critical)"
+    notes: "Professional behaviors well-documented: teaching style, communication patterns, framework usage. Personal routines not needed for professional clone."
+
+  layer_4_beliefs:
+    description: "Stated beliefs and worldview"
+    status: "Complete"
+    sources_count: 18
+    confidence: "HIGH"
+    gaps: []
+    notes: "Beliefs strongly documented: Ideas > Tactics, Differentiation > Improvement, Education > Selling, Systematic > Creative. All validated across 10+ years."
+
+  layer_5_mental_models:
+    description: "Frameworks and thinking patterns"
+    status: "Complete"
+    sources_count: 22
+    confidence: "HIGH"
+    gaps: []
+    notes: "8 mental models extracted. E5 Method, Big Idea, Unique Mechanism, Market Sophistication all well-documented. EXCELLENT coverage."
+
+  layer_6_values:
+    description: "Core values revealed through sacrifice"
+    status: "Partial"
+    sources_count: 6
+    confidence: "MEDIUM"
+    gaps:
+      - "Limited failure stories to validate values through sacrifice"
+      - "Early career struggles not documented"
+      - "Tradeoffs made during business pivots"
+    notes: "Values inferred from consistent behaviors, but LIMITED direct evidence of sacrifices made. This is the PRIMARY gap."
+
+  layer_7_obsessions:
+    description: "Recurring themes and compulsive interests"
+    status: "Complete"
+    sources_count: 15
+    confidence: "HIGH"
+    gaps: []
+    notes: "4 obsessions clearly identified: Big Idea (extreme), Unique Mechanism (high), Predictable Acquisition (high), DR Heritage (consistent). Validated across 10+ years."
+
+  layer_8_contradictions:
+    description: "Paradoxes and productive tensions"
+    status: "Complete"
+    sources_count: 8
+    confidence: "HIGH"
+    gaps: []
+    notes: "2 contradictions identified and resolved. Both are interpretive (not actual contradictions). High consistency overall."
+
+# =============================================================================
+# SOURCE TYPE GAP ANALYSIS
+# =============================================================================
+source_type_coverage:
+
+  books_authored:
+    expected: 3
+    collected: 3
+    gap: "None"
+    priority: "N/A"
+    notes: "E5 Method, Big Marketing Idea, UNCONVERTED all catalogued"
+
+  long_form_interviews:
+    expected: 10+
+    collected: 8
+    gap: "None significant"
+    priority: "LOW"
+    notes: "8 high-quality interviews spanning 2014-2024. Excellent coverage."
+
+  written_articles_blogs:
+    expected: 100+
+    collected: 5
+    gap: "Moderate gap - newsletters not fully catalogued"
+    priority: "LOW"
+    notes: "Marketer's Mind Memo sampled but not exhaustive. Core patterns already extracted."
+
+  speeches_presentations:
+    expected: "Unknown"
+    collected: 0
+    gap: "Conference keynotes not collected"
+    priority: "LOW"
+    notes: "Video content provides similar value. Not critical."
+
+  video_content:
+    expected: 50+
+    collected: 3
+    gap: "YouTube channel not fully mined"
+    priority: "LOW"
+    notes: "Core methodology already extracted from books/interviews."
+
+  academic_research:
+    expected: 0
+    collected: 0
+    gap: "None"
+    priority: "N/A"
+    notes: "Not applicable - practitioner not academic."
+
+  third_party_profiles:
+    expected: 5+
+    collected: 2
+    gap: "Limited external validation"
+    priority: "LOW"
+    notes: "Grokipedia and Project Ignite. Not critical for clone."
+
+  failure_stories:
+    expected: 3+
+    collected: 1
+    gap: "SIGNIFICANT - Only 1 documented failure reference"
+    priority: "HIGH"
+    notes: "Bacon Wrapped Business mentions 'peaks and valleys' but no detailed failures. Survivorship bias concern."
+
+  early_career_content:
+    expected: 5+
+    collected: 2
+    gap: "SIGNIFICANT - 2008-2012 period sparse"
+    priority: "MEDIUM"
+    notes: "Health club → massage therapists mentioned but not detailed. Would reveal values-under-pressure."
+
+  recent_content:
+    expected: 10+
+    collected: 8
+    gap: "None"
+    priority: "N/A"
+    notes: "2022-2024 interviews well-covered. Current state documented."
+
+# =============================================================================
+# VALIDATION GAPS (Claims Needing More Sources)
+# =============================================================================
+validation_gaps:
+
+  - claim_id: "CLM_013"
+    claim: "MVF (Minimum Viable Funnel) is 4 pages"
+    importance: "MEDIUM"
+    current_sources: 2
+    sources_needed: 1
+    gap_severity: "MINOR"
+    suggested_sources:
+      - "E5 Masterclass course content"
+      - "Workshop recordings"
+    notes: "Detail-level claim, not critical for clone identity."
+
+  - claim_id: "CLM_014"
+    claim: "E-C (P-P+U-M) I-I is the Big Idea formula"
+    importance: "MEDIUM"
+    current_sources: 2
+    sources_needed: 1
+    gap_severity: "MINOR"
+    suggested_sources:
+      - "Big Marketing Idea book"
+      - "Additional interviews"
+    notes: "Formula revealed in Copy Chief Radio. May be proprietary notation."
+
+  - claim_id: "CLM_016"
+    claim: "$250M Palmer promotion"
+    importance: "LOW"
+    current_sources: 1
+    sources_needed: 0
+    gap_severity: "ACCEPTABLE"
+    suggested_sources: []
+    notes: "Anecdotal teaching story. External verification possible but not critical."
+
+  - claim_id: "CLM_017"
+    claim: "Stansberry 18x rewrite story"
+    importance: "LOW"
+    current_sources: 1
+    sources_needed: 0
+    gap_severity: "ACCEPTABLE"
+    suggested_sources: []
+    notes: "Anecdotal story. Not critical for clone accuracy."
+
+# =============================================================================
+# TEMPORAL GAP ANALYSIS
+# =============================================================================
+temporal_coverage:
+  earliest_source_date: "2014"
+  latest_source_date: "2024"
+  total_time_span: "10 years"
+
+  coverage_by_period:
+    - period: "Early career (2005-2012)"
+      sources_count: 1
+      coverage: "Gap"
+      what_we_know:
+        - "Started in health club industry at $8.50/hour"
+        - "Pivoted to marketing massage therapists"
+        - "Bodybuilding background → discipline transfer"
+      what_we_dont_know:
+        - "Specific failures during this period"
+        - "Key pivots and decisions"
+        - "Values revealed through early struggles"
+
+    - period: "Mid career (2012-2017)"
+      sources_count: 4
+      coverage: "Partial"
+      what_we_know:
+        - "Rich Schefren partnership at Strategic Profits"
+        - "E5 Method development and formalization"
+        - "Big Idea concept integration from Mark Ford"
+      what_we_dont_know:
+        - "Specific failures/setbacks during this period"
+        - "Pre-E5 methodology evolution"
+
+    - period: "Recent (2017-2024)"
+      sources_count: 15
+      coverage: "Good"
+      what_we_know:
+        - "E5 Method stable since 2017"
+        - "Teaching stories arsenal established"
+        - "Core frameworks unchanged"
+        - "Current positioning and business model"
+      what_we_dont_know:
+        - "Recent failures (post-2020)"
+
+  temporal_gaps:
+    - period: "2005-2012"
+      significance: "HIGH"
+      what_might_have_happened: "Formative struggles, early failures, values crystallization"
+      sources_to_seek:
+        - "Early blog posts"
+        - "Pre-2014 interviews"
+        - "Schefren partnership documentation"
+
+# =============================================================================
+# EVOLUTION TRACKING GAPS
+# =============================================================================
+evolution_gaps:
+
+  - topic: "E5 Method"
+    early_position_known: false
+    current_position_known: true
+    transition_documented: false
+    gap: "Pre-E5 methodology unknown"
+    importance: "MEDIUM"
+    notes: "Would reveal how he systematized his approach"
+
+  - topic: "Big Idea emphasis"
+    early_position_known: false
+    current_position_known: true
+    transition_documented: true
+    gap: "None - Mark Ford attribution consistent"
+    importance: "N/A"
+
+  - topic: "Teaching approach"
+    early_position_known: false
+    current_position_known: true
+    transition_documented: false
+    gap: "Early teaching style unknown"
+    importance: "LOW"
+    notes: "Current style sufficient for clone"
+
+# =============================================================================
+# CONTRADICTION GAP ANALYSIS
+# =============================================================================
+unresolved_contradictions: []
+# All contradictions resolved - see cross_reference_matrix.yaml
+
+missing_counter_evidence:
+
+  - claim: "Big Idea is THE single biggest profit multiplier"
+    current_stance: "All sources agree"
+    counter_evidence_sought: false
+    potential_disconfirming_sources:
+      - "Critics of direct response marketing"
+      - "Alternative marketing methodologies"
+    gap_risk: "Possible confirmation bias"
+    notes: "All sources are either Todd or aligned practitioners. May be self-reinforcing."
+
+  - claim: "Differentiation > Improvement"
+    current_stance: "All sources agree"
+    counter_evidence_sought: false
+    potential_disconfirming_sources:
+      - "Continuous improvement advocates"
+      - "Kaizen practitioners"
+    gap_risk: "Possible domain limitation"
+    notes: "May be specific to direct response marketing, not universal."
+
+# =============================================================================
+# UNKNOWN UNKNOWNS EXPLORATION
+# =============================================================================
+unknown_unknowns:
+
+  adjacent_domain_gaps:
+    - domain: "Personal philosophy beyond marketing"
+      relevance_to_subject: "Would reveal deeper values"
+      potential_sources:
+        - "Making It interview (partially covered)"
+        - "Personal blog posts"
+      priority: "LOW"
+      notes: "Making It interview provides some personal philosophy"
+
+    - domain: "Failed campaigns/clients"
+      relevance_to_subject: "Would reveal how he handles failure"
+      potential_sources:
+        - "Private case studies"
+        - "Client testimonials (negative)"
+      priority: "MEDIUM"
+      notes: "Would fill Layer 6 gaps"
+
+    - domain: "Competitors' perspectives"
+      relevance_to_subject: "External validation of positioning"
+      potential_sources:
+        - "Other marketing educators"
+        - "Industry commentary"
+      priority: "LOW"
+
+  perspective_gaps:
+    - perspective: "Critics/opponents"
+      sources_collected: 0
+      gap: "No critical perspectives collected"
+      importance: "LOW"
+      notes: "Would provide counter-balance but not critical for clone"
+
+    - perspective: "Collaborators/partners"
+      sources_collected: 1
+      gap: "Only Schefren mentioned, not interviewed"
+      importance: "MEDIUM"
+      notes: "Rich Schefren partnership mentioned but not his perspective"
+
+    - perspective: "Students/mentees"
+      sources_collected: 0
+      gap: "No student perspectives"
+      importance: "LOW"
+      notes: "Testimonials exist but not in-depth interviews"
+
+    - perspective: "Family/personal"
+      sources_collected: 0
+      gap: "No personal perspectives"
+      importance: "N/A"
+      notes: "Appropriately private - not relevant for professional clone"
+
+  unasked_questions:
+    - question: "What was Todd's biggest business failure?"
+      why_important: "Would validate values through sacrifice (Layer 6)"
+      sources_that_might_answer:
+        - "In-depth personal interview"
+        - "Early career content"
+      priority: "HIGH"
+
+    - question: "What does Todd teach privately that he doesn't share publicly?"
+      why_important: "Hidden curriculum layer"
+      sources_that_might_answer:
+        - "Top One Mastermind content"
+        - "E5 CAMP materials"
+      priority: "MEDIUM"
+
+    - question: "What marketing advice does Todd personally ignore?"
+      why_important: "Reveals behavior-advice gaps"
+      sources_that_might_answer:
+        - "Observation of his own marketing"
+        - "Self-reflection interviews"
+      priority: "LOW"
+
+# =============================================================================
+# GAP PRIORITIZATION
+# =============================================================================
+prioritized_gaps:
+
+  immediate_priority: []
+  # No immediate gaps blocking progress
+
+  high_priority:
+    - gap_id: "GAP_001"
+      description: "Limited failure stories (Layer 6 validation)"
+      reason: "Values require sacrifice evidence for full confidence"
+      action: "Search for early career content, failure discussions"
+      estimated_effort: "2-3 hours additional research"
+      impact_if_unfilled: "Values confidence stays MEDIUM instead of HIGH"
+      decision: "PROCEED - sufficient for clone, document uncertainty"
+
+  medium_priority:
+    - gap_id: "GAP_002"
+      description: "Early career period (2005-2012) sparse"
+      reason: "Would reveal evolution and formation"
+      action: "Search for pre-2014 interviews or blog posts"
+      estimated_effort: "1-2 hours"
+      impact_if_unfilled: "Evolution understanding incomplete"
+      decision: "PROCEED - current state sufficient for clone"
+
+    - gap_id: "GAP_003"
+      description: "Claims CLM_013, CLM_014 partial validation"
+      reason: "Framework details need another source"
+      action: "Check E5 Masterclass or additional interviews"
+      estimated_effort: "1 hour"
+      impact_if_unfilled: "Minor - detail-level claims"
+      decision: "PROCEED - not critical for identity"
+
+  low_priority:
+    - gap_id: "GAP_004"
+      description: "Newsletter archive not exhaustive"
+      reason: "Core patterns already extracted"
+      action: "Optional - mine additional issues"
+      estimated_effort: "3-4 hours"
+      impact_if_unfilled: "Minimal - patterns stable"
+      decision: "DEFER - diminishing returns"
+
+    - gap_id: "GAP_005"
+      description: "YouTube channel not fully mined"
+      reason: "Video content may have unique insights"
+      action: "Optional - systematic video analysis"
+      estimated_effort: "4-6 hours"
+      impact_if_unfilled: "Minimal - core from interviews"
+      decision: "DEFER - interviews sufficient"
+
+    - gap_id: "GAP_006"
+      description: "No critic perspectives"
+      reason: "Counter-balance for confirmation bias"
+      action: "Search for critical commentary"
+      estimated_effort: "1-2 hours"
+      impact_if_unfilled: "Minimal - professional clone"
+      decision: "DEFER - not critical"
+
+  acceptable_gaps:
+    - gap_id: "GAP_007"
+      description: "Personal life details"
+      why_acceptable: "Appropriately private, not relevant for professional clone"
+
+    - gap_id: "GAP_008"
+      description: "Daily routines and habits"
+      why_acceptable: "Professional clone doesn't need personal habits"
+
+    - gap_id: "GAP_009"
+      description: "Claims CLM_016, CLM_017 unvalidated"
+      why_acceptable: "LOW importance anecdotal stories, not identity-defining"
+
+    - gap_id: "GAP_010"
+      description: "Education and degree details"
+      why_acceptable: "Not relevant to professional expertise"
+
+# =============================================================================
+# RESOLUTION PLAN
+# =============================================================================
+source_acquisition_plan:
+
+  - gap_id: "GAP_001"
+    gap_description: "Limited failure stories"
+    priority: "HIGH"
+    decision: "PROCEED WITHOUT FILLING"
+
+    rationale: |
+      After analysis, this gap is ACCEPTABLE for the following reasons:
+      1. Values can be inferred from 10+ years of CONSISTENT behavior
+      2. Layer 6 gaps don't block Layers 1-5 or 7-8
+      3. Professional clone doesn't require failure narratives
+      4. Behavior > stated values as evidence anyway
+
+    mitigation_strategy: |
+      - Document Layer 6 confidence as MEDIUM (not HIGH)
+      - Use behavioral evidence as primary values indicator
+      - Note this gap in clone documentation
+      - Clone can deflect personal failure questions appropriately
+
+    success_criteria: "Proceed if Phase 2-8 agents can work with MEDIUM confidence on Layer 6"
+
+# =============================================================================
+# RECOMMENDATIONS
+# =============================================================================
+recommendations:
+
+  proceed_to_phase_2: true
+
+  rationale: |
+    Coverage analysis shows:
+    - 6 of 8 layers at COMPLETE or HIGH confidence
+    - 2 layers (1 and 6) at MEDIUM confidence
+    - No CRITICAL gaps blocking progress
+    - 89% claim validation rate
+    - All contradictions resolved
+
+    The gaps identified are:
+    1. Layer 6 (values) - MEDIUM confidence due to limited failure stories
+       → Mitigated by using behavioral evidence
+    2. Early career (2005-2012) - sparse
+       → Not critical for current-state clone
+    3. Detail-level claims - partial validation
+       → Not identity-defining
+
+  phase_2_preparation:
+    layer_readiness:
+      layer_1_facts: "READY (MEDIUM confidence - sufficient)"
+      layer_2_skills: "READY (HIGH confidence)"
+      layer_3_behaviors: "READY (HIGH confidence)"
+      layer_4_beliefs: "READY (HIGH confidence)"
+      layer_5_mental_models: "READY (HIGH confidence)"
+      layer_6_values: "READY WITH CAVEAT (MEDIUM confidence, behavioral inference)"
+      layer_7_obsessions: "READY (HIGH confidence)"
+      layer_8_contradictions: "READY (HIGH confidence, all resolved)"
+
+    critical_artifacts_ready:
+      - "sources-master.yaml"
+      - "mined_content.yaml"
+      - "interview_patterns.yaml"
+      - "cross_reference_matrix.yaml"
+      - "multi_source_patterns.yaml"
+      - "knowledge_gaps.yaml" # This file
+
+  documentation_for_clone:
+    - "Clone must acknowledge uncertainty on personal failure stories"
+    - "Clone should deflect early career detail questions"
+    - "Clone has HIGH confidence on professional methodology"
+    - "Clone has MEDIUM confidence on personal values (inferred from behavior)"
+
+# =============================================================================
+# VALIDATION GATES STATUS
+# =============================================================================
+validation_gates:
+  gate_1_all_layers_assessed: true
+  gate_2_source_type_coverage: true
+  gate_3_unvalidated_claims_inventoried: true
+  gate_4_temporal_coverage: true
+  gate_5_contradictions_analyzed: true
+  gate_6_unknown_unknowns_explored: true
+  gate_7_gaps_prioritized: true
+  gate_8_resolution_plan_created: true
+  gate_9_human_checkpoint: "SKIPPED - AUTO_MODE"
+
+overall_quality: "GOOD"
+ready_for_next_phase: true

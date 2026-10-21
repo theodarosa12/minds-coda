@@ -1,0 +1,738 @@
+# =============================================================================
+# MMOS Routine Patterns Analysis: Sean Ellis
+# Phase 2, Task 3: Routine Patterns Analysis
+# Agent: Daniel (Behavioral Analyst - Kahneman-inspired)
+# Generated: 2026-01-23
+# Methodology: Kahneman State-Based + Routine as State-Priming Ritual
+# =============================================================================
+
+metadata:
+  mind_slug: sean_ellis
+  analysis_date: "2026-01-23"
+  agent: daniel-behavioral-analyst
+  methodology: "Kahneman State-Priming Ritual Analysis"
+  source_artifacts:
+    - "artifacts/behavioral_patterns.yaml"
+    - "artifacts/state_transitions.yaml"
+    - "artifacts/interview_patterns.yaml"
+    - "analysis/mined_content.yaml"
+  confidence: 88
+
+# =============================================================================
+# CORE PHILOSOPHY
+# =============================================================================
+
+analysis_principles:
+  primary: "Routines are not habits. They are state-activation rituals."
+  secondary: "The purpose of routine is to prime cognitive and emotional states."
+  tertiary: "Ellis's routines are designed to maximize understanding before action."
+
+# =============================================================================
+# DAILY RHYTHM MAPPING
+# =============================================================================
+
+daily_rhythm:
+
+  context_note: |
+    Sean Ellis's daily routines are not extensively documented in public sources.
+    However, his professional routines and engagement patterns are well-documented.
+    Analysis focuses on work-state activation rituals rather than personal habits.
+
+  morning:
+    first_hour:
+      activities:
+        - "AI tool engagement (ChatGPT)" # "I don't go five minutes in a day now where I'm not using AI"
+      states_primed:
+        - "diagnostic_mode"
+        - "experimentation_mode"
+      evidence:
+        - quote: "I don't go five minutes in a day now where I'm not using AI"
+          source: "Long Game Podcast 2024"
+
+    pre_work:
+      activities:
+        - "Data review and metric checking"
+        - "Survey response analysis (when active)"
+      states_primed:
+        - "diagnostic_mode"
+        - "reflective_synthesis_mode"
+
+  work_periods:
+    primary_block:
+      time: "Variable (engagement-dependent)"
+      typical_activities:
+        - "Data analysis and pattern recognition"
+        - "Workshop facilitation"
+        - "Stakeholder meetings"
+        - "Experiment design and review"
+      state_maintained: "diagnostic_mode → experimentation_mode"
+
+    secondary_blocks:
+      - block: "Teaching/Content"
+        activities:
+          - "Podcast interviews"
+          - "Conference presentations"
+          - "Writing (blog, GoPractice content)"
+        states_primed:
+          - "framework_teaching_mode"
+          - "reflective_synthesis_mode"
+
+  transitions:
+    work_to_personal: "Not documented in sources"
+    energy_management: "Structured through engagement contracts (6-month limits)"
+
+# =============================================================================
+# STATE-PRIMING ROUTINES (Core Analysis)
+# =============================================================================
+
+state_priming_routines:
+
+  # ---------------------------------------------------------------------------
+  # ROUTINE 1: THE DIAGNOSTIC ENTRY RITUAL
+  # ---------------------------------------------------------------------------
+  - routine_name: "Diagnostic Entry Ritual"
+    routine_id: "R001"
+    description: |
+      Upon entering any new company or engagement, Ellis activates a deliberate
+      2-week diagnostic period where no changes are made. This ritual primes
+      the diagnostic_mode state and protects against premature action.
+
+    timing:
+      trigger: "Start of new engagement/role"
+      duration: "First 2 weeks"
+      frequency: "Every new engagement"
+
+    activities:
+      - activity: "PMF survey deployment"
+        duration: "Day 1-3"
+        optional: false
+        state_primed: "diagnostic_mode"
+
+      - activity: "Data immersion (metrics, cohorts, funnels)"
+        duration: "2 weeks"
+        optional: false
+        state_primed: "diagnostic_mode"
+
+      - activity: "User interviews"
+        duration: "Throughout first 2 weeks"
+        optional: false
+        state_primed: "diagnostic_mode"
+
+      - activity: "Stakeholder conversations"
+        duration: "Throughout first 2 weeks"
+        optional: false
+        state_primed: "alignment_facilitation_mode"
+
+      - activity: "NO changes or recommendations"
+        duration: "Entire 2 weeks"
+        optional: false
+        state_primed: "diagnostic_mode"
+        purpose: "Protects against breaking what works"
+
+    state_priming:
+      target_state: "diagnostic_mode"
+      priming_mechanism: |
+        By explicitly forbidding action, Ellis forces sustained System 2
+        engagement. The ritual creates psychological safety to understand
+        deeply before committing to recommendations.
+      success_rate: "very high"
+
+    disruption_analysis:
+      when_disrupted: "Stakeholder pressure to 'show quick wins'"
+      consequence: "Potential for premature recommendations that break working systems"
+      recovery_time: "Must restart diagnostic period if disrupted"
+      alternative_priming: |
+        Ellis negotiates upfront protection: "It's in my contract that's required"
+
+    minimum_viable:
+      essential_elements:
+        - "PMF survey deployed and analyzed"
+        - "Retention cohort data reviewed"
+        - "At least 5 user conversations"
+      time_required: "5-7 days absolute minimum"
+
+    evidence:
+      - source: "Lenny's Podcast"
+        quote: "All I did was study data for the first few weeks... I don't want to break something that's working"
+      - source: "Interview Patterns Analysis"
+        observation: "First 2 weeks = data immersion pattern documented across all engagements"
+
+  # ---------------------------------------------------------------------------
+  # ROUTINE 2: THE ALIGNMENT WORKSHOP RITUAL
+  # ---------------------------------------------------------------------------
+  - routine_name: "Alignment Workshop Ritual"
+    routine_id: "R002"
+    description: |
+      Before any growth work begins, Ellis facilitates a full-day workshop
+      with all functional leads. This is a contractual requirement, not optional.
+      The ritual creates shared understanding and prevents later silos.
+
+    timing:
+      trigger: "After diagnostic phase, before execution"
+      duration: "1 full day minimum"
+      frequency: "Once per engagement, refreshed if alignment breaks"
+
+    activities:
+      - activity: "Gather all functional leads in one room"
+        duration: "8 hours"
+        optional: false
+        state_primed: "alignment_facilitation_mode"
+
+      - activity: "North Star metric definition"
+        duration: "30 minutes maximum"
+        optional: false
+        state_primed: "alignment_facilitation_mode"
+        constraint: "Must complete in 30 minutes or impose time box"
+
+      - activity: "Document agreements visibly"
+        duration: "Throughout day"
+        optional: false
+        state_primed: "alignment_facilitation_mode"
+
+      - activity: "Ensure genuine buy-in (not just compliance)"
+        duration: "Throughout day"
+        optional: false
+        state_primed: "alignment_facilitation_mode"
+
+    state_priming:
+      target_state: "alignment_facilitation_mode"
+      priming_mechanism: |
+        The workshop format forces social engagement and shared ownership.
+        By having all functions present, Ellis creates mutual accountability
+        that prevents later finger-pointing.
+      success_rate: "high"
+
+    disruption_analysis:
+      when_disrupted: "Key stakeholder unable to attend"
+      consequence: "Later execution problems, misalignment surfaces during experiments"
+      recovery_time: "Must reschedule and hold workshop before proceeding"
+      alternative_priming: "None - this is non-negotiable"
+
+    minimum_viable:
+      essential_elements:
+        - "All functional leads present"
+        - "North Star metric agreed"
+        - "Written documentation of agreements"
+      time_required: "4 hours absolute minimum"
+
+    evidence:
+      - source: "Lenny's Podcast"
+        quote: "It's in my contract that's required up front for me to have a full day with the functional leads across the business"
+      - source: "Mahmoud Khodor interview"
+        quote: "Almost any business over 100 employees that tries to do growth hacking fails"
+        context: "Due to lack of alignment"
+
+  # ---------------------------------------------------------------------------
+  # ROUTINE 3: THE EXPERIMENTATION RHYTHM RITUAL
+  # ---------------------------------------------------------------------------
+  - routine_name: "Experimentation Rhythm Ritual"
+    routine_id: "R003"
+    description: |
+      A weekly cadence of experiment planning, execution, and analysis.
+      This routine maintains experimentation_mode and prevents drift
+      back to traditional marketing approaches.
+
+    timing:
+      trigger: "After alignment workshop complete"
+      duration: "Weekly sprints"
+      frequency: "Ongoing during engagement"
+
+    activities:
+      - activity: "Generate experiment ideas (team + ChatGPT)"
+        duration: "30-60 minutes"
+        optional: false
+        state_primed: "experimentation_mode"
+
+      - activity: "ICE score prioritization"
+        duration: "30 minutes"
+        optional: false
+        state_primed: "experimentation_mode"
+        method: |
+          Impact (1-10) x Confidence (1-10) x Ease (1-10)
+          Uses ChatGPT to remove bias from scoring
+
+      - activity: "Execute highest-priority experiments"
+        duration: "Rest of week"
+        optional: false
+        state_primed: "experimentation_mode"
+
+      - activity: "Analyze results with statistical rigor"
+        duration: "End of experiment period"
+        optional: false
+        state_primed: "experimentation_mode"
+
+      - activity: "Weekly growth team meeting"
+        duration: "1-2 hours"
+        optional: false
+        state_primed: "alignment_facilitation_mode"
+
+    state_priming:
+      target_state: "experimentation_mode"
+      priming_mechanism: |
+        The weekly rhythm creates predictability and momentum. By scripting
+        the first 10 experiments (Dropbox pattern), Ellis de-risks the
+        culture building phase and ensures early wins.
+      success_rate: "high"
+
+    disruption_analysis:
+      when_disrupted: "Urgent fire-fighting or PMF deterioration"
+      consequence: "Loss of momentum, drift back to reactive work"
+      recovery_time: "1-2 weeks to rebuild rhythm"
+      alternative_priming: |
+        Script specific experiments to restart momentum.
+        "At Dropbox, I scripted the first 10 experiments to de-risk it"
+
+    minimum_viable:
+      essential_elements:
+        - "At least 1 experiment per week"
+        - "ICE scoring applied"
+        - "Results documented"
+      time_required: "2-3 hours per week minimum"
+
+    evidence:
+      - source: "Multiple interviews"
+        quote: "Our success at Amazon is a function of how many experiments we do per year, per month, per day"
+      - source: "Dropbox case"
+        observation: "Scripted first 10 experiments to de-risk culture building"
+
+  # ---------------------------------------------------------------------------
+  # ROUTINE 4: THE FRAMEWORK TEACHING RITUAL
+  # ---------------------------------------------------------------------------
+  - routine_name: "Framework Teaching Ritual"
+    routine_id: "R004"
+    description: |
+      When in teaching contexts (podcasts, conferences, workshops), Ellis
+      activates a consistent pattern: name the framework first, then
+      illustrate with teaching stories. This ritual ensures clarity and
+      memorability.
+
+    timing:
+      trigger: "Interview, workshop, or teaching opportunity"
+      duration: "Variable (30 min to full day)"
+      frequency: "Multiple times per month"
+
+    activities:
+      - activity: "Name framework before explaining"
+        duration: "First 10 seconds"
+        optional: false
+        state_primed: "framework_teaching_mode"
+        pattern: "'This is what I call the Sean Ellis Test...'"
+
+      - activity: "Deploy consistent teaching story"
+        duration: "2-5 minutes"
+        optional: false
+        state_primed: "framework_teaching_mode"
+        examples:
+          - "LogMeIn 95% abandonment story"
+          - "Lookout 7% to 40% PMF story"
+          - "Dropbox scripted experiments story"
+
+      - activity: "Provide quantified claims"
+        duration: "Throughout"
+        optional: false
+        state_primed: "framework_teaching_mode"
+        examples:
+          - "40% very disappointed threshold"
+          - "95% abandonment rate"
+          - "10x improvement in activation"
+
+      - activity: "Self-deprecating origin story"
+        duration: "When appropriate"
+        optional: true
+        state_primed: "framework_teaching_mode"
+        pattern: "'I didn't have any marketing training so I had to figure it out...'"
+
+    state_priming:
+      target_state: "framework_teaching_mode"
+      priming_mechanism: |
+        The teaching context itself activates System 1 retrieval of
+        well-practiced material. Ellis has told these stories so many times
+        they're automatic, allowing confident, fluent delivery.
+      success_rate: "very high"
+
+    disruption_analysis:
+      when_disrupted: "Question outside core expertise (AI predictions)"
+      consequence: "Immediate shift to epistemic_humility_mode"
+      recovery_time: "Instant - topic-dependent"
+      alternative_priming: "Return to familiar topics to restore teaching mode"
+
+    minimum_viable:
+      essential_elements:
+        - "Framework name stated"
+        - "At least one supporting story"
+        - "Quantified claim"
+      time_required: "2-3 minutes minimum"
+
+    evidence:
+      - source: "All 9 interviews analyzed"
+        observation: "Remarkably consistent story delivery - same frameworks told identically across years"
+      - source: "Interview Patterns"
+        observation: "Framework-first answering pattern - names the framework before explaining"
+
+  # ---------------------------------------------------------------------------
+  # ROUTINE 5: THE PMF VALIDATION RITUAL
+  # ---------------------------------------------------------------------------
+  - routine_name: "PMF Validation Ritual"
+    routine_id: "R005"
+    description: |
+      Before committing to any significant engagement or role, Ellis runs
+      the PMF survey to validate there's a "fighting chance." This ritual
+      protects against investing in doomed efforts.
+
+    timing:
+      trigger: "Before committing to new company/role"
+      duration: "1-2 weeks"
+      frequency: "Every potential engagement"
+
+    activities:
+      - activity: "Deploy PMF survey"
+        duration: "Day 1-3"
+        optional: false
+        state_primed: "diagnostic_mode"
+        question: "How would you feel if you could no longer use this product?"
+
+      - activity: "Wait for 30-50 responses minimum"
+        duration: "1-2 weeks"
+        optional: false
+        state_primed: "diagnostic_mode"
+
+      - activity: "Analyze percentage 'very disappointed'"
+        duration: "1 day"
+        optional: false
+        state_primed: "diagnostic_mode"
+        threshold: "40%+ = proceed, <40% = caution"
+
+      - activity: "Study 'very disappointed' users"
+        duration: "1 week"
+        optional: false
+        state_primed: "diagnostic_mode"
+        purpose: "Understand the must-have use case"
+
+    state_priming:
+      target_state: "diagnostic_mode"
+      priming_mechanism: |
+        The survey forces data-driven assessment. By making commitment
+        contingent on results, Ellis avoids emotional decision-making
+        about role selection.
+      success_rate: "very high"
+
+    disruption_analysis:
+      when_disrupted: "Unable to run survey (no access, pre-product)"
+      consequence: "Higher risk engagement, must rely on other signals"
+      recovery_time: "N/A - must use alternative assessment"
+      alternative_priming: |
+        Retention cohort analysis if available.
+        Qualitative interviews if quantitative not possible.
+
+    minimum_viable:
+      essential_elements:
+        - "Survey deployed to real users"
+        - "30+ responses"
+        - "Percentage calculation"
+      time_required: "1 week minimum"
+
+    evidence:
+      - source: "Lookout story"
+        quote: "Oh crap, I probably should have asked this question before I committed"
+        lesson: "Now always runs survey before committing"
+      - source: "Multiple interviews"
+        observation: "Won't take roles without PMF signal"
+
+# =============================================================================
+# STRESS IMMUNITY ROUTINES
+# =============================================================================
+
+stress_immunity:
+
+  early_warning_recognition:
+    signals:
+      - "PMF score drops below 40%"
+      - "Activation rates declining"
+      - "Cross-functional alignment breaking down"
+      - "Experiments showing no positive signals"
+    typical_timing: "Weekly metric review reveals early"
+
+  coping_routines:
+    - routine: "Return to Diagnostic Mode"
+      triggers:
+        - "Unexpected experimental results"
+        - "PMF deterioration detected"
+      effectiveness: "very high"
+      recovery_time: "Immediate - shifts state"
+      description: |
+        When facing uncertainty or crisis, Ellis's default is to pause
+        action and return to understanding. "Don't break what's working"
+        principle applies even under pressure.
+
+    - routine: "Narrow Focus to Single Metric"
+      triggers:
+        - "Crisis mode activated (PMF < 40%)"
+        - "Activation emergency"
+      effectiveness: "high"
+      recovery_time: "Gradual - weeks to months"
+      description: |
+        In turnaround situations, Ellis narrows focus to a single lever.
+        "CEO stopped all roadmap work" - forces entire organization to
+        focus on one problem.
+
+    - routine: "Data as Emotional Regulator"
+      triggers:
+        - "Stakeholder pressure"
+        - "Conflicting opinions"
+      effectiveness: "high"
+      recovery_time: "1-2 days for data gathering"
+      description: |
+        When facing emotional situations, Ellis redirects to data.
+        "I don't care what they say, I care what they do. I track everything."
+
+  recovery_rituals:
+    - ritual: "Workshop Re-alignment"
+      states_restored:
+        - "alignment_facilitation_mode"
+        - "experimentation_mode"
+      required_conditions:
+        - "Stakeholder availability"
+        - "Recognition that alignment has broken"
+
+    - ritual: "Experiment Scripting"
+      states_restored:
+        - "experimentation_mode"
+      required_conditions:
+        - "Team demoralized or frozen"
+        - "Need to rebuild momentum"
+      method: "Script first 10 experiments to de-risk"
+
+  failure_modes:
+    - when: "Stakeholders refuse diagnostic period"
+      breakdown_pattern: "Pressure to show quick wins overrides methodology"
+      consequence: "Premature recommendations may break working systems"
+      mitigation: "Contract protection, walk away if necessary"
+
+    - when: "PMF survey not possible"
+      breakdown_pattern: "Must proceed without key validation ritual"
+      consequence: "Higher risk of working on product without PMF"
+      mitigation: "Use retention cohorts, qualitative interviews as backup"
+
+    - when: "CEO not hands-on engaged"
+      breakdown_pattern: "Lack of executive air cover for cross-functional work"
+      consequence: "Silos persist, growth initiatives fail"
+      mitigation: "Don't take role, or negotiate CEO involvement upfront"
+
+# =============================================================================
+# COGNITIVE MODE RITUALS
+# =============================================================================
+
+cognitive_modes:
+
+  creative_mode:
+    activation_rituals:
+      - "ChatGPT ideation sessions"
+      - "Team brainstorming with ICE framework"
+      - "Counter-example exploration"
+    optimal_conditions:
+      - "Diagnostic phase complete"
+      - "Clear problem definition"
+      - "Team alignment achieved"
+    state_markers:
+      - "High idea volume"
+      - "Suspension of judgment during generation"
+      - "Then systematic filtering with ICE"
+
+  analytical_mode:
+    activation_rituals:
+      - "Data review (retention cohorts, activation rates)"
+      - "Survey response analysis"
+      - "User interview synthesis"
+    optimal_conditions:
+      - "Access to data"
+      - "Quiet time for analysis"
+      - "No pressure for immediate action"
+    state_markers:
+      - "Questions before statements"
+      - "Pattern-seeking across data"
+      - "Hypothesis formation"
+
+  switching_protocol:
+    creative_to_analytical:
+      - "ICE scoring transitions from generation to evaluation"
+      - "Experiment results analysis"
+      - "PMF score interpretation"
+    analytical_to_creative:
+      - "Pattern recognition triggers framework creation"
+      - "Gap identification suggests new experiments"
+      - "Teaching opportunity prompts synthesis"
+    interference_patterns:
+      - interference: "Pressure for quick wins during diagnostic"
+        resolution: "Contract protection, stakeholder education"
+      - interference: "Over-analysis preventing action"
+        resolution: "ICE framework forces prioritization"
+        note: "Rare for Ellis - action-oriented after understanding"
+
+# =============================================================================
+# MINIMUM VIABLE ROUTINES
+# =============================================================================
+
+minimum_viable_routines:
+
+  - routine: "Diagnostic Entry"
+    essential_elements:
+      - "PMF survey deployed"
+      - "Retention data reviewed"
+      - "5+ user conversations"
+    time_required: "5-7 days"
+    state_activated: "diagnostic_mode"
+
+  - routine: "Alignment Workshop"
+    essential_elements:
+      - "All key stakeholders present"
+      - "North Star metric agreed"
+      - "Documented agreements"
+    time_required: "4 hours"
+    state_activated: "alignment_facilitation_mode"
+
+  - routine: "Experimentation Rhythm"
+    essential_elements:
+      - "1+ experiment per week"
+      - "ICE scoring applied"
+      - "Results documented"
+    time_required: "2-3 hours/week"
+    state_activated: "experimentation_mode"
+
+  - routine: "PMF Validation"
+    essential_elements:
+      - "Survey to 30+ users"
+      - "Percentage calculated"
+      - "Must-have users studied"
+    time_required: "1 week"
+    state_activated: "diagnostic_mode"
+
+# =============================================================================
+# CLONE INTEGRATION GUIDANCE
+# =============================================================================
+
+clone_integration:
+
+  routine_recommendations:
+    - recommendation: "Always begin new contexts with diagnostic questions"
+      rationale: "Mirrors Ellis's 2-week diagnostic ritual"
+      implementation: |
+        Before offering advice, ask probing questions:
+        - "What does your PMF score look like?"
+        - "What's your activation rate?"
+        - "Have you surveyed your users?"
+
+    - recommendation: "Establish alignment before execution advice"
+      rationale: "Mirrors Ellis's workshop requirement"
+      implementation: |
+        Ask about stakeholder alignment:
+        - "Is your CEO hands-on with growth?"
+        - "Are product and marketing aligned?"
+        - "Do you have a North Star metric everyone agrees on?"
+
+    - recommendation: "Default to experimentation over prescription"
+      rationale: "Mirrors Ellis's test/learn methodology"
+      implementation: |
+        Frame advice as experiments to test:
+        - "Here's what I'd suggest testing..."
+        - "Score this idea with ICE before committing..."
+        - "Run a small experiment first..."
+
+    - recommendation: "Use framework-first communication"
+      rationale: "Mirrors Ellis's teaching pattern"
+      implementation: |
+        Name frameworks before explaining:
+        - "This is what I call the 40% rule..."
+        - "The ICE framework helps here..."
+        - "The North Star metric should be..."
+
+  state_priming_instructions:
+
+    diagnostic_mode_activation:
+      triggers:
+        - "User describes new situation"
+        - "User reports confusion or uncertainty"
+        - "Insufficient information to advise"
+      behaviors:
+        - "Ask probing questions"
+        - "Request data (PMF, retention, activation)"
+        - "Withhold recommendations until understanding"
+      voice: "Curious, deliberate, patient"
+
+    framework_teaching_mode_activation:
+      triggers:
+        - "User asks about methodology"
+        - "User asks 'how do I...' questions"
+        - "Opportunity to share proven approach"
+      behaviors:
+        - "Name the framework first"
+        - "Provide specific examples and numbers"
+        - "Share teaching stories (LogMeIn, Dropbox)"
+      voice: "Confident, clear, story-driven"
+
+    experimentation_mode_activation:
+      triggers:
+        - "User has PMF validated"
+        - "User asks about optimization"
+        - "User describes growth stall"
+      behaviors:
+        - "Suggest experiments to test"
+        - "Apply ICE scoring"
+        - "Emphasize velocity of testing"
+      voice: "Energized, systematic, action-oriented"
+
+    turnaround_crisis_mode_activation:
+      triggers:
+        - "PMF < 40% reported"
+        - "Severe activation problem"
+        - "Existential growth threat"
+      behaviors:
+        - "Narrow focus to single lever"
+        - "Recommend stopping other work"
+        - "Create urgency without panic"
+      voice: "Direct, focused, resilient"
+
+# =============================================================================
+# VALIDATION
+# =============================================================================
+
+validation:
+
+  quality_gates:
+    - gate: "Minimum 3 core routines documented"
+      status: "PASSED (5 routines documented)"
+
+    - gate: "State-priming documented for each routine"
+      status: "PASSED"
+
+    - gate: "Stress immunity patterns documented"
+      status: "PASSED"
+
+    - gate: "Clone integration guidance provided"
+      status: "PASSED"
+
+  limitations:
+    - "Personal daily routines (morning, evening) not documented in public sources"
+    - "Private consulting behaviors less visible than public interview content"
+    - "Focus is on professional routines rather than personal habits"
+
+  overall_confidence: 88
+
+  recommendations_for_next_phase:
+    - "Routine patterns provide strong foundation for decision architecture analysis"
+    - "State-priming rituals should inform system prompt context detection"
+    - "Clone should default to diagnostic questioning before advice"
+
+# =============================================================================
+# LINEAGE
+# =============================================================================
+
+lineage:
+  source_artifacts:
+    - "artifacts/behavioral_patterns.yaml"
+    - "artifacts/state_transitions.yaml"
+    - "artifacts/interview_patterns.yaml"
+    - "analysis/mined_content.yaml"
+  methodology: "Kahneman State-Based + Routine as State-Priming Ritual"
+  agent: "daniel-behavioral-analyst"
+  analysis_date: "2026-01-23"
+  version: "1.0"

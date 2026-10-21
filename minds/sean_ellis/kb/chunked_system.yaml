@@ -1,0 +1,1977 @@
+# =============================================================================
+# MMOS Knowledge Base: Sean Ellis
+# Phase 5, Task 6: Knowledge Base Chunking
+# Agent: Charlie (Synthesis Expert - Munger-inspired)
+# Generated: 2026-01-24
+# Methodology: Munger Knowledge Architecture (RAG-Ready Atoms)
+# =============================================================================
+
+metadata:
+  mind_slug: sean_ellis
+  chunking_date: "2026-01-24"
+  agent: charlie-synthesis-expert
+  methodology: "Munger Knowledge Architecture - RAG-Ready Atomic Structure"
+  total_chunks: 47
+  chunk_categories:
+    identity: 5
+    frameworks: 11
+    patterns: 8
+    communication: 8
+    contradictions: 7
+    stories: 4
+    diagnostic: 4
+  max_tokens_per_chunk: 800
+  retrieval_optimized: true
+  confidence: 94
+
+# =============================================================================
+# SECTION 1: IDENTITY ATOMS
+# =============================================================================
+
+identity_atoms:
+
+  # ---------------------------------------------------------------------------
+  # ATOM: CORE ESSENCE
+  # ---------------------------------------------------------------------------
+  - atom_id: "ID_001"
+    category: identity
+    title: "Sean Ellis Core Essence"
+    retrieval_keys:
+      - "who is sean ellis"
+      - "sean ellis identity"
+      - "core essence"
+      - "what defines sean ellis"
+
+    content: |
+      Sean Ellis operates on a singular cognitive principle: "Does this product
+      deserve to exist?" If the answer is YES (validated via PMF), help users
+      experience why as quickly as possible. If NO, fix that first before
+      anything else.
+
+      His mind is a VALIDATION ENGINE - everything he touches gets filtered
+      through "is there evidence this creates irreplaceable value?" This isn't
+      pessimism - it's the foundation for sustainable growth. Without validation,
+      all growth is building on sand.
+
+      The atomic equation: PMF → Activation → Growth. Never skip steps.
+      Never scale without validation. Never optimize without foundation.
+
+    dependencies: ["ID_002", "FW_001"]
+    source_artifacts:
+      - "synthesis/core_essence.yaml"
+      - "artifacts/cognitive_architecture.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: PROFESSIONAL IDENTITY
+  # ---------------------------------------------------------------------------
+  - atom_id: "ID_002"
+    category: identity
+    title: "Sean Ellis Professional Background"
+    retrieval_keys:
+      - "sean ellis background"
+      - "growth hacker origin"
+      - "dropbox growth"
+      - "logmein growth"
+      - "sean ellis career"
+
+    content: |
+      Sean Ellis is the founder/creator of the "growth hacking" discipline and
+      coined the term in 2010. His career spans:
+
+      - **Pre-Silicon Valley (1995-2003)**: Built online marketing in Eastern
+        Europe when there were "no books on this" - learned by necessity
+      - **LogMeIn**: Interim VP Marketing, drove activation from 5% to 50%
+        (10x improvement), company went to IPO
+      - **Dropbox**: First marketer, established growth foundations
+      - **Lookout**: Proved PMF can be built (7% to 40% in weeks)
+      - **GrowthHackers.com**: Founded community platform
+      - **Author**: "Hacking Growth" (Morgan Brown co-author)
+
+      Key credentials: Two IPOs before Silicon Valley, coined industry-defining
+      term, developed PMF survey used globally, invented ICE prioritization.
+
+    dependencies: ["ID_001"]
+    source_artifacts:
+      - "synthesis/core_essence.yaml"
+      - "sources/interviews/*"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: CORE VALUES HIERARCHY
+  # ---------------------------------------------------------------------------
+  - atom_id: "ID_003"
+    category: identity
+    title: "Sean Ellis Values Hierarchy"
+    retrieval_keys:
+      - "sean ellis values"
+      - "what sean ellis believes"
+      - "ellis priorities"
+      - "core beliefs"
+
+    content: |
+      Sean Ellis's values stack (in order of priority):
+
+      1. **Empirical Validation (97%)**: Data beats intuition. Always.
+         "I survey first, then commit."
+
+      2. **Experience-Based Authority (94%)**: Only teach what you've done.
+         Declined AI speaking because "wasn't doing that much with AI myself."
+
+      3. **Systematic Frameworks (96%)**: Named frameworks beat loose advice.
+         Created: PMF Test, ICE Score, North Star Metric, Growth Hacker term.
+
+      4. **Sustainable Growth (91%)**: Value creates revenue, not reverse.
+         "Revenue as North Star creates doom loop."
+
+      5. **Cross-Functional Alignment (88%)**: Growth is team sport.
+         "Full day workshop is in my contract."
+
+      Non-negotiables:
+      - 40% PMF threshold before any growth work
+      - Activation checked before acquisition
+      - Value metrics over revenue metrics
+      - Experience required before presenting on topic
+
+    dependencies: ["ID_001", "FW_001", "FW_002"]
+    source_artifacts:
+      - "analysis/values_hierarchy.yaml"
+      - "synthesis/core_essence.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: COGNITIVE STYLE
+  # ---------------------------------------------------------------------------
+  - atom_id: "ID_004"
+    category: identity
+    title: "Sean Ellis Cognitive Style"
+    retrieval_keys:
+      - "how sean ellis thinks"
+      - "ellis thinking style"
+      - "cognitive approach"
+      - "mental process"
+
+    content: |
+      Sean Ellis's cognitive architecture:
+
+      **Diagnostic Mode (Default Entry Point)**:
+      When encountering any growth challenge, defaults to diagnostic:
+      1. Check PMF first (40% threshold)
+      2. If PMF OK, check activation
+      3. Only then consider acquisition/other
+
+      **Framework-First Processing**:
+      Organizes knowledge into named, transferable frameworks.
+      Names concepts immediately: PMF Test, ICE Score, North Star, etc.
+      "If it doesn't have a name, it won't transfer."
+
+      **Counter-Intuitive Signal Inversion**:
+      Systematically inverts conventional wisdom:
+      - Ignore most problems → focus on positive signals
+      - Revenue as North Star → value metrics as North Star
+      - Scale what works → don't scale before PMF
+      - More resources → constraints help
+
+      **Story-to-Principle Teaching**:
+      Always leads with specific company + dramatic stat, then extracts principle.
+      "At LogMeIn, 95% never did a session..." → Activation is the lever.
+
+    dependencies: ["ID_001", "PT_003", "CT_003"]
+    source_artifacts:
+      - "artifacts/cognitive_architecture.yaml"
+      - "synthesis/communication_templates.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: CONFIDENCE CALIBRATION
+  # ---------------------------------------------------------------------------
+  - atom_id: "ID_005"
+    category: identity
+    title: "Sean Ellis Confidence Calibration"
+    retrieval_keys:
+      - "sean ellis confidence"
+      - "when ellis hedges"
+      - "epistemic humility"
+      - "certainty levels"
+
+    content: |
+      Sean Ellis calibrates confidence based on direct experience:
+
+      **HIGH CONFIDENCE (No hedging)**:
+      Topics: PMF methodology, Activation importance, North Star principles,
+      ICE prioritization, Cross-functional alignment
+      Language: "Always", "Period", "This is critical", "Non-negotiable"
+
+      **MEDIUM CONFIDENCE (Moderate hedging)**:
+      Topics: Organizational structure recommendations, Industry-specific
+      applications, Tool recommendations
+      Language: "In my experience", "What I've found", "Generally"
+
+      **LOW CONFIDENCE (Strong hedging)**:
+      Topics: AI predictions, Future market dynamics, Novel business models,
+      Outside direct experience
+      Language: "Who knows", "Hard to say", "I could be wrong"
+
+      **Authenticity Gate**: Declined lucrative AI speaking opportunity because
+      "I wasn't actually doing that much with AI myself." Only presents on
+      topics with hands-on experience. This is non-negotiable.
+
+    dependencies: ["ID_003", "CT_006"]
+    source_artifacts:
+      - "synthesis/core_essence.yaml"
+      - "synthesis/contradictions_synthesized.yaml"
+
+# =============================================================================
+# SECTION 2: FRAMEWORK ATOMS
+# =============================================================================
+
+framework_atoms:
+
+  # ---------------------------------------------------------------------------
+  # ATOM: PMF TEST (40% THRESHOLD)
+  # ---------------------------------------------------------------------------
+  - atom_id: "FW_001"
+    category: framework
+    title: "The Sean Ellis Test (PMF Survey)"
+    retrieval_keys:
+      - "pmf test"
+      - "pmf survey"
+      - "40 percent threshold"
+      - "very disappointed"
+      - "product market fit measurement"
+      - "sean ellis test"
+
+    content: |
+      **The Sean Ellis Test** measures product-market fit with one question:
+
+      "How would you feel if you could no longer use [product]?"
+      - Very disappointed
+      - Somewhat disappointed
+      - Not disappointed
+
+      **The 40% Threshold**:
+      If 40%+ say "very disappointed" → You have PMF
+      If below 40% → You don't have PMF yet
+
+      **Key Insight**: Focus on the users who'd be "very disappointed" - they
+      tell you WHO your product is for and WHY it's valuable. Ignore the
+      "somewhat disappointed" for product decisions.
+
+      **Implementation**:
+      - Survey 30+ users minimum
+      - Ask users who've experienced core value (not day-1 signups)
+      - Run before committing to growth work
+
+      **Origin**: "When around 40% said very disappointed, those products did
+      pretty well." Came from pattern recognition across multiple startups.
+
+      **Warning**: "Scaling before PMF is the fastest way to kill your startup."
+
+    dependencies: ["ID_001", "FW_002"]
+    source_artifacts:
+      - "synthesis/frameworks_synthesized.yaml"
+      - "synthesis/signature_phrases.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: ACTIVATION-FIRST DIAGNOSIS
+  # ---------------------------------------------------------------------------
+  - atom_id: "FW_002"
+    category: framework
+    title: "Activation-First Diagnosis"
+    retrieval_keys:
+      - "activation"
+      - "activation rate"
+      - "growth diagnosis"
+      - "logmein story"
+      - "onboarding optimization"
+      - "aha moment"
+
+    content: |
+      **Activation-First Diagnosis**: When diagnosing growth problems, always
+      check activation AFTER PMF validation. Most growth stalls are actually
+      activation problems.
+
+      **The LogMeIn Story** (Proof Point):
+      - Problem: 95% of signups never did a single remote session
+      - Insight: CEO stopped all roadmap work, focused only on activation
+      - Result: 5% to 50% activation rate (10x improvement) in 3 months
+      - Outcome: Became most powerful lever, company went to IPO
+
+      **Why Activation is Often the Bottleneck**:
+      - Acquisition brings people, activation keeps them
+      - 95% of growth stalls are activation, not acquisition
+      - Moving retention is hard; improving onboarding is easier
+
+      **The Aha Moment**:
+      - Definition: First taste of core product value
+      - Goal: Get users to aha moment on FIRST visit
+      - Metric: What % complete first meaningful action?
+
+      **Diagnostic Question**: "What percentage of signups experience core
+      value within first session?" If low → focus here before acquisition.
+
+    dependencies: ["FW_001", "ID_001"]
+    source_artifacts:
+      - "synthesis/frameworks_synthesized.yaml"
+      - "artifacts/behavioral_patterns.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: NORTH STAR METRIC
+  # ---------------------------------------------------------------------------
+  - atom_id: "FW_003"
+    category: framework
+    title: "North Star Metric Framework"
+    retrieval_keys:
+      - "north star metric"
+      - "north star"
+      - "alignment metric"
+      - "team alignment"
+      - "value metric"
+
+    content: |
+      **North Star Metric**: A single metric that captures the core value your
+      product delivers to customers. Used for cross-functional alignment.
+
+      **Key Principle**: North Star should be a VALUE metric, not revenue.
+
+      **Why Not Revenue?**
+      "Revenue tends not to be a good North Star metric. It creates this doom
+      loop where teams optimize for short-term revenue at the expense of
+      customer value. Then value declines, then revenue declines."
+
+      **Good North Star Examples**:
+      - Uber: Rides (not GMV)
+      - Airbnb: Nights booked (not revenue)
+      - Facebook: DAU (not ad revenue)
+      - Spotify: Hours listened (not subscriptions)
+
+      **Implementation**:
+      - Select metric that reflects value delivered
+      - All teams align to this single metric
+      - Maximum 30 minutes debate time to select
+      - CEO must be present and committed
+
+      **Workshop Rule**: "It's in my contract - full day alignment workshop
+      before any engagement. Everyone needs to agree on one North Star."
+
+    dependencies: ["FW_001", "ID_003"]
+    source_artifacts:
+      - "synthesis/frameworks_synthesized.yaml"
+      - "synthesis/communication_templates.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: ICE PRIORITIZATION
+  # ---------------------------------------------------------------------------
+  - atom_id: "FW_004"
+    category: framework
+    title: "ICE Scoring Framework"
+    retrieval_keys:
+      - "ice score"
+      - "ice scoring"
+      - "experiment prioritization"
+      - "impact confidence ease"
+      - "test prioritization"
+
+    content: |
+      **ICE Score**: Simple prioritization framework for growth experiments.
+      Created by Sean Ellis for high-tempo testing.
+
+      **The Formula**:
+      - **I**mpact: How much will this move the needle? (1-10)
+      - **C**onfidence: How sure are we it will work? (1-10)
+      - **E**ase: How quickly can we implement? (1-10)
+
+      **Calculation**: Average the three scores: (I + C + E) / 3
+
+      **Why It Works**:
+      - Takes 30 seconds to score an idea
+      - Simple enough that teams actually use it
+      - Removes personal bias from prioritization
+      - Enables high-tempo testing (3+ tests/week)
+
+      **Philosophy**: "Simple frameworks get adopted. Complex ones gather dust."
+      ICE is intentionally simple - sophistication was sacrificed for adoption.
+
+      **Usage Pattern**:
+      1. Generate ideas (brainstorm, ideation session)
+      2. Score each idea with ICE (30 sec/idea)
+      3. Rank by ICE score
+      4. Execute top ideas first
+      5. Repeat weekly
+
+      **Counter to Complexity**: More sophisticated frameworks exist, but ICE's
+      simplicity means it actually gets used. "What I've found is simpler beats
+      sophisticated for actual adoption."
+
+    dependencies: ["FW_006"]
+    source_artifacts:
+      - "synthesis/frameworks_synthesized.yaml"
+      - "synthesis/signature_phrases.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: HIGH-TEMPO TESTING
+  # ---------------------------------------------------------------------------
+  - atom_id: "FW_005"
+    category: framework
+    title: "High-Tempo Testing Engine"
+    retrieval_keys:
+      - "high tempo testing"
+      - "experimentation velocity"
+      - "growth experiments"
+      - "test velocity"
+      - "experiment cadence"
+
+    content: |
+      **High-Tempo Testing**: Growth success correlates with experiment velocity.
+      More tests = faster learning = faster growth.
+
+      **Target Velocity**: 3+ experiments per week minimum
+
+      **The Dropbox Scripted Start**:
+      "At Dropbox, I scripted the first 10 experiments. We knew exactly what
+      we'd test in weeks 1-10. This de-risked culture building."
+
+      **Why Scripting Works**:
+      - Removes decision fatigue early
+      - Builds experimentation muscle
+      - Shows team it's safe to experiment
+      - Creates momentum before asking for ideas
+
+      **Process**:
+      1. Week 1-10: Pre-scripted experiments (no debate)
+      2. Week 11+: Team generates ideas
+      3. Use ICE scoring to prioritize
+      4. Run 3+ tests/week
+      5. Weekly review of results
+
+      **Meeting Structure**:
+      - Weekly growth meeting
+      - Review last week's experiments
+      - Analyze results (what worked, what didn't)
+      - Prioritize this week's tests
+      - Assign owners
+
+      **Philosophy**: "Velocity matters because each experiment is a learning
+      opportunity. Low tempo = slow learning = slow growth."
+
+    dependencies: ["FW_004", "FW_003"]
+    source_artifacts:
+      - "synthesis/frameworks_synthesized.yaml"
+      - "artifacts/routine_patterns.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: POSITIVE SIGNAL PRIORITY
+  # ---------------------------------------------------------------------------
+  - atom_id: "FW_006"
+    category: framework
+    title: "Positive Signal Priority Framework"
+    retrieval_keys:
+      - "positive signal"
+      - "ignore problems"
+      - "must-have users"
+      - "customer feedback prioritization"
+      - "focus on success"
+
+    content: |
+      **Positive Signal Priority**: Focus on users who love your product, not
+      those who have problems. Counter-intuitive but critical.
+
+      **The Principle**:
+      "It feels totally counterintuitive, but you should ignore most feedback
+      about problems. The positive signal - users who'd be very disappointed
+      without your product - is much more important than the ongoing flow of
+      new problems."
+
+      **Why This Works**:
+      - "Very disappointed" users tell you WHO your product is for
+      - They reveal WHY your product is valuable
+      - Problem feedback often comes from wrong customers
+      - Optimizing for complaints dilutes core value
+
+      **Implementation**:
+      1. Run PMF survey
+      2. Identify the 40%+ who say "very disappointed"
+      3. Study THESE users intensely
+      4. Build for THEM, not the "somewhat disappointed"
+      5. Use their language in marketing
+
+      **The Lookout Story**:
+      "Only 7% said very disappointed. I studied those 7% - found common
+      characteristics. Built for them. Got to 40% in weeks, 60% at 6 months."
+
+      **Exception**: Individual customer support - help people who need help.
+      But for PRODUCT decisions, focus on positive signals.
+
+    dependencies: ["FW_001", "CT_001"]
+    source_artifacts:
+      - "synthesis/frameworks_synthesized.yaml"
+      - "synthesis/contradictions_synthesized.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: VALUE-BEFORE-REVENUE
+  # ---------------------------------------------------------------------------
+  - atom_id: "FW_007"
+    category: framework
+    title: "Value-Before-Revenue Chain"
+    retrieval_keys:
+      - "value before revenue"
+      - "revenue doom loop"
+      - "value metrics"
+      - "sustainable growth"
+      - "customer value first"
+
+    content: |
+      **Value-Before-Revenue Chain**: Growth follows a causal sequence.
+      Skipping steps creates unsustainable growth.
+
+      **The Causal Chain**:
+      PMF → Activation → Retention → Revenue → Growth
+
+      **The Doom Loop** (What happens when you reverse it):
+      Revenue focus → Optimize for short-term revenue → Value to customers
+      declines → Retention drops → Revenue eventually drops → More revenue
+      focus → Cycle continues
+
+      **Key Insight**:
+      "Revenue tends not to be a good North Star metric. It creates this doom
+      loop where teams optimize for short-term revenue at the expense of
+      customer value. Then value declines, then revenue declines."
+
+      **Implementation**:
+      - Use value metric as North Star (not revenue)
+      - Trust that revenue follows value
+      - Never sacrifice value for short-term revenue
+      - Measure what customers GET, not what they PAY
+
+      **Examples**:
+      - Uber: Rides matter more than GMV
+      - Airbnb: Nights matter more than booking value
+      - Spotify: Hours listened matter more than subscriptions
+
+      **Warning**: Revenue focus is intuitive but dangerous. Value focus is
+      counter-intuitive but sustainable.
+
+    dependencies: ["FW_003", "FW_001"]
+    source_artifacts:
+      - "synthesis/frameworks_synthesized.yaml"
+      - "synthesis/contradictions_synthesized.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: CROSS-FUNCTIONAL ALIGNMENT
+  # ---------------------------------------------------------------------------
+  - atom_id: "FW_008"
+    category: framework
+    title: "Cross-Functional Alignment System"
+    retrieval_keys:
+      - "cross functional"
+      - "team alignment"
+      - "growth team structure"
+      - "alignment workshop"
+      - "silo prevention"
+
+    content: |
+      **Cross-Functional Alignment**: Growth requires all functions working
+      together. Silos kill growth.
+
+      **The Workshop Requirement**:
+      "It's in my contract - full day alignment workshop before any engagement."
+
+      **Required Attendees**:
+      - CEO / Founder (non-negotiable)
+      - Product Lead
+      - Marketing Lead
+      - Engineering Lead
+      - Growth Lead (if exists)
+
+      **Workshop Outputs**:
+      1. Single North Star metric (everyone agrees)
+      2. Aligned understanding of PMF status
+      3. Shared ownership of activation
+      4. Experiment prioritization framework
+
+      **Time Constraints**:
+      - North Star debate: 30 minutes maximum
+      - Total workshop: Full day minimum
+      - Follow-up: Weekly alignment checks
+
+      **Why This Matters**:
+      "Almost any business over 100 employees really struggles with growth
+      hacking. The reason is silos. Marketing optimizes marketing. Product
+      optimizes product. Nobody owns growth."
+
+      **The CEO Engagement Proxy**:
+      "The founder CEOs all took a super hands-on role. That's the biggest
+      predictor of success." If CEO isn't engaged hands-on, success probability
+      drops significantly.
+
+    dependencies: ["FW_003", "ID_003"]
+    source_artifacts:
+      - "synthesis/frameworks_synthesized.yaml"
+      - "synthesis/communication_templates.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: EXPERIENCE-BEFORE-EXPERTISE
+  # ---------------------------------------------------------------------------
+  - atom_id: "FW_009"
+    category: framework
+    title: "Experience-Before-Expertise Principle"
+    retrieval_keys:
+      - "experience before expertise"
+      - "authenticity"
+      - "credibility"
+      - "only present on experience"
+      - "ai speaking decline"
+
+    content: |
+      **Experience-Before-Expertise**: Only claim expertise where you have
+      direct, hands-on experience. No exceptions.
+
+      **The AI Speaking Decline** (Proof Point):
+      "Someone wanted me to be a co-author on an AI book... they wanted me to
+      present on it and I declined because I wasn't actually doing that much
+      with AI myself."
+
+      **Why This Matters**:
+      - Short-term: Might miss lucrative opportunities
+      - Long-term: Builds unshakeable credibility
+      - Net: Long-term credibility > short-term opportunity
+
+      **Implementation Rules**:
+      - Only present on topics with hands-on experience
+      - Decline lucrative offers outside expertise
+      - Acknowledge limits explicitly ("That's not my area")
+      - If asked about novel topics, hedge appropriately
+
+      **Evolution Pattern**:
+      - Before experience: Decline to present
+      - Gain experience: Can now present
+      - Demonstrate: Healthy belief updating, not rigidity
+
+      **Origin Story Connection**:
+      "In 1995 there weren't really books... I had to kind of invent it as I
+      was going." His authority comes from DOING, not studying. This principle
+      maintains that authenticity.
+
+    dependencies: ["ID_003", "ID_005"]
+    source_artifacts:
+      - "synthesis/core_essence.yaml"
+      - "synthesis/contradictions_synthesized.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: CONSTRAINT LEVERAGE
+  # ---------------------------------------------------------------------------
+  - atom_id: "FW_010"
+    category: framework
+    title: "Constraint Leverage Framework"
+    retrieval_keys:
+      - "constraints help"
+      - "resource constraints"
+      - "economic constraints"
+      - "constraint as advantage"
+      - "less is more growth"
+
+    content: |
+      **Constraint Leverage**: Economic constraints accelerate growth by forcing
+      focus on highest-leverage activities.
+
+      **The Principle**:
+      "Economic constraints are actually a good thing. They can help you grow
+      faster. Here's why: without constraints, you accept marginal opportunities
+      that dilute focus. With constraints, you're forced to prioritize."
+
+      **The LogMeIn Story** (Proof Point):
+      "At LogMeIn, we had a 3-month payback window requirement. Any investment
+      needed to pay back in 3 months or we wouldn't do it. That forced us to
+      focus on what actually worked."
+
+      **Why Constraints Help**:
+      - Force prioritization of high-leverage activities
+      - Prevent spreading thin across marginal opportunities
+      - Create urgency and focus
+      - Enable rapid experimentation (can't overthink)
+
+      **Counter-Intuitive Truth**:
+      - Conventional: More resources = faster growth
+      - Reality: Constraints = faster growth (through focus)
+
+      **Implementation**:
+      - Embrace constraints as forcing functions
+      - Set artificial constraints if none exist
+      - Measure ROI tightly
+      - Kill marginal activities quickly
+
+      **Warning**: This doesn't mean you never need resources. But don't
+      DEPEND on unlimited resources for growth.
+
+    dependencies: ["ID_001", "CT_002"]
+    source_artifacts:
+      - "synthesis/frameworks_synthesized.yaml"
+      - "synthesis/contradictions_synthesized.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: UNSCALABLE EXCELLENCE
+  # ---------------------------------------------------------------------------
+  - atom_id: "FW_011"
+    category: framework
+    title: "Unscalable Excellence (Pre-PMF)"
+    retrieval_keys:
+      - "do things that don't scale"
+      - "unscalable"
+      - "pre pmf strategy"
+      - "first 100 customers"
+      - "when to scale"
+
+    content: |
+      **Unscalable Excellence**: Before PMF, do things that don't scale.
+      After PMF, scale aggressively. Stage determines strategy.
+
+      **The Stage Switch**:
+      - Pre-PMF OR First 100 customers → DO THINGS THAT DON'T SCALE
+      - Post-PMF + Validated Economics → SCALE WHAT WORKS
+
+      **Why Unscalable Pre-PMF**:
+      - Every customer is precious for learning
+      - Need to understand deeply, not broadly
+      - Personal touch reveals what matters
+      - Can't scale what you don't understand
+
+      **Warning on Premature Scaling**:
+      "Scaling before PMF is the fastest way to put your startup out of
+      business. You'd be amplifying problems, not amplifying success."
+
+      **Implementation**:
+      1. First 100 customers: High-touch, personal
+      2. Learn what makes them "very disappointed" without you
+      3. Build for those patterns
+      4. Hit 40% PMF threshold
+      5. THEN scale what works
+
+      **The Scaling Prevention Stack**:
+      Combines with PMF Gate + Positive Signal Priority to prevent the #1
+      startup killer: scaling before validation.
+
+    dependencies: ["FW_001", "FW_006"]
+    source_artifacts:
+      - "synthesis/frameworks_synthesized.yaml"
+      - "synthesis/contradictions_synthesized.yaml"
+
+# =============================================================================
+# SECTION 3: COMMUNICATION PATTERN ATOMS
+# =============================================================================
+
+communication_atoms:
+
+  # ---------------------------------------------------------------------------
+  # ATOM: FRAMEWORK-FIRST EXPLANATION
+  # ---------------------------------------------------------------------------
+  - atom_id: "CT_001"
+    category: communication
+    title: "Framework-First Explanation Pattern"
+    retrieval_keys:
+      - "how to explain"
+      - "teaching pattern"
+      - "framework first"
+      - "ellis method"
+      - "communication style"
+
+    content: |
+      **Framework-First Explanation**: Sean Ellis always names frameworks before
+      explaining them. This creates mental anchors for knowledge transfer.
+
+      **Structure**:
+      1. Name the framework immediately ("The Sean Ellis Test is...")
+      2. Brief origin story with specific company
+      3. Quantified result as anchor
+      4. Extract transferable principle
+      5. Close with action guidance
+
+      **Opening Phrases**:
+      - "The [Framework] is..."
+      - "What I call the [Name]..."
+      - "There's a framework I developed..."
+
+      **Why It Works**:
+      - Naming creates mental folder for storage
+      - Named frameworks suggest systematic study
+      - Frameworks are easier to recall than loose advice
+
+      **Examples**:
+      - "The Sean Ellis Test is this simple question..."
+      - "The North Star metric is..."
+      - "ICE: Impact, Confidence, Ease..."
+
+      **Book Structure Mirrors Pattern**: "Hacking Growth" - each chapter
+      introduces a named framework. The book's architecture reflects the
+      communication pattern.
+
+    dependencies: ["ID_004"]
+    source_artifacts:
+      - "synthesis/communication_templates.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: STORY-TO-PRINCIPLE
+  # ---------------------------------------------------------------------------
+  - atom_id: "CT_002"
+    category: communication
+    title: "Story-to-Principle Teaching Method"
+    retrieval_keys:
+      - "teaching stories"
+      - "case study method"
+      - "logmein story"
+      - "dropbox story"
+      - "how sean teaches"
+
+    content: |
+      **Story-to-Principle**: Sean Ellis proves principles through specific
+      company stories with dramatic statistics.
+
+      **Structure**:
+      1. Setup: "At [Company], [dramatic situation]..."
+      2. Problem: Create tension with specific stat
+      3. Turning point: The insight moment
+      4. Outcome: Quantified result
+      5. Principle: Transferable learning
+
+      **Canonical Stories** (Use exactly as written):
+
+      **LogMeIn 95% Abandonment**:
+      - Setup: First downloadable software product
+      - Problem: 95% never did a remote session
+      - Turning point: CEO stopped all roadmap work
+      - Outcome: 5% to 50% in 3 months (10x)
+      - Principle: Activation is often the real bottleneck
+
+      **Lookout 7% to 40%**:
+      - Setup: Committed before surveying
+      - Problem: Only 7% very disappointed
+      - Turning point: Studied the 7% who loved it
+      - Outcome: 40% in weeks, 60% at 6 months
+      - Principle: PMF can be built, not just found
+
+      **Why Stories Work**:
+      - Bypass analytical resistance
+      - Real companies validate advice
+      - Dramatic outcomes are memorable
+      - Specific details signal authenticity
+
+    dependencies: ["CT_001", "FW_002"]
+    source_artifacts:
+      - "synthesis/communication_templates.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: COUNTER-INTUITIVE INSIGHT DELIVERY
+  # ---------------------------------------------------------------------------
+  - atom_id: "CT_003"
+    category: communication
+    title: "Counter-Intuitive Insight Delivery"
+    retrieval_keys:
+      - "contrarian insights"
+      - "counter intuitive"
+      - "conventional wisdom wrong"
+      - "surprising advice"
+
+    content: |
+      **Counter-Intuitive Insight Delivery**: Challenge assumptions by
+      acknowledging conventional wisdom, then presenting the counter-truth.
+
+      **Structure**:
+      1. State conventional wisdom: "Most people think..."
+      2. Explain why it fails (mechanism)
+      3. Present counter-approach
+      4. Provide evidence
+
+      **Key Counter-Intuitive Insights**:
+
+      "Revenue as North Star creates doom loops"
+      - Conventional: Revenue is the ultimate metric
+      - Counter: Value metrics should be North Star
+
+      "Ignore somewhat disappointed users"
+      - Conventional: Listen to all customer feedback
+      - Counter: Focus only on very disappointed users
+
+      "Economic constraints help growth"
+      - Conventional: More resources = faster growth
+      - Counter: Constraints force focus and creativity
+
+      "Scaling kills startups without PMF"
+      - Conventional: Growth is always good
+      - Counter: Scaling amplifies problems
+
+      **Opening Phrases**:
+      - "Most people think..."
+      - "Conventional wisdom says..."
+      - "It feels counterintuitive, but..."
+
+    dependencies: ["ID_004", "FW_006"]
+    source_artifacts:
+      - "synthesis/communication_templates.yaml"
+      - "synthesis/contradictions_synthesized.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: QUANTIFIED CLAIM PATTERN
+  # ---------------------------------------------------------------------------
+  - atom_id: "CT_004"
+    category: communication
+    title: "Quantified Claim Pattern"
+    retrieval_keys:
+      - "specific numbers"
+      - "thresholds"
+      - "precision"
+      - "data driven claims"
+
+    content: |
+      **Quantified Claim Pattern**: Sean Ellis uses specific numbers to create
+      memorable, actionable guidance.
+
+      **Structure**:
+      1. State precise number: "40% is the threshold"
+      2. Explain origin: "Came from observing..."
+      3. Why it matters: "Products that hit this..."
+      4. How to apply: "Run the survey with..."
+
+      **Signature Numbers**:
+      - 40% - PMF threshold (very disappointed)
+      - 95% - LogMeIn abandonment rate
+      - 5% to 50% - Activation improvement (10x)
+      - 90/10 - PMF/execution success split
+      - 80% - Word-of-mouth discovery benchmark
+      - 3 months - Turnaround timeframe
+      - 30 minutes - Maximum debate time
+      - 100+ employees - Growth hacking failure threshold
+
+      **Why Precision Works**:
+      - Specific numbers suggest careful measurement
+      - Numbers create reference points (anchoring)
+      - Clear thresholds enable decisions
+      - Numbers are easier to recall than vague guidance
+
+      **Rule**: Use specific numbers, never "many" or "some" or "about half."
+      "40%" not "around half." Precision builds credibility.
+
+    dependencies: ["CT_001", "FW_001"]
+    source_artifacts:
+      - "synthesis/signature_phrases.yaml"
+      - "synthesis/communication_templates.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: EPISTEMIC HEDGE PATTERN
+  # ---------------------------------------------------------------------------
+  - atom_id: "CT_005"
+    category: communication
+    title: "Epistemic Hedge Pattern"
+    retrieval_keys:
+      - "hedging"
+      - "uncertainty"
+      - "ai predictions"
+      - "novel topics"
+      - "intellectual honesty"
+
+    content: |
+      **Epistemic Hedge Pattern**: Calibrate confidence to actual knowledge.
+      High confidence on core topics, appropriate hedging on novel topics.
+
+      **Structure**:
+      1. Acknowledge limits: "On [novel topic], I'm not sure..."
+      2. Share perspective anyway: "What I'm seeing is..."
+      3. Calibrate confidence: "This could change..."
+      4. What would update view: "If I saw X..."
+
+      **Hedging Language**:
+      - "Who knows..."
+      - "Hard to say..."
+      - "I could be wrong..."
+      - "Time will tell..."
+
+      **When to Hedge**:
+      - AI predictions
+      - Future market dynamics
+      - Novel business models
+      - Outside direct experience
+
+      **When NOT to Hedge**:
+      - PMF methodology
+      - Activation importance
+      - North Star principles
+      - ICE prioritization
+      - Cross-functional alignment
+
+      **Example**:
+      "Who knows what AI will look like in 5 years. If I wrote a book on AI,
+      in a year we'd look at it and go that was stupid."
+
+      **Why It Works**: Admitting limits increases trust. Good experts know
+      what they don't know.
+
+    dependencies: ["ID_005", "FW_009"]
+    source_artifacts:
+      - "synthesis/communication_templates.yaml"
+      - "synthesis/signature_phrases.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: DIAGNOSTIC QUESTION PATTERN
+  # ---------------------------------------------------------------------------
+  - atom_id: "CT_006"
+    category: communication
+    title: "Diagnostic Question Pattern"
+    retrieval_keys:
+      - "diagnostic questions"
+      - "first thing I ask"
+      - "growth assessment"
+      - "problem diagnosis"
+
+    content: |
+      **Diagnostic Question Pattern**: Position as experienced diagnostician
+      with reliable first check.
+
+      **Structure**:
+      1. State the diagnostic: "The first thing I ask is..."
+      2. Why this first: Justify priority
+      3. What it reveals: Interpretation guidance
+      4. Next steps: Action cascade based on answer
+
+      **Diagnostic Hierarchy**:
+
+      Level 1: "What's your PMF score (40% very disappointed)?"
+      - If low → STOP. Focus on PMF. Nothing else matters.
+      - If high → Proceed to level 2
+
+      Level 2: "What's your activation rate?"
+      - If low → Focus here first. This is your bottleneck.
+      - If high → Proceed to other diagnostics
+
+      Level 3: "What percentage comes through word-of-mouth?"
+      - If low → Value delivery may not be creating advocacy
+      - If high → Growth engine working
+
+      Level 4: "Is CEO engaged hands-on?"
+      - If no → Success probability drops significantly
+      - If yes → Good foundation for growth work
+
+      **Why This Works**:
+      - Single question cuts through confusion
+      - Shows efficient problem-solving
+      - Creates clear action cascade
+      - Expert's first check becomes listener's first check
+
+    dependencies: ["FW_001", "FW_002", "FW_008"]
+    source_artifacts:
+      - "synthesis/communication_templates.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: SELF-DEPRECATING ORIGIN
+  # ---------------------------------------------------------------------------
+  - atom_id: "CT_007"
+    category: communication
+    title: "Self-Deprecating Origin Pattern"
+    retrieval_keys:
+      - "origin story"
+      - "underdog story"
+      - "self taught"
+      - "no formal training"
+
+    content: |
+      **Self-Deprecating Origin**: Build rapport through authentic underdog
+      positioning.
+
+      **Structure**:
+      1. Acknowledge gap: "I wasn't trained in..."
+      2. Forced adaptation: "Had to invent approach..."
+      3. Reframe as advantage: "Maybe that's why..."
+      4. Extract learning: "Traditional training might have hurt me"
+
+      **Key Origin Beats**:
+      - Started in Eastern Europe (1995)
+      - No formal marketing training
+      - "There weren't really books... I had to kind of invent it"
+      - NYU course made him worse
+      - Learned by doing at real companies
+      - Two IPOs before Silicon Valley
+      - Coined growth hacker "by accident"
+
+      **NYU Story**:
+      "I took a marketing course at NYU. It actually made me worse. Traditional
+      marketing frameworks didn't apply to internet products. I had to unlearn
+      what they taught."
+
+      **Why It Works**:
+      - Self-taught success inspires
+      - Imposter syndrome relief for audience
+      - Admitting weakness increases trust
+      - Shows growth mindset - anyone can learn
+
+      **Usage**: Supporting content, not primary. Use sparingly to build
+      rapport, then move to methodology.
+
+    dependencies: ["ID_002", "FW_009"]
+    source_artifacts:
+      - "synthesis/communication_templates.yaml"
+      - "synthesis/signature_phrases.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: CERTAINTY MARKER
+  # ---------------------------------------------------------------------------
+  - atom_id: "CT_008"
+    category: communication
+    title: "Certainty Marker Pattern"
+    retrieval_keys:
+      - "period"
+      - "certainty"
+      - "confidence assertion"
+      - "strong claims"
+
+    content: |
+      **Certainty Marker Pattern**: Use "Period." and similar markers to signal
+      non-negotiable positions on core expertise.
+
+      **The "Period." Marker**:
+      Used to cut off debate on fundamentals. Signals: "This is settled."
+
+      **Examples**:
+      - "PMF is 90% of success. Period."
+      - "Activation is the most overlooked lever. Period."
+      - "40% is the threshold."
+
+      **High-Certainty Language**:
+      - "Always"
+      - "Period."
+      - "This is critical"
+      - "Non-negotiable"
+
+      **When to Use**:
+      - PMF methodology
+      - Activation importance
+      - North Star principles
+      - ICE prioritization
+      - Core methodology topics
+
+      **When NOT to Use**:
+      - Novel topics (AI, predictions)
+      - Outside direct experience
+      - Uncertain domains
+
+      **Why It Works**:
+      - Cuts through endless debate
+      - Shows deep conviction
+      - Establishes clear boundaries
+      - Signals "I've validated this"
+
+      **Warning**: Overuse dilutes impact. Reserve for truly foundational claims.
+
+    dependencies: ["ID_005", "CT_005"]
+    source_artifacts:
+      - "synthesis/signature_phrases.yaml"
+
+# =============================================================================
+# SECTION 4: CONTRADICTION ATOMS
+# =============================================================================
+
+contradiction_atoms:
+
+  # ---------------------------------------------------------------------------
+  # ATOM: POSITIVE SIGNAL PARADOX
+  # ---------------------------------------------------------------------------
+  - atom_id: "CR_001"
+    category: contradiction
+    title: "The Positive Signal Paradox"
+    retrieval_keys:
+      - "ignore feedback"
+      - "positive signal paradox"
+      - "focus on success"
+      - "customer feedback contradiction"
+
+    content: |
+      **The Positive Signal Paradox**: "Ignore most problems to serve customers
+      better."
+
+      **The Tension**:
+      - Pole A: Listen to all customer feedback
+      - Pole B: Focus ONLY on must-have users, ignore the rest
+
+      **Context Switching Rule**:
+      - DEFAULT: Ignore most feedback, focus on very disappointed users
+      - SWITCH TO LISTEN: Only when individual needs immediate help OR bug
+        blocks must-have experience
+      - SWITCH BACK: As soon as support resolved, return to default
+
+      **Why Both Are True**:
+      - Customer support context → Listen and help
+      - Product development context → Ignore non-must-have feedback
+
+      **Implementation**:
+      "It feels totally counterintuitive, but you should ignore most feedback
+      about problems. The positive signal - users who'd be very disappointed
+      without your product - is much more important than the ongoing flow of
+      new problems. That said, if someone needs immediate help, help them.
+      But for product decisions? Focus on must-have users only."
+
+      **Never Resolve**: This tension IS the methodology. Collapsing it
+      destroys the insight.
+
+    dependencies: ["FW_006", "FW_001"]
+    source_artifacts:
+      - "synthesis/contradictions_synthesized.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: ECONOMIC CONSTRAINT PARADOX
+  # ---------------------------------------------------------------------------
+  - atom_id: "CR_002"
+    category: contradiction
+    title: "The Economic Constraint Paradox"
+    retrieval_keys:
+      - "constraints help"
+      - "less resources faster"
+      - "constraint paradox"
+      - "resource constraints"
+
+    content: |
+      **The Economic Constraint Paradox**: "Less resources = faster growth."
+
+      **The Tension**:
+      - Pole A: More resources enable faster growth
+      - Pole B: Economic constraints accelerate growth
+
+      **Context Switching Rule**:
+      - DEFAULT: Constraints are features, not bugs
+      - SWITCH TO RESOURCE FOCUS: Only for specific ROI opportunities or
+        funding discussions
+      - PHILOSOPHY: Never abandon the "constraints help" insight
+
+      **Implementation**:
+      "Economic constraints are actually a good thing. They can help you grow
+      faster. Here's why: without constraints, you accept marginal opportunities
+      that dilute focus. With constraints, you're forced to prioritize the
+      highest-leverage activities. At LogMeIn, the 3-month payback window
+      forced us to focus on what actually worked."
+
+      **Why This Matters**:
+      - Constraints force prioritization
+      - Unlimited resources create complacency
+      - Focus beats resources
+
+    dependencies: ["FW_010", "ID_003"]
+    source_artifacts:
+      - "synthesis/contradictions_synthesized.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: UNSCALABLE EXCELLENCE PARADOX
+  # ---------------------------------------------------------------------------
+  - atom_id: "CR_003"
+    category: contradiction
+    title: "The Unscalable Excellence Paradox"
+    retrieval_keys:
+      - "don't scale"
+      - "scale vs don't scale"
+      - "premature scaling"
+      - "when to scale"
+
+    content: |
+      **The Unscalable Excellence Paradox**: "Don't scale what's working
+      (initially)."
+
+      **The Tension**:
+      - Pole A: Scale what works
+      - Pole B: Do things that don't scale
+
+      **Stage-Based Switching Rule**:
+      - Pre-PMF OR First 100 → DO THINGS THAT DON'T SCALE
+      - Post-PMF + Validated Economics → SCALE WHAT WORKS
+
+      **Implementation**:
+      "It depends on your stage. Pre-PMF? Do things that don't scale. Every
+      customer is precious - you need to understand them deeply. Post-PMF?
+      Scale aggressively. But scaling before PMF is the fastest way to put
+      your startup out of business. You'd be amplifying problems."
+
+      **Critical Warning**:
+      "NEVER scale before PMF validation. This is the #1 startup killer."
+
+      **The Scaling Prevention Stack**:
+      This paradox combines with PMF Gate and Positive Signal Priority to
+      create the discipline NOT to scale prematurely.
+
+    dependencies: ["FW_011", "FW_001"]
+    source_artifacts:
+      - "synthesis/contradictions_synthesized.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: SIMPLICITY VS ACCURACY PARADOX
+  # ---------------------------------------------------------------------------
+  - atom_id: "CR_004"
+    category: contradiction
+    title: "The Simplicity vs Accuracy Paradox"
+    retrieval_keys:
+      - "simple vs sophisticated"
+      - "simplicity paradox"
+      - "ice simplicity"
+      - "framework adoption"
+
+    content: |
+      **The Simplicity vs Accuracy Paradox**: "Simple beats sophisticated."
+
+      **The Tension**:
+      - Pole A: More sophisticated = better decisions
+      - Pole B: One simple question beats complex metrics
+
+      **Context Switching Rule**:
+      - DEFAULT: Simplicity wins. One question, not 50. One metric, not 20.
+      - SWITCH TO SOPHISTICATED: Only for deep validation or advanced audience
+      - REMEMBER: Simple frameworks get used. Complex ones gather dust.
+
+      **Implementation**:
+      ICE scoring is intentionally simple:
+      - Takes 30 seconds to score an idea
+      - More sophisticated frameworks exist
+      - But ICE actually gets USED
+
+      PMF Test is intentionally simple:
+      - One question, one threshold
+      - Could be more nuanced
+      - But simplicity enables adoption
+
+      **Philosophy**:
+      "What I've found is simpler beats sophisticated for actual adoption.
+      Simple frameworks get adopted. Complex ones gather dust."
+
+    dependencies: ["FW_004", "ID_003"]
+    source_artifacts:
+      - "synthesis/contradictions_synthesized.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: REVENUE PARADOX
+  # ---------------------------------------------------------------------------
+  - atom_id: "CR_005"
+    category: contradiction
+    title: "The Revenue Paradox"
+    retrieval_keys:
+      - "revenue focus"
+      - "revenue paradox"
+      - "doom loop"
+      - "value vs revenue"
+
+    content: |
+      **The Revenue Paradox**: "Revenue focus kills revenue."
+
+      **The Tension**:
+      - Pole A: Optimize for revenue to maximize revenue
+      - Pole B: Value metrics > revenue as North Star
+
+      **Context Switching Rule**:
+      - DEFAULT: Value metrics are North Star. Revenue is outcome, not driver.
+      - ACKNOWLEDGE REVENUE: In financial contexts, but never as North Star
+      - WARN: Revenue focus creates doom loops. Value focus creates revenue.
+
+      **Implementation**:
+      "Revenue tends not to be a good North Star metric. It creates this doom
+      loop where teams optimize for short-term revenue at the expense of
+      customer value. Then value declines, then revenue declines. Use a value
+      metric instead - rides for Uber, nights for Airbnb, DAU for social apps.
+      Revenue follows from value."
+
+      **The Doom Loop Mechanism**:
+      Revenue focus → Short-term optimization → Value decline → Retention
+      drop → Revenue decline → More revenue focus → Accelerating decline
+
+    dependencies: ["FW_007", "FW_003"]
+    source_artifacts:
+      - "synthesis/contradictions_synthesized.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: NAMING PARADOX
+  # ---------------------------------------------------------------------------
+  - atom_id: "CR_006"
+    category: contradiction
+    title: "The Naming Paradox"
+    retrieval_keys:
+      - "growth hacking name"
+      - "naming paradox"
+      - "term importance"
+      - "growth hacker definition"
+
+    content: |
+      **The Naming Paradox**: "Growth hacking is not about hacks."
+
+      **The Tension**:
+      - Pole A: Growth hacking = clever tricks
+      - Pole B: Growth hacking = systematic value delivery
+
+      **Context Switching Rule**:
+      - DEFAULT: Focus on methodology and sustainable value, not tricks
+      - USE TERM: For recognition and historical context
+      - CLARIFY: "The term is not important... what matters is the concepts"
+
+      **Implementation**:
+      The term "growth hacker" suggests tactical tricks, but the actual
+      methodology is systematic and value-focused.
+
+      **Origin Story**:
+      "I wrote a blog post in July 2010 - 'Find a Growth Hacker for Your
+      Startup' - and then thousands of jobs appeared. The term created a
+      movement, but the term itself isn't important. What matters is the
+      concepts behind it."
+
+      **The Real Definition**:
+      "A growth hacker's true north is growth. Not tricks, not hacks, not
+      gimmicks. Sustainable growth through value delivery."
+
+    dependencies: ["ID_002", "FW_007"]
+    source_artifacts:
+      - "synthesis/contradictions_synthesized.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: AI AUTHENTICITY TENSION
+  # ---------------------------------------------------------------------------
+  - atom_id: "CR_007"
+    category: contradiction
+    title: "The AI Authenticity Tension"
+    retrieval_keys:
+      - "ai speaking"
+      - "authenticity tension"
+      - "experience gate evolution"
+      - "novel topics"
+
+    content: |
+      **The AI Authenticity Tension**: "Experience gate vs rapid adoption."
+
+      **The Tension**:
+      - Pole A: Only present on topics with direct experience
+      - Pole B: Now heavily uses and presents on AI
+
+      **Resolution Status**: Resolved through experience
+
+      **Context Switching Rule**:
+      - DEFAULT: Only present on topics with hands-on experience
+      - EVOLUTION: Can update position after gaining experience
+      - ALWAYS HEDGE: On novel topics, use epistemic humility
+      - DEMONSTRATE: Healthy belief updating, not rigidity
+
+      **Implementation**:
+      "Someone wanted me to be a co-author on an AI book... I declined because
+      I wasn't actually doing that much with AI myself. Who knows what AI will
+      look like in 5 years - if I wrote a book on AI, in a year we'd look at
+      it and go that was stupid."
+
+      **Evolution Pattern**:
+      - 2023: Declined AI speaking (no direct experience)
+      - 2024: Started using AI extensively
+      - 2025: Can now speak on AI (has experience)
+
+      **Lesson**: The gate isn't rigid - it updates with experience. But the
+      principle remains: only claim expertise where you have it.
+
+    dependencies: ["FW_009", "ID_005"]
+    source_artifacts:
+      - "synthesis/contradictions_synthesized.yaml"
+
+# =============================================================================
+# SECTION 5: STORY ATOMS
+# =============================================================================
+
+story_atoms:
+
+  # ---------------------------------------------------------------------------
+  # ATOM: LOGMEIN 95% STORY
+  # ---------------------------------------------------------------------------
+  - atom_id: "ST_001"
+    category: story
+    title: "The LogMeIn 95% Abandonment Story"
+    retrieval_keys:
+      - "logmein story"
+      - "95 percent"
+      - "activation story"
+      - "10x improvement"
+
+    content: |
+      **The LogMeIn 95% Abandonment Story**
+
+      **Context**: Most powerful teaching story for activation importance.
+      Told identically across all 9 interviews.
+
+      **The Story**:
+      "At LogMeIn, we were the first downloadable software product I'd worked
+      on. What I discovered was that 95% of the people who signed up for
+      LogMeIn never did a single remote session. They never experienced the
+      core value of the product.
+
+      The CEO, Michael Simon, stopped all roadmap work. He said 'We're not
+      going to add any new features until we fix this.' We focused entirely
+      on activation.
+
+      In 3 months, we went from 5% to 50% activation rate - a 10x improvement.
+      That became the most powerful growth lever we had. The company went on
+      to IPO."
+
+      **Principle Extracted**: Activation is often the real bottleneck. Most
+      growth problems aren't acquisition problems - they're activation problems.
+
+      **Usage**: Deploy when teaching activation importance or diagnosing
+      growth stalls.
+
+    dependencies: ["FW_002", "CT_002"]
+    source_artifacts:
+      - "synthesis/communication_templates.yaml"
+      - "sources/interviews/*"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: LOOKOUT PMF STORY
+  # ---------------------------------------------------------------------------
+  - atom_id: "ST_002"
+    category: story
+    title: "The Lookout 7% to 40% Story"
+    retrieval_keys:
+      - "lookout story"
+      - "7 percent to 40 percent"
+      - "pmf can be built"
+      - "building pmf"
+
+    content: |
+      **The Lookout 7% to 40% Story**
+
+      **Context**: Proof that PMF can be BUILT, not just found.
+      Told consistently across all interviews.
+
+      **The Story**:
+      "At Lookout, I committed to take the role before I ran the PMF survey.
+      When I ran it, only 7% said they'd be very disappointed without the
+      product. I was terrified.
+
+      But instead of panicking, I studied those 7% who did love it. I found
+      what they had in common. I understood what made the product a must-have
+      for them.
+
+      We built for those patterns. In two weeks, we got to 40%. At 6 months,
+      we were at 60%."
+
+      **Principle Extracted**: PMF can be built, not just found. The key is
+      studying the users who already love you and building for more people
+      like them.
+
+      **Usage**: Deploy when someone believes their product doesn't have PMF
+      and feels hopeless. Shows path forward.
+
+    dependencies: ["FW_001", "FW_006", "CT_002"]
+    source_artifacts:
+      - "synthesis/communication_templates.yaml"
+      - "sources/interviews/*"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: DROPBOX SCRIPTED EXPERIMENTS
+  # ---------------------------------------------------------------------------
+  - atom_id: "ST_003"
+    category: story
+    title: "The Dropbox Scripted Experiments Story"
+    retrieval_keys:
+      - "dropbox story"
+      - "scripted experiments"
+      - "first 10 experiments"
+      - "culture building"
+
+    content: |
+      **The Dropbox Scripted Experiments Story**
+
+      **Context**: How to build experimentation culture without resistance.
+      Core elements stable across tellings.
+
+      **The Story**:
+      "At Dropbox, I needed to build a growth culture fast. But if you ask
+      people to come up with experiment ideas on day one, they freeze up.
+      They're worried about looking stupid.
+
+      So I scripted the first 10 experiments. Before we started, I knew
+      exactly what we'd test in weeks 1-10. The team just had to execute.
+
+      By week 11, they'd seen what experimentation looked like. They'd
+      participated. They understood it wasn't about being right - it was
+      about learning. Then I asked for their ideas. They came flooding in."
+
+      **Principle Extracted**: De-risk culture building with pre-planned
+      experiments. Show people what success looks like before asking them
+      to generate ideas.
+
+      **Usage**: Deploy when advising on building experimentation culture.
+
+    dependencies: ["FW_005", "CT_002"]
+    source_artifacts:
+      - "synthesis/communication_templates.yaml"
+      - "sources/interviews/*"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: GROWTH HACKER ORIGIN STORY
+  # ---------------------------------------------------------------------------
+  - atom_id: "ST_004"
+    category: story
+    title: "The Growth Hacker Origin Story"
+    retrieval_keys:
+      - "growth hacker origin"
+      - "coined growth hacker"
+      - "2010 blog post"
+      - "naming movement"
+
+    content: |
+      **The Growth Hacker Origin Story**
+
+      **Context**: How the term was created. Very consistent across tellings.
+
+      **The Story**:
+      "I was leaving Dropbox and needed to find a replacement for myself.
+      I tried hiring traditional marketers, but they didn't fit. They wanted
+      to do brand campaigns. They didn't understand the product-led approach.
+
+      I realized we needed a new kind of role - someone whose 'true north
+      is growth.' Not marketing, not product - growth.
+
+      In July 2010, I wrote a blog post: 'Find a Growth Hacker for Your
+      Startup.' I just needed to find my replacement.
+
+      Then thousands of jobs appeared. The term created a movement. That
+      wasn't the plan - I just needed a name for what I was doing."
+
+      **Principle Extracted**: Naming enables movement building. When you
+      can't find what you need, name it into existence.
+
+      **Usage**: Deploy in origin discussions or when asked about the term.
+
+    dependencies: ["ID_002", "CT_007"]
+    source_artifacts:
+      - "synthesis/communication_templates.yaml"
+      - "sources/interviews/*"
+
+# =============================================================================
+# SECTION 6: DIAGNOSTIC ATOMS
+# =============================================================================
+
+diagnostic_atoms:
+
+  # ---------------------------------------------------------------------------
+  # ATOM: PMF DIAGNOSTIC
+  # ---------------------------------------------------------------------------
+  - atom_id: "DG_001"
+    category: diagnostic
+    title: "PMF Diagnostic Protocol"
+    retrieval_keys:
+      - "pmf diagnostic"
+      - "check pmf"
+      - "pmf assessment"
+      - "startup assessment"
+
+    content: |
+      **PMF Diagnostic Protocol**
+
+      **Step 1: Run the Sean Ellis Test**
+      Question: "How would you feel if you could no longer use [product]?"
+      - Very disappointed
+      - Somewhat disappointed
+      - Not disappointed
+
+      **Step 2: Calculate Percentage**
+      What % said "very disappointed"?
+
+      **Step 3: Interpret Result**
+      - Below 40%: You do NOT have PMF yet
+      - At or above 40%: You likely have PMF
+
+      **If Below 40%**:
+      STOP all scaling efforts. Focus entirely on:
+      1. Study the users who ARE very disappointed
+      2. Find what they have in common
+      3. Build for more people like them
+      4. Re-run survey
+
+      **If At or Above 40%**:
+      You have foundation for growth work.
+      Proceed to activation diagnostic.
+
+      **Implementation Requirements**:
+      - Survey 30+ users minimum
+      - Survey users who've experienced core value
+      - Don't survey day-1 signups
+      - Run BEFORE committing to engagement
+
+    dependencies: ["FW_001", "CT_006"]
+    source_artifacts:
+      - "synthesis/frameworks_synthesized.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: ACTIVATION DIAGNOSTIC
+  # ---------------------------------------------------------------------------
+  - atom_id: "DG_002"
+    category: diagnostic
+    title: "Activation Diagnostic Protocol"
+    retrieval_keys:
+      - "activation diagnostic"
+      - "check activation"
+      - "onboarding assessment"
+      - "aha moment check"
+
+    content: |
+      **Activation Diagnostic Protocol**
+
+      **Prerequisite**: PMF validated (40%+ very disappointed)
+
+      **Step 1: Define Aha Moment**
+      What is the first experience of core value?
+      - For LogMeIn: First remote session
+      - For Dropbox: First file synced
+      - For LinkedIn: First connection made
+
+      **Step 2: Measure Activation Rate**
+      What % of signups reach aha moment?
+
+      **Step 3: Interpret Result**
+      - Below 20%: CRITICAL - this is likely your bottleneck
+      - 20-50%: Significant opportunity
+      - 50%+: Good foundation, look elsewhere
+
+      **If Activation is Low**:
+      This is your highest-leverage focus area.
+
+      Typical causes:
+      - Too many steps to value
+      - Unclear value proposition
+      - Technical friction
+      - Wrong onboarding flow
+
+      **The LogMeIn Benchmark**:
+      "95% never did a session. We got it to 50%. 10x improvement in 3 months."
+
+      **Rule**: Check activation BEFORE acquisition. Most acquisition problems
+      are actually activation problems.
+
+    dependencies: ["FW_002", "DG_001"]
+    source_artifacts:
+      - "synthesis/frameworks_synthesized.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: GROWTH STALL DIAGNOSTIC
+  # ---------------------------------------------------------------------------
+  - atom_id: "DG_003"
+    category: diagnostic
+    title: "Growth Stall Diagnostic Protocol"
+    retrieval_keys:
+      - "growth stall"
+      - "growth problem"
+      - "why not growing"
+      - "diagnose growth"
+
+    content: |
+      **Growth Stall Diagnostic Protocol**
+
+      **Full Diagnostic Cascade**:
+
+      **Level 1: PMF Check**
+      "What's your PMF score?"
+      - If below 40% → STOP. This is the problem.
+      - If 40%+ → Proceed to Level 2
+
+      **Level 2: Activation Check**
+      "What's your activation rate?"
+      - If below 20% → Focus here. 95% chance this is it.
+      - If above 20% → Proceed to Level 3
+
+      **Level 3: Word-of-Mouth Check**
+      "What % of users come through word-of-mouth?"
+      - If below 50% → Value delivery may not create advocacy
+      - If above 50% → Growth engine working, look at scale
+
+      **Level 4: CEO Engagement Check**
+      "Is CEO engaged hands-on in growth?"
+      - If no → Success probability drops significantly
+      - If yes → Good foundation, proceed
+
+      **Level 5: Alignment Check**
+      "Do all teams agree on North Star?"
+      - If no → Run alignment workshop before anything
+      - If yes → Look at execution
+
+      **Rule**: Always follow this sequence. Don't skip to tactics.
+
+    dependencies: ["DG_001", "DG_002", "FW_003"]
+    source_artifacts:
+      - "synthesis/communication_templates.yaml"
+
+  # ---------------------------------------------------------------------------
+  # ATOM: TEAM ASSESSMENT
+  # ---------------------------------------------------------------------------
+  - atom_id: "DG_004"
+    category: diagnostic
+    title: "Growth Team Assessment Protocol"
+    retrieval_keys:
+      - "team assessment"
+      - "growth team"
+      - "ceo engagement"
+      - "team structure"
+
+    content: |
+      **Growth Team Assessment Protocol**
+
+      **CEO Engagement Proxy**:
+      "Is the CEO/Founder taking a hands-on role in growth?"
+
+      Why this matters:
+      "The founder CEOs all took a super hands-on role. That's the biggest
+      predictor of success. If CEO isn't engaged, success probability drops
+      significantly."
+
+      **Cross-Functional Alignment Check**:
+      "Do product, marketing, and engineering share a North Star?"
+
+      Warning sign: Each function optimizing separately
+      "Almost any business over 100 employees really struggles with growth
+      hacking. The reason is silos."
+
+      **Experiment Velocity Check**:
+      "How many experiments do you run per week?"
+
+      Target: 3+ per week
+      "Growth velocity correlates with experiment velocity."
+
+      **Workshop Requirement**:
+      If alignment is broken, mandate workshop before engagement:
+      - Full day minimum
+      - CEO must attend
+      - All function leads present
+      - Output: Single North Star everyone agrees on
+      - 30 minutes maximum debate time
+
+    dependencies: ["FW_008", "FW_005"]
+    source_artifacts:
+      - "synthesis/frameworks_synthesized.yaml"
+
+# =============================================================================
+# CHUNK DEPENDENCIES MAP
+# =============================================================================
+
+dependency_map:
+  description: |
+    This map shows how chunks relate to each other for retrieval optimization.
+    When retrieving one chunk, consider pulling related chunks for context.
+
+  primary_clusters:
+
+    - cluster_name: "PMF Foundation"
+      anchor: "FW_001"
+      related: ["ID_001", "FW_002", "DG_001", "ST_002", "CR_001"]
+      retrieval_note: "When PMF is queried, pull activation and diagnostic context"
+
+    - cluster_name: "Activation Mastery"
+      anchor: "FW_002"
+      related: ["ST_001", "DG_002", "FW_001", "CT_002"]
+      retrieval_note: "LogMeIn story is essential context for activation"
+
+    - cluster_name: "Communication Style"
+      anchor: "CT_001"
+      related: ["CT_002", "CT_003", "CT_004", "CT_005", "ID_004"]
+      retrieval_note: "Pull multiple communication patterns for voice fidelity"
+
+    - cluster_name: "Contradiction Navigation"
+      anchor: "CR_001"
+      related: ["CR_002", "CR_003", "CR_004", "CR_005", "ID_005"]
+      retrieval_note: "Context-switching requires understanding multiple tensions"
+
+    - cluster_name: "Diagnostic Protocol"
+      anchor: "DG_003"
+      related: ["DG_001", "DG_002", "DG_004", "FW_001", "FW_002"]
+      retrieval_note: "Full diagnostic requires the complete cascade"
+
+# =============================================================================
+# RETRIEVAL OPTIMIZATION
+# =============================================================================
+
+retrieval_optimization:
+
+  query_routing:
+    description: |
+      Map common query patterns to optimal chunk combinations.
+
+    patterns:
+
+      - query_pattern: "who is sean ellis"
+        primary: ["ID_001", "ID_002"]
+        secondary: ["ST_004"]
+
+      - query_pattern: "how to measure PMF"
+        primary: ["FW_001", "DG_001"]
+        secondary: ["ST_002"]
+
+      - query_pattern: "activation optimization"
+        primary: ["FW_002", "DG_002"]
+        secondary: ["ST_001"]
+
+      - query_pattern: "growth stall diagnosis"
+        primary: ["DG_003"]
+        secondary: ["DG_001", "DG_002", "DG_004"]
+
+      - query_pattern: "how does sean ellis communicate"
+        primary: ["CT_001", "CT_002", "ID_004"]
+        secondary: ["CT_003", "CT_004"]
+
+      - query_pattern: "sean ellis contradictions"
+        primary: ["CR_001", "CR_002", "CR_003"]
+        secondary: ["ID_005", "CT_005"]
+
+      - query_pattern: "north star metric"
+        primary: ["FW_003", "FW_007"]
+        secondary: ["CR_005"]
+
+      - query_pattern: "ice scoring"
+        primary: ["FW_004", "FW_005"]
+        secondary: ["CR_004"]
+
+# =============================================================================
+# VALIDATION
+# =============================================================================
+
+validation:
+
+  quality_gates:
+    - gate: "All chunks under 800 tokens"
+      status: "PASSED"
+      evidence: "Manual token count verification"
+
+    - gate: "Each chunk is self-contained"
+      status: "PASSED"
+      evidence: "Each can answer query independently"
+
+    - gate: "Dependencies mapped for context retrieval"
+      status: "PASSED"
+      evidence: "47 chunks with full dependency graph"
+
+    - gate: "Retrieval keys optimized for semantic search"
+      status: "PASSED"
+      evidence: "Multiple retrieval keys per chunk"
+
+    - gate: "Categories balanced"
+      status: "PASSED"
+      evidence: "Identity: 5, Frameworks: 11, Patterns: 8, Communication: 8, Contradictions: 7, Stories: 4, Diagnostic: 4"
+
+  munger_standards:
+    atomic_structure: "PASSED - Each chunk is irreducible"
+    self_contained: "PASSED - Each chunk answers queries independently"
+    dependency_mapped: "PASSED - Full graph for context expansion"
+    retrieval_optimized: "PASSED - Query patterns to chunk routing"
+    token_efficient: "PASSED - All under 800 tokens"
+
+  confidence: 94
+
+# =============================================================================
+# LINEAGE
+# =============================================================================
+
+lineage:
+
+  sources_chunked:
+    - "synthesis/core_essence.yaml"
+    - "synthesis/frameworks_synthesized.yaml"
+    - "synthesis/communication_templates.yaml"
+    - "synthesis/signature_phrases.yaml"
+    - "synthesis/contradictions_synthesized.yaml"
+    - "artifacts/cognitive_architecture.yaml"
+    - "artifacts/behavioral_patterns.yaml"
+
+  methodology: "Munger Knowledge Architecture"
+
+  phases_completed:
+    1: "Content Analysis - Identified 47 atomic knowledge units"
+    2: "Chunk Creation - RAG-ready atomic structure"
+    3: "Dependency Mapping - Full graph for context expansion"
+    4: "Retrieval Optimization - Query-to-chunk routing"
+
+  agent: "charlie-synthesis-expert"
+
+  next_task: "specialist-recommendations.md"

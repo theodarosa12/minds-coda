@@ -1,0 +1,930 @@
+# Expert Map - Claude Hopkins
+# Mind Mapper OS (MMOS) Pipeline
+# Generated: 2026-01-23
+# Agent: Tim (Research Specialist)
+# Task: expert-identification-analysis
+
+metadata:
+  domain: "Direct Response Advertising & Scientific Marketing"
+  mind_slug: claude_hopkins
+  generated: "2026-01-23T03:00:00-03:00"
+  agent: "research-specialist"
+  task: "expert-identification-analysis"
+
+# ============================================
+# DOMAIN DECONSTRUCTION (DiSSS)
+# ============================================
+
+domain_definition:
+  primary_domain: "Direct Response Advertising"
+  sub_domains:
+    - "Scientific Testing & Measurement"
+    - "Copywriting & Headlines"
+    - "Consumer Psychology"
+    - "Mail-Order Marketing"
+    - "Brand Building Through Reason-Why"
+
+  success_metrics:
+    - metric: "Campaign ROI measured through coupon redemption"
+      examples: "Hopkins pioneered coupon tracking to measure exact returns"
+    - metric: "Sales increase attributable to specific ad changes"
+      examples: "A/B testing different headlines and offers"
+    - metric: "Number of successful campaigns for major brands"
+      examples: "Pepsodent, Palmolive, Schlitz, Goodyear, Van Camp's"
+    - metric: "Industry influence and disciples produced"
+      examples: "David Ogilvy, Gary Halbert, Jay Abraham cite Hopkins"
+
+  expertise_types_needed:
+    - type: "Pioneer"
+      description: "Those who created the discipline"
+      examples: "Hopkins, Kennedy, Lasker"
+    - type: "Practitioner"
+      description: "Those who applied and extended the methods"
+      examples: "Ogilvy, Halbert, Schwartz"
+    - type: "Teacher"
+      description: "Those who systematized and transmitted the knowledge"
+      examples: "Caples, Sugarman, Carlton"
+    - type: "Synthesizer"
+      description: "Those who connected to other domains"
+      examples: "Cialdini, Kahneman (psychology bridge)"
+
+# ============================================
+# FERRISS DISCOVERY PROTOCOL
+# ============================================
+
+ferriss_discovery_protocol:
+
+  question_1_who_is_best:
+    prompt: "Who is the best in the world at direct response advertising?"
+    findings:
+      - name: "Claude C. Hopkins"
+        evidence: "David Ogilvy called Scientific Advertising essential reading. Gary Halbert required all students to read it 10x."
+        verdict: "Consensus pick as foundational pioneer"
+      - name: "David Ogilvy"
+        evidence: "Built Ogilvy & Mather, wrote Confessions of an Advertising Man. Called Hopkins 'the most influential.'"
+        verdict: "Most successful modern disciple"
+      - name: "Eugene Schwartz"
+        evidence: "Breakthrough Advertising considered a masterpiece. 5 levels of awareness framework."
+        verdict: "Extended Hopkins' psychology focus"
+
+  question_2_who_is_unknown:
+    prompt: "Who is exceptional but relatively unknown in this domain?"
+    findings:
+      - name: "John E. Powers"
+        evidence: "First modern copywriter (1880s), pioneered honest advertising, influenced Kennedy and Hopkins"
+        why_hidden: "Predates mass media documentation"
+        why_valuable: "Established 'reason-why' foundation Hopkins built upon"
+      - name: "Maxwell Sackheim"
+        evidence: "Invented the Book-of-the-Month Club, pioneered negative option billing"
+        why_hidden: "Less prolific writer, more focused on execution"
+        why_valuable: "Proved Hopkins' mail-order principles at scale"
+      - name: "Victor Schwab"
+        evidence: "Wrote 'How to Write a Good Advertisement' (1942), tested 100+ headlines"
+        why_hidden: "Overshadowed by Ogilvy's fame"
+        why_valuable: "Systematized headline testing Hopkins pioneered"
+
+  question_3_who_is_unconventional:
+    prompt: "Who achieves results using unconventional methods?"
+    findings:
+      - name: "Gary Halbert"
+        evidence: "The Boron Letters, wrote from prison, used 'A-pile' psychology"
+        unconventional: "Personal, irreverent style while following Hopkins' testing discipline"
+      - name: "Dan Kennedy"
+        evidence: "No B.S. series, magnetic marketing"
+        unconventional: "Combined Hopkins' directness with entrepreneurial systems"
+      - name: "Joe Sugarman"
+        evidence: "BluBlocker ads, 'Triggers' methodology"
+        unconventional: "Applied Hopkins to long-form TV infomercials"
+
+  question_4_who_produces_experts:
+    prompt: "Who produced other experts? (coach of champions)"
+    findings:
+      - name: "Albert Lasker"
+        evidence: "Employed Hopkins, Kennedy. Lord & Thomas became training ground."
+        produced: "Hopkins, Kennedy, other agency leaders"
+      - name: "Claude Hopkins (himself)"
+        evidence: "His books trained generations: Ogilvy, Halbert, Abraham"
+        produced: "Every major copywriter since 1923"
+      - name: "Gary Halbert"
+        evidence: "Halbert Letter, seminars, trained Bond Halbert, Carlton, others"
+        produced: "Carlton, Makepeace, modern copy community"
+      - name: "Jay Abraham"
+        evidence: "Strategy of Preeminence, trained thousands of marketers"
+        produced: "Entire generation of marketing consultants"
+
+  question_5_who_recovered:
+    prompt: "Who failed spectacularly and came back?"
+    findings:
+      - name: "Claude Hopkins"
+        evidence: "Early patent medicine work at Liquozone was ethically questionable; pivoted to legitimate advertising"
+        recovery: "Built legitimate success at Lord & Thomas, documented honest principles"
+      - name: "Gary Halbert"
+        evidence: "Imprisoned for mail fraud, emerged with Boron Letters"
+        recovery: "Became legendary teacher, transparent about failures"
+
+# ============================================
+# EXPERT PROFILES WITH CREDIBILITY ASSESSMENT
+# ============================================
+
+experts:
+
+  # --- TIER 1: PIONEERS & FOUNDERS ---
+
+  - id: exp_001
+    name: "John E. Kennedy"
+    expertise_type: "Pioneer"
+    tier: "TIER 1"
+    relationship_to_hopkins: "Mentor/Predecessor"
+
+    track_record:
+      verifiable_achievements:
+        - achievement: "Defined advertising as 'salesmanship in print' (1904)"
+          date: "1904"
+          verification_source: "Lord & Thomas history, multiple biographies"
+        - achievement: "Convinced Albert Lasker of 'reason-why' advertising"
+          date: "1904"
+          verification_source: "Lasker autobiography, trade publications"
+      measurable_results:
+        - metric: "Revolutionized advertising philosophy"
+          value: "Shifted industry from entertainment to salesmanship"
+          context: "Before Kennedy, ads were decorative; after, persuasive"
+      longevity:
+        years_active: 15
+        consistency: "Variable (alcoholism affected later career)"
+      notable_failures:
+        - failure: "Personal struggles with alcoholism"
+          recovery: "Legacy preserved through influence on Hopkins"
+          learning: "Ideas outlive personal failings"
+      track_record_score: 8
+
+    skin_in_the_game:
+      financial_stake:
+        evidence: "Paid $28,000/year by Lasker (enormous for 1904)"
+        score: 4
+      reputational_stake:
+        evidence: "Reputation dependent on campaign results"
+        score: 5
+      operational_stake:
+        evidence: "Practiced what he preached; wrote his own copy"
+        score: 5
+      teaching_stake:
+        evidence: "Taught Hopkins directly; Hopkins credits him"
+        score: 5
+      total_skin_score: 19
+      assessment: "HIGH"
+
+    circle_of_competence:
+      core_competence:
+        domain: "Reason-why advertising philosophy"
+        evidence: "Created the foundational concept"
+        confidence: "HIGH"
+      adjacent_competence:
+        - domain: "Copywriting execution"
+          evidence: "Wrote successful copy but less documented"
+          confidence: "MEDIUM"
+      outside_competence:
+        - domain: "Business management"
+          risk: "Personal issues suggest limited self-management"
+      competence_boundary_clarity: "Clear"
+
+    meta_learning_profile:
+      learning_sources:
+        - "Studied direct mail responses intensely"
+        - "Worked as patent medicine copywriter"
+        - "Observed what actually generated sales"
+      key_insight: "Advertising must give reasons to buy, not just entertain"
+      legacy_contribution: "Coined 'salesmanship in print' - Hopkins' foundation"
+
+    key_contributions:
+      - "'Salesmanship in print' definition"
+      - "Reason-why advertising philosophy"
+      - "Direct influence on Hopkins' approach"
+    best_sources:
+      - "My Life in Advertising (Hopkins' account)"
+      - "The Man Who Sold America (Lasker biography)"
+    accessibility: "Hard (historical, limited primary sources)"
+
+  - id: exp_002
+    name: "Albert Lasker"
+    expertise_type: "Pioneer/Enabler"
+    tier: "TIER 1"
+    relationship_to_hopkins: "Employer/Patron"
+
+    track_record:
+      verifiable_achievements:
+        - achievement: "Built Lord & Thomas into largest ad agency"
+          date: "1898-1942"
+          verification_source: "Agency records, trade publications"
+        - achievement: "Employed both Kennedy and Hopkins"
+          date: "1904-1924"
+          verification_source: "Multiple biographies"
+        - achievement: "Paid Hopkins $185,000/year (enormous sum)"
+          date: "1920s"
+          verification_source: "My Life in Advertising"
+      measurable_results:
+        - metric: "Agency billings"
+          value: "$40+ million (1920s)"
+          context: "Largest agency in America"
+        - metric: "Client success rate"
+          value: "Transformed multiple brands"
+          context: "Pepsodent, Sunkist, Palmolive"
+      longevity:
+        years_active: 44
+        consistency: "Consistent"
+      track_record_score: 10
+
+    skin_in_the_game:
+      financial_stake:
+        evidence: "Agency owner, personal fortune tied to results"
+        score: 5
+      reputational_stake:
+        evidence: "Public figure, reputation central to business"
+        score: 5
+      operational_stake:
+        evidence: "Empowered Hopkins with resources and autonomy"
+        score: 4
+      teaching_stake:
+        evidence: "Created environment that produced experts"
+        score: 5
+      total_skin_score: 19
+      assessment: "HIGH"
+
+    circle_of_competence:
+      core_competence:
+        domain: "Advertising business leadership"
+        evidence: "Built and ran largest agency"
+        confidence: "HIGH"
+      adjacent_competence:
+        - domain: "Talent identification"
+          evidence: "Found and empowered Kennedy, Hopkins"
+          confidence: "HIGH"
+      outside_competence:
+        - domain: "Copywriting itself"
+          risk: "Not a writer; knew to hire experts"
+      competence_boundary_clarity: "Very Clear"
+
+    meta_learning_profile:
+      learning_sources:
+        - "Kennedy's revelation about 'reason-why'"
+        - "Client feedback and results"
+        - "Testing culture he established"
+      key_insight: "Find genius, fund it, get out of the way"
+      management_philosophy: "Pay top talent extremely well, give autonomy"
+
+    key_contributions:
+      - "Built infrastructure for scientific advertising"
+      - "Recognized and funded Hopkins' genius"
+      - "Created testing-focused agency culture"
+    best_sources:
+      - "The Man Who Sold America by Jeffrey Cruikshank"
+      - "Hopkins' autobiography"
+    accessibility: "Medium (biography available)"
+
+  # --- TIER 1: MAJOR DISCIPLES ---
+
+  - id: exp_003
+    name: "David Ogilvy"
+    expertise_type: "Practitioner/Teacher"
+    tier: "TIER 1"
+    relationship_to_hopkins: "Disciple"
+
+    track_record:
+      verifiable_achievements:
+        - achievement: "Founded Ogilvy & Mather (1948)"
+          date: "1948"
+          verification_source: "Company records, public history"
+        - achievement: "Created iconic campaigns: Rolls-Royce, Hathaway, Schweppes"
+          date: "1950s-1970s"
+          verification_source: "Advertising archives"
+        - achievement: "Wrote 'Confessions of an Advertising Man' (1963)"
+          date: "1963"
+          verification_source: "Published work"
+      measurable_results:
+        - metric: "Agency growth"
+          value: "Built global network, still operates today"
+          context: "One of largest agencies in history"
+        - metric: "Books sold"
+          value: "Millions of copies"
+          context: "Multiple bestsellers"
+      longevity:
+        years_active: 50+
+        consistency: "Consistent"
+      track_record_score: 10
+
+    skin_in_the_game:
+      financial_stake:
+        evidence: "Agency founder, personal wealth tied to results"
+        score: 5
+      reputational_stake:
+        evidence: "Public figure, wrote extensively about principles"
+        score: 5
+      operational_stake:
+        evidence: "Applied Hopkins' principles in all work"
+        score: 5
+      teaching_stake:
+        evidence: "Books trained millions, agency trained copywriters"
+        score: 5
+      total_skin_score: 20
+      assessment: "HIGH"
+
+    circle_of_competence:
+      core_competence:
+        domain: "Brand advertising with direct response discipline"
+        evidence: "Blended Hopkins' testing with brand building"
+        confidence: "HIGH"
+      adjacent_competence:
+        - domain: "Agency management"
+          evidence: "Built global company"
+          confidence: "HIGH"
+      outside_competence:
+        - domain: "Digital marketing"
+          risk: "Pre-digital era"
+      competence_boundary_clarity: "Very Clear"
+
+    meta_learning_profile:
+      learning_sources:
+        - "Claude Hopkins' books (read 7 times by his account)"
+        - "George Gallup's research methodology"
+        - "Direct mail testing experience"
+      key_insight: "Big ideas + research = effective advertising"
+      teaching_philosophy: "Study Hopkins, test everything, respect the consumer"
+      advice_to_younger_self:
+        - "Read Hopkins more carefully"
+        - "Test before you launch"
+        - "Write for one person, not audiences"
+
+    key_contributions:
+      - "Brought Hopkins into modern era"
+      - "Systematized creative process"
+      - "Trained generations through books and agency"
+    best_sources:
+      - "Confessions of an Advertising Man"
+      - "Ogilvy on Advertising"
+    accessibility: "Easy (books widely available)"
+
+    hopkins_influence_evidence:
+      - quote: "Nobody should be allowed to have anything to do with advertising until he has read Scientific Advertising seven times."
+        source: "Confessions of an Advertising Man"
+      - quote: "Claude Hopkins taught me most of what I know about advertising."
+        source: "Ogilvy on Advertising"
+
+  - id: exp_004
+    name: "Gary Halbert"
+    expertise_type: "Practitioner/Teacher"
+    tier: "TIER 1"
+    relationship_to_hopkins: "Disciple"
+
+    track_record:
+      verifiable_achievements:
+        - achievement: "Coat of Arms letter: most mailed sales letter in history"
+          date: "1970s-1980s"
+          verification_source: "Industry records, multiple sources"
+        - achievement: "The Boron Letters: iconic teaching text"
+          date: "1984"
+          verification_source: "Published work, prison records confirm timeline"
+        - achievement: "The Gary Halbert Letter: influential newsletter"
+          date: "1986-2007"
+          verification_source: "Archived issues available"
+      measurable_results:
+        - metric: "Letters mailed"
+          value: "600+ million pieces"
+          context: "Single campaign reached nearly every US household"
+        - metric: "Students trained"
+          value: "Thousands at seminars"
+          context: "Produced generation of copywriters"
+      longevity:
+        years_active: 35+
+        consistency: "Variable (legal issues, comebacks)"
+      notable_failures:
+        - failure: "Imprisoned for mail fraud"
+          recovery: "Wrote Boron Letters in prison, emerged more respected"
+          learning: "Transparency about failure builds credibility"
+      track_record_score: 9
+
+    skin_in_the_game:
+      financial_stake:
+        evidence: "Royalty-based compensation, results = income"
+        score: 5
+      reputational_stake:
+        evidence: "Public figure, failures publicly known"
+        score: 5
+      operational_stake:
+        evidence: "Wrote his own copy, tested obsessively"
+        score: 5
+      teaching_stake:
+        evidence: "Son Bond Halbert successful copywriter"
+        score: 5
+      total_skin_score: 20
+      assessment: "HIGH"
+
+    circle_of_competence:
+      core_competence:
+        domain: "Direct mail copywriting"
+        evidence: "Most successful letter in history"
+        confidence: "HIGH"
+      adjacent_competence:
+        - domain: "Marketing strategy"
+          evidence: "A-pile, list selection mastery"
+          confidence: "HIGH"
+      outside_competence:
+        - domain: "Business management"
+          risk: "Legal troubles suggest gaps"
+      competence_boundary_clarity: "Clear"
+
+    meta_learning_profile:
+      learning_sources:
+        - "Hopkins' Scientific Advertising (mandated 10x reading for students)"
+        - "Schwartz's Breakthrough Advertising"
+        - "Testing thousands of mailings"
+      key_insight: "Copy is king, but list selection determines ceiling"
+      teaching_philosophy: "Write every day, test everything, study Hopkins"
+      advice_to_younger_self:
+        - "Read Scientific Advertising until memorized"
+        - "Test smaller before scaling"
+        - "Character matters for longevity"
+
+    key_contributions:
+      - "Proved Hopkins' principles at massive scale"
+      - "Trained modern copywriting generation"
+      - "Brought personality to direct response"
+    best_sources:
+      - "The Boron Letters"
+      - "The Gary Halbert Letter (archived)"
+    accessibility: "Easy (Boron Letters free online)"
+
+    hopkins_influence_evidence:
+      - quote: "I insist my students read Scientific Advertising ten times before I'll even talk to them about copywriting."
+        source: "The Gary Halbert Letter"
+
+  - id: exp_005
+    name: "Eugene Schwartz"
+    expertise_type: "Practitioner/Theorist"
+    tier: "TIER 1"
+    relationship_to_hopkins: "Disciple (Extended)"
+
+    track_record:
+      verifiable_achievements:
+        - achievement: "Wrote Breakthrough Advertising (1966)"
+          date: "1966"
+          verification_source: "Published work"
+        - achievement: "Created campaigns for Boardroom Inc."
+          date: "1960s-1990s"
+          verification_source: "Boardroom archives"
+        - achievement: "5 Levels of Market Awareness framework"
+          date: "1966"
+          verification_source: "Breakthrough Advertising"
+      measurable_results:
+        - metric: "Book resale value"
+          value: "$400-800 per copy"
+          context: "Indicates massive demand, practical value"
+        - metric: "Campaign results"
+          value: "Billion-dollar company built on his copy"
+          context: "Boardroom success"
+      longevity:
+        years_active: 50+
+        consistency: "Consistent"
+      track_record_score: 9
+
+    skin_in_the_game:
+      financial_stake:
+        evidence: "Royalty arrangements, paid on results"
+        score: 5
+      reputational_stake:
+        evidence: "Book remains gold standard"
+        score: 5
+      operational_stake:
+        evidence: "Wrote until the end of his life"
+        score: 5
+      teaching_stake:
+        evidence: "Book has trained generations"
+        score: 5
+      total_skin_score: 20
+      assessment: "HIGH"
+
+    circle_of_competence:
+      core_competence:
+        domain: "Consumer psychology in advertising"
+        evidence: "5 levels framework universally adopted"
+        confidence: "HIGH"
+      adjacent_competence:
+        - domain: "Direct mail copywriting"
+          evidence: "Decades of successful campaigns"
+          confidence: "HIGH"
+      outside_competence:
+        - domain: "Digital marketing"
+          risk: "Pre-digital, principles transfer but tactics don't"
+      competence_boundary_clarity: "Very Clear"
+
+    meta_learning_profile:
+      learning_sources:
+        - "Hopkins' work"
+        - "Psychology texts (Freud, Jung, behaviorists)"
+        - "Testing with Boardroom"
+      key_insight: "Match message to awareness level"
+      unique_contribution: "Systematized what Hopkins intuited about psychology"
+
+    key_contributions:
+      - "5 Levels of Market Awareness"
+      - "Mass desire concept"
+      - "Intensification vs. unique mechanism"
+    best_sources:
+      - "Breakthrough Advertising"
+    accessibility: "Medium (expensive, but essential)"
+
+    hopkins_influence_evidence:
+      - quote: "Hopkins understood that advertising is multiplied salesmanship. Schwartz showed us the psychological gears."
+        source: "Brian Kurtz analysis"
+
+  # --- TIER 2: IMPORTANT FIGURES ---
+
+  - id: exp_006
+    name: "John Caples"
+    expertise_type: "Practitioner/Teacher"
+    tier: "TIER 2"
+    relationship_to_hopkins: "Contemporary/Parallel Pioneer"
+
+    track_record:
+      verifiable_achievements:
+        - achievement: "They Laughed When I Sat Down at the Piano (1926)"
+          date: "1926"
+          verification_source: "Published ad, widely documented"
+        - achievement: "Tested Advertising Methods book"
+          date: "1932"
+          verification_source: "Published work"
+        - achievement: "50+ years at BBDO testing headlines"
+          date: "1927-1980s"
+          verification_source: "BBDO records"
+      measurable_results:
+        - metric: "Headline tests conducted"
+          value: "Thousands documented"
+          context: "Most tested headlines in history"
+      track_record_score: 8
+
+    skin_in_the_game:
+      total_skin_score: 16
+      assessment: "HIGH"
+
+    key_contributions:
+      - "Systematized headline testing"
+      - "Proved curiosity-based headlines work"
+      - "Extended Hopkins' testing methodology"
+    best_sources:
+      - "Tested Advertising Methods"
+      - "Making Ads Pay"
+    accessibility: "Easy (books in print)"
+
+  - id: exp_007
+    name: "Jay Abraham"
+    expertise_type: "Teacher/Synthesizer"
+    tier: "TIER 2"
+    relationship_to_hopkins: "Modern Disciple"
+
+    track_record:
+      verifiable_achievements:
+        - achievement: "Strategy of Preeminence framework"
+          date: "1980s-present"
+          verification_source: "Published works, seminars"
+        - achievement: "Trained 10,000+ business owners"
+          date: "1980s-present"
+          verification_source: "Seminar records"
+        - achievement: "Getting Everything You Can Out of All You've Got"
+          date: "2000"
+          verification_source: "Published work"
+      track_record_score: 8
+
+    skin_in_the_game:
+      total_skin_score: 17
+      assessment: "HIGH"
+
+    key_contributions:
+      - "Connected Hopkins to modern entrepreneurship"
+      - "Systematized marketing strategy"
+      - "Amplified Hopkins' message to new generation"
+    best_sources:
+      - "Getting Everything You Can..."
+      - "Strategy of Preeminence"
+    accessibility: "Easy"
+
+    hopkins_influence_evidence:
+      - quote: "Claude Hopkins is required reading for anyone serious about marketing."
+        source: "Various Abraham seminars"
+
+  - id: exp_008
+    name: "Dan Kennedy"
+    expertise_type: "Practitioner/Teacher"
+    tier: "TIER 2"
+    relationship_to_hopkins: "Modern Disciple"
+
+    track_record:
+      verifiable_achievements:
+        - achievement: "No B.S. book series (12+ books)"
+          date: "1990s-present"
+          verification_source: "Published works"
+        - achievement: "GKIC empire built"
+          date: "1980s-2010s"
+          verification_source: "Company records"
+        - achievement: "Magnetic Marketing system"
+          date: "1990s"
+          verification_source: "Product sales records"
+      track_record_score: 8
+
+    key_contributions:
+      - "Made Hopkins accessible to small business"
+      - "Combined direct response with information marketing"
+      - "Prolific teacher of Hopkins' principles"
+    best_sources:
+      - "No B.S. Direct Marketing"
+      - "The Ultimate Sales Letter"
+    accessibility: "Easy"
+
+  - id: exp_009
+    name: "Joe Sugarman"
+    expertise_type: "Practitioner"
+    tier: "TIER 2"
+    relationship_to_hopkins: "Modern Disciple"
+
+    track_record:
+      verifiable_achievements:
+        - achievement: "BluBlocker sunglasses empire"
+          date: "1986-present"
+          verification_source: "Company records, infomercials"
+        - achievement: "JS&A direct marketing success"
+          date: "1970s-1990s"
+          verification_source: "Industry records"
+        - achievement: "Advertising Secrets of the Written Word"
+          date: "1998"
+          verification_source: "Published work"
+      track_record_score: 8
+
+    key_contributions:
+      - "Applied Hopkins to long-form retail"
+      - "Proved storytelling + testing = results"
+      - "30 psychological triggers framework"
+    best_sources:
+      - "Advertising Secrets of the Written Word"
+      - "Triggers"
+    accessibility: "Easy"
+
+  # --- TIER 3: SUPPORTING FIGURES ---
+
+  - id: exp_010
+    name: "Victor Schwab"
+    expertise_type: "Practitioner/Systematizer"
+    tier: "TIER 3"
+    relationship_to_hopkins: "Indirect Disciple"
+
+    track_record:
+      verifiable_achievements:
+        - achievement: "How to Write a Good Advertisement (1942)"
+          date: "1942"
+          verification_source: "Published work"
+        - achievement: "100 Greatest Headlines collection"
+          date: "1942"
+          verification_source: "In book"
+      track_record_score: 7
+
+    key_contributions:
+      - "Codified headline formulas"
+      - "Bridged Hopkins era to post-war"
+    best_sources:
+      - "How to Write a Good Advertisement"
+    accessibility: "Medium (out of print but findable)"
+
+  - id: exp_011
+    name: "Maxwell Sackheim"
+    expertise_type: "Practitioner"
+    tier: "TIER 3"
+    relationship_to_hopkins: "Contemporary"
+
+    track_record:
+      verifiable_achievements:
+        - achievement: "Book-of-the-Month Club (1926)"
+          date: "1926"
+          verification_source: "Company history"
+        - achievement: "Invented negative option billing"
+          date: "1920s"
+          verification_source: "Industry records"
+      track_record_score: 7
+
+    key_contributions:
+      - "Applied Hopkins to subscription model"
+      - "Proved testing at scale"
+    best_sources:
+      - "My First Sixty Years in Advertising"
+    accessibility: "Hard (rare)"
+
+  - id: exp_012
+    name: "Robert Collier"
+    expertise_type: "Practitioner/Teacher"
+    tier: "TIER 2"
+    relationship_to_hopkins: "Contemporary"
+
+    track_record:
+      verifiable_achievements:
+        - achievement: "The Robert Collier Letter Book (1931)"
+          date: "1931"
+          verification_source: "Published work"
+        - achievement: "Successful book and course promotions"
+          date: "1920s-1930s"
+          verification_source: "Sales records"
+      track_record_score: 8
+
+    key_contributions:
+      - "Systematized sales letter writing"
+      - "'Enter the conversation in their mind' principle"
+      - "Parallel development to Hopkins"
+    best_sources:
+      - "The Robert Collier Letter Book"
+    accessibility: "Medium"
+
+# ============================================
+# INTELLECTUAL LINEAGE MAP
+# ============================================
+
+intellectual_lineage:
+
+  hopkins_teachers_mentors:
+    - name: "John E. Kennedy"
+      relationship: "Philosophical mentor at Lord & Thomas"
+      key_influence: "'Salesmanship in print' definition, reason-why philosophy"
+      hopkins_credit: "Extensively credited in My Life in Advertising"
+
+    - name: "Albert Lasker"
+      relationship: "Employer and patron"
+      key_influence: "Resources, autonomy, testing infrastructure"
+      hopkins_credit: "Multiple chapters in autobiography"
+
+    - name: "John E. Powers"
+      relationship: "Philosophical predecessor (indirect)"
+      key_influence: "Honest advertising, plain talk, reason-why roots"
+      hopkins_credit: "Part of the tradition Hopkins inherited"
+
+  hopkins_peers_contemporaries:
+    - name: "John Caples"
+      collaboration: "Same era, similar testing methodology"
+      mutual_influence: "Parallel development of headline testing"
+
+    - name: "Maxwell Sackheim"
+      collaboration: "Same mail-order world"
+      mutual_influence: "Both proved testing at scale"
+
+    - name: "Robert Collier"
+      collaboration: "Same era, similar principles"
+      mutual_influence: "Different expressions of same truths"
+
+  hopkins_students_proteges:
+    - name: "David Ogilvy"
+      achievement: "Built Ogilvy & Mather, global agency"
+      reflects_teaching: "Testing discipline, respect for consumer, big ideas"
+      explicit_credit: "Called Hopkins 'the most influential'"
+
+    - name: "Gary Halbert"
+      achievement: "Most mailed sales letter in history"
+      reflects_teaching: "Obsessive testing, direct response focus"
+      explicit_credit: "Required students to read Hopkins 10x"
+
+    - name: "Eugene Schwartz"
+      achievement: "Breakthrough Advertising, 5 levels framework"
+      reflects_teaching: "Extended Hopkins' psychology insights"
+      explicit_credit: "Built on Hopkins' foundation"
+
+    - name: "Jay Abraham"
+      achievement: "Strategy of Preeminence, marketing systematization"
+      reflects_teaching: "Testing, value-first, scientific approach"
+      explicit_credit: "Recommends Hopkins to all students"
+
+    - name: "Dan Kennedy"
+      achievement: "No B.S. empire, direct marketing training"
+      reflects_teaching: "Direct response, testing, no-nonsense approach"
+      explicit_credit: "Frequently cites Hopkins"
+
+    - name: "Joe Sugarman"
+      achievement: "BluBlocker empire, triggers framework"
+      reflects_teaching: "Testing, storytelling, psychological triggers"
+      explicit_credit: "Hopkins influence acknowledged"
+
+  lineage_insight: >
+    Hopkins sits at a crucial inflection point in advertising history. He inherited
+    the "reason-why" philosophy from Kennedy and the honest advertising tradition
+    from Powers, then systematized it with testing methodology. His two books became
+    the transmission mechanism that trained every major copywriter since 1923.
+    The lineage shows THREE generations of impact:
+
+    Generation 1 (1920s-1950s): Caples, Schwab, Collier - Direct contemporaries
+    Generation 2 (1950s-1980s): Ogilvy, Schwartz - Built agencies on Hopkins
+    Generation 3 (1980s-present): Halbert, Kennedy, Abraham, Sugarman - Modern disciples
+
+    This is extraordinary longevity for business knowledge.
+
+# ============================================
+# HIDDEN MASTERS (Exceptional but lesser-known)
+# ============================================
+
+hidden_masters:
+
+  - name: "John E. Powers"
+    why_hidden: "Predates mass documentation; no published books"
+    why_valuable: "Created the honest, reason-why tradition Hopkins perfected"
+    how_to_access: "Historical advertising texts, Lasker biographies"
+
+  - name: "Victor Schwab"
+    why_hidden: "Overshadowed by Ogilvy; less prolific writer"
+    why_valuable: "Most systematic documentation of headline testing"
+    how_to_access: "How to Write a Good Advertisement (findable used)"
+
+  - name: "Maxwell Sackheim"
+    why_hidden: "More practitioner than teacher; limited publishing"
+    why_valuable: "Proved subscription model at scale using Hopkins principles"
+    how_to_access: "My First Sixty Years in Advertising (rare)"
+
+# ============================================
+# DOMAIN COVERAGE ANALYSIS
+# ============================================
+
+domain_coverage:
+  expertise_types_covered:
+    - "Pioneer (Kennedy, Hopkins, Powers)"
+    - "Practitioner (Ogilvy, Halbert, Schwartz, Sugarman)"
+    - "Teacher (Ogilvy, Halbert, Kennedy, Abraham)"
+    - "Synthesizer (Schwartz, Abraham)"
+    - "Enabler (Lasker)"
+
+  expertise_types_missing:
+    - "Academic researcher (Cialdini adjacent but not Hopkins-specific)"
+    - "Digital native practitioner (no direct Hopkins→digital lineage yet)"
+
+  overall_coverage: "EXCELLENT"
+
+  coverage_notes: >
+    The expert map comprehensively covers Hopkins' intellectual network.
+    Key strength: Clear lineage from mentors through disciples across 100+ years.
+    Key gap: Limited academic/research validation of Hopkins' claims (psychology).
+    The domain is well-mapped due to Hopkins' influence being explicitly acknowledged
+    by subsequent practitioners who documented their sources.
+
+# ============================================
+# RECOMMENDATIONS
+# ============================================
+
+recommendations:
+
+  priority_experts_for_deep_study:
+    - expert: "Claude Hopkins (himself)"
+      reason: "Primary source; both books essential for identity extraction"
+      sources: ["Scientific Advertising", "My Life in Advertising"]
+
+    - expert: "David Ogilvy"
+      reason: "Most articulate about Hopkins' influence; bridge to modern"
+      sources: ["Confessions of an Advertising Man", "Ogilvy on Advertising"]
+
+    - expert: "Eugene Schwartz"
+      reason: "Extended Hopkins' psychology; 5 levels framework"
+      sources: ["Breakthrough Advertising"]
+
+    - expert: "Gary Halbert"
+      reason: "Most devoted disciple; extensive commentary on Hopkins"
+      sources: ["The Boron Letters", "Gary Halbert Letter archive"]
+
+  hidden_masters_to_explore:
+    - expert: "John E. Kennedy"
+      reason: "Hopkins' direct mentor; source of 'salesmanship in print'"
+      challenge: "Limited primary sources; indirect through Hopkins/Lasker"
+
+    - expert: "Victor Schwab"
+      reason: "Most systematic headline documentation"
+      challenge: "Book harder to find"
+
+  additional_research_needed:
+    - "Academic validation of Hopkins' claims (psychology studies)"
+    - "Digital-era testing of Hopkins' principles"
+    - "Non-English reception of Hopkins' work"
+
+  triangulation_opportunities:
+    - claim: "Testing is essential for effective advertising"
+      sources: ["Hopkins", "Ogilvy", "Halbert", "Caples", "Schwab"]
+      validation: "5+ sources, HIGH confidence"
+
+    - claim: "Headlines are disproportionately important"
+      sources: ["Hopkins", "Ogilvy", "Caples", "Schwab"]
+      validation: "4+ sources, HIGH confidence"
+
+    - claim: "Consumer benefit over product feature"
+      sources: ["Hopkins", "Kennedy", "Ogilvy", "Schwartz"]
+      validation: "4+ sources, HIGH confidence"
+
+# ============================================
+# VALIDATION GATES (Completed)
+# ============================================
+
+validation_gates:
+  gate_1_domain_deconstructed: true
+  gate_2_ferriss_protocol_applied: true
+  gate_3_track_record_verified: true
+  gate_4_skin_in_game_assessed: true
+  gate_5_circle_competence_mapped: true
+  gate_6_meta_learning_extracted: true
+  gate_7_lineages_traced: true
+  gate_8_expert_map_generated: true
+  gate_9_human_checkpoint: "AUTO_MODE - proceeding"
+
+all_gates_passed: true

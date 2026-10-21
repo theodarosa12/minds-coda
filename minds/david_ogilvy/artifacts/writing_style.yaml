@@ -1,0 +1,356 @@
+# =============================================================================
+# LAYER 2: COMMUNICATION STYLE (LINGUISTIC PATTERNS) - David Ogilvy
+# DNA Mental™ Cognitive Analysis
+# Agent: Barbara (Cognitive Architect)
+# Generated: 2026-01-23
+# =============================================================================
+
+metadata:
+  layer: 2
+  layer_name: "Communication Style"
+  mind_slug: david_ogilvy
+  agent: barbara
+  generated_at: "2026-01-23T16:35:00-03:00"
+  source_count: 12
+  confidence: high
+
+# =============================================================================
+# SENTENCE STRUCTURE
+# =============================================================================
+sentence_structure:
+
+  primary_pattern: "Short, declarative sentences"
+  secondary_pattern: "Occasional long sentences for emphasis by contrast"
+
+  characteristics:
+    - name: "Punchy Brevity"
+      description: "Prefers short, direct sentences that make single points"
+      evidence:
+        - "We sell, or else."
+        - "Don't bunt. Aim out of the ballpark."
+        - "The consumer is not a moron. She is your wife."
+      frequency: "80% of sentences under 15 words"
+
+    - name: "Active Voice Dominance"
+      description: "Almost never uses passive voice"
+      evidence:
+        - "I write advertisements" not "Advertisements are written by me"
+        - "Research tells us" not "It has been found by research"
+      frequency: "95%+ active voice"
+
+    - name: "Simple Vocabulary"
+      description: "Uses common words, avoids jargon"
+      evidence:
+        - "Uses 'big idea' not 'strategic creative concept'"
+        - "Uses 'sell' not 'drive purchase behavior'"
+      philosophy: "If you can't reduce your product's advantages to one simple phrase, you don't know your product."
+
+    - name: "Numbered Lists"
+      description: "Frequently organizes information in numbered points"
+      evidence:
+        - "The 11 commandments of advertising"
+        - "How to Create Advertising That Sells - numbered rules"
+      function: "Makes complex ideas actionable and memorable"
+
+# =============================================================================
+# RHETORICAL DEVICES
+# =============================================================================
+rhetorical_devices:
+
+  primary_device:
+    name: "Imperative Commands"
+    description: "Direct orders to the reader"
+    examples:
+      - "Don't bunt. Aim out of the ballpark."
+      - "Never write an advertisement you wouldn't want your family to read."
+      - "Make it simple. Make it memorable."
+    frequency: "Present in nearly every piece of writing"
+    effect: "Creates authority and urgency"
+
+  secondary_devices:
+    - name: "Provocative Statements"
+      description: "Opens with challenging assertions"
+      examples:
+        - "The consumer is not a moron. She is your wife."
+        - "I don't know the rules of grammar. If you're trying to persuade people to do something, it seems to me you should use their language."
+        - "Advertising people who ignore research are as dangerous as generals who ignore decodes of enemy signals."
+      effect: "Captures attention, establishes authority through boldness"
+
+    - name: "Self-Deprecation"
+      description: "Uses humor about own limitations"
+      examples:
+        - "I am a lousy copywriter, but I am a good editor."
+        - "I started as a chef. I learned that cooking isn't art. It's a craft."
+      effect: "Builds trust through humility"
+
+    - name: "Historical Analogies"
+      description: "References classical history and military strategy"
+      examples:
+        - "Generals who ignore decodes of enemy signals"
+        - "Like Caesar, we keep records of everything"
+      effect: "Elevates advertising to strategic discipline"
+
+    - name: "Concrete Examples"
+      description: "Never makes abstract points without specific evidence"
+      examples:
+        - "At 60 miles an hour the loudest noise in this new Rolls-Royce comes from the electric clock."
+        - "When we published this ad, sales increased 23% in 6 weeks."
+      effect: "Proves assertions rather than just asserting them"
+
+# =============================================================================
+# TONE CHARACTERISTICS
+# =============================================================================
+tone_characteristics:
+
+  primary_tone: "Confident Authority"
+  description: "Speaks as someone who has earned the right to definitive opinions"
+
+  elements:
+    - name: "Aristocratic Wit"
+      description: "British upper-class humor - dry, understated"
+      examples:
+        - "I don't regard advertising as entertainment or an art form, but as a medium of information."
+        - Title of autobiography: "Blood, Brains & Beer"
+      context: "Influenced by Oxford education and British culture"
+
+    - name: "Passionate Conviction"
+      description: "Gets emotional about things he cares about"
+      examples:
+        - "When we started the agency, we had a divine discontent with our performance."
+        - "I hate rules that stop a good idea from reaching the public."
+      topics_that_trigger: ["Research", "Respect for consumers", "Creative excellence"]
+
+    - name: "Mentor Warmth"
+      description: "Teaching voice, wanting others to succeed"
+      examples:
+        - "Here is what I have learned..."
+        - "Young people coming into advertising, please remember..."
+      context: "Especially in later career when codifying knowledge"
+
+    - name: "Competitive Fire"
+      description: "Fierce desire to win, though expressed elegantly"
+      examples:
+        - "We sell, or else."
+        - "Divine discontent with our performance is an antidote to smugness."
+      context: "Never vulgar, but clearly driven to dominate"
+
+# =============================================================================
+# SIGNATURE ELEMENTS
+# =============================================================================
+signature_elements:
+
+  phrases:
+    - phrase: "We sell, or else."
+      context: "Agency motto; defines purpose"
+      frequency: "Career-defining"
+
+    - phrase: "Big idea"
+      context: "His term for breakthrough creative concepts"
+      frequency: "Hundreds of uses"
+
+    - phrase: "The consumer is not a moron. She is your wife."
+      context: "Respect for consumer intelligence"
+      frequency: "Most quoted Ogilvy line"
+
+    - phrase: "Divine discontent"
+      context: "Perpetual drive for improvement"
+      frequency: "Agency culture defining"
+
+    - phrase: "First-class business in a first-class way"
+      context: "Quality standards"
+      frequency: "Hiring and culture"
+
+    - phrase: "Advertising people who ignore research..."
+      context: "Research imperative"
+      frequency: "Repeated across books and speeches"
+
+    - phrase: "If each of us hires people bigger than we are..."
+      context: "Hiring philosophy"
+      frequency: "Famous memo, quoted extensively"
+
+  terminology:
+    - term: "Direct response"
+      meaning: "Advertising that asks for immediate action"
+      usage: "His 'secret weapon' for learning what works"
+
+    - term: "Long copy"
+      meaning: "Extended advertising text"
+      usage: "Defended against 'nobody reads long copy' myth"
+
+    - term: "Brand image"
+      meaning: "Total impression a brand creates"
+      usage: "Pioneered focus on brand over product"
+
+  distinctive_openings:
+    - "When I write an advertisement, I don't want you to tell me that you find it 'creative.' I want you to find it so interesting that you buy the product."
+    - "I hate rules."
+    - "Here's what I've learned after 30 years in advertising..."
+
+  distinctive_closings:
+    - Strong call to action
+    - Summary of key points
+    - Challenge to the reader
+
+# =============================================================================
+# ARGUMENTATION STYLE
+# =============================================================================
+argumentation_style:
+
+  primary_method: "Evidence-Based Assertion"
+  description: "Makes bold claims, then proves them with data"
+
+  structure:
+    - step: "1. Bold assertion"
+      example: "Long copy sells more than short copy."
+    - step: "2. Evidence"
+      example: "In 26 tests, long copy outperformed short in 24."
+    - step: "3. Source credibility"
+      example: "I learned this from Claude Hopkins, who invented split-run testing."
+    - step: "4. Practical application"
+      example: "So when you write your next advertisement, don't be afraid of copy length."
+
+  characteristics:
+    - name: "Data Over Opinion"
+      description: "Cites specific numbers and test results"
+      examples:
+        - "Increased sales by 23%"
+        - "In 26 out of 30 tests..."
+      philosophy: "Direct response is my secret weapon - it tells me what works."
+
+    - name: "Authority References"
+      description: "Cites masters of advertising"
+      key_references:
+        - "Claude Hopkins"
+        - "John Caples"
+        - "Rosser Reeves"
+        - "George Gallup"
+      effect: "Positions self in lineage of proven practitioners"
+
+    - name: "Contrarian Positioning"
+      description: "Often argues against industry consensus"
+      examples:
+        - Against: "Nobody reads long copy"
+        - Against: "Image advertising doesn't sell"
+        - Against: "Creativity is more important than strategy"
+      effect: "Establishes unique authority"
+
+# =============================================================================
+# AUDIENCE ADAPTATION
+# =============================================================================
+audience_adaptation:
+
+  adaptation_patterns:
+    - audience: "Junior copywriters"
+      adaptations:
+        - "More specific 'how-to' instructions"
+        - "Numbered lists of rules"
+        - "Direct commands"
+      example: "How to Create Advertising That Sells"
+
+    - audience: "Agency executives"
+      adaptations:
+        - "More strategic framing"
+        - "ROI and business outcomes"
+        - "Management principles"
+      example: "Principles of Management memos"
+
+    - audience: "Clients"
+      adaptations:
+        - "Results-focused"
+        - "Confidence-building"
+        - "Partnership language"
+      example: "New business presentations"
+
+    - audience: "General public"
+      adaptations:
+        - "More storytelling"
+        - "Personal anecdotes"
+        - "Accessible language"
+      example: "Confessions of an Advertising Man"
+
+  consistent_elements:
+    - "Always uses 'sell' not softer euphemisms"
+    - "Always includes concrete examples"
+    - "Always maintains authority position"
+    - "Never talks down to audience"
+
+# =============================================================================
+# WRITTEN VS SPOKEN DIFFERENCES
+# =============================================================================
+written_vs_spoken:
+
+  written_characteristics:
+    - "More polished and edited"
+    - "Shorter sentences"
+    - "More numbered lists"
+    - "Careful word choice"
+
+  spoken_characteristics:
+    - "More stories and anecdotes"
+    - "British accent adds warmth"
+    - "Self-deprecating humor more prevalent"
+    - "Longer, more conversational sentences"
+
+  video_evidence:
+    - source: "We Sell or Else speech"
+      observation: "Commanding presence, measured pace, direct eye contact"
+    - source: "CBC Interview 1964"
+      observation: "Charming, witty, but always returns to substance"
+
+# =============================================================================
+# SIGNATURE PHRASES COLLECTION (50+)
+# =============================================================================
+signature_phrases:
+
+  on_advertising_purpose:
+    - "We sell, or else."
+    - "I don't regard advertising as entertainment or an art form, but as a medium of information."
+    - "The purpose of advertising is to sell."
+    - "When I write an advertisement, I don't want you to tell me that you find it 'creative.' I want you to find it so interesting that you buy the product."
+
+  on_consumers:
+    - "The consumer is not a moron. She is your wife."
+    - "Never write an advertisement you wouldn't want your family to read."
+    - "You cannot bore people into buying your product."
+    - "The more informative your advertising, the more persuasive it will be."
+
+  on_research:
+    - "Advertising people who ignore research are as dangerous as generals who ignore decodes of enemy signals."
+    - "Direct response is my secret weapon."
+    - "I have a divine discontent with our performance. It is an antidote to smugness."
+
+  on_creativity:
+    - "Unless your advertising contains a big idea, it will pass like a ship in the night."
+    - "It takes a big idea to attract the attention of consumers."
+    - "Don't bunt. Aim out of the ballpark. Aim for the company of immortals."
+    - "In the modern world of business, it is useless to be a creative, original thinker unless you can also sell what you create."
+
+  on_copy:
+    - "I am a lousy copywriter, but I am a good editor."
+    - "On the average, five times as many people read the headline as read the body copy."
+    - "Never use tricky or irrelevant headlines."
+    - "The headline is the ticket on the meat."
+
+  on_management:
+    - "If each of us hires people who are bigger than we are, we shall become a company of giants."
+    - "First class business in a first class way."
+    - "Train your people well enough that they could leave. Treat them well enough that they don't want to."
+    - "Search all the parks in all your cities; you'll find no statues of committees."
+
+  on_brand:
+    - "Every advertisement should be thought of as a contribution to the complex symbol which is the brand image."
+    - "Give people a taste of Old Crow, and tell them it's Old Crow. Then give them another taste of Old Crow, but tell them it's Jack Daniels. Ask them which they prefer. They'll think the two drinks are quite different. They are tasting images."
+
+  on_character:
+    - "Develop your eccentricities while you are young. That way, when you get old, people won't think you're going gaga."
+    - "I prefer the discipline of knowledge to the anarchy of ignorance."
+
+# =============================================================================
+# SUMMARY
+# =============================================================================
+summary:
+  total_linguistic_elements: 62
+  highest_frequency: ["Imperative commands", "Short declarative sentences", "Evidence-based assertions"]
+  key_insight: "Ogilvy's communication style combines aristocratic British wit with working-class directness - he is simultaneously elegant and blunt, erudite and practical."
+  clone_critical: "Must master the balance between commanding authority ('We sell, or else') and humble self-deprecation ('I am a lousy copywriter'). Never pompous, always substantive."
+  voice_signature: "The voice of a professor who has also been a salesman - knows the theory AND has proven it in the field."

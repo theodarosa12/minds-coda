@@ -1,0 +1,427 @@
+# Expert Map - Ramit Sethi
+# Generated: 2026-01-23
+# Agent: Tim (Research Specialist)
+# Task: expert-identification-analysis
+
+metadata:
+  domain: "Personal Finance & Behavioral Money Psychology"
+  mind_slug: ramit_sethi
+  generated: "2026-01-23T15:30:00-03:00"
+  agent: "research-specialist"
+  task: "expert-identification-analysis"
+
+# =============================================================================
+# DOMAIN DECONSTRUCTION
+# =============================================================================
+
+domain_definition:
+  primary_domain: "Personal Finance Education"
+
+  sub_domains:
+    - "Behavioral Finance / Money Psychology"
+    - "Automation & Systems Design"
+    - "Career & Salary Negotiation"
+    - "Couples & Relationship Finance"
+    - "Online Business & Courses"
+
+  key_questions:
+    - "What does world-class performance look like? → Millions helped to improve finances, behavior change achieved"
+    - "What are measurable outcomes? → Books sold, students success, wealth built, behavior changed"
+    - "Who decides who is 'the best'? → Audience results, peer recognition, media validation"
+
+  success_metrics:
+    - metric: "Reach & Impact"
+      examples: "Millions of readers/listeners, NYT bestseller status"
+    - metric: "Longevity"
+      examples: "20+ years of consistent message and results"
+    - metric: "Behavior Change"
+      examples: "Documented student transformations, real-world application"
+    - metric: "Peer Recognition"
+      examples: "Featured by respected thought leaders, mainstream media"
+
+# =============================================================================
+# RAMIT'S INTELLECTUAL LINEAGE
+# =============================================================================
+
+intellectual_lineage:
+
+  teachers_mentors:
+    - name: "BJ Fogg, PhD"
+      relationship: "Stanford professor, behavioral design mentor"
+      key_influence: "Behavior Design methodology, Tiny Habits framework, persuasive technology"
+      evidence: "Ramit attended Stanford, collaborated on webinars, applies Fogg Behavior Model"
+      importance: "CRITICAL - Behavioral foundation of Ramit's entire approach"
+
+    - name: "Stanford Psychology Department"
+      relationship: "Academic training"
+      key_influence: "Psychology of behavior change, technology integration"
+      evidence: "Studied tech & psychology at Stanford"
+      importance: "HIGH - Academic grounding"
+
+    - name: "John C. Bogle"
+      relationship: "Investment philosophy influence (indirect)"
+      key_influence: "Index fund investing, low-cost approach, long-term perspective"
+      evidence: "Ramit recommends index funds extensively, cites Bogle philosophy"
+      importance: "HIGH - Investment recommendations"
+
+    - name: "Charlie Munger"
+      relationship: "Mental models influence (indirect)"
+      key_influence: "Multi-disciplinary thinking, behavioral economics, contrarian approach"
+      evidence: "Referenced in interviews, similar psychological approach to money"
+      importance: "MEDIUM - Framework thinking"
+
+  peer_network:
+    - name: "Tim Ferriss"
+      relationship: "Peer, frequent collaborator"
+      collaboration: "3+ podcast appearances, mutual respect, shared audience"
+      mutual_influence: "Systems thinking, automation, lifestyle design"
+      evidence: "Tim Ferriss Show episodes #371, #524, mutual promotion"
+
+    - name: "Pat Flynn"
+      relationship: "Peer in online business space"
+      collaboration: "Smart Passive Income appearances, similar audience"
+      mutual_influence: "Online course creation, authentic marketing"
+      evidence: "SPI #851 and other appearances"
+
+    - name: "James Clear"
+      relationship: "Peer in behavior change space"
+      collaboration: "Similar audience, complementary approaches"
+      mutual_influence: "Habits, systems over goals"
+      evidence: "Shared behavioral psychology foundation"
+
+  influenced_by_books:
+    investment_philosophy:
+      - title: "The Little Book of Common Sense Investing"
+        author: "John C. Bogle"
+        influence: "Index fund recommendations"
+      - title: "A Random Walk Down Wall Street"
+        author: "Burton Malkiel"
+        influence: "Passive investing approach"
+
+    behavior_psychology:
+      - title: "Influence: The Psychology of Persuasion"
+        author: "Robert Cialdini"
+        influence: "Persuasion principles in teaching"
+      - title: "Tiny Habits"
+        author: "BJ Fogg"
+        influence: "Behavior change methodology"
+      - title: "Predictably Irrational"
+        author: "Dan Ariely"
+        influence: "Behavioral economics understanding"
+
+    business_career:
+      - title: "The 4-Hour Workweek"
+        author: "Tim Ferriss"
+        influence: "Automation, lifestyle design concepts"
+      - title: "Never Split the Difference"
+        author: "Chris Voss"
+        influence: "Negotiation frameworks"
+
+# =============================================================================
+# PEER EXPERTS IN PERSONAL FINANCE
+# =============================================================================
+
+domain_experts:
+
+  tier_1_experts:
+    - id: "exp_001"
+      name: "Ramit Sethi"
+      expertise_type: "Practitioner + Teacher + Synthesizer"
+      tier: "TIER 1"
+      domain: "Behavioral Personal Finance"
+      track_record_score: 10
+      skin_in_game: "HIGH"
+      circle_of_competence: "Personal finance psychology, automation, couples money"
+      key_contributions:
+        - "I Will Teach You to Be Rich methodology"
+        - "Conscious Spending Plan framework"
+        - "Rich Life concept"
+        - "Automation-first approach"
+        - "Money psychology focus"
+      best_sources:
+        - "I Will Teach You to Be Rich (book)"
+        - "Money for Couples (book)"
+        - "IWTYTBR Podcast"
+        - "Netflix series"
+      meta_learning_insights:
+        - "Psychology > tactics"
+        - "Systems > willpower"
+        - "Big wins > small savings"
+        - "Conscious spending > restriction"
+      notes: "Subject of this mind mapping exercise"
+
+    - id: "exp_002"
+      name: "Dave Ramsey"
+      expertise_type: "Practitioner + Teacher"
+      tier: "TIER 1"
+      domain: "Debt elimination, conservative finance"
+      track_record_score: 9
+      skin_in_game: "HIGH"
+      circle_of_competence: "Debt payoff, budgeting, financial discipline"
+      key_contributions:
+        - "7 Baby Steps"
+        - "Debt Snowball method"
+        - "Cash envelope system"
+        - "Emergency fund priority"
+      best_sources:
+        - "Total Money Makeover (book)"
+        - "The Ramsey Show podcast"
+      meta_learning_insights:
+        - "Discipline-first approach"
+        - "Debt is enemy"
+        - "Gazelle intensity"
+      relationship_to_ramit: "CONTRAST - Different philosophy"
+      comparison:
+        ramsey: "Restriction, discipline, debt-focused"
+        ramit: "Psychology, automation, spending-on-values"
+
+    - id: "exp_003"
+      name: "Suze Orman"
+      expertise_type: "Teacher + Media Personality"
+      tier: "TIER 1"
+      domain: "Women's finance, retirement, insurance"
+      track_record_score: 8
+      skin_in_game: "MEDIUM"
+      circle_of_competence: "Consumer finance, insurance, retirement planning"
+      key_contributions:
+        - "Women & Money focus"
+        - "Emergency fund importance"
+        - "Insurance education"
+      best_sources:
+        - "Women & Money (book)"
+        - "Suze Orman Podcast"
+      relationship_to_ramit: "DIFFERENT AUDIENCE - More conservative"
+
+  tier_2_experts:
+    - id: "exp_004"
+      name: "JL Collins"
+      expertise_type: "Practitioner + Teacher"
+      tier: "TIER 2"
+      domain: "Simple investing, FIRE movement"
+      track_record_score: 8
+      skin_in_game: "HIGH"
+      key_contributions:
+        - "The Simple Path to Wealth"
+        - "VTSAX and chill"
+      relationship_to_ramit: "ALIGNED - Similar investment philosophy"
+
+    - id: "exp_005"
+      name: "Morgan Housel"
+      expertise_type: "Synthesizer + Writer"
+      tier: "TIER 2"
+      domain: "Behavioral finance, investment psychology"
+      track_record_score: 8
+      skin_in_game: "MEDIUM"
+      key_contributions:
+        - "Psychology of Money"
+        - "Narrative-based finance education"
+      relationship_to_ramit: "COMPLEMENTARY - Similar psychology focus"
+
+    - id: "exp_006"
+      name: "Tony Robbins"
+      expertise_type: "Teacher + Motivator"
+      tier: "TIER 2"
+      domain: "Wealth mindset, personal development"
+      track_record_score: 7
+      skin_in_game: "HIGH"
+      key_contributions:
+        - "Money: Master the Game"
+        - "Unshakeable"
+      relationship_to_ramit: "COMPLEMENTARY - Mindset overlap"
+
+  tier_3_experts:
+    - id: "exp_007"
+      name: "Mr. Money Mustache (Pete Adeney)"
+      expertise_type: "Practitioner"
+      tier: "TIER 3"
+      domain: "Frugality, early retirement"
+      track_record_score: 7
+      skin_in_game: "HIGH"
+      relationship_to_ramit: "CONTRAST - Extreme frugality vs rich life"
+
+    - id: "exp_008"
+      name: "Grant Cardone"
+      expertise_type: "Practitioner + Teacher"
+      tier: "TIER 3"
+      domain: "Real estate, aggressive wealth building"
+      track_record_score: 6
+      skin_in_game: "HIGH"
+      relationship_to_ramit: "CONTRAST - Different risk philosophy"
+
+# =============================================================================
+# BEHAVIORAL SCIENCE EXPERTS (Ramit's Foundation)
+# =============================================================================
+
+behavioral_science_experts:
+
+  - id: "beh_001"
+    name: "BJ Fogg, PhD"
+    expertise_type: "Researcher + Pioneer"
+    tier: "TIER 1"
+    domain: "Behavior Design, Persuasive Technology"
+    track_record_score: 10
+    skin_in_game: "HIGH"
+    key_contributions:
+      - "Fogg Behavior Model (B=MAP)"
+      - "Tiny Habits methodology"
+      - "Behavior Design Lab at Stanford"
+      - "Persuasive Technology field creation"
+    best_sources:
+      - "Tiny Habits (book)"
+      - "Behavior Design Lab research"
+    relationship_to_ramit: "FOUNDATIONAL MENTOR"
+    ramit_application: "Automation as default behavior, small steps, trigger design"
+
+  - id: "beh_002"
+    name: "Robert Cialdini, PhD"
+    expertise_type: "Researcher + Teacher"
+    tier: "TIER 1"
+    domain: "Psychology of Persuasion"
+    track_record_score: 10
+    skin_in_game: "HIGH"
+    key_contributions:
+      - "6 Principles of Influence"
+      - "Pre-Suasion"
+    relationship_to_ramit: "INFLUENCED - Persuasion in teaching"
+
+  - id: "beh_003"
+    name: "Dan Ariely, PhD"
+    expertise_type: "Researcher + Teacher"
+    tier: "TIER 1"
+    domain: "Behavioral Economics"
+    track_record_score: 9
+    skin_in_game: "MEDIUM"
+    key_contributions:
+      - "Predictably Irrational"
+      - "Behavioral economics research"
+    relationship_to_ramit: "INFLUENCED - Irrational money behavior understanding"
+
+  - id: "beh_004"
+    name: "Daniel Kahneman, PhD"
+    expertise_type: "Researcher + Pioneer"
+    tier: "TIER 1"
+    domain: "Behavioral Economics, Decision Making"
+    track_record_score: 10
+    skin_in_game: "HIGH"
+    key_contributions:
+      - "Thinking, Fast and Slow"
+      - "System 1 & System 2 thinking"
+      - "Nobel Prize in Economics"
+    relationship_to_ramit: "FOUNDATIONAL - Decision psychology"
+
+# =============================================================================
+# UNIQUE POSITIONING
+# =============================================================================
+
+ramit_unique_positioning:
+
+  what_makes_ramit_different:
+    vs_dave_ramsey:
+      - "Psychology vs discipline"
+      - "Spending on values vs restriction"
+      - "Automation vs manual tracking"
+      - "No guilt vs gazelle intensity"
+
+    vs_suze_orman:
+      - "Younger audience"
+      - "Technology-forward"
+      - "Career/income focus"
+      - "Less insurance-focused"
+
+    vs_traditional_finance:
+      - "Behavioral science foundation"
+      - "Stanford psychology training"
+      - "BJ Fogg methodology applied"
+      - "Systems over willpower"
+
+    vs_frugality_movement:
+      - "Rich Life > penny-pinching"
+      - "Big wins focus"
+      - "Spend extravagantly on loves"
+      - "Cut mercilessly on don'ts"
+
+  core_differentiators:
+    - "BJ Fogg-trained behavioral approach"
+    - "Automation as first principle"
+    - "Psychology over tactics"
+    - "Permission to spend guilt-free"
+    - "20+ years consistent methodology"
+
+# =============================================================================
+# DOMAIN COVERAGE ANALYSIS
+# =============================================================================
+
+domain_coverage:
+  expertise_types_covered:
+    - "Practitioner (self-made wealth)"
+    - "Teacher (courses, books, podcast)"
+    - "Synthesizer (psychology + finance)"
+    - "Pioneer (Rich Life concept)"
+
+  expertise_types_represented_in_network:
+    - "Academic Researcher (BJ Fogg)"
+    - "Peer Practitioners (Ramsey, Orman)"
+    - "Complementary Experts (Housel, Collins)"
+
+  expertise_gaps:
+    - "Limited coverage of international finance experts"
+    - "No identified tax specialist mentor"
+    - "Real estate expertise is minimal"
+
+  overall_coverage: "GOOD"
+
+# =============================================================================
+# KEY INSIGHTS FOR MIND MAPPING
+# =============================================================================
+
+insights_for_mind_mapping:
+
+  critical_influences:
+    - "BJ Fogg's Behavior Design is FOUNDATIONAL to Ramit's approach"
+    - "Stanford psychology training shapes everything"
+    - "Index fund philosophy from Bogle/Collins school"
+    - "Contrarian position vs Ramsey/frugality"
+
+  meta_learning_patterns:
+    - "Ramit learns by doing and teaching"
+    - "20+ years of consistent refinement"
+    - "Deep reading habit (2 books/week)"
+    - "Believes in buying books liberally"
+
+  key_relationships:
+    - "Tim Ferriss: peer, frequent collaborator, shared audience"
+    - "BJ Fogg: foundational mentor, behavioral framework source"
+    - "Dave Ramsey: philosophical opposite, useful contrast"
+
+  recommended_focus:
+    - "Deep dive into BJ Fogg's methodology"
+    - "Compare/contrast with Ramsey approach"
+    - "Extract Ramit's 50 book recommendations for lineage"
+    - "Analyze Tim Ferriss interviews for meta-learning"
+
+# =============================================================================
+# RECOMMENDATIONS
+# =============================================================================
+
+recommendations:
+
+  priority_experts_to_study:
+    - name: "BJ Fogg"
+      reason: "Foundational influence - must understand Fogg Behavior Model"
+      action: "Read Tiny Habits, study Behavior Design Lab"
+    - name: "Tim Ferriss"
+      reason: "Peer who extracts meta-learning patterns"
+      action: "Review interview transcripts for Ramit-specific insights"
+    - name: "Dave Ramsey"
+      reason: "Key contrast for understanding Ramit's unique position"
+      action: "Compare Baby Steps vs Rich Life approach"
+
+  hidden_masters_to_explore:
+    - name: "Ramit's early students"
+      why_valuable: "Real-world application of methodology"
+      how_to_access: "Podcast episodes, course testimonials"
+
+  additional_research_needed:
+    - "Ramit's 50 book recommendations list analysis"
+    - "Early blog posts (2004-2010) for evolution of thinking"
+    - "Course student outcomes and testimonials"

@@ -1,0 +1,274 @@
+# Naval Ravikant - Operational Frameworks
+# Generated: 2025-12-12
+# Source: Synthesis from mental_models.md
+
+frameworks:
+  subject: "Naval Ravikant"
+  version: "1.0"
+  total_frameworks: 12
+
+  # ============================================================================
+  # SIGNATURE FRAMEWORKS (Uniquely Naval)
+  # ============================================================================
+
+  signature:
+
+    leverage_framework:
+      name: "The Leverage Framework"
+      category: "wealth_creation"
+      origin: "Naval original synthesis"
+      frequency: "Core - used 100+ times"
+
+      definition: |
+        "Give me a lever long enough and a place to stand, and I will move the earth"
+        applied to wealth creation and output multiplication.
+
+      components:
+        hierarchy:
+          - type: "Labor"
+            quality: "Worst"
+            characteristics: ["Linear", "Needs permission", "Doesnt scale"]
+
+          - type: "Capital"
+            quality: "Better"
+            characteristics: ["Multiplicative", "Needs credibility"]
+
+          - type: "Code"
+            quality: "Excellent"
+            characteristics: ["Permissionless", "Infinite scale", "Zero marginal cost"]
+
+          - type: "Media"
+            quality: "Excellent"
+            characteristics: ["Permissionless", "Builds audience", "Compounds"]
+
+      formula: "Output = (Effort x Leverage) ^ Judgment"
+
+      applications:
+        career: "Earn with your mind not your time"
+        business: "Products with zero marginal cost"
+        learning: "Learn to sell, learn to build"
+
+      when_to_use: "Any decision about work, career, or business"
+      when_not_to_use: "Personal relationships, health decisions"
+
+    specific_knowledge_framework:
+      name: "Specific Knowledge Framework"
+      category: "differentiation"
+      origin: "Naval original concept"
+
+      definition: |
+        Knowledge that cannot be taught, only learned through experience
+        or apprenticeship. Your unique competitive advantage.
+
+      characteristics:
+        - "Unique to you - based on personality/experiences"
+        - "Cannot be automated - too complex/creative"
+        - "Cannot be outsourced - requires local/personal context"
+        - "Feels like play to you - work to others"
+
+      identification_questions:
+        - "What did you do for curiosity as a child?"
+        - "Where do you have natural advantage?"
+        - "What do others find impressive but is easy for you?"
+
+      development:
+        - "Follow genuine curiosity, not trends"
+        - "Combine unique skills (skill stacking)"
+        - "Accept it will be weird/niche"
+
+      when_to_use: "Career decisions, business building, self-development"
+
+    wealth_equation:
+      name: "The Wealth Equation"
+      category: "wealth_creation"
+      origin: "Naval synthesis"
+
+      formula: "Wealth = (Specific Knowledge x Leverage x Accountability) ^ Judgment"
+
+      components:
+        specific_knowledge: "Your unique differential"
+        leverage: "Output multiplier"
+        accountability: "Skin in the game with your name"
+        judgment: "Meta-skill that amplifies everything"
+
+      critical_distinctions:
+        - "Wealth != Money (assets that earn while you sleep)"
+        - "Wealth != Status (freedom vs social hierarchy)"
+        - "Money = Transfer mechanism (how we move time/value)"
+
+      when_to_use: "Evaluating opportunities, career planning"
+
+  # ============================================================================
+  # DECISION FRAMEWORKS
+  # ============================================================================
+
+  decision:
+
+    decision_heuristics:
+      name: "Naval Decision Heuristics"
+      category: "decision_making"
+
+      primary_rules:
+        - heuristic: "If you can't decide, the answer is no"
+          purpose: "Preserves optionality"
+          application: "Any decision with uncertainty"
+
+        - heuristic: "Long-term games with long-term people"
+          purpose: "Compound relationships"
+          application: "Partner/team selection"
+
+        - heuristic: "What would I do if I were already rich?"
+          purpose: "Removes money constraint"
+          application: "Career/opportunity evaluation"
+
+        - heuristic: "Easy choices, hard life. Hard choices, easy life"
+          purpose: "Temporal inversion of difficulty"
+          application: "When avoiding hard things"
+
+        - heuristic: "Will this matter in 10 years?"
+          purpose: "Filters noise"
+          application: "Stress reduction, priority setting"
+
+  # ============================================================================
+  # THINKING FRAMEWORKS
+  # ============================================================================
+
+  thinking:
+
+    first_principles:
+      name: "First Principles Thinking"
+      category: "reasoning"
+      influence: "Physics/Feynman"
+
+      process:
+        - "Question every assumption"
+        - "Break into basic components"
+        - "Rebuild from zero"
+        - "Ignore 'how it's always been done'"
+
+      examples:
+        - "AngelList: Why do VCs intermediate?"
+        - "Crypto: Why do banks exist?"
+        - "Education: Why schools not libraries?"
+
+      when_to_use: "Building something new, challenging status quo"
+
+    compound_interest_everywhere:
+      name: "Compound Interest Everywhere"
+      category: "mental_model"
+
+      universal_application:
+        knowledge: "Concepts build on concepts"
+        relationships: "Trust compounds over time"
+        health: "Small habits, big results"
+        wealth: "Obviously, but also in skills"
+
+      core_quote: "All returns in life come from compound interest"
+
+      filter_question: "Will this compound over 10 years?"
+
+  # ============================================================================
+  # LIFE SYSTEMS
+  # ============================================================================
+
+  life_systems:
+
+    happiness_system:
+      name: "The Happiness System"
+      category: "philosophy"
+
+      equation: "Happiness = Peace - Desires"
+
+      components:
+        peace: "Default state without disturbance"
+        desires: "Contracts for future unhappiness"
+        happiness: "Byproduct, not objective"
+
+      practices:
+        - "Meditation for peace"
+        - "Reduce desires, not increase achievements"
+        - "Presence over achievement"
+
+    reading_system:
+      name: "The Reading System"
+      category: "learning"
+
+      principles:
+        - "Read what you love until you love to read"
+        - "Read books not blogs, blogs not tweets"
+        - "Better to read one great book 10x than 10 mediocre books"
+
+      method:
+        - "Multiple books simultaneously"
+        - "Abandon without guilt"
+        - "Re-read the great ones"
+        - "Fundamentals > Novelties"
+
+    learning_system:
+      name: "The Learning System"
+      category: "learning"
+
+      hierarchy_speed: "Reading > Listening > Watching"
+      hierarchy_depth: "Doing > Watching > Listening > Reading"
+
+      resolution: |
+        Reading for theory, Doing for practice.
+        Best: Read then immediately do.
+
+  # ============================================================================
+  # META-FRAMEWORKS
+  # ============================================================================
+
+  meta:
+
+    naval_stack:
+      name: "The Naval Stack"
+      category: "life_integration"
+
+      levels:
+        - level: 5
+          name: "Peace & Happiness"
+          description: "Ultimate Goal"
+
+        - level: 4
+          name: "Freedom"
+          description: "Time, Location, Thought"
+
+        - level: 3
+          name: "Wealth"
+          description: "Assets earning while sleep"
+
+        - level: 2
+          name: "Leverage"
+          description: "Code, Media, Capital"
+
+        - level: 1
+          name: "Specific Knowledge"
+          description: "Foundation"
+
+      decision_tree:
+        - "Does it increase specific knowledge?"
+        - "Does it create leverage?"
+        - "Does it compound?"
+        - "Does it increase freedom?"
+        - "Does it bring peace?"
+        - "If no to all -> No"
+
+    framework_of_frameworks:
+      name: "Meta-Principles for Models"
+      category: "meta_cognition"
+
+      principles:
+        - name: "Mental models are tools not truths"
+          action: "Use when useful, abandon when not, combine multiple"
+
+        - name: "The map is not the territory"
+          action: "Models simplify reality; Reality > Model always"
+
+        - name: "Strong opinions, loosely held"
+          action: "Commit to act, flexible to change"
+
+metadata:
+  created: "2025-12-12"
+  source_file: "mental_models.md"
+  confidence_score: 9.2

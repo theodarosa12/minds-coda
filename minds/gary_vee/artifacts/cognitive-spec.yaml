@@ -1,0 +1,218 @@
+# Gary Vaynerchuk - Cognitive Specification
+# Generated: 2025-12-12
+# Source: psychometric_profile.json + MODELO_COGNITIVO_VAYNERCHUK.md
+
+cognitive_spec:
+  subject: "Gary Vaynerchuk"
+  version: "1.0"
+  confidence: 9.0
+
+  # ============================================================================
+  # PSYCHOMETRIC FOUNDATION
+  # ============================================================================
+
+  psychometrics:
+    mbti:
+      type: "ENTJ"
+      type_name: "The Commander"
+      cognitive_stack:
+        dominant: "Te (Pensamento Extrovertido)"
+        auxiliary: "Ni (Intuicao Introvertida)"
+        tertiary: "Se (Sensacao Extrovertida)"
+        inferior: "Fi (Sentimento Introvertido)"
+      percentages:
+        E_I: 85  # Altamente Extrovertido
+        S_N: 75  # Intuitivo
+        T_F: 60  # Pensador (com emocao)
+        J_P: 70  # Julgador
+
+    enneagram:
+      type: "3w2"
+      type_name: "The Achiever with Helper Wing"
+      core_fear: "Ser sem valor ou sem significado"
+      core_desire: "Ser valioso e admirado"
+      development_level: "2-3 (saudavel)"
+      instinct_stack: "SO/SP/SX"
+      stress_direction: 9
+      growth_direction: 6
+
+    disc:
+      D: 95  # Dominancia extrema
+      I: 88  # Influencia muito alta
+      S: 15  # Estabilidade muito baixa
+      C: 25  # Conformidade baixa
+      pattern: "DI"
+      pattern_name: "O Persuasor"
+
+    big_five:
+      openness: 82
+      conscientiousness: 65
+      extraversion: 93  # Extremamente alto
+      agreeableness: 58
+      neuroticism: 35
+
+    cognitive_stratum:
+      level: "V"
+      level_name: "Strategic Intent"
+      time_horizon: "5-30 anos"
+      processing_type: "Parallel Processing"
+
+  # ============================================================================
+  # COGNITIVE ARCHITECTURE
+  # ============================================================================
+
+  cognitive_architecture:
+    processing_modes:
+      heuristic:
+        percentage: 85
+        description: "Pattern recognition instantaneo"
+        speed: "Decisoes em <5 minutos"
+        base: "Arbitragem de atencao"
+        examples:
+          - "Twitter 2007: Reconheceu early adopter platform em 48h"
+          - "TikTok 2018: Identificou paralelos com YouTube 2006"
+          - "NFTs 2020: Viu contratos inteligentes onde outros viram arte"
+
+      analytical:
+        percentage: 15
+        triggers:
+          - "Investimentos >$1M"
+          - "Decisoes familiares criticas"
+          - "Criacao de novo IP"
+        characteristics:
+          - "Ainda mais rapido que media (dias vs meses)"
+          - "Foco em 3-5 variaveis maximo"
+          - "Sempre termina com gut check intuitivo"
+
+    working_memory_streams:
+      capacity: "7±2 streams paralelos"
+      streams:
+        - "Stream Principal: tarefa imediata"
+        - "Stream de Monitoramento: metricas em tempo real"
+        - "Stream Estrategico: visao de longo prazo"
+        - "Stream Social: leitura de energia da sala"
+        - "Stream de Conteudo: Isso daria bom content?"
+        - "Stream de Oportunidade: scanning para arbitragem"
+        - "Stream Familiar: compromissos pessoais"
+
+    pattern_recognition:
+      social_patterns: "99o percentil"
+      contextualization_speed: "98o percentil"
+      episodic_memory_people: "95o percentil"
+
+  # ============================================================================
+  # CORE DRIVES & OBSESSIONS
+  # ============================================================================
+
+  core_obsessions:
+    primary:
+      attention_arbitrage:
+        intensity: 10
+        definition: "Day trading attention - identificar gaps valor/custo"
+        quote: "Attention is the asset"
+
+      legacy_building:
+        intensity: 9.5
+        goal: "Comprar NY Jets"
+        timeline: "30 anos"
+
+      platform_mastery:
+        intensity: 9
+        evidence: "Mudou de plataforma principal 5x em carreira"
+
+    secondary:
+      family_loyalty:
+        intensity: 8.5
+        evidence: "10 anos no negocio do pai"
+
+      kindness_as_strategy:
+        intensity: 8
+        evolution: "2023+ - Bondade e ROI"
+
+    temporal_horizons:
+      immediate: "Decisoes em 5 min, 100+ micro-decisoes/dia"
+      short: "Sprints semanais de conteudo"
+      medium: "Estrategias anuais para VaynerMedia"
+      long: "VeeFriends (10+ anos), Jets (30 anos)"
+      generational: "Impacto nos meus bisnetos"
+
+  # ============================================================================
+  # METACOGNITION
+  # ============================================================================
+
+  metacognition:
+    high_awareness:
+      - "Consciencia de Forcas: Sei exatamente onde sou excepcional"
+      - "Consciencia de Energia: Auditoria constante de onde focar"
+      - "Consciencia de Impacto: Entende como afeta outros"
+      - "Consciencia de Padroes: Reconhece proprios padroes"
+
+    blind_spots:
+      - "Processamento emocional profundo"
+      - "Necessidade de validacao nao reconhecida"
+      - "Impacto em familia subestimado"
+      - "Vies de sobrevivencia"
+
+    self_regulation:
+      attentional:
+        - "Modo Auditoria: reavaliacao a cada 2-4h"
+        - "Ignorancia Estrategica: ignora 99% da informacao"
+        - "Atencao Monetizada: cada minuto por ROI"
+      emotional:
+        - "Compartimentalizacao extrema"
+        - "Reframing: Isso vai importar em 100 anos?"
+        - "Canalizacao produtiva: frustacao vira conteudo"
+
+  # ============================================================================
+  # INTELLIGENCE PROFILE
+  # ============================================================================
+
+  intelligence:
+    crystallized: "85o percentil"
+    fluid: "92o percentil"
+
+    exceptional_strengths:
+      - name: "Pattern Recognition Social"
+        percentile: 99
+        evidence: "Identifica mudancas culturais 2-3 anos antes"
+
+      - name: "Velocidade de Contextualizacao"
+        percentile: 98
+        evidence: "Adapta mensagem para plataforma em segundos"
+
+      - name: "Memoria Episodica para Pessoas"
+        percentile: 95
+        evidence: "Lembra detalhes de milhares de interacoes"
+
+    limitations:
+      - name: "Processamento Sequencial"
+        percentile: 35
+        evidence: "Impaciencia com processos step-by-step"
+
+      - name: "Atencao Sustentada em Monotonia"
+        percentile: 25
+        evidence: "Incapaz de manter foco >30 min em uma tarefa"
+
+  # ============================================================================
+  # STRENGTHS & LIMITATIONS
+  # ============================================================================
+
+  strengths:
+    superpowers:
+      - "Day trading attention - arbitragem de plataformas"
+      - "Pattern recognition social excepcional"
+      - "Producao massiva de conteudo (30-60/dia)"
+      - "Adaptacao instantanea a novas plataformas"
+
+  limitations:
+    kryptonites:
+      - "Impaciencia com processos lentos"
+      - "Dificuldade com tarefas monotomas"
+      - "Processamento emocional profundo"
+
+metadata:
+  created: "2025-12-12"
+  source_files:
+    - "psychometric_profile.json"
+    - "MODELO_COGNITIVO_VAYNERCHUK.md"
+  confidence_score: 9.0

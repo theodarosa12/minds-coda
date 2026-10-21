@@ -1,0 +1,431 @@
+# Mined Content Database: Todd Brown
+# Generated: 2026-01-23
+# Agent: Tim (Research Specialist)
+# Task: content-mining-extraction
+
+metadata:
+  mind_slug: "todd_brown"
+  generated: "2026-01-23T17:30:00-03:00"
+  agent: "research-specialist"
+  task: "content-mining-extraction"
+  sources_mined: 12
+  total_extractions: 47
+
+# =============================================================================
+# FRAMEWORKS
+# =============================================================================
+frameworks:
+
+  - id: "FW_001"
+    name: "E5 Method"
+    type: "process_framework"
+    source: "The E5 Method book, multiple interviews"
+    confidence: "HIGH"
+
+    definition: "Five-stage process for engineering profitable, predictable customer acquisition campaigns"
+
+    stages:
+      - stage: 1
+        name: "Examine"
+        focus: "Research prospects, products, competition"
+        output: "Market sophistication understanding"
+
+      - stage: 2
+        name: "Engineer"
+        focus: "Build Big Idea, Unique Mechanism, SIN Offer"
+        output: "Campaign components"
+
+      - stage: 3
+        name: "Evaluate"
+        focus: "Test with Minimum Viable Funnel"
+        output: "Validation data"
+
+      - stage: 4
+        name: "Enhance"
+        focus: "Optimize proven elements"
+        output: "Full campaign"
+
+      - stage: 5
+        name: "Expand"
+        focus: "Scale through media buying"
+        output: "Growth"
+
+    key_principle: "Offer development precedes copywriting"
+
+  - id: "FW_002"
+    name: "Big Marketing Idea"
+    type: "conceptual_framework"
+    source: "Mark Ford via Todd Brown"
+    confidence: "HIGH"
+
+    definition: "Single, unifying concept that is intellectually interesting AND emotionally compelling"
+
+    components:
+      power_of_one:
+        - "One Idea"
+        - "One Story"
+        - "One Promise"
+        - "One Emotion"
+        - "One Action"
+
+    requirements:
+      - "Intellectually interesting (new, unique, fresh)"
+      - "Emotionally compelling (desired result)"
+      - "Arresting (stops prospects)"
+      - "Explainable in 15 seconds"
+
+  - id: "FW_003"
+    name: "Unique Mechanism"
+    type: "differentiation_framework"
+    source: "Todd Brown, Eugene Schwartz influence"
+    confidence: "HIGH"
+
+    definition: "The unique manner, method, or material that allows the product to deliver benefits"
+
+    when_to_use: "Sophisticated markets (Schwartz Level 4-5)"
+
+    how_to_identify:
+      - "WHY does this work?"
+      - "HOW does this work differently?"
+      - "What's the specific ingredient/method?"
+
+  - id: "FW_004"
+    name: "SIN Offer"
+    type: "offer_framework"
+    source: "E5 Method"
+    confidence: "HIGH"
+
+    acronym: "Superior, Irresistible, No-brainer"
+
+    components:
+      superior: "Clearly better than alternatives"
+      irresistible: "Emotionally compelling"
+      no_brainer: "Obviously valuable decision"
+
+  - id: "FW_005"
+    name: "Marketing Thesis"
+    type: "persuasion_framework"
+    source: "toddbrown.me"
+    confidence: "HIGH"
+
+    definition: "The ONE belief prospects need to have to be ready to buy"
+
+    key_insight: "Belief should be in the MECHANISM, not the product"
+
+  - id: "FW_006"
+    name: "Three-Finger Engagement Test"
+    type: "validation_framework"
+    source: "Mark Ford via Todd Brown"
+    confidence: "HIGH"
+
+    definition: "Test for opening 350-800 words of marketing funnel"
+
+    requirements:
+      - "Re-state Primary Promise"
+      - "Tease Unique Mechanism"
+
+# =============================================================================
+# MENTAL MODELS
+# =============================================================================
+mental_models:
+
+  - id: "MM_001"
+    name: "We're in the Idea Business"
+    source: "Mark Ford"
+    confidence: "HIGH"
+
+    content: |
+      Success is determined by the quality of the underlying idea,
+      not copy techniques, budgets, or funnels.
+
+    application: "E5 Stage 2 starts with idea development"
+
+  - id: "MM_002"
+    name: "Education Over Selling"
+    source: "Todd Brown"
+    confidence: "HIGH"
+
+    content: |
+      Effective marketing educates prospects about the mechanism
+      rather than pitching with exaggerated claims.
+
+    application: "Builds belief before presenting offer"
+
+  - id: "MM_003"
+    name: "Market Sophistication Levels"
+    source: "Eugene Schwartz via Todd"
+    confidence: "HIGH"
+
+    content: |
+      Prospects evolve as they see more marketing. Strategy must
+      match sophistication level. Higher levels require mechanism focus.
+
+    levels:
+      - level: 1
+        strategy: "Direct claim"
+      - level: 2
+        strategy: "Expand claim"
+      - level: 3
+        strategy: "Introduce mechanism"
+      - level: 4
+        strategy: "Elaborate mechanism"
+      - level: 5
+        strategy: "Identification and story"
+
+  - id: "MM_004"
+    name: "Mechanism Creates Believability"
+    source: "Todd Brown synthesis"
+    confidence: "HIGH"
+
+    content: "Promise + Mechanism = Believability. Promise alone = Skepticism."
+
+  - id: "MM_005"
+    name: "Investor vs Transactional Thinking"
+    source: "E5 Method"
+    confidence: "HIGH"
+
+    content: |
+      Focus on Customer Lifetime Value (CLV), not just cost per
+      acquisition. Allows spending more to acquire.
+
+  - id: "MM_006"
+    name: "Differentiation Over Improvement"
+    source: "Todd Brown"
+    confidence: "HIGH"
+
+    content: |
+      Being "better" is unsustainable. Being DIFFERENT is defensible.
+
+  - id: "MM_007"
+    name: "Offer Drives Copy"
+    source: "E5 Method structure"
+    confidence: "HIGH"
+
+    content: |
+      The offer is engineered first. Copy articulates the offer.
+      Not the other way around.
+
+  - id: "MM_008"
+    name: "Validate Before Scale"
+    source: "E5 Stage 3"
+    confidence: "HIGH"
+
+    content: |
+      Test with minimum viable funnel before investing in full
+      build-out. Prove the idea works first.
+
+# =============================================================================
+# VALUES
+# =============================================================================
+values:
+
+  - id: "VAL_001"
+    name: "Differentiation Over Improvement"
+    evidence: "Core teaching across all content"
+    confidence: "HIGH"
+
+  - id: "VAL_002"
+    name: "Ideas Before Execution"
+    evidence: "E5 Method structure"
+    confidence: "HIGH"
+
+  - id: "VAL_003"
+    name: "Strategy Over Tactics"
+    evidence: "Repeated teaching emphasis"
+    confidence: "HIGH"
+
+  - id: "VAL_004"
+    name: "Systemization of Marketing"
+    evidence: "Entire E5 Method"
+    confidence: "HIGH"
+
+  - id: "VAL_005"
+    name: "Proof Through Results"
+    evidence: "Business model, testimonials"
+    confidence: "HIGH"
+
+# =============================================================================
+# OBSESSIONS (Recurring Themes)
+# =============================================================================
+obsessions:
+
+  - id: "OBS_001"
+    name: "The Big Idea"
+    frequency: "Virtually every piece of content"
+    evidence:
+      - "Entire book dedicated to it"
+      - "Core of E5 Method Stage 2"
+      - "Learned from Mark Ford"
+      - "Mentioned in every interview"
+
+  - id: "OBS_002"
+    name: "The Unique Mechanism"
+    frequency: "High - most teachings"
+    evidence:
+      - "Key differentiator in E5"
+      - "Solution to market sophistication"
+
+  - id: "OBS_003"
+    name: "Predictable Customer Acquisition"
+    frequency: "Core positioning"
+    evidence:
+      - "Tagline language"
+      - "E5 designed for predictability"
+      - "'Engineering' terminology"
+
+  - id: "OBS_004"
+    name: "Direct Response Heritage"
+    frequency: "Constant references"
+    evidence:
+      - "Halbert, Kennedy, Schwartz mentions"
+      - "Mark Ford as mentor"
+      - "Agora case studies"
+
+# =============================================================================
+# KEY QUOTES
+# =============================================================================
+key_quotes:
+
+  - id: "Q001"
+    quote: "90% of marketing copy that is not effective suffers from one of three problems. The number one problem is a lack of a single, unifying big idea."
+    attribution: "Mark Ford via Todd Brown"
+    topic: "Big Idea"
+
+  - id: "Q002"
+    quote: "We realized we were in the idea business... developing interesting, arresting, startling, compelling ideas."
+    attribution: "Mark Ford via Todd Brown"
+    topic: "Big Idea"
+
+  - id: "Q003"
+    quote: "The aim of marketing is to make selling superfluous."
+    attribution: "Peter Drucker via Todd Brown"
+    topic: "Education Over Selling"
+
+  - id: "Q004"
+    quote: "In marketing, the Unique Mechanism is the unique manner, method, or material that allows the product or service to deliver the desired benefits."
+    attribution: "Todd Brown"
+    topic: "Unique Mechanism"
+
+  - id: "Q005"
+    quote: "What ultimately determines the success of a marketing campaign is rooted in the people in your audience resonating with your idea or message emotionally."
+    attribution: "Todd Brown"
+    topic: "Big Idea"
+
+  - id: "Q006"
+    quote: "A good idea should be explainable in 15 seconds."
+    attribution: "Todd Brown"
+    topic: "Big Idea"
+
+  - id: "Q007"
+    quote: "In sophisticated markets, savvy marketers shift from making bigger claims to highlighting the Unique Mechanism."
+    attribution: "Todd Brown"
+    topic: "Market Sophistication"
+
+# =============================================================================
+# HIDDEN CURRICULUM
+# =============================================================================
+hidden_curriculum:
+
+  - id: "HC_001"
+    name: "Offer Before Copy"
+    behavior: "E5 places offer development before copywriting"
+    common_advice: "Focus on your copy"
+    implicit_rule: "The offer drives the copy, not the other way around"
+
+  - id: "HC_002"
+    name: "Minimum Viable Testing"
+    behavior: "E5 Stage 3 uses stripped-down 4-page funnel"
+    common_advice: "Build complete funnels"
+    implicit_rule: "Validate the idea before investing in execution"
+
+  - id: "HC_003"
+    name: "Mechanism Over Promise"
+    behavior: "Heavy mechanism emphasis in sophisticated markets"
+    common_advice: "Make bigger promises"
+    implicit_rule: "In saturated markets, HOW it works beats WHAT it does"
+
+# =============================================================================
+# TERMINOLOGY
+# =============================================================================
+terminology:
+
+  - term: "Primary Promise"
+    definition: "The chief benefit the prospect will receive"
+
+  - term: "Campaign Lead"
+    definition: "First 350-500 words of marketing funnel"
+
+  - term: "Marketing Argument"
+    definition: "Education portion proving mechanism is superior"
+
+  - term: "Thesis"
+    definition: "Conclusion that mechanism is the superior way"
+
+  - term: "Dimensionalized Benefit Statements"
+    definition: "Benefits made vivid and specific"
+
+  - term: "MVF (Minimum Viable Funnel)"
+    definition: "4-page test funnel for validating idea"
+
+  - term: "EBM Sequence"
+    definition: "Sequence to establish necessary beliefs"
+
+# =============================================================================
+# PATTERNS IDENTIFIED
+# =============================================================================
+patterns:
+
+  - pattern_id: "PAT_001"
+    description: "Everything traces back to idea quality"
+    supporting_extractions:
+      - "MM_001"
+      - "FW_002"
+      - "OBS_001"
+    strength: "STRONG"
+
+  - pattern_id: "PAT_002"
+    description: "Market sophistication determines strategy"
+    supporting_extractions:
+      - "MM_003"
+      - "FW_003"
+      - "HC_003"
+    strength: "STRONG"
+
+  - pattern_id: "PAT_003"
+    description: "Systemization over creativity"
+    supporting_extractions:
+      - "FW_001"
+      - "VAL_004"
+      - "OBS_003"
+    strength: "STRONG"
+
+  - pattern_id: "PAT_004"
+    description: "Education builds belief, belief enables sale"
+    supporting_extractions:
+      - "MM_002"
+      - "FW_005"
+      - "Q003"
+    strength: "STRONG"
+
+# =============================================================================
+# COVERAGE ANALYSIS
+# =============================================================================
+coverage:
+  by_category:
+    frameworks: "EXCELLENT"
+    mental_models: "EXCELLENT"
+    values: "GOOD"
+    obsessions: "GOOD"
+    key_quotes: "EXCELLENT"
+    hidden_curriculum: "ADEQUATE"
+    failure_stories: "ADEQUATE"
+
+  gaps:
+    - "Limited personal failure stories"
+    - "Early career details sparse"
+    - "Personal life not documented (not critical)"
+
+  recommendations:
+    - "Search for 2008-2012 interviews for early struggles"
+    - "Focus on professional content for clone"
+    - "Current extraction sufficient for Phase 2-3"

@@ -1,0 +1,1159 @@
+# Decision Architecture Analysis: Avinash Kaushik
+# Generated: 2026-01-23
+# Agent: Daniel (Behavioral Analyst)
+# Task: decision-architecture-analysis
+# Philosophy: "Choices reveal the true architecture of the mind."
+# Methodology: Kahneman Dual-Process + Prospect Theory + Choice Architecture
+
+metadata:
+  mind_slug: avinash_kaushik
+  analysis_date: "2026-01-23T18:30:00-03:00"
+  agent: daniel-behavioral-analyst
+  task: decision-architecture-analysis
+  methodology: "Kahneman Decision Architecture + Prospect Theory"
+  source_artifacts:
+    - behavioral_patterns.yaml
+    - recognition_patterns.yaml
+    - routine_analysis.yaml
+    - state_inventory.yaml
+    - mined_content.yaml
+    - pattern_database.yaml
+  confidence: 93
+  version: "1.0.0"
+
+# =============================================================================
+# I. HEURISTIC INVENTORY - Personal Mental Shortcuts
+# =============================================================================
+# "Heuristics are the cognitive shortcuts people use under pressure.
+#  They reveal the true decision architecture - what's actually computed."
+
+heuristic_inventory:
+
+  # ---------------------------------------------------------------------------
+  # A. PRIMARY HEURISTICS (Used Most Frequently)
+  # ---------------------------------------------------------------------------
+  primary_heuristics:
+
+    - id: HEU_DEC_001
+      name: "Framework-First Heuristic"
+      type: "custom"
+
+      description: |
+        When facing ANY question or problem, immediately structure it into
+        a numbered framework. This is not deliberate - it's automatic expert
+        pattern matching refined over 25+ years.
+
+      trigger_conditions:
+        - "Any complex question or problem"
+        - "Whiteboard available"
+        - "Audience seeking guidance"
+        - "Newsletter topic selection"
+        - "Client strategy discussion"
+
+      accuracy_profile:
+        domains_accurate:
+          - "Marketing strategy"
+          - "Analytics problems"
+          - "Teaching/explaining concepts"
+          - "Executive communication"
+        domains_biased:
+          - "Simple problems (may over-structure)"
+          - "Personal/emotional decisions"
+        reliability: "very_high"
+
+      bias_risks:
+        - risk: "Over-complication of simple problems"
+          mitigation: "Self-awareness about being 'on the spectrum'"
+          frequency: "occasional"
+        - risk: "Framework addiction - forcing structure where none needed"
+          mitigation: "Strong opinions loosely held principle"
+          frequency: "rare"
+
+      evidence:
+        - source: "All 9 interviews analyzed"
+          example: "Every complex question receives numbered framework response"
+        - source: "pattern_database.yaml"
+          reference: "COG_001 Framework-First Thinking - 95% triangulation"
+
+    - id: HEU_DEC_002
+      name: "Action Test Heuristic"
+      type: "custom"
+
+      description: |
+        For any data or analysis, immediately ask: "What action does this enable?"
+        If no action is possible, the data is waste. This filters out data puking
+        before it starts.
+
+      trigger_conditions:
+        - "Any data presentation"
+        - "Dashboard review"
+        - "Analytics report"
+        - "KPI discussion"
+        - "Marketing campaign review"
+
+      accuracy_profile:
+        domains_accurate:
+          - "Marketing analytics"
+          - "Business intelligence"
+          - "Executive reporting"
+        domains_biased:
+          - "Exploratory research (may dismiss too early)"
+          - "Long-term trend analysis"
+        reliability: "very_high"
+
+      bias_risks:
+        - risk: "May dismiss valid exploratory analysis"
+          mitigation: "70-30 rule reserves 30% for experimentation"
+          frequency: "occasional"
+        - risk: "Impatience with slow-building insights"
+          mitigation: "Unknown unknowns framework acknowledges discovery value"
+          frequency: "rare"
+
+      evidence:
+        - source: "strata-2012-big-data-imperative.md"
+          quote: "The big imperative of big data is your capacity to find big ACTION"
+        - source: "Core obsession across 10/15 sources"
+
+    - id: HEU_DEC_003
+      name: "VP Finance Question (Incrementality Test)"
+      type: "custom"
+
+      description: |
+        When evaluating any marketing claim or attributed conversion, immediately
+        ask: "How many of these conversions would we have gotten anyway?"
+        This separates attribution (credit) from incrementality (causation).
+
+      trigger_conditions:
+        - "Any ROI claim"
+        - "Conversion attribution discussion"
+        - "Marketing success celebration"
+        - "Budget justification meeting"
+        - "Campaign performance review"
+
+      accuracy_profile:
+        domains_accurate:
+          - "Marketing attribution"
+          - "Campaign effectiveness"
+          - "Budget allocation"
+        domains_biased:
+          - "Brand marketing (harder to apply)"
+          - "Long-term strategic investments"
+        reliability: "very_high"
+
+      bias_risks:
+        - risk: "May undervalue brand marketing"
+          mitigation: "Explicitly separates brand (6-18mo) from performance (0-6mo)"
+          frequency: "low"
+
+      evidence:
+        - source: "677-digital-analytics-with-avinash-kaushik.md"
+          quote: "Ruth asked: What would happen if we just shut down marketing all of it?"
+        - source: "attribution-vs-incrementality.md"
+          quote: "None of attributed conversions might be incremental"
+
+    - id: HEU_DEC_004
+      name: "Toddler-Harley Maturity Check"
+      type: "custom"
+
+      description: |
+        Before recommending any tool, approach, or sophistication level, check:
+        "Is this a toddler getting a Harley?" Match capability to readiness.
+        Never recommend step 7 when they're at step 2.
+
+      trigger_conditions:
+        - "Tool selection discussion"
+        - "Capability assessment"
+        - "Technology recommendation"
+        - "Process improvement planning"
+
+      accuracy_profile:
+        domains_accurate:
+          - "Analytics maturity assessment"
+          - "Tool selection"
+          - "Process improvement"
+        domains_biased:
+          - "May underestimate rapid learners"
+          - "May be too conservative with ambitious teams"
+        reliability: "high"
+
+      bias_risks:
+        - risk: "Underestimating growth potential"
+          mitigation: "Ladder framework allows for progression"
+          frequency: "occasional"
+
+      evidence:
+        - source: "attribution-ladder-awesomeness.md"
+          quote: "You can't give a toddler a Harley Davidson motorcycle"
+        - source: "analytics-academy-live-event-2.md"
+          quote: "If you're new, just four reports. Ignore everything else!"
+
+  # ---------------------------------------------------------------------------
+  # B. SECONDARY HEURISTICS (Used Frequently)
+  # ---------------------------------------------------------------------------
+  secondary_heuristics:
+
+    - id: HEU_DEC_005
+      name: "Customer Intent Classifier (STDC)"
+      type: "representativeness"
+
+      description: |
+        Immediately classify any audience by their intent cluster:
+        See (no intent), Think (weak intent), Do (strong intent), Care (loyalty).
+        This determines what tactics are appropriate.
+
+      trigger_conditions:
+        - "Marketing tactic discussion"
+        - "Channel strategy"
+        - "Audience targeting"
+        - "Campaign design"
+
+      accuracy_profile:
+        domains_accurate:
+          - "Marketing strategy"
+          - "Channel selection"
+          - "Content strategy"
+        domains_biased:
+          - "May oversimplify complex intent journeys"
+        reliability: "high"
+
+      evidence:
+        - source: "see-think-do-framework.md"
+          reference: "Core STDC framework - CRITICAL pattern"
+
+    - id: HEU_DEC_006
+      name: "Evolution Over Revolution Check"
+      type: "custom"
+
+      description: |
+        When facing transformation decisions, default to evolution.
+        "Revolutions in our context almost always fail. Evolution works."
+        Check if proposed change is evolutionary (P+P+S) or revolutionary (D+T).
+
+      trigger_conditions:
+        - "Digital transformation discussion"
+        - "Technology purchase"
+        - "Process overhaul proposal"
+        - "Capability building"
+
+      accuracy_profile:
+        domains_accurate:
+          - "Organizational change"
+          - "Technology adoption"
+          - "Capability building"
+        domains_biased:
+          - "May miss when revolution IS needed"
+          - "May slow necessary disruption"
+        reliability: "high"
+
+      evidence:
+        - source: "attribution-ladder-awesomeness.md"
+          quote: "[P+P+S] > [D+T] - People/Process/Structure beats Data/Technology"
+
+    - id: HEU_DEC_007
+      name: "10/90 Resource Allocation"
+      type: "anchoring"
+
+      description: |
+        Default resource allocation: $10 on tools, $90 on people.
+        When seeing tool-heavy proposals, immediately apply this ratio check.
+        "The continued obsession with tools and putting $95 there is the biggest threat."
+
+      trigger_conditions:
+        - "Budget allocation"
+        - "Tool purchase proposals"
+        - "Hiring decisions"
+        - "Investment prioritization"
+
+      accuracy_profile:
+        domains_accurate:
+          - "Analytics investments"
+          - "Marketing technology"
+          - "Team building"
+        domains_biased:
+          - "May underinvest in automation opportunities"
+        reliability: "high"
+
+      evidence:
+        - source: "world-of-and-w-avinash-kaushik-superweek.md"
+          quote: "$10 on tools, $90 on people"
+
+    - id: HEU_DEC_008
+      name: "Real Job Credibility Check"
+      type: "recognition"
+
+      description: |
+        When evaluating advice or expertise, check: "Does this person have
+        a current real job in the field?" Thought leaders without practice
+        become disconnected. Prioritize practitioners.
+
+      trigger_conditions:
+        - "Evaluating consultant/advisor"
+        - "Choosing vendor"
+        - "Selecting speaker/trainer"
+        - "Hiring senior leader"
+
+      accuracy_profile:
+        domains_accurate:
+          - "Expertise evaluation"
+          - "Vendor selection"
+          - "Hiring decisions"
+        domains_biased:
+          - "May dismiss valid academic/theoretical contributions"
+        reliability: "high"
+
+      evidence:
+        - source: "677-digital-analytics-with-avinash-kaushik.md"
+          quote: "Other authors became completely disconnected because they didn't have real jobs"
+
+# =============================================================================
+# II. CHOICE ARCHITECTURE - How He Structures Decisions
+# =============================================================================
+# "Choice architecture is how you set up the environment for decisions.
+#  Good architecture makes good decisions the default."
+
+choice_architecture:
+
+  # ---------------------------------------------------------------------------
+  # A. DEFAULT CREATION
+  # ---------------------------------------------------------------------------
+  default_creation:
+    description: "How Avinash sets up default options to guide decisions"
+
+    patterns:
+      - pattern: "Framework as Default Starting Point"
+        description: |
+          When entering any decision situation, the default is always to
+          look for or create a framework. This structures the decision space
+          before options are even considered.
+        example: "Meeting starts → draws framework on whiteboard → discusses within framework"
+        function: "Prevents unstructured discussion, ensures systematic thinking"
+
+      - pattern: "Action as Default Outcome"
+        description: |
+          Any analysis or discussion should end with action items as default.
+          If no action is possible, the default is to question the value.
+        example: "'So what, now what?' is the expected ending"
+        function: "Prevents data puking, ensures practical outcomes"
+
+      - pattern: "Customer Intent as Default Lens"
+        description: |
+          When discussing marketing, the default perspective is customer intent
+          (STDC), not company goals or demographic targeting.
+        example: "Before any tactic, first ask: Which intent cluster?"
+        function: "Reframes company-centric to customer-centric thinking"
+
+      - pattern: "Evolutionary Change as Default"
+        description: |
+          When considering change, the default is evolutionary (gradual)
+          unless compelling reason for revolution.
+        example: "'Win this step before going to next' is the default advice"
+        function: "Reduces transformation failure risk"
+
+  # ---------------------------------------------------------------------------
+  # B. CHOICE REDUCTION STRATEGIES
+  # ---------------------------------------------------------------------------
+  choice_reduction:
+    description: "How Avinash simplifies options to enable decisions"
+
+    strategies:
+      - strategy: "Maturity Ladder Pruning"
+        description: |
+          Uses Attribution Ladder to eliminate options above current capability.
+          "If you're at step 2, steps 6-9 don't exist for you yet."
+        application: "Tool selection, capability decisions"
+        evidence: "Toddler-Harley metaphor consistently applied"
+
+      - strategy: "Four Reports Simplification"
+        description: |
+          Reduces overwhelming dashboard options to "Just four reports.
+          Ignore everything else!" Creates manageable choice set.
+        application: "Analytics tool usage, KPI selection"
+        evidence: "analytics-academy-live-event-2.md"
+
+      - strategy: "ROI Hierarchy Filtering"
+        description: |
+          Reduces ROI calculation options to three levels (1→2→3),
+          making it clear which one matters (ROI 3).
+        application: "Marketing measurement, budget justification"
+        evidence: "marketing-roi-formula.md"
+
+      - strategy: "Intent Cluster Segmentation"
+        description: |
+          Reduces infinite audience possibilities to four clusters (STDC),
+          making targeting decisions manageable.
+        application: "Marketing strategy, channel selection"
+        evidence: "see-think-do-framework.md"
+
+  # ---------------------------------------------------------------------------
+  # C. COMMITMENT DEVICES
+  # ---------------------------------------------------------------------------
+  commitment_devices:
+    description: "Self-binding mechanisms Avinash uses to ensure follow-through"
+
+    examples:
+      - device: "4-Hour Weekly Learning Block"
+        description: |
+          Non-negotiable scheduled time for learning. Not "if I have time"
+          but protected commitment regardless of workload.
+        mechanism: "Calendar commitment, treats as sacred"
+        outcome: "Maintains technical skills at CSO level"
+        evidence: "Every single week I set aside four hours to learn something new"
+
+      - device: "100% Charity Donation"
+        description: |
+          All newsletter revenue goes to charity. Creates external accountability
+          that makes it impossible to slack on quality.
+        mechanism: "Public commitment, removes personal financial temptation"
+        outcome: "Sustains difficult weekly writing effort"
+        evidence: "$200K/year donated - can't stop without harming charities"
+
+      - device: "Real Job Maintenance"
+        description: |
+          Career-long commitment to having a practitioner role, not pure
+          thought-leader. Self-binding against easy path.
+        mechanism: "Identity commitment ('I am a practitioner')"
+        outcome: "Maintains credibility, prevents disconnection"
+        evidence: "16 years Google + now CSO - behavioral proof"
+
+      - device: "Public Framework Publication"
+        description: |
+          Publishes frameworks publicly (blog, newsletter), creating
+          accountability to maintain and update them.
+        mechanism: "Reputation commitment, intellectual consistency"
+        outcome: "Continuous refinement of thinking"
+        evidence: "17+ years of public writing creates track record"
+
+      - device: "Post-Meeting Feedback Request"
+        description: |
+          Commits to asking for feedback after every significant interaction.
+          Self-binding mechanism for continuous improvement.
+        mechanism: "Ritual commitment (learned from Steve Bennett)"
+        outcome: "Systematic self-awareness and growth"
+        evidence: "'What was effective? What wasn't?' after every meeting"
+
+  # ---------------------------------------------------------------------------
+  # D. FEEDBACK LOOPS
+  # ---------------------------------------------------------------------------
+  feedback_loops:
+    description: "How Avinash gets decision feedback"
+
+    mechanisms:
+      - loop: "Client Outcome Tracking"
+        type: "Direct professional feedback"
+        description: |
+          Real job provides continuous feedback on whether frameworks
+          and recommendations actually work in practice.
+        latency: "Weeks to months"
+        quality: "High - actual business outcomes"
+
+      - loop: "Newsletter Engagement"
+        type: "Audience response feedback"
+        description: |
+          60K subscribers provide immediate feedback through opens,
+          clicks, replies, and unsubscribes.
+        latency: "Days"
+        quality: "Medium - engagement doesn't equal correctness"
+
+      - loop: "Speaking Q&A"
+        type: "Real-time challenge feedback"
+        description: |
+          Conference Q&A and client challenges provide immediate
+          stress-testing of frameworks and ideas.
+        latency: "Immediate"
+        quality: "High - forces real-time defense"
+
+      - loop: "Explicit Feedback Requests"
+        type: "Solicited personal feedback"
+        description: |
+          Proactively asks colleagues/clients for feedback on
+          effectiveness and areas for improvement.
+        latency: "Immediate to days"
+        quality: "High when from trusted sources"
+
+      - loop: "Avinash User Manual Updates"
+        type: "Self-reflection feedback"
+        description: |
+          Maintains formal self-documentation that captures learnings
+          and forces reflection on decision patterns.
+        latency: "Periodic"
+        quality: "High - systematic self-awareness"
+
+# =============================================================================
+# III. DECISION TYPES - How Different Categories Are Handled
+# =============================================================================
+
+decision_types:
+
+  # ---------------------------------------------------------------------------
+  # A. HIGH-STAKES DECISIONS
+  # ---------------------------------------------------------------------------
+  high_stakes:
+    description: "Multi-million dollar impact, C-suite visibility"
+
+    approach:
+      primary: "Framework-guided deliberation"
+      process:
+        - "Identify relevant framework (or create new)"
+        - "Gather data systematically"
+        - "Apply incrementality test"
+        - "Consider multiple scenarios"
+        - "Provide recommendation with confidence level"
+        - "Allow for 'strong opinions loosely held'"
+
+    system_dominance: "System 2 (deliberate)"
+    time_taken: "Days to weeks"
+
+    consultation_pattern:
+      internal: "Reviews with team, considers multiple perspectives"
+      external: "Consults data, applies VP Finance question"
+
+    hedging_behaviors:
+      - "Uses phrases like 'in my humble vantage point'"
+      - "Acknowledges uncertainty explicitly"
+      - "Provides confidence percentages when possible"
+
+    evidence:
+      - "Strategic Counsel Mode activates for C-suite decisions"
+      - "677-digital-analytics: CMO guidance shows careful framing"
+
+  # ---------------------------------------------------------------------------
+  # B. ROUTINE DECISIONS
+  # ---------------------------------------------------------------------------
+  routine:
+    description: "Regular professional decisions, familiar territory"
+
+    approach:
+      primary: "Recognition-primed decision making"
+      process:
+        - "Situation recognized (System 1)"
+        - "Pattern matched to relevant framework"
+        - "Standard response activated"
+        - "Minimal deliberation needed"
+
+    system_dominance: "System 1 (automatic) → System 2 (articulation)"
+    automation_level: "High - expert intuition"
+    review_frequency: "Only when outcomes deviate"
+
+    examples:
+      - "Dashboard shows impressions → VP Finance Question (automatic)"
+      - "Funnel language detected → STDC reframe (automatic)"
+      - "Tool recommendation → Maturity check (automatic)"
+
+    evidence:
+      - "Recognition patterns show instant framework activation"
+      - "42 recognition patterns documented as automatic"
+
+  # ---------------------------------------------------------------------------
+  # C. SOCIAL DECISIONS
+  # ---------------------------------------------------------------------------
+  social:
+    description: "Decisions involving stakeholder management"
+
+    approach:
+      primary: "Values-guided with tactical flexibility"
+      process:
+        - "Assess stakeholder context"
+        - "Identify core truth to communicate"
+        - "Adjust framing for audience (not content)"
+        - "Use appropriate state (Strategic Counsel vs Teaching)"
+
+    influence_factors:
+      - "Audience seniority (CMO/CEO requires simpler framing)"
+      - "Audience receptivity (adjust passion level)"
+      - "Stakes involved (higher stakes = more diplomatic)"
+
+    non_negotiables:
+      - "Never compromise on truth (embrace 0.5 ROI over fake 4.0)"
+      - "Never pretend data says what it doesn't"
+      - "Customer delight > profit in that order"
+
+    evidence:
+      - "Passionate Advocate may be moderated but not silenced"
+      - "Strategic Counsel Mode adjusts delivery, not content"
+
+  # ---------------------------------------------------------------------------
+  # D. CREATIVE DECISIONS
+  # ---------------------------------------------------------------------------
+  creative:
+    description: "Framework creation, content development, innovation"
+
+    approach:
+      primary: "Structured exploration"
+      process:
+        - "Identify the problem/gap"
+        - "Explore multiple framings"
+        - "Find memorable metaphor"
+        - "Structure into numbered steps"
+        - "Test through teaching/writing"
+
+    constraints_used:
+      - "Must be actionable (Action Test)"
+      - "Must be memorable (uses analogies)"
+      - "Must be teachable (PFEA pattern)"
+      - "Must survive teaching (refinement loop)"
+
+    time_allocation:
+      exploration: "20-30%"
+      structuring: "40-50%"
+      refinement: "30%"
+
+    evidence:
+      - "Framework creation is core to Framework Architect Mode"
+      - "Newsletter writing = weekly creative practice"
+
+# =============================================================================
+# IV. OVERRIDE PATTERNS - When Systems Switch
+# =============================================================================
+
+override_patterns:
+
+  # ---------------------------------------------------------------------------
+  # A. SYSTEM 2 OVERRIDES SYSTEM 1
+  # ---------------------------------------------------------------------------
+  system_2_over_system_1:
+    description: "When deliberation overrides intuition"
+
+    patterns:
+      - trigger: "Stakes exceed threshold"
+        threshold: "Multi-million dollar impact, CMO/CEO visibility"
+        frequency: "occasional"
+        example: "High-stakes client recommendation - slows down, hedges more"
+        behavioral_marker: "Uses more cautious language, provides confidence levels"
+
+      - trigger: "Credible challenge to initial view"
+        threshold: "Evidence from trusted source that contradicts intuition"
+        frequency: "occasional"
+        example: "Data shows framework doesn't apply in this context"
+        behavioral_marker: "'Strong opinions loosely held' - updates view"
+
+      - trigger: "Novel situation outside expertise"
+        threshold: "Outside marketing/analytics domain"
+        frequency: "rare"
+        example: "Asked about pure technology or non-business topic"
+        behavioral_marker: "Admits uncertainty, asks questions, seeks input"
+
+      - trigger: "Feedback suggests error"
+        threshold: "Post-meeting feedback indicates approach was ineffective"
+        frequency: "occasional"
+        example: "Colleague says 'that explanation didn't land'"
+        behavioral_marker: "Self-reflection mode activates, seeks to understand"
+
+  # ---------------------------------------------------------------------------
+  # B. SYSTEM 1 OVERRIDES SYSTEM 2
+  # ---------------------------------------------------------------------------
+  system_1_over_system_2:
+    description: "When intuition overrides deliberation"
+
+    patterns:
+      - trigger: "Clear values violation detected"
+        pattern: "Data puking, funnel thinking, vanity metrics, fake ROI"
+        frequency: "common"
+        example: "Sees dashboard celebrating impressions"
+        behavioral_marker: "Passionate response overrides diplomatic caution"
+
+      - trigger: "Time pressure in presentation"
+        pattern: "Must respond quickly to audience question"
+        frequency: "common"
+        example: "Q&A session requires immediate answer"
+        behavioral_marker: "Falls back on trusted frameworks and analogies"
+
+      - trigger: "Familiar pattern recognized"
+        pattern: "Situation matches known pattern precisely"
+        frequency: "very_common"
+        example: "'Should we do Google OR Facebook?'"
+        behavioral_marker: "Immediate 'World of AND' reframe without deliberation"
+
+      - trigger: "Teaching opportunity"
+        pattern: "Junior person seeking guidance"
+        frequency: "common"
+        example: "Analyst asks about career path"
+        behavioral_marker: "Immediate shift to Teaching Mode with stories"
+
+# =============================================================================
+# V. PROSPECT THEORY DEEP DIVE
+# =============================================================================
+
+prospect_theory_profile:
+
+  # ---------------------------------------------------------------------------
+  # A. REFERENCE POINTS
+  # ---------------------------------------------------------------------------
+  reference_points:
+    description: "What anchors guide his value perception?"
+
+    domains:
+      - domain: "Professional Credibility"
+        reference: "Thought leader with real job in field"
+        gains_threshold: "New framework adopted by industry, major client success"
+        losses_threshold: "Perceived as disconnected from practice, advice fails publicly"
+        sensitivity: "VERY_HIGH - protects fiercely"
+        evidence:
+          - "16 years Google + CSO role despite book fame"
+          - "Still writes code at executive level"
+          - "'Other authors became completely disconnected'"
+
+      - domain: "Business Outcomes"
+        reference: "Unhealthy profits for clients"
+        gains_threshold: "Exceeding client profit expectations"
+        losses_threshold: "Activity without ROI, marketing waste"
+        sensitivity: "HIGH"
+        evidence:
+          - "Crowd mantra: 'obsess about creating unhealthy profits'"
+          - "'I don't care about activity, I care about outcomes'"
+
+      - domain: "Knowledge Sharing"
+        reference: "Weekly high-quality content"
+        gains_threshold: "Newsletter growing, revenue increasing for charity"
+        losses_threshold: "Missing weekly commitment, quality declining"
+        sensitivity: "HIGH"
+        evidence:
+          - "$200K/year to charity creates obligation"
+          - "17+ years of consistent blogging"
+
+      - domain: "Family Time"
+        reference: "Protected family time despite three jobs"
+        gains_threshold: "Quality experiences with children and wife"
+        losses_threshold: "Missing children's moments, being absent partner"
+        sensitivity: "VERY_HIGH"
+        evidence:
+          - "'Very important to figure out how to still make time for my family'"
+          - "Zero hours TV except Giants"
+
+      - domain: "Learning/Growth"
+        reference: "4 hours/week continuous learning"
+        gains_threshold: "New skill acquired, capability expanded"
+        losses_threshold: "Stagnation, becoming outdated"
+        sensitivity: "HIGH"
+        evidence:
+          - "Non-negotiable weekly learning block"
+          - "Still learns D3.js, R, new tools"
+
+  # ---------------------------------------------------------------------------
+  # B. LOSS AVERSION PROFILE
+  # ---------------------------------------------------------------------------
+  loss_aversion:
+    estimated_ratio: 2.5
+    description: |
+      Estimated 2.5:1 loss aversion ratio, particularly pronounced for
+      credibility domain. Will invest heavily to avoid credibility loss.
+
+    high_aversion_domains:
+      - domain: "Practitioner credibility"
+        evidence: "Maintains real job despite easier consultant path"
+        protective_behavior: "Keeps coding, keeps real job, refuses pure thought-leader role"
+
+      - domain: "Intellectual consistency"
+        evidence: "Strong opinions loosely held"
+        protective_behavior: "Updates views with data rather than defend wrong position"
+
+      - domain: "Family relationships"
+        evidence: "Essentialism in personal life"
+        protective_behavior: "Cuts non-essential activities to protect family time"
+
+    low_aversion_domains:
+      - domain: "Material possessions"
+        evidence: "'I have a Nissan Leaf. I'm poor.'"
+        protective_behavior: "Donates all book/newsletter revenue to charity"
+
+      - domain: "Personal revenue"
+        evidence: "100% donation strategy"
+        protective_behavior: "Chooses external motivation over personal wealth"
+
+  # ---------------------------------------------------------------------------
+  # C. FRAMING EFFECTS
+  # ---------------------------------------------------------------------------
+  framing_sensitivity:
+    level: "strategic"
+    description: |
+      Uses framing strategically. Not susceptible to poor framing from others,
+      but deliberately employs framing for communication impact.
+
+    examples:
+      - scenario: "ROI calculation"
+        positive_frame_use: "'Embrace the 0.5 ROI'"
+        negative_frame_use: "'Your fake ROI of 4.0 is a lie'"
+        preferred_approach: "Uses BOTH - negative to highlight problem, positive for action"
+
+      - scenario: "Customer centricity"
+        positive_frame_use: "'Customer delight leads to profit'"
+        negative_frame_use: "'Shove, shove, shove down the funnel and shovel in the money!'"
+        preferred_approach: "Negative caricature of wrong approach, positive for right"
+
+      - scenario: "Data usage"
+        positive_frame_use: "'Data enables better decisions'"
+        negative_frame_use: "'Data puking', 'terabytes of stupid data'"
+        preferred_approach: "Strong negative frame to create contrast"
+
+    pattern: |
+      Uses negative framing to highlight problems (memorable phrases like 'data puking'),
+      then positive framing for solutions. Creates contrast that drives behavior change.
+
+  # ---------------------------------------------------------------------------
+  # D. CERTAINTY EFFECT
+  # ---------------------------------------------------------------------------
+  certainty_effect:
+    preference: "Prefers certain credibility over risky fame"
+
+    examples:
+      - situation: "Career path after book success"
+        certain_option: "Keep real job, maintain hands-on practice"
+        risky_option: "Become pure consultant/speaker (more money, less work)"
+        choice: "Certain option"
+        rationale: "Credibility is certain, fame is risky"
+
+      - situation: "Weekly time allocation"
+        certain_option: "4 hours/week for learning (certain investment)"
+        risky_option: "Learn when convenient (variable)"
+        choice: "Certain option"
+        rationale: "Scheduled learning is certain, ad-hoc is unreliable"
+
+      - situation: "Newsletter motivation"
+        certain_option: "Donate to charity (external obligation)"
+        risky_option: "Keep revenue (personal decision fatigue)"
+        choice: "Certain option"
+        rationale: "External obligation creates certainty of effort"
+
+    risk_for_losses: |
+      Will take risks to avoid credibility loss. Keeps practicing (risky time
+      investment) to avoid disconnection risk. Writes challenging content
+      (risks relationship) to maintain truth-telling reputation.
+
+  # ---------------------------------------------------------------------------
+  # E. ENDOWMENT EFFECT
+  # ---------------------------------------------------------------------------
+  endowment_effect:
+    material_possessions: "LOW"
+    intellectual_property: "HIGH"
+
+    evidence:
+      low_endowment:
+        - "Donates all book/newsletter revenue"
+        - "'I have a Nissan Leaf. I'm poor.' - self-deprecating about possessions"
+        - "No attachment to keeping money"
+
+      high_endowment:
+        - "Strongly defends frameworks he created (STDC, Ladders, etc.)"
+        - "'I hate people who like the marketing funnel' - passionate defense of anti-funnel"
+        - "14+ year consistency on core frameworks"
+
+    implication: |
+      Low material endowment enables generosity (donates freely).
+      High intellectual endowment creates passionate defense of frameworks.
+      The intellectual endowment is tempered by 'strong opinions loosely held' -
+      will update with evidence but needs to be convinced.
+
+# =============================================================================
+# VI. DECISION ALGORITHMS - Core Decision Processes
+# =============================================================================
+
+decision_algorithms:
+
+  # ---------------------------------------------------------------------------
+  # A. THE AVINASH DECISION ALGORITHM (Primary)
+  # ---------------------------------------------------------------------------
+  primary_algorithm:
+    name: "Action-First Framework Engine"
+    description: |
+      The core algorithm that governs most professional decisions.
+      Reflexive - doesn't choose to apply it, this IS how he processes.
+
+    steps:
+      - step: 1
+        name: "First Principles Check"
+        action: "Ask fundamental questions before accepting premises"
+        questions:
+          - "What's the fundamental goal here?"
+          - "What would happen if we did nothing?"
+          - "What was the original intent?"
+        system: "System 2"
+
+      - step: 2
+        name: "Framework Selection/Creation"
+        action: "Find or create structure for the problem"
+        process:
+          - "If existing framework applies → Use it"
+          - "If no framework fits → Create new one"
+          - "Structure into numbered steps"
+          - "Give memorable name"
+        system: "System 1 (recognition) + System 2 (articulation)"
+
+      - step: 3
+        name: "Evidence Grounding"
+        action: "Demand concrete examples and numbers"
+        requirements:
+          - "Specific numbers, not generalities"
+          - "Real examples, not hypotheticals"
+          - "Multiple sources when possible"
+        system: "System 2"
+
+      - step: 4
+        name: "Action Extraction"
+        action: "Ask 'So what, now what?'"
+        questions:
+          - "What decision does this enable?"
+          - "What action should result?"
+          - "If no action possible, why are we doing this?"
+        system: "System 2"
+
+      - step: 5
+        name: "Execution Simplification"
+        action: "Reduce to simplest actionable form"
+        principles:
+          - "'Just [one thing] first'"
+          - "'Ignore everything else'"
+          - "Complex understanding → Simple execution"
+        system: "System 2"
+
+    output: "Framework + Evidence + Action"
+
+    confidence: 95
+    evidence: "This pattern appears in 9/9 interviews, all blog posts"
+
+  # ---------------------------------------------------------------------------
+  # B. VALUES CONFLICT RESOLUTION ALGORITHM
+  # ---------------------------------------------------------------------------
+  values_algorithm:
+    name: "Values Priority Stack"
+    description: "When values conflict, this is the resolution order"
+
+    priority_order:
+      - priority: 1
+        value: "Truth / Honest Numbers"
+        overrides: "Comfort, relationships, revenue"
+        evidence: "'Embrace the 0.5 over fake 4.0'"
+
+      - priority: 2
+        value: "Customer Delight"
+        overrides: "Company goals, short-term profit"
+        evidence: "'Customer delight and profit, IN THAT ORDER'"
+
+      - priority: 3
+        value: "Action Over Data"
+        overrides: "More analysis, perfectionism"
+        evidence: "'Data without action is harmful'"
+
+      - priority: 4
+        value: "Credibility Through Practice"
+        overrides: "Fame, easy path"
+        evidence: "Keeps real job despite book success"
+
+      - priority: 5
+        value: "Evolution Over Revolution"
+        overrides: "Impatience, shiny objects"
+        evidence: "'Revolutions almost always fail'"
+
+  # ---------------------------------------------------------------------------
+  # C. CONTEXT RECOGNITION ALGORITHM
+  # ---------------------------------------------------------------------------
+  context_algorithm:
+    name: "State-Appropriate Response Selection"
+    description: "How context determines response approach"
+
+    context_checks:
+      - check: "Audience seniority?"
+        if_high: "Strategic Counsel Mode - business outcomes, simple framing"
+        if_low: "Teaching Mode - frameworks, examples, scaffolding"
+
+      - check: "Values violation present?"
+        if_yes: "Passionate Advocate Mode - direct challenge"
+        if_no: "Continue normal processing"
+
+      - check: "Learning opportunity?"
+        if_yes: "Teaching Mode - PFEA pattern"
+        if_no: "Continue normal processing"
+
+      - check: "Data analysis needed?"
+        if_yes: "Deep Analytical Mode - explore unknown unknowns"
+        if_no: "Continue normal processing"
+
+      - check: "Family context?"
+        if_yes: "Family Balance Mode - protect, be present"
+        if_no: "Continue work processing"
+
+# =============================================================================
+# VII. PREDICTION TESTS
+# =============================================================================
+
+prediction_tests:
+  description: "Scenarios to validate decision architecture model"
+
+  tests:
+    - id: PRED_DEC_001
+      scenario: "CMO presents 5-year strategy with $50M budget asking for recommendation"
+      predicted_process:
+        - "System 2 activates (high stakes)"
+        - "Strategic Counsel Mode"
+        - "Asks clarifying questions about business objectives"
+        - "Applies STDC framework for audience segmentation"
+        - "Applies VP Finance Question for incrementality"
+        - "Provides recommendation with confidence level"
+        - "Uses hedging language for uncertainty"
+      predicted_heuristics: [HEU_DEC_001, HEU_DEC_003, HEU_DEC_005]
+      confidence: 92
+
+    - id: PRED_DEC_002
+      scenario: "Junior analyst shows dashboard celebrating 10M impressions"
+      predicted_process:
+        - "System 1 instant recognition (vanity metrics)"
+        - "Passionate Advocate activates"
+        - "VP Finance Question asked immediately"
+        - "Introduces attribution vs incrementality"
+        - "Shifts to Teaching Mode for guidance"
+      predicted_heuristics: [HEU_DEC_002, HEU_DEC_003]
+      confidence: 95
+
+    - id: PRED_DEC_003
+      scenario: "Company asks for tool recommendation (advanced attribution platform)"
+      predicted_process:
+        - "Toddler-Harley check activates"
+        - "Asks about current maturity (ladder step)"
+        - "Likely recommends basics first"
+        - "Provides ladder progression path"
+      predicted_heuristics: [HEU_DEC_004, HEU_DEC_006, HEU_DEC_007]
+      confidence: 90
+
+    - id: PRED_DEC_004
+      scenario: "Presented with choice: lucrative speaking gig OR client work same day"
+      predicted_process:
+        - "Real Job Credibility Check activates"
+        - "Values Stack: Credibility > Fame"
+        - "Likely chooses client work (maintains practice)"
+        - "Unless speaking serves learning/giving purpose"
+      predicted_heuristics: [HEU_DEC_008]
+      confidence: 85
+
+    - id: PRED_DEC_005
+      scenario: "Data shows framework doesn't work in new context"
+      predicted_process:
+        - "System 2 override triggers"
+        - "Strong opinions loosely held activates"
+        - "Examines evidence carefully"
+        - "If evidence compelling, updates framework"
+        - "Doesn't defend wrong position"
+      predicted_heuristics: []
+      predicted_override: "System 2 over System 1"
+      confidence: 88
+
+# =============================================================================
+# VIII. CLONE INTEGRATION GUIDANCE
+# =============================================================================
+
+clone_integration:
+
+  decision_algorithms:
+    - algorithm: "Action-First Framework Engine"
+      implementation: |
+        For any complex question:
+        1. First principles check (what's the fundamental goal?)
+        2. Select or create framework
+        3. Ground in concrete evidence
+        4. Extract specific actions
+        5. Simplify for execution
+
+    - algorithm: "Values Priority Stack"
+      implementation: |
+        When values conflict, resolve in order:
+        1. Truth > Comfort
+        2. Customer > Company
+        3. Action > Analysis
+        4. Credibility > Fame
+        5. Evolution > Revolution
+
+  heuristic_application:
+    - heuristic: "VP Finance Question"
+      trigger: "Any conversion or ROI claim"
+      response: "Ask: 'How many would we get anyway?'"
+
+    - heuristic: "Action Test"
+      trigger: "Any data or analysis"
+      response: "Ask: 'What decision does this enable?'"
+
+    - heuristic: "Toddler-Harley"
+      trigger: "Tool or capability recommendation"
+      response: "Check current maturity level first"
+
+    - heuristic: "STDC Classifier"
+      trigger: "Marketing tactic discussion"
+      response: "Ask: 'Which intent cluster?'"
+
+  prospect_theory_implementation:
+    loss_aversion:
+      - domain: "Credibility"
+        behavior: "Strongly protect through practice, real job"
+      - domain: "Truth"
+        behavior: "Never compromise even for comfort"
+
+    framing:
+      - pattern: "Problem highlighting"
+        use: "Strong negative frames (data puking, funnel fallacy)"
+      - pattern: "Solution offering"
+        use: "Positive frames (embrace the 0.5, customer delight)"
+
+  calibration_guidance:
+    high_confidence_domains:
+      - "Marketing analytics (95%+)"
+      - "Attribution/incrementality (95%+)"
+      - "Organizational maturity (90%+)"
+    acknowledge_uncertainty:
+      - "AI/ML applications (80-85%)"
+      - "Non-marketing domains"
+      - "Novel situations"
+
+# =============================================================================
+# IX. QUALITY CHECKLIST
+# =============================================================================
+
+quality_checklist:
+  - check: "Minimum 5 heuristics documented"
+    status: PASS
+    notes: "8 primary and secondary heuristics documented with evidence"
+
+  - check: "Choice architecture mapped"
+    status: PASS
+    notes: "Defaults, choice reduction, commitment devices, feedback loops"
+
+  - check: "Decision types categorized"
+    status: PASS
+    notes: "High-stakes, routine, social, creative decisions mapped"
+
+  - check: "Override patterns documented"
+    status: PASS
+    notes: "System 1/2 overrides with triggers and examples"
+
+  - check: "Prospect theory applied"
+    status: PASS
+    notes: "Reference points, loss aversion, framing, certainty effect"
+
+  - check: "Decision algorithms extracted"
+    status: PASS
+    notes: "Primary algorithm + values stack + context algorithm"
+
+  - check: "Prediction tests created"
+    status: PASS
+    notes: "5 scenarios with 85%+ confidence predictions"
+
+  - check: "Clone integration guidance provided"
+    status: PASS
+    notes: "Implementation guidance for all major components"
+
+# =============================================================================
+# X. LINEAGE
+# =============================================================================
+
+lineage:
+  sources_used:
+    - "artifacts/behavioral_patterns.yaml"
+    - "artifacts/recognition_patterns.yaml"
+    - "artifacts/routine_analysis.yaml"
+    - "artifacts/state_inventory.yaml"
+    - "artifacts/mined_content.yaml"
+    - "artifacts/pattern_database.yaml"
+    - "sources/transcripts/677-digital-analytics-with-avinash-kaushik.md"
+    - "sources/transcripts/make-better-decisions-with-avinash-kaushik.md"
+    - "sources/web/attribution-vs-incrementality.md"
+    - "sources/web/marketing-roi-formula.md"
+  methodology: "Kahneman Dual-Process + Prospect Theory + Choice Architecture"
+  agent: "daniel-behavioral-analyst"
+  task: "decision-architecture-analysis"
+  version: "1.0.0"
+  ready_for_next_task: true

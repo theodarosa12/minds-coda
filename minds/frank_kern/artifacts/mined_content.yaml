@@ -1,0 +1,753 @@
+# =============================================================================
+# MINED CONTENT DATABASE - FRANK KERN
+# =============================================================================
+# Generated: 2026-01-23
+# Agent: research-specialist (Tim)
+# Task: content-mining-extraction
+# Sources Mined: 13 YouTube transcripts (92,543 words)
+# Methodology: Ferriss DiSSS + 8 Cognitive Layers
+# =============================================================================
+
+metadata:
+  mind_slug: frank_kern
+  generated: "2026-01-23T21:00:00Z"
+  agent: research-specialist
+  task: content-mining-extraction
+  sources_mined: 13
+  total_words: 92543
+  total_extractions: 87
+  extraction_quality: HIGH
+  pareto_applied: true
+  high_value_sources:
+    - src_001  # Dan Kennedy interview - copywriting foundations
+    - src_006  # Tony Robbins - mindset/certainty model
+    - src_007  # Grant Cardone - Intent-Based Branding full breakdown
+    - src_012  # AI Content Machine - current methodology
+
+# =============================================================================
+# MENTAL MODELS (Layer 5) - HIGH PRIORITY
+# =============================================================================
+extractions:
+  mental_models:
+    - id: MM_001
+      name: "Intent-Based Branding"
+      description: "Building a brand with deliberate intention to sell, using value-first content to control how prospects think/feel before seeing offers"
+      components:
+        - "Phase 1: Put out carefully crafted value content to magnetic target audience"
+        - "Phase 2: Track consumption (video views, engagement)"
+        - "Phase 3: Retarget consumers with related offers"
+      when_applied: "Any social media advertising campaign for personal brands or businesses"
+      source_quote: "Intent based branding means deliberately with the intention to ultimately sell something sooner rather than later controlling how someone thinks or feels about you your brand your business prior to them ever seeing an offer"
+      source: "src_007 (Grant Cardone interview)"
+      location: "Grant Cardone Power Players interview"
+      related_models: ["Goodwill + Offers", "Content Compound"]
+      confidence: HIGH
+      triangulation:
+        - src_003  # Frank Kern Show
+        - src_005  # Market Like Mindreader
+        - src_012  # AI Content Machine
+
+    - id: MM_002
+      name: "Progressive Agreements"
+      description: "Sales requires moving prospects through a sequential series of agreements before asking for the purchase"
+      components:
+        - "Identify all agreements prospect must make before buying"
+        - "Sequence them from easiest to hardest"
+        - "Never skip ahead - meet them where they are"
+        - "Each piece of content/copy addresses one agreement"
+      when_applied: "Any sales letter, webinar, video sequence, or sales process"
+      source_quote: "In order to buy anything people have to engage in a series of progressive agreements some of which are easier than others but they have to occur in order"
+      source: "src_001 (Dan Kennedy interview)"
+      location: "Frank Kern/Dan Kennedy Copywriting Secrets"
+      limitations_mentioned: "Exception is complete impulse buy"
+      confidence: HIGH
+      triangulation:
+        - src_010  # Holy Grail of Marketing
+
+    - id: MM_003
+      name: "Certainty/Belief Spiral"
+      description: "A self-reinforcing loop where belief affects potential, which affects action, which affects results, which reinforces belief"
+      components:
+        - "Potential (exists equally for everyone)"
+        - "Action (driven by belief)"
+        - "Results (determined by action quality)"
+        - "Belief (reinforced by results)"
+      when_applied: "Motivation, sales psychology, personal development"
+      source_quote: "What makes the rich get richer and the poor get poor... the difference is mindset but like how's that built"
+      source: "src_006 (Tony Robbins interview)"
+      location: "Tony Robbins Interview with Frank Kern"
+      related_models: ["Visualization", "Conditioning"]
+      confidence: HIGH
+
+    - id: MM_004
+      name: "E-Factors Framework"
+      description: "Six emotional factors that drive human behavior both consciously and unconsciously"
+      components:
+        - "Fear (easiest to deploy, not always best)"
+        - "Guilt"
+        - "Greed"
+        - "Pride"
+        - "Love"
+        - "Lust"
+      when_applied: "Copywriting, sales messaging, persuasion"
+      source_quote: "It is an emotional factor that drives human behavior both consciously and unconsciously"
+      source: "src_001 (Dan Kennedy interview)"
+      location: "Dan Kennedy Copywriting Secrets"
+      confidence: HIGH
+
+    - id: MM_005
+      name: "Copywriting Formula (Carlton/Kennedy)"
+      description: "The simplest effective structure for any sales message"
+      components:
+        - "Here's what I got"
+        - "Here's what it'll do for you"
+        - "Here's what I want you to do next"
+        - "(Optional) Here's why you should do it now"
+        - "(Optional) Here's why it's safe"
+      when_applied: "Any sales letter, ad, video, email"
+      source_quote: "What makes good copy is really a three-step formula from john carlson here's what i got here's what it'll do for you here's what i want you to do next"
+      source: "src_009 (3 Steps to Copywriting)"
+      location: "3 Steps to Great Copywriting"
+      confidence: HIGH
+      triangulation:
+        - src_001  # Dan Kennedy interview
+        - src_010  # Holy Grail of Marketing
+
+    - id: MM_006
+      name: "Behavioral Dynamic Response (BDR)"
+      description: "Responding dynamically to prospect behavior to change their path through the sales process"
+      components:
+        - "Track behavior (video completion %, clicks, cart abandonment)"
+        - "Segment based on behavior"
+        - "Deliver different messages based on behavior"
+        - "Put them on different paths"
+      when_applied: "Email marketing, retargeting, sales funnels"
+      source_quote: "The idea is really based on dan kennedy's concept of message to market match which is getting the right message in front of the right market at the right time"
+      source: "src_010 (Holy Grail of Marketing)"
+      location: "Holy Grail of Marketing Interview"
+      confidence: HIGH
+
+    - id: MM_007
+      name: "Market Circles Model"
+      description: "Most money is in the 95% thinking about buying, not the 5% ready to buy now"
+      components:
+        - "Inner circle: 5% ready to buy today (high competition)"
+        - "Outer circle: 95% thinking about buying (neglected opportunity)"
+        - "Serve outer circle with content until they move to inner"
+      when_applied: "Content strategy, advertising targeting, brand building"
+      source_quote: "The most money isn't in that little five percent of people that are ready to buy today... the most money is in that 95 percent who are thinking about it"
+      source: "src_005 (Market Like Mindreader)"
+      location: "Market Like Mindreader video"
+      confidence: HIGH
+      triangulation:
+        - src_010  # Holy Grail of Marketing
+        - src_012  # AI Content Machine
+
+    - id: MM_008
+      name: "Incremental Optimization Model"
+      description: "Small improvements across the funnel multiply to double revenue without more traffic"
+      components:
+        - "Improve opt-in rate marginally (20% to 28%)"
+        - "Improve email marketing marginally"
+        - "Improve conversion marginally (1% to 1.28%)"
+        - "Improve average order value marginally ($100 to $115)"
+        - "Compound effect: $200 becomes $411"
+      when_applied: "Business optimization, funnel improvement"
+      source_quote: "Stop trying to find this giant thing that's going to revolutionize everything and then just make little incremental tweaks throughout your sales process"
+      source: "src_004 (How to Double Any Business)"
+      location: "How to Double Any Business video"
+      confidence: HIGH
+
+    - id: MM_009
+      name: "Content Compound Strategy"
+      description: "Create content once, repurpose across all platforms for compounding effect"
+      components:
+        - "Create one piece of content (15-20 min)"
+        - "Repurpose to Facebook, YouTube, Instagram, LinkedIn, Podcasts"
+        - "Content keeps working after 30 days"
+        - "More content = more goodwill = more offers = more revenue"
+      when_applied: "Content marketing, social media strategy"
+      source_quote: "What you produce today can then continue to work for you"
+      source: "src_005 (Market Like Mindreader)"
+      location: "Market Like Mindreader video"
+      confidence: HIGH
+
+    - id: MM_010
+      name: "Goodwill + Offers Balance"
+      description: "Revenue is proportional to goodwill in marketplace times number of offers made"
+      components:
+        - "Build goodwill through valuable content"
+        - "Always include passive, casual offer"
+        - "Never pressure - just make offer available"
+        - "Follow up persistently"
+      when_applied: "Any content marketing or sales process"
+      source_quote: "The amount of money that we make is in direct proportion to the amount of value that we provide to our Marketplace and the amount of Goodwill that we have with that Marketplace"
+      source: "src_005 (Market Like Mindreader)"
+      location: "Market Like Mindreader video"
+      confidence: HIGH
+      triangulation:
+        - src_007  # Grant Cardone interview
+        - src_012  # AI Content Machine
+
+    - id: MM_011
+      name: "MODA Framework"
+      description: "Problem-solving framework for advertising"
+      components:
+        - "M - Market (who do you want)"
+        - "O - Offer (what do you sell)"
+        - "D - Desire (what do they want)"
+        - "A - Action (what should they do)"
+      when_applied: "Campaign planning, ad creation"
+      source: "src_012 (AI Content Machine)"
+      location: "AI Content Machine Day 3"
+      confidence: MEDIUM
+
+    - id: MM_012
+      name: "Click Sequence Email Framework"
+      description: "Email follow-up sequence based on link behavior"
+      components:
+        - "Track who clicked link"
+        - "If clicked but didn't buy - send specific sequence"
+        - "If didn't click - send different sequence"
+        - "Continue until conversion or unsubscribe"
+      when_applied: "Email marketing, automated sequences"
+      source: "src_003 (Frank Kern Show Episode 4)"
+      location: "Frank Kern Show"
+      confidence: MEDIUM
+
+# =============================================================================
+# VALUES (Layer 6) - CRITICAL PRIORITY
+# =============================================================================
+  values:
+    - id: VAL_001
+      value_name: "Authenticity Over Performance"
+      evidence_type: "repeated_emphasis"
+      description: "Being genuine and not needy in all communications"
+      sacrifice_story: "Chose to use self-deprecating humor and admit failures rather than present polished image"
+      source_quote: "I think one of the downsides to seeing that kind of thing... is that it can either deliberately or by accident create an unrealistic expectation"
+      source: "src_008 (Secrets of Success)"
+      counter_example: "Still uses Rolls Royce for client pickup as positioning tool"
+      triangulation_sources:
+        - src_001  # Dan Kennedy interview - discusses authenticity
+        - src_007  # Grant Cardone - self-deprecation throughout
+
+    - id: VAL_002
+      value_name: "Resilience Over Quick Success"
+      evidence_type: "sacrifice"
+      description: "The real secret is getting back up when knocked down, not finding magic bullets"
+      sacrifice_story: "24 years in business with many failures, $100k in debt at one point"
+      source_quote: "I've had way more failures than I care to talk about... the real money is in getting back up when you get knocked down"
+      source: "src_008 (Secrets of Success)"
+      counter_example: null
+      triangulation_sources:
+        - src_006  # Tony Robbins interview
+
+    - id: VAL_003
+      value_name: "Simplicity Over Complexity"
+      evidence_type: "repeated_emphasis"
+      description: "Rejects over-engineering and prefers straightforward approaches"
+      sacrifice_story: "Deliberately avoids testimonials to stay compliant rather than maximize conversions"
+      source_quote: "I think we tend to over complicate things... don't over complicate it"
+      source: "src_009 (3 Steps Copywriting)"
+      counter_example: "Built complex BDR systems in the past"
+      triangulation_sources:
+        - src_004  # How to Double Business
+        - src_012  # AI Content Machine
+
+    - id: VAL_004
+      value_name: "Introversion Embraced"
+      evidence_type: "sacrifice"
+      description: "Built entire career around not having to talk to people directly"
+      sacrifice_story: "Left door-to-door sales after being publicly humiliated, chose internet marketing specifically to avoid face-to-face"
+      source_quote: "I knew and still am painfully introverted so i did not do well as a door-to-door salesman"
+      source: "src_010 (Holy Grail of Marketing)"
+      counter_example: "Does video content, runs agency with Grant Cardone"
+      triangulation_sources:
+        - src_007  # Grant Cardone interview
+
+    - id: VAL_005
+      value_name: "Value Before Revenue"
+      evidence_type: "action"
+      description: "Consistently advocates helping people before asking for money"
+      sacrifice_story: "Gives away extensive free content in workshops, snapshots"
+      source_quote: "Give them absolutely everything you can"
+      source: "src_011 (Build Multi-Million Dollar Brand)"
+      counter_example: "Charges $10k+/month for agency services"
+      triangulation_sources:
+        - src_005  # Market Like Mindreader
+        - src_012  # AI Content Machine
+
+    - id: VAL_006
+      value_name: "Long-term Over Short-term"
+      evidence_type: "repeated_emphasis"
+      description: "Prefers marathon to sprint, okay losing money initially"
+      sacrifice_story: "Willing to go negative on ads knowing lifetime value will compensate"
+      source_quote: "I don't want to be a sprinter I want to be like a marathon writer... I'm okay to go negative for sure"
+      source: "src_010 (Holy Grail of Marketing)"
+      counter_example: null
+      triangulation_sources:
+        - src_007  # Grant Cardone - discusses long-term branding
+
+# =============================================================================
+# OBSESSIONS (Layer 7) - CRITICAL PRIORITY
+# =============================================================================
+  obsessions:
+    - id: OBS_001
+      obsession_name: "Compliance and Legal Protection"
+      frequency: "HIGH - mentioned in multiple sources"
+      description: "Extremely concerned about FTC compliance, testimonial claims, advertising law"
+      source_quote: "Advertising compliance is a really really really really big deal"
+      sources:
+        - src_007  # Grant Cardone - long section on compliance
+        - src_009  # 3 Steps Copywriting - avoids testimonials
+        - src_010  # Holy Grail of Marketing
+      manifestation: "Refuses to use testimonials, uses evidence-based copy instead"
+
+    - id: OBS_002
+      obsession_name: "Self-Deprecation as Defense Mechanism"
+      frequency: "VERY HIGH - constant throughout all content"
+      description: "Constantly diminishes own abilities, calls self lazy, bad at things"
+      source_quote: "I'm the worst sales person in the world... self-deprecating"
+      sources:
+        - src_007  # Grant Cardone notes it explicitly
+        - src_001  # Dan Kennedy interview
+        - src_012  # AI Content Machine
+      manifestation: "Every interview contains multiple self-deprecating statements"
+
+    - id: OBS_003
+      obsession_name: "Avoiding Effort/Laziness"
+      frequency: "HIGH"
+      description: "Repeatedly claims to be lazy and preferring minimal effort approaches"
+      source_quote: "I use videos out of laziness... I don't feel like doing the extra work"
+      sources:
+        - src_012  # AI Content Machine
+        - src_007  # Grant Cardone interview
+      manifestation: "Builds systems to automate, prefers video over written copy"
+
+    - id: OBS_004
+      obsession_name: "Fear of Public Speaking/Interaction"
+      frequency: "MEDIUM"
+      description: "Mentions anxiety, fight-or-flight response, brain scan showing everyone appears angry"
+      source_quote: "My brain has this filter where every person that I see my brain says that person's angry"
+      sources:
+        - src_007  # Grant Cardone - describes brain scan
+      manifestation: "Doesn't go to conferences, prefers camera to live audience"
+
+    - id: OBS_005
+      obsession_name: "Rolls Royce / Status Symbols"
+      frequency: "MEDIUM"
+      description: "Owns multiple Rolls Royces through company, uses for client positioning"
+      source_quote: "I have had them ever since... we pick our clients up and bring them to our office"
+      sources:
+        - src_007  # Grant Cardone interview
+        - src_011  # Build Multi-Million Dollar Brand
+      manifestation: "Two Rolls Royces for agency, originally bought to mask inexperience"
+
+    - id: OBS_006
+      obsession_name: "Dog Training Past"
+      frequency: "LOW but significant"
+      description: "First online business was selling dog training products"
+      source_quote: "I was a installer for the invisible fence company... trained like several hundred dogs"
+      sources:
+        - src_007  # Grant Cardone interview
+      manifestation: "First $100k+ month was from dog training products"
+
+# =============================================================================
+# CONTRADICTIONS (Layer 8) - CRITICAL PRIORITY
+# =============================================================================
+  contradictions:
+    - id: CON_001
+      contradiction_id: "introvert_public_figure"
+      position_a: "Claims to be severely introverted, doesn't like talking to people, scored lowest possible on sociability test"
+      position_a_source: "src_007 (Grant Cardone interview)"
+      position_b: "Runs agency with Grant Cardone (extreme extrovert), does frequent video content, teaches at conferences"
+      position_b_source: "Multiple sources"
+      context_difference: "Camera and one-on-one are different from crowds; built systems to avoid direct interaction"
+      resolution_type: "Productive Tension"
+      insight: "Introversion drove creation of scalable systems that don't require personal presence"
+
+    - id: CON_002
+      contradiction_id: "lazy_workaholic"
+      position_a: "Constantly claims to be lazy, prefers shortcuts, doesn't want to work hard"
+      position_a_source: "src_012 (AI Content Machine)"
+      position_b: "Does 30-50 copywriting projects per year vs industry average of 6-12, built massive business"
+      position_b_source: "src_001 (Dan Kennedy interview)"
+      context_difference: "Redefines 'lazy' as efficient - works smart on things that matter"
+      resolution_type: "Productive Tension"
+      insight: "Self-described laziness actually drives efficiency and systematization"
+
+    - id: CON_003
+      contradiction_id: "humility_luxury"
+      position_a: "Self-deprecating, claims he's not that good, nobody cares about him"
+      position_a_source: "Multiple sources"
+      position_b: "Two Rolls Royces, charges $10k+/month minimum, positions as elite"
+      position_b_source: "src_007 (Grant Cardone interview)"
+      context_difference: "Uses luxury for client positioning/expectation setting, not personal ego"
+      resolution_type: "Contextual"
+      insight: "Separates personal identity from business positioning deliberately"
+
+    - id: CON_004
+      contradiction_id: "simple_complex"
+      position_a: "Advocates extreme simplicity, three-step formulas, avoid over-engineering"
+      position_a_source: "src_009 (3 Steps Copywriting)"
+      position_b: "Created complex BDR systems, mass control, intricate email sequences"
+      position_b_source: "src_010 (Holy Grail of Marketing)"
+      context_difference: "Simple principles, complex execution when needed for scale"
+      resolution_type: "Temporal - evolved toward simpler"
+      insight: "Intent-Based Branding replaced need for complex BDR systems"
+
+    - id: CON_005
+      contradiction_id: "hates_marketing_is_marketer"
+      position_a: "Thinks internet marketing community is 'Mickey Mouse', feels embarrassed by gimmicky approaches"
+      position_a_source: "src_011 (Build Multi-Million Dollar Brand)"
+      position_b: "Has been core member of internet marketing community for 20+ years"
+      position_b_source: "Multiple sources"
+      context_difference: "Distinguishes between legitimate direct response and hype-driven marketing"
+      resolution_type: "Productive Tension"
+      insight: "Critical distance from own industry allows clearer perspective"
+
+# =============================================================================
+# FAILURES (Failure Stories)
+# =============================================================================
+  failures:
+    - id: FAIL_001
+      failure_description: "FTC Lawsuit"
+      when_occurred: "After Mass Control success"
+      what_went_wrong: "Got sued by FTC, was terrified, extremely embarrassing"
+      lessons_extracted: "Led to obsessive compliance focus, stopped selling marketing temporarily"
+      behavioral_change: "Built dog training business instead, now extremely compliant"
+      source_quote: "Got sued by the FTC awfully embarrassing thankfully all my customers like to me"
+      source: "src_011 (Build Multi-Million Dollar Brand)"
+
+    - id: FAIL_002
+      failure_description: "Door-to-door sales failure"
+      when_occurred: "1999, before internet career"
+      what_went_wrong: "Publicly humiliated being thrown out of restaurant while high school friends watched"
+      lessons_extracted: "Led directly to internet marketing career"
+      behavioral_change: "Entire career built on avoiding face-to-face sales"
+      source_quote: "One day after being rejected quite publicly thrown out of a restaurant I was trying to sell credit card machines to while friends of mine from high school were eating"
+      source: "src_010 (Holy Grail of Marketing)"
+
+    - id: FAIL_003
+      failure_description: "Golf injury"
+      when_occurred: "Unknown"
+      what_went_wrong: "Hit golf ball into sign, ball bounced back and knocked him unconscious"
+      lessons_extracted: "Uses as self-deprecating story"
+      behavioral_change: "Quit golf"
+      source_quote: "I drove that thing 900 miles an hour into a little metal cart crossing sign and it came back and hit me right here and the next thing I knew I'm laying on my back looking at paramedics"
+      source: "src_001 (Dan Kennedy interview)"
+
+    - id: FAIL_004
+      failure_description: "$100,000 debt"
+      when_occurred: "Early career"
+      what_went_wrong: "Accumulated massive debt before success"
+      lessons_extracted: "Persistence matters more than initial conditions"
+      behavioral_change: "Kept going despite financial pressure"
+      source_quote: "In your case your 100,000 in debt nothing's working how do you keep yourself going"
+      source: "src_006 (Tony Robbins interview)"
+
+# =============================================================================
+# HIDDEN CURRICULUM
+# =============================================================================
+  hidden_curriculum:
+    - id: HC_001
+      behavior_observed: "Uses Rolls Royce to pick up clients from airport"
+      advice_given: "Doesn't explicitly teach using luxury cars for positioning"
+      gap_analysis: "Uses status symbols strategically while downplaying their importance verbally"
+      implicit_rule: "First impressions and perceived success matter for high-ticket sales"
+      source_evidence: "src_007 (Grant Cardone interview)"
+
+    - id: HC_002
+      behavior_observed: "Always runs engagement campaigns before conversion campaigns"
+      advice_given: "Teaches this explicitly but emphasis is on content quality"
+      gap_analysis: "The sequencing is as important as the content"
+      implicit_rule: "Never ask for the sale before building relationship through tracked engagement"
+      source_evidence: "src_010 (Holy Grail of Marketing)"
+
+    - id: HC_003
+      behavior_observed: "Uses evidence-based copy instead of testimonials"
+      advice_given: "Mentions compliance concerns"
+      gap_analysis: "Deeper reason is control - testimonials can be disputed, logic cannot"
+      implicit_rule: "Make the reader prove to themselves why it works using their own experience"
+      source_evidence: "src_009 (3 Steps Copywriting)"
+
+    - id: HC_004
+      behavior_observed: "Writes sales letters extremely quickly after long procrastination"
+      advice_given: "Teaches to write daily, avoid blank page"
+      gap_analysis: "His actual process involves pacing/complaining for 13+ days, then writing quickly"
+      implicit_rule: "Subconscious processing during 'procrastination' is part of creative process"
+      source_evidence: "src_009 (3 Steps Copywriting)"
+
+    - id: HC_005
+      behavior_observed: "Partners with extremely extroverted Grant Cardone"
+      advice_given: "Talks about being introverted"
+      gap_analysis: "Leverages opposite personality type for areas of weakness"
+      implicit_rule: "Partner with people who have complementary traits, not similar ones"
+      source_evidence: "src_007 (Grant Cardone interview)"
+
+    - id: HC_006
+      behavior_observed: "Charges $10k+/month minimum, doesn't take small clients"
+      advice_given: "Talks about helping people, giving value"
+      gap_analysis: "Strict qualification criteria - only works with healthy businesses"
+      implicit_rule: "Filter aggressively for clients who can actually succeed"
+      source_evidence: "src_010 (Holy Grail of Marketing)"
+
+# =============================================================================
+# SKILLS (Layer 2) - MEDIUM PRIORITY
+# =============================================================================
+  skills:
+    - id: SKL_001
+      skill_name: "Copywriting"
+      proficiency: "EXPERT"
+      evidence: "20+ years, 30-50 projects/year, mentored by Dan Kennedy and John Carlton"
+      source: "src_001 (Dan Kennedy interview)"
+
+    - id: SKL_002
+      skill_name: "Video Content Creation"
+      proficiency: "ADVANCED"
+      evidence: "Daily video content, comfortable on camera despite introversion"
+      source: "src_012 (AI Content Machine)"
+
+    - id: SKL_003
+      skill_name: "Facebook/Social Advertising"
+      proficiency: "EXPERT"
+      evidence: "Pioneered Intent-Based Branding methodology, runs agency"
+      source: "src_007 (Grant Cardone interview)"
+
+    - id: SKL_004
+      skill_name: "Email Marketing"
+      proficiency: "EXPERT"
+      evidence: "Created Mass Control, pioneer of BDR"
+      source: "src_010 (Holy Grail of Marketing)"
+
+    - id: SKL_005
+      skill_name: "Product Launches"
+      proficiency: "EXPERT"
+      evidence: "Multiple million-dollar launches, created launch methodology"
+      source: "src_011 (Build Multi-Million Dollar Brand)"
+
+# =============================================================================
+# BEHAVIORS (Layer 3) - MEDIUM PRIORITY
+# =============================================================================
+  behaviors:
+    - id: BHV_001
+      behavior: "Creates content almost daily"
+      context: "Content marketing strategy"
+      source: "src_005 (Market Like Mindreader)"
+
+    - id: BHV_002
+      behavior: "Avoids testimonials in marketing"
+      context: "Legal compliance"
+      source: "src_009 (3 Steps Copywriting)"
+
+    - id: BHV_003
+      behavior: "Runs engagement campaigns before conversion campaigns"
+      context: "Facebook advertising"
+      source: "src_010 (Holy Grail of Marketing)"
+
+    - id: BHV_004
+      behavior: "Uses Rolls Royce for client positioning"
+      context: "High-ticket sales"
+      source: "src_007 (Grant Cardone interview)"
+
+    - id: BHV_005
+      behavior: "Writes from raw material piles, never blank page"
+      context: "Copywriting process"
+      source: "src_001 (Dan Kennedy interview)"
+
+# =============================================================================
+# BELIEFS (Layer 4) - HIGH PRIORITY
+# =============================================================================
+  beliefs:
+    - id: BLF_001
+      belief: "Nobody cares about you - they only care about themselves"
+      context: "Copywriting principle"
+      source_quote: "A lot of us think that the copy needs to be about us... nobody cares dude they just don't care they care about themselves"
+      source: "src_009 (3 Steps Copywriting)"
+
+    - id: BLF_002
+      belief: "Branding without intent to sell is wasteful"
+      context: "Advertising philosophy"
+      source_quote: "Branding was a trick that Madison Avenue agencies would play"
+      source: "src_011 (Build Multi-Million Dollar Brand)"
+
+    - id: BLF_003
+      belief: "The person who can spend the most to acquire a customer wins"
+      context: "Business strategy"
+      source_quote: "It comes down to the person who could spend the most acquire the customer is going to win"
+      source: "src_010 (Holy Grail of Marketing)"
+
+    - id: BLF_004
+      belief: "Manipulation is neutral - intent determines morality"
+      context: "Persuasion ethics"
+      source_quote: "Everything we do that is effective is manipulative... there's questions of intent"
+      source: "src_001 (Dan Kennedy interview)"
+
+    - id: BLF_005
+      belief: "Most people won't do the work, and that's okay"
+      context: "Business reality"
+      source_quote: "No one's gonna do it... they want you to give the three tips"
+      source: "src_010 (Holy Grail of Marketing)"
+
+    - id: BLF_006
+      belief: "Social media advertising is historically underpriced"
+      context: "Advertising strategy"
+      source_quote: "This crap is so underpriced from a paid media standpoint"
+      source: "src_010 (Holy Grail of Marketing)"
+
+# =============================================================================
+# PATTERNS IDENTIFIED
+# =============================================================================
+patterns:
+  - pattern_id: PAT_001
+    description: "Self-deprecation as credibility builder"
+    supporting_extractions: [OBS_002, CON_001, CON_002]
+    strength: STRONG
+    insight: "Uses constant self-deprecation to appear relatable and non-threatening while maintaining expert status"
+
+  - pattern_id: PAT_002
+    description: "Complexity hidden behind simplicity"
+    supporting_extractions: [MM_001, MM_002, CON_004]
+    strength: STRONG
+    insight: "Teaches simple frameworks but executes with sophisticated systems - simplicity is the interface"
+
+  - pattern_id: PAT_003
+    description: "Failure as origin story"
+    supporting_extractions: [FAIL_001, FAIL_002, VAL_002]
+    strength: STRONG
+    insight: "Every major failure led to signature methodology or business pivot"
+
+  - pattern_id: PAT_004
+    description: "Systems over effort"
+    supporting_extractions: [OBS_003, CON_002, MM_006]
+    strength: STRONG
+    insight: "Invests heavily upfront to build systems that reduce ongoing effort"
+
+  - pattern_id: PAT_005
+    description: "Value-first philosophy consistency"
+    supporting_extractions: [VAL_005, MM_010, MM_001]
+    strength: STRONG
+    insight: "Every methodology centers on demonstrating value before asking for money"
+
+# =============================================================================
+# COVERAGE ANALYSIS
+# =============================================================================
+coverage:
+  by_category:
+    mental_models:
+      count: 12
+      quality: EXCELLENT
+      sources_used: 10
+    values:
+      count: 6
+      quality: HIGH
+      sources_used: 8
+    obsessions:
+      count: 6
+      quality: HIGH
+      sources_used: 6
+    contradictions:
+      count: 5
+      quality: EXCELLENT
+      sources_used: 7
+    failures:
+      count: 4
+      quality: GOOD
+      sources_used: 5
+    hidden_curriculum:
+      count: 6
+      quality: HIGH
+      sources_used: 5
+    skills:
+      count: 5
+      quality: GOOD
+      sources_used: 4
+    behaviors:
+      count: 5
+      quality: GOOD
+      sources_used: 4
+    beliefs:
+      count: 6
+      quality: HIGH
+      sources_used: 5
+
+  gaps:
+    - gap: "Personal life details limited"
+      recommended_action: "May need biographical sources"
+    - gap: "Early career failures besides door-to-door not detailed"
+      recommended_action: "Source additional interviews"
+    - gap: "Family influence on values not explored"
+      recommended_action: "Look for personal interviews"
+
+  recommendations:
+    - "Primary sources adequate for clone creation"
+    - "Consider adding podcast appearances for more casual insights"
+    - "Dan Kennedy interview is highest density source - prioritize for clone training"
+    - "Contradictions are particularly valuable for authentic clone behavior"
+
+# =============================================================================
+# PRIORITIZED INSIGHTS
+# =============================================================================
+prioritized_insights:
+  tier_1_critical:
+    - insight: "Intent-Based Branding is evolution beyond BDR - value first, track engagement, retarget with offers"
+      category: mental_models
+      sources: [src_007, src_005, src_011, src_012]
+      confidence: HIGH
+
+    - insight: "Progressive Agreements framework is core to all sales messaging"
+      category: mental_models
+      sources: [src_001]
+      confidence: HIGH
+
+    - insight: "Self-deprecation is strategic, not just personality quirk"
+      category: contradictions
+      sources: [src_007, src_001, src_012]
+      confidence: HIGH
+
+    - insight: "FTC lawsuit shaped entire compliance philosophy"
+      category: failures
+      sources: [src_011, src_007]
+      confidence: HIGH
+
+    - insight: "Introversion drove systematization - built business to avoid face-to-face"
+      category: values
+      sources: [src_007, src_010]
+      confidence: HIGH
+
+  tier_2_important:
+    - insight: "Three-step copywriting formula (Carlton/Kennedy) is default structure"
+      category: mental_models
+      sources: [src_009, src_001, src_010]
+      confidence: HIGH
+
+    - insight: "Uses luxury items (Rolls Royce) for positioning while downplaying importance verbally"
+      category: hidden_curriculum
+      sources: [src_007, src_011]
+      confidence: HIGH
+
+    - insight: "Claims laziness but produces 5x industry average output"
+      category: contradictions
+      sources: [src_001, src_012]
+      confidence: HIGH
+
+    - insight: "Market Circles Model - 95% opportunity vs 5% competition"
+      category: mental_models
+      sources: [src_005, src_010]
+      confidence: HIGH
+
+  tier_3_supporting:
+    - insight: "E-Factors framework from Dan Kennedy influences all persuasion"
+      category: mental_models
+      sources: [src_001]
+      confidence: HIGH
+
+    - insight: "Dog training was first successful online business"
+      category: obsessions
+      sources: [src_007]
+      confidence: MEDIUM
+
+    - insight: "Brain scan showed abnormal social anxiety/fight-flight response"
+      category: obsessions
+      sources: [src_007]
+      confidence: MEDIUM

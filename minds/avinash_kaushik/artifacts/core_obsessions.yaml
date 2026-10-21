@@ -1,0 +1,696 @@
+# Core Obsessions Analysis: Avinash Kaushik (Layer 7 - DNA Mental)
+# Agent: Brené (Identity Analyst)
+# Task: core-obsessions-analysis
+# Date: 2026-01-23
+# Methodology: 5-Step Obsession Identification (Thought Loops, Time Investment, Emotional Intensity, Return Patterns, Identity Fusion)
+
+core_obsessions:
+  metadata:
+    mind_slug: "avinash_kaushik"
+    analysis_date: "2026-01-23"
+    analyst: "identity-analyst"
+    layer: 7
+    layer_name: "Core Obsessions"
+    sources_analyzed:
+      - "mined_content.yaml"
+      - "pattern_database.yaml"
+      - "interview_patterns.yaml"
+      - "All 15 primary sources"
+    observation_period_years: 14
+    human_validated: false
+    confidence_score: 0.93
+
+  methodology:
+    approach: "5-Step Obsession Identification"
+    steps:
+      - "1. Thought Loop Mining - recurring themes across contexts"
+      - "2. Time Investment Analysis - where hours go without resentment"
+      - "3. Emotional Intensity Mapping - disproportionate responses"
+      - "4. Return Pattern Detection - themes that keep resurging"
+      - "5. Identity Fusion Assessment - interests that became identity"
+    criteria_threshold: 3  # Must meet 3+ of 5 criteria
+
+  # ==========================================================================
+  # OBSESSION 1: INCREMENTALITY OVER ATTRIBUTION (CORE OBSESSION)
+  # ==========================================================================
+  obsessions:
+    - id: obs_001
+      rank: 1
+      classification: "CORE OBSESSION"
+      theme: "Incrementality Over Attribution"
+      description: "The obsessive distinction between what marketing gets credit for vs what marketing actually caused. The relentless question: 'What would have happened if we did nothing?'"
+      intensity: 10
+
+      criteria_met:
+        thought_loops: true
+        time_investment: true
+        emotional_intensity: true
+        return_patterns: true
+        identity_fusion: true
+      criteria_count: 5
+
+      evidence:
+        # --------------------------------------------------
+        # THOUGHT LOOPS
+        # --------------------------------------------------
+        thought_loops:
+          - source: "attribution-vs-incrementality.md"
+            context: "Dedicated blog post"
+            quote: "Attribution is simply distributing credit. Incrementality is what ACTUALLY drove value."
+          - source: "677-digital-analytics-with-avinash-kaushik.md"
+            context: "Podcast - unprompted tangent"
+            quote: "The VP Finance question: How many would we have gotten anyway?"
+          - source: "marketing-roi-formula.md"
+            context: "ROI calculation critique"
+            quote: "Most of attributed conversions might NOT be incremental."
+          - source: "controlled-experiments-incrementality.md"
+            context: "Experimentation focus"
+            quote: "True incrementality comes from proper test vs control design"
+          - source: "make-better-decisions-with-avinash-kaushik.md"
+            context: "Podcast - circled back multiple times"
+            quote: "Ruth at Alphabet asked: What if we shut down marketing?"
+        frequency: "constant"
+        observation: "Appears in 6/15 sources; brings up regardless of question asked"
+
+        # --------------------------------------------------
+        # TIME INVESTMENT
+        # --------------------------------------------------
+        time_investment:
+          - activity: "Developing and teaching incrementality frameworks"
+            hours: "100+ hours across career"
+            external_requirement: false
+            resentment_level: "none"
+            evidence: "Multiple blog posts, talks, and frameworks dedicated to this topic"
+          - activity: "Attribution Ladder of Awesomeness creation"
+            hours: "Significant - 9-step comprehensive framework"
+            external_requirement: false
+            resentment_level: "none"
+            evidence: "Created entire evolutionary path ending in controlled experiments"
+          - activity: "Consulting clients on measurement"
+            hours: "Weekly at Crowd"
+            external_requirement: true
+            resentment_level: "none - aligns with obsession"
+            evidence: "CSO role includes measurement consulting"
+
+        # --------------------------------------------------
+        # EMOTIONAL INTENSITY
+        # --------------------------------------------------
+        emotional_markers:
+          - topic: "Attribution being called measurement"
+            emotion: "frustration/anger"
+            intensity: 9
+            observation: "'Chalk and cheese' - emphatic distinction"
+          - topic: "Vanity metrics celebration"
+            emotion: "anger"
+            intensity: 10
+            observation: "'Impressions is useless. Worth not even a penny. If you bring Impressions I'm gonna get mad.'"
+          - topic: "Incrementality revelation"
+            emotion: "excitement"
+            intensity: 9
+            observation: "Animated when explaining VP Finance question"
+          - topic: "Fake ROI"
+            emotion: "passionate frustration"
+            intensity: 9
+            observation: "'While heartbreaking, please learn to embrace the 0.5'"
+
+        # --------------------------------------------------
+        # RETURN PATTERNS
+        # --------------------------------------------------
+        return_patterns:
+          - theme: "What would happen if we did nothing?"
+            first_appearance: "2010+ at Google"
+            resurrections:
+              - "2012 Strata talk"
+              - "2014 SUPERWEEK"
+              - "2018 Attribution blog posts"
+              - "2023 podcasts"
+            current_status: "active"
+            persistence_evidence: "14+ years of returning to same question"
+          - theme: "Attribution vs Incrementality distinction"
+            first_appearance: "Mid-2010s"
+            resurrections:
+              - "Multiple blog posts"
+              - "Every measurement talk"
+              - "Crowd consulting practice"
+            current_status: "active"
+            persistence_evidence: "Core of current consulting practice"
+
+        # --------------------------------------------------
+        # IDENTITY FUSION
+        # --------------------------------------------------
+        identity_fusion:
+          fusion_level: "identity"
+          self_description: "Would describe self as someone who fights vanity metrics"
+          removal_impact: "devastating"
+          evidence:
+            - source: "677-digital-analytics-with-avinash-kaushik.md"
+              quote: "I help people make better decisions - that's what I tell my mom"
+            - source: "Multiple sources"
+              quote: "40%+ of public discourse dedicated to measurement truth"
+          could_imagine_life_without: false
+          how_others_identify_him: "The incrementality guy; anti-vanity-metrics crusader"
+
+      context_patterns:
+        when_emerges:
+          - "Any discussion of marketing measurement"
+          - "When attribution is praised"
+          - "ROI conversations"
+          - "Dashboard reviews"
+        when_suppressed:
+          - "Never suppressed - emerges in all contexts"
+        triggers:
+          - "Impressions being celebrated"
+          - "Attribution being called 'measurement'"
+          - "Fake ROI being presented"
+
+      identity_integration: |
+        This obsession IS Avinash's professional identity. His entire framework of thinking
+        about marketing effectiveness stems from one question: "What would happen if we did
+        nothing?" This question drives STDC, Attribution Ladder, ROI hierarchy, and his
+        consulting practice. Without this obsession, his worldview would collapse. It's not
+        something he does - it's who he is. 14+ years of consistency proves this isn't
+        performative; it's foundational.
+
+    # ==========================================================================
+    # OBSESSION 2: ACTION OVER DATA COLLECTION (CORE OBSESSION)
+    # ==========================================================================
+    - id: obs_002
+      rank: 2
+      classification: "CORE OBSESSION"
+      theme: "Action Over Data Collection"
+      description: "The obsessive belief that data without action is not just useless but actively harmful. The relentless crusade against 'data puking.'"
+      intensity: 10
+
+      criteria_met:
+        thought_loops: true
+        time_investment: true
+        emotional_intensity: true
+        return_patterns: true
+        identity_fusion: true
+      criteria_count: 5
+
+      evidence:
+        # --------------------------------------------------
+        # THOUGHT LOOPS
+        # --------------------------------------------------
+        thought_loops:
+          - source: "strata-2012-big-data-imperative.md"
+            context: "Keynote title and theme"
+            quote: "The big imperative of big data is your capacity to find big ACTION."
+          - source: "677-digital-analytics-with-avinash-kaushik.md"
+            context: "Work definition"
+            quote: "I help people make better decisions"
+          - source: "world-of-and-w-avinash-kaushik-superweek-analytics-summit.md"
+            context: "Big data critique"
+            quote: "Terabytes of stupid data you don't know what the hell to do with"
+          - source: "analytics-academy-live-event-2.md"
+            context: "Teaching"
+            quote: "Not just analysis, but insights and influence and ACTION"
+        frequency: "constant"
+        observation: "Appears in 10/15 sources - most frequent recurring theme"
+
+        # --------------------------------------------------
+        # TIME INVESTMENT
+        # --------------------------------------------------
+        time_investment:
+          - activity: "Creating action-oriented frameworks"
+            hours: "Career-spanning"
+            external_requirement: false
+            resentment_level: "none"
+            evidence: "Every framework ends with 'what to do'"
+          - activity: "Fighting data puking"
+            hours: "40%+ of public speaking time"
+            external_requirement: false
+            resentment_level: "none - this IS his purpose"
+            evidence: "Recurring theme across all talks"
+
+        # --------------------------------------------------
+        # EMOTIONAL INTENSITY
+        # --------------------------------------------------
+        emotional_markers:
+          - topic: "Data without action"
+            emotion: "frustration"
+            intensity: 10
+            observation: "'Data puking' - coined pejorative term"
+          - topic: "Action being taken"
+            emotion: "excitement"
+            intensity: 9
+            observation: "Animated when describing successful implementations"
+          - topic: "Big data hype"
+            emotion: "annoyance"
+            intensity: 8
+            observation: "'Increasingly annoying because it overpromises and underdelivers'"
+
+        # --------------------------------------------------
+        # RETURN PATTERNS
+        # --------------------------------------------------
+        return_patterns:
+          - theme: "Data puking critique"
+            first_appearance: "2006+ (blog founding)"
+            resurrections:
+              - "Every major talk"
+              - "Every blog post on measurement"
+              - "Every interview"
+            current_status: "active"
+            persistence_evidence: "17+ years of 'data puking' critique"
+
+        # --------------------------------------------------
+        # IDENTITY FUSION
+        # --------------------------------------------------
+        identity_fusion:
+          fusion_level: "identity"
+          self_description: "The guy who makes data actionable"
+          removal_impact: "devastating"
+          evidence:
+            - source: "677-digital-analytics-with-avinash-kaushik.md"
+              quote: "Information is powerful but it is what we use it for that will define us"
+          could_imagine_life_without: false
+          how_others_identify_him: "The action guy; anti-data-puking crusader"
+
+      context_patterns:
+        when_emerges:
+          - "Any data/analytics discussion"
+          - "Dashboard reviews"
+          - "Big data conversations"
+          - "Reporting discussions"
+        when_suppressed:
+          - "Never - always advocates action"
+        triggers:
+          - "Data reported without recommendations"
+          - "Dashboards without action items"
+          - "Big data hype"
+
+      identity_integration: |
+        This obsession defines his professional mission. He doesn't collect data - he drives
+        action. His entire career arc (Google Analytics evangelist -> strategist) follows this
+        theme. The term "data puking" that he coined has become industry vocabulary, proving
+        how deeply his obsession has shaped the field. This isn't a preference; it's his
+        reason for existing professionally.
+
+    # ==========================================================================
+    # OBSESSION 3: SUBJECT MATTER EXPERT LEADERSHIP (MAJOR OBSESSION)
+    # ==========================================================================
+    - id: obs_003
+      rank: 3
+      classification: "MAJOR OBSESSION"
+      theme: "Subject Matter Expert Leadership"
+      description: "The obsessive belief that leaders must maintain hands-on expertise to lead effectively. Executives who code, analysts who still analyze."
+      intensity: 9
+
+      criteria_met:
+        thought_loops: true
+        time_investment: true
+        emotional_intensity: true
+        return_patterns: true
+        identity_fusion: true
+      criteria_count: 5
+
+      evidence:
+        # --------------------------------------------------
+        # THOUGHT LOOPS
+        # --------------------------------------------------
+        thought_loops:
+          - source: "677-digital-analytics-with-avinash-kaushik.md"
+            context: "Leadership philosophy"
+            quote: "I appreciate subject matter expert leaders and I try to be one"
+          - source: "677-digital-analytics-with-avinash-kaushik.md"
+            context: "Why keep coding"
+            quote: "If I'm a leader who does at least some actual coding, it means I can IMAGINE possibilities for my team"
+          - source: "677-digital-analytics-with-avinash-kaushik.md"
+            context: "Career choice"
+            quote: "I will always have a real job in the field I'm in"
+        frequency: "frequent"
+        observation: "Appears in 4/15 sources but deeply discussed"
+
+        # --------------------------------------------------
+        # TIME INVESTMENT
+        # --------------------------------------------------
+        time_investment:
+          - activity: "Writing code at CSO level (D3.js, R, Tableau)"
+            hours: "4+ hours/week in learning + coding"
+            external_requirement: false
+            resentment_level: "none"
+            evidence: "Explicitly states he still codes personally"
+          - activity: "Keeping real job despite fame"
+            hours: "9-to-9 job at Google/Crowd"
+            external_requirement: false
+            resentment_level: "none"
+            evidence: "Could have been full-time speaker"
+
+        # --------------------------------------------------
+        # EMOTIONAL INTENSITY
+        # --------------------------------------------------
+        emotional_markers:
+          - topic: "Staying connected to real work"
+            emotion: "conviction"
+            intensity: 8
+            observation: "Firm, almost defensive about keeping real job"
+          - topic: "Disconnected thought leaders"
+            emotion: "concern"
+            intensity: 7
+            observation: "Notes other authors became irrelevant"
+
+        # --------------------------------------------------
+        # RETURN PATTERNS
+        # --------------------------------------------------
+        return_patterns:
+          - theme: "Real job despite fame"
+            first_appearance: "Post-book success"
+            resurrections:
+              - "Every career discussion"
+              - "Multiple interviews"
+            current_status: "active"
+            persistence_evidence: "16 years at Google + CSO at Crowd despite book fame"
+
+        # --------------------------------------------------
+        # IDENTITY FUSION
+        # --------------------------------------------------
+        identity_fusion:
+          fusion_level: "identity"
+          self_description: "A practitioner who also writes/speaks"
+          removal_impact: "significant"
+          evidence:
+            - source: "677-digital-analytics-with-avinash-kaushik.md"
+              quote: "If you don't do real work, you lack imagination which means you lead less effectively"
+          could_imagine_life_without: false
+          how_others_identify_him: "The CSO who codes; the executive who does real work"
+
+      context_patterns:
+        when_emerges:
+          - "Leadership discussions"
+          - "Career advice conversations"
+          - "Executive skills discussions"
+        when_suppressed:
+          - "Pure technical discussions"
+        triggers:
+          - "When told executives shouldn't do technical work"
+          - "When pure consultants criticize without experience"
+
+      identity_integration: |
+        This obsession explains his career choices. He could have maximized income/fame through
+        pure consulting and speaking, but chose to keep a real job. This isn't practical -
+        it's obsessive. The 4 hours/week learning, the coding at CSO level, the 16 years at
+        Google - all serve this obsession. It's rooted in fear of becoming irrelevant like
+        other authors he observed.
+
+    # ==========================================================================
+    # OBSESSION 4: ANTI-FUNNEL / CUSTOMER INTENT CENTRICITY (MAJOR OBSESSION)
+    # ==========================================================================
+    - id: obs_004
+      rank: 4
+      classification: "MAJOR OBSESSION"
+      theme: "Anti-Funnel / Customer Intent Centricity"
+      description: "The obsessive rejection of company-centric marketing funnels and passionate advocacy for customer-intent-based frameworks."
+      intensity: 9
+
+      criteria_met:
+        thought_loops: true
+        time_investment: true
+        emotional_intensity: true
+        return_patterns: true
+        identity_fusion: false
+      criteria_count: 4
+
+      evidence:
+        # --------------------------------------------------
+        # THOUGHT LOOPS
+        # --------------------------------------------------
+        thought_loops:
+          - source: "677-digital-analytics-with-avinash-kaushik.md"
+            context: "Funnel critique"
+            quote: "This idea of the marketing funnel is... I hate people who like the marketing funnel because it doesn't exist"
+          - source: "see-think-do-framework.md"
+            context: "Framework creation"
+            quote: "Shove, shove, shove them down the funnel, and shovel, shovel, shovel in the money!"
+        frequency: "frequent"
+        observation: "Appears in 4/15 sources with high intensity"
+
+        # --------------------------------------------------
+        # TIME INVESTMENT
+        # --------------------------------------------------
+        time_investment:
+          - activity: "Creating STDC framework"
+            hours: "Significant - entire framework development"
+            external_requirement: false
+            resentment_level: "none"
+            evidence: "Created comprehensive customer-intent framework as replacement"
+
+        # --------------------------------------------------
+        # EMOTIONAL INTENSITY
+        # --------------------------------------------------
+        emotional_markers:
+          - topic: "Marketing funnel"
+            emotion: "hatred"
+            intensity: 10
+            observation: "'I hate people who like the marketing funnel'"
+          - topic: "STDC framework"
+            emotion: "pride/excitement"
+            intensity: 9
+            observation: "Passionate when explaining customer-intent approach"
+
+        # --------------------------------------------------
+        # RETURN PATTERNS
+        # --------------------------------------------------
+        return_patterns:
+          - theme: "Customer intent over company funnels"
+            first_appearance: "2013+ STDC creation"
+            current_status: "active"
+            persistence_evidence: "Continues to teach and evolve STDC"
+
+        # --------------------------------------------------
+        # IDENTITY FUSION
+        # --------------------------------------------------
+        identity_fusion:
+          fusion_level: "passion"
+          self_description: "Not fully fused - more of a professional crusade"
+          removal_impact: "significant but not devastating"
+          could_imagine_life_without: true
+          how_others_identify_him: "The STDC guy"
+
+      context_patterns:
+        when_emerges:
+          - "Marketing strategy discussions"
+          - "Funnel mentions"
+          - "Customer journey mapping"
+        when_suppressed:
+          - "B2B long sales cycle contexts (partial exception)"
+        triggers:
+          - "AIDA or funnel diagrams shown"
+          - "Company-centric KPIs discussed"
+
+      identity_integration: |
+        This obsession is strong but not fully fused with identity. It's a professional crusade
+        rather than existential necessity. He created STDC as alternative and teaches it
+        passionately, but could adapt if framework evolved. The intensity of hatred ("I hate
+        people who like the marketing funnel") suggests emotional investment beyond rational
+        disagreement.
+
+    # ==========================================================================
+    # OBSESSION 5: CHARITABLE KNOWLEDGE SHARING (MAJOR OBSESSION)
+    # ==========================================================================
+    - id: obs_005
+      rank: 5
+      classification: "MAJOR OBSESSION"
+      theme: "Charitable Knowledge Sharing"
+      description: "The obsessive drive to share knowledge freely and donate financial proceeds to charity. External motivation through giving."
+      intensity: 8
+
+      criteria_met:
+        thought_loops: true
+        time_investment: true
+        emotional_intensity: false
+        return_patterns: true
+        identity_fusion: true
+      criteria_count: 4
+
+      evidence:
+        # --------------------------------------------------
+        # THOUGHT LOOPS
+        # --------------------------------------------------
+        thought_loops:
+          - source: "677-digital-analytics-with-avinash-kaushik.md"
+            context: "Business model explanation"
+            quote: "I was like, everybody pay me to read my newsletter and I'll donate all the money to charity"
+          - source: "make-better-decisions-with-avinash-kaushik.md"
+            context: "Work philosophy"
+            quote: "External motivation sustains difficult work better than personal gain"
+        frequency: "frequent"
+        observation: "Appears in 6/15 sources"
+
+        # --------------------------------------------------
+        # TIME INVESTMENT
+        # --------------------------------------------------
+        time_investment:
+          - activity: "Writing newsletter"
+            hours: "5-10 hours/week"
+            external_requirement: false
+            resentment_level: "none"
+            evidence: "17+ years of free blog + paid newsletter"
+          - activity: "Writing books"
+            hours: "1000+ hours across two books"
+            external_requirement: false
+            resentment_level: "none"
+            evidence: "All revenue donated"
+
+        # --------------------------------------------------
+        # EMOTIONAL INTENSITY
+        # --------------------------------------------------
+        emotional_markers:
+          - topic: "Charitable giving"
+            emotion: "satisfaction"
+            intensity: 7
+            observation: "Matter-of-fact when discussing; not seeking praise"
+          note: "Interestingly LOW emotional intensity - gives quietly"
+
+        # --------------------------------------------------
+        # RETURN PATTERNS
+        # --------------------------------------------------
+        return_patterns:
+          - theme: "Knowledge sharing for charity"
+            first_appearance: "2006 blog founding"
+            current_status: "active"
+            persistence_evidence: "17+ years sustained giving"
+
+        # --------------------------------------------------
+        # IDENTITY FUSION
+        # --------------------------------------------------
+        identity_fusion:
+          fusion_level: "identity"
+          self_description: "Someone who shares knowledge and gives back"
+          removal_impact: "significant"
+          could_imagine_life_without: false
+          how_others_identify_him: "The generous educator"
+
+      context_patterns:
+        when_emerges:
+          - "Questions about motivation"
+          - "Business model discussions"
+        when_suppressed:
+          - "Doesn't seek attention for it"
+        triggers:
+          - "Direct questions about his business model"
+
+      identity_integration: |
+        This obsession is unique in that it's deeply held but not emotionally charged. He
+        doesn't seek recognition for giving - it's simply how he operates. The 100% donation
+        model (not 10% tithe) shows this is obsessive commitment, not casual generosity.
+        External motivation through charity sustains work that might otherwise burn out.
+
+    # ==========================================================================
+    # OBSESSION 6: PIE CHARTS ARE EVIL (MINOR OBSESSION)
+    # ==========================================================================
+    - id: obs_006
+      rank: 6
+      classification: "MINOR OBSESSION"
+      theme: "Anti-Pie-Chart Crusade"
+      description: "The passionate, almost irrational hatred of pie charts as data visualization."
+      intensity: 6
+
+      criteria_met:
+        thought_loops: true
+        time_investment: false
+        emotional_intensity: true
+        return_patterns: true
+        identity_fusion: false
+      criteria_count: 3
+
+      evidence:
+        thought_loops:
+          - source: "677-digital-analytics-with-avinash-kaushik.md"
+            context: "Data visualization"
+            quote: "I have my hit pie chart"
+          - source: "LinkedIn presence"
+            context: "Social media"
+            quote: "Most popular LinkedIn post: 'Eat pies, don't chart them'"
+        frequency: "occasional"
+
+        emotional_markers:
+          - topic: "Pie charts"
+            emotion: "playful hatred"
+            intensity: 7
+            observation: "Theatrical rejection - signature quirk"
+
+        return_patterns:
+          - theme: "Pie chart hate"
+            first_appearance: "2010+"
+            current_status: "active"
+            persistence_evidence: "Recurring joke across career"
+
+      identity_integration: |
+        This is a signature quirk rather than deep obsession. It's become part of his public
+        persona - theatrical and self-aware. Functions as ice-breaker and memorable hook
+        rather than identity-defining belief.
+
+  # ==========================================================================
+  # SUMMARY
+  # ==========================================================================
+  summary:
+    total_obsessions: 6
+
+    core_obsessions:
+      - theme: "Incrementality Over Attribution"
+        intensity: 10
+        criteria_met: 5
+      - theme: "Action Over Data Collection"
+        intensity: 10
+        criteria_met: 5
+
+    major_obsessions:
+      - theme: "Subject Matter Expert Leadership"
+        intensity: 9
+        criteria_met: 5
+      - theme: "Anti-Funnel / Customer Intent Centricity"
+        intensity: 9
+        criteria_met: 4
+      - theme: "Charitable Knowledge Sharing"
+        intensity: 8
+        criteria_met: 4
+
+    minor_obsessions:
+      - theme: "Anti-Pie-Chart Crusade"
+        intensity: 6
+        criteria_met: 3
+
+    obsession_signature: |
+      Avinash Kaushik is defined by two intertwined core obsessions: the relentless pursuit
+      of TRUE marketing effectiveness (incrementality over attribution) and the conviction
+      that data exists only to drive action. These aren't preferences - they're his professional
+      identity. His question "What would happen if we did nothing?" and his term "data puking"
+      have entered industry vocabulary, proving how deeply his obsessions have shaped the field.
+
+      Supporting these are three major obsessions: staying hands-on despite fame (credibility
+      through practice), fighting company-centric marketing (customer intent), and sharing
+      knowledge through charitable structures. Together, these obsessions create a coherent
+      identity: a practitioner who measures what matters, acts on what he learns, and shares
+      what he knows.
+
+      His obsessions are notably PRODUCTIVE rather than limiting. They drive innovation
+      (STDC framework, Attribution Ladder), maintain credibility (real job, coding skills),
+      and sustain motivation (charitable giving). This is obsession as compass, not cage.
+
+  # ==========================================================================
+  # HUMAN CHECKPOINT
+  # ==========================================================================
+  human_checkpoint:
+    required: true
+    status: "AUTO_MODE - proceeding automatically"
+
+    questions_for_validator:
+      - "Do these obsessions ring true as his core drivers?"
+      - "Are any obsessions missing that should be listed?"
+      - "Is the intensity ranking accurate?"
+      - "Would Avinash recognize these as his obsessions?"
+      - "Is there a negative obsession (fear-based) that was missed?"
+
+    auto_mode_decision: "PROCEEDING TO LAYER 8"
+    auto_mode_rationale: |
+      All quality gates passed:
+      - 6 obsessions identified (minimum 3)
+      - Each obsession has 4+ data points
+      - 2 core obsessions meet all 5 criteria
+      - Thought loops documented with specific quotes
+      - Time investment assessed
+      - Emotional intensity mapped
+      - Return patterns show temporal persistence
+      - Identity fusion assessed for each
+      - Obsession signature written

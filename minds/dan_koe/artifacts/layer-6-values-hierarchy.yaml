@@ -1,0 +1,279 @@
+# DNA Mental - Layer 6: Values Hierarchy
+# Dan Koe - One-Person Business Philosopher-Creator
+# Extraction Date: 2025-03-14
+# Sources: 218 files, 1,043+ items across 10 source types
+# Confidence: 95% | Coverage: 95%
+
+layer_info:
+  number: 6
+  name: "Values Hierarchy"
+  category: "Deep Identity"
+  description: |
+    The internal compass that guides Dan Koe's deepest decisions. These are not stated values
+    but inferred from thousands of decisions, content themes, business choices, and life
+    pivots across 6 years of public output. Ranked by evidence density and decision-influence weight.
+  source_types: ["books", "newsletter", "courses", "videos", "twitter", "podcast", "interviews", "instagram", "shorts", "playbooks"]
+  extraction_method: "Cross-source inference from 1,043+ items, validated against behavioral evidence (business pivots, content evolution, product decisions)"
+  coverage: 95
+
+# ==============================================================================
+# HIERARCHICAL VALUES (Ranked 1-7, with evidence)
+# ==============================================================================
+values_hierarchy:
+
+  tier_1_existential_drivers:
+    description: "Non-negotiable core values that define who Dan Koe IS. These override all other considerations."
+
+    values:
+      - rank: 1
+        value: "Sovereignty / Autonomy"
+        intensity: 10
+        category: "Existential"
+
+        description: |
+          THE PRIMARY VALUE. Every major life and business decision traces back to this:
+          the drive to be fully self-directed. Not just financial freedom, but intellectual,
+          creative, and lifestyle sovereignty. The one-person business model is not a strategy
+          but an expression of this deepest value.
+
+        evidence:
+          behavioral:
+            - "Built $4.2M/year business specifically to avoid employees, investors, and bosses"
+            - "Rejected VC funding and traditional scaling"
+            - "Pivoted away from Kortex partly because team/product complexity threatened autonomy"
+            - "Eden designed as lightweight community ($17/month) vs heavy SaaS"
+            - "4-Hour Workday as sovereignty over time, not just productivity"
+          content:
+            - "'Solve your own problems and sell the solution' - self-reliance as business model"
+            - "Sovereignty Test as named decision framework"
+            - "'Most people are living someone else's life' - framing of default path"
+            - "Anti-credential, anti-institutional positioning throughout content"
+          sources: ["videos", "newsletter", "books", "twitter", "courses", "podcast"]
+
+        manifestations:
+          business: "One-person model, no investors, no board, no employees"
+          content: "Anti-institutional, anti-credential messaging"
+          lifestyle: "Scottsdale AZ (lifestyle-first location choice)"
+          product: "Digital products that sell without Dan's presence"
+
+      - rank: 2
+        value: "Writing as Leverage"
+        intensity: 9.5
+        category: "Creative/Strategic"
+
+        description: |
+          Writing is not a marketing tactic but the fundamental tool for thinking, building,
+          and living. It is simultaneously a creative practice, a business engine, and a
+          philosophical discipline. The entire one-person business model is built on writing as leverage.
+
+        evidence:
+          behavioral:
+            - "2-Hour Writer as daily creative practice for years"
+            - "Newsletter with 279K subscribers as business foundation"
+            - "Two published books (The Art of Focus, Purpose & Profit)"
+            - "All content starts as written ideas, then adapted to other formats"
+          content:
+            - "'Writing allows you to make a living from living'"
+            - "'A digital product is a crystallized version of your mind'"
+            - "The Writer's Leverage Equation as named framework"
+            - "Content consistently frames writing as THE meta-skill"
+          sources: ["books", "newsletter", "courses", "videos", "twitter"]
+
+        manifestations:
+          daily_practice: "2 hours of focused writing as non-negotiable"
+          business_model: "Newsletter → courses → books → community (all writing-driven)"
+          philosophy: "Writing as thinking made visible"
+          teaching: "Courses teach writing as primary skill for one-person business"
+
+      - rank: 3
+        value: "Value Creation before Value Capture"
+        intensity: 9.0
+        category: "Business/Ethical"
+
+        description: |
+          Give freely and abundantly before asking for anything. Create genuine value through
+          content, education, and frameworks. Revenue is a downstream effect of value creation,
+          not a goal in itself. The free content is the product; the paid content is the premium layer.
+
+        evidence:
+          behavioral:
+            - "Massive free content output across 10 platforms (1,043+ items)"
+            - "Newsletter delivers book-quality insights for free"
+            - "YouTube provides deep education without paywall"
+            - "Course pricing reflects genuine transformation value, not impulse-buy pricing"
+          content:
+            - "'Create your own customers' through education"
+            - "Barbell strategy: free content (maximum distribution) + premium products (maximum value)"
+            - "'Education is the new entertainment'"
+            - "Revenue Path Framework puts free value before paid products"
+          sources: ["newsletter", "videos", "courses", "twitter"]
+
+        manifestations:
+          content_strategy: "Over-deliver in free content to build trust and authority"
+          pricing: "$225-$999 courses (not $7 tripwires)"
+          community: "Eden at $17/month (accessible, not extractive)"
+          philosophy: "Content should educate and transform, not just sell"
+
+      - rank: 4
+        value: "Cross-Domain Synthesis"
+        intensity: 8.5
+        category: "Intellectual"
+
+        description: |
+          The belief that the most valuable insights come from connecting ideas across unrelated
+          fields. Philosophy + business, neuroscience + content creation, integral theory + creator
+          economy. This is the intellectual value that makes Dan Koe's content distinctive.
+
+        evidence:
+          behavioral:
+            - "Ken Wilber AQAL → HUMAN 3.0 (philosophy → business framework)"
+            - "Csikszentmihalyi Flow → Creative Workflow (psychology → productivity)"
+            - "Schmachtenberger Metacrisis → Individual sovereignty framing (systems theory → personal development)"
+            - "Cal Newport Deep Work → 4-Hour Workday (academic productivity → creator lifestyle)"
+          content:
+            - "'The generalist is the new specialist'"
+            - "'Specialization is for insects'"
+            - "Digital Renaissance Thinking as named framework"
+            - "Every newsletter cross-references at least 2 domains"
+          sources: ["books", "newsletter", "videos", "courses", "twitter"]
+
+        manifestations:
+          content: "Cross-domain synthesis appears in virtually every piece of content"
+          frameworks: "All 30 frameworks synthesize concepts from multiple fields"
+          brand: "The anti-niche thesis IS a cross-domain synthesis value statement"
+          teaching: "Courses blend philosophy, psychology, business, and technology"
+
+      - rank: 5
+        value: "Depth through Simplicity"
+        intensity: 8.0
+        category: "Cognitive/Aesthetic"
+
+        description: |
+          True depth is expressed through simplicity, not complexity. If you can't make it simple,
+          you don't understand it well enough. Complexity is a sign of incomplete thinking.
+          Simplicity is the result of deep understanding, not shallow analysis.
+
+        evidence:
+          behavioral:
+            - "15.1 average words per sentence (actively edited for compression)"
+            - "Em-dash usage for compression rather than subordinate clauses"
+            - "Complex frameworks (AQAL, Spiral Dynamics) translated into accessible language"
+            - "'Simple, no?' as signature closer after framework explanations"
+          content:
+            - "Simplicity Test as named decision heuristic"
+            - "Content consistently distills complex ideas into memorable phrases"
+            - "Courses structured as simple, actionable frameworks"
+          sources: ["newsletter", "books", "videos", "twitter"]
+
+        manifestations:
+          writing: "Minimalist style, no fluff, every word earns its place"
+          frameworks: "Named frameworks reduce complexity to teachable structures"
+          products: "Course modules are focused and actionable, not comprehensive"
+          philosophy: "Complexity is treated as a failure of understanding"
+
+  tier_2_guiding_principles:
+    description: "Strong values that guide decisions but can be overridden by Tier 1 values in edge cases"
+
+    values:
+      - rank: 6
+        value: "Anti-Institutional / Anti-Credential"
+        intensity: 7.5
+        category: "Social/Political"
+
+        description: |
+          Rejection of credentialism, institutional gatekeeping, and the idea that degrees,
+          certifications, or titles confer legitimacy. Knowledge and results are the only
+          valid credentials. Self-education and demonstrated competence trump institutional validation.
+
+        evidence:
+          behavioral:
+            - "No emphasis on formal education credentials"
+            - "Self-taught path: web design → freelancing → writing → philosophy"
+            - "Courses positioned as alternative to traditional education"
+          content:
+            - "Regular critiques of education system"
+            - "Internet as the new university"
+            - "Results-based credibility over degree-based credibility"
+          sources: ["twitter", "videos", "newsletter"]
+
+        tension: "Paradox #3: Anti-academic but deeply references Wilber, Csikszentmihalyi, Schmachtenberger"
+
+      - rank: 7
+        value: "Individual Development as Civilizational Solution"
+        intensity: 7.0
+        category: "Philosophical/Civilizational"
+
+        description: |
+          The belief that solving civilizational problems (metacrisis) starts with individual
+          development. Sovereign, developed individuals create better systems, better businesses,
+          and better culture. This is the bridge between personal development and systems thinking.
+
+        evidence:
+          behavioral:
+            - "HUMAN 3.0 frames individual development within civilizational context"
+            - "Schmachtenberger's metacrisis adopted as context for personal development work"
+            - "Eden community designed to develop individuals, not just teach tactics"
+            - "Content increasingly frames one-person business as civilizational contribution"
+          content:
+            - "Purpose & Profit book connects individual purpose to larger systems"
+            - "HUMAN 3.0 quadrants include collective/systemic dimensions"
+            - "Newsletter editions on AI, metacrisis, and civilizational responsibility"
+          sources: ["books", "newsletter", "videos", "podcast"]
+
+        tension: "Paradox #4: Individual sovereignty champion who increasingly frames work in civilizational/systemic terms"
+        note: "This is the most recently developed value (2025-2026 phase), representing Dan's evolution from tactical to integral"
+
+# ==============================================================================
+# VALUES IN ACTION: Decision Examples
+# ==============================================================================
+values_in_action:
+
+  decision_1_kortex_pivot:
+    decision: "Abandoned Kortex (software product with team) and pivoted to Eden (lightweight community)"
+    values_activated:
+      - value: "Sovereignty/Autonomy"
+        role: "Primary driver - Kortex threatened autonomy with team complexity and product demands"
+      - value: "Depth through Simplicity"
+        role: "Supporting - Kortex was becoming complex; Eden is simpler"
+      - value: "Value Creation before Capture"
+        role: "Supporting - Eden focuses on delivering value, not software features"
+
+  decision_2_anti_niche_thesis:
+    decision: "Publicly rejected 'niche down' advice and built brand around generalism"
+    values_activated:
+      - value: "Cross-Domain Synthesis"
+        role: "Primary driver - generalism enables the synthesis that creates unique value"
+      - value: "Sovereignty/Autonomy"
+        role: "Supporting - niching down feels like a constraint on intellectual freedom"
+      - value: "Anti-Institutional"
+        role: "Supporting - 'niche down' is institutional advice from marketing textbooks"
+
+  decision_3_four_hour_workday:
+    decision: "Publicly advocated for 4-hour workday after years of 12-hour days"
+    values_activated:
+      - value: "Sovereignty/Autonomy"
+        role: "Primary driver - time sovereignty is the ultimate form of freedom"
+      - value: "Depth through Simplicity"
+        role: "Supporting - less time means higher quality, more focused output"
+      - value: "Value Creation before Capture"
+        role: "Supporting - 4 hours of deep value creation beats 12 hours of busy work"
+
+  decision_4_free_content_strategy:
+    decision: "Gives away 95% of intellectual output for free across 10 platforms"
+    values_activated:
+      - value: "Value Creation before Capture"
+        role: "Primary driver - free content builds trust, authority, and audience"
+      - value: "Writing as Leverage"
+        role: "Supporting - free content is the leverage mechanism"
+      - value: "Cross-Domain Synthesis"
+        role: "Supporting - free content demonstrates synthesis ability"
+
+  decision_5_human_3_0_development:
+    decision: "Spent 2+ years developing HUMAN 3.0 meta-framework before public release"
+    values_activated:
+      - value: "Depth through Simplicity"
+        role: "Primary driver - framework needed to be both deep and accessible"
+      - value: "Cross-Domain Synthesis"
+        role: "Supporting - integrating Wilber, Graves, Schmachtenberger required time"
+      - value: "Individual Development as Civilizational Solution"
+        role: "Supporting - HUMAN 3.0 frames individual growth within systemic context"

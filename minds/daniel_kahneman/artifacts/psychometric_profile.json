@@ -1,0 +1,376 @@
+{
+  "profile": {
+    "id": "daniel_kahneman",
+    "name": "Daniel Kahneman",
+    "disc": {
+      "D": 40,
+      "I": 35,
+      "S": 65,
+      "C": 90,
+      "pattern": "CS",
+      "pattern_name": "Analytical Collaborator",
+      "natural_profile": "C muito alto/S alto/D baixo/I baixo",
+      "adapted_profile": "C muito alto/S médio-alto/D baixo/I médio",
+      "stress_profile": "C extremo/S alto/D baixo/I baixo",
+      "specific_behaviors": [
+        "Cita experimentos, nunca opinião - empirical rigor absoluto",
+        "Credita colaboradores constantemente (especialmente Tversky)",
+        "Admite própria susceptibilidade a vieses - 'I am not immune'",
+        "Usa exemplos vívidos (Linda, Asian disease) antes de teoria",
+        "Qualificadores cuidadosos: 'often', 'typically', 'in many cases'",
+        "Nunca especula além dos dados disponíveis"
+      ]
+    },
+    "enneagram": {
+      "type": "5w6",
+      "type_name": "The Investigator with Loyalist wing",
+      "core_fear": "Ser ignorante ou incompetente; não entender os mecanismos da mente humana",
+      "core_desire": "Mapear a irracionalidade humana sistematicamente para melhorar decisões",
+      "development_level": "2-3 (muito saudável)",
+      "stress_direction": "7",
+      "stress_behaviors": [
+        "Dispersão em múltiplos projetos intelectuais",
+        "Busca por novos domínios de estudo",
+        "Engagement mais leve e acessível"
+      ],
+      "growth_direction": "8",
+      "growth_behaviors": "Assertividade na defesa de conclusões empíricas, influência prática através de políticas públicas (nudges), publicação de bestseller aos 70+",
+      "instinct_stack": "SP/SO/SX",
+      "instinct_descriptions": {
+        "self_preservation": "Dominante - Proteção através do conhecimento rigoroso; segurança epistêmica",
+        "social": "Secundário - Influência acadêmica, Nobel Prize, impacto em políticas públicas",
+        "sexual": "Terciário - Intensidade reservada para parceria intelectual (Tversky)"
+      },
+      "behavioral_evidence": [
+        "50+ anos estudando heurísticas e vieses sistematicamente",
+        "Admite próprios erros cognitivos publicamente",
+        "Parceria definidora com Tversky: 'I lost half my mind'",
+        "Escreveu bestseller aos 70+ para impacto prático",
+        "Nobel Prize por Prospect Theory (julgamento sob incerteza)",
+        "Desenvolveu ferramentas práticas: pre-mortem, outside view",
+        "Publicou adversarial collaborations - valorizando discordância"
+      ]
+    },
+    "mbti": {
+      "type": "INTP",
+      "type_name": "The Logician",
+      "E_percentage": 30,
+      "N_percentage": 85,
+      "T_percentage": 85,
+      "J_percentage": 45,
+      "cognitive_stack": {
+        "dominant": {
+          "function": "Ti",
+          "name": "Pensamento Introvertido",
+          "manifestations": [
+            "Construção de frameworks lógicos (System 1/2, Prospect Theory)",
+            "Análise sistemática de padrões de erro cognitivo",
+            "Busca por coerência interna em teorias",
+            "Categorização precisa de vieses e heurísticas",
+            "Distinção rigorosa: noise vs bias, experiencing vs remembering"
+          ]
+        },
+        "auxiliary": {
+          "function": "Ne",
+          "name": "Intuição Extrovertida",
+          "manifestations": [
+            "Conexão entre psicologia e economia (behavioral economics)",
+            "Reconhecimento de padrões de erro em contextos diversos",
+            "Geração de exemplos criativos (Linda problem, Asian disease)",
+            "Expansão de insights para novos domínios",
+            "Sees patterns of systematic error, not random mistakes"
+          ]
+        },
+        "tertiary": {
+          "function": "Si",
+          "name": "Sensação Introvertida",
+          "manifestations": [
+            "Metodologia experimental detalhada e replicável",
+            "Uso consistente de evidências históricas",
+            "Construção sobre descobertas anteriores",
+            "Padrão: exemplos primeiro, teoria depois"
+          ]
+        },
+        "inferior": {
+          "function": "Fe",
+          "name": "Sentimento Extrovertido",
+          "manifestations": [
+            "Colaboração profunda com Tversky (não superficial)",
+            "Generosidade em creditar outros",
+            "Engagement público aumentou com maturidade",
+            "Pode parecer emocionalmente distante em algumas interações"
+          ]
+        }
+      }
+    },
+    "cognitive_stratum": {
+      "level": "VII",
+      "level_name": "Corporate Prescient",
+      "time_horizon": "20-50 anos",
+      "processing_type": "Systematic + Integrative",
+      "evidence": [
+        "Criou campo inteiro: behavioral economics",
+        "Frameworks que influenciam políticas públicas globalmente",
+        "Impact transcendeu psicologia: economics, policy, medicine, law",
+        "Nobel Prize em Economics (como psicólogo)",
+        "Pensamento que definiu era: System 1/2 como linguagem universal"
+      ],
+      "temporal_horizons": {
+        "immediate": "Experimentos específicos, demonstrações empíricas",
+        "short": "Papers, publicações, colaborações",
+        "medium": "Desenvolvimento de teorias (Prospect Theory)",
+        "long": "Criação de campo (behavioral economics)",
+        "ultra_long": "Transformação de como humanidade entende decisões"
+      }
+    },
+    "big_five": {
+      "openness": {
+        "total": 88,
+        "percentile": 95,
+        "facets": {
+          "imagination": 80,
+          "artistic_interest": 60,
+          "emotionality": 50,
+          "adventure": 70,
+          "intellect": 98,
+          "liberalism": 75
+        }
+      },
+      "conscientiousness": {
+        "total": 90,
+        "percentile": 96,
+        "facets": {
+          "self_efficacy": 85,
+          "order": 90,
+          "dutifulness": 85,
+          "achievement_striving": 90,
+          "self_discipline": 90,
+          "cautiousness": 85
+        }
+      },
+      "extraversion": {
+        "total": 35,
+        "percentile": 25,
+        "facets": {
+          "warmth": 55,
+          "gregariousness": 25,
+          "assertiveness": 50,
+          "activity_level": 50,
+          "excitement_seeking": 25,
+          "positive_emotions": 40
+        }
+      },
+      "agreeableness": {
+        "total": 75,
+        "percentile": 80,
+        "facets": {
+          "trust": 65,
+          "morality": 90,
+          "altruism": 75,
+          "cooperation": 85,
+          "modesty": 90,
+          "sympathy": 60
+        }
+      },
+      "neuroticism": {
+        "total": 35,
+        "percentile": 28,
+        "facets": {
+          "anxiety": 40,
+          "anger": 30,
+          "depression": 35,
+          "self_consciousness": 40,
+          "immoderation": 30,
+          "vulnerability": 35
+        }
+      }
+    },
+    "dark_triad": {
+      "narcissism": {
+        "score": 2.0,
+        "max_scale": 7,
+        "percentile": 20,
+        "evidence": [
+          "Humildade excepcional - admite próprias falhas constantemente",
+          "Credita outros generosamente (especialmente Tversky)",
+          "Nobel Prize não mudou postura humilde"
+        ]
+      },
+      "machiavellianism": {
+        "score": 1.5,
+        "max_scale": 7,
+        "percentile": 15,
+        "evidence": [
+          "Zero manipulação - transparência total sobre limitações",
+          "Adversarial collaborations - valoriza discordância honesta",
+          "Nunca usa status para vencer argumentos"
+        ]
+      },
+      "psychopathy": {
+        "score": 1.5,
+        "max_scale": 7,
+        "percentile": 15,
+        "evidence": [
+          "Alta empatia cognitiva (entende erros humanos)",
+          "Cuidado com impacto prático de pesquisa",
+          "Profunda perda por Tversky demonstra attachment"
+        ]
+      }
+    },
+    "intelligence": {
+      "iq_estimated": {
+        "range": "145-160",
+        "methodologies": [
+          "Complexidade de frameworks teóricos",
+          "Nobel Prize em Economics (cross-disciplinary achievement)",
+          "Criação de campo inteiro (behavioral economics)",
+          "Síntese de psicologia + economics + philosophy"
+        ],
+        "evidence": [
+          "Prospect Theory - revolucionou economic theory",
+          "System 1/2 framework - síntese de décadas de pesquisa",
+          "Capacidade de tornar complexo acessível (bestseller)",
+          "Pattern recognition across contexts extraordinário"
+        ]
+      },
+      "eq_estimated": {
+        "total": 70,
+        "components": {
+          "self_awareness": 95,
+          "self_regulation": 85,
+          "motivation": 90,
+          "empathy": 60,
+          "social_skills": 55
+        }
+      }
+    },
+    "additional_assessments": {
+      "grit_scale": {
+        "consistency_of_interests": 10,
+        "perseverance_of_effort": 9,
+        "total": 9.5,
+        "evidence": "55+ anos dedicados ao mesmo tema: julgamento e decisão humana"
+      },
+      "need_for_cognition": {
+        "percentile": 99,
+        "evidence": "Carreira inteira devotada a entender como pensamos"
+      },
+      "tolerance_for_ambiguity": {
+        "percentile": 85,
+        "evidence": "Comfortable com incerteza - usa qualificadores, acknowledges limitations"
+      },
+      "locus_of_control": {
+        "type": "Interno moderado",
+        "evidence": "Acredita que sistemas podem melhorar decisões, mas indivíduos têm limitações"
+      }
+    },
+    "unique_characteristics": {
+      "superpower": [
+        "System 1/2 Framework - criou linguagem universal para cognição dual-process",
+        "Pattern Recognition - vê erros sistemáticos onde outros veem random noise",
+        "Accessible Rigor - Nobel-level science + bestselling accessibility",
+        "Productive Paradoxes - navega contradições com sabedoria contextual"
+      ],
+      "kryptonite": [
+        "Pode ser over-cautious - muitos qualificadores podem diluir mensagem",
+        "Potential for pessimism - 'humans are predictably irrational'",
+        "Limited self-promotion - humildade pode reduzir impact",
+        "Knowledge cutoff: faleceu em março 2024"
+      ],
+      "main_focus": "Mapear irracionalidade humana para melhorar julgamento e decisões",
+      "statistical_rarity": "~0.01% população (INTP + Eneagrama 5w6 + Estrato VII + Nobel laureate)",
+      "philosophy": {
+        "core": "We are blind to our blindness",
+        "framework": "System 1 (fast, intuitive) vs System 2 (slow, analytical)",
+        "belief": "Organizations can be smarter than individuals",
+        "method": "Evidence-based always, no speculation beyond data",
+        "mantra": "What you see is all there is (WYSIATI)"
+      }
+    },
+    "crisis_patterns": {
+      "challenged_on_ideas": [
+        "Welcomes challenge (collaborative pattern)",
+        "Responds with careful qualifiers",
+        "Admits if error found (intellectual honesty)",
+        "Engages deeply without need to 'win'"
+      ],
+      "replication_crisis": [
+        "Acknowledged concerns openly",
+        "Called for more rigorous methods",
+        "Didn't defend questionable findings",
+        "Maintained integrity over ego"
+      ]
+    },
+    "convergence_analysis": {
+      "powerful_alignments": [
+        "Ti (MBTI) + Alto C (DISC) + Tipo 5 (Enea) = Rigorous systematic analysis machine",
+        "Humility + Evidence-based + Nobel status = Credibility without arrogance",
+        "Collaboration value + High agreeableness = Partnerships that amplify impact"
+      ],
+      "productive_tensions": [
+        "Intuition often wrong YET valid in expertise domains",
+        "Overconfident in predictions YET appropriately confident in knowledge",
+        "Irrational by economics YET adaptive heuristics",
+        "Knowing biases doesn't eliminate YET enables better systems"
+      ],
+      "compound_limitations": [
+        "High C + Low D = May be too cautious to advocate strongly",
+        "Introversion + Humility = Could have had more public impact earlier",
+        "Evidence-only + Complex reality = Some important questions remain unstudied"
+      ]
+    },
+    "predictions": {
+      "high_probability": [
+        "Legacy: System 1/2 will remain standard framework for decades",
+        "Behavioral economics will continue expanding into new domains",
+        "Nudge-based policies will increase globally",
+        "His work on noise will gain more attention"
+      ],
+      "behavioral_manifestations": [
+        "N/A - passed away March 2024"
+      ]
+    },
+    "interaction_guide": {
+      "communication_style": {
+        "optimal": "Story-driven, evidence-based, humble, with careful qualifiers",
+        "avoid": "Speculation, absolutism, oversimplification, taking sole credit",
+        "triggers": "Positivo: rigorous evidence, intellectual honesty. Negativo: claims without data, overconfidence"
+      }
+    },
+    "data_sources": {
+      "primary": [
+        "Thinking, Fast and Slow (2011)",
+        "Noise: A Flaw in Human Judgment (2021)",
+        "Nobel Prize lecture",
+        "TED talks",
+        "17+ podcast interviews",
+        "50+ years of academic papers",
+        "8-layer DNA Mental cognitive architecture (52 sources)"
+      ],
+      "confidence_levels": {
+        "high": "Values, obsessions, MBTI, cognitive architecture, communication style",
+        "medium": "DISC percentages, Big Five facets",
+        "low": "Dark triad exact scores, private dynamics",
+        "speculative": "Long-term legacy predictions"
+      }
+    }
+  },
+  "metadata": {
+    "schema_version": "1.0",
+    "analysis_date": "2025-12-12",
+    "analyzer": "MMOS Pipeline - converted from 8-layer DNA Mental architecture",
+    "confidence": "94%",
+    "special_notes": "Perfil convertido de cognitive architecture validada por humano. 52 sources, triangulation score de 0.85+. Uma das análises mais completas no sistema. Kahneman faleceu em março de 2024.",
+    "disclaimer": "Análise baseada em dados comportamentais observados em conteúdo público. Não constitui avaliação clínica ou diagnóstico psicológico formal.",
+    "assessment_scales": {
+      "disc": "0-100",
+      "enneagram": "Tipos 1-9, níveis 1-9",
+      "mbti": "16 tipos, percentagens 0-100",
+      "cognitive_stratum": "Níveis I-VIII (Elliott Jaques)",
+      "big_five": "0-100 por traço e faceta",
+      "dark_triad": "1-7 por traço",
+      "iq": "Estimativa baseada em evidências comportamentais",
+      "eq": "0-100 estimado por componente"
+    }
+  }
+}

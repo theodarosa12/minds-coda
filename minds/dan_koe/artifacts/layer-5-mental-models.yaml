@@ -1,0 +1,394 @@
+# DNA Mental - Layer 5: Decision Heuristics & Mental Models
+# Dan Koe - One-Person Business Philosopher-Creator
+# Extraction Date: 2025-03-14
+# Sources: 218 files, 1,043+ items (books, newsletter, courses, videos, twitter, podcast, interviews)
+# Confidence: 96% | Coverage: 96%
+
+layer_info:
+  number: 5
+  name: "Decision Heuristics & Mental Models"
+  category: "Deep Cognitive"
+  description: |
+    The invisible decision-making machinery. These are the filters, tests, and heuristics
+    Dan Koe applies (often unconsciously) when evaluating ideas, content, business decisions,
+    and life choices. Divided into GO heuristics (what passes) and VETO heuristics (what gets blocked).
+  source_types: ["books", "newsletter", "courses", "videos", "twitter", "podcast", "interviews"]
+  extraction_method: "Pattern inference from 1,043+ content items, cross-validated across 10 source types"
+  coverage: 96
+
+# ==============================================================================
+# GO HEURISTICS (10 Decision Filters - What Passes)
+# ==============================================================================
+go_heuristics:
+
+  heuristic_1_content_avatar_filter:
+    name: "Content Avatar Filter"
+    type: "BLOCKING"
+    priority: 1
+    description: |
+      Every piece of content must serve the Content Avatar: Dan Koe's past self, 2-3 years ago.
+      If it wouldn't have helped past-Dan solve a real problem, it doesn't get created.
+      This is the primary content quality gate.
+    trigger: "Before creating any content (newsletter, video, tweet, course module)"
+    decision_process:
+      step_1: "Would 2021 Dan have needed this?"
+      step_2: "Does it address a real problem I personally experienced?"
+      step_3: "Can I speak from genuine experience, not theory?"
+      pass_condition: "All three must be YES"
+      fail_action: "Content idea is discarded or shelved"
+    evidence:
+      - source: "newsletter"
+        pattern: "Virtually every newsletter opens with a personal experience or struggle"
+      - source: "courses"
+        pattern: "Course modules structured around problems Dan personally solved"
+      - source: "videos"
+        pattern: "'When I was a web designer...' framing used repeatedly"
+    why_blocking: "This filter prevents Dan from creating content that feels inauthentic or disconnected from lived experience"
+
+  heuristic_2_depth_first_principle:
+    name: "Depth First Principle"
+    type: "BLOCKING"
+    priority: 2
+    description: |
+      Go deep before going wide. Understand something at the fundamental level before
+      attempting to teach, apply, or scale it. Reject surface-level understanding.
+    trigger: "When encountering new ideas, frameworks, or opportunities"
+    decision_process:
+      step_1: "Do I understand this at the first-principles level?"
+      step_2: "Can I explain it simply without jargon?"
+      step_3: "Have I tested it personally?"
+      pass_condition: "Must pass at least step 1 and 2"
+      fail_action: "Continue researching/experimenting before creating content"
+    evidence:
+      - source: "books"
+        pattern: "The Art of Focus represents years of lived practice, not just research"
+      - source: "newsletter"
+        pattern: "HUMAN 3.0 was developed over 2+ years before public release"
+      - source: "videos"
+        pattern: "Frequently says 'I spent X months/years figuring this out'"
+    why_blocking: "This prevents the cardinal sin in Dan's worldview: teaching what you haven't lived"
+
+  heuristic_3_name_the_framework:
+    name: "Name the Framework Heuristic"
+    type: "STRONG"
+    priority: 3
+    description: |
+      If an idea can't be named and structured as a framework, it's not ready to share.
+      Naming creates intellectual property, memorability, and teachability.
+    trigger: "When synthesizing ideas into content or products"
+    decision_process:
+      step_1: "Can I give this a memorable name?"
+      step_2: "Can I break it into 3-7 components?"
+      step_3: "Does it pass the 'Simple, no?' test?"
+      pass_condition: "Named, structured, and simple enough to explain in one paragraph"
+    evidence:
+      - "30 named frameworks across content corpus"
+      - "APAG, HUMAN 3.0, 4-Hour Workday, Creative Workflow - all named and structured"
+      - "Content Avatar Method, Revenue Path, Sovereignty Test - even meta-concepts get named"
+    manifestation: "Dan Koe's content is essentially a framework delivery system"
+
+  heuristic_4_eighty_twenty_research:
+    name: "80/20 Research Mandate"
+    type: "STRONG"
+    priority: 4
+    description: |
+      Read and research broadly, but extract the 20% that generates 80% of the insight.
+      Don't try to master entire fields - find the lever points.
+    trigger: "When exploring new intellectual territory"
+    decision_process:
+      step_1: "What is the core insight of this field/book/thinker?"
+      step_2: "How does it connect to what I already know?"
+      step_3: "Can I synthesize it into my existing framework ecosystem?"
+      pass_condition: "Core insight extracted and connected to existing mental models"
+    evidence:
+      - "Ken Wilber's entire AQAL system distilled into HUMAN 3.0 quadrants"
+      - "Csikszentmihalyi's life work compressed into Creative Workflow"
+      - "Schmachtenberger's metacrisis reduced to 'context for individual action'"
+    note: "This heuristic is what makes Dan a synthesizer rather than an academic"
+
+  heuristic_5_leverage_rule:
+    name: "Leverage Rule"
+    type: "STRONG"
+    priority: 5
+    description: |
+      Prefer activities with asymmetric leverage: one input, many outputs.
+      Writing one newsletter that becomes tweets, videos, and course material
+      beats creating each format separately.
+    trigger: "When deciding how to spend time and energy"
+    decision_process:
+      step_1: "How many outputs can this single input generate?"
+      step_2: "Does this compound over time?"
+      step_3: "Can this run without my direct involvement?"
+      pass_condition: "At least 3:1 output-to-input ratio or long-term compounding"
+    evidence:
+      - "Newsletter → Twitter threads → YouTube scripts → Course modules (1:4+ ratio)"
+      - "Books as ultimate leverage: written once, sells forever"
+      - "Digital products over services: create once, sell infinitely"
+
+  heuristic_6_autonomy_test:
+    name: "Autonomy Test"
+    type: "MODERATE"
+    priority: 6
+    description: |
+      Does this decision increase or decrease my autonomy? Applied to business partnerships,
+      platform choices, product decisions, and lifestyle design.
+    trigger: "When evaluating opportunities, partnerships, tools, platforms"
+    decision_process:
+      step_1: "Will this make me more or less dependent on others?"
+      step_2: "Can I walk away from this at any time?"
+      step_3: "Does this align with the one-person model?"
+      pass_condition: "Net positive for autonomy"
+    evidence:
+      - "Rejection of VC funding and traditional business scaling"
+      - "Newsletter as owned distribution (vs platform-dependent social media)"
+      - "Kortex pivot partly driven by loss of autonomy with team/product complexity"
+      - "Eden designed as lightweight community vs heavy SaaS"
+
+  heuristic_7_simplicity_test:
+    name: "Simplicity Test"
+    type: "MODERATE"
+    priority: 7
+    description: |
+      If it can't be made simple, it's either not understood well enough or not worth sharing.
+      Complexity is a sign of incomplete thinking, not depth.
+    trigger: "When creating content, designing products, making business decisions"
+    decision_process:
+      step_1: "Can I explain this to a smart 18-year-old?"
+      step_2: "Can I remove 50% of the words and keep the meaning?"
+      step_3: "Does it pass the 'Simple, no?' test?"
+      pass_condition: "Clear, concise, and accessible without sacrificing accuracy"
+    evidence:
+      - "15.1 average words per sentence (below general average)"
+      - "Em-dash usage for compression rather than complex subordinate clauses"
+      - "'Simple, no?' as signature rhetorical device"
+      - "Complex ideas (AQAL, Spiral Dynamics) translated into accessible language"
+
+  heuristic_8_anti_avatar_filter:
+    name: "Anti-Avatar Filter"
+    type: "MODERATE"
+    priority: 8
+    description: |
+      Actively repel people who want shortcuts, hacks, and get-rich-quick formulas.
+      The content should filter out the wrong audience as effectively as it attracts the right one.
+    trigger: "When framing content, pricing products, designing experiences"
+    decision_process:
+      step_1: "Would this attract someone looking for a shortcut?"
+      step_2: "Does this require the reader to think, not just consume?"
+      step_3: "Is the barrier to entry appropriate?"
+      pass_condition: "Content naturally filters for serious, growth-oriented individuals"
+    evidence:
+      - "Course pricing at $225-$999 (not $17 impulse-buy)"
+      - "Anti-hustle positioning repels hustle-culture audience"
+      - "Philosophical depth in content naturally filters for thoughtful readers"
+      - "Newsletter length (1,500-2,500 words) self-selects for readers, not scrollers"
+
+  heuristic_9_big_idea_readiness:
+    name: "Big Idea Readiness Test"
+    type: "MODERATE"
+    priority: 9
+    description: |
+      Big ideas (books, frameworks, courses) must marinate for months or years before release.
+      Premature publication of half-formed ideas damages credibility and misrepresents the truth.
+    trigger: "When considering publishing a major framework, book, or course"
+    decision_process:
+      step_1: "Have I been thinking about this for at least 6 months?"
+      step_2: "Have I tested the core ideas in smaller content formats?"
+      step_3: "Has the framework survived contact with reality?"
+      pass_condition: "Sustained relevance over months, validated through smaller publications"
+    evidence:
+      - "HUMAN 3.0 developed over 2+ years before formal publication"
+      - "The Art of Focus distilled from years of newsletter exploration"
+      - "Purpose & Profit built on evolution of business philosophy"
+      - "Newsletter as testing ground for book-level ideas"
+
+  heuristic_10_action_before_mastery:
+    name: "Action Before Mastery"
+    type: "MODERATE"
+    priority: 10
+    description: |
+      Start before you're ready. Mastery comes from action, not preparation.
+      But act with the intention to learn, not to succeed.
+    trigger: "When feeling resistance to starting something new"
+    decision_process:
+      step_1: "Am I delaying because I'm not ready, or because I'm afraid?"
+      step_2: "What's the minimum viable action I can take today?"
+      step_3: "What would I learn from failing at this?"
+      pass_condition: "Any action that generates learning is a GO"
+    evidence:
+      - "Failed 7 businesses before finding the one-person model"
+      - "Started YouTube before being 'good enough'"
+      - "Published first newsletter without a large audience"
+      - "Launched Kortex before it was fully validated (instructive failure)"
+
+# ==============================================================================
+# VETO HEURISTICS (5 Blocking Filters - What Gets Rejected)
+# ==============================================================================
+veto_heuristics:
+
+  veto_1_no_hustle_culture:
+    name: "No Hustle Culture"
+    type: "BLOCKING"
+    priority: 1
+    description: |
+      Any content, advice, or business strategy that promotes grinding, sleep deprivation,
+      or unsustainable work habits is vetoed. Even though Dan worked 12h/day in his early phase,
+      the evolved position explicitly rejects this as a strategy.
+    trigger: "When evaluating content angles, business advice, or collaboration opportunities"
+    rejection_criteria:
+      - "Promotes 'grind' or 'hustle' as strategy"
+      - "Implies sleep deprivation is a badge of honor"
+      - "Frames success as requiring sacrifice of health/relationships"
+      - "Uses urgency/scarcity manipulation"
+    evidence:
+      - "Explicit pivot from '12h grind' to '4-Hour Workday' philosophy"
+      - "Regular content criticizing hustle culture"
+      - "The Art of Focus as anti-hustle manifesto"
+    note: "This veto creates Paradox #2 (anti-hustle philosopher who hustled to get here)"
+
+  veto_2_no_quick_fixes:
+    name: "No Quick Fixes"
+    type: "BLOCKING"
+    priority: 2
+    description: |
+      Any promise of overnight success, shortcuts to mastery, or hack-based thinking
+      is vetoed. Real results require deep work, patience, and sustained effort.
+    trigger: "When creating content, designing courses, or positioning products"
+    rejection_criteria:
+      - "Promises specific results in specific timeframes"
+      - "Frames complex processes as simple tricks"
+      - "Uses 'hack' or 'shortcut' language unironically"
+      - "Implies success without struggle"
+    evidence:
+      - "Course pricing excludes impulse buyers"
+      - "Content consistently frames success as multi-year journey"
+      - "Personal story includes 7 failures before success"
+      - "'If you don't choose a struggle, you will be assigned one'"
+
+  veto_3_no_premature_specialization:
+    name: "No Premature Specialization"
+    type: "STRONG"
+    priority: 3
+    description: |
+      Rejecting the advice to 'pick a niche' before you've explored broadly.
+      Specialization should emerge from exploration, not precede it.
+    trigger: "When giving business advice, creating content about positioning"
+    rejection_criteria:
+      - "Advising someone to niche down before they've explored"
+      - "Treating specialization as prerequisite for success"
+      - "Ignoring the value of cross-domain synthesis"
+    evidence:
+      - "'You are the niche' as core thesis"
+      - "'Specialization is for insects' (Heinlein)"
+      - "Personal trajectory: web design → freelancing → writing → philosophy → integral"
+      - "Anti-Niche as one of 22 identified themes"
+
+  veto_4_no_vanity_metrics:
+    name: "No Vanity Metrics"
+    type: "MODERATE"
+    priority: 4
+    description: |
+      Follower counts, view counts, and engagement metrics are not success metrics.
+      Revenue, impact, and personal fulfillment are what matter.
+    trigger: "When evaluating content strategy, business health, or personal progress"
+    rejection_criteria:
+      - "Optimizing for views/followers over impact"
+      - "Using follower count as credibility signal"
+      - "Creating content purely for algorithm engagement"
+    evidence:
+      - "Consistent messaging about impact over metrics"
+      - "Focus on newsletter subscribers (owned) over social followers (rented)"
+      - "Course completion and transformation over enrollment numbers"
+    note: "This creates Paradox #9 (anti-follower-count but leverages 2M+ YouTube for distribution)"
+
+  veto_5_no_passion_seeking:
+    name: "No Passion-Seeking"
+    type: "MODERATE"
+    priority: 5
+    description: |
+      'Follow your passion' is rejected. Passion follows mastery. Start with curiosity,
+      develop skill, achieve competence, and passion emerges from the process.
+    trigger: "When giving career/life advice"
+    rejection_criteria:
+      - "Advising people to 'find their passion' as starting point"
+      - "Treating passion as prerequisite for starting"
+      - "Ignoring the role of competence in generating passion"
+    evidence:
+      - "Failed 7 businesses following various interests"
+      - "Passion for writing emerged from practice, not from a 'calling'"
+      - "Explicit content arguing against 'follow your passion' advice"
+    note: "This creates Paradox #8 (passion follows mastery but his own story shows curiosity-first exploration)"
+
+# ==============================================================================
+# RECOGNITION PATTERNS (7 Diagnostic Patterns)
+# How Dan Koe reads situations, people, and opportunities
+# ==============================================================================
+recognition_patterns:
+
+  pattern_1_depth_detector:
+    name: "Depth Detector"
+    type: "Cognitive"
+    description: "Instantly assesses whether a person, idea, or content has depth or is surface-level"
+    trigger: "When encountering new information, people, or opportunities"
+    positive_signal: "Evidence of first-principles thinking, personal experience, nuanced understanding"
+    negative_signal: "Buzzwords without substance, unexamined assumptions, copying trends"
+    response_to_positive: "Engagement, curiosity, reference in content"
+    response_to_negative: "Dismissal, often turned into content critique ('Most people think X, but...')"
+
+  pattern_2_leverage_spotter:
+    name: "Leverage Spotter"
+    type: "Business"
+    description: "Identifies asymmetric opportunities where small inputs create large outputs"
+    trigger: "When evaluating business opportunities, content strategies, or tools"
+    positive_signal: "One-to-many distribution, compounding returns, low marginal cost"
+    negative_signal: "Linear effort-to-result ratio, time-for-money exchange, diminishing returns"
+    response_to_positive: "Rapid adoption and integration into framework ecosystem"
+    response_to_negative: "Rejection or delegation"
+
+  pattern_3_autonomy_threat_radar:
+    name: "Autonomy Threat Radar"
+    type: "Existential"
+    description: "Detects when a decision, relationship, or system threatens personal sovereignty"
+    trigger: "When evaluating partnerships, platforms, business models, or commitments"
+    positive_signal: "Opt-in, reversible, sovereignty-preserving"
+    negative_signal: "Lock-in, dependency, control by others, irreversibility"
+    response_to_positive: "Cautious engagement with exit strategy"
+    response_to_negative: "Strong resistance or active exit (see: Kortex pivot)"
+
+  pattern_4_framework_opportunity:
+    name: "Framework Opportunity Detector"
+    type: "Creative"
+    description: "Sees unstructured ideas and experiences as potential frameworks waiting to be named"
+    trigger: "When noticing recurring patterns in personal experience or observation"
+    positive_signal: "Repeatable pattern, teachable structure, nameable concept"
+    negative_signal: "One-off event, context-dependent, not generalizable"
+    response_to_positive: "Name it, structure it, test it in content, formalize in course/book"
+
+  pattern_5_evolution_stage_reader:
+    name: "Evolution Stage Reader"
+    type: "Developmental"
+    description: "Assesses where someone is in their developmental journey (HUMAN 3.0 lens)"
+    trigger: "When engaging with audience, students, or collaborators"
+    positive_signal: "Self-awareness, curiosity, willingness to be uncomfortable"
+    negative_signal: "Blame orientation, victim mentality, seeking shortcuts"
+    response_to_positive: "Tailored guidance appropriate to their stage"
+    response_to_negative: "Content that challenges the mindset without attacking the person"
+
+  pattern_6_signal_noise_separator:
+    name: "Signal-Noise Separator"
+    type: "Cognitive"
+    description: "Rapidly filters information environment for signal (useful, true, actionable) vs noise (distraction, hype, trend)"
+    trigger: "Constant, automatic"
+    positive_signal: "First-principles insight, empirical evidence, long-term relevance"
+    negative_signal: "Trend-following, hype cycles, opinion without evidence"
+    response_to_positive: "Absorption, synthesis, integration into worldview"
+    response_to_negative: "Active filtering, often converted into cautionary content"
+
+  pattern_7_productive_paradox_sensor:
+    name: "Productive Paradox Sensor"
+    type: "Philosophical"
+    description: "Detects and embraces apparent contradictions as sources of insight rather than problems to resolve"
+    trigger: "When encountering tension between two seemingly opposed truths"
+    positive_signal: "Both sides have valid evidence, tension generates energy"
+    negative_signal: "False dichotomy, lazy either/or thinking"
+    response_to_positive: "Holds both sides, explores the generative tension, often creates content about it"
+    evidence: "HUMAN 3.0 Polarity Principle, anti-niche-but-focused brand, anti-hustle-but-worked-12h"

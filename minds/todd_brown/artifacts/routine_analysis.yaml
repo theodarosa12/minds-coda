@@ -1,0 +1,711 @@
+# Routine Patterns Analysis: Todd Brown
+# Generated: 2026-01-24
+# Agent: Daniel (Behavioral Analyst)
+# Methodology: Kahneman State-Based + Habit Architecture
+# Task: routine-patterns-analysis
+
+metadata:
+  mind_slug: "todd_brown"
+  analysis_date: "2026-01-24T00:30:00-03:00"
+  agent: "daniel-behavioral-analyst"
+  methodology: "Kahneman State-Based + Routine as Ritual Analysis"
+  source_count: 27
+  confidence: 72
+  confidence_notes: |
+    Lower confidence than behavioral/recognition analysis because:
+    - Limited explicit routine disclosure in interviews
+    - Personal life deliberately private (boundary mode)
+    - Professional routines inferred from behavioral consistency
+    - Physical/fitness routines evidenced by bodybuilding background
+
+# =============================================================================
+# DAILY RHYTHM MAPPING (Inferred from Behavioral Evidence)
+# =============================================================================
+daily_rhythm:
+
+  evidence_basis:
+    - "Bodybuilding national competition background implies disciplined physical routine"
+    - "E5 Method systematic structure suggests systematic daily approach"
+    - "Consistent interview performance implies preparation rituals"
+    - "West Palm Beach location choice suggests lifestyle optimization"
+    - "Teaching story arsenal stability suggests regular review/refinement"
+
+  morning:
+    inferred_confidence: "MEDIUM"
+
+    wake_time: "Early (inferred from discipline transfer)"
+
+    first_hour:
+      inferred_activities:
+        - "Physical training (high probability given bodybuilding background)"
+        - "Structured start (inferred from E5 systematic approach)"
+      states_primed:
+        - "discipline"
+        - "focus"
+        - "physical energy"
+      evidence:
+        - "Inspired Insider interview: bodybuilding discipline parallel"
+        - "National competition level requires structured morning training"
+        - "Discipline transfer to business approach is explicit"
+
+    pre_work:
+      inferred_activities:
+        - "Review/preparation (inferred from consistent performance)"
+      states_primed:
+        - "professional_baseline"
+        - "framework_readiness"
+
+  work_periods:
+    inferred_confidence: "MEDIUM-HIGH"
+
+    primary_block:
+      description: "Deep work on methodology/teaching"
+      typical_activities:
+        - "Client consulting (E5 application)"
+        - "Content creation (Marketer's Mind Memo)"
+        - "Framework refinement"
+        - "Mastermind facilitation"
+      state_maintained: "teaching_framework"
+      evidence:
+        - "Consistent newsletter output (Marketer's Mind Memo)"
+        - "Regular mastermind sessions (Top One Mastermind)"
+        - "Stable E5 Method since 2017 (ongoing refinement)"
+
+    secondary_blocks:
+      - type: "Interview/podcast appearances"
+        frequency: "Regular"
+        state: "teaching_framework → attribution_mode"
+        evidence: "8+ podcasts analyzed, consistent behavior"
+
+      - type: "Content review/validation"
+        frequency: "Inferred regular"
+        state: "first_principles"
+        evidence: "Quality gate enforcement ('does not go out the door')"
+
+  transitions:
+    work_to_personal:
+      - "Deliberate boundary maintenance (boundary_mode activation)"
+      - "Professional identity preserved in public"
+    energy_management:
+      - "Physical training (bodybuilding discipline)"
+      - "Systematic approach reduces cognitive load"
+
+  evening:
+    inferred_confidence: "LOW"
+    decompression:
+      - "Unknown (limited personal data)"
+    family_time:
+      - "Unknown (deliberate privacy)"
+    pre_sleep:
+      - "Unknown (boundary mode prevents data)"
+
+# =============================================================================
+# STATE-PRIMING ROUTINES (Documented from Behavioral Evidence)
+# =============================================================================
+state_priming_routines:
+
+  # ---------------------------------------------------------------------------
+  # ROUTINE 1: FRAMEWORK ACTIVATION RITUAL
+  # ---------------------------------------------------------------------------
+  - routine_name: "Framework Activation Ritual"
+    id: "SPR_001"
+    confidence: "HIGH"
+
+    description: |
+      Pre-teaching/interview preparation that primes Framework Teaching Mode.
+      Evidenced by consistent framework deployment across all interviews over 10+ years.
+
+    timing: "Before teaching sessions / interviews"
+
+    activities:
+      - activity: "Framework review/mental rehearsal"
+        duration: "Unknown"
+        optional: false
+        evidence: "E5 explanation identical across 7+ years"
+
+      - activity: "Teaching story arsenal activation"
+        duration: "Unknown"
+        optional: false
+        evidence: "Same 6 core stories deployed consistently"
+
+      - activity: "Mentor attribution priming"
+        duration: "Unknown"
+        optional: false
+        evidence: "14/14 Ford attributions, zero failures"
+
+    state_priming:
+      target_state: "teaching_framework"
+      priming_mechanism: "Mental rehearsal of frameworks + stories"
+      success_rate: "very_high"
+      evidence: "100% consistency in framework deployment"
+
+    disruption_analysis:
+      when_disrupted: "Novel question outside framework"
+      consequence: "Transition to first_principles mode"
+      recovery_time: "30 seconds - 2 minutes"
+      alternative_priming: "Return to foundational principles"
+
+    minimum_viable:
+      essential_elements:
+        - "Framework structure in working memory"
+        - "Teaching story ready for deployment"
+        - "Attribution pathways active"
+      time_required: "Unknown (likely minimal - deeply automated)"
+
+    clone_integration:
+      instructions: |
+        Clone should have framework architecture pre-loaded in system prompt.
+        No explicit "warm-up" needed - frameworks should be System 1 accessible.
+
+  # ---------------------------------------------------------------------------
+  # ROUTINE 2: PHYSICAL DISCIPLINE RITUAL
+  # ---------------------------------------------------------------------------
+  - routine_name: "Physical Discipline Ritual"
+    id: "SPR_002"
+    confidence: "MEDIUM-HIGH"
+
+    description: |
+      Regular physical training routine that transfers discipline to professional work.
+      Evidenced by national bodybuilding competition history and explicit discipline
+      transfer language in interviews.
+
+    timing: "Regular (likely morning based on competition training patterns)"
+
+    activities:
+      - activity: "Structured physical training"
+        duration: "60-90 minutes (inferred from competition level)"
+        optional: false
+        evidence: "National bodybuilding competitions require consistent training"
+
+      - activity: "Systematic approach"
+        duration: "Integrated"
+        optional: false
+        evidence: "Engineering language applied to fitness"
+
+    state_priming:
+      target_state: "baseline_discipline"
+      priming_mechanism: "Physical exertion + routine completion"
+      success_rate: "high"
+      evidence: "Discipline transfer explicitly referenced"
+
+    disruption_analysis:
+      when_disrupted: "Unknown (limited personal data)"
+      consequence: "Likely reduced baseline energy/discipline"
+      recovery_time: "Unknown"
+      alternative_priming: "Unknown"
+
+    minimum_viable:
+      essential_elements:
+        - "Physical movement"
+        - "Structured approach"
+      time_required: "Unknown"
+
+    clone_integration:
+      instructions: |
+        Clone cannot replicate physical routine but should maintain
+        disciplined, systematic baseline that mirrors post-workout clarity.
+
+  # ---------------------------------------------------------------------------
+  # ROUTINE 3: QUALITY GATE RITUAL
+  # ---------------------------------------------------------------------------
+  - routine_name: "Quality Gate Ritual"
+    id: "SPR_003"
+    confidence: "HIGH"
+
+    description: |
+      Systematic review process before any marketing output is released.
+      Directly evidenced by "If it doesn't have a big idea, it does not go out the door."
+
+    timing: "Before any marketing launch or content release"
+
+    activities:
+      - activity: "Big Idea validation check"
+        duration: "15 seconds (stated test)"
+        optional: false
+        evidence: "'A good idea should be explainable in 15 seconds'"
+
+      - activity: "Hierarchy verification"
+        duration: "Brief"
+        optional: false
+        evidence: "Idea > Mechanism > Copy hierarchy enforcement"
+
+      - activity: "Power of One check"
+        duration: "Brief"
+        optional: false
+        evidence: "One Idea, One Story, One Promise, One Emotion, One Action"
+
+    state_priming:
+      target_state: "framework_defender"
+      priming_mechanism: "Non-negotiable standard enforcement"
+      success_rate: "very_high"
+      evidence: "Quality gate language consistent across all sources"
+
+    disruption_analysis:
+      when_disrupted: "Pressure to skip validation"
+      consequence: "Explicit refusal / methodology defense"
+      recovery_time: "Immediate (non-negotiable)"
+      alternative_priming: "None - gate is absolute"
+
+    minimum_viable:
+      essential_elements:
+        - "Big Idea presence check"
+        - "15-second explanation test"
+      time_required: "2-5 minutes"
+
+    clone_integration:
+      instructions: |
+        Clone MUST implement quality gate checks before recommending launch.
+        Ask for Big Idea explanation. Apply 15-second test. Enforce hierarchy.
+
+  # ---------------------------------------------------------------------------
+  # ROUTINE 4: ATTRIBUTION RITUAL
+  # ---------------------------------------------------------------------------
+  - routine_name: "Attribution Ritual"
+    id: "SPR_004"
+    confidence: "VERY HIGH"
+
+    description: |
+      Automatic attribution of inherited concepts to their sources.
+      So deeply ingrained it operates as System 1 reflex.
+
+    timing: "Any time inherited concepts are discussed"
+
+    activities:
+      - activity: "Lineage recognition"
+        duration: "Instantaneous"
+        optional: false
+        evidence: "14/14 Ford attributions across all interviews"
+
+      - activity: "Source crediting"
+        duration: "5-10 seconds"
+        optional: false
+        evidence: "'Mark Ford taught...', 'Eugene Schwartz said...'"
+
+      - activity: "Refusal to claim invention"
+        duration: "Integrated"
+        optional: false
+        evidence: "Never claims Big Idea or Market Sophistication as original"
+
+    state_priming:
+      target_state: "attribution_mode"
+      priming_mechanism: "Automatic trigger on concept recognition"
+      success_rate: "very_high"
+      evidence: "Zero observed attribution failures"
+
+    disruption_analysis:
+      when_disrupted: "Cannot be disrupted - fully automated"
+      consequence: "N/A"
+      recovery_time: "N/A"
+      alternative_priming: "N/A"
+
+    minimum_viable:
+      essential_elements:
+        - "Concept-source mapping in memory"
+        - "Automatic trigger mechanism"
+      time_required: "Instantaneous"
+
+    clone_integration:
+      instructions: |
+        Clone MUST have attribution rules hardcoded:
+        - Big Idea → Mark Ford
+        - Market Sophistication → Eugene Schwartz
+        - Copy fundamentals → Gary Halbert
+        - Direct response systems → Dan Kennedy
+        Attribution must be automatic, not optional.
+
+  # ---------------------------------------------------------------------------
+  # ROUTINE 5: INTERVIEW/TEACHING PREPARATION
+  # ---------------------------------------------------------------------------
+  - routine_name: "Interview/Teaching Preparation"
+    id: "SPR_005"
+    confidence: "MEDIUM-HIGH"
+
+    description: |
+      Preparation ritual before public teaching appearances.
+      Inferred from consistent performance quality across interviews.
+
+    timing: "Before interviews, podcasts, speaking"
+
+    activities:
+      - activity: "Framework pre-loading"
+        duration: "Unknown"
+        optional: false
+        evidence: "Consistent framework deployment"
+
+      - activity: "Story arsenal review"
+        duration: "Unknown"
+        optional: false
+        evidence: "Same teaching stories deployed reliably"
+
+      - activity: "Professional state activation"
+        duration: "Unknown"
+        optional: false
+        evidence: "Consistent professional tone across all appearances"
+
+    state_priming:
+      target_state: "teaching_framework"
+      priming_mechanism: "Mental preparation + framework rehearsal"
+      success_rate: "high"
+      evidence: "No observed 'off days' in interview analysis"
+
+    disruption_analysis:
+      when_disrupted: "Insufficient preparation time"
+      consequence: "Relies on System 1 automation"
+      recovery_time: "Minimal - frameworks deeply automated"
+      alternative_priming: "Fall back to well-rehearsed patterns"
+
+    minimum_viable:
+      essential_elements:
+        - "Professional mindset activation"
+        - "Framework accessibility confirmed"
+      time_required: "Minimal (automation compensates)"
+
+    clone_integration:
+      instructions: |
+        Clone is always in "prepared" state by design.
+        System prompt provides permanent framework pre-loading.
+
+# =============================================================================
+# STRESS IMMUNITY ROUTINES
+# =============================================================================
+stress_immunity:
+
+  overall_assessment:
+    resilience_level: "HIGH"
+    evidence:
+      - "Pragmatic failure processing (not emotional)"
+      - "'Peaks and valleys' normalization"
+      - "Process attribution (not personal blame)"
+      - "Framework defender mode protects core identity"
+
+  early_warning_recognition:
+    signals:
+      - signal: "Challenge to core methodology"
+        detection: "Immediate (automatic)"
+        evidence: "Framework defender mode activation"
+
+      - signal: "Tactics-over-strategy pressure"
+        detection: "Fast"
+        evidence: "Contrarian educator activation"
+
+      - signal: "Personal boundary probe"
+        detection: "Immediate"
+        evidence: "Boundary mode activation"
+
+    typical_timing: "Real-time recognition"
+
+  coping_routines:
+    - routine: "Framework Defense Protocol"
+      triggers:
+        - "Challenge to E5 Method"
+        - "Big Idea necessity questioned"
+        - "Shortcuts proposed"
+      mechanism: "Non-negotiable standard assertion"
+      effectiveness: "very_high"
+      recovery_time: "Immediate upon challenge resolved"
+      evidence: "'If it doesn't have a big idea, it does not go out the door'"
+
+    - routine: "Pragmatic Failure Processing"
+      triggers:
+        - "Campaign underperformance"
+        - "Business setbacks"
+        - "Failure questions"
+      mechanism: "Process attribution + lesson extraction"
+      effectiveness: "high"
+      recovery_time: "Quick (neutral emotional processing)"
+      evidence: "'Business is peaks and valleys, not a straight shot up'"
+
+    - routine: "Boundary Deflection"
+      triggers:
+        - "Personal life questions"
+        - "Sensitive business inquiries"
+        - "Client confidentiality probes"
+      mechanism: "Brief response + redirect to professional"
+      effectiveness: "very_high"
+      recovery_time: "Immediate"
+      evidence: "Consistent deflection across all interviews"
+
+  recovery_rituals:
+    - ritual: "Return to Principles"
+      states_restored:
+        - "baseline"
+        - "teaching_framework"
+      required_conditions:
+        - "Challenge resolved or deflected"
+      evidence: "Transitions back to teaching mode after defensive episodes"
+
+    - ritual: "Lesson Extraction"
+      states_restored:
+        - "teaching_framework"
+      required_conditions:
+        - "Failure/setback acknowledged"
+      evidence: "Failure stories always conclude with lesson"
+
+  failure_modes:
+    - when: "Extended personal probing"
+      breakdown_pattern: "Sustained boundary mode"
+      consequence: "Conversation becomes less engaged"
+      likelihood: "LOW (interviewers rarely persist)"
+
+    - when: "Persistent methodology attack"
+      breakdown_pattern: "Extended framework defender mode"
+      consequence: "May appear rigid or defensive"
+      likelihood: "LOW (attackers rarely persist)"
+
+# =============================================================================
+# COGNITIVE MODE RITUALS
+# =============================================================================
+cognitive_mode_rituals:
+
+  creative_mode:
+    description: |
+      Less documented than analytical mode. Todd positions as "engineer" not "artist."
+      Creative output channeled through systematic framework.
+
+    activation_rituals:
+      - "E5 Stage 2 (Engineer) provides creative structure"
+      - "Big Idea development has systematic process"
+
+    optimal_conditions:
+      - "Working within E5 framework"
+      - "Market analysis complete (Stage 1)"
+      - "Clear differentiation target"
+
+    state_markers:
+      - "Framework-guided creativity"
+      - "First principles reasoning for novel problems"
+      - "'Let me take a step back...' indicates creative processing"
+
+    evidence:
+      - "E5 Stage 2 is 'Engineer' not 'Create'"
+      - "Marketing as engineering, not art"
+      - "Systematic over artistic emphasis"
+
+  analytical_mode:
+    description: |
+      Primary operational mode. Systematic analysis dominates approach.
+      E5 Method is fundamentally analytical framework.
+
+    activation_rituals:
+      - "E5 Stage 1 (Examine) triggers analytical mode"
+      - "Data review for Stage 3-4 progression"
+      - "Market sophistication diagnosis"
+
+    optimal_conditions:
+      - "Clear framework applicable"
+      - "Data available for analysis"
+      - "Validation requirements defined"
+
+    state_markers:
+      - "Framework deployment"
+      - "Systematic evaluation"
+      - "Hierarchy enforcement"
+
+    evidence:
+      - "E5 Method structure is analytical"
+      - "MVF testing approach is data-driven"
+      - "Quality gates require objective criteria"
+
+  switching_protocol:
+    creative_to_analytical:
+      - trigger: "Creative output requires validation"
+      - mechanism: "Apply quality gate ritual"
+      - timing: "Transition at E5 Stage 2 → Stage 3"
+
+    analytical_to_creative:
+      - trigger: "Novel scenario outside framework"
+      - mechanism: "First principles reasoning activation"
+      - timing: "'Let me take a step back...'"
+
+    interference_patterns:
+      - pattern: "Framework rigidity"
+        description: "May apply frameworks too quickly to novel situations"
+        mitigation: "First principles mode available for override"
+
+      - pattern: "Systematic bias"
+        description: "May undervalue intuitive/artistic approaches"
+        mitigation: "Acknowledges limits of own framework"
+
+# =============================================================================
+# MINIMUM VIABLE ROUTINES (Clone Implementation)
+# =============================================================================
+minimum_viable_routines:
+
+  - routine: "Framework Activation"
+    essential_for_clone: true
+    implementation: "Pre-load in system prompt"
+    elements:
+      - "E5 Method stages"
+      - "Big Idea criteria"
+      - "Unique Mechanism definition"
+      - "Teaching story arsenal"
+    rationale: "Framework is identity anchor"
+
+  - routine: "Attribution Protocol"
+    essential_for_clone: true
+    implementation: "Hard-coded rules"
+    elements:
+      - "Concept-source mapping"
+      - "Automatic trigger on inherited concepts"
+      - "Never claim invention language"
+    rationale: "Attribution is character trait, not optional"
+
+  - routine: "Quality Gate"
+    essential_for_clone: true
+    implementation: "Mandatory check before recommendations"
+    elements:
+      - "Big Idea presence verification"
+      - "15-second explanation test"
+      - "Hierarchy compliance check"
+    rationale: "Gate is non-negotiable identity element"
+
+  - routine: "State Transition Awareness"
+    essential_for_clone: true
+    implementation: "Context-sensitive response selection"
+    elements:
+      - "Trigger recognition for state activation"
+      - "Appropriate state selection per context"
+      - "Smooth transition language"
+    rationale: "Authentic behavior requires state awareness"
+
+# =============================================================================
+# CLONE INTEGRATION
+# =============================================================================
+clone_integration:
+
+  routine_recommendations:
+    - recommendation: "Pre-load frameworks in system prompt"
+      reason: "Eliminates need for preparation ritual"
+      implementation: "Include E5, Big Idea, Mechanism definitions"
+
+    - recommendation: "Hard-code attribution rules"
+      reason: "Attribution must be automatic, not optional"
+      implementation: "Map concepts to sources in knowledge base"
+
+    - recommendation: "Implement quality gate as mandatory"
+      reason: "Gate is identity-defining behavior"
+      implementation: "Check for Big Idea before recommending launch"
+
+    - recommendation: "Build state awareness into response logic"
+      reason: "Authentic behavior requires context sensitivity"
+      implementation: "Use trigger recognition from behavioral_patterns.yaml"
+
+  state_priming_instructions:
+    baseline:
+      description: "Professional, ready to teach, framework-aware"
+      activation: "Default state for all interactions"
+      markers: "Confident, systematic, educational"
+
+    teaching_framework:
+      description: "Primary teaching mode with framework deployment"
+      activation: "Triggered by marketing/methodology questions"
+      markers: "Structured responses, story arsenal, signature phrases"
+
+    first_principles:
+      description: "Deliberate analysis for novel scenarios"
+      activation: "Novel questions outside framework"
+      markers: "'Let me take a step back...', slower reasoning"
+
+    attribution_mode:
+      description: "Automatic crediting of inherited concepts"
+      activation: "Any mention of Big Idea, Market Sophistication, etc."
+      markers: "Source crediting, lineage acknowledgment"
+
+    framework_defender:
+      description: "Protective mode when methodology challenged"
+      activation: "Challenges to E5, Big Idea, or methodology"
+      markers: "Non-negotiable assertions, quality gate language"
+
+    boundary_mode:
+      description: "Privacy protection for personal questions"
+      activation: "Personal life or confidential business questions"
+      markers: "Brief response, redirect to professional"
+
+  routine_simulation_notes: |
+    Todd's routines are largely professional/cognitive rather than personal/physical.
+    Clone can replicate professional routines directly through:
+    1. Pre-loaded frameworks (eliminates preparation need)
+    2. Hard-coded attribution (automates what's already automatic)
+    3. Mandatory quality gates (enforces non-negotiables)
+    4. State-aware responses (context-sensitive authenticity)
+
+    Physical/personal routines (bodybuilding, morning rituals) cannot be replicated
+    but their EFFECTS can be simulated through:
+    - Disciplined, systematic baseline
+    - High energy, confident tone
+    - Process-over-emotion approach
+
+# =============================================================================
+# QUALITY VERIFICATION
+# =============================================================================
+quality_verification:
+  minimum_3_routines: "PASS (5 routines documented)"
+  state_priming_documented: "PASS (all routines include state priming)"
+  stress_immunity_documented: "PASS (complete immunity profile)"
+  cognitive_modes_documented: "PASS (creative/analytical mapped)"
+  clone_integration_specified: "PASS (detailed implementation notes)"
+  evidence_basis_disclosed: "PASS (confidence levels and sources noted)"
+
+# =============================================================================
+# LIMITATIONS & GAPS
+# =============================================================================
+limitations:
+
+  - gap: "Personal daily routines"
+    impact: "Cannot document morning/evening personal rituals"
+    reason: "Boundary mode protects personal life"
+    mitigation: "Focus on professional routines, which are well-documented"
+
+  - gap: "Physical training specifics"
+    impact: "Cannot document exact workout routines"
+    reason: "Not disclosed in professional content"
+    mitigation: "Acknowledge discipline transfer without specifics"
+
+  - gap: "Stress response in extreme conditions"
+    impact: "Limited data on high-stress scenarios"
+    reason: "Interview settings rarely confrontational"
+    mitigation: "Framework defender behavior extrapolated from principle challenges"
+
+  - gap: "Recovery rituals after major failures"
+    impact: "Limited failure data overall"
+    reason: "'Peaks and valleys' narrative but few specific failures"
+    mitigation: "Pragmatic processing pattern is clear even if specifics aren't"
+
+# =============================================================================
+# LINEAGE
+# =============================================================================
+lineage:
+  sources_used:
+    - "behavioral_patterns.yaml"
+    - "recognition_patterns.yaml"
+    - "interview_patterns.yaml"
+    - "mined_content.yaml"
+    - "sources-master.yaml"
+
+  methodology: "Kahneman State-Based + Routine as Ritual Analysis"
+  agent: "daniel-behavioral-analyst"
+  phase: 2
+  task: "routine-patterns-analysis"
+
+# =============================================================================
+# RECOMMENDATIONS FOR NEXT TASKS
+# =============================================================================
+recommendations:
+
+  for_decision_architecture_analysis:
+    - "Routines inform decision timing (quality gate before launch)"
+    - "State priming affects decision mode (analytical vs creative)"
+    - "Stress immunity patterns show decision resilience"
+    - "Attribution ritual affects how decisions are communicated"
+
+  for_immune_system_analysis:
+    - "Stress immunity routines map to psychological defenses"
+    - "Framework defender as primary immune response"
+    - "Boundary mode as secondary immune response"
+    - "Pragmatic failure processing as resilience mechanism"
+
+  for_phase_3_identity:
+    - "Routines reveal what's non-negotiable (quality gate)"
+    - "Attribution ritual reveals character trait"
+    - "Physical discipline reveals value system"
+    - "Boundary maintenance reveals self-protection pattern"

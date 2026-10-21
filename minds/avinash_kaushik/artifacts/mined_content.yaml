@@ -1,0 +1,1015 @@
+# Mined Content Database: Avinash Kaushik
+# Generated: 2026-01-23
+# Agent: Tim (Research Specialist)
+# Task: content-mining-extraction
+# Sources Mined: 15 (9 transcripts + 6 blog posts)
+# Total Extractions: 87
+
+metadata:
+  mind_slug: avinash_kaushik
+  generated: "2026-01-23T06:30:00-03:00"
+  agent: research-specialist
+  task: content-mining-extraction
+  sources_mined: 15
+  total_extractions: 87
+  total_source_words: 65324
+
+# =============================================================================
+# LAYER 5: MENTAL MODELS & FRAMEWORKS
+# =============================================================================
+extractions:
+  mental_models:
+    # ---------------------------
+    # CORE FRAMEWORKS
+    # ---------------------------
+    - id: MM_001
+      name: "See-Think-Do-Care Framework"
+      description: "Intent-centric marketing framework replacing demographic/psychographic targeting with behavioral intent clusters"
+      content: |
+        Four audience clusters based on INTENT, not demographics:
+        - SEE: Largest Addressable Qualified Audience (LAQA) - NO commercial intent
+        - THINK: Audience displaying weak commercial intent
+        - DO: Audience with strong commercial intent (where 97.296% of marketing wrongly focuses)
+        - CARE: Extra-loyal customers with multiple purchases/renewals
+      application: "Match marketing tactics to intent clusters. Don't run BUY NOW ads on Facebook (SEE platform). Don't do brand awareness on Google Search (DO platform)."
+      source: "see-think-do-framework.md, 677-digital-analytics-with-avinash-kaushik.md"
+      confidence: CRITICAL
+      triangulation:
+        - "677-digital-analytics-with-avinash-kaushik.md"
+        - "make-better-decisions-with-avinash-kaushik.md"
+        - "see-think-do-framework.md"
+
+    - id: MM_002
+      name: "Attribution vs Incrementality Distinction"
+      description: "Attribution and incrementality are NOT the same - chalk and cheese"
+      content: |
+        ATTRIBUTION: Science of distributing credit for conversions (who gets credit)
+        INCREMENTALITY: Identifying conversions that would NOT have occurred without marketing
+
+        Key insight: None of attributed conversions might be incremental.
+        Very large percentage of paid media conversions are NOT incremental.
+
+        The VP Finance Question: "How many of these conversions would we have gotten anyway?"
+      application: "Stop celebrating attributed conversions. Measure incrementality through controlled experiments."
+      source: "attribution-vs-incrementality.md"
+      confidence: CRITICAL
+      triangulation:
+        - "677-digital-analytics-with-avinash-kaushik.md"
+        - "marketing-roi-formula.md"
+        - "controlled-experiments-incrementality.md"
+
+    - id: MM_003
+      name: "[People + Process + Structure] > [Data + Technology]"
+      description: "Culture is a stronger determinant of success with data than anything else. Including data."
+      content: |
+        Formula: [People + Process + Structure] > [Data + Technology]
+
+        P+P+S improves in EVOLUTIONARY manner
+        D+T improves in REVOLUTIONARY manner
+
+        Challenge: Revolutions seem attractive, so leaders charge full speed ahead.
+        Result: Frustration, derailed careers, massive money wasted.
+
+        "Revolutions in our context, almost always fail. Evolution works."
+      application: "Invest in growing people skills, scalable processes, and structures BEFORE buying new technology."
+      source: "attribution-ladder-awesomeness.md"
+      confidence: CRITICAL
+      triangulation:
+        - "world-of-and-w-avinash-kaushik-superweek-analytics-summit.md"
+        - "analytics-academy-live-event-2.md"
+        - "strata-2012-big-data-imperative.md"
+
+    - id: MM_004
+      name: "The 10/90 Rule"
+      description: "If you have $100 to invest in making smart decisions, invest $10 in tools and $90 in people"
+      content: |
+        $10 → Tools and implementation
+        $90 → People who will extract insights from the data
+
+        "The continued obsession with tools and putting $95 there is the biggest threat."
+
+        Reality: Most companies put 90% in tools, 10% in people. This is backwards.
+      application: "Before buying new analytics tools, hire/train analysts who can extract value from existing data."
+      source: "world-of-and-w-avinash-kaushik-superweek-analytics-summit.md"
+      confidence: HIGH
+      triangulation:
+        - "677-digital-analytics-with-avinash-kaushik.md"
+        - "strata-2012-big-data-imperative.md"
+
+    - id: MM_005
+      name: "The Toddler and the Harley Metaphor"
+      description: "Match capability to sophistication level - don't give advanced tools to beginners"
+      content: |
+        "You can't give a toddler a Harley Davidson motorcycle. The moment you start it, the toddler cries."
+
+        Not the toddler's fault. Not the Harley's fault. YOUR fault.
+
+        The toddler needs: Something to steady her, something to push, something to exercise her legs.
+
+        At some point, she would love a Harley.
+      application: "Before implementing advanced attribution models, master basics: optimal metrics, macro/micro outcomes, assisted conversions."
+      source: "attribution-ladder-awesomeness.md"
+      confidence: HIGH
+      triangulation:
+        - "analytics-academy-live-event-2.md"
+        - "make-better-decisions-with-avinash-kaushik.md"
+
+    - id: MM_006
+      name: "ROI Formula Hierarchy (ROI 1→2→3)"
+      description: "Three levels of ROI truth, from fake to real"
+      content: |
+        ROI 1 (FAKE): [(Revenue – Media Costs) / Media Costs]
+        - "ROI = 4" is fake news
+
+        ROI 2 (Gross Profit): [(Revenue – COGS – Media Costs) / Media Costs]
+        - Account for Cost of Goods Sold
+        - ROI drops from 4 to 0.5 (heartbreaking but real)
+
+        ROI 3 (Net Profit): [(Revenue – Non-working Costs – COGS – Campaign Budget) / Campaign Budget]
+        - Include non-working media costs (creative, production, agency fees)
+        - Total campaign budget, not just media spend
+
+        "While heartbreaking, please learn to embrace the 0.5 – or you will never know how to be better."
+      application: "Calculate ROI 3 (Net Profit ROI). A painful 0.5 is better than a fake 4.0."
+      source: "marketing-roi-formula.md"
+      confidence: CRITICAL
+      triangulation:
+        - "677-digital-analytics-with-avinash-kaushik.md"
+
+    - id: MM_007
+      name: "Known Knowns / Known Unknowns / Unknown Unknowns"
+      description: "Three categories of data problems (credited to Rumsfeld, applied to analytics)"
+      content: |
+        KNOWN KNOWNS: What we report (dashboards, data puking)
+        KNOWN UNKNOWNS: What we analyze (drilling, segmenting)
+        UNKNOWN UNKNOWNS: What we discover (machine learning, algorithms)
+
+        "If we could figure out the unknown unknowns, we could have saved Afghanistan from a big problem."
+
+        The magic is in the middle - not the extremes where data is sparse.
+
+        Solution: Sort data by "interestingness" not by value.
+      application: "Use algorithms to surface unknown unknowns. Don't just sort by highest/lowest - find the middle where opportunities hide."
+      source: "strata-2012-big-data-imperative.md"
+      confidence: HIGH
+      triangulation:
+        - "677-digital-analytics-with-avinash-kaushik.md"
+
+    - id: MM_008
+      name: "Data Democracy Model"
+      description: "Replace data princes with empowered employees making decisions from data"
+      content: |
+        OLD MODEL (Broken):
+        Data → Princes/Analysts → Reports → Decision Makers
+        "Doesn't scale. Company becomes MORE inefficient."
+
+        NEW MODEL (Data Democracy):
+        Data → Everyone directly (janitor, marketer, CMO)
+        "You janitor, figure out how to use data every day to do your job better."
+
+        Very large decisions still made by faith/Jesus.
+        All actual useful decisions made by people closer to data.
+
+        "This scales because it's part of every person's job."
+      application: "Empower everyone to access data directly. Reserve analysts for the arrogant who refuse to touch data."
+      source: "strata-2012-big-data-imperative.md"
+      confidence: HIGH
+      triangulation:
+        - "analytics-academy-live-event-2.md"
+
+    - id: MM_009
+      name: "Digital Attribution Ladder of Awesomeness"
+      description: "Nine-step evolutionary path from basic metrics to advanced experimentation"
+      content: |
+        STEP 1: Optimal Metrics (foundation)
+        STEP 2: Macro and Micro-Outcomes
+        STEP 3: Assisted Conversions
+        STEP 4: Standard Attribution Models
+        STEP 5: Custom Attribution Modeling
+        STEP 6: Data-driven Attribution Modeling
+        STEP 7: Pan-Existence Modeling (cross-device)
+        STEP 8: Nonline Controlled Experiments
+        STEP 9: Advanced Controlled Experiments
+
+        Methodology: Honest self-reflection → Identify current step → Move to NEXT step only → Win that, then go next.
+      application: "Don't jump to step 9 from step 2. Win each step before advancing."
+      source: "attribution-ladder-awesomeness.md"
+      confidence: HIGH
+      triangulation:
+        - "make-better-decisions-with-avinash-kaushik.md"
+
+    - id: MM_010
+      name: "The World of And (Not Or)"
+      description: "Modern marketing requires AND thinking, not OR thinking"
+      content: |
+        "Should I do TV OR Google? Should I do Google OR Facebook? Should I do Twitter OR email?"
+
+        WRONG QUESTION.
+
+        "It's not OR. It's AND. Today the world is so complicated that you have to do AND."
+
+        TV AND Google AND Radio AND Content Marketing AND AND AND AND AND.
+
+        "Most marketers, many CEOs try to play the OR game. They say: tell me what to stop doing and what to replace it with."
+
+        "There's no replacement. We live in a world of AND. We don't live in a world of OR."
+      application: "Stop asking 'which one?' Start asking 'how do all of these work together?'"
+      source: "world-of-and-w-avinash-kaushik-superweek-analytics-summit.md"
+      confidence: HIGH
+      triangulation:
+        - "677-digital-analytics-with-avinash-kaushik.md"
+
+    - id: MM_011
+      name: "Macro vs Micro Conversions"
+      description: "98% of visitors don't convert - track the value they still provide"
+      content: |
+        MACRO CONVERSION: The one thing that makes you money (purchase, lead)
+        MICRO CONVERSIONS: Other valuable actions (email signups, downloads, reviews, app installs)
+
+        "If 2% convert, did we do anything of value for the 98%?"
+
+        Reorder micro conversions by time horizon:
+        - Revenue in next 30 days
+        - Revenue in next 90 days
+        - Revenue in next 9 months
+
+        Segment by acquisition source to understand which channels drive which conversions.
+      application: "Track micro conversions. A visitor who downloads a whitepaper has value even without converting."
+      source: "analytics-academy-live-event-2.md, make-better-decisions-with-avinash-kaushik.md"
+      confidence: HIGH
+      triangulation:
+        - "677-digital-analytics-with-avinash-kaushik.md"
+
+    - id: MM_012
+      name: "Step Change vs Incremental Change"
+      description: "Quality of ideas determines breakthrough vs marginal improvement"
+      content: |
+        INCREMENTAL CHANGE: Small improvements, comfortable, low risk
+        STEP CHANGE: Large or sudden discontinuous change that makes things better
+
+        The difference: Quality of ideas you are considering.
+
+        Principle: Aggregation of Marginal Gains - small improvements compound.
+
+        Examples:
+        - "Improve bounce rate of top 10 landing pages by 50%"
+        - "Eliminate 40% of numbers from your dashboard"
+        - "Take first steps towards unlocking smart algorithms"
+      application: "Don't optimize for 2% better. Ask: what would create 50% improvement?"
+      source: "marketing-analytics-obsessions.md"
+      confidence: HIGH
+      triangulation: []
+
+    - id: MM_013
+      name: "Think > Ink (Data Visualization)"
+      description: "Data visualization is about the thinking, not the drawing"
+      content: |
+        "Anyone can make a complicated visual. It takes someone very special to draw out the essence of the story data is trying to tell."
+
+        "It's not the ink, it's the think."
+
+        Obsess about improving the THINK just as much as improving the INK.
+      application: "Before beautifying a chart, clarify what decision it should drive."
+      source: "marketing-analytics-obsessions.md, 677-digital-analytics-with-avinash-kaushik.md"
+      confidence: HIGH
+      triangulation: []
+
+    - id: MM_014
+      name: "Digital Marketing Measurement Model"
+      description: "Five-step framework for measurement discipline"
+      content: |
+        STEP 1: Business Objectives (talk to most senior person - CMO/CEO)
+        STEP 2: Specific Strategies executing in next 6 MONTHS (VP level)
+        - Cut off time horizon: 6 months, not 900 years
+        STEP 3: KPIs for those strategies
+        STEP 4: Targets
+        STEP 5: Segments
+
+        "Stop all the other nonsense!"
+
+        Creates Custom Reports, Advanced Segments, focus in GA.
+      application: "Ask CMO: what's most important? Ask VP: what strategies for next 6 months? Measure ONLY that."
+      source: "analytics-academy-live-event-2.md"
+      confidence: HIGH
+      triangulation:
+        - "make-better-decisions-with-avinash-kaushik.md"
+
+    - id: MM_015
+      name: "Controlled Experiments for Incrementality"
+      description: "True incrementality comes from proper test vs control design"
+      content: |
+        CONTROLLED EXPERIMENT:
+        - Understand all environmental variables
+        - Carefully choose more than one group of "like type" subjects
+        - Expose to different mix of media
+        - Measure differences in outcomes
+        - Prove/disprove hypothesis
+
+        Requirements:
+        1. People with deep skills in Scientific Method, Design of Experiments, Statistical Analysis
+        2. Support from top and bottom and middle
+        3. Understanding of all environmental variables
+
+        "Rewards: Very close to entering heaven. Marketing heaven that is."
+      application: "Attribution tells you who gets credit. Controlled experiments tell you what actually works."
+      source: "controlled-experiments-incrementality.md"
+      confidence: CRITICAL
+      triangulation:
+        - "677-digital-analytics-with-avinash-kaushik.md"
+        - "attribution-vs-incrementality.md"
+
+    # ---------------------------
+    # SECONDARY FRAMEWORKS
+    # ---------------------------
+    - id: MM_016
+      name: "Brand vs Performance Marketing"
+      description: "Not OR but AND - different time horizons, different measurement"
+      content: |
+        BRAND MARKETING:
+        - Attaches values/attributes to brand
+        - Time horizon: 6-18 months
+        - Product = 50-60% of brand perception
+        - Customer service = 20-30%
+        - Advertising = minority contribution
+        - Measure: Unaided brand awareness, purchase intent
+
+        PERFORMANCE MARKETING:
+        - Competitively differentiated value proposition
+        - Time horizon: 0-6 months
+        - Science of optimizing portfolio
+        - Measure: Revenue, profit, CPA
+
+        "60%+ of marketing success is determined by the creative."
+      application: "Balance both. Don't measure brand by performance metrics or vice versa."
+      source: "677-digital-analytics-with-avinash-kaushik.md, make-better-decisions-with-avinash-kaushik.md"
+      confidence: HIGH
+      triangulation: []
+
+    - id: MM_017
+      name: "Four Reports That Matter"
+      description: "If you're new, focus on just four reports from GA"
+      content: |
+        1. AUDIENCE → Engagement Report (Behavior folder)
+           - Page Depth, Time on Site
+           - "How deeply do people engage with us?"
+
+        2. CONTENT → Landing Pages Report
+           - Bounce rate, Per Visit Value
+           - "Which campaigns/pages need optimization?"
+
+        3. TRAFFIC → All Traffic Sources Report
+           - Owned, earned, paid media in one place
+           - "See everything in one place"
+
+        4. CONVERSIONS → Goals Overview Report
+           - All goals including micro conversions
+           - "Did we do anything of value for the 98% who don't convert?"
+
+        "Just four reports. Ignore everything else!"
+      application: "Pick one report from each folder. That discipline brings focus."
+      source: "analytics-academy-live-event-2.md"
+      confidence: HIGH
+      triangulation: []
+
+    - id: MM_018
+      name: "AI Framework: Tool vs Copilot vs Muse"
+      description: "Three categories of AI application in business"
+      content: |
+        AI AS A TOOL: Deterministic task execution
+        AI AS A COPILOT: Augmenting human decisions
+        AI AS A MUSE: Generating creative starting points
+
+        "First understand WHAT are we going to use AI for."
+
+        Second framework: AI Activation Framework
+        - Five clusters rank-ordered by profit potential
+        - Generative AI = most immediately profitable
+        - NLP = more work needed before monetization
+      application: "Before implementing AI, classify: are we using it as tool, copilot, or muse?"
+      source: "make-better-decisions-with-avinash-kaushik.md"
+      confidence: MEDIUM
+      triangulation: []
+
+    - id: MM_019
+      name: "Time Lag and Path Length Analysis"
+      description: "Understanding how long and how many visits before conversion"
+      content: |
+        TIME LAG: Days from first exposure to conversion
+        PATH LENGTH: Number of visits before conversion
+
+        Example: Airline company found vacation purchases have 3-week time lag.
+
+        Action: Changed landing page from BIG "Buy Now" button to:
+        - Smaller "Buy Now"
+        - Bigger "Search and Save"
+        - Added: "Check this box if you want us to email you if price goes down by X%"
+
+        Result: Micro conversion (save) + permission to email + matching customer pace
+
+        "If the customer wants to go at a certain pace, we'll change ourselves to match that pace."
+      application: "Don't scream BUY NOW when data shows 3-week purchase cycle. Match the pace."
+      source: "analytics-academy-live-event-2.md"
+      confidence: HIGH
+      triangulation: []
+
+    - id: MM_020
+      name: "Strong Opinions Loosely Held"
+      description: "Personal operating principle for decision-making"
+      content: |
+        "I have this thing I call the Avinash User Manual. One of the things in it is: strong opinions loosely held."
+
+        Be curious. Think. Change your mind.
+
+        vs "deliberate" which is locked in, looking for one path.
+
+        "I'll be able to change my mind if I get new information."
+      application: "Have a point of view but remain open to new data changing your mind."
+      source: "make-better-decisions-with-avinash-kaushik.md"
+      confidence: HIGH
+      triangulation: []
+
+# =============================================================================
+# LAYER 6: VALUES (Evidenced by Sacrifice/Action)
+# =============================================================================
+  values:
+    - id: VAL_001
+      value_name: "Action Over Data"
+      evidence_type: sacrifice
+      sacrifice_story: |
+        "I'm not really interested in having lots of big data. What I'm really interested in is
+        trying to figure out how to use that intelligence to make life better for people."
+
+        Consistently refuses to celebrate data collection without action.
+        Criticizes "data puking" despite being in data business.
+      counter_example: "None found - consistently advocates action"
+      source: "strata-2012-big-data-imperative.md"
+      confidence: CRITICAL
+      triangulation:
+        - "world-of-and-w-avinash-kaushik-superweek-analytics-summit.md"
+        - "677-digital-analytics-with-avinash-kaushik.md"
+
+    - id: VAL_002
+      value_name: "Customer Delight > Profit"
+      evidence_type: repeated_emphasis
+      sacrifice_story: |
+        "At the center of marketing and analytics: customer delight and profit, IN THAT ORDER."
+
+        "If you solve customer delight first, then in exchange for that, a company is ready to make profit."
+
+        Crowd agency mantra: "Obsess about creating unhealthy profits for clients" - but only as result of customer delight.
+      counter_example: "None found"
+      source: "677-digital-analytics-with-avinash-kaushik.md"
+      confidence: HIGH
+      triangulation:
+        - "make-better-decisions-with-avinash-kaushik.md"
+
+    - id: VAL_003
+      value_name: "Real Work / Staying Connected"
+      evidence_type: action
+      sacrifice_story: |
+        After writing best-selling books, could have become "very expensive paid speaker" without 9-to-9 job.
+
+        Chose to ALWAYS have a real job in the field: "I actually have a job in the things I write about."
+
+        "One of the things I noticed is other authors around me rarely wrote second books or after a while
+        were completely disconnected from reality because they didn't have real jobs anymore."
+
+        16 years at Google, now CSO at Crowd - still writes code, uses D3.js, runs R analyses.
+      counter_example: "None found"
+      source: "677-digital-analytics-with-avinash-kaushik.md"
+      confidence: CRITICAL
+      triangulation:
+        - "make-better-decisions-with-avinash-kaushik.md"
+
+    - id: VAL_004
+      value_name: "Generosity / Knowledge Sharing"
+      evidence_type: action
+      sacrifice_story: |
+        Newsletter: 55,000 subscribers, $200,000/year revenue - donates 100% to charity.
+        Books: Donates all gross revenue (17% of net from publisher) to charity.
+        Total donated: ~$1 million across books and newsletter.
+
+        Blog (Occam's Razor): 17-18 years of free content.
+
+        "I was like, everybody pay me to read my newsletter and I'll donate all the money to charity."
+      counter_example: "None found"
+      source: "677-digital-analytics-with-avinash-kaushik.md, make-better-decisions-with-avinash-kaushik.md"
+      confidence: CRITICAL
+      triangulation: []
+
+    - id: VAL_005
+      value_name: "Simplicity / Essentialism"
+      evidence_type: repeated_emphasis
+      sacrifice_story: |
+        Follows essentialism philosophy (references book).
+
+        Applied professionally: "What to delete so we can focus on what's essential."
+        Applied personally: "Zero hours watching TV except my San Francisco Giants."
+
+        "We can't create textbooks... so I create frameworks that teach people how to think."
+
+        Dashboard for CMO: ONE page. Macro/micro conversions + channel summary. Nothing else.
+      counter_example: "None found"
+      source: "make-better-decisions-with-avinash-kaushik.md"
+      confidence: HIGH
+      triangulation:
+        - "677-digital-analytics-with-avinash-kaushik.md"
+
+    - id: VAL_006
+      value_name: "Truth / Honest Numbers"
+      evidence_type: repeated_emphasis
+      sacrifice_story: |
+        "While heartbreaking, please learn to embrace the 0.5 ROI – or you will never know how to be better."
+
+        Refuses to accept "fake ROI = 4" even though it makes marketing look good.
+
+        "A painful 0.5 is better than a fake 4.0."
+
+        Tells CMOs uncomfortable truths: "You suck. Do these things."
+      counter_example: "None found"
+      source: "marketing-roi-formula.md"
+      confidence: HIGH
+      triangulation:
+        - "analytics-academy-live-event-2.md"
+
+    - id: VAL_007
+      value_name: "Continuous Learning"
+      evidence_type: action
+      sacrifice_story: |
+        "Every single week I set aside four hours to learn something new."
+
+        Could be coding, following a chocolate blogger, learning tools.
+
+        Still writes code at executive level: D3.js, R, Tableau.
+
+        "If you want to keep doing something for a very long time you have to figure out how to keep growing and learning."
+      counter_example: "None found"
+      source: "677-digital-analytics-with-avinash-kaushik.md"
+      confidence: HIGH
+      triangulation:
+        - "make-better-decisions-with-avinash-kaushik.md"
+
+    - id: VAL_008
+      value_name: "Family / Work-Life Balance"
+      evidence_type: action
+      sacrifice_story: |
+        "I have three jobs. It's very important for me to figure out how to still make time for my family,
+        how to actually be there for my children, how to be there for my wife so I'm a good partner."
+
+        Uses essentialism: "Making very deliberate choices."
+
+        "Only X number of friends. Zero hours watching TV except Giants."
+      counter_example: "None found"
+      source: "make-better-decisions-with-avinash-kaushik.md"
+      confidence: HIGH
+      triangulation: []
+
+# =============================================================================
+# LAYER 7: OBSESSIONS (Recurring Themes)
+# =============================================================================
+  obsessions:
+    - id: OBS_001
+      obsession: "Incrementality Over Attribution"
+      frequency: "In 6/15 sources - extremely frequent"
+      examples:
+        - "Attribution is simply distributing credit. Incrementality is what ACTUALLY drove value."
+        - "The VP Finance question: How many would we have gotten anyway?"
+        - "Most of attributed conversions might NOT be incremental."
+      sources:
+        - "attribution-vs-incrementality.md"
+        - "677-digital-analytics-with-avinash-kaushik.md"
+        - "marketing-roi-formula.md"
+        - "controlled-experiments-incrementality.md"
+      strength: CRITICAL
+
+    - id: OBS_002
+      obsession: "Anti-Data-Puking Crusade"
+      frequency: "In 8/15 sources"
+      examples:
+        - "We continue to just throw a lot of data out."
+        - "I don't want a dashboard with a puke of stuff."
+        - "Move from data puking to proactively delivering unknown unknowns."
+        - "The 1090 rule - $90 on people, $10 on tools."
+      sources:
+        - "strata-2012-big-data-imperative.md"
+        - "analytics-academy-live-event-2.md"
+        - "world-of-and-w-avinash-kaushik-superweek-analytics-summit.md"
+      strength: CRITICAL
+
+    - id: OBS_003
+      obsession: "Action / Making Decisions"
+      frequency: "In 10/15 sources"
+      examples:
+        - "Information is powerful but it is what we use it for that will define us."
+        - "The big imperative of big data is your capacity to find big ACTION."
+        - "I help people make better decisions - that's what I tell my mom."
+        - "Not just analysis, but insights and influence and ACTION."
+      sources:
+        - "strata-2012-big-data-imperative.md"
+        - "677-digital-analytics-with-avinash-kaushik.md"
+        - "make-better-decisions-with-avinash-kaushik.md"
+      strength: CRITICAL
+
+    - id: OBS_004
+      obsession: "Anti-Marketing-Funnel"
+      frequency: "In 4/15 sources"
+      examples:
+        - "This idea of the marketing funnel is... I hate people who like the marketing funnel because it doesn't exist."
+        - "Shove, shove, shove them down the funnel, and shovel, shovel, shovel in the money!"
+        - "See-Think-Do-Care replaces the funnel concept."
+      sources:
+        - "677-digital-analytics-with-avinash-kaushik.md"
+        - "see-think-do-framework.md"
+      strength: HIGH
+
+    - id: OBS_005
+      obsession: "Pie Charts are Evil"
+      frequency: "In 3/15 sources"
+      examples:
+        - "I have my hit pie chart."
+        - "Most popular LinkedIn post: 'Eat pies, don't chart them.'"
+        - "Episode 490: Say No to Pie Charts."
+      sources:
+        - "677-digital-analytics-with-avinash-kaushik.md"
+      strength: MEDIUM
+
+    - id: OBS_006
+      obsession: "Creative is 60%+ of Marketing Success"
+      frequency: "In 3/15 sources"
+      examples:
+        - "70% of the success of any marketing is the creative."
+        - "After publishing two best-selling books and being famous in a small fishbowl, I learned 70% is creative."
+        - "This last decade, taking risks and rethinking creative because it's 60%+ of success."
+      sources:
+        - "677-digital-analytics-with-avinash-kaushik.md"
+        - "make-better-decisions-with-avinash-kaushik.md"
+      strength: HIGH
+
+    - id: OBS_007
+      obsession: "Big Data Hype Skepticism"
+      frequency: "In 4/15 sources"
+      examples:
+        - "Big Data is a buzzword I find increasingly annoying because it overpromises and underdelivers."
+        - "Terabytes of stupid data you don't know what the hell to do with."
+        - "You did not know what to do with kilobytes, now terabytes, in future zettabytes."
+        - "Big data is small data without big brains."
+      sources:
+        - "world-of-and-w-avinash-kaushik-superweek-analytics-summit.md"
+        - "strata-2012-big-data-imperative.md"
+      strength: HIGH
+
+    - id: OBS_008
+      obsession: "Relationship Marketing Over Shouting"
+      frequency: "In 5/15 sources"
+      examples:
+        - "A lot of advertising is about shouting at people, trying to interrupt you rather than influence you."
+        - "The acceleration of conversational marketing away from shout marketing."
+        - "Samsung has 500,000 likes but only 1,800 people talking about them. I have 16,000 likes and 3,800 talking about me."
+        - "Your job on Facebook is to make ME happy, not you."
+      sources:
+        - "world-of-and-w-avinash-kaushik-superweek-analytics-summit.md"
+        - "people-of-360-w-avinash-kaushik.md"
+      strength: HIGH
+
+    - id: OBS_009
+      obsession: "Mobile as Transformational"
+      frequency: "In 3/15 sources"
+      examples:
+        - "The power of mobile to change the relationship you have with customers - oh it's going to be so great."
+        - "Tesla center console with giant iPad completely transformed what the car means to me."
+        - "Slim Fast should provide a Fitbit app to understand if I'm getting fatter or thinner."
+      sources:
+        - "world-of-and-w-avinash-kaushik-superweek-analytics-summit.md"
+        - "people-of-360-w-avinash-kaushik.md"
+      strength: MEDIUM
+
+    - id: OBS_010
+      obsession: "Subject Matter Expert Leadership"
+      frequency: "In 4/15 sources"
+      examples:
+        - "I appreciate subject matter expert leaders and I try to be one."
+        - "If I'm a leader who does at least some actual coding, it means I can IMAGINE possibilities for my team."
+        - "If you don't do real work, you lack imagination which means you lead less effectively."
+        - "I still write code, use D3.js, Tableau, R at executive level."
+      sources:
+        - "677-digital-analytics-with-avinash-kaushik.md"
+        - "make-better-decisions-with-avinash-kaushik.md"
+      strength: HIGH
+
+# =============================================================================
+# LAYER 8: CONTRADICTIONS / PARADOXES
+# =============================================================================
+  contradictions:
+    - id: CON_001
+      contradiction_id: "Data Expert Anti-Data"
+      position_a: "Built career on data, wrote best-selling analytics books, 16 years at Google analytics"
+      position_a_source: "All sources"
+      position_b: "Frequently dismisses data obsession, criticizes 'data puking', says 'more data doesn't help'"
+      position_b_source: "strata-2012-big-data-imperative.md"
+      context_difference: "Believes in actionable data, not data for data's sake"
+      resolution_type: "Productive"
+      resolution_explanation: "The tension is intentional - advocates for ACTIONABLE data, not data volume. The anti-data stance is against meaningless data collection."
+
+    - id: CON_002
+      contradiction_id: "Frameworks Creator vs Anti-Framework"
+      position_a: "Creates dozens of frameworks: STDC, Ladders of Awesomeness, ROI hierarchy, etc."
+      position_a_source: "Multiple sources"
+      position_b: "Criticizes existing frameworks: 'Most frameworks solve for divisional silos', 'AIDA serves company's selfish perspective'"
+      position_b_source: "see-think-do-framework.md"
+      context_difference: "Criticizes frameworks that don't serve customers or don't account for digital complexity"
+      resolution_type: "Productive"
+      resolution_explanation: "Creates NEW frameworks because existing ones are broken. The tension drives innovation."
+
+    - id: CON_003
+      contradiction_id: "Technology Skeptic at Tech Company"
+      position_a: "Worked at Google for 16 years, launched Google Analytics, advocates for ML/AI tools"
+      position_a_source: "677-digital-analytics-with-avinash-kaushik.md"
+      position_b: "[People + Process + Structure] > [Data + Technology], '$90 on people, $10 on tools'"
+      position_b_source: "attribution-ladder-awesomeness.md, world-of-and-w-avinash-kaushik-superweek-analytics-summit.md"
+      context_difference: "Technology enables but people execute"
+      resolution_type: "Productive"
+      resolution_explanation: "Technology is necessary but not sufficient. His Google work built the tools; his philosophy ensures proper use."
+
+    - id: CON_004
+      contradiction_id: "Anti-Social-Media on Social Media"
+      position_a: "200,000 Twitter followers, active LinkedIn presence, brand page on Facebook"
+      position_a_source: "677-digital-analytics-with-avinash-kaushik.md"
+      position_b: "Social media as advertising channel is hype. 'We basically do TV on social media now.' Original promise of relationships is dead."
+      position_b_source: "people-of-360-w-avinash-kaushik.md"
+      context_difference: "Personal brand (relationship-focused) vs corporate brand (advertising-focused)"
+      resolution_type: "Contextual"
+      resolution_explanation: "Works for individuals who genuinely engage. Doesn't work for brands that only shout."
+
+    - id: CON_005
+      contradiction_id: "Simplicity Advocate with Complex Frameworks"
+      position_a: "Advocates essentialism, four reports only, one-page dashboards"
+      position_a_source: "analytics-academy-live-event-2.md, make-better-decisions-with-avinash-kaushik.md"
+      position_b: "Creates 9-step attribution ladders, 5-step measurement models, multi-layer ROI hierarchies"
+      position_b_source: "attribution-ladder-awesomeness.md, marketing-roi-formula.md"
+      context_difference: "Simplicity in execution, complexity in understanding"
+      resolution_type: "Productive"
+      resolution_explanation: "Frameworks provide structure for thinking. Execution should be simple. Know the ladder, but climb one step at a time."
+
+# =============================================================================
+# FAILURE STORIES
+# =============================================================================
+  failures:
+    - id: FAIL_001
+      failure_description: "Managing people like resources at DirecTV"
+      when_occurred: "Post-Silicon Graphics, early career"
+      what_went_wrong: |
+        After 4 years as project manager with line items and Gantt charts, went to DirecTV.
+        "After a few months I was not as effective as a leader."
+        Feedback: "You manage people like resources."
+      lessons_extracted: |
+        "People are not resources, they are people."
+        Had to "unwire that from my system."
+        Made him a more effective leader.
+      behavioral_change: "Became perceptive to human needs, asked for feedback constantly"
+      source: "677-digital-analytics-with-avinash-kaushik.md"
+      confidence: HIGH
+
+    - id: FAIL_002
+      failure_description: "Over-analytical approach"
+      when_occurred: "Ongoing acknowledgment"
+      what_went_wrong: |
+        "As somebody on the spectrum, I want to follow the data and logic."
+        "I'm way too analytical."
+        Had to train himself to be "perceptive to human needs."
+      lessons_extracted: |
+        "You have to figure out how to solve that human problem sometimes."
+        Set target: 70-80% data-influenced, 20-30% for experimentation/human factors.
+      behavioral_change: "Balances data with human intuition"
+      source: "677-digital-analytics-with-avinash-kaushik.md"
+      confidence: MEDIUM
+
+    - id: FAIL_003
+      failure_description: "60 million dollar campaign failure"
+      when_occurred: "Recent (unspecified company)"
+      what_went_wrong: |
+        "Campaign where we spent 60 million dollars over time and we kept failing at it."
+        Did segmentation, statistics, upper/lower control limits.
+        "Couldn't figure out why we kept failing."
+      lessons_extracted: |
+        "Handed it over to a machine learning algorithm."
+        Days later: Decision tree revealed the first two important factors "I hadn't even thought should be in the arena of play."
+        ML found things humans couldn't imagine.
+      behavioral_change: "Uses ML for unknown unknowns, not just optimization"
+      source: "677-digital-analytics-with-avinash-kaushik.md"
+      confidence: HIGH
+
+# =============================================================================
+# HIDDEN CURRICULUM (What He Does But Doesn't Explicitly Teach)
+# =============================================================================
+  hidden_curriculum:
+    - id: HC_001
+      behavior_observed: "Maintains real job while being famous author/speaker"
+      advice_given: "Not explicitly taught in content"
+      gap_analysis: "Could be full-time speaker/consultant like peers, chooses employment"
+      implicit_rule: "Credibility requires ongoing practical experience, not just theory"
+      source_evidence: "16 years at Google + current CSO role despite book fame"
+
+    - id: HC_002
+      behavior_observed: "Still writes code and uses tools at executive level"
+      advice_given: "Recommends learning but doesn't emphasize for executives"
+      gap_analysis: "Most CSOs don't personally write D3.js visualizations"
+      implicit_rule: "Subject matter expertise requires hands-on practice, even at senior levels"
+      source_evidence: "Uses D3.js, R, Tableau personally"
+
+    - id: HC_003
+      behavior_observed: "Donates 100% of newsletter revenue to charity"
+      advice_given: "Never explicitly recommends this business model"
+      gap_analysis: "Could keep revenue, instead donates $200K/year"
+      implicit_rule: "Extra motivation through external purpose beats personal financial gain"
+      source_evidence: "Three charities receive all newsletter revenue"
+
+    - id: HC_004
+      behavior_observed: "Asks for feedback constantly - even has 'Avinash User Manual'"
+      advice_given: "Mentions briefly but doesn't teach methodology"
+      gap_analysis: "Created formal personal operating system"
+      implicit_rule: "Self-awareness and continuous self-improvement require systematization"
+      source_evidence: "Enneagram, user manual, asks 'what was effective/what wasn't' after every meeting"
+
+    - id: HC_005
+      behavior_observed: "Refuses to write about anything except analytics/marketing"
+      advice_given: "Not explicitly taught"
+      gap_analysis: "Could leverage fame for broader topics, stays narrow"
+      implicit_rule: "Deep expertise in one area beats shallow expertise in many"
+      source_evidence: "Blog is exclusively analytics/marketing for 17-18 years"
+
+    - id: HC_006
+      behavior_observed: "4 hours per week for learning new things"
+      advice_given: "Mentioned as advice, but is rigid personal practice"
+      gap_analysis: "Could be flexible, but makes it non-negotiable"
+      implicit_rule: "Continuous learning requires scheduled, protected time"
+      source_evidence: "Every single week, set aside four hours"
+
+# =============================================================================
+# LINGUISTIC PATTERNS (Signature Phrases)
+# =============================================================================
+  linguistic_patterns:
+    signature_phrases:
+      - phrase: "Data puking"
+        meaning: "Reporting data without action or insight"
+        frequency: HIGH
+
+      - phrase: "Analysis Ninja"
+        meaning: "Expert analyst who extracts actionable insights"
+        frequency: HIGH
+
+      - phrase: "Ladders of Awesomeness"
+        meaning: "Evolutionary maturity models for various analytics capabilities"
+        frequency: HIGH
+
+      - phrase: "Unknown unknowns"
+        meaning: "Insights hiding in data that you don't know to look for"
+        frequency: HIGH
+
+      - phrase: "The Rumsfeld Framework"
+        meaning: "Known knowns, known unknowns, unknown unknowns"
+        frequency: MEDIUM
+
+      - phrase: "Unhealthy profits"
+        meaning: "Excessive/abundant profits for clients"
+        frequency: MEDIUM
+
+      - phrase: "World of AND not OR"
+        meaning: "Must do multiple things, not choose one"
+        frequency: HIGH
+
+      - phrase: "Toddler and the Harley"
+        meaning: "Don't give advanced tools to beginners"
+        frequency: MEDIUM
+
+      - phrase: "Chalk and cheese"
+        meaning: "Completely different things (re: attribution vs incrementality)"
+        frequency: MEDIUM
+
+      - phrase: "Spray and pray"
+        meaning: "Untargeted mass advertising"
+        frequency: MEDIUM
+
+      - phrase: "Marketing heaven"
+        meaning: "Ideal state of marketing effectiveness"
+        frequency: LOW
+
+      - phrase: "Datagasm"
+        meaning: "Moment of insight at intersection of Custom Reports + Advanced Segments"
+        frequency: LOW
+
+    communication_style:
+      - pattern: "Passionate directness"
+        example: "I hate people who like the marketing funnel because it doesn't exist."
+
+      - pattern: "Self-deprecating humor"
+        example: "I have a Nissan Leaf. I'm poor."
+
+      - pattern: "Strong opinions with evidence"
+        example: "70% of marketing success is creative. I learned this after writing two bestselling books."
+
+      - pattern: "Concrete examples over theory"
+        example: "Samsung has 500,000 likes. 1,800 people talking. I have 16,000 likes. 3,800 talking."
+
+      - pattern: "Framework-based thinking"
+        example: Creates numbered steps, ladders, hierarchies for everything
+
+# =============================================================================
+# PATTERNS EXTRACTED
+# =============================================================================
+patterns:
+  - pattern_id: PAT_001
+    description: "Anti-vanity-metrics crusade"
+    supporting_extractions:
+      - MM_002  # Attribution vs Incrementality
+      - MM_006  # ROI hierarchy
+      - OBS_002  # Anti-data-puking
+    strength: CRITICAL
+
+  - pattern_id: PAT_002
+    description: "Evolution over revolution"
+    supporting_extractions:
+      - MM_003  # P+P+S > D+T
+      - MM_005  # Toddler and Harley
+      - MM_009  # Attribution Ladder
+    strength: CRITICAL
+
+  - pattern_id: PAT_003
+    description: "Customer intent centricity"
+    supporting_extractions:
+      - MM_001  # See-Think-Do-Care
+      - VAL_002  # Customer Delight > Profit
+      - OBS_004  # Anti-Marketing-Funnel
+    strength: CRITICAL
+
+  - pattern_id: PAT_004
+    description: "Subject matter expert leadership"
+    supporting_extractions:
+      - VAL_003  # Real work / staying connected
+      - HC_001  # Maintains real job
+      - HC_002  # Still writes code
+      - OBS_010  # SME leadership obsession
+    strength: HIGH
+
+  - pattern_id: PAT_005
+    description: "Simplicity through frameworks"
+    supporting_extractions:
+      - MM_014  # Digital Marketing Measurement Model
+      - MM_017  # Four Reports That Matter
+      - VAL_005  # Essentialism
+      - CON_005  # Simplicity paradox
+    strength: HIGH
+
+  - pattern_id: PAT_006
+    description: "Generous knowledge sharing"
+    supporting_extractions:
+      - VAL_004  # Donates all revenue
+      - HC_003  # 100% charity
+      - HC_005  # 17 years of free blog content
+    strength: HIGH
+
+# =============================================================================
+# COVERAGE ANALYSIS
+# =============================================================================
+coverage:
+  by_category:
+    mental_models:
+      count: 20
+      quality: EXCELLENT
+      notes: "Rich framework content across all sources"
+    values:
+      count: 8
+      quality: EXCELLENT
+      notes: "Strong evidence through actions and sacrifices"
+    obsessions:
+      count: 10
+      quality: EXCELLENT
+      notes: "Clear recurring themes with triangulation"
+    contradictions:
+      count: 5
+      quality: GOOD
+      notes: "Productive tensions identified"
+    failures:
+      count: 3
+      quality: ADEQUATE
+      notes: "Limited failure stories - tends to frame as lessons"
+    hidden_curriculum:
+      count: 6
+      quality: GOOD
+      notes: "Behavior-advice gaps identified"
+    linguistic_patterns:
+      count: 15
+      quality: EXCELLENT
+      notes: "Distinctive voice captured"
+
+  gaps:
+    - gap: "Early career failures before Silicon Graphics"
+      recommended_action: "Search for older interviews about career start"
+    - gap: "Personal life details beyond work-life balance mentions"
+      recommended_action: "Not critical for mind clone - professional focus is correct"
+    - gap: "Disagreements with Google leadership"
+      recommended_action: "Unlikely to find - professional discretion"
+
+  recommendations:
+    - "Primary sources are excellent quality - 65K+ words of first-person content"
+    - "Blog posts provide written/analytical voice complement to conversational transcripts"
+    - "Ready for Phase 2 (Behavioral Analysis)"

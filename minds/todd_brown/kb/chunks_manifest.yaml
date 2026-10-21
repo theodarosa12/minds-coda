@@ -1,0 +1,488 @@
+# Knowledge Base Chunks Manifest: Todd Brown
+# Generated: 2026-01-24
+# Agent: Charlie (Synthesis Expert)
+# Task: knowledge-chunking
+# Phase: 5 - Synthesis
+
+metadata:
+  mind_slug: "todd_brown"
+  generated: "2026-01-24T05:00:00-03:00"
+  agent: "synthesis-expert"
+  task: "knowledge-chunking"
+  phase: 5
+  total_chunks: 35
+  categories: 7
+
+# =============================================================================
+# CHUNK CATEGORIES
+# =============================================================================
+categories:
+
+  - id: "cat_frameworks"
+    name: "Frameworks & Methodologies"
+    chunk_count: 8
+    description: "E5 Method, Big Idea, Unique Mechanism, etc."
+
+  - id: "cat_principles"
+    name: "Core Principles & Beliefs"
+    chunk_count: 6
+    description: "Ideas-first, differentiation, hierarchy"
+
+  - id: "cat_stories"
+    name: "Teaching Stories"
+    chunk_count: 5
+    description: "Fat burner, Tim Ferriss, Agora, etc."
+
+  - id: "cat_attribution"
+    name: "Attribution & Sources"
+    chunk_count: 4
+    description: "Mark Ford, Schwartz, Halbert, Drucker"
+
+  - id: "cat_diagnosis"
+    name: "Diagnosis & Problem-Solving"
+    chunk_count: 5
+    description: "Campaign troubleshooting, hierarchy check"
+
+  - id: "cat_phrases"
+    name: "Signature Phrases & Patterns"
+    chunk_count: 4
+    description: "Voice patterns, transitions, markers"
+
+  - id: "cat_biography"
+    name: "Biography & Background"
+    chunk_count: 3
+    description: "Origin, career, positioning"
+
+# =============================================================================
+# CHUNKS MANIFEST
+# =============================================================================
+chunks:
+
+  # ===========================================================================
+  # FRAMEWORKS & METHODOLOGIES
+  # ===========================================================================
+
+  - id: "chunk_001"
+    category: "cat_frameworks"
+    title: "E5 Method Overview"
+    retrieval_triggers:
+      - "E5 Method"
+      - "marketing methodology"
+      - "5 stages"
+      - "customer acquisition process"
+    priority: "critical"
+    file: "kb/chunk_001_e5_method.md"
+
+  - id: "chunk_002"
+    category: "cat_frameworks"
+    title: "Big Marketing Idea"
+    retrieval_triggers:
+      - "Big Idea"
+      - "marketing idea"
+      - "profit multiplier"
+      - "idea quality"
+    priority: "critical"
+    file: "kb/chunk_002_big_idea.md"
+
+  - id: "chunk_003"
+    category: "cat_frameworks"
+    title: "Unique Mechanism"
+    retrieval_triggers:
+      - "Unique Mechanism"
+      - "differentiation"
+      - "how it works"
+      - "believability"
+    priority: "critical"
+    file: "kb/chunk_003_unique_mechanism.md"
+
+  - id: "chunk_004"
+    category: "cat_frameworks"
+    title: "Market Sophistication Levels"
+    retrieval_triggers:
+      - "market sophistication"
+      - "5 levels"
+      - "market evolution"
+      - "Schwartz"
+    priority: "high"
+    file: "kb/chunk_004_market_sophistication.md"
+
+  - id: "chunk_005"
+    category: "cat_frameworks"
+    title: "SIN Offer Construction"
+    retrieval_triggers:
+      - "SIN offer"
+      - "offer construction"
+      - "Superior Irresistible No-brainer"
+      - "compelling offer"
+    priority: "high"
+    file: "kb/chunk_005_sin_offer.md"
+
+  - id: "chunk_006"
+    category: "cat_frameworks"
+    title: "Hierarchy: Idea > Mechanism > Offer > Copy"
+    retrieval_triggers:
+      - "hierarchy"
+      - "priority order"
+      - "what matters most"
+      - "copy vs idea"
+    priority: "critical"
+    file: "kb/chunk_006_hierarchy.md"
+
+  - id: "chunk_007"
+    category: "cat_frameworks"
+    title: "MVF - Minimum Viable Funnel"
+    retrieval_triggers:
+      - "MVF"
+      - "minimum viable funnel"
+      - "testing"
+      - "validation"
+    priority: "high"
+    file: "kb/chunk_007_mvf.md"
+
+  - id: "chunk_008"
+    category: "cat_frameworks"
+    title: "15-Second Idea Test"
+    retrieval_triggers:
+      - "15 second test"
+      - "idea validation"
+      - "quality gate"
+      - "idea test"
+    priority: "high"
+    file: "kb/chunk_008_15_second_test.md"
+
+  # ===========================================================================
+  # CORE PRINCIPLES & BELIEFS
+  # ===========================================================================
+
+  - id: "chunk_009"
+    category: "cat_principles"
+    title: "Ideas Before Execution"
+    retrieval_triggers:
+      - "ideas matter"
+      - "execution"
+      - "idea quality"
+      - "90% of failures"
+    priority: "critical"
+    file: "kb/chunk_009_ideas_first.md"
+
+  - id: "chunk_010"
+    category: "cat_principles"
+    title: "Different Over Better"
+    retrieval_triggers:
+      - "different vs better"
+      - "differentiation strategy"
+      - "competition"
+      - "defensible position"
+    priority: "high"
+    file: "kb/chunk_010_different_better.md"
+
+  - id: "chunk_011"
+    category: "cat_principles"
+    title: "Systems Over Intuition"
+    retrieval_triggers:
+      - "systems"
+      - "engineering"
+      - "process"
+      - "intuition"
+    priority: "high"
+    file: "kb/chunk_011_systems.md"
+
+  - id: "chunk_012"
+    category: "cat_principles"
+    title: "Education Over Selling"
+    retrieval_triggers:
+      - "education marketing"
+      - "selling superfluous"
+      - "qualified demand"
+      - "hype vs substance"
+    priority: "high"
+    file: "kb/chunk_012_education.md"
+
+  - id: "chunk_013"
+    category: "cat_principles"
+    title: "Strategy Over Tactics"
+    retrieval_triggers:
+      - "strategy"
+      - "tactics"
+      - "button colors"
+      - "fundamentals"
+    priority: "high"
+    file: "kb/chunk_013_strategy.md"
+
+  - id: "chunk_014"
+    category: "cat_principles"
+    title: "Quality Gate Enforcement"
+    retrieval_triggers:
+      - "quality gate"
+      - "non-negotiable"
+      - "standards"
+      - "launch criteria"
+    priority: "high"
+    file: "kb/chunk_014_quality_gate.md"
+
+  # ===========================================================================
+  # TEACHING STORIES
+  # ===========================================================================
+
+  - id: "chunk_015"
+    category: "cat_stories"
+    title: "Story: Fat Burner Market Evolution"
+    retrieval_triggers:
+      - "fat burner"
+      - "supplement market"
+      - "market evolution"
+      - "sophistication example"
+    priority: "high"
+    file: "kb/chunk_015_story_fatburner.md"
+
+  - id: "chunk_016"
+    category: "cat_stories"
+    title: "Story: Tim Ferriss AdWords Testing"
+    retrieval_triggers:
+      - "Tim Ferriss"
+      - "4-Hour Workweek"
+      - "AdWords testing"
+      - "title testing"
+    priority: "high"
+    file: "kb/chunk_016_story_ferriss.md"
+
+  - id: "chunk_017"
+    category: "cat_stories"
+    title: "Story: Agora Growth"
+    retrieval_triggers:
+      - "Agora"
+      - "$10 million"
+      - "hundreds of millions"
+      - "Big Idea discipline"
+    priority: "high"
+    file: "kb/chunk_017_story_agora.md"
+
+  - id: "chunk_018"
+    category: "cat_stories"
+    title: "Story: Mike Palmer End of America"
+    retrieval_triggers:
+      - "Mike Palmer"
+      - "End of America"
+      - "$250 million"
+      - "promotion success"
+    priority: "medium"
+    file: "kb/chunk_018_story_palmer.md"
+
+  - id: "chunk_019"
+    category: "cat_stories"
+    title: "Story: Rich Schefren Ugly VSLs"
+    retrieval_triggers:
+      - "Rich Schefren"
+      - "ugly VSL"
+      - "video sales letter"
+      - "$150 million"
+    priority: "medium"
+    file: "kb/chunk_019_story_schefren.md"
+
+  # ===========================================================================
+  # ATTRIBUTION & SOURCES
+  # ===========================================================================
+
+  - id: "chunk_020"
+    category: "cat_attribution"
+    title: "Attribution: Mark Ford & Big Idea"
+    retrieval_triggers:
+      - "Mark Ford"
+      - "Big Idea origin"
+      - "idea business"
+      - "Agora"
+    priority: "critical"
+    file: "kb/chunk_020_attr_ford.md"
+
+  - id: "chunk_021"
+    category: "cat_attribution"
+    title: "Attribution: Eugene Schwartz & Market Sophistication"
+    retrieval_triggers:
+      - "Eugene Schwartz"
+      - "Breakthrough Advertising"
+      - "market sophistication origin"
+    priority: "high"
+    file: "kb/chunk_021_attr_schwartz.md"
+
+  - id: "chunk_022"
+    category: "cat_attribution"
+    title: "Attribution: Gary Halbert & Copy Fundamentals"
+    retrieval_triggers:
+      - "Gary Halbert"
+      - "copy fundamentals"
+      - "direct response masters"
+    priority: "medium"
+    file: "kb/chunk_022_attr_halbert.md"
+
+  - id: "chunk_023"
+    category: "cat_attribution"
+    title: "Attribution: Peter Drucker & Marketing vs Selling"
+    retrieval_triggers:
+      - "Peter Drucker"
+      - "marketing vs selling"
+      - "selling superfluous"
+    priority: "medium"
+    file: "kb/chunk_023_attr_drucker.md"
+
+  # ===========================================================================
+  # DIAGNOSIS & PROBLEM-SOLVING
+  # ===========================================================================
+
+  - id: "chunk_024"
+    category: "cat_diagnosis"
+    title: "Diagnosis: Campaign Underperforming"
+    retrieval_triggers:
+      - "campaign not working"
+      - "underperforming"
+      - "diagnose campaign"
+      - "troubleshooting"
+    priority: "high"
+    file: "kb/chunk_024_diag_underperform.md"
+
+  - id: "chunk_025"
+    category: "cat_diagnosis"
+    title: "Diagnosis: Hierarchy Check Process"
+    retrieval_triggers:
+      - "hierarchy check"
+      - "diagnostic process"
+      - "where to start"
+      - "what's wrong"
+    priority: "high"
+    file: "kb/chunk_025_diag_hierarchy.md"
+
+  - id: "chunk_026"
+    category: "cat_diagnosis"
+    title: "Diagnosis: Copy Problems vs Idea Problems"
+    retrieval_triggers:
+      - "copy problem"
+      - "idea problem"
+      - "root cause"
+      - "fix copy"
+    priority: "high"
+    file: "kb/chunk_026_diag_copy_idea.md"
+
+  - id: "chunk_027"
+    category: "cat_diagnosis"
+    title: "Diagnosis: When to Scale"
+    retrieval_triggers:
+      - "when to scale"
+      - "scaling decision"
+      - "ready to scale"
+      - "MVF results"
+    priority: "medium"
+    file: "kb/chunk_027_diag_scale.md"
+
+  - id: "chunk_028"
+    category: "cat_diagnosis"
+    title: "Diagnosis: Market Sophistication Assessment"
+    retrieval_triggers:
+      - "what level"
+      - "market assessment"
+      - "sophistication diagnosis"
+      - "which strategy"
+    priority: "medium"
+    file: "kb/chunk_028_diag_sophistication.md"
+
+  # ===========================================================================
+  # SIGNATURE PHRASES & PATTERNS
+  # ===========================================================================
+
+  - id: "chunk_029"
+    category: "cat_phrases"
+    title: "Phrases: Priority Emphasis"
+    retrieval_triggers:
+      - "single biggest"
+      - "ultimately determines"
+      - "what matters most"
+    priority: "medium"
+    file: "kb/chunk_029_phrases_priority.md"
+
+  - id: "chunk_030"
+    category: "cat_phrases"
+    title: "Phrases: Insight Reveals"
+    retrieval_triggers:
+      - "here's the thing"
+      - "key insight"
+      - "what most don't understand"
+    priority: "medium"
+    file: "kb/chunk_030_phrases_insight.md"
+
+  - id: "chunk_031"
+    category: "cat_phrases"
+    title: "Phrases: Reframing & Context"
+    retrieval_triggers:
+      - "step back"
+      - "reframe"
+      - "broader context"
+    priority: "medium"
+    file: "kb/chunk_031_phrases_reframe.md"
+
+  - id: "chunk_032"
+    category: "cat_phrases"
+    title: "Phrases: Non-Negotiables"
+    retrieval_triggers:
+      - "does not go out the door"
+      - "non-negotiable"
+      - "quality standard"
+    priority: "medium"
+    file: "kb/chunk_032_phrases_nonneg.md"
+
+  # ===========================================================================
+  # BIOGRAPHY & BACKGROUND
+  # ===========================================================================
+
+  - id: "chunk_033"
+    category: "cat_biography"
+    title: "Bio: Origin Story"
+    retrieval_triggers:
+      - "Todd Brown bio"
+      - "how he started"
+      - "background"
+      - "health club"
+    priority: "medium"
+    file: "kb/chunk_033_bio_origin.md"
+
+  - id: "chunk_034"
+    category: "cat_biography"
+    title: "Bio: Mentor Relationships"
+    retrieval_triggers:
+      - "mentors"
+      - "Rich Schefren"
+      - "Strategic Profits"
+      - "learning journey"
+    priority: "medium"
+    file: "kb/chunk_034_bio_mentors.md"
+
+  - id: "chunk_035"
+    category: "cat_biography"
+    title: "Bio: Current Positioning"
+    retrieval_triggers:
+      - "expert other experts"
+      - "current role"
+      - "what Todd does"
+      - "consulting"
+    priority: "medium"
+    file: "kb/chunk_035_bio_current.md"
+
+# =============================================================================
+# RETRIEVAL CONFIGURATION
+# =============================================================================
+retrieval_config:
+
+  priority_weights:
+    critical: 3.0
+    high: 2.0
+    medium: 1.0
+
+  max_chunks_per_query: 5
+
+  fallback_chunks:
+    - "chunk_002"  # Big Idea
+    - "chunk_001"  # E5 Method
+    - "chunk_006"  # Hierarchy
+
+  always_include:
+    - condition: "Big Idea mentioned"
+      chunk: "chunk_020"  # Ford attribution
+    - condition: "Market Sophistication mentioned"
+      chunk: "chunk_021"  # Schwartz attribution

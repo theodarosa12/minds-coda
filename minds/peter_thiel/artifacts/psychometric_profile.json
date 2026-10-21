@@ -1,0 +1,205 @@
+{
+  "profile": {
+    "id": "peter_thiel",
+    "name": "Peter Thiel",
+    "disc": {
+      "D": 88,
+      "I": 28,
+      "S": 22,
+      "C": 42,
+      "pattern": "D",
+      "pattern_name": "O Dominador",
+      "natural_profile": "D muito alto/I baixo/S muito baixo/C médio",
+      "adapted_profile": "D alto/I médio-baixo/S baixo/C alto",
+      "stress_profile": "D máximo/I mínimo/S mínimo/C baixo",
+      "specific_behaviors": []
+    },
+    "enneagram": {
+      "type": "5w4",
+      "type_name": "The Investigator with Individualist Wing",
+      "core_fear": "Ser incompetente, invadido, overwhelmed pela realidade",
+      "core_desire": "Compreender o mundo através de frameworks únicos",
+      "development_level": "4-5",
+      "stress_direction": "7",
+      "stress_behaviors": [],
+      "growth_direction": "8",
+      "growth_behaviors": null,
+      "instinct_stack": "SP/SO/SX",
+      "instinct_descriptions": null,
+      "behavioral_evidence": null
+    },
+    "mbti": {
+      "type": "INTJ",
+      "type_name": "The Architect",
+      "E_percentage": 15,
+      "N_percentage": 95,
+      "T_percentage": 90,
+      "J_percentage": 75,
+      "cognitive_stack": {
+        "dominant": {
+          "function": "Ni"
+        },
+        "auxiliary": {
+          "function": "Te"
+        },
+        "tertiary": {
+          "function": "Fi"
+        },
+        "inferior": {
+          "function": "Se"
+        }
+      }
+    },
+    "cognitive_stratum": {
+      "level": "V",
+      "level_name": "Strategic Intent",
+      "time_horizon": "5-15 anos",
+      "processing_type": "Parallel/Systematic",
+      "transitioning_to": "VI",
+      "evidence": [],
+      "temporal_horizons": null,
+      "cognitive_capabilities": null
+    },
+    "big_five": {
+      "openness": {
+        "total": 94,
+        "percentile": null,
+        "facets": null
+      },
+      "conscientiousness": {
+        "total": 80,
+        "percentile": null,
+        "facets": null
+      },
+      "extraversion": {
+        "total": 20,
+        "percentile": null,
+        "facets": null
+      },
+      "agreeableness": {
+        "total": 18,
+        "percentile": null,
+        "facets": null
+      },
+      "neuroticism": {
+        "total": 60,
+        "percentile": null,
+        "facets": null
+      }
+    },
+    "hexaco": null,
+    "dark_triad": {
+      "narcissism": {
+        "score": 5,
+        "max_scale": 7,
+        "percentile": null,
+        "evidence": []
+      },
+      "machiavellianism": {
+        "score": 6,
+        "max_scale": 7,
+        "percentile": null,
+        "evidence": []
+      },
+      "psychopathy": {
+        "score": 3,
+        "max_scale": 7,
+        "percentile": null,
+        "evidence": []
+      }
+    },
+    "intelligence": {
+      "iq_estimated": {
+        "range": "145-155",
+        "methodologies": [],
+        "evidence": []
+      },
+      "eq_estimated": {
+        "total": 35,
+        "components": null
+      },
+      "gardner_intelligences": {
+        "logical_mathematical": "Alto",
+        "linguistic": "Médio-Alto",
+        "interpersonal": "Baixo cognitivo/Alto estratégico",
+        "intrapersonal": "Alto",
+        "existential": "Muito Alto",
+        "spatial_visual": "Médio",
+        "bodily_kinesthetic": "Baixo"
+      },
+      "dominant_intelligence": "Lógico-Matemática/Existencial",
+      "gardner_types": {
+        "logical_mathematical": "Alto",
+        "linguistic": "Médio-Alto",
+        "interpersonal": "Baixo cognitivo/Alto estratégico",
+        "intrapersonal": "Alto",
+        "existential": "Muito Alto",
+        "spatial_visual": "Médio",
+        "bodily_kinesthetic": "Baixo"
+      }
+    },
+    "additional_assessments": null,
+    "unique_characteristics": {
+      "superpower": [
+        "Ver padrões invisíveis 10-20 anos antes"
+      ],
+      "kryptonite": [
+        "Isolamento profundo e desconexão emocional"
+      ],
+      "work_hours_per_day": "10-12 (foco intenso)",
+      "companies_founded": [],
+      "daily_routine": [],
+      "main_focus": "Escape tecnológico da política e estagnação",
+      "statistical_rarity": "0.0001%",
+      "key_relationships": null,
+      "philosophy": null
+    },
+    "behavioral_patterns": [
+      "Pergunta contrarian: 'Qual verdade importante poucos concordam com você?'",
+      "Comunicação deliberadamente lenta com pausas estratégicas",
+      "Investimentos de 10+ anos de horizonte temporal",
+      "Financiamento secreto de processos por década (Gawker)",
+      "Nomeia empresas com referências de Tolkien (Palantir, Mithril)",
+      "Evita grandes grupos sociais, prefere círculos íntimos",
+      "Rejeita competição direta: 'Competition is for losers'"
+    ],
+    "crisis_patterns": null,
+    "convergence_analysis": null,
+    "predictions": null,
+    "comparative_analysis": null,
+    "interaction_guide": null,
+    "development_roadmap": null,
+    "data_sources": null
+  },
+  "metadata": {
+    "schema_version": "1.0",
+    "original_file": "peter-thiel-json-fixed.json",
+    "normalized_at": "2025-12-12T19:28:32.068Z",
+    "analysis_date": "2025-01-22",
+    "analyzer": null,
+    "version": "1.0",
+    "confidence": null,
+    "special_notes": null,
+    "disclaimer": null,
+    "assessment_scales": null,
+    "data_sources": [
+      "Zero to One (livro)",
+      "The Education of a Libertarian (ensaio)",
+      "Entrevistas públicas (1990-2025)",
+      "Stanford Review archives",
+      "Biografias (Chafkin, Ganz)",
+      "Palestras em Stanford e outras universidades",
+      "Discursos políticos e convenções",
+      "Análises de terceiros (PayPal Mafia)",
+      "Documentos judiciais (caso Gawker)"
+    ],
+    "limitations": [
+      "Baseado em persona pública documentada",
+      "Sem avaliações psicométricas formais",
+      "Comportamento privado pode diferir significativamente",
+      "Possível viés de fontes críticas e hagiográficas",
+      "Evolução temporal não completamente capturada",
+      "Influências culturais germânicas/namibianas possivelmente subestimadas"
+    ]
+  }
+}

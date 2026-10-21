@@ -1,0 +1,599 @@
+# Tim Ferriss - Expert Map
+# Generated: 2026-01-19
+# Agent: Tim (Research Specialist)
+# Task: expert-identification-analysis
+
+metadata:
+  domain: "Meta-Learning, Lifestyle Design, Human Performance Optimization"
+  mind_slug: tim_ferriss
+  generated: "2026-01-19"
+  agent: "research-specialist"
+  task: "expert-identification-analysis"
+  note: |
+    This expert map identifies the intellectual lineage and network of Tim Ferriss.
+    The purpose is to understand WHO shaped his thinking and WHO he has shaped.
+
+# =====================================================
+# INTELLECTUAL LINEAGE: Ancient Philosophers
+# =====================================================
+# These are not "experts" in the modern sense, but the
+# philosophical foundations that shaped Tim's worldview
+
+philosophical_foundations:
+  stoicism:
+    primary_influence: true
+    discovery_year: 2004
+    context: "Burned out from business, looking for simplicity"
+    key_figures:
+      - name: "Seneca the Younger"
+        importance: "CRITICAL"
+        engagement: "Read 'Letters from a Stoic' 50+ times"
+        key_work: "Moral Letters to Lucilius"
+        tim_output: "The Tao of Seneca (audio collection)"
+        key_quote: "We suffer more often in imagination than in reality"
+        influence_on_tim:
+          - "Fear-setting methodology"
+          - "Practicing poverty experiments"
+          - "Focus on what you can control"
+
+      - name: "Marcus Aurelius"
+        importance: "HIGH"
+        engagement: "Quote on refrigerator, regular reference"
+        key_work: "Meditations"
+        key_quote: "When jarred unavoidably by circumstance, revert at once to yourself"
+        influence_on_tim:
+          - "Morning journaling practice"
+          - "Self-discipline framework"
+          - "Perspective on obstacles"
+
+      - name: "Epictetus"
+        importance: "MEDIUM"
+        engagement: "Finds it 'difficult to read' but values"
+        key_work: "Enchiridion (Handbook)"
+        influence_on_tim:
+          - "Dichotomy of control"
+          - "Role ethics"
+
+      - name: "Cato the Younger"
+        importance: "HIGH"
+        engagement: "Inspired Tim's 'discomfort inoculation' experiments"
+        influence_on_tim:
+          - "Wearing unfashionable clothes experiment"
+          - "Going barefoot"
+          - "Practicing discomfort"
+
+  eastern_philosophy:
+    connection_to_stoicism: "Tim found parallels between Stoicism and Zen Buddhism"
+    key_figures:
+      - name: "Miyamoto Musashi"
+        importance: "MEDIUM"
+        key_work: "The Book of Five Rings"
+        influence_on_tim:
+          - "Strategy and simplicity"
+          - "Mastery through constraint"
+
+# =====================================================
+# TIER 1 EXPERTS: Direct Mentors & Close Collaborators
+# =====================================================
+# These are people Tim has learned from directly and
+# has ongoing personal relationships with
+
+tier_1_experts:
+  - id: exp_001
+    name: "Josh Waitzkin"
+    expertise_type: "Practitioner + Teacher + Synthesizer"
+    tier: "TIER 1"
+    relationship: "Close friend and collaborator"
+    how_they_met: "Through Josh's book 'The Art of Learning'"
+
+    track_record:
+      verifiable_achievements:
+        - achievement: "Chess prodigy - basis for 'Searching for Bobby Fischer' book/film"
+          date: "1988-1993"
+          verification_source: "Public record, film"
+        - achievement: "Brazilian Jiu-Jitsu Black Belt under Marcelo Garcia"
+          date: "~2010"
+          verification_source: "Marcelo Garcia Academy"
+        - achievement: "Tai Chi Push Hands World Champion"
+          date: "2004-2006"
+          verification_source: "World Push Hands Championships"
+      track_record_score: 10
+
+    skin_in_the_game:
+      financial_stake: 4
+      reputational_stake: 5
+      operational_stake: 5  # Uses his own methods
+      teaching_stake: 5  # His students excel
+      total_skin_score: 19
+      assessment: "HIGH"
+
+    circle_of_competence:
+      core_competence:
+        domain: "Accelerated learning, mastery development, performance psychology"
+        confidence: "HIGH"
+      adjacent_competence:
+        - domain: "Meditation, mindfulness"
+          confidence: "HIGH"
+        - domain: "Physical training optimization"
+          confidence: "MEDIUM"
+      outside_competence:
+        - domain: "Business strategy"
+          risk: "Sometimes extrapolates learning principles too broadly"
+
+    meta_learning_insights:
+      - "The art of learning to learn"
+      - "Making smaller circles (depth over breadth)"
+      - "Investment in loss (learning from failure)"
+      - "The downward spiral and upward spiral"
+      - "Stress and recovery cycles"
+      - "Cultivating presence under pressure"
+
+    key_contributions_to_tim:
+      - "Learning transfer methodology"
+      - "The importance of depth before breadth"
+      - "Stress inoculation training concepts"
+      - "Meditation and mindfulness integration"
+
+    best_sources:
+      - "The Art of Learning (book)"
+      - "Tim Ferriss Show episodes #2, #148, #375, #412, #498"
+
+  - id: exp_002
+    name: "Naval Ravikant"
+    expertise_type: "Pioneer + Synthesizer"
+    tier: "TIER 1"
+    relationship: "Good friend and frequent collaborator"
+    how_they_met: "Silicon Valley angel investing circles"
+
+    track_record:
+      verifiable_achievements:
+        - achievement: "Co-founder of AngelList"
+          date: "2010"
+          verification_source: "Public record"
+        - achievement: "Co-founder of Epinions (IPO via Shopping.com)"
+          date: "1999"
+          verification_source: "Public record"
+        - achievement: "Early investor in Twitter, Uber, Notion, Postmates"
+          date: "2007-2015"
+          verification_source: "Public investment records"
+      track_record_score: 10
+
+    skin_in_the_game:
+      financial_stake: 5  # Invests own money
+      reputational_stake: 5
+      operational_stake: 4  # Lives his philosophy
+      teaching_stake: 4  # Many follow his frameworks
+      total_skin_score: 18
+      assessment: "HIGH"
+
+    circle_of_competence:
+      core_competence:
+        domain: "Angel investing, startup building, wealth creation"
+        confidence: "HIGH"
+      adjacent_competence:
+        - domain: "Philosophy, happiness, meaning"
+          confidence: "HIGH"
+        - domain: "Reading, learning"
+          confidence: "HIGH"
+      outside_competence:
+        - domain: "Politics"
+          risk: "Controversial takes, may overextend"
+
+    meta_learning_insights:
+      - "Specific knowledge cannot be taught"
+      - "Leverage types (labor, capital, code, media)"
+      - "Play long-term games with long-term people"
+      - "Wealth vs money distinction"
+      - "Happiness is a skill that can be trained"
+
+    key_contributions_to_tim:
+      - "Investment philosophy refinement"
+      - "Happiness frameworks"
+      - "Leverage thinking"
+      - "Reading and learning strategies"
+
+    best_sources:
+      - "Tim Ferriss Show episodes #97, #136, #473, #788"
+      - "The Almanack of Naval Ravikant (book)"
+
+  - id: exp_003
+    name: "Peter Thiel"
+    expertise_type: "Pioneer + Practitioner"
+    tier: "TIER 1"
+    relationship: "Investment mentor"
+    how_they_met: "Silicon Valley networks"
+
+    track_record:
+      verifiable_achievements:
+        - achievement: "Co-founder of PayPal"
+          date: "1998"
+          verification_source: "Public record"
+        - achievement: "First outside investor in Facebook"
+          date: "2004"
+          verification_source: "Public record"
+        - achievement: "Co-founder of Palantir ($1B+ revenue)"
+          date: "2003"
+          verification_source: "Public record"
+      track_record_score: 10
+
+    skin_in_the_game:
+      financial_stake: 5
+      reputational_stake: 5
+      operational_stake: 5
+      teaching_stake: 4  # Thiel Fellowship
+      total_skin_score: 19
+      assessment: "HIGH"
+
+    circle_of_competence:
+      core_competence:
+        domain: "Contrarian investing, company building, technology"
+        confidence: "HIGH"
+      adjacent_competence:
+        - domain: "Philosophy, political theory"
+          confidence: "MEDIUM"
+      outside_competence:
+        - domain: "Politics, social policy"
+          risk: "Highly controversial"
+
+    meta_learning_insights:
+      - "Competition is for losers"
+      - "Zero to one thinking (creation vs copying)"
+      - "Definite optimism vs indefinite optimism"
+      - "Secrets hiding in plain sight"
+      - "Power laws in venture investing"
+
+    key_contributions_to_tim:
+      - "Investment decision framework"
+      - "Contrarian thinking methodology"
+      - "Thiel network connections"
+
+    best_sources:
+      - "Zero to One (book)"
+      - "Tim Ferriss Show episode #28"
+
+  - id: exp_004
+    name: "Dr. Peter Attia"
+    expertise_type: "Practitioner + Researcher + Teacher"
+    tier: "TIER 1"
+    relationship: "Go-to doctor and close friend"
+
+    track_record:
+      verifiable_achievements:
+        - achievement: "MD from Stanford University School of Medicine"
+          date: "2001"
+          verification_source: "Stanford records"
+        - achievement: "Surgical residency at Johns Hopkins Hospital"
+          date: "2002-2007"
+          verification_source: "Johns Hopkins"
+        - achievement: "Founded Attia Medical PC focused on longevity"
+          date: "2012"
+          verification_source: "Practice records"
+      track_record_score: 9
+
+    skin_in_the_game:
+      financial_stake: 4
+      reputational_stake: 5
+      operational_stake: 5  # Practices what he preaches
+      teaching_stake: 4
+      total_skin_score: 18
+      assessment: "HIGH"
+
+    circle_of_competence:
+      core_competence:
+        domain: "Longevity medicine, metabolic health, fasting, exercise science"
+        confidence: "HIGH"
+      adjacent_competence:
+        - domain: "Nutrition, sleep science"
+          confidence: "HIGH"
+      outside_competence:
+        - domain: "Mental health"
+          risk: "Outside medical specialty"
+
+    meta_learning_insights:
+      - "Zone 2 cardio for metabolic health"
+      - "Time-restricted eating protocols"
+      - "CGM (continuous glucose monitoring) for optimization"
+      - "Medicine 3.0 vs Medicine 2.0"
+      - "Four Horsemen of chronic disease"
+
+    key_contributions_to_tim:
+      - "Personal health protocols"
+      - "Biohacking methodology validation"
+      - "Longevity framework"
+
+    best_sources:
+      - "Outlive: The Science and Art of Longevity (book)"
+      - "The Drive Podcast"
+      - "Multiple Tim Ferriss Show appearances"
+
+# =====================================================
+# TIER 2 EXPERTS: Significant Influences
+# =====================================================
+# These are people Tim has learned from and features
+# but with less direct ongoing collaboration
+
+tier_2_experts:
+  - id: exp_005
+    name: "Marc Andreessen"
+    expertise_type: "Pioneer + Practitioner"
+    tier: "TIER 2"
+    track_record_score: 10
+    skin_in_game: "HIGH"
+    key_contribution: "Venture capital thinking, tech optimism"
+    best_source: "Tim Ferriss Show episode #163"
+
+  - id: exp_006
+    name: "Reid Hoffman"
+    expertise_type: "Pioneer + Synthesizer"
+    tier: "TIER 2"
+    track_record_score: 9
+    skin_in_game: "HIGH"
+    key_contribution: "Network theory, blitzscaling, career strategy"
+    best_source: "Tim Ferriss Show episode #56"
+
+  - id: exp_007
+    name: "Chris Sacca"
+    expertise_type: "Practitioner + Teacher"
+    tier: "TIER 2"
+    track_record_score: 9
+    skin_in_game: "HIGH"
+    key_contribution: "Angel investing methodology"
+    best_source: "Tim Ferriss Show episode #161"
+
+  - id: exp_008
+    name: "Derek Sivers"
+    expertise_type: "Practitioner + Teacher + Pioneer"
+    tier: "TIER 2"
+    relationship: "Good friend"
+    track_record:
+      - "Founded CD Baby (sold for $22M, donated to charity)"
+      - "Author of multiple books"
+    track_record_score: 8
+    skin_in_game: "HIGH"
+    key_contribution: "Unconventional entrepreneurship, minimalism, hell yeah or no"
+    best_source: "Tim Ferriss Show episodes #125, #370"
+
+  - id: exp_009
+    name: "Jocko Willink"
+    expertise_type: "Practitioner + Teacher"
+    tier: "TIER 2"
+    track_record:
+      - "Navy SEAL, commander of Task Unit Bruiser (Iraq)"
+      - "Multiple combat deployments"
+      - "Author, podcaster"
+    track_record_score: 9
+    skin_in_game: "HIGH"
+    key_contribution: "Discipline equals freedom, extreme ownership"
+    best_source: "Tim Ferriss Show episode #107"
+
+  - id: exp_010
+    name: "Tony Robbins"
+    expertise_type: "Teacher + Practitioner"
+    tier: "TIER 2"
+    track_record_score: 8
+    skin_in_game: "HIGH"
+    key_contribution: "Peak state management, psychology of success"
+    best_source: "Tim Ferriss Show episode #37"
+
+  - id: exp_011
+    name: "Ryan Holiday"
+    expertise_type: "Teacher + Synthesizer"
+    tier: "TIER 2"
+    relationship: "Friend, Stoicism popularizer"
+    track_record:
+      - "Director of Marketing at American Apparel at 21"
+      - "Multiple bestselling books on Stoicism"
+    track_record_score: 8
+    skin_in_game: "HIGH"
+    key_contribution: "Modern Stoicism application, obstacle is the way"
+    best_source: "Daily Stoic, multiple podcast appearances"
+
+  - id: exp_012
+    name: "Ray Dalio"
+    expertise_type: "Practitioner + Teacher"
+    tier: "TIER 2"
+    track_record:
+      - "Founder of Bridgewater Associates ($150B+ AUM)"
+      - "Author of 'Principles'"
+    track_record_score: 10
+    skin_in_game: "HIGH"
+    key_contribution: "Radical transparency, principles-based decision making"
+    best_source: "Tim Ferriss Show episode #264"
+
+  - id: exp_013
+    name: "Arnold Schwarzenegger"
+    expertise_type: "Practitioner"
+    tier: "TIER 2"
+    track_record:
+      - "7x Mr. Olympia"
+      - "Governor of California"
+      - "Hollywood actor"
+    track_record_score: 10
+    skin_in_game: "HIGH"
+    key_contribution: "Vision setting, work ethic, reinvention"
+    best_source: "Tim Ferriss Show episode #60"
+
+  - id: exp_014
+    name: "Rick Rubin"
+    expertise_type: "Practitioner + Teacher"
+    tier: "TIER 2"
+    track_record:
+      - "Legendary music producer (Johnny Cash, Beastie Boys, etc.)"
+      - "Co-founder of Def Jam Records"
+    track_record_score: 10
+    skin_in_game: "HIGH"
+    key_contribution: "Creative process, minimalism in production"
+    best_source: "Tim Ferriss Show multiple episodes"
+
+# =====================================================
+# HIDDEN MASTERS: Lesser-Known But High-Value
+# =====================================================
+
+hidden_masters:
+  - id: hm_001
+    name: "Marcelo Garcia"
+    why_hidden: "Known in BJJ community, not mainstream"
+    why_valuable: "Josh Waitzkin's BJJ teacher, multiple world champion"
+    how_to_access: "MG In Action (online instruction)"
+    expertise: "Brazilian Jiu-Jitsu, learning methodology"
+
+  - id: hm_002
+    name: "Pavel Tsatsouline"
+    why_hidden: "Niche fitness community"
+    why_valuable: "Revolutionized kettlebell training, strength methodology"
+    how_to_access: "StrongFirst, books"
+    expertise: "Strength training, minimum effective dose"
+
+  - id: hm_003
+    name: "Barry Michels"
+    why_hidden: "Hollywood therapist, not mainstream"
+    why_valuable: "Tim's therapist, tools for shadow work"
+    how_to_access: "The Tools (book), Tim's podcast"
+    expertise: "Psychotherapy, shadow work, performance psychology"
+
+  - id: hm_004
+    name: "Henry Shukman"
+    why_hidden: "Zen teacher, not mainstream celebrity"
+    why_valuable: "Tim's meditation teacher, multiple podcast appearances"
+    how_to_access: "Mountain Cloud Zen Center, Waking Up app"
+    expertise: "Zen meditation, awakening, consciousness"
+
+# =====================================================
+# EARLY TEACHERS & FORMATIVE INFLUENCES
+# =====================================================
+
+early_influences:
+  - id: ei_001
+    name: "Mrs. Vinsky"
+    relationship: "First-grade teacher"
+    school: "Public school, Long Island"
+    impact: "First educational inflection point"
+    status: "Deceased"
+    note: "Tim specifically credits her as influential"
+
+  - id: ei_002
+    name: "Princeton University Faculty"
+    period: "1996-2000"
+    focus: "East Asian Studies, Language Acquisition"
+    impact: "Foundation for learning methodology research"
+
+# =====================================================
+# LINEAGE MAPS
+# =====================================================
+
+lineage_maps:
+  stoicism_lineage:
+    ancient:
+      - "Zeno of Citium → Cleanthes → Chrysippus"
+      - "Musonius Rufus → Epictetus → Marcus Aurelius"
+    transmission_to_tim:
+      - "Seneca → Thoreau/Emerson → Tim Ferriss"
+      - "Marcus Aurelius → Ryan Holiday → Tim Ferriss"
+
+  learning_methodology_lineage:
+    josh_waitzkin_lineage:
+      teacher: "Josh Waitzkin"
+      students_influenced:
+        - "Tim Ferriss (meta-learning)"
+        - "Countless via Art of Learning"
+      joshs_teachers:
+        - "Bruce Pandolfini (chess)"
+        - "William C.C. Chen (Tai Chi)"
+        - "Marcelo Garcia (BJJ)"
+
+  silicon_valley_lineage:
+    paypal_mafia:
+      patriarch: "Peter Thiel"
+      members:
+        - "Elon Musk"
+        - "Reid Hoffman"
+        - "Max Levchin"
+      influence_on_tim: "Investment philosophy, contrarian thinking"
+
+# =====================================================
+# DOMAIN COVERAGE ANALYSIS
+# =====================================================
+
+domain_coverage:
+  expertise_types_covered:
+    - type: "Practitioner"
+      examples: ["Arnold Schwarzenegger", "Jocko Willink", "Marcelo Garcia"]
+      coverage: "EXCELLENT"
+    - type: "Teacher"
+      examples: ["Josh Waitzkin", "Tony Robbins", "Pavel Tsatsouline"]
+      coverage: "EXCELLENT"
+    - type: "Researcher"
+      examples: ["Peter Attia"]
+      coverage: "GOOD"
+    - type: "Pioneer"
+      examples: ["Peter Thiel", "Naval Ravikant", "Marc Andreessen"]
+      coverage: "EXCELLENT"
+    - type: "Synthesizer"
+      examples: ["Naval Ravikant", "Ryan Holiday", "Josh Waitzkin"]
+      coverage: "EXCELLENT"
+
+  expertise_types_missing:
+    - type: "Academic Researcher"
+      note: "Tim has fewer pure academics in his network"
+    - type: "Critics/Skeptics"
+      note: "Few people who disagree with his methodology"
+
+  overall_coverage: "EXCELLENT"
+
+# =====================================================
+# RECOMMENDATIONS
+# =====================================================
+
+recommendations:
+  priority_experts_for_mmos:
+    - expert: "Josh Waitzkin"
+      reason: "Closest to Tim's meta-learning methodology, extensive documented collaboration"
+    - expert: "Naval Ravikant"
+      reason: "Deep philosophical alignment, multiple long conversations"
+    - expert: "Seneca"
+      reason: "Primary philosophical foundation, Tim has read extensively"
+    - expert: "Peter Thiel"
+      reason: "Shaped Tim's investment thinking, clear methodology"
+
+  hidden_masters_to_explore:
+    - "Barry Michels - for psychological/shadow work content"
+    - "Henry Shukman - for meditation/consciousness content"
+    - "Pavel Tsatsouline - for physical optimization methodology"
+
+  additional_research_needed:
+    - topic: "Tim's early biography pre-Princeton"
+      reason: "Formative years less documented"
+    - topic: "Failed mentors/relationships"
+      reason: "Who did he learn NOT to follow?"
+    - topic: "Critics and skeptics of his methodology"
+      reason: "For balanced perspective"
+
+# =====================================================
+# VALIDATION STATUS
+# =====================================================
+
+validation:
+  gate_1_domain_deconstruction: true
+  gate_2_ferriss_protocol_applied: true
+  gate_3_track_record_verified: true
+  gate_4_skin_in_game_assessed: true
+  gate_5_circle_of_competence_mapped: true
+  gate_6_meta_learning_extracted: true
+  gate_7_lineages_traced: true
+  gate_8_expert_map_generated: true
+  gate_9_human_checkpoint: "SKIPPED - AUTO_MODE"
+
+# =====================================================
+# SUMMARY STATISTICS
+# =====================================================
+
+summary:
+  total_experts: 25
+  tier_distribution:
+    tier_1: 4
+    tier_2: 10
+    hidden_masters: 4
+    philosophical_foundations: 5
+    early_influences: 2
+  coverage_rating: "EXCELLENT"
+  last_updated: "2026-01-19"

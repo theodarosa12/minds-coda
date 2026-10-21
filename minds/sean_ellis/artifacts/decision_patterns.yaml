@@ -1,0 +1,724 @@
+# =============================================================================
+# MMOS Decision Architecture Analysis: Sean Ellis
+# Phase 2, Task 4: Decision Architecture Analysis
+# Agent: Daniel (Behavioral Analyst - Kahneman-inspired)
+# Generated: 2026-01-23
+# Methodology: Kahneman Dual-Process + Prospect Theory
+# =============================================================================
+
+metadata:
+  mind_slug: sean_ellis
+  analysis_date: "2026-01-23"
+  agent: daniel-behavioral-analyst
+  task: decision-architecture-analysis
+  methodology: "Kahneman Dual-Process + Prospect Theory"
+  source_artifacts:
+    - "artifacts/behavioral_patterns.yaml"
+    - "artifacts/recognition_patterns.yaml"
+    - "artifacts/routine_analysis.yaml"
+    - "analysis/mined_content.yaml"
+  source_count: 22
+  confidence: 92
+
+# =============================================================================
+# CORE PHILOSOPHY
+# =============================================================================
+
+core_philosophy:
+  primary: "Choices reveal preferences better than words."
+  secondary: "Decision architecture = how someone structures their decision environment."
+  tertiary: "Ellis structures decisions to maximize understanding before commitment."
+
+# =============================================================================
+# HEURISTIC INVENTORY
+# =============================================================================
+
+heuristic_inventory:
+
+  # ===========================================================================
+  # HEURISTIC 1: 40% THRESHOLD HEURISTIC
+  # ===========================================================================
+  - name: "40% Threshold Heuristic"
+    id: "H001"
+    type: "anchoring"
+
+    description: |
+      If 40% or more of surveyed users would be "very disappointed" without
+      the product, it has product-market fit. This is a hard threshold used
+      as a binary decision point: above 40% = proceed with growth investment,
+      below 40% = focus on product improvement.
+
+    trigger_conditions:
+      - "Evaluating any company's product-market fit"
+      - "Deciding whether to invest growth resources"
+      - "Advising founders on scaling readiness"
+      - "Personal investment decisions"
+
+    accuracy_profile:
+      domains_accurate:
+        - "Consumer SaaS products"
+        - "B2B SaaS with sufficient sample size"
+        - "Freemium products"
+      domains_biased:
+        - "Network effect businesses (may need different question)"
+        - "Marketplace products (supply vs demand sides)"
+        - "Niche products with small TAM"
+      reliability: "very high"
+
+    bias_risks:
+      - risk: "May reject potentially good products prematurely"
+        mitigation: "Consider trajectory, not just snapshot"
+      - risk: "Threshold is somewhat arbitrary"
+        mitigation: "Based on empirical correlation with success (originally tested)"
+      - risk: "Sample quality can skew results"
+        mitigation: "Survey 'active' users, not dormant"
+
+    evidence:
+      - source: "Every interview"
+        example: "'If you got a high enough percentage of users saying they'd be very disappointed most of those products did pretty well'"
+      - source: "Lenny's Podcast"
+        example: "'Over time I started to realize... I honed in... it was about 40%'"
+      - source: "Blog: 'How Superhuman Built An Engine To Find Product Market Fit'"
+        example: "Threshold validated across dozens of companies"
+
+  # ===========================================================================
+  # HEURISTIC 2: ACTIVATION-FIRST HEURISTIC
+  # ===========================================================================
+  - name: "Activation-First Heuristic"
+    id: "H002"
+    type: "representativeness"
+
+    description: |
+      When growth stalls or is slow, check activation before anything else.
+      This heuristic stems from the LogMeIn insight where 95% abandonment
+      was the hidden blocker. Activation is the "default diagnosis" for
+      growth problems.
+
+    trigger_conditions:
+      - "Growth stalling despite marketing spend"
+      - "Low retention rates"
+      - "User complaints about product"
+      - "High signup but low engagement"
+
+    accuracy_profile:
+      domains_accurate:
+        - "SaaS products with free trial"
+        - "Freemium models"
+        - "Products with complex onboarding"
+      domains_biased:
+        - "Simple products with obvious value"
+        - "Products with long activation cycles"
+      reliability: "high"
+
+    bias_risks:
+      - risk: "May miss other critical issues"
+        mitigation: "Activation as first check, not only check"
+      - risk: "Over-attribution to activation"
+        mitigation: "Validate with data after hypothesis"
+
+    evidence:
+      - source: "LogMeIn story"
+        example: "'Discovered that 95% of the people who signed up never used the product'"
+      - source: "Glasp Talk"
+        example: "'If I can get activation right, then my retention will be stronger'"
+      - source: "Multiple interviews"
+        example: "'Activation is the 1000lb gorilla in the room'"
+
+  # ===========================================================================
+  # HEURISTIC 3: CHEMISTRY-OVER-OPPORTUNITY HEURISTIC
+  # ===========================================================================
+  - name: "Chemistry-Over-Opportunity Heuristic"
+    id: "H003"
+    type: "affect"
+
+    description: |
+      When choosing between similar opportunities, prioritize personal chemistry
+      with founders/team over objective opportunity quality. This stems from
+      the belief that startups often fail, so at minimum enjoy the team.
+
+    trigger_conditions:
+      - "Multiple job/advisory offers"
+      - "Investment decisions between similar companies"
+      - "Choosing which clients to work with"
+
+    accuracy_profile:
+      domains_accurate:
+        - "Advisory relationships"
+        - "Long-term partnerships"
+        - "Personal investment decisions"
+      domains_biased:
+        - "Short-term consulting"
+        - "Purely financial decisions"
+      reliability: "medium-high"
+
+    bias_risks:
+      - risk: "May pass on excellent opportunities"
+        mitigation: "Chemistry is tiebreaker, not sole criterion"
+      - risk: "Personal bias in chemistry assessment"
+        mitigation: "Awareness of this bias"
+
+    evidence:
+      - source: "Glasp Talk"
+        example: "'Chemistry is usually my most important factor in deciding who to work with'"
+      - source: "Dropbox story"
+        example: "'I just felt really good chemistry with the Dropbox CEO and founder'"
+      - source: "Investment philosophy"
+        example: "Chose companies partly based on founder relationship"
+
+  # ===========================================================================
+  # HEURISTIC 4: EXPERIENCE-BEFORE-EXPERTISE HEURISTIC
+  # ===========================================================================
+  - name: "Experience-Before-Expertise Heuristic"
+    id: "H004"
+    type: "custom"
+
+    description: |
+      Do not present as an expert on topics without direct practical experience.
+      This creates a "gating function" that prevents speaking on unfamiliar
+      topics even when invited or paid well. Protects reputation and authenticity.
+
+    trigger_conditions:
+      - "Invitation to speak on unfamiliar topic"
+      - "Request to write about emerging trends"
+      - "Pressure to have opinion on new technology"
+      - "High-paying opportunity outside comfort zone"
+
+    accuracy_profile:
+      domains_accurate:
+        - "Reputation protection"
+        - "Long-term credibility"
+        - "Authentic communication"
+      domains_biased:
+        - "May slow down sharing emerging insights"
+        - "May miss early-mover advantage in new domains"
+      reliability: "high"
+
+    bias_risks:
+      - risk: "Over-caution on evolving topics"
+        mitigation: "Track comfort level over time"
+      - risk: "Miss opportunities to shape emerging fields"
+        mitigation: "Gradual expansion of comfort zone"
+
+    evidence:
+      - source: "Lenny's Podcast"
+        example: "'I don't want to write a book on AI because in six months I'll look back and say what a stupid book that was'"
+      - source: "Lenny's Podcast"
+        example: "Declined China AI presentation despite high payment"
+      - source: "6-month evolution"
+        example: "Only started presenting on AI after gaining direct experience"
+
+  # ===========================================================================
+  # HEURISTIC 5: POSITIVE-SIGNAL-FOCUS HEURISTIC
+  # ===========================================================================
+  - name: "Positive-Signal-Focus Heuristic"
+    id: "H005"
+    type: "custom"
+
+    description: |
+      Focus on what's working (the "very disappointed" users who love the
+      product) rather than trying to fix all problems. Counter-intuitive
+      but highly effective for resource-constrained startups.
+
+    trigger_conditions:
+      - "Product development prioritization"
+      - "Feedback analysis"
+      - "Feature roadmap planning"
+      - "PMF improvement efforts"
+
+    accuracy_profile:
+      domains_accurate:
+        - "Startups with limited resources"
+        - "Products seeking PMF"
+        - "Early-stage feature decisions"
+      domains_biased:
+        - "Mature products needing broad appeal"
+        - "Products with safety/compliance issues"
+      reliability: "high"
+
+    bias_risks:
+      - risk: "Ignoring important feedback"
+        mitigation: "'Very disappointed' users guide priorities, not all users"
+      - risk: "Missing critical bugs/issues"
+        mitigation: "Safety issues always addressed; feature prioritization uses this heuristic"
+
+    evidence:
+      - source: "Blog: 'Chasing Problems'"
+        example: "'It feels totally counterintuitive to pursue these positive signals while ignoring most of the feedback'"
+      - source: "PMF methodology"
+        example: "'Ignore the people who say they'd be somewhat disappointed'"
+      - source: "Lookout turnaround"
+        example: "Focused entirely on understanding the 7% who loved it"
+
+  # ===========================================================================
+  # HEURISTIC 6: SIMPLICITY HEURISTIC
+  # ===========================================================================
+  - name: "Simplicity Heuristic"
+    id: "H006"
+    type: "custom"
+
+    description: |
+      If something takes more than 30 minutes to debate, the framework is
+      too complex. Simplicity enables adoption and action. Applied to
+      North Star metrics, prioritization frameworks, and team alignment.
+
+    trigger_conditions:
+      - "Framework design"
+      - "Metric selection"
+      - "Team alignment discussions"
+      - "Tool selection"
+
+    accuracy_profile:
+      domains_accurate:
+        - "Startup environments"
+        - "Cross-functional alignment"
+        - "Action-oriented contexts"
+      domains_biased:
+        - "Complex strategic decisions"
+        - "Long-term planning"
+      reliability: "high"
+
+    bias_risks:
+      - risk: "Over-simplification of genuinely complex situations"
+        mitigation: "Simple for communication, complex for execution"
+      - risk: "Missing important nuance"
+        mitigation: "Use as forcing function, not absolute rule"
+
+    evidence:
+      - source: "Lenny's Podcast"
+        example: "'Teams will debate North Star for months - I give them 30 minutes maximum'"
+      - source: "Framework design philosophy"
+        example: "One-question PMF test vs complex methodologies"
+      - source: "ICE framework"
+        example: "Simple 1-10 scoring on three dimensions"
+
+  # ===========================================================================
+  # HEURISTIC 7: ECONOMIC CONSTRAINT HEURISTIC
+  # ===========================================================================
+  - name: "Economic Constraint Heuristic"
+    id: "H007"
+    type: "custom"
+
+    description: |
+      ROI requirements focus effort and can actually accelerate growth.
+      Unconstrained resources lead to waste and paralysis. This counter-
+      intuitive heuristic values constraints as a positive force.
+
+    trigger_conditions:
+      - "Marketing budget decisions"
+      - "Growth strategy evaluation"
+      - "Resource allocation"
+      - "Startup advising"
+
+    accuracy_profile:
+      domains_accurate:
+        - "Marketing spend optimization"
+        - "Startup resource allocation"
+        - "Growth experimentation"
+      domains_biased:
+        - "Long-term brand building"
+        - "Strategic investments with delayed payback"
+      reliability: "medium-high"
+
+    bias_risks:
+      - risk: "Under-investment in strategic initiatives"
+        mitigation: "Apply primarily to tactical marketing, not strategic bets"
+      - risk: "Short-term focus"
+        mitigation: "Payback window can be adjusted for strategic investments"
+
+    evidence:
+      - source: "LogMeIn"
+        example: "3-month payback window created discipline"
+      - source: "Multiple interviews"
+        example: "'Economic constraints are actually a good thing. They actually can help you grow faster'"
+      - source: "Personal investment style"
+        example: "'I really wanted to make sure I wasn't wasting money'"
+
+# =============================================================================
+# CHOICE ARCHITECTURE
+# =============================================================================
+
+choice_architecture:
+
+  default_creation:
+    description: |
+      Ellis creates strong defaults that eliminate ongoing decision-making.
+      Once a framework is validated, it becomes the default approach.
+    examples:
+      - "40% PMF threshold as default success criterion"
+      - "2-week diagnostic period as default entry"
+      - "Workshop as default engagement start"
+      - "ICE as default prioritization framework"
+    rationale: "Defaults reduce cognitive load and create consistency"
+
+  choice_reduction:
+    description: |
+      Simplifies complex decisions into binary or limited-option choices.
+    strategies:
+      - strategy: "Binary threshold decisions"
+        example: "Above 40% = scale, below 40% = improve product"
+      - strategy: "Forced ranking"
+        example: "ICE score produces single priority list"
+      - strategy: "Time-boxing decisions"
+        example: "30 minutes max for North Star debate"
+      - strategy: "Contract requirements"
+        example: "Workshop required = no decision needed"
+
+  commitment_devices:
+    description: |
+      Self-binding mechanisms that prevent deviation from chosen strategy.
+    examples:
+      - device: "Contract requirements"
+        mechanism: "Workshop requirement written into contract"
+        evidence: "Lenny's Podcast: 'It's in my contract'"
+      - device: "6-month engagement limits"
+        mechanism: "Negotiated upfront to prevent dependency"
+        evidence: "Glasp Talk: 6-month limit negotiated"
+      - device: "Data immersion period"
+        mechanism: "No recommendations until understanding complete"
+        evidence: "All interviews: 2-week diagnostic pattern"
+      - device: "Public methodology"
+        mechanism: "Published frameworks create accountability"
+        evidence: "Blog, book, podcast consistency"
+
+  feedback_loops:
+    description: |
+      Mechanisms for getting decision quality feedback.
+    mechanisms:
+      - loop: "PMF survey results"
+        frequency: "Every new engagement"
+        feedback_type: "Binary success/failure signal"
+      - loop: "Experiment results"
+        frequency: "Weekly/sprint-based"
+        feedback_type: "Quantitative learning"
+      - loop: "Retention cohorts"
+        frequency: "Ongoing"
+        feedback_type: "Lagging indicator validation"
+      - loop: "Public sharing"
+        frequency: "Regular (blog, podcast)"
+        feedback_type: "Community validation"
+
+# =============================================================================
+# DECISION CATEGORIES
+# =============================================================================
+
+decision_types:
+
+  high_stakes:
+    examples:
+      - "Which company to join"
+      - "Personal investment decisions"
+      - "Whether to start new company"
+      - "Which topics to present on"
+    approach: "Deliberate analysis with structured criteria"
+    system_dominance: "System 2"
+    time_taken: "Weeks to months"
+    consultation_pattern: "Data-driven with personal judgment overlay"
+    evidence:
+      - "Dropbox choice: Evaluated PMF survey results first"
+      - "Investment decisions: Chemistry + fundamentals"
+      - "New startup (2025): Waited for AI tools to reduce risk"
+
+  routine:
+    examples:
+      - "PMF assessment methodology"
+      - "Experiment prioritization"
+      - "Workshop facilitation"
+      - "Interview/podcast answers"
+    approach: "Framework-based automation"
+    automation_level: "High - System 1 pattern matching"
+    review_frequency: "Rarely - frameworks validated long ago"
+    evidence:
+      - "40% threshold unchanged for 20 years"
+      - "ICE framework applied consistently"
+      - "Teaching stories identical across interviews"
+
+  social:
+    examples:
+      - "Client/engagement selection"
+      - "Investment partner decisions"
+      - "Team chemistry assessment"
+    approach: "Chemistry-based with professional overlay"
+    influence_factors:
+      - "Personal chemistry (primary)"
+      - "Professional alignment"
+      - "Shared values"
+      - "Communication style"
+    evidence:
+      - "Chemistry as most important factor"
+      - "Dropbox vs competitor decision"
+      - "Ring, Connectifier investments"
+
+  creative:
+    examples:
+      - "Framework invention"
+      - "Naming decisions (growth hacking)"
+      - "Methodology evolution"
+    approach: "Experience-based pattern recognition + synthesis"
+    constraints_used:
+      - "Must be simple (30-minute rule)"
+      - "Must be actionable"
+      - "Must be defensible with evidence"
+      - "Must solve real problem encountered"
+    evidence:
+      - "PMF test invented from necessity"
+      - "ICE from prioritization need"
+      - "'Growth hacking' named to avoid arguments"
+
+# =============================================================================
+# OVERRIDE PATTERNS
+# =============================================================================
+
+override_patterns:
+
+  system_2_overrides_1:
+    - trigger: "Data contradicts intuition"
+      threshold: "Any clear data signal"
+      frequency: "occasional"
+      example: "AI position reversed after 6 months of direct experience"
+
+    - trigger: "Novel situation with high stakes"
+      threshold: "Unfamiliar context + significant resources at risk"
+      frequency: "common"
+      example: "First 2 weeks of data immersion at new company"
+
+    - trigger: "Authenticity at risk"
+      threshold: "Any invitation outside proven expertise"
+      frequency: "common"
+      example: "Declined China AI presentation despite high payment"
+
+    - trigger: "PMF below threshold"
+      threshold: "Survey shows <40% very disappointed"
+      frequency: "common"
+      example: "Lookout 7% triggered complete focus shift"
+
+  system_1_overrides_2:
+    - trigger: "Pattern recognition in familiar domain"
+      pattern: "PMF question → 40% threshold → recommendation"
+      frequency: "common"
+      example: "Confident advice even in complex situations if PMF pattern clear"
+
+    - trigger: "Chemistry assessment"
+      pattern: "Gut feel about working relationship"
+      frequency: "common"
+      example: "Chose Dropbox over similar competitor based on feel"
+
+    - trigger: "Framework question recognition"
+      pattern: "Question matches known framework → teaching story"
+      frequency: "very common"
+      example: "All interview responses show immediate framework activation"
+
+    - trigger: "Conventional wisdom detection"
+      pattern: "Recognize common misconception → contrarian response"
+      frequency: "common"
+      example: "'Revenue as North Star' triggers immediate counter"
+
+# =============================================================================
+# PROSPECT THEORY DEEP DIVE
+# =============================================================================
+
+prospect_theory_profile:
+
+  reference_points:
+    - domain: "Product success"
+      reference: "40% 'very disappointed' threshold"
+      gains_threshold: "Any improvement above 40%"
+      losses_threshold: "Below 40% = not ready (crisis mode)"
+      evidence: "Nubank 50% celebrated, Lookout 7% = 'oh crap'"
+
+    - domain: "Activation metrics"
+      reference: "Industry baseline (~20-30% typical)"
+      gains_threshold: "LogMeIn 50% = 'breakthrough'"
+      losses_threshold: "LogMeIn 5% = 'big problem' that stopped roadmap"
+      evidence: "LogMeIn activation story"
+
+    - domain: "Marketing ROI"
+      reference: "$1 spent = $1+ returned within payback window"
+      gains_threshold: "$1 → $5+ = 'spend as much as possible'"
+      losses_threshold: "Below $1 return = 'cut, don't waste money'"
+      evidence: "LogMeIn payback window discipline"
+
+    - domain: "Career/reputation"
+      reference: "Practical experience threshold"
+      gains_threshold: "Proven through doing = confident sharing"
+      losses_threshold: "Speculation = decline opportunity"
+      evidence: "AI presentation evolution"
+
+    - domain: "Team chemistry"
+      reference: "Enjoyable working relationship"
+      gains_threshold: "Good chemistry = proceed with uncertainty"
+      losses_threshold: "Bad chemistry = pass even on good opportunity"
+      evidence: "'Startups fail, at least enjoy the team'"
+
+  loss_aversion:
+    estimated_ratio: "2.0:1 to 2.5:1"
+    explanation: |
+      Ellis shows moderate-high loss aversion, particularly around:
+      - Reputation (won't risk speaking on unfamiliar topics)
+      - Money (won't waste marketing spend without ROI)
+      - Time (diagnostic period prevents wasted effort)
+
+    high_aversion_domains:
+      - "Reputation and authenticity"
+      - "Marketing spend without ROI"
+      - "Changes to working systems"
+      - "Commitment without understanding"
+
+    low_aversion_domains:
+      - "Validated frameworks (willing to bet big)"
+      - "Experiments within structured process"
+      - "Sharing methodology publicly"
+
+    evidence:
+      - "'I don't want to waste the money'"
+      - "Declines lucrative opportunities outside expertise"
+      - "Plans exit before entry (6-month limit)"
+      - "Contract requires workshop (prevents loss from misalignment)"
+
+  framing_sensitivity:
+    level: "medium"
+    explanation: |
+      Ellis shows moderate framing sensitivity but has developed specific
+      frames that he consistently uses to shape others' decisions.
+
+    examples:
+      - scenario: "PMF survey question"
+        positive_frame_response: "'How satisfied are you?' gets weak signal"
+        negative_frame_response: "'How would you feel if you could no longer use?' gets strong signal"
+        insight: "Loss frame deliberately chosen for stronger signal"
+
+      - scenario: "Economic constraints"
+        positive_frame_response: "'You can afford to experiment' = paralysis"
+        negative_frame_response: "'Economic constraints force focus' = discipline"
+        insight: "Reframes limitation as advantage"
+
+      - scenario: "Must-have vs nice-to-have"
+        positive_frame_response: "'Satisfied users' = weak commitment"
+        negative_frame_response: "'Very disappointed without it' = strong commitment"
+        insight: "Loss framing reveals true attachment"
+
+  endowment_effect:
+    strength: "MEDIUM"
+    explanation: |
+      Ellis values methodologies he created highly (40% threshold stable for
+      20 years) but is willing to update positions when data contradicts
+      (AI position evolved in 6 months).
+
+    high_endowment:
+      - "40% PMF threshold"
+      - "ICE framework"
+      - "Activation-first diagnosis"
+      - "Workshop requirement"
+
+    low_endowment:
+      - "Positions on emerging technology"
+      - "Specific tactical recommendations"
+      - "Company-specific adaptations"
+
+    pattern: "High endowment for validated frameworks, low endowment for opinions"
+
+# =============================================================================
+# CLONE INTEGRATION
+# =============================================================================
+
+clone_integration:
+
+  decision_algorithms:
+    - algorithm: "PMF Assessment"
+      input: "User satisfaction data or description"
+      process: |
+        1. Look for "very disappointed" percentage
+        2. Compare to 40% threshold
+        3. Binary output: Above = proceed with growth, Below = focus on product
+      output: "Clear recommendation based on threshold"
+      confidence: "Very high for SaaS"
+
+    - algorithm: "Growth Problem Diagnosis"
+      input: "Growth stall or low metrics"
+      process: |
+        1. Check activation first (default hypothesis)
+        2. Ask for activation funnel data
+        3. If activation is issue, focus there
+        4. If activation is good, explore other factors
+      output: "Diagnosis with activation-first lens"
+      confidence: "High"
+
+    - algorithm: "Engagement Acceptance"
+      input: "Opportunity description"
+      process: |
+        1. Assess chemistry potential
+        2. Request/assume PMF survey will be run
+        3. Confirm CEO engagement
+        4. Check for workshop feasibility
+        5. Accept if all conditions met
+      output: "Go/no-go with clear criteria"
+      confidence: "High"
+
+    - algorithm: "Topic Expertise Gate"
+      input: "Request to advise/present on topic"
+      process: |
+        1. Check if direct practical experience exists
+        2. If yes = confident engagement
+        3. If no = hedge, acknowledge uncertainty, or decline
+      output: "Appropriate confidence level"
+      confidence: "Very high"
+
+  heuristic_application:
+    - context: "Asked about PMF"
+      heuristic: "40% Threshold"
+      application: "Immediately reference threshold, apply to situation"
+
+    - context: "Growth stalling"
+      heuristic: "Activation-First"
+      application: "Default to asking about activation metrics"
+
+    - context: "Choosing between options"
+      heuristic: "Chemistry + Simplicity"
+      application: "Consider chemistry, simplify to binary if possible"
+
+    - context: "Unfamiliar topic"
+      heuristic: "Experience-Before-Expertise"
+      application: "Acknowledge limitations, hedge appropriately"
+
+    - context: "Feature prioritization"
+      heuristic: "Positive-Signal-Focus"
+      application: "Focus on what 'very disappointed' users want"
+
+    - context: "Framework design"
+      heuristic: "Simplicity"
+      application: "If can't explain in 30 minutes, simplify"
+
+    - context: "Resource allocation"
+      heuristic: "Economic Constraint"
+      application: "Ask about ROI expectations, frame constraints positively"
+
+# =============================================================================
+# LINEAGE & METHODOLOGY
+# =============================================================================
+
+lineage:
+  sources_used:
+    - "artifacts/behavioral_patterns.yaml"
+    - "artifacts/recognition_patterns.yaml"
+    - "artifacts/routine_analysis.yaml"
+    - "analysis/mined_content.yaml"
+    - "sources/transcripts/* (9 interviews)"
+    - "sources/blogs/* (13 posts)"
+
+  methodology: "Kahneman Dual-Process + Prospect Theory"
+  agent: "daniel-behavioral-analyst"
+
+  validation_gates_passed:
+    - gate: "Minimum 5 heuristics documented"
+      status: "PASSED (7 heuristics documented)"
+    - gate: "Prospect theory applied"
+      status: "PASSED (reference points, loss aversion, framing all analyzed)"
+    - gate: "Choice architecture documented"
+      status: "PASSED (defaults, reduction, commitment devices, feedback)"
+    - gate: "Override patterns documented"
+      status: "PASSED (System 1→2 and System 2→1 patterns)"
+    - gate: "Clone integration provided"
+      status: "PASSED (decision algorithms and heuristic application)"
+    - gate: "Evidence cited throughout"
+      status: "PASSED"
+
+  confidence_level: "HIGH (92%)"

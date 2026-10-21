@@ -1,0 +1,575 @@
+# Interview Patterns Database: Todd Brown
+# Generated: 2026-01-23
+# Agent: Tim (Research Specialist)
+# Task: interview-pattern-analysis
+
+metadata:
+  mind_slug: "todd_brown"
+  generated: "2026-01-23T18:30:00-03:00"
+  agent: "research-specialist"
+  task: "interview-pattern-analysis"
+  interviews_analyzed: 8
+  patterns_extracted: 47
+
+# =============================================================================
+# INTERVIEWS ANALYZED
+# =============================================================================
+interviews:
+
+  - id: "INT_001"
+    title: "The E5 Method for Marketing"
+    show: "Eventual Millionaire"
+    host: "Jaime Masters"
+    date: "2022-02-28"
+    duration: "~45 min"
+    format: "podcast"
+    priority: "CRITICAL"
+    transcript_available: true
+    key_patterns:
+      - "Big Idea as profit multiplier"
+      - "Mark Ford attribution"
+      - "Unique Mechanism differentiation"
+    notable_quotes:
+      - "The quality of your ideas behind your marketing campaigns ultimately determines success"
+      - "We're in the idea business"
+
+  - id: "INT_002"
+    title: "Mastering Modern Marketing with E5 Method"
+    show: "LMScast"
+    host: "Chris Badgett"
+    date: "2022-04-02"
+    duration: "~40 min"
+    format: "podcast"
+    priority: "CRITICAL"
+    transcript_available: true
+    key_patterns:
+      - "Socratic explanation style"
+      - "Framework-based responses"
+      - "Substance over sensationalism"
+    notable_quotes:
+      - "When you start with a powerful idea...you don't have to use hyperbolic language"
+
+  - id: "INT_003"
+    title: "The E5 Method for Marketing The Big Idea"
+    show: "Copy Chief Radio EP 120"
+    host: "Kevin Rogers"
+    date: "2017-06-11"
+    duration: "~60 min"
+    format: "podcast"
+    priority: "CRITICAL"
+    transcript_available: false
+    key_patterns:
+      - "E-C (P-P+U-M) I-I formula revealed"
+      - "Agora success story"
+      - "Mental Opt-out avoidance"
+    notable_quotes:
+      - "If it doesn't have a big idea, it does not go out the door"
+
+  - id: "INT_004"
+    title: "Marketing Funnels, Big Ideas and Converting Browsers"
+    show: "Bacon Wrapped Business"
+    host: "Brad Costanzo"
+    date: "2014-11-26"
+    duration: "~60 min"
+    format: "podcast"
+    priority: "HIGH"
+    transcript_available: true
+    key_patterns:
+      - "Origin story details"
+      - "Rich Schefren partnership"
+      - "Peaks and valleys narrative"
+    notable_quotes:
+      - "Business is peaks and valleys, not a straight shot up"
+      - "The money comes on the backend"
+
+  - id: "INT_005"
+    title: "Living Outside the Box"
+    show: "Making It (Mirasee)"
+    host: "Mirasee Team"
+    date: "2024-03-07"
+    duration: "~30 min"
+    format: "podcast"
+    priority: "HIGH"
+    transcript_available: true
+    key_patterns:
+      - "Personal philosophy"
+      - "Risk-taking mindset"
+      - "Definition of success"
+    notable_quotes:
+      - "Making it means being able to live life on your own terms"
+      - "You follow the herd and you get what the herd gets"
+
+  - id: "INT_006"
+    title: "E5 Method Deep Dive"
+    show: "Geniuses of Copywriting"
+    host: "Podcast Team"
+    date: "2021-05-28"
+    duration: "~45 min"
+    format: "podcast"
+    priority: "HIGH"
+    transcript_available: false
+    key_patterns:
+      - "Career journey from health club"
+      - "Marketing vs selling distinction"
+      - "E5 origins and refinement"
+    notable_quotes:
+      - "Marketing and selling are NOT the same thing"
+      - "Marketing so good it makes selling superfluous"
+
+  - id: "INT_007"
+    title: "Investing in Marketing that Differentiates You"
+    show: "Thoughtful Entrepreneur"
+    host: "Josh Elledge"
+    date: "2024-05-29"
+    duration: "~30 min"
+    format: "podcast"
+    priority: "MEDIUM"
+    transcript_available: false
+    key_patterns:
+      - "Differentiation focus"
+      - "Unique Mechanism emphasis"
+      - "Commoditization avoidance"
+    notable_quotes: []
+
+  - id: "INT_008"
+    title: "Important Numbers for Customer Acquisition"
+    show: "Inspired Insider"
+    host: "Dr. Jeremy Weisz"
+    date: "2021-10-14"
+    duration: "~40 min"
+    format: "podcast"
+    priority: "MEDIUM"
+    transcript_available: false
+    key_patterns:
+      - "Metrics focus (CPA, AOV)"
+      - "Bodybuilding discipline parallel"
+      - "20 years DR experience"
+    notable_quotes: []
+
+# =============================================================================
+# QUESTION FRAMING PATTERNS
+# =============================================================================
+patterns:
+  question_framing:
+    reasoning_style: "Framework-based, first principles"
+    certainty_calibration: "High on principles, calibrated on applications"
+
+    first_principles:
+      observed: true
+      frequency: "HIGH"
+      examples:
+        - question: "What makes marketing successful?"
+          reasoning: "Returns to idea quality as fundamental"
+          evidence: "Success determined by idea quality, not tactics"
+
+        - question: "How to differentiate?"
+          reasoning: "Reframes from 'better' to 'different'"
+          evidence: "Different is defensible, better is not"
+
+    analogy_based:
+      observed: true
+      frequency: "HIGH"
+      favorite_analogies:
+        - analogy: "Fat burner supplement market evolution"
+          context: "5 levels of market sophistication"
+          interviews: ["INT_002", "INT_003", "INT_004"]
+
+        - analogy: "Uber/Netflix as mechanism examples"
+          context: "How mechanism differentiates"
+          interviews: ["INT_002", "INT_007"]
+
+        - analogy: "Tim Ferriss 4-Hour Workweek AdWords testing"
+          context: "Big idea validation"
+          interviews: ["INT_001", "INT_004"]
+
+    frameworks_referenced:
+      - name: "E5 Method"
+        frequency: "VERY HIGH"
+        application: "Core organizing structure"
+
+      - name: "Big Marketing Idea"
+        frequency: "VERY HIGH"
+        application: "Success factor attribution"
+
+      - name: "Unique Mechanism"
+        frequency: "HIGH"
+        application: "Differentiation strategy"
+
+      - name: "5 Levels of Market Sophistication"
+        frequency: "HIGH"
+        application: "Market diagnosis"
+
+      - name: "SIN Offer"
+        frequency: "MEDIUM"
+        application: "Offer construction"
+
+    thinking_modes:
+      system_1_fast:
+        triggers:
+          - "Basic marketing questions"
+          - "Framework questions"
+          - "Common mistakes questions"
+        examples:
+          - question: "Biggest mistake marketers make?"
+            response: "Not having a big idea"
+            latency: "Immediate"
+
+      system_2_slow:
+        triggers:
+          - "Nuanced business questions"
+          - "Personal philosophy"
+          - "Introspection questions"
+        examples:
+          - question: "What does 'making it' mean?"
+            response: "Living life on your own terms"
+            latency: "Deliberate pause"
+
+    response_patterns:
+      expansion_style: "Framework-based"
+      deflection_style: "Redirect to principles"
+      precision_preference: "Context-dependent"
+
+      questions_expanded:
+        - "Big Idea" → Full framework
+        - "Success" → Mentor attribution
+        - "Methodology" → E5 walkthrough
+
+      questions_deflected:
+        - "Personal life details"
+        - "Specific client names"
+        - "Internal operations"
+
+# =============================================================================
+# STORY PATTERNS
+# =============================================================================
+  stories:
+    origin:
+      core_narrative: "Shy kid → health club → online marketing → expert other experts consult"
+
+      turning_points:
+        - event: "Health club job"
+          significance: "Foundation in discipline"
+          framing: "Starting point"
+
+        - event: "Marketing to massage therapists"
+          significance: "First venture"
+          framing: "Learning phase"
+
+        - event: "Meeting Rich Schefren"
+          significance: "Access to masters"
+          framing: "Mentorship opportunity"
+
+        - event: "Partnership at Strategic Profits"
+          significance: "Exposure to legends"
+          framing: "Apprenticeship"
+
+        - event: "Learning Big Idea from Mark Ford"
+          significance: "Core revelation"
+          framing: "Transformative insight"
+
+      hero_journey:
+        call: "Leaving health club for online business"
+        mentors: ["Rich Schefren", "Mark Ford", "Eugene Schwartz", "Gary Halbert"]
+        trials: ["Failed campaigns", "Business peaks/valleys", "Testing iterations"]
+        transformation: "From shy kid to sought-after expert"
+
+      consistency: "HIGH"
+      stable_elements: ["Health club", "Schefren partnership", "Ford as source", "West Palm Beach"]
+      variable_elements: ["Timeline details", "Mentor emphasis"]
+
+    failures:
+      - id: "FAIL_001"
+        failure: "Underperforming campaigns at Strategic Profits"
+        when: "Partnership years"
+        attribution: "Process, not personal"
+        tone: "Neutral/Learning"
+        lesson: "Business is peaks and valleys"
+        behavioral_change: "Test before scaling (E5 Stage 3)"
+        function: "Teaching realistic expectations"
+
+      - id: "FAIL_002"
+        failure: "Client resistance to 'idea first'"
+        when: "Early consulting"
+        attribution: "External (client mindset)"
+        tone: "Educational"
+        lesson: "Education creates demand"
+        behavioral_change: "Built E5 as educational framework"
+        function: "Credibility through methodology"
+
+      narrative_style: "Pragmatic, educational, not emotional"
+
+    teaching:
+      recurring_examples:
+        - id: "TEACH_001"
+          story: "Tim Ferriss testing 4-Hour Workweek via AdWords"
+          point: "Test your big idea before committing"
+          frequency: "3+ interviews"
+          stability: "HIGH"
+
+        - id: "TEACH_002"
+          story: "Agora growing from $10M to hundreds of millions"
+          point: "Big ideas drive exponential growth"
+          frequency: "4+ interviews"
+          source: "Mark Ford"
+          stability: "HIGH"
+
+        - id: "TEACH_003"
+          story: "Fat burner market evolution (Levels 1-5)"
+          point: "Market sophistication determines strategy"
+          frequency: "3+ interviews"
+          stability: "HIGH"
+
+        - id: "TEACH_004"
+          story: "Mike Palmer's 'End of America' promotion ($250M)"
+          point: "Disciplined big idea execution = results"
+          frequency: "2+ interviews"
+          stability: "HIGH"
+
+        - id: "TEACH_005"
+          story: "Porter Stansberry rewriting paragraph 18x with Ford"
+          point: "Copy quality requires iteration"
+          frequency: "1-2 interviews"
+          stability: "MEDIUM"
+
+        - id: "TEACH_006"
+          story: "Rich Schefren showing ugly VSLs to Mark Ford → $150M"
+          point: "Format matters less than idea"
+          frequency: "2+ interviews"
+          stability: "HIGH"
+
+      archetypes_used:
+        - "Transformation through insight"
+        - "Hidden master reveals secret"
+        - "Differentiation as David vs Goliath"
+
+      heroes_referenced:
+        - name: "Mark Ford"
+          why: "Combined theory and massive scale"
+          frequency: "VERY HIGH"
+
+        - name: "Eugene Schwartz"
+          why: "Foundational theory"
+          frequency: "HIGH"
+
+        - name: "Gary Halbert"
+          why: "Copy fundamentals"
+          frequency: "MEDIUM"
+
+# =============================================================================
+# MICRO-DECISION PATTERNS
+# =============================================================================
+  micro_decisions:
+    time_allocation:
+      - activity: "Developing the Big Idea"
+        priority: "FIRST"
+        evidence: "E5 Stage 2 starts with idea"
+
+      - activity: "Understanding market sophistication"
+        priority: "RESEARCH PHASE"
+        evidence: "E5 Stage 1 dedicated"
+
+      - activity: "Testing before scaling"
+        priority: "VALIDATION"
+        evidence: "E5 Stage 3"
+
+    what_protected:
+      - item: "Idea quality"
+        how: "Won't launch without big idea"
+        quote: "If it doesn't have a big idea, it does not go out the door"
+
+      - item: "Process integrity"
+        how: "5-stage methodology"
+        evidence: "Refuses shortcuts"
+
+    what_delegated:
+      - item: "Media buying execution"
+        when: "After validation"
+        stage: "E5 Stage 5"
+
+      - item: "Funnel technicalities"
+        when: "After strategy"
+        stage: "Post-Stage 2"
+
+    tradeoffs:
+      - type: "Speed vs Quality"
+        resolution: "Quality"
+        reasoning: "Poor idea wastes downstream investment"
+
+      - type: "Tactics vs Strategy"
+        resolution: "Strategy first"
+        reasoning: "Button colors are noise, idea is signal"
+
+      - type: "Better vs Different"
+        resolution: "Different"
+        reasoning: "Better is unsustainable, different is defensible"
+
+    exceptions:
+      - rule: "Test extensively"
+        exception: "When pattern is proven"
+        reveals: "Pragmatic, not dogmatic"
+
+      - rule: "Detailed tracking"
+        exception: "When tools insufficient"
+        reveals: "Honest about limitations"
+
+# =============================================================================
+# HIDDEN CURRICULUM
+# =============================================================================
+  hidden_curriculum:
+    behavior_advice_gaps:
+      - id: "GAP_001"
+        advice: "Focus on big idea, not copy tactics"
+        behavior: "Also has A-Z Copywriting Workshop"
+        implicit_rule: "Hierarchy: Idea > Mechanism > Copy"
+
+      - id: "GAP_002"
+        advice: "Marketing should make selling superfluous"
+        behavior: "Actively sells consulting and courses"
+        implicit_rule: "Good marketing creates qualified demand"
+
+      - id: "GAP_003"
+        advice: "Test everything with data"
+        behavior: "Acknowledges tracking limitations"
+        implicit_rule: "Test what matters most"
+
+    assumptions:
+      - assumption: "Audience has basic marketing literacy"
+        evidence: "Uses terms without explanation"
+        who_misses: "Complete beginners"
+
+      - assumption: "Business has product-market fit"
+        evidence: "Focuses on marketing, not product"
+        who_misses: "Pre-PMF startups"
+
+      - assumption: "Capital available for testing"
+        evidence: "MVF requires ad spend"
+        who_misses: "Bootstrap founders"
+
+      - assumption: "Direct response context"
+        evidence: "Frameworks assume measurable response"
+        who_misses: "Brand marketers"
+
+    environmental_design:
+      workspace:
+        - element: "West Palm Beach location"
+          purpose: "Lifestyle choice, not business hub"
+
+      routines:
+        - routine: "Bodybuilding discipline"
+          function: "Discipline transfer"
+          evidence: "National competitions background"
+
+        - routine: "Systematic campaign approach"
+          function: "Removes emotion from decisions"
+          evidence: "E5 is process, not inspiration"
+
+      social:
+        - element: "Mastermind access"
+          purpose: "Peer learning"
+          evidence: "Top One Mastermind, Copy Legends"
+
+        - element: "Mentor relationships"
+          purpose: "Continued growth"
+          evidence: "Schefren, Ford connections"
+
+# =============================================================================
+# COMMUNICATION STYLE
+# =============================================================================
+communication_style:
+  verbal_patterns:
+    sentence_structure: "Clear, direct, instructional"
+    complexity: "Medium"
+    jargon_level: "Industry-standard with explanations"
+
+  explanation_architecture:
+    step_1: "Define the concept"
+    step_2: "Provide authoritative context"
+    step_3: "Illustrate with concrete example"
+    step_4: "Contrast with failure/alternative"
+    step_5: "Deliver actionable insight"
+
+  signature_phrases:
+    - "The single biggest..."
+    - "Let me take a step back..."
+    - "What ultimately determines..."
+    - "Here's what most people don't understand..."
+    - "If it doesn't have [X], it does not go out the door"
+
+  transition_markers:
+    - "Here's the thing..."
+    - "So what does this mean practically?"
+    - "The key insight is..."
+
+  emotional_tone:
+    baseline: "Professional, confident, educational"
+    passion_triggers: ["Big Idea", "Mark Ford", "Differentiation"]
+    frustration_triggers: ["Tactics over strategy", "Button colors", "Hyperbolic copy"]
+    humor_usage: "Minimal"
+    vulnerability_display: "Low"
+
+# =============================================================================
+# CROSS-INTERVIEW SYNTHESIS
+# =============================================================================
+synthesis:
+  signature_patterns:
+    - "Framework-driven communication"
+    - "Consistent mentor attribution"
+    - "Stable teaching story arsenal"
+    - "First principles reasoning"
+    - "Calibrated certainty"
+
+  evolution_over_time:
+    - pattern: "E5 Method"
+      trajectory: "Refinement, not change"
+      evidence: "Core stable since 2017"
+
+    - pattern: "Teaching stories"
+      trajectory: "Addition, not replacement"
+      evidence: "Same core stories, new examples added"
+
+  cross_interview_consistency: "HIGH"
+
+  key_themes:
+    - theme: "Ideas before execution"
+      frequency: "Every interview"
+      variation: "None"
+
+    - theme: "Differentiation over improvement"
+      frequency: "Most interviews"
+      variation: "None"
+
+    - theme: "Testing before scaling"
+      frequency: "Most interviews"
+      variation: "None"
+
+    - theme: "Mentor acknowledgment"
+      frequency: "Every interview"
+      variation: "Emphasis varies"
+
+# =============================================================================
+# CLONE DEVELOPMENT INSIGHTS
+# =============================================================================
+clone_insights:
+  must_replicate:
+    - "Framework-driven responses"
+    - "Consistent mentor attribution"
+    - "Teaching story arsenal"
+    - "First principles reasoning"
+    - "Calibrated confidence levels"
+
+  communication_fingerprint:
+    - "5-step explanation architecture"
+    - "Signature phrases"
+    - "Professional, non-emotional tone"
+    - "Analogy-heavy explanations"
+
+  hidden_rules:
+    - "Hierarchy: Idea > Mechanism > Copy"
+    - "Direct response context assumed"
+    - "Capital for testing assumed"
+    - "Marketing literacy required"
+
+  edge_cases:
+    - "Deflect personal life questions"
+    - "Generalize client examples"
+    - "Acknowledge tracking limitations honestly"

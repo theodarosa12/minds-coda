@@ -1,0 +1,439 @@
+# knowledge_gaps.yaml - Claude Hopkins
+# Mind Mapper OS (MMOS) Pipeline
+# Task: knowledge-gap-identification
+# Agent: Tim (Research Specialist)
+# Generated: 2026-01-23
+
+metadata:
+  mind_slug: claude_hopkins
+  mind_name: Claude C. Hopkins
+  generated: "2026-01-23T06:30:00-03:00"
+  agent: research-specialist
+  task: knowledge-gap-identification
+  total_gaps: 8
+  critical_gaps: 0  # No critical gaps blocking analysis
+
+# ============================================
+# LAYER COVERAGE ANALYSIS
+# ============================================
+
+layer_coverage:
+
+  layer_1_facts:
+    description: "Basic biographical information"
+    status: Complete
+    sources_count: 8
+    confidence: HIGH
+    coverage_percentage: 85
+    gaps:
+      - "Exact dates of some early employment"
+      - "Personal life details (wife, children names)"
+    gap_impact: LOW
+    notes: "Historical figure - complete biographical record exists"
+
+  layer_2_skills:
+    description: "Demonstrated abilities and competencies"
+    status: Complete
+    sources_count: 10
+    confidence: HIGH
+    coverage_percentage: 90
+    gaps:
+      - "Specific writing/editing techniques beyond documented methods"
+    gap_impact: LOW
+    notes: "Skills thoroughly documented in books and case studies"
+
+  layer_3_behaviors:
+    description: "Observable patterns and routines"
+    status: Partial
+    sources_count: 8
+    confidence: MEDIUM
+    coverage_percentage: 70
+    gaps:
+      - "Daily routines beyond work"
+      - "Personal habits outside advertising"
+      - "Social interactions and network building"
+    gap_impact: LOW
+    notes: "Hopkins focused entirely on work in writings; personal life sparse"
+
+  layer_4_beliefs:
+    description: "Stated beliefs and worldview"
+    status: Complete
+    sources_count: 10
+    confidence: HIGH
+    coverage_percentage: 92
+    gaps:
+      - "Political or religious beliefs (never discussed)"
+    gap_impact: LOW
+    notes: "Professional beliefs thoroughly documented; personal beliefs appropriately private"
+
+  layer_5_mental_models:
+    description: "Frameworks and thinking patterns"
+    status: Complete
+    sources_count: 12
+    confidence: HIGH
+    coverage_percentage: 95
+    gaps: []
+    gap_impact: NONE
+    notes: "EXCELLENT coverage - 15 mental models extracted with triangulation"
+
+  layer_6_values:
+    description: "Core values revealed through sacrifice"
+    status: Complete
+    sources_count: 10
+    confidence: HIGH
+    coverage_percentage: 85
+    gaps:
+      - "Personal values beyond professional context"
+    gap_impact: LOW
+    notes: "5 core values identified with sacrifice/action evidence"
+
+  layer_7_obsessions:
+    description: "Recurring themes and compulsive interests"
+    status: Complete
+    sources_count: 10
+    confidence: HIGH
+    coverage_percentage: 90
+    gaps: []
+    gap_impact: NONE
+    notes: "5 obsessions thoroughly documented - measurement, headlines, research, simplicity, reason-why"
+
+  layer_8_contradictions:
+    description: "Paradoxes and productive tensions"
+    status: Complete
+    sources_count: 8
+    confidence: HIGH
+    coverage_percentage: 85
+    gaps:
+      - "Potential contradictions in later life not documented"
+    gap_impact: LOW
+    notes: "5 contradictions analyzed and resolved - all productive tensions"
+
+# ============================================
+# SOURCE TYPE GAPS
+# ============================================
+
+source_type_gaps:
+
+  books_authored:
+    expected: 2
+    collected: 2
+    gap: NONE
+    priority: N/A
+    notes: "Both Hopkins books fully available"
+
+  long_form_interviews:
+    expected: 0
+    collected: 0
+    gap: "Not possible - pre-recording era"
+    priority: N/A
+    notes: "Historical figure (1866-1932) - no audio/video exists"
+
+  written_articles_blogs:
+    expected: "Unknown"
+    collected: 3
+    gap: "May be uncatalogued articles from period"
+    priority: LOW
+    notes: "Academic sources cover key articles"
+
+  speeches_presentations:
+    expected: "Unknown"
+    collected: 0
+    gap: "No surviving transcripts"
+    priority: LOW
+    notes: "Hopkins likely gave speeches but no records survive"
+
+  video_content:
+    expected: 0
+    collected: 0
+    gap: "Impossible - pre-video era"
+    priority: N/A
+    notes: "Technology didn't exist"
+
+  academic_research:
+    expected: "Multiple"
+    collected: 4
+    gap: MINIMAL
+    priority: LOW
+    notes: "Key academic sources on Hopkins legacy collected"
+
+  third_party_profiles:
+    expected: "Multiple"
+    collected: 5
+    gap: MINIMAL
+    priority: LOW
+    notes: "Disciple commentary provides excellent third-party perspective"
+
+  failure_stories:
+    expected: "Unknown"
+    collected: 4
+    gap: "Hopkins emphasized successes; failures generalized"
+    priority: MEDIUM
+    notes: "Acceptable gap - enough failure data for analysis"
+
+  early_career_content:
+    expected: "Limited"
+    collected: 2
+    gap: "Pre-Lord & Thomas work sparse"
+    priority: LOW
+    notes: "My Life in Advertising covers early career narratively"
+
+  recent_content:
+    expected: 0
+    collected: 0
+    gap: "N/A - historical figure (died 1932)"
+    priority: N/A
+    notes: "Modern validation comes from disciples and testing data"
+
+# ============================================
+# VALIDATION GAPS
+# ============================================
+
+validation_gaps:
+
+  unvalidated_claims:
+    count: 0
+    critical: 0
+    notes: "All critical claims validated; some minor claims have partial validation"
+
+  claims_needing_more_sources:
+    - claim: "Hard work beats genius"
+      importance: MEDIUM
+      current_sources: 3
+      sources_needed: 0  # Acceptable
+      gap_severity: MINOR
+      notes: "Self-narrative may be humble framing; acceptable uncertainty"
+
+    - claim: "Negative advertising fails"
+      importance: MEDIUM
+      current_sources: 3
+      sources_needed: 0  # Acceptable
+      gap_severity: MINOR
+      notes: "Context-dependent; modern political ads contradict"
+
+# ============================================
+# TEMPORAL GAPS
+# ============================================
+
+temporal_coverage:
+  earliest_source_date: "1890s"
+  latest_source_date: "2023"
+  total_time_span: "130+ years"
+
+  coverage_by_period:
+    - period: "Early career (1890-1900)"
+      sources_count: 2
+      coverage: Partial
+      what_we_know:
+        - "Poverty origin"
+        - "Self-education path"
+        - "Mail-order foundation"
+      what_we_dont_know:
+        - "Specific campaigns before Lord & Thomas"
+        - "Early failures in detail"
+
+    - period: "Lord & Thomas years (1900-1923)"
+      sources_count: 10
+      coverage: Good
+      what_we_know:
+        - "Major campaigns (Schlitz, Pepsodent, etc.)"
+        - "Methodology development"
+        - "Testing infrastructure building"
+      what_we_dont_know:
+        - "Internal agency dynamics"
+        - "Rejected accounts"
+
+    - period: "Legacy (1923-present)"
+      sources_count: 8
+      coverage: Good
+      what_we_know:
+        - "Influence on disciples"
+        - "Principles validation over time"
+        - "Modern application"
+      what_we_dont_know:
+        - "Hopkins' last years (1923-1932)"
+
+  temporal_gaps:
+    - period: "1923-1932"
+      significance: LOW
+      what_might_have_happened: "Retirement, writing, consulting"
+      sources_to_seek: []
+      notes: "Acceptable gap - core work complete by 1923"
+
+# ============================================
+# CONTRADICTION GAPS
+# ============================================
+
+contradiction_gaps:
+
+  unresolved_contradictions:
+    count: 0
+    notes: "All 5 identified contradictions were resolved"
+
+  missing_counter_evidence:
+    - claim: "Testing methodology always works"
+      current_stance: "All sources agree testing is essential"
+      counter_evidence_sought: true
+      potential_disconfirming_sources: ["Cases where testing led to wrong conclusions"]
+      gap_risk: "Survivorship bias possible"
+      mitigation: "Noted in analysis - Hopkins emphasized successful tests"
+
+# ============================================
+# UNKNOWN UNKNOWNS EXPLORATION
+# ============================================
+
+unknown_unknowns:
+
+  adjacent_domains:
+    - domain: "Patent medicine industry history"
+      relevance_to_subject: "Context for Liquozone work"
+      potential_sources: ["FDA historical records", "Medical history journals"]
+      priority: LOW
+      notes: "Would add context but not essential"
+
+    - domain: "Lord & Thomas agency history"
+      relevance_to_subject: "Hopkins' working environment"
+      potential_sources: ["Agency archives", "Lasker biography"]
+      priority: LOW
+      notes: "Could add color but core Hopkins documented"
+
+  perspectives:
+    - perspective: "Critics/opponents"
+      sources_collected: 1
+      gap: "Limited documented criticism of Hopkins"
+      importance: LOW
+      notes: "Hopkins' success made criticism rare"
+
+    - perspective: "Collaborators/partners"
+      sources_collected: 3
+      gap: MINIMAL
+      importance: MEDIUM
+      notes: "Lasker, Kennedy documented"
+
+    - perspective: "Students/mentees"
+      sources_collected: 5
+      gap: NONE
+      importance: HIGH
+      notes: "Ogilvy, Halbert, Schwartz provide excellent student perspective"
+
+    - perspective: "Family/personal"
+      sources_collected: 0
+      gap: "Not documented"
+      importance: LOW
+      notes: "Appropriately private; Hopkins separated work from personal"
+
+  unasked_questions:
+    - question: "What would Hopkins think of digital advertising?"
+      why_important: "Modern application question"
+      sources_that_might_answer: []
+      priority: LOW
+      notes: "Speculative - disciples have addressed this"
+
+    - question: "What mistakes did Hopkins never admit?"
+      why_important: "Hidden failures"
+      sources_that_might_answer: ["Contemporaneous accounts", "Agency records"]
+      priority: LOW
+      notes: "Acceptable uncertainty"
+
+# ============================================
+# GAP PRIORITIZATION
+# ============================================
+
+prioritized_gaps:
+
+  immediate_priority: []
+  # No immediate priority gaps - research foundation is solid
+
+  high_priority: []
+  # No high priority gaps
+
+  medium_priority:
+    - gap_id: "GAP_001"
+      description: "Detailed failure stories"
+      reason: "Would strengthen Layer 6 (values through sacrifice)"
+      action: "Could seek more historical records, but acceptable"
+      estimated_effort: "High (historical research)"
+
+  low_priority:
+    - gap_id: "GAP_002"
+      description: "Personal life details"
+      reason: "Not critical for professional mind creation"
+      action: "Accept gap"
+      estimated_effort: "N/A"
+
+    - gap_id: "GAP_003"
+      description: "Early career specific campaigns"
+      reason: "Nice to have but not essential"
+      action: "Accept gap"
+      estimated_effort: "High (historical research)"
+
+  acceptable_gaps:
+    - gap_id: "GAP_004"
+      description: "Audio/video sources"
+      why_acceptable: "Physically impossible - pre-recording era"
+
+    - gap_id: "GAP_005"
+      description: "Direct interviews"
+      why_acceptable: "Physically impossible - historical figure"
+
+    - gap_id: "GAP_006"
+      description: "Personal beliefs (political, religious)"
+      why_acceptable: "Appropriately private; not relevant to professional mind"
+
+    - gap_id: "GAP_007"
+      description: "Internal agency politics"
+      why_acceptable: "Not essential for methodology understanding"
+
+    - gap_id: "GAP_008"
+      description: "Contemporaneous criticism"
+      why_acceptable: "Success minimized documented criticism; survivorship accepted"
+
+# ============================================
+# RESOLUTION PLAN
+# ============================================
+
+resolution_plan:
+  - gap_id: "GAP_001"
+    gap_description: "Detailed failure stories"
+    priority: MEDIUM
+
+    sources_to_seek: []
+    # Not seeking - acceptable gap
+
+    estimated_effort: "High"
+    success_likelihood: "Low"
+    fallback_if_unavailable: "Use generalized failures from My Life in Advertising"
+    decision: "Accept gap - sufficient data for analysis"
+
+# ============================================
+# SUMMARY
+# ============================================
+
+summary:
+  total_gaps_identified: 8
+  critical_gaps: 0
+  high_priority_gaps: 0
+  medium_priority_gaps: 1
+  low_priority_gaps: 2
+  acceptable_gaps: 5
+
+  overall_gap_assessment: MINIMAL
+
+  layer_6_8_coverage:
+    layer_6_values: "85% - GOOD"
+    layer_7_obsessions: "90% - EXCELLENT"
+    layer_8_contradictions: "85% - GOOD"
+    combined_assessment: "EXCELLENT for historical figure"
+
+  proceed_to_analysis: true
+  caveats:
+    - "Historical figure limitations accepted"
+    - "Failure stories generalized, not specific"
+    - "Personal life intentionally sparse"
+    - "Survivorship bias acknowledged in testing claims"
+
+  recommendation: |
+    Research phase COMPLETE. Gap analysis shows no critical gaps blocking
+    analysis. All Layer 6-8 coverage meets thresholds. Historical figure
+    limitations are inherent and acceptable.
+
+    Recommendation: Proceed to Phase 2 (Behavioral Analysis)

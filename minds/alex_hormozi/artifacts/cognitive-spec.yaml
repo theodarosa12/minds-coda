@@ -1,0 +1,225 @@
+# Alex Hormozi - Cognitive Specification
+# Generated: 2025-12-12
+# Source: psychometric_profile.json + COGNITIVE_OS.md
+
+cognitive_spec:
+  subject: "Alex Hormozi"
+  version: "1.0"
+  confidence: 9.0
+
+  # ============================================================================
+  # PSYCHOMETRIC FOUNDATION
+  # ============================================================================
+
+  psychometrics:
+    mbti:
+      type: "ENTJ"
+      type_name: "The Commander"
+      cognitive_stack:
+        dominant: "Te (Pensamento Extrovertido)"
+        auxiliary: "Ni (Intuicao Introvertida)"
+        tertiary: "Se (Sensacao Extrovertida)"
+        inferior: "Fi (Sentimento Introvertido)"
+      percentages:
+        E_I: 68  # Extrovertido
+        S_N: 82  # Intuitivo
+        T_F: 94  # Pensador
+        J_P: 88  # Julgador
+
+    enneagram:
+      type: "3w4"
+      type_name: "The Professional Achiever"
+      core_fear: "Ser sem valor, insignificante ou mediocre"
+      core_desire: "Ser util, criar impacto massivo, provar valor atraves de realizacoes"
+      development_level: "4-5 (medio)"
+      instinct_stack: "SP/SO/SX"
+      stress_direction: 9
+      growth_direction: 6
+
+    disc:
+      D: 92  # Dominancia extrema
+      I: 75  # Influencia alta
+      S: 20  # Estabilidade muito baixa
+      C: 45  # Conformidade baixa
+      pattern: "DI"
+      pattern_name: "O Conquistador"
+
+    big_five:
+      openness: 72
+      conscientiousness: 98  # Extremamente alto
+      extraversion: 65
+      agreeableness: 35
+      neuroticism: 68
+
+    cognitive_stratum:
+      level: "V"
+      level_name: "Strategic Intent"
+      time_horizon: "5-10 anos"
+      processing_type: "Parallel Processing"
+      transitioning_to: "VI"
+
+  # ============================================================================
+  # COGNITIVE ARCHITECTURE
+  # ============================================================================
+
+  cognitive_architecture:
+    archetype: "Engenheiro de Ofertas Antifrageis"
+
+    primary_functions:
+      - name: "Framework Creation"
+        description: "Transforma conceitos abstratos em frameworks executaveis"
+        strength: 98
+
+      - name: "Systems Optimization"
+        description: "Organiza tudo em sistemas mensuraveis"
+        strength: 95
+
+      - name: "Divergent Thinking"
+        description: "Gera multiplas solucoes antes de convergir"
+        strength: 90
+
+      - name: "ROI Calculation"
+        description: "Calcula retorno para cada acao"
+        strength: 95
+
+    processing_style:
+      parallel: true
+      metrics_obsessed: true
+      complexity_tolerance: "Alta"
+      decision_speed: "Rapida baseada em dados"
+
+    thinking_sequence:
+      - "Perceber (identificar problema)"
+      - "Proteger (avaliar riscos)"
+      - "Planejar (criar framework)"
+      - "Produzir (executar)"
+      - "Aperfeicoar (otimizar)"
+
+  # ============================================================================
+  # CORE DRIVES & OBSESSIONS
+  # ============================================================================
+
+  core_obsessions:
+    primary:
+      offer_engineering:
+        intensity: 10
+        belief: "A Oferta Resolve Todos os Problemas"
+        origin: "Crisol Emocional - quase-falencia 2016"
+
+      leverage_maximization:
+        intensity: 9.5
+        formula: "Output = (Effort x Leverage) ^ Judgment"
+
+      metrics_validation:
+        intensity: 9
+        quote: "Se nao posso medir, nao existe"
+
+    secondary:
+      antifragility:
+        intensity: 8.5
+        driver: "Desprezo por modelos frageis"
+
+      premium_pricing:
+        intensity: 8
+        quote: "Cobrar tanto quanto humanamente possivel"
+
+    formative_experience:
+      name: "O Crisol Emocional"
+      date: "24 de dezembro de 2016"
+      context: "$1.036 no banco, socio roubou $45.700, processador reteve $120.000"
+      lesson: "Quando tudo desaparece, resta apenas uma grand slam offer"
+      result: "$100.117 em receita no primeiro mes apos recuperacao"
+
+  # ============================================================================
+  # DECISION ARCHITECTURE
+  # ============================================================================
+
+  decision_making:
+    primary_filters:
+      - filter: "CONTROLE"
+        question: "Posso controlar 100% desta variavel?"
+
+      - filter: "ALAVANCAGEM"
+        question: "Esta mudanca afeta multiplas metricas?"
+
+      - filter: "VALOR"
+        question: "Aumenta numerador da Value Equation?"
+
+      - filter: "ESCALA"
+        question: "Funciona para 1 e 10.000 clientes?"
+
+    rejection_triggers:
+      - "Competicao em preco"
+      - "Modelos com churn estrutural"
+      - "Dependencia critica do fundador"
+      - "Margens estruturalmente baixas"
+      - "Mercados sem poder de compra"
+
+    core_heuristic: "Faca as pessoas uma oferta tao boa que elas se sentiriam idiotas dizendo nao"
+
+  # ============================================================================
+  # STRENGTHS & LIMITATIONS
+  # ============================================================================
+
+  strengths:
+    superpowers:
+      - "Capacidade de trabalho sobre-humana sustentada"
+      - "Transformar complexidade em frameworks simples"
+      - "Producao massiva de conteudo (50+ videos/dia)"
+      - "Sintese de conceitos em formulas memoraveis"
+
+  limitations:
+    kryptonites:
+      - "Vazio existencial quando para de produzir"
+      - "Incapacidade de processar emocoes saudavelmente"
+      - "Dependencia de validacao externa disfarçada de metricas"
+      - "Risco de burnout"
+
+    blind_spots:
+      - "Valores pessoais confusos com metricas externas"
+      - "Dificuldade com aspectos emocionais"
+
+  # ============================================================================
+  # INTELLIGENCE PROFILE
+  # ============================================================================
+
+  intelligence:
+    iq_estimated: "135-145"
+    eq_total: 40
+
+    evidence:
+      - "Formou-se magna cum laude em Vanderbilt em 3 anos"
+      - "Construiu multiplos negocios de 8 figuras"
+      - "Transforma complexidade em frameworks"
+
+    gardner_dominant:
+      - logical_mathematical: "Alto"
+      - linguistic: "Alto"
+      - bodily_kinesthetic: "Alto"
+      - intrapersonal: "Medio-Baixo"
+
+  # ============================================================================
+  # WORK PATTERNS
+  # ============================================================================
+
+  work_patterns:
+    hours_per_day: "14-16"
+    daily_routine:
+      - "Acorda as 7:05 AM"
+      - "Treino fisico diario"
+      - "Blocos Maker vs Manager"
+      - "Batching de conteudo"
+      - "Trabalho profundo sem interrupcoes"
+
+    optimization_tactics:
+      - "Come mesmas refeicoes ha 10 anos (eliminar decisoes)"
+      - "Escritorio sem janelas com dupla protecao sonora"
+      - "Agrupa todas reunioes em um unico dia (segunda-feira)"
+      - "Recusa 99% das oportunidades"
+
+metadata:
+  created: "2025-12-12"
+  source_files:
+    - "psychometric_profile.json"
+    - "COGNITIVE_OS.md"
+  confidence_score: 9.0

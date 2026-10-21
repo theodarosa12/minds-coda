@@ -1,0 +1,555 @@
+[
+  {
+    "nome": "adriano_de_marqui",
+    "nome_exibicao": "Adriano de Marqui",
+    "categoria": "Negócios & Empreendedorismo",
+    "area": "Growth/gestão",
+    "destaque": "Growth hacking, gestão digital"
+  },
+  {
+    "nome": "alan_nicolas",
+    "nome_exibicao": "Alan Nicolas",
+    "categoria": "Startups & Venture Capital",
+    "area": "AI/educação",
+    "destaque": "IA aplicada a negócios"
+  },
+  {
+    "nome": "alex_hormozi",
+    "nome_exibicao": "Alex Hormozi",
+    "categoria": "Negócios & Empreendedorismo",
+    "area": "Ofertas/vendas",
+    "destaque": "$100M Offers, value equation"
+  },
+  {
+    "nome": "alistair_croll",
+    "nome_exibicao": "Alistair Croll",
+    "categoria": "Outras",
+    "area": "Analytics/lean",
+    "destaque": "Lean Analytics"
+  },
+  {
+    "nome": "andre_chaperon",
+    "nome_exibicao": "Andre Chaperon",
+    "categoria": "Copywriting & Direct Response",
+    "area": "Email marketing",
+    "destaque": "AutoResponder Madness"
+  },
+  {
+    "nome": "andrej_karpathy",
+    "nome_exibicao": "Andrej Karpathy",
+    "categoria": "Software Engineering & DevOps",
+    "area": "AI/deep learning",
+    "destaque": "Ex-Tesla AI, deep learning"
+  },
+  {
+    "nome": "andrew_foxwell",
+    "nome_exibicao": "Andrew Foxwell",
+    "categoria": "Ads & Tráfego Pago",
+    "area": "Facebook/Instagram Ads",
+    "destaque": "Social ads"
+  },
+  {
+    "nome": "avinash_kaushik",
+    "nome_exibicao": "Avinash Kaushik",
+    "categoria": "Marketing Digital & Funis",
+    "area": "Analytics",
+    "destaque": "Web analytics, métricas acionáveis"
+  },
+  {
+    "nome": "ben_settle",
+    "nome_exibicao": "Ben Settle",
+    "categoria": "Copywriting & Direct Response",
+    "area": "Email/copy",
+    "destaque": "Daily email, anti-guru"
+  },
+  {
+    "nome": "brad_frost",
+    "nome_exibicao": "Brad Frost",
+    "categoria": "Design & UX",
+    "area": "Design systems",
+    "destaque": "Atomic Design, sistemas escaláveis"
+  },
+  {
+    "nome": "cagan_patton",
+    "nome_exibicao": "Marty Cagan + Jeff Patton",
+    "categoria": "Product Management",
+    "area": "PM/discovery",
+    "destaque": "Inspired + User Story Mapping"
+  },
+  {
+    "nome": "claude_hopkins",
+    "nome_exibicao": "Claude Hopkins",
+    "categoria": "Copywriting & Direct Response",
+    "area": "Publicidade científica",
+    "destaque": "Scientific Advertising"
+  },
+  {
+    "nome": "clayton_makepeace",
+    "nome_exibicao": "Clayton Makepeace",
+    "categoria": "Copywriting & Direct Response",
+    "area": "Headlines magnéticas",
+    "destaque": "Copy de resposta direta"
+  },
+  {
+    "nome": "cole_medin",
+    "nome_exibicao": "Cole Medin",
+    "categoria": "IA & Claude Code",
+    "area": "Engenheiro de Segundo Cérebro com IA",
+    "destaque": "Claude Code + Obsidian"
+  },
+  {
+    "nome": "dan_kennedy",
+    "nome_exibicao": "Dan Kennedy",
+    "categoria": "Copywriting & Direct Response",
+    "area": "Marketing direto",
+    "destaque": "No B.S. Marketing, direct response"
+  },
+  {
+    "nome": "dan_koe",
+    "nome_exibicao": "Dan Koe",
+    "categoria": "Social Media & YouTube",
+    "area": "Personal branding",
+    "destaque": "One-person business"
+  },
+  {
+    "nome": "daniel_kahneman",
+    "nome_exibicao": "Daniel Kahneman",
+    "categoria": "Filosofia, Mindset & Liderança",
+    "area": "Psicologia/vieses",
+    "destaque": "Thinking Fast and Slow, biases"
+  },
+  {
+    "nome": "david_ogilvy",
+    "nome_exibicao": "David Ogilvy",
+    "categoria": "Copywriting & Direct Response",
+    "area": "Publicidade/branding",
+    "destaque": "Pai da publicidade moderna"
+  },
+  {
+    "nome": "don_norman",
+    "nome_exibicao": "Don Norman",
+    "categoria": "Design & UX",
+    "area": "UX design",
+    "destaque": "Design of Everyday Things"
+  },
+  {
+    "nome": "donella_h_meadows",
+    "nome_exibicao": "Donella H. Meadows",
+    "categoria": "Filosofia, Mindset & Liderança",
+    "area": "Pensamento sistêmico",
+    "destaque": "Thinking in Systems"
+  },
+  {
+    "nome": "eliyahu_goldratt",
+    "nome_exibicao": "Eliyahu Goldratt",
+    "categoria": "Estratégia & Sistemas",
+    "area": "TOC/gestão",
+    "destaque": "Theory of Constraints"
+  },
+  {
+    "nome": "elon_musk",
+    "nome_exibicao": "Elon Musk",
+    "categoria": "Negócios & Empreendedorismo",
+    "area": "Tech/inovação",
+    "destaque": "First principles, escala exponencial"
+  },
+  {
+    "nome": "eugene_schwartz",
+    "nome_exibicao": "Eugene Schwartz",
+    "categoria": "Copywriting & Direct Response",
+    "area": "Copywriting clássico",
+    "destaque": "Breakthrough Advertising, 5 níveis de consciência"
+  },
+  {
+    "nome": "frank_kern",
+    "nome_exibicao": "Frank Kern",
+    "categoria": "Marketing Digital & Funis",
+    "area": "Launches/branding",
+    "destaque": "Intent-based branding, webinars"
+  },
+  {
+    "nome": "gary_bencivenga",
+    "nome_exibicao": "Gary Bencivenga",
+    "categoria": "Copywriting & Direct Response",
+    "area": "Direct response",
+    "destaque": "\"Greatest living copywriter\", testes"
+  },
+  {
+    "nome": "gary_halbert",
+    "nome_exibicao": "Gary Halbert",
+    "categoria": "Copywriting & Direct Response",
+    "area": "Direct mail",
+    "destaque": "Boron Letters, lendário copywriter"
+  },
+  {
+    "nome": "gary_vee",
+    "nome_exibicao": "Gary Vaynerchuk",
+    "categoria": "Social Media & YouTube",
+    "area": "Conteúdo/branding",
+    "destaque": "Content factory, personal branding"
+  },
+  {
+    "nome": "greg_isenberg",
+    "nome_exibicao": "Greg Isenberg",
+    "categoria": "IA & Claude Code",
+    "area": "Empreendedor Digital",
+    "destaque": "Monetização com IA + Marketing + Directories"
+  },
+  {
+    "nome": "guillermo_rauch",
+    "nome_exibicao": "Guillermo Rauch",
+    "categoria": "Software Engineering & DevOps",
+    "area": "Frontend/DX",
+    "destaque": "Criador do Next.js, Vercel"
+  },
+  {
+    "nome": "hung_lee",
+    "nome_exibicao": "Hung Lee",
+    "categoria": "RH & Recrutamento",
+    "area": "Recrutamento",
+    "destaque": "Recruiting Brainfood"
+  },
+  {
+    "nome": "jan_tegze",
+    "nome_exibicao": "Jan Tegze",
+    "categoria": "RH & Recrutamento",
+    "area": "Sourcing",
+    "destaque": "Full Stack Recruiter"
+  },
+  {
+    "nome": "jeff_patton",
+    "nome_exibicao": "Jeff Patton",
+    "categoria": "Product Management",
+    "area": "Agile/discovery",
+    "destaque": "User Story Mapping"
+  },
+  {
+    "nome": "jesus_cristo",
+    "nome_exibicao": "Jesus Cristo",
+    "categoria": "Filosofia, Mindset & Liderança",
+    "area": "Liderança/filosofia",
+    "destaque": "Parábolas, liderança servidora"
+  },
+  {
+    "nome": "joao_lozano",
+    "nome_exibicao": "João Lozano",
+    "categoria": "Copywriting & Direct Response",
+    "area": "Copywriting BR",
+    "destaque": "Copywriter brasileiro, lançamentos"
+  },
+  {
+    "nome": "joe_sugarman",
+    "nome_exibicao": "Joe Sugarman",
+    "categoria": "Copywriting & Direct Response",
+    "area": "DR / triggers",
+    "destaque": "Gatilhos psicológicos em copy"
+  },
+  {
+    "nome": "john_caples",
+    "nome_exibicao": "John Caples",
+    "categoria": "Copywriting & Direct Response",
+    "area": "Headlines",
+    "destaque": "Tested Advertising Methods"
+  },
+  {
+    "nome": "john_carlton",
+    "nome_exibicao": "John Carlton",
+    "categoria": "Copywriting & Direct Response",
+    "area": "Copywriting agressivo",
+    "destaque": "Estilo irreverente"
+  },
+  {
+    "nome": "john_doerr",
+    "nome_exibicao": "John Doerr",
+    "categoria": "Product Management",
+    "area": "OKRs/gestão",
+    "destaque": "Measure What Matters"
+  },
+  {
+    "nome": "jon_benson",
+    "nome_exibicao": "Jon Benson",
+    "categoria": "Copywriting & Direct Response",
+    "area": "VSL",
+    "destaque": "Inventor do Video Sales Letter"
+  },
+  {
+    "nome": "jose_amorim",
+    "nome_exibicao": "José Amorim",
+    "categoria": "Negócios & Empreendedorismo",
+    "area": "RH/gestão BR",
+    "destaque": "Gestão brasileira, RH estratégico"
+  },
+  {
+    "nome": "josh_bersin",
+    "nome_exibicao": "Josh Bersin",
+    "categoria": "RH & Recrutamento",
+    "area": "People analytics",
+    "destaque": "Global HR trends"
+  },
+  {
+    "nome": "juliano_dutra",
+    "nome_exibicao": "Juliano Dutra",
+    "categoria": "Marketing Digital & Funis",
+    "area": "Marketing digital BR",
+    "destaque": "Marketing digital brasileiro"
+  },
+  {
+    "nome": "kapil_gupta",
+    "nome_exibicao": "Kapil Gupta",
+    "categoria": "Filosofia, Mindset & Liderança",
+    "area": "Filosofia/performance",
+    "destaque": "Anti-coach, verdade direta"
+  },
+  {
+    "nome": "kaplan_norton",
+    "nome_exibicao": "Robert Kaplan + David Norton",
+    "categoria": "RH & Recrutamento",
+    "area": "Gestão/estratégia",
+    "destaque": "Balanced Scorecard"
+  },
+  {
+    "nome": "kasim_aslam",
+    "nome_exibicao": "Kasim Aslam",
+    "categoria": "Ads & Tráfego Pago",
+    "area": "Google Ads/PPC",
+    "destaque": "Performance marketing"
+  },
+  {
+    "nome": "kent_beck",
+    "nome_exibicao": "Kent Beck",
+    "categoria": "Software Engineering & DevOps",
+    "area": "XP/TDD",
+    "destaque": "Extreme Programming, Test-Driven Development"
+  },
+  {
+    "nome": "liam_ottley",
+    "nome_exibicao": "Liam Ottley",
+    "categoria": "IA & Claude Code",
+    "area": "Estrategista de Agências de IA",
+    "destaque": "Business Model + Vendas + Operações"
+  },
+  {
+    "nome": "lincoln_murphy",
+    "nome_exibicao": "Lincoln Murphy",
+    "categoria": "Startups & Venture Capital",
+    "area": "SaaS/CS",
+    "destaque": "SaaS growth, customer success"
+  },
+  {
+    "nome": "lou_adler",
+    "nome_exibicao": "Lou Adler",
+    "categoria": "RH & Recrutamento",
+    "area": "Recrutamento",
+    "destaque": "Performance-based hiring"
+  },
+  {
+    "nome": "mariana_torres",
+    "nome_exibicao": "Mariana Torres",
+    "categoria": "Negócios & Empreendedorismo",
+    "area": "Liderança/coaching",
+    "destaque": "Executive coaching, desenvolvimento"
+  },
+  {
+    "nome": "mark_kashef",
+    "nome_exibicao": "Mark Kashef",
+    "categoria": "IA & Claude Code",
+    "area": "Power User de Claude Code",
+    "destaque": "Skills, Tricks, Obsidian Optimization"
+  },
+  {
+    "nome": "martin_fowler",
+    "nome_exibicao": "Martin Fowler",
+    "categoria": "Software Engineering & DevOps",
+    "area": "Refactoring",
+    "destaque": "Enterprise patterns"
+  },
+  {
+    "nome": "marty_cagan",
+    "nome_exibicao": "Marty Cagan",
+    "categoria": "Product Management",
+    "area": "Product discovery",
+    "destaque": "SVPG, empowered teams"
+  },
+  {
+    "nome": "mitchell_hashimoto",
+    "nome_exibicao": "Mitchell Hashimoto",
+    "categoria": "Software Engineering & DevOps",
+    "area": "DevOps/infra",
+    "destaque": "Terraform, HashiCorp"
+  },
+  {
+    "nome": "molly_pittman",
+    "nome_exibicao": "Molly Pittman",
+    "categoria": "Ads & Tráfego Pago",
+    "area": "Facebook Ads",
+    "destaque": "DigitalMarketer"
+  },
+  {
+    "nome": "napoleon_hill",
+    "nome_exibicao": "Napoleon Hill",
+    "categoria": "Filosofia, Mindset & Liderança",
+    "area": "Mindset/sucesso",
+    "destaque": "Think and Grow Rich"
+  },
+  {
+    "nome": "naval_ravikant",
+    "nome_exibicao": "Naval Ravikant",
+    "categoria": "Negócios & Empreendedorismo",
+    "area": "Filosofia/startups",
+    "destaque": "Criação de riqueza, angel investing"
+  },
+  {
+    "nome": "neal_ford",
+    "nome_exibicao": "Neal Ford",
+    "categoria": "Software Engineering & DevOps",
+    "area": "Arquitetura",
+    "destaque": "Evolutionary Architectures"
+  },
+  {
+    "nome": "nicole_forsgren",
+    "nome_exibicao": "Nicole Forsgren",
+    "categoria": "Software Engineering & DevOps",
+    "area": "DevOps/métricas",
+    "destaque": "Accelerate, DORA metrics"
+  },
+  {
+    "nome": "paul_graham",
+    "nome_exibicao": "Paul Graham",
+    "categoria": "Startups & Venture Capital",
+    "area": "Startups/ensaios",
+    "destaque": "Y Combinator, product-market fit"
+  },
+  {
+    "nome": "pedro_sobral",
+    "nome_exibicao": "Pedro Sobral",
+    "categoria": "Ads & Tráfego Pago",
+    "area": "Tráfego pago BR",
+    "destaque": "Expert brasileiro em tráfego"
+  },
+  {
+    "nome": "pedro_valerio",
+    "nome_exibicao": "Pedro Valerio",
+    "categoria": "Marketing Digital & Funis",
+    "area": "Copy/marketing BR",
+    "destaque": "Marketing digital brasileiro"
+  },
+  {
+    "nome": "peter_thiel",
+    "nome_exibicao": "Peter Thiel",
+    "categoria": "Negócios & Empreendedorismo",
+    "area": "Startups/estratégia",
+    "destaque": "Zero to One, pensamento contrário"
+  },
+  {
+    "nome": "ramit_sethi",
+    "nome_exibicao": "Ramit Sethi",
+    "categoria": "Marketing Digital & Funis",
+    "area": "Finanças/online",
+    "destaque": "I Will Teach You To Be Rich"
+  },
+  {
+    "nome": "ray_kurzweil",
+    "nome_exibicao": "Ray Kurzweil",
+    "categoria": "Futurismo & Tecnologia",
+    "area": "Futurismo/AI",
+    "destaque": "Singularidade, previsões tech"
+  },
+  {
+    "nome": "robert_collier",
+    "nome_exibicao": "Robert Collier",
+    "categoria": "Copywriting & Direct Response",
+    "area": "Cartas de venda",
+    "destaque": "Robert Collier Letter Book"
+  },
+  {
+    "nome": "russel_brunson",
+    "nome_exibicao": "Russell Brunson",
+    "categoria": "Marketing Digital & Funis",
+    "area": "Funis",
+    "destaque": "ClickFunnels, DotCom Secrets"
+  },
+  {
+    "nome": "sam_altman",
+    "nome_exibicao": "Sam Altman",
+    "categoria": "Startups & Venture Capital",
+    "area": "AI/startups",
+    "destaque": "CEO OpenAI, startup playbook"
+  },
+  {
+    "nome": "savannah_sanchez",
+    "nome_exibicao": "Savannah Sanchez",
+    "categoria": "Ads & Tráfego Pago",
+    "area": "UGC/TikTok Ads",
+    "destaque": "Criativos UGC"
+  },
+  {
+    "nome": "sean_ellis",
+    "nome_exibicao": "Sean Ellis",
+    "categoria": "Marketing Digital & Funis",
+    "area": "Growth",
+    "destaque": "Growth hacking, experimentação"
+  },
+  {
+    "nome": "seth_godin",
+    "nome_exibicao": "Seth Godin",
+    "categoria": "Marketing Digital & Funis",
+    "area": "Posicionamento de marca pessoal",
+    "destaque": "Vaca roxa, menor audiência viável, marketing por permissão"
+  },
+  {
+    "nome": "sheryl_sandberg",
+    "nome_exibicao": "Sheryl Sandberg",
+    "categoria": "Negócios & Empreendedorismo",
+    "area": "Liderança/tech",
+    "destaque": "Lean In, ex-COO Meta"
+  },
+  {
+    "nome": "simon_wardley",
+    "nome_exibicao": "Simon Wardley",
+    "categoria": "Estratégia & Sistemas",
+    "area": "Strategy mapping",
+    "destaque": "Wardley Maps"
+  },
+  {
+    "nome": "skelton_pais",
+    "nome_exibicao": "Matthew Skelton + Manuel Pais",
+    "categoria": "Estratégia & Sistemas",
+    "area": "DevOps/teams",
+    "destaque": "Team Topologies"
+  },
+  {
+    "nome": "stefan_georgi",
+    "nome_exibicao": "Stefan Georgi",
+    "categoria": "Copywriting & Direct Response",
+    "area": "VSL",
+    "destaque": "High-converting VSLs"
+  },
+  {
+    "nome": "steve_jobs",
+    "nome_exibicao": "Steve Jobs",
+    "categoria": "Outras",
+    "area": "Inovação/design",
+    "destaque": "Visão de produto, design thinking"
+  },
+  {
+    "nome": "thiago_finch",
+    "nome_exibicao": "Thiago Finch",
+    "categoria": "Marketing Digital & Funis",
+    "area": "Marketing digital BR",
+    "destaque": "Lançamentos, monetização"
+  },
+  {
+    "nome": "tim_ferriss",
+    "nome_exibicao": "Tim Ferriss",
+    "categoria": "Futurismo & Tecnologia",
+    "area": "Produtividade/lifestyle",
+    "destaque": "4-Hour Work Week"
+  },
+  {
+    "nome": "todd_brown",
+    "nome_exibicao": "Todd Brown",
+    "categoria": "Copywriting & Direct Response",
+    "area": "Big Ideas",
+    "destaque": "E5 Method, mecanismos únicos"
+  }
+]

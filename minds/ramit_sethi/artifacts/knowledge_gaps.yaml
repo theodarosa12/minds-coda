@@ -1,0 +1,776 @@
+# Knowledge Gaps Analysis - Ramit Sethi
+# Generated: 2026-01-23
+# Agent: Tim (Research Specialist)
+# Task: knowledge-gap-identification
+
+metadata:
+  mind_slug: ramit_sethi
+  generated: "2026-01-23T20:30:00-03:00"
+  agent: "research-specialist"
+  task: "knowledge-gap-identification"
+  total_gaps: 23
+  critical_gaps: 3
+  overall_assessment: "GOOD - Ready to proceed with documented gaps"
+
+# =============================================================================
+# PHASE 1: COGNITIVE LAYER COVERAGE ANALYSIS
+# =============================================================================
+
+layer_coverage:
+
+  layer_1_facts:
+    description: "Basic biographical information"
+    status: "Complete"
+    sources_count: 8
+    confidence: "HIGH"
+    coverage_summary:
+      - "Stanford education (Technology & Psychology)"
+      - "Career start 2004 (blog during undergrad)"
+      - "Self-funded via 60+ scholarships"
+      - "Became millionaire in 20s"
+      - "NY Times bestselling author"
+      - "Netflix series host (2023)"
+      - "Lost half scholarship in first investment"
+    gaps:
+      - gap_id: "GAP_L1_001"
+        description: "Exact graduation year and degrees unclear"
+        severity: "MINOR"
+        impact: "Low - not critical for clone"
+      - gap_id: "GAP_L1_002"
+        description: "Family/personal background (parents, upbringing)"
+        severity: "MINOR"
+        impact: "Low - may not be publicly available"
+
+  layer_2_skills:
+    description: "Demonstrated abilities and competencies"
+    status: "Partial"
+    sources_count: 6
+    confidence: "MEDIUM"
+    coverage_summary:
+      - "Writing (bestselling books, blog)"
+      - "Teaching/education (courses, Netflix)"
+      - "Psychology application"
+      - "Negotiation (scholarships, career advice)"
+      - "Business building (IWT brand)"
+      - "Public speaking/media"
+    gaps:
+      - gap_id: "GAP_L2_001"
+        description: "Technical skills beyond content (coding, data analysis?)"
+        severity: "MINOR"
+        impact: "Low"
+      - gap_id: "GAP_L2_002"
+        description: "Specific negotiation scripts/methods"
+        severity: "MEDIUM"
+        impact: "Could improve tactical advice"
+
+  layer_3_behaviors:
+    description: "Observable patterns and routines"
+    status: "Partial"
+    sources_count: 5
+    confidence: "MEDIUM"
+    coverage_summary:
+      - "Podcast routine (240+ episodes)"
+      - "Content creation cadence"
+      - "Couples coaching methodology"
+      - "Teaching through real stories"
+    gaps:
+      - gap_id: "GAP_L3_001"
+        description: "Daily routines and habits unclear"
+        severity: "MINOR"
+        impact: "Low - personality clone doesn't need this"
+      - gap_id: "GAP_L3_002"
+        description: "Decision-making process in his own life"
+        severity: "MEDIUM"
+        impact: "Medium - hidden curriculum potential"
+
+  layer_4_beliefs:
+    description: "Stated beliefs and worldview"
+    status: "Complete"
+    sources_count: 10
+    confidence: "HIGH"
+    coverage_summary:
+      - "Money is psychology (80/20 behavior)"
+      - "Personal responsibility + systemic awareness"
+      - "Anti-frugality (spend on values)"
+      - "Automation over willpower"
+      - "Big wins over small savings"
+      - "Rich Life is personal"
+      - "Action over perfection (85% solution)"
+    gaps:
+      - gap_id: "GAP_L4_001"
+        description: "Political/social beliefs outside finance"
+        severity: "MINOR"
+        impact: "Low - scope limited to finance domain"
+
+  layer_5_mental_models:
+    description: "Frameworks and thinking patterns"
+    status: "Complete"
+    sources_count: 10
+    confidence: "HIGH"
+    coverage_summary:
+      - "Conscious Spending Plan (50-60%, 10%, 5-10%)"
+      - "Money Dials framework"
+      - "$30k vs $3 questions"
+      - "Invisible scripts"
+      - "Automation as behavior design"
+      - "Investment hierarchy"
+      - "85% Solution"
+      - "Stupid Mistakes sub-account"
+    gaps:
+      - gap_id: "GAP_L5_001"
+        description: "Full 6-week program step-by-step (need book)"
+        severity: "SIGNIFICANT"
+        impact: "Medium - affects tactical completeness"
+      - gap_id: "GAP_L5_002"
+        description: "10-step couples plan details (need book)"
+        severity: "SIGNIFICANT"
+        impact: "Medium - couples domain incomplete"
+
+  layer_6_values:
+    description: "Core values revealed through sacrifice"
+    status: "Partial"
+    sources_count: 6
+    confidence: "MEDIUM"
+    coverage_summary:
+      - "Guilt-free spending (brand built on this)"
+      - "Psychology over tactics (Stanford choice)"
+      - "Living fully (anti-frugality stance)"
+      - "Authenticity (Netflix creative control)"
+      - "Action over perfection"
+    gaps:
+      - gap_id: "GAP_L6_001"
+        description: "More sacrifice stories needed for validation"
+        severity: "SIGNIFICANT"
+        impact: "Medium - values validated but could be deeper"
+        notes: "Only 1 explicit sacrifice story (Netflix negotiation)"
+      - gap_id: "GAP_L6_002"
+        description: "What has he given up for his values?"
+        severity: "MEDIUM"
+        impact: "Medium - strengthens authenticity"
+
+  layer_7_obsessions:
+    description: "Recurring themes and compulsive interests"
+    status: "Complete"
+    sources_count: 10
+    confidence: "HIGH"
+    coverage_summary:
+      - "Invisible scripts (appears everywhere)"
+      - "Automation (core methodology)"
+      - "Big wins (signature phrase)"
+      - "Couples and money (240+ episodes)"
+      - "Psychology of money (foundational)"
+    gaps:
+      - gap_id: "GAP_L7_001"
+        description: "Evolution of obsessions over time"
+        severity: "MINOR"
+        impact: "Low - temporal patterns partially documented"
+
+  layer_8_contradictions:
+    description: "Paradoxes and productive tensions"
+    status: "Complete"
+    sources_count: 8
+    confidence: "HIGH"
+    coverage_summary:
+      - "Spend extravagantly vs cut ruthlessly (values-based)"
+      - "Start imperfect vs build structured systems"
+      - "Automation vs intentionality"
+      - "Personal responsibility vs systemic awareness"
+    gaps:
+      - gap_id: "GAP_L8_001"
+        description: "Counter-evidence actively sought?"
+        severity: "MINOR"
+        impact: "Low - contradictions documented well"
+
+# =============================================================================
+# PHASE 2: SOURCE TYPE GAP ANALYSIS
+# =============================================================================
+
+source_type_coverage:
+
+  books_authored:
+    expected: 3
+    collected: 0
+    gap: "3 books identified but not acquired"
+    priority: "HIGH"
+    details:
+      - "IWTYTBR 2nd Edition - to_acquire"
+      - "Money for Couples - to_acquire"
+      - "The Journal - to_acquire (lower priority)"
+
+  long_form_interviews:
+    expected: "10+"
+    collected: 6
+    gap: "Good coverage but could expand"
+    priority: "MEDIUM"
+    details:
+      - "Tim Ferriss #524 - available"
+      - "Tim Ferriss #371 - available"
+      - "Tim Ferriss #33 - referenced but not fully mined"
+      - "Barry Ritholtz - available"
+      - "Morningstar - available"
+      - "Pat Flynn SPI - available"
+
+  written_articles_blogs:
+    expected: "100+"
+    collected: 2
+    gap: "Blog archive not systematically mined"
+    priority: "MEDIUM"
+    details:
+      - "Ultimate Guide - used"
+      - "About Page - used"
+      - "Early blog posts (2004-2010) - NOT MINED"
+
+  speeches_presentations:
+    expected: "Unknown"
+    collected: 0
+    gap: "No keynote/conference content"
+    priority: "LOW"
+    details:
+      - "May not add significant new content"
+
+  video_content:
+    expected: "500+ videos"
+    collected: 1
+    gap: "YouTube channel not systematically mined"
+    priority: "MEDIUM"
+    details:
+      - "Netflix series - used"
+      - "YouTube - available but not mined"
+
+  academic_research:
+    expected: "N/A"
+    collected: 0
+    gap: "N/A - not academic"
+    priority: "N/A"
+
+  third_party_profiles:
+    expected: "10+"
+    collected: 5
+    gap: "Good coverage"
+    priority: "LOW"
+    details:
+      - "CNBC, Fortune, Entrepreneur, Radio Times"
+
+  failure_stories:
+    expected: "5+"
+    collected: 1
+    gap: "Only scholarship loss story documented"
+    priority: "HIGH"
+    details:
+      - "Origin story (scholarship loss) - documented"
+      - "Business failures? - NOT DOCUMENTED"
+      - "Relationship failures? - NOT DOCUMENTED"
+      - "Content that flopped? - NOT DOCUMENTED"
+
+  early_career_content:
+    expected: "Unknown"
+    collected: 1
+    gap: "Pre-2015 content sparse"
+    priority: "MEDIUM"
+    details:
+      - "NPR 2008 - referenced"
+      - "Early blog posts - NOT MINED"
+      - "First book edition (2009) - NOT COMPARED"
+
+  recent_content:
+    expected: "High"
+    collected: "Good"
+    gap: "Adequate coverage"
+    priority: "LOW"
+    details:
+      - "2023-2025 well covered"
+      - "Netflix, recent interviews, new book"
+
+# =============================================================================
+# PHASE 3: VALIDATION GAP ANALYSIS
+# =============================================================================
+
+unvalidated_claims:
+
+  - claim_id: "CLM_013"
+    claim: "50% of couples on podcast don't know their household income"
+    importance: "MEDIUM"
+    current_sources: 2
+    sources_needed: 3
+    gap_severity: "MEDIUM"
+    status: "PARTIAL"
+    suggested_sources:
+      - "Academic research on financial literacy"
+      - "Other financial podcasts with couples data"
+      - "Survey data on household financial awareness"
+    notes: "Self-reported from his own podcast - needs external validation"
+
+  - claim_id: "CLM_015"
+    claim: "Negotiated creative control with Netflix to maintain message integrity"
+    importance: "MEDIUM"
+    current_sources: 2
+    sources_needed: 3
+    gap_severity: "MINOR"
+    status: "PARTIAL"
+    suggested_sources:
+      - "Entertainment industry coverage"
+      - "Netflix deal details"
+      - "Producer/director interviews"
+    notes: "Mentioned but details limited"
+
+  - claim_id: "CLM_NEW_001"
+    claim: "BJ Fogg B=MAP model directly taught to Ramit at Stanford"
+    importance: "HIGH"
+    current_sources: 1
+    sources_needed: 3
+    gap_severity: "MEDIUM"
+    status: "INFERRED"
+    suggested_sources:
+      - "Stanford Persuasive Technology Lab records"
+      - "Direct confirmation from interviews"
+      - "BJ Fogg acknowledgment"
+    notes: "Connection established but direct mentorship unconfirmed"
+
+# =============================================================================
+# PHASE 4: TEMPORAL GAP ANALYSIS
+# =============================================================================
+
+temporal_coverage:
+  earliest_source_date: "2008"
+  latest_source_date: "2025"
+  total_time_span: "17 years"
+
+  coverage_by_period:
+    - period: "Early career (2004-2010)"
+      sources_count: 2
+      coverage: "Gap"
+      what_we_know:
+        - "Started blog during Stanford undergrad (2004)"
+        - "Lost scholarship money in stocks"
+        - "Self-funded education via 60+ scholarships"
+        - "First book published (2009)"
+        - "Basic philosophy already articulated (NPR 2008)"
+      what_we_dont_know:
+        - "Evolution of thinking from 2004-2009"
+        - "Early blog post content and tone"
+        - "First book vs second edition differences"
+        - "What didn't work initially"
+
+    - period: "Mid career (2010-2018)"
+      sources_count: 3
+      coverage: "Partial"
+      what_we_know:
+        - "Built course business (Earnable, etc.)"
+        - "Refined messaging"
+        - "Tim Ferriss relationship established"
+      what_we_dont_know:
+        - "Business growth trajectory"
+        - "Pivots or failed products"
+        - "When couples focus emerged"
+
+    - period: "Recent (2019-2025)"
+      sources_count: 10
+      coverage: "Good"
+      what_we_know:
+        - "Second edition book (2019)"
+        - "Podcast evolution to couples (2018+)"
+        - "Netflix series (2023)"
+        - "Money for Couples book (2024)"
+        - "Current philosophy well documented"
+      what_we_dont_know:
+        - "Netflix deal negotiation details"
+        - "Why couples focus intensified"
+        - "Future direction indicators"
+
+  temporal_gaps:
+    - period: "2004-2010"
+      significance: "HIGH"
+      what_might_have_happened: "Core philosophy formation, early failures, initial audience building"
+      sources_to_seek:
+        - "Early blog archives (Wayback Machine)"
+        - "First edition IWTYTBR for comparison"
+        - "Early podcast appearances"
+
+    - period: "2010-2015"
+      significance: "MEDIUM"
+      what_might_have_happened: "Course business scaling, premium positioning established"
+      sources_to_seek:
+        - "Business press coverage from that era"
+        - "Product launch retrospectives"
+
+evolution_gaps:
+  - topic: "Couples focus"
+    early_position_known: false
+    current_position_known: true
+    transition_documented: false
+    gap: "When and why did couples become primary focus?"
+    importance: "MEDIUM"
+
+  - topic: "Premium pricing stance"
+    early_position_known: false
+    current_position_known: true
+    transition_documented: false
+    gap: "Evolution of 'big wins' to premium course pricing"
+    importance: "LOW"
+
+  - topic: "Anti-frugality positioning"
+    early_position_known: true
+    current_position_known: true
+    transition_documented: true
+    gap: "None - consistent since 2008"
+    importance: "NONE"
+
+# =============================================================================
+# PHASE 5: CONTRADICTION GAP ANALYSIS
+# =============================================================================
+
+unresolved_contradictions:
+  - contradiction_id: "CON_RESOLVED_001"
+    description: "Start imperfect vs structured systems"
+    status: "Resolved"
+    resolution: "Structure enables freedom - resolved as productive tension"
+    needs: []
+
+  - contradiction_id: "CON_RESOLVED_002"
+    description: "Spend extravagantly vs cut ruthlessly"
+    status: "Resolved"
+    resolution: "Values-based allocation - both true simultaneously"
+    needs: []
+
+  - contradiction_id: "CON_RESOLVED_003"
+    description: "Individual vs systemic responsibility"
+    status: "Resolved"
+    resolution: "Both and - work on controllable while acknowledging structural"
+    needs: []
+
+missing_counter_evidence:
+  - claim: "Automation always works"
+    current_stance: "All sources agree automation is beneficial"
+    counter_evidence_sought: false
+    potential_disconfirming_sources:
+      - "Failed automation stories from podcast"
+      - "Critics of 'set it and forget it' approach"
+      - "Cases where automation caused problems"
+    gap_risk: "Potential confirmation bias - need failure cases"
+
+  - claim: "Psychology-first is always better than tactics"
+    current_stance: "Consistent messaging"
+    counter_evidence_sought: false
+    potential_disconfirming_sources:
+      - "Cases where tactics mattered more"
+      - "Academic research on financial education"
+    gap_risk: "Low - philosophy claim, not factual"
+
+# =============================================================================
+# PHASE 6: UNKNOWN UNKNOWNS EXPLORATION
+# =============================================================================
+
+adjacent_domain_gaps:
+  - domain: "Financial therapy field"
+    relevance: "HIGH - Ramit does similar work"
+    potential_sources:
+      - "Financial Therapy Association"
+      - "Academic financial therapy research"
+      - "Comparison to licensed financial therapists"
+    priority: "MEDIUM"
+
+  - domain: "Behavioral economics academic literature"
+    relevance: "HIGH - foundation of his approach"
+    potential_sources:
+      - "Dan Ariely, Richard Thaler work"
+      - "Comparison of his methods to academic research"
+    priority: "LOW"
+
+  - domain: "Competitors' perspectives"
+    relevance: "MEDIUM - positioning context"
+    potential_sources:
+      - "Dave Ramsey methodology comparison"
+      - "FIRE movement critiques"
+      - "Suze Orman approach differences"
+    priority: "LOW"
+
+perspective_gaps:
+  - perspective: "Critics/opponents"
+    sources_collected: 0
+    gap: "No critical perspectives collected"
+    importance: "MEDIUM"
+    notes: "Should seek critique for balance"
+
+  - perspective: "Collaborators/partners"
+    sources_collected: 1
+    gap: "Limited - Tim Ferriss is only documented collaborator"
+    importance: "LOW"
+
+  - perspective: "Students/customers"
+    sources_collected: 2
+    gap: "Limited to podcast couples"
+    importance: "MEDIUM"
+    notes: "Course student testimonials not systematically collected"
+
+  - perspective: "Family/personal"
+    sources_collected: 0
+    gap: "Wife Cass mentioned but not interviewed"
+    importance: "LOW"
+    notes: "Appropriately private - acceptable gap"
+
+unasked_questions:
+  - question: "What would Ramit tell his younger self?"
+    why_important: "Reveals lessons learned, potential failures"
+    sources_that_might_answer:
+      - "Long-form interviews (search for this question)"
+      - "Book introductions/conclusions"
+    priority: "MEDIUM"
+
+  - question: "What are Ramit's biggest failures/mistakes?"
+    why_important: "CRITICAL for Layer 6-8 depth"
+    sources_that_might_answer:
+      - "Podcast episodes discussing personal struggles"
+      - "Early blog reflections"
+      - "Netflix behind-the-scenes"
+    priority: "HIGH"
+
+  - question: "Who influenced Ramit most besides BJ Fogg?"
+    why_important: "Intellectual lineage completeness"
+    sources_that_might_answer:
+      - "Tim Ferriss interviews (mentors question)"
+      - "About pages"
+      - "Acknowledgments in books"
+    priority: "MEDIUM"
+
+  - question: "What does Ramit do but not teach?"
+    why_important: "Hidden curriculum discovery"
+    sources_that_might_answer:
+      - "Behavioral observation in video content"
+      - "Business model analysis"
+      - "Behind-the-scenes content"
+    priority: "MEDIUM"
+
+  - question: "What financial advice does Ramit NOT give?"
+    why_important: "Defines boundaries of expertise"
+    sources_that_might_answer:
+      - "Explicit disclaimers"
+      - "Topics he redirects on"
+    priority: "LOW"
+
+# =============================================================================
+# PHASE 7: GAP PRIORITIZATION
+# =============================================================================
+
+prioritized_gaps:
+
+  immediate_priority:
+    - gap_id: "GAP_SRC_001"
+      description: "Books not acquired (IWTYTBR, Money for Couples)"
+      reason: "Contains complete frameworks (6-week, 10-step)"
+      action: "Acquire both books for full content mining"
+      estimated_effort: "LOW (purchase/obtain)"
+      impact_if_unfilled: "HIGH - frameworks incomplete"
+
+    - gap_id: "GAP_SRC_002"
+      description: "Failure stories insufficient (only 1 documented)"
+      reason: "Critical for Layer 6-8 authenticity"
+      action: "Search podcast/interviews for failure discussions"
+      estimated_effort: "MEDIUM"
+      impact_if_unfilled: "MEDIUM - clone less complete"
+
+    - gap_id: "GAP_VAL_001"
+      description: "50% couples stat needs external validation"
+      reason: "Key claim used in marketing/authority"
+      action: "Research financial literacy studies"
+      estimated_effort: "LOW"
+      impact_if_unfilled: "LOW - can note as self-reported"
+
+  high_priority:
+    - gap_id: "GAP_L5_001"
+      description: "Full 6-week program step-by-step"
+      reason: "Tactical framework completeness"
+      action: "Extract from IWTYTBR book"
+      estimated_effort: "MEDIUM"
+      impact_if_unfilled: "MEDIUM"
+
+    - gap_id: "GAP_L5_002"
+      description: "10-step couples plan details"
+      reason: "Couples domain completeness"
+      action: "Extract from Money for Couples book"
+      estimated_effort: "MEDIUM"
+      impact_if_unfilled: "MEDIUM"
+
+    - gap_id: "GAP_TEMP_001"
+      description: "Early career content (2004-2010)"
+      reason: "Evolution tracking, early failures"
+      action: "Mine Wayback Machine, early interviews"
+      estimated_effort: "HIGH"
+      impact_if_unfilled: "LOW-MEDIUM"
+
+  medium_priority:
+    - gap_id: "GAP_L2_002"
+      description: "Specific negotiation scripts"
+      reason: "Tactical depth"
+      action: "Mine book and blog for specific scripts"
+      estimated_effort: "MEDIUM"
+      impact_if_unfilled: "LOW"
+
+    - gap_id: "GAP_PERSP_001"
+      description: "No critical perspectives collected"
+      reason: "Balance and completeness"
+      action: "Search for thoughtful critiques"
+      estimated_effort: "LOW"
+      impact_if_unfilled: "LOW"
+
+    - gap_id: "GAP_UNKNOWN_001"
+      description: "What Ramit does but doesn't teach"
+      reason: "Hidden curriculum"
+      action: "Observe business model patterns"
+      estimated_effort: "LOW"
+      impact_if_unfilled: "LOW"
+
+  low_priority:
+    - gap_id: "GAP_L1_001"
+      description: "Exact graduation year unclear"
+      reason: "Biographical completeness"
+      action: "Cross-reference if needed"
+      estimated_effort: "LOW"
+      impact_if_unfilled: "MINIMAL"
+
+    - gap_id: "GAP_L1_002"
+      description: "Family/personal background"
+      reason: "May be appropriately private"
+      action: "Accept gap or find public sources"
+      estimated_effort: "N/A"
+      impact_if_unfilled: "MINIMAL"
+
+  acceptable_gaps:
+    - gap_id: "GAP_ACC_001"
+      description: "Personal/family details"
+      why_acceptable: "Appropriately private - not needed for finance clone"
+
+    - gap_id: "GAP_ACC_002"
+      description: "Academic research comparison"
+      why_acceptable: "Scope creep - focus on Ramit's actual content"
+
+    - gap_id: "GAP_ACC_003"
+      description: "Course content (paid access)"
+      why_acceptable: "Public content sufficient for clone; courses are tactical refinement"
+
+    - gap_id: "GAP_ACC_004"
+      description: "Competitor detailed methodology"
+      why_acceptable: "Focus on Ramit, not field comparison"
+
+# =============================================================================
+# PHASE 8: GAP RESOLUTION PLAN
+# =============================================================================
+
+source_acquisition_plan:
+
+  - gap_id: "GAP_SRC_001"
+    gap_description: "Books not acquired"
+    priority: "IMMEDIATE"
+    sources_to_seek:
+      - source_type: "Book"
+        specific_target: "I Will Teach You to Be Rich (2nd Ed)"
+        where_to_find: "Amazon, library, digital version"
+        acquisition_method: "Purchase or library loan"
+      - source_type: "Book"
+        specific_target: "Money for Couples"
+        where_to_find: "Amazon, library"
+        acquisition_method: "Purchase or library loan"
+    estimated_effort: "LOW"
+    success_likelihood: "HIGH"
+    fallback_if_unavailable: "Use summaries and reviews (tertiary)"
+
+  - gap_id: "GAP_SRC_002"
+    gap_description: "Failure stories insufficient"
+    priority: "IMMEDIATE"
+    sources_to_seek:
+      - source_type: "Podcast episodes"
+        specific_target: "Episodes discussing personal struggles"
+        where_to_find: "IWTYTBR podcast archives"
+        acquisition_method: "Search episode titles/descriptions"
+      - source_type: "Interview segments"
+        specific_target: "Tim Ferriss 'biggest failure' questions"
+        where_to_find: "Transcript search"
+        acquisition_method: "Grep transcripts"
+    estimated_effort: "MEDIUM"
+    success_likelihood: "MEDIUM"
+    fallback_if_unavailable: "Document scholarship loss as primary; note gap"
+
+  - gap_id: "GAP_TEMP_001"
+    gap_description: "Early career content"
+    priority: "HIGH"
+    sources_to_seek:
+      - source_type: "Archived content"
+        specific_target: "Early blog posts (2004-2010)"
+        where_to_find: "Wayback Machine"
+        acquisition_method: "Archive search"
+      - source_type: "First edition book"
+        specific_target: "IWTYTBR (2009 edition)"
+        where_to_find: "Used bookstores"
+        acquisition_method: "Purchase for comparison"
+    estimated_effort: "HIGH"
+    success_likelihood: "MEDIUM"
+    fallback_if_unavailable: "Accept temporal gap; note evolution is inferred"
+
+  - gap_id: "GAP_VAL_001"
+    gap_description: "50% couples stat external validation"
+    priority: "MEDIUM"
+    sources_to_seek:
+      - source_type: "Academic research"
+        specific_target: "Financial literacy surveys"
+        where_to_find: "Google Scholar, NBER"
+        acquisition_method: "Search"
+      - source_type: "Survey data"
+        specific_target: "Household financial awareness studies"
+        where_to_find: "Federal Reserve surveys"
+        acquisition_method: "Government data"
+    estimated_effort: "LOW"
+    success_likelihood: "MEDIUM"
+    fallback_if_unavailable: "Note as self-reported observation"
+
+# =============================================================================
+# VALIDATION GATES
+# =============================================================================
+
+validation_gates:
+  gate_1_all_8_layers_assessed: true
+  gate_2_source_type_coverage_analyzed: true
+  gate_3_unvalidated_claims_inventoried: true
+  gate_4_temporal_coverage_assessed: true
+  gate_5_contradictions_gap_analyzed: true
+  gate_6_unknown_unknowns_explored: true
+  gate_7_gaps_prioritized: true
+  gate_8_resolution_plan_created: true
+  gate_9_human_checkpoint: "AUTO_MODE - proceeding with documented gaps"
+
+# =============================================================================
+# SUMMARY
+# =============================================================================
+
+summary:
+  total_gaps_identified: 23
+  critical_gaps: 3
+  high_priority_gaps: 3
+  medium_priority_gaps: 3
+  low_priority_gaps: 2
+  acceptable_gaps: 4
+
+  layer_coverage_assessment:
+    layers_complete: [1, 4, 5, 7, 8]  # 5 layers complete
+    layers_partial: [2, 3, 6]         # 3 layers partial
+    layers_missing: []                 # 0 layers missing
+
+  overall_readiness: "READY_TO_PROCEED"
+  confidence_level: "HIGH"
+
+  key_findings:
+    - "Core philosophy (Layers 4-5, 7-8) well documented"
+    - "Mental models and frameworks captured (need book for details)"
+    - "Values (Layer 6) need more sacrifice stories for depth"
+    - "Temporal coverage good for recent, sparse for early career"
+    - "No critical unresolved contradictions"
+
+  recommendation: |
+    PROCEED TO NEXT TASK with documented gaps.
+
+    For Phase 2 (Behavioral Analysis):
+    - Use extracted patterns as foundation
+    - Note gaps in failure stories during behavioral analysis
+    - Flag when additional sources needed
+
+    Gaps can be filled incrementally or during source-acquisition phase (if activated).
+
+task_status: "COMPLETE"

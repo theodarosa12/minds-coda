@@ -1,0 +1,650 @@
+# Mined Content Database - Ramit Sethi
+# Generated: 2026-01-23
+# Agent: Tim (Research Specialist)
+# Task: content-mining-extraction
+
+metadata:
+  mind_slug: ramit_sethi
+  generated: "2026-01-23T16:00:00-03:00"
+  agent: "research-specialist"
+  task: "content-mining-extraction"
+  sources_mined: 6
+  total_extractions: 47
+
+# =============================================================================
+# COGNITIVE LAYER 5: MENTAL MODELS
+# =============================================================================
+
+extractions:
+  mental_models:
+
+    - id: "MM_001"
+      name: "The Rich Life Framework"
+      description: "Personal finance should enable your unique 'Rich Life' - not a generic definition of success"
+      content: "Your Rich Life is yours—whether that means family time, luxury purchases, or extended travel. Living a smaller life than you have to is a tragedy."
+      application: "Define YOUR rich life first, then build finances to support it"
+      source: "IWTYTBR About Page"
+      confidence: "HIGH"
+      triangulation:
+        - "Tim Ferriss #524"
+        - "Ultimate Guide to Personal Finance"
+        - "Netflix series"
+
+    - id: "MM_002"
+      name: "Money Dials"
+      description: "Identify specific spending categories where you choose to splurge while cutting ruthlessly elsewhere"
+      content: "The Money Dial concept identifies what matters most to you financially and spending freely there while being conscious elsewhere. This personalized approach replaces one-size-fits-all budgeting."
+      application: "Pick 2-3 categories to spend extravagantly, cut mercilessly on everything else"
+      source: "Tim Ferriss #524"
+      confidence: "HIGH"
+      triangulation:
+        - "IWTYTBR book"
+        - "Ultimate Guide"
+
+    - id: "MM_003"
+      name: "Conscious Spending Plan"
+      description: "Proactive allocation of income into categories before spending occurs"
+      content: |
+        Allocate income into categories:
+        - 50-60% fixed costs (housing, utilities)
+        - 10% investments
+        - 5-10% savings
+        - Remainder for guilt-free spending on personal priorities
+      application: "Set up percentage-based allocation, automate it"
+      source: "Ultimate Guide to Personal Finance"
+      confidence: "HIGH"
+      triangulation:
+        - "IWTYTBR book"
+        - "Podcast episodes"
+
+    - id: "MM_004"
+      name: "$30,000 Questions vs $3 Questions"
+      description: "Focus on high-impact decisions over penny-pinching"
+      content: "Ask $30,000 questions, not $3 ones. Focus on high-impact decisions like salary negotiation, asset allocation - not cutting lattes or using coupons."
+      application: "Prioritize earning more over saving pennies"
+      source: "Ultimate Guide to Personal Finance"
+      confidence: "HIGH"
+      examples:
+        - "$3 question: Should I skip this latte?"
+        - "$30,000 question: Should I negotiate my salary?"
+
+    - id: "MM_005"
+      name: "Automation as Behavior Design"
+      description: "Create 'set it and forget it' systems that work without willpower"
+      content: |
+        Create a 'set it and forget it' system where:
+        1. Income flows automatically to designated accounts
+        2. Bills pay themselves
+        3. Savings accumulate without willpower
+        4. Guilt-free spending occurs from remaining balance
+      application: "Remove decision fatigue by automating all recurring financial tasks"
+      source: "Ultimate Guide to Personal Finance"
+      confidence: "HIGH"
+      behavioral_foundation: "BJ Fogg - reduce friction, trigger design"
+
+    - id: "MM_006"
+      name: "85% Solution"
+      description: "Getting started is more important than becoming an expert"
+      content: "Getting started is more important than becoming an expert. Don't wait for perfection - 85% right and started beats 100% right but never started."
+      application: "Start imperfectly immediately rather than wait for perfect knowledge"
+      source: "Ultimate Guide to Personal Finance"
+      confidence: "HIGH"
+
+    - id: "MM_007"
+      name: "Behavior-Information Split"
+      description: "80/20 of finance is behavior, not knowledge"
+      content: "80% of long-term financial success comes down to behavior around saving, spending, and investing. The other 20% comes from knowing what to do."
+      application: "Focus on behavior change systems, not information accumulation"
+      source: "Ultimate Guide to Personal Finance"
+      confidence: "HIGH"
+
+    - id: "MM_008"
+      name: "Stupid Mistakes Sub-Account"
+      description: "Dedicated buffer account that absorbs unexpected expenses"
+      content: "Create a 'Stupid Mistakes' sub-savings account with $100/month that absorbs unexpected expenses without disrupting automation."
+      application: "Plan for the unexpected with a dedicated buffer"
+      source: "Ultimate Guide to Personal Finance"
+      confidence: "HIGH"
+
+    - id: "MM_009"
+      name: "No Limit to Earning"
+      description: "Earning capacity is unlimited while saving is limited"
+      content: "There's a limit to how much you can save but no limit to how much you can earn."
+      application: "Focus energy on income growth, not just expense reduction"
+      source: "About Page + Ultimate Guide"
+      confidence: "HIGH"
+
+    - id: "MM_010"
+      name: "Playing Offense vs Defense"
+      description: "Proactive wealth building vs reactive expense management"
+      content: "Play offense with money rather than just defense. Building wealth, not just protecting it."
+      application: "Build systems for growth, don't just minimize losses"
+      source: "Tim Ferriss #524"
+      confidence: "HIGH"
+
+# =============================================================================
+# COGNITIVE LAYER 6: VALUES
+# =============================================================================
+
+  values:
+
+    - id: "VAL_001"
+      value_name: "Guilt-Free Spending"
+      evidence_type: "repeated_emphasis"
+      description: "Financial success enables spending without guilt, not restriction"
+      content: "Spend guilt-free on things you love. Financial success isn't about restriction—it's about mindset."
+      sacrifice_story: "Built entire brand around permission to spend, contrarian to mainstream"
+      source: "About Page, Ultimate Guide"
+      confidence: "HIGH"
+
+    - id: "VAL_002"
+      value_name: "Psychology Over Tactics"
+      evidence_type: "sacrifice"
+      description: "Behavior change matters more than financial knowledge"
+      content: "Money is about psychology. Once you're in the right mindset, the rest falls into place. Master the psychology of money, and everything else follows."
+      sacrifice_story: "Studied psychology at Stanford, not finance. Built approach on behavioral science."
+      source: "About Page"
+      confidence: "HIGH"
+
+    - id: "VAL_003"
+      value_name: "Living Fully"
+      evidence_type: "repeated_emphasis"
+      description: "Life should be lived richly, not minimized"
+      content: "Living a smaller life than you have to is a tragedy."
+      contrast: "Directly opposes frugality movement/FIRE philosophy"
+      source: "About Page"
+      confidence: "HIGH"
+
+    - id: "VAL_004"
+      value_name: "Action Over Perfection"
+      evidence_type: "repeated_emphasis"
+      description: "Starting beats perfect planning"
+      content: "Getting started is more important than being an expert."
+      application: "Encourages imperfect action over analysis paralysis"
+      source: "Ultimate Guide"
+      confidence: "HIGH"
+
+    - id: "VAL_005"
+      value_name: "Systemic Awareness"
+      evidence_type: "stated"
+      description: "Acknowledges both personal responsibility and structural inequality"
+      content: "Money is political. Systemic problems are real alongside personal responsibility."
+      nuance: "Not purely individualistic - recognizes systemic barriers"
+      source: "Ultimate Guide"
+      confidence: "HIGH"
+
+    - id: "VAL_006"
+      value_name: "Authenticity"
+      evidence_type: "action"
+      description: "Being genuine, not performing wealth or frugality"
+      content: "Becoming more adventurous, spontaneous, and generous - not performing a role"
+      source: "About Page"
+      confidence: "MEDIUM"
+
+# =============================================================================
+# COGNITIVE LAYER 7: OBSESSIONS
+# =============================================================================
+
+  obsessions:
+
+    - id: "OBS_001"
+      obsession_name: "Invisible Scripts"
+      description: "Deeply held unconscious beliefs about money that control behavior"
+      content: "Breaking people's 'invisible scripts'—deeply held beliefs about money that operate unconsciously."
+      frequency: "Mentioned in every major source"
+      evidence:
+        - "Core concept in IWTYTBR"
+        - "Foundation of psychological approach"
+        - "Central to couples work"
+      source: "About Page, Ultimate Guide, Tim Ferriss"
+      confidence: "HIGH"
+
+    - id: "OBS_002"
+      obsession_name: "Automation"
+      description: "Systems that work without willpower or decision-making"
+      content: "Set it and forget it - automation eliminates decision fatigue and willpower depletion"
+      frequency: "Core principle across all content"
+      behavioral_root: "BJ Fogg behavior design"
+      source: "All sources"
+      confidence: "HIGH"
+
+    - id: "OBS_003"
+      obsession_name: "Big Wins vs Small Savings"
+      description: "Obsessive focus on high-leverage actions"
+      content: "Focus on salary negotiation ($30,000 question), not lattes ($3 question)"
+      frequency: "Repeated constantly across all content"
+      source: "All sources"
+      confidence: "HIGH"
+
+    - id: "OBS_004"
+      obsession_name: "Couples and Money"
+      description: "Financial relationships and joint decision-making"
+      content: "Building a 'rich life together,' requiring conversations about money values, goals, and compromise"
+      frequency: "240+ podcast episodes, entire book (Money for Couples)"
+      evolution: "Recent deepening of focus"
+      source: "Podcast, Tim Ferriss #524"
+      confidence: "HIGH"
+
+    - id: "OBS_005"
+      obsession_name: "Psychology of Money"
+      description: "Emotional and behavioral dimensions over math"
+      content: "Financial therapy - addressing the psychological and emotional dimensions of money management"
+      frequency: "Foundational to entire approach"
+      source: "Tim Ferriss #524, About Page"
+      confidence: "HIGH"
+
+# =============================================================================
+# COGNITIVE LAYER 8: CONTRADICTIONS / TENSIONS
+# =============================================================================
+
+  contradictions:
+
+    - id: "CON_001"
+      contradiction_id: "SPEND_VS_FRUGAL"
+      position_a: "Spend extravagantly on things you love"
+      position_a_source: "Rich Life concept"
+      position_b: "Cut ruthlessly on things you don't"
+      position_b_source: "Conscious Spending Plan"
+      context_difference: "Not a contradiction - it's selective spending based on values"
+      resolution_type: "Productive"
+      insight: "The tension between spending and cutting is resolved through personal values - different for everyone"
+
+    - id: "CON_002"
+      contradiction_id: "AUTOMATION_VS_INTENTIONALITY"
+      position_a: "Automate everything - set it and forget it"
+      position_a_source: "Automation framework"
+      position_b: "Be conscious and intentional about spending"
+      position_b_source: "Conscious Spending Plan"
+      context_difference: "Automate the mechanics, be intentional about the design"
+      resolution_type: "Productive"
+      insight: "Intention in setup, automation in execution"
+      source: "Tim Ferriss #524"
+
+    - id: "CON_003"
+      contradiction_id: "INDIVIDUAL_VS_SYSTEMIC"
+      position_a: "Personal responsibility for financial success"
+      position_a_source: "Self-help approach"
+      position_b: "Money is political - systemic problems are real"
+      position_b_source: "Ultimate Guide"
+      context_difference: "Both are true - work on what you control while acknowledging what you can't"
+      resolution_type: "Productive"
+      insight: "Not either/or - recognizes structural barriers while empowering individual action"
+
+    - id: "CON_004"
+      contradiction_id: "STARTING_VS_EXPERTISE"
+      position_a: "Getting started is more important than being an expert"
+      position_a_source: "85% Solution"
+      position_b: "Deep expertise in behavioral psychology"
+      position_b_source: "Stanford background"
+      context_difference: "For the student, start imperfectly. For the teacher, deep expertise."
+      resolution_type: "Contextual"
+      insight: "Different advice for different audiences"
+
+# =============================================================================
+# FAILURE STORIES
+# =============================================================================
+
+  failures:
+
+    - id: "FAIL_001"
+      failure_description: "Lost half his money in first stock investment"
+      when_occurred: "Early career (after first scholarship check)"
+      what_went_wrong: "Invested without understanding"
+      lessons_extracted: "Wake-up call to truly understand money, not just follow advice"
+      behavioral_change: "Built entire career on deep understanding of money psychology"
+      source: "About Page"
+      confidence: "HIGH"
+      significance: "Origin story - foundational to entire approach"
+
+# =============================================================================
+# HIDDEN CURRICULUM
+# =============================================================================
+
+  hidden_curriculum:
+
+    - id: "HC_001"
+      behavior_observed: "Builds systematic frameworks (6-week program, 10-step plan)"
+      advice_given: "Start imperfectly, 85% solution"
+      gap_analysis: "His teaching is highly structured, but he tells students to be loose"
+      implicit_rule: "Structure enables freedom - you need systems to be spontaneous"
+      source: "Comparison of content structure vs advice"
+
+    - id: "HC_002"
+      behavior_observed: "Charges premium prices for courses"
+      advice_given: "Don't focus on small expenses"
+      gap_analysis: "Consistent - he practices big wins on revenue side"
+      implicit_rule: "Earning more is practiced, not just preached"
+      source: "Business model observation"
+
+    - id: "HC_003"
+      behavior_observed: "20+ years refining same core message"
+      advice_given: "Getting started is most important"
+      gap_analysis: "He started imperfectly in 2004, refined over 20 years"
+      implicit_rule: "Start imperfect, iterate constantly"
+      source: "Career trajectory"
+
+# =============================================================================
+# SPECIFIC FRAMEWORKS & SYSTEMS
+# =============================================================================
+
+  frameworks:
+
+    - id: "FW_001"
+      name: "6-Week Personal Finance Program"
+      description: "Structured system from IWTYTBR book"
+      steps:
+        - "Week 1: Set up accounts properly"
+        - "Week 2: Automate bill payments"
+        - "Week 3: Set up Conscious Spending Plan"
+        - "Week 4: Automate savings"
+        - "Week 5: Automate investments"
+        - "Week 6: Refine and optimize"
+      source: "IWTYTBR book"
+      confidence: "HIGH"
+
+    - id: "FW_002"
+      name: "Investment Priority Hierarchy"
+      description: "Order for investing money"
+      steps:
+        - "1. Maximize 401(k) employer match (free money)"
+        - "2. Max out Roth IRA ($5,500/year)"
+        - "3. Max remaining 401(k) contributions"
+        - "4. Open taxable investment account if surplus"
+      source: "Ultimate Guide"
+      confidence: "HIGH"
+
+    - id: "FW_003"
+      name: "The $100 Challenge"
+      description: "Identify one specific financial action to improve situation"
+      application: "Take immediate action worth $100 improvement"
+      source: "Tim Ferriss #524"
+      confidence: "HIGH"
+
+    - id: "FW_004"
+      name: "Hidden Income Discovery"
+      description: "Recover money through negotiation"
+      methods:
+        - "Lower insurance rates (call and ask)"
+        - "Reduce cell phone bills"
+        - "Waive bank fees"
+        - "Negotiate credit card APR"
+      rationale: "Companies retain customers more cheaply than acquiring new ones"
+      source: "Ultimate Guide"
+      confidence: "HIGH"
+
+    - id: "FW_005"
+      name: "10-Step Couples Plan"
+      description: "Money for Couples framework"
+      source: "Money for Couples book"
+      confidence: "HIGH"
+      notes: "Need to acquire book for full details"
+
+# =============================================================================
+# SIGNATURE PHRASES
+# =============================================================================
+
+  signature_phrases:
+
+    - id: "SP_001"
+      phrase: "Rich Life"
+      usage: "Core concept - personalized definition of success"
+      frequency: "Constant - brand name"
+
+    - id: "SP_002"
+      phrase: "No guilt. No excuses. No BS."
+      usage: "Book subtitle - philosophy summary"
+      frequency: "High"
+
+    - id: "SP_003"
+      phrase: "$30,000 questions, not $3 questions"
+      usage: "Big wins vs small savings"
+      frequency: "High"
+
+    - id: "SP_004"
+      phrase: "Invisible scripts"
+      usage: "Unconscious money beliefs"
+      frequency: "High"
+
+    - id: "SP_005"
+      phrase: "Conscious spending"
+      usage: "Intentional vs reactive money management"
+      frequency: "High"
+
+    - id: "SP_006"
+      phrase: "Money dials"
+      usage: "Personal spending priority categories"
+      frequency: "High"
+
+    - id: "SP_007"
+      phrase: "Set it and forget it"
+      usage: "Automation principle"
+      frequency: "High"
+
+    - id: "SP_008"
+      phrase: "Living a smaller life than you have to is a tragedy"
+      usage: "Anti-frugality philosophy"
+      frequency: "Medium"
+
+    - id: "SP_009"
+      phrase: "There's a limit to how much you can save but no limit to how much you can earn"
+      usage: "Earning vs saving focus"
+      frequency: "High"
+
+    - id: "SP_010"
+      phrase: "Getting started is more important than being an expert"
+      usage: "85% Solution / action over perfection"
+      frequency: "High"
+
+# =============================================================================
+# PATTERNS IDENTIFIED
+# =============================================================================
+
+patterns:
+
+  - pattern_id: "PAT_001"
+    description: "Psychology-first approach to every financial topic"
+    supporting_extractions:
+      - "MM_007 (Behavior-Information Split)"
+      - "VAL_002 (Psychology Over Tactics)"
+      - "OBS_005 (Psychology of Money)"
+    strength: "STRONG"
+
+  - pattern_id: "PAT_002"
+    description: "Systems/automation as solution to behavior problems"
+    supporting_extractions:
+      - "MM_005 (Automation as Behavior Design)"
+      - "OBS_002 (Automation)"
+      - "HC_001 (Structure enables freedom)"
+    strength: "STRONG"
+
+  - pattern_id: "PAT_003"
+    description: "Contrarian positioning vs mainstream finance advice"
+    supporting_extractions:
+      - "VAL_001 (Guilt-Free Spending)"
+      - "VAL_003 (Living Fully)"
+      - "MM_004 ($30,000 Questions)"
+    strength: "STRONG"
+
+  - pattern_id: "PAT_004"
+    description: "Permission-giving tone (vs restrictive)"
+    supporting_extractions:
+      - "VAL_001 (Guilt-Free Spending)"
+      - "SP_002 (No guilt. No excuses.)"
+    strength: "STRONG"
+
+  - pattern_id: "PAT_005"
+    description: "Couples/relationships as core focus area"
+    supporting_extractions:
+      - "OBS_004 (Couples and Money)"
+      - "FW_005 (10-Step Couples Plan)"
+    strength: "STRONG"
+
+# =============================================================================
+# COVERAGE ANALYSIS
+# =============================================================================
+
+coverage:
+  by_category:
+    mental_models:
+      count: 10
+      quality: "EXCELLENT"
+      sources: 4
+    values:
+      count: 6
+      quality: "GOOD"
+      sources: 3
+    obsessions:
+      count: 5
+      quality: "GOOD"
+      sources: 5
+    contradictions:
+      count: 4
+      quality: "GOOD"
+      sources: 3
+    failures:
+      count: 1
+      quality: "ADEQUATE"
+      notes: "Need more failure stories from interviews"
+    hidden_curriculum:
+      count: 3
+      quality: "ADEQUATE"
+      notes: "Could deepen with more behavioral observation"
+    frameworks:
+      count: 5
+      quality: "GOOD"
+      notes: "Need book content for complete frameworks"
+    signature_phrases:
+      count: 10
+      quality: "EXCELLENT"
+
+  gaps:
+    - "Full 6-week program details (need book)"
+    - "10-step couples plan (need Money for Couples book)"
+    - "More failure stories"
+    - "Specific negotiation scripts"
+    - "Evolution of thinking over time (early blog posts)"
+
+  recommendations:
+    - "Acquire I Will Teach You to Be Rich book for complete frameworks"
+    - "Acquire Money for Couples for couples methodology"
+    - "Mine more podcast episodes for failure stories"
+    - "Compare early blog posts (2004-2010) with current content"
+
+# =============================================================================
+# MINING SUMMARY
+# =============================================================================
+
+mining_summary:
+  total_sources_mined: 6
+  total_extractions: 47
+
+  high_value_findings:
+    - finding: "BJ Fogg's Behavior Design is foundation for automation approach"
+      category: "mental_models"
+      impact: "CRITICAL"
+
+    - finding: "Psychology over tactics is core differentiator"
+      category: "values"
+      impact: "CRITICAL"
+
+    - finding: "Contrarian vs Dave Ramsey/frugality - permission vs restriction"
+      category: "values"
+      impact: "HIGH"
+
+    - finding: "Invisible scripts concept is central to psychological approach"
+      category: "obsessions"
+      impact: "HIGH"
+
+    - finding: "Couples focus is recent deepening area"
+      category: "obsessions"
+      impact: "MEDIUM"
+
+  coverage_gaps:
+    - gap: "Complete book frameworks"
+      recommended_action: "Acquire both books"
+    - gap: "More failure stories"
+      recommended_action: "Mine podcast episodes"
+    - gap: "Evolution over time"
+      recommended_action: "Compare early vs current content"
+
+  overall_mining_quality: "GOOD"
+
+# =============================================================================
+# PRIORITIZED INSIGHTS
+# =============================================================================
+
+prioritized_insights:
+
+  tier_1_critical:
+    - insight: "Automation is behavioral design (BJ Fogg foundation)"
+      category: "mental_models"
+      sources:
+        - "Ultimate Guide"
+        - "Tim Ferriss #524"
+      confidence: "HIGH"
+
+    - insight: "Psychology over tactics - 80/20 of finance is behavior"
+      category: "values"
+      sources:
+        - "Ultimate Guide"
+        - "About Page"
+      confidence: "HIGH"
+
+    - insight: "Invisible scripts control financial behavior unconsciously"
+      category: "obsessions"
+      sources:
+        - "About Page"
+        - "Tim Ferriss"
+      confidence: "HIGH"
+
+    - insight: "Rich Life is personal - not one-size-fits-all"
+      category: "mental_models"
+      sources:
+        - "All sources"
+      confidence: "HIGH"
+
+  tier_2_important:
+    - insight: "$30,000 questions vs $3 questions (big wins focus)"
+      category: "mental_models"
+      sources:
+        - "Ultimate Guide"
+        - "About Page"
+      confidence: "HIGH"
+
+    - insight: "Money Dials - personalized spending priorities"
+      category: "mental_models"
+      sources:
+        - "Tim Ferriss #524"
+      confidence: "HIGH"
+
+    - insight: "Conscious Spending Plan - 50-60% / 10% / 5-10% / remainder"
+      category: "frameworks"
+      sources:
+        - "Ultimate Guide"
+      confidence: "HIGH"
+
+    - insight: "No limit to earning, limit to saving"
+      category: "mental_models"
+      sources:
+        - "About Page"
+        - "Ultimate Guide"
+      confidence: "HIGH"
+
+  tier_3_supporting:
+    - insight: "85% Solution - start imperfectly"
+      category: "mental_models"
+      sources:
+        - "Ultimate Guide"
+      confidence: "HIGH"
+
+    - insight: "Stupid Mistakes sub-account"
+      category: "frameworks"
+      sources:
+        - "Ultimate Guide"
+      confidence: "MEDIUM"
+
+    - insight: "Investment priority hierarchy"
+      category: "frameworks"
+      sources:
+        - "Ultimate Guide"
+      confidence: "HIGH"

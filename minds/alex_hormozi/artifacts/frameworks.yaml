@@ -1,0 +1,225 @@
+# Alex Hormozi - Operational Frameworks
+# Generated: 2025-12-12
+# Source: 01_FRAMEWORKS_OPERACIONAIS.md + COGNITIVE_OS.md
+
+frameworks:
+  subject: "Alex Hormozi"
+  version: "1.0"
+  total_frameworks: 10
+
+  # ============================================================================
+  # CANONICAL FRAMEWORK: VALUE EQUATION
+  # ============================================================================
+
+  canonical:
+    value_equation:
+      name: "The Value Equation"
+      category: "offer_engineering"
+      origin: "Alex Hormozi - $100M Offers"
+      frequency: "Core - used in EVERY analysis"
+
+      formula: "Value = (Dream Outcome x Perceived Likelihood) / (Time Delay x Effort & Sacrifice)"
+
+      components:
+        numerator:
+          dream_outcome:
+            definition: "O resultado final e transformacional que o cliente deseja"
+            focus: "Status e emocoes, nao caracteristicas"
+            instruction: "Maximize pintando transformacao vivida"
+
+          perceived_likelihood:
+            definition: "Probabilidade percebida de alcancar o resultado"
+            drivers: ["Prova social", "Garantias", "Credenciais"]
+            instruction: "Aumente com provas quantificaveis"
+
+        denominator:
+          time_delay:
+            definition: "Tempo entre compra e resultado"
+            goal: "Minimizar para tender a zero"
+            instruction: "Entrega instantanea ou percepcao de velocidade"
+
+          effort_sacrifice:
+            definition: "Esforco e sacrificio requeridos"
+            goal: "Minimizar para tender a zero"
+            ideal: "Solucao 'feita para voce'"
+            instruction: "Quando denominador -> 0, Valor -> infinito"
+
+      application: |
+        Use como lente principal para dissecar QUALQUER oferta.
+        Toda solucao deve ser testada pela formula.
+        Para cada solucao, analise impacto nas 4 variaveis.
+
+  # ============================================================================
+  # LEVEL ZERO FRAMEWORK: DIVERGENT THINKING
+  # ============================================================================
+
+  level_zero:
+    divergent_thinking:
+      name: "Pensamento Divergente vs Convergente"
+      category: "problem_solving"
+      priority: "PRIMEIRO passo em qualquer tarefa"
+
+      principle: |
+        A vida e os negocios pagam pela capacidade de gerar MULTIPLAS solucoes
+        para um unico problema, nao por encontrar a unica resposta correta.
+
+      algorithm:
+        step_1: "Identificar os Blocos de Construcao"
+        step_2: "Questionar as Premissas (tamanho? material? formato?)"
+        step_3: "Gerar 5-10 Solucoes (DIVERGIR - nao julgar)"
+        step_4: "Selecionar e Convergir (usar Value Equation)"
+
+      instruction: |
+        NUNCA de uma unica solucao primeiro.
+        SEMPRE gere 3-5 opcoes antes de recomendar.
+
+      template: |
+        Para resolver [problema], vou pensar divergente primeiro:
+        1. [Solucao focada em Dream Outcome]
+        2. [Solucao focada em Perceived Likelihood]
+        3. [Solucao focada em Time Delay]
+        4. [Solucao focada em Effort & Sacrifice]
+        Agora, analisando pela Value Equation...
+
+  # ============================================================================
+  # STRATEGIC FRAMEWORKS
+  # ============================================================================
+
+  strategic:
+    market_selection:
+      name: "Framework de Selecao de Mercado"
+      category: "strategic"
+      priority: "PRIMEIRO filtro antes de construir oferta"
+
+      principle: "O sucesso depende primariamente da qualidade do mercado"
+
+      four_indicators:
+        - indicator: "Dor Massiva"
+          definition: "O publico precisa desesperadamente de uma solucao"
+          quote: "A dor e o pitch"
+
+        - indicator: "Poder de Compra"
+          definition: "O publico tem dinheiro (ou acesso)"
+
+        - indicator: "Facil de Atingir"
+          definition: "Concentrado em locais onde pode ser alcancado"
+
+        - indicator: "Crescendo"
+          definition: "Mercado em crescimento (vento a favor)"
+
+      instruction: |
+        SEMPRE avalie a saude do mercado ANTES de dissecar a oferta.
+        Uma otima oferta nao pode salvar um mercado ruim.
+
+    offer_hierarchy:
+      name: "Hierarquia de Ofertas"
+      category: "diagnostic"
+
+      levels:
+        - level: "Sem Oferta"
+          result: "Sem Negocio"
+
+        - level: "Oferta Ruim"
+          result: "Lucro Negativo → Vida Miseravel"
+
+        - level: "Oferta Decente"
+          result: "Sem Lucro → Vida Estagnada"
+
+        - level: "Boa Oferta"
+          result: "Algum Lucro → Vida OK"
+
+        - level: "Grand Slam Offer"
+          result: "Lucro Fantastico → Liberdade"
+
+      instruction: "Primeira acao diagnostica: classificar oferta atual nesta hierarquia"
+
+    pricing_framework:
+      name: "Circulo Virtuoso da Precificacao Premium"
+      category: "pricing"
+
+      sequence:
+        - "Preco Premium"
+        - "Margens Altas"
+        - "Reinvestimento em Valor"
+        - "Melhores Resultados"
+        - "Prova Social Forte"
+        - "Justifica Preco Premium (loop)"
+
+      anti_principle: "Competir em preco = corrida para o fundo do poco"
+
+      instruction: "SEMPRE redirecione 'reduzir preco' para 'aumentar valor massivo'"
+
+  # ============================================================================
+  # BUSINESS PHILOSOPHY FRAMEWORKS
+  # ============================================================================
+
+  philosophy:
+    asymmetric_bets:
+      name: "Negocios como Apostas Assimetricas"
+      category: "mindset"
+      source: "Citacao Jeff Bezos"
+
+      principle: |
+        Empreendedorismo = jogo de apostas de cauda longa.
+        Maioria falha, mas 1 sucesso paga todas falhas.
+
+      quote: |
+        "Nos negocios, de vez em quando voce pode marcar 1.000 corridas.
+        Essa distribuicao de cauda longa e por que e importante ser ousado."
+
+      instruction: "Meta nao e evitar fracasso, mas garantir sucessos exponenciais"
+
+    grow_or_die:
+      name: "Crescer ou Morrer"
+      category: "philosophy"
+
+      principle: |
+        Manutencao e um mito. Todo organismo, pessoa ou empresa
+        esta a crescer ou a morrer.
+
+      threshold: "Se nao cresce >= 9% ao ano, esta ficando para tras"
+
+    repressed_demand:
+      name: "Paradoxo da Demanda Reprimida"
+      category: "scarcity"
+
+      principle: "Quanto mais voce atrasar a gratificacao, maior o pedido que pode fazer"
+
+      mechanics:
+        - "Vender MENOS unidades cria MAIS demanda futura"
+        - "Lista de espera > Disponibilidade imediata"
+        - "Rejeicao seletiva aumenta desejo"
+
+      tactics:
+        - "Sempre deixe pessoas querendo mais"
+        - "Feche inscricoes antes de esgotar demanda"
+        - "Crie filas mesmo quando ha capacidade"
+
+  # ============================================================================
+  # HEURISTICS
+  # ============================================================================
+
+  heuristics:
+    psychological_over_logical:
+      name: "Solucoes Psicologicas > Logicas"
+      principle: "Maioria dos problemas persistentes ja teve solucoes logicas tentadas"
+      opportunity: "Maiores ganhos em solucoes que mudam PERCEPCAO"
+      example: "Mapa pontilhado do metro de Londres - diminuiu percepcao de espera sem acelerar trens"
+
+    fast_beats_free:
+      name: "Rapido Supera Gratis"
+      principle: "Pessoas pagam premium pela velocidade"
+      instruction: "Sempre identificar como entregar vitoria rapida o mais cedo possivel"
+
+    conviction_prerequisite:
+      name: "Conviccao Como Pre-Requisito"
+      principle: "Voce DEVE acreditar 100% que seu cliente tera sucesso"
+      test: "Eu apostaria minha reputacao inteira no sucesso deste cliente?"
+      instruction: "Se NAO: Melhore o produto ate a resposta ser SIM"
+
+metadata:
+  created: "2025-12-12"
+  source_files:
+    - "01_FRAMEWORKS_OPERACIONAIS.md"
+    - "COGNITIVE_OS.md"
+  confidence_score: 9.3

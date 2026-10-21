@@ -1,0 +1,186 @@
+# Knowledge Base: Avinash Kaushik Frameworks
+# Chunked for RAG retrieval
+# Date: 2026-01-23
+
+chunks:
+
+  - id: kb_stdc_001
+    topic: "See-Think-Do-Care Framework"
+    category: "framework"
+    content: |
+      STDC (See-Think-Do-Care) is Avinash's customer-centric alternative to the marketing funnel.
+
+      **SEE Stage:** Largest addressable qualified audience with no commercial intent yet.
+      Content should be inspirational, educational, entertaining.
+      Metrics: Reach, brand lift, viewability.
+
+      **THINK Stage:** Interested but not ready to buy. Some commercial intent.
+      Content should be informative, comparative, educational.
+      Metrics: Engagement, consideration, time on site.
+
+      **DO Stage:** Ready to buy. High commercial intent.
+      Content should be transactional, promotional, urgent.
+      Metrics: Conversion, revenue, ROAS.
+
+      **CARE Stage:** Existing customers. Loyalty, repeat, advocacy intent.
+      Content should be exclusive, supportive, rewarding.
+      Metrics: LTV, NPS, repeat rate.
+
+      Key insight: Most marketing fails because companies only invest in DO stage.
+    keywords:
+      - customer journey
+      - marketing funnel
+      - STDC
+      - See Think Do Care
+      - intent-based marketing
+
+  - id: kb_dmmm_001
+    topic: "Digital Marketing & Measurement Model"
+    category: "framework"
+    content: |
+      The DMMM is a 5-step process to align business objectives with measurable KPIs.
+      It solves the "data puking" problem by starting with business goals, not data.
+
+      Step 1: Identify Business Objectives
+      Question: "What is the purpose of your site/app?"
+      Output: Clear, actionable business objective
+
+      Step 2: Identify Goals for Each Objective
+      Question: "What does success look like?"
+      Output: Specific goals that ladder up to objectives
+
+      Step 3: Key Performance Indicators (KPIs)
+      Question: "How will we measure success?"
+      Output: Quantifiable metrics for each goal
+
+      Step 4: Targets
+      Question: "What numbers define success?"
+      Output: Specific targets for each KPI
+
+      Step 5: Segments
+      Question: "Who are we measuring?"
+      Output: Audience segments for analysis
+
+      Key insight: Start with "Why?" not "What data do we have?"
+    keywords:
+      - DMMM
+      - measurement model
+      - KPIs
+      - business objectives
+      - analytics strategy
+
+  - id: kb_attribution_001
+    topic: "Attribution Ladder of Awesomeness"
+    category: "framework"
+    content: |
+      The Attribution Ladder is a 9-step evolutionary path from basic attribution to true incrementality.
+      Key rule: Win each step before advancing. Don't give a toddler a Harley.
+
+      Level 1-2 (Beginner): Last Click, First Click
+      Limitation: Ignores full journey or conversion influence
+
+      Level 3-5 (Intermediate): Linear, Position-Based, Time-Decay
+      Limitation: Arbitrary weighting assumptions
+
+      Level 6-7 (Advanced): Data-Driven Attribution, Marketing Mix Modeling
+      Limitation: Still correlation, not causation
+
+      Level 8-9 (Expert): Geo Experiments, Controlled Experiments
+      Strength: True causation through randomization
+
+      Ultimate insight: Attribution is distributing credit. Incrementality is what ACTUALLY drove value.
+      They're chalk and cheese - completely different things.
+    keywords:
+      - attribution
+      - incrementality
+      - measurement maturity
+      - controlled experiments
+      - MMM
+
+  - id: kb_10_90_001
+    topic: "10/90 Rule for Analytics"
+    category: "framework"
+    content: |
+      Avinash's investment principle: For every $100 in analytics investment,
+      spend $10 on tools and $90 on people who can extract insights.
+
+      Rationale: Tools are commoditized. Insight extraction is rare and valuable.
+
+      Evidence: Companies with expensive tools and no analysts fail.
+      Companies with basic tools and great analysts succeed.
+
+      The formula: [P+P+S] > [D+T]
+      (People + Process + Structure) > (Data + Tools)
+    keywords:
+      - analytics investment
+      - 10/90 rule
+      - tools vs people
+      - analytics talent
+
+  - id: kb_heuristics_001
+    topic: "Decision Heuristics"
+    category: "decision_making"
+    content: |
+      VP Finance Test:
+      Before presenting data, ask: "How many would we have gotten anyway?"
+      Application: Attribution discussions, ROI calculations
+
+      Action Test:
+      Ask: "So what should we DO differently based on this?"
+      Application: Any data presentation or analysis
+
+      Toddler and Harley Test:
+      Is this tool/method appropriate for our current maturity level?
+      Application: Tool selection, methodology adoption
+
+      Data Puking Test:
+      Are we presenting data for data's sake, or to drive decisions?
+      Application: Dashboard design, reporting
+    keywords:
+      - decision heuristics
+      - VP Finance test
+      - action test
+      - data puking
+
+  - id: kb_values_001
+    topic: "Avinash's Core Values"
+    category: "identity"
+    content: |
+      1. Action Over Data - Data without action is worthless
+      2. Truth Over Comfort - Uncomfortably right > comfortably wrong
+      3. Incrementality Over Attribution - Credit ≠ causation
+      4. Simplicity Over Sophistication - One great metric > ten mediocre
+      5. Customer Delight Over Profit - Delight customers, profit follows
+      6. Generosity - Gives 100% of speaking revenue to charity
+      7. Real Job Despite Fame - Stayed at Google 16 years doing real work
+    keywords:
+      - values
+      - principles
+      - career philosophy
+
+  - id: kb_communication_001
+    topic: "Communication Style"
+    category: "identity"
+    content: |
+      Structure: Principle → Framework → Example (with numbers) → Action
+
+      Patterns:
+      - Uses numbered lists obsessively
+      - Creates frameworks on the fly
+      - Vivid metaphors: "data puking", "toddler on a Harley"
+      - Self-deprecating humor
+      - Passionate directness: "I hate when people..."
+      - Always grounds in real examples with real numbers
+
+      Signature phrases:
+      - "So what, now what?"
+      - "Data puking"
+      - "How many would we have gotten anyway?"
+      - "Chalk and cheese"
+      - "Don't give a toddler a Harley"
+      - "Win this step before advancing"
+      - "Analysis Ninja"
+    keywords:
+      - communication style
+      - signature phrases
+      - speaking style

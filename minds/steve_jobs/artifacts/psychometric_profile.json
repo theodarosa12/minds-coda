@@ -1,0 +1,524 @@
+{
+  "profile": {
+    "id": "steve_jobs",
+    "name": "Steven Paul Jobs",
+    "disc": {
+      "D": 85,
+      "I": 90,
+      "S": 15,
+      "C": 0,
+      "pattern": "DI",
+      "pattern_name": "Persuasor Inspirador",
+      "natural_profile": "D alto/I alto/S baixo/C zero",
+      "adapted_profile": "D máximo/I calculado/S zero/C zero",
+      "stress_profile": "D máximo/I volátil/S zero/C negativo",
+      "specific_behaviors": [
+        "Decisões binárias instantâneas ('genial' ou 'merda')",
+        "Reality Distortion Field para convencer o impossível",
+        "Demissões sumárias por mediocridade",
+        "Simplificação brutal de complexidade (350→4 produtos)",
+        "Criação de urgência artificial através de deadlines impossíveis"
+      ]
+    },
+    "enneagram": {
+      "type": "7w8",
+      "type_name": "Enthusiast-Challenger Hybrid",
+      "core_fear": "Ser controlado, limitado ou vulnerável",
+      "core_desire": "Manter liberdade absoluta e controle do destino",
+      "development_level": "4-6 (médio)",
+      "stress_direction": "5",
+      "stress_behaviors": [
+        "Isolamento obsessivo com projetos",
+        "Paranoia sobre perda de controle",
+        "Microgerenciamento extremo",
+        "Rejeição total de input externo"
+      ],
+      "growth_direction": "2",
+      "growth_behaviors": "Momentos raros de generosidade e mentoria (2009-2011)",
+      "instinct_stack": "SP/SO/SX",
+      "instinct_descriptions": {
+        "self_preservation": "Dominante - Dietas extremas, meditação Zen diária, controle físico obsessivo",
+        "social": "Secundário - Necessidade de impacto cultural e reconhecimento",
+        "sexual": "Reprimido - Dificuldades com intimidade verdadeira"
+      },
+      "behavioral_evidence": [
+        "Reality Distortion Field como ferramenta de controle",
+        "5000+ entrevistas conduzidas pessoalmente",
+        "Salas varridas por microfones espiões",
+        "Demissão da Apple quando perdeu controle (1985)",
+        "Múltiplos projetos simultâneos (Apple/Pixar/NeXT)",
+        "Busca espiritual através de Índia, LSD e Zen",
+        "Transformação de fracasso em mitologia pessoal"
+      ]
+    },
+    "mbti": {
+      "type": "INTJ",
+      "type_name": "The Architect",
+      "E_percentage": 25,
+      "N_percentage": 95,
+      "T_percentage": 80,
+      "J_percentage": 85,
+      "cognitive_stack": {
+        "dominant": {
+          "function": "Ni",
+          "name": "Intuição Introvertida",
+          "manifestations": [
+            "Visão instantânea do futuro após ver GUI no Xerox PARC",
+            "Conceito de 'hub digital' anos antes da realização",
+            "Capacidade de ver 20-50 anos à frente",
+            "Síntese de arte e tecnologia em visão única",
+            "Processamento através de pausas de 8-10 segundos"
+          ]
+        },
+        "auxiliary": {
+          "function": "Te",
+          "name": "Pensamento Extrovertido",
+          "manifestations": [
+            "Comunicação binária brutal ('genial' ou 'merda')",
+            "Sistema DRI para accountability absoluta",
+            "Matriz 2×2 para simplificar decisões",
+            "Estrutura organizacional funcional vs feudos",
+            "Execução implacável de visão através de força"
+          ]
+        },
+        "tertiary": {
+          "function": "Fi",
+          "name": "Sentimento Introvertido",
+          "manifestations": [
+            "Valores pessoais intensos mas ocultos",
+            "Meditação Zen privada diária",
+            "Recusa graciosa do fígado de Tim Cook"
+          ]
+        },
+        "inferior": {
+          "function": "Se",
+          "name": "Sensação Extrovertida",
+          "manifestations": [
+            "Obsessão com detalhes tácteis de produtos",
+            "Fixação em fontes tipográficas específicas",
+            "Grip: dietas extremas e controle físico compulsivo",
+            "Necessidade de tocar e sentir protótipos"
+          ]
+        }
+      }
+    },
+    "cognitive_stratum": {
+      "level": "VI-VII",
+      "level_name": "Corporate Strategic to Prescient",
+      "time_horizon": "10-50 anos",
+      "processing_type": "Systematic/Parallel",
+      "transitioning_to": null,
+      "evidence": [
+        "Transformou múltiplas indústrias simultaneamente",
+        "iPhone como visão de 20+ anos de computação móvel",
+        "iPad antecipando era pós-PC",
+        "iTunes Store redefinindo distribuição de mídia permanentemente",
+        "Apple Stores revolucionando varejo tecnológico globalmente"
+      ],
+      "temporal_horizons": {
+        "immediate": "Demos semanais com feedback instantâneo",
+        "short": "Ciclos de produto anuais rigorosamente executados",
+        "medium": "Estratégia de 18 meses (reuniões Top 100)",
+        "long": "Ecossistema de 10 anos (hub digital)",
+        "ultra_long": "Transformação cultural de 20-50 anos"
+      },
+      "cognitive_capabilities": {
+        "serial_processing": false,
+        "parallel_processing": true,
+        "complexity_level": "Máxima",
+        "processing_type": "Systematic",
+        "symbolic_representation": "Integração arte-tecnologia",
+        "domain_translation": "Mestre em conectar domínios díspares"
+      }
+    },
+    "big_five": {
+      "openness": {
+        "total": 99,
+        "percentile": 99,
+        "facets": {
+          "imagination": 95,
+          "artistic_interest": 99,
+          "emotionality": 70,
+          "adventure": 90,
+          "intellect": 95,
+          "liberalism": 85
+        }
+      },
+      "conscientiousness": {
+        "total": 45,
+        "percentile": 45,
+        "facets": {
+          "self_efficacy": 99,
+          "order": 20,
+          "dutifulness": 30,
+          "achievement_striving": 99,
+          "self_discipline": 85,
+          "cautiousness": 10
+        }
+      },
+      "extraversion": {
+        "total": 60,
+        "percentile": 60,
+        "facets": {
+          "warmth": 30,
+          "gregariousness": 20,
+          "assertiveness": 99,
+          "activity_level": 95,
+          "excitement_seeking": 80,
+          "positive_emotions": 50
+        }
+      },
+      "agreeableness": {
+        "total": 15,
+        "percentile": 15,
+        "facets": {
+          "trust": 20,
+          "morality": 40,
+          "altruism": 25,
+          "cooperation": 10,
+          "modesty": 5,
+          "sympathy": 20
+        }
+      },
+      "neuroticism": {
+        "total": 70,
+        "percentile": 70,
+        "facets": {
+          "anxiety": 75,
+          "anger": 90,
+          "depression": 60,
+          "self_consciousness": 40,
+          "immoderation": 85,
+          "vulnerability": 80
+        }
+      }
+    },
+    "hexaco": {
+      "honesty_humility": {
+        "total": 20,
+        "percentile": 20,
+        "facets": {
+          "sincerity": 30,
+          "fairness": 25,
+          "greed_avoidance": 15,
+          "modesty": 10
+        }
+      }
+    },
+    "dark_triad": {
+      "narcissism": {
+        "score": 5.8,
+        "max_scale": 7,
+        "percentile": 95,
+        "evidence": [
+          "Necessidade constante de admiração e reconhecimento de genialidade",
+          "6 de 9 critérios DSM-IV para NPD confirmados",
+          "Grandiosidade compensatória para núcleo inseguro"
+        ]
+      },
+      "machiavellianism": {
+        "score": 5.5,
+        "max_scale": 7,
+        "percentile": 92,
+        "evidence": [
+          "Reality Distortion Field como manipulação calculada",
+          "Emails estratégicos com timing perfeito (caso Murdoch)",
+          "'Bons artistas copiam, grandes artistas roubam'"
+        ]
+      },
+      "psychopathy": {
+        "score": 3.2,
+        "max_scale": 7,
+        "percentile": 65,
+        "evidence": [
+          "Baixo remorso inicial (negação de Lisa)",
+          "Charme superficial calculado em keynotes",
+          "Mas capacidade real de vínculo (Laurene, evolução tardia)"
+        ]
+      }
+    },
+    "intelligence": {
+      "iq_estimated": {
+        "range": "140-160",
+        "methodologies": [
+          "Velocidade de aprendizado excepcional",
+          "Síntese de domínios complexos",
+          "Criação de novos paradigmas",
+          "Resolução de problemas multi-indústria"
+        ],
+        "evidence": [
+          "Absorveu GUI do Xerox e transformou em Mac",
+          "Dominou múltiplas indústrias simultaneamente",
+          "Caligrafia→tipografia digital revolucionária",
+          "Visão de ecossistemas 20+ anos à frente"
+        ]
+      },
+      "eq_estimated": {
+        "total": 50,
+        "components": {
+          "self_awareness": 60,
+          "self_regulation": 30,
+          "motivation": 99,
+          "empathy": 20,
+          "social_skills": 70
+        }
+      },
+      "gardner_intelligences": {
+        "logical_mathematical": {
+          "level": "Alto (percentil 85)",
+          "evidence": "Quantificação emocional de decisões (10 segundos = 100 vidas)"
+        },
+        "linguistic": {
+          "level": "Alto (percentil 90)",
+          "evidence": "Storytelling magistral em keynotes, frases icônicas"
+        },
+        "interpersonal": {
+          "level": "Médio (percentil 60)",
+          "evidence": "Manipulativo mas eficaz, Reality Distortion Field"
+        },
+        "intrapersonal": {
+          "level": "Alto (percentil 85)",
+          "evidence": "Meditação Zen diária, autoconhecimento através de práticas espirituais"
+        },
+        "spatial_visual": {
+          "level": "Excepcional (percentil 99)",
+          "evidence": "Obsessão com design, percepção de proporções perfeitas"
+        },
+        "bodily_kinesthetic": {
+          "level": "Médio (percentil 60)",
+          "evidence": "Gestos de palco calculados, presença física comandante"
+        },
+        "musical": {
+          "level": "Alto (percentil 85)",
+          "evidence": "Audiófilo, criador do iPod/iTunes, apreciação profunda"
+        },
+        "naturalist": {
+          "level": "Médio (percentil 60)",
+          "evidence": "Dietas naturais extremas, conexão com simplicidade orgânica"
+        },
+        "existential": {
+          "level": "Excepcional (percentil 99)",
+          "evidence": "Obsessão com legado, 'deixar marca no universo', consciência de mortalidade"
+        }
+      }
+    },
+    "additional_assessments": {
+      "grit_scale": {
+        "consistency_of_interests": 60,
+        "perseverance_of_effort": 99,
+        "total": 80,
+        "evidence": "Múltiplos projetos mas perseverança absoluta em cada um"
+      },
+      "need_for_cognition": {
+        "percentile": 85,
+        "evidence": "Processamento profundo, mas preferência por intuição sobre análise"
+      },
+      "tolerance_for_ambiguity": {
+        "percentile": 30,
+        "evidence": "Necessidade de controle absoluto, decisões binárias"
+      },
+      "locus_of_control": {
+        "type": "Interno extremo",
+        "evidence": "Crença absoluta em moldar realidade, 'reality distortion'"
+      },
+      "attachment_style": {
+        "type": "Ansioso-Evitativo",
+        "evidence": "Abandono na adoção, dificuldades com intimidade, mas vínculos intensos seletivos"
+      }
+    },
+    "unique_characteristics": {
+      "superpower": [
+        "Reality Distortion Field - fazer outros acreditarem no impossível",
+        "Visão 20-50 anos à frente das indústrias",
+        "Simplificação radical mantendo essência"
+      ],
+      "kryptonite": [
+        "Incapacidade de aceitar mediocridade",
+        "Necessidade de controle absoluto criando gargalos",
+        "Cegueira empática causando danos colaterais",
+        "Núcleo narcisista frágil compensado com grandiosidade"
+      ],
+      "work_hours_per_day": "14-16 horas durante projetos críticos",
+      "companies_founded": [
+        "Apple Computer (1976)",
+        "NeXT Inc. (1985)",
+        "Pixar Animation Studios (1986, através de aquisição)"
+      ],
+      "daily_routine": [
+        "Despertar 6h, setup home office 6h30-7h30",
+        "Café da manhã com família, ajuda com lição de casa",
+        "Marathon meetings às segundas revisando todo negócio",
+        "Tardes no laboratório de design com Jony Ive",
+        "Jantar familiar 17h30 inegociável, caminhadas com Laurene"
+      ],
+      "main_focus": "Criar ferramentas que amplificam criatividade humana e deixar marca no universo",
+      "statistical_rarity": "~0.000001% população (1 em 100 milhões)",
+      "key_relationships": {
+        "spouse": "Laurene Powell Jobs - âncora estabilizadora, caminhadas noturnas diárias",
+        "children": "4 filhos - jantar familiar sagrado às 17h30",
+        "parents": "Paul e Clara Jobs - 'meus pais 1000%', fonte de segurança",
+        "mentors": "Mike Markkula, Bill Campbell, Andy Grove, Ed Catmull",
+        "proteges": "Tim Cook, Jony Ive, Scott Forstall",
+        "inner_circle": "Extremamente seletivo, lealdade testada constantemente",
+        "pattern": "Intenso mas volátil, idealização seguida de desilusão"
+      },
+      "philosophy": {
+        "core": "Interseção de tecnologia e artes liberais",
+        "framework": "Simplicidade através de subtração",
+        "belief": "Mundo é maleável para quem tem visão e coragem",
+        "method": "Demo → feedback → iteração até perfeição",
+        "mantra": "Stay hungry, stay foolish"
+      }
+    },
+    "behavioral_patterns": [],
+    "crisis_patterns": {
+      "perda_de_controle": [
+        "Paranoia extrema (varrer salas por microfones)",
+        "Microgerenciamento obsessivo",
+        "Demissões sumárias de ameaças percebidas",
+        "Isolamento e trabalho solitário intenso"
+      ],
+      "ameaça_à_visão": [
+        "Reality Distortion Field no máximo",
+        "Confrontação direta e brutal",
+        "Ultimatos e ameaças de abandono",
+        "Mobilização total de recursos para provar ponto"
+      ],
+      "confronto_com_mortalidade": [
+        "Urgência máxima em projetos",
+        "Tentativas de reconciliação (Lisa)",
+        "Preparação obsessiva de sucessão",
+        "Foco em legado duradouro"
+      ]
+    },
+    "convergence_analysis": {
+      "powerful_alignments": [
+        "INTJ + Tipo 8 + Alto D = Visão executada com força implacável",
+        "Ni dominante + Estrato VII + Abertura 99 = Ver futuro impossível e torná-lo real",
+        "Te auxiliar + DRI system + Zero S = Execução sem piedade ou paciência"
+      ],
+      "productive_tensions": [
+        "Introversão profunda vs necessidade de persuadir (keynotes calculados)",
+        "Busca por simplicidade vs obsessão com perfeição (iterações infinitas)"
+      ],
+      "compound_limitations": [
+        "Baixa Agradabilidade + NPD + Tipo 8 = Destruição de relacionamentos",
+        "Zero C + Impaciência + Perfeccionismo = Incapacidade de delegar efetivamente"
+      ]
+    },
+    "predictions": {
+      "high_probability": [
+        "Simplificará qualquer complexidade à essência mínima (>95%)",
+        "Rejeitará dados se contradisserem intuição profunda (>90%)",
+        "Demitirá/substituirá mediocridade imediatamente (>85%)",
+        "Criará demonstração visual para persuadir (>90%)",
+        "Estabelecerá deadline impossível e forçará cumprimento (>85%)"
+      ],
+      "behavioral_manifestations": [
+        "Comunicação binária ('genial' ou 'merda') sem meio termo",
+        "Ciclos infinitos de demo-feedback-iteração",
+        "Pausas de 8-10 segundos antes de decisões críticas"
+      ],
+      "optimal_scenarios": [
+        "Criar categoria de produto inteiramente nova sem precedentes",
+        "Transformar indústria estabelecida através de simplificação radical"
+      ],
+      "worst_scenarios": [
+        "Trabalhar em comitê sem autoridade final",
+        "Otimização incremental de produto existente medíocre"
+      ]
+    },
+    "comparative_analysis": {
+      "vs_same_mbti": {
+        "Elon Musk (INTJ)": "Jobs mais focado em experiência usuário vs Musk em capacidade técnica",
+        "Mark Zuckerberg (INTJ)": "Jobs obsessão com hardware+software vs Zuck puramente digital",
+        "Jeff Bezos (INTJ)": "Jobs produtos perfeitos vs Bezos escala e eficiência"
+      },
+      "vs_same_enneagram": {
+        "Richard Branson (7w8)": "Jobs controle obsessivo vs Branson delegação alegre",
+        "Winston Churchill (8w7)": "Jobs revolução tecnológica vs Churchill liderança política",
+        "Madonna (7w8)": "Jobs tecnologia como arte vs Madonna arte como provocação"
+      }
+    },
+    "interaction_guide": {
+      "communication_style": {
+        "optimal": "Direto, visual (whiteboard), demonstrações concretas, sem PowerPoints",
+        "avoid": "Detalhes burocráticos, processos longos, comitês, mediocridadeM",
+        "triggers": "Positivo: simplicidade elegante, excelência. Negativo: complexidade, 'bom o suficiente'"
+      },
+      "management": {
+        "if_managing_them": "Impossível - não aceitaria ser gerenciado",
+        "if_they_manage_you": "Prepare-se para brutalidade honesta, padrões impossíveis, mas crescimento exponencial",
+        "as_peer": "Competição intensa ou parceria profunda, sem meio termo"
+      },
+      "team_dynamics": {
+        "ideal_team_size": "5-7 'piratas' classe A",
+        "complementary_profiles": "Jony Ive (ISFP) para design, Tim Cook (ISTJ) para operações",
+        "conflicting_profiles": "Qualquer perfil medíocre ou burocrático"
+      }
+    },
+    "development_roadmap": {
+      "immediate_priorities": [
+        "Desenvolver empatia básica para reduzir danos colaterais",
+        "Criar mecanismos de feedback que não destruam pessoas"
+      ],
+      "medium_term_goals": [
+        "Aprender a delegar sem perder essência da visão",
+        "Desenvolver paciência com processo de desenvolvimento de outros"
+      ],
+      "long_term_potential": [
+        "Integrar compaixão com exigência de excelência",
+        "Criar sistemas que sobrevivam além de sua presença"
+      ],
+      "recommended_practices": [
+        "Meditação Zen continuada para autoregulação",
+        "Mentoria estruturada para sucessores",
+        "Documentação de visão para perpetuação"
+      ]
+    },
+    "data_sources": {
+      "primary": [
+        "Steve Jobs por Walter Isaacson (biografia autorizada)",
+        "Make Something Wonderful (Steve Jobs Archive)",
+        "Creative Selection por Ken Kocienda",
+        "Becoming Steve Jobs por Schlender & Tetzeli",
+        "The Bite in the Apple por Chrisann Brennan",
+        "Análise psicobiográfica acadêmica revisada por pares",
+        "Depoimentos de Ed Catmull, Tim Cook, Jony Ive",
+        "Discurso Stanford 2005 (6 meses de preparação)",
+        "5000+ entrevistas conduzidas pessoalmente",
+        "Keynotes e apresentações públicas 1984-2011"
+      ],
+      "confidence_levels": {
+        "high": "Traços comportamentais observáveis (DISC, decisões documentadas)",
+        "medium": "Motivações internas (Eneagrama, drivers psicológicos)",
+        "low": "Processos cognitivos privados não verbalizados",
+        "speculative": "Dinâmicas de infância e trauma de adoção"
+      }
+    }
+  },
+  "metadata": {
+    "schema_version": "1.0",
+    "original_file": "steve-jobs.json",
+    "normalized_at": "2025-12-12T19:28:32.069Z",
+    "analysis_date": "2024-01-15",
+    "analyzer": "Análise Psicométrica Profunda",
+    "version": "1.0",
+    "confidence": null,
+    "special_notes": "Perfil único combinando visão excepcional com execução implacável, genialidade com toxicidade. Evolução documentada de tirano jovem para líder maduro mantendo essência visionária.",
+    "disclaimer": "Análise baseada em persona pública documentada. Comportamento privado pode diferir. Não constitui avaliação clínica ou diagnóstico psicológico formal.",
+    "assessment_scales": {
+      "disc": "0-100",
+      "enneagram": "Tipos 1-9 com alas, níveis 1-9",
+      "mbti": "16 tipos, percentagens 0-100",
+      "cognitive_stratum": "Níveis I-VIII (Elliott Jaques)",
+      "big_five": "0-100 por traço e faceta",
+      "hexaco": "0-100 por dimensão",
+      "dark_triad": "1-7 por traço",
+      "iq": "Estimativa baseada em evidências comportamentais",
+      "eq": "0-100 estimado por componentes"
+    },
+    "data_sources": [],
+    "limitations": []
+  }
+}

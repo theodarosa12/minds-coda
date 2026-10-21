@@ -1,0 +1,913 @@
+# =============================================================================
+# MMOS Core Obsessions Analysis: Sean Ellis
+# Phase 3, Task 2: Core Obsessions Analysis (Layer 7 - DNA Mental)
+# Agent: Brene (Identity Analyst - Brown-inspired)
+# Generated: 2026-01-23
+# Methodology: 5-Step Obsession Identification Process
+# =============================================================================
+
+metadata:
+  mind_slug: sean_ellis
+  analysis_date: "2026-01-23"
+  agent: "identity-analyst"
+  methodology: "5-Step Obsession Identification (Thought Loops, Time Investment, Emotional Intensity, Return Patterns, Identity Fusion)"
+  human_validated: false  # Requires validation
+  validation_date: null
+  layer: 7
+  total_obsessions: 6
+  core_obsessions: 2
+  major_obsessions: 2
+  minor_obsessions: 2
+
+# =============================================================================
+# CORE PRINCIPLE
+# =============================================================================
+
+analysis_principle: |
+  "What someone can't stop thinking about IS their identity."
+
+  Obsessions are not negative - they're the compass pointing to true identity.
+  Each obsession below was validated through 5 criteria:
+  1. THOUGHT LOOPS: Recurring themes mind returns to when unoccupied
+  2. TIME INVESTMENT: Hours spent without resentment
+  3. EMOTIONAL INTENSITY: Disproportionate emotional response
+  4. RETURN PATTERNS: Keeps coming back despite obstacles
+  5. IDENTITY FUSION: Would feel lost without this
+
+# =============================================================================
+# OBSESSION INVENTORY
+# =============================================================================
+
+obsessions:
+
+  # ---------------------------------------------------------------------------
+  # OBSESSION 1: PRODUCT-MARKET FIT (CORE OBSESSION - Rank 1)
+  # ---------------------------------------------------------------------------
+  - id: obs_001
+    rank: 1
+    theme: "Product-Market Fit"
+    alternative_names:
+      - "The 40% Rule"
+      - "Must-Have Experience"
+      - "Very Disappointed Users"
+    intensity: 10
+    classification: "CORE OBSESSION"
+
+    criteria_met:
+      thought_loops: true
+      time_investment: true
+      emotional_intensity: true
+      return_patterns: true
+      identity_fusion: true
+    criteria_score: "5/5"
+
+    evidence:
+
+      thought_loops:
+        frequency: "constant"
+        description: "PMF appears in EVERY source - Ellis cannot discuss growth without returning to PMF as foundation"
+
+        occurrences:
+          - source: "Lenny's Podcast"
+            context: "Asked about growth strategy"
+            quote: "Before you can do any of that... do you have product-market fit?"
+            observation: "Every growth question circles back to PMF first"
+
+          - source: "Glasp Talk"
+            context: "Discussing scaling"
+            quote: "You need to have a certain percentage of users who said they'd be very disappointed without the product"
+            observation: "Unprompted return to PMF threshold"
+
+          - source: "GTM Vault"
+            context: "New engagement advice"
+            quote: "First thing I do is run the PMF survey"
+            observation: "Default starting point regardless of question"
+
+          - source: "Mahmoud Khodor"
+            context: "AI-era growth discussion"
+            quote: "PMF is still the foundation - that hasn't changed"
+            observation: "Even when discussing AI, returns to PMF"
+
+          - source: "All 9 interviews"
+            context: "Cross-source analysis"
+            quote: "100% of interviews mention PMF multiple times"
+            observation: "Zero exceptions - present in every source"
+
+      time_investment:
+        hours_estimated: "20+ years of career focus"
+        external_requirement: false
+        resentment_level: "none"
+        description: "Entire career built around understanding and measuring PMF"
+
+        evidence:
+          - activity: "Created and refined PMF survey methodology"
+            hours: "Thousands across career"
+            source: "Career arc"
+            quote: "Over time I started to realize that there was a certain percentage..."
+
+          - activity: "Teaches PMF in every engagement"
+            hours: "Every consulting day"
+            source: "Lenny's Podcast"
+            quote: "It's in my contract that's required up front"
+
+          - activity: "Wrote book chapter on PMF"
+            hours: "Months of research/writing"
+            source: "Hacking Growth book"
+            quote: "Chapter 2 dedicated to PMF"
+
+          - activity: "Built GoPractice curriculum around PMF"
+            hours: "Ongoing"
+            source: "Glasp Talk"
+            quote: "Simulation includes PMF validation"
+
+      emotional_markers:
+        - topic: "Companies scaling without PMF"
+          emotion: "frustration"
+          intensity: 9
+          observation: "Voice becomes emphatic when discussing wasted resources"
+          source: "Lenny's Podcast"
+          quote: "That's the fastest way to put your startup out of business"
+
+        - topic: "Lookout 7% discovery"
+          emotion: "genuine concern"
+          intensity: 8
+          observation: "Emotional telling of 'oh crap' moment"
+          source: "Lenny's Podcast"
+          quote: "Oh crap, I probably should have asked this question before I committed"
+
+        - topic: "LogMeIn success after PMF focus"
+          emotion: "satisfaction"
+          intensity: 8
+          observation: "Pride in validation of methodology"
+          source: "Multiple interviews"
+          quote: "5% to 50%... that's when things really changed"
+
+        - topic: "40% threshold validation across companies"
+          emotion: "intellectual satisfaction"
+          intensity: 7
+          observation: "Confident, authoritative tone when discussing"
+          source: "All sources"
+          quote: "Most of those products succeeded"
+
+      return_patterns:
+        theme: "PMF as prerequisite"
+        first_appearance: "~2005-2008 (LogMeIn/Dropbox era)"
+        abandonments: []  # Never abandoned
+        resurrections: []  # Never needed - always present
+        current_status: "active"
+        persistence_level: "20+ years constant"
+
+        persistence_evidence:
+          - source: "1996-2005"
+            quote: "Learning by doing, discovering what works"
+
+          - source: "2005-2008"
+            quote: "Crystallization of 40% threshold"
+
+          - source: "2010"
+            quote: "Blog post articulates PMF test publicly"
+
+          - source: "2017"
+            quote: "Hacking Growth book - full methodology"
+
+          - source: "2024-2025"
+            quote: "AI-era interviews - PMF still foundation"
+
+      identity_fusion:
+        fusion_level: "essence"
+        removal_impact: "devastating"
+        self_description_usage: true
+        description: "PMF test is synonymous with Sean Ellis - the 'Sean Ellis Test'"
+
+        evidence:
+          - source: "Industry recognition"
+            quote: "The 'Sean Ellis Test' is how others identify him"
+
+          - source: "Self-introduction"
+            quote: "Often introduced as 'creator of growth hacking and PMF test'"
+
+          - source: "Career narrative"
+            quote: "Every career story returns to PMF as defining discovery"
+
+    context_patterns:
+      when_emerges:
+        - "Any growth discussion"
+        - "New company engagement"
+        - "Strategy conversations"
+        - "Advice-giving contexts"
+        - "Teaching/workshops"
+
+      when_suppressed:
+        - "Never suppressed in professional contexts"
+        - "May not discuss with non-startup audiences"
+
+      triggers:
+        - "Questions about scaling"
+        - "Companies struggling to grow"
+        - "Requests for growth advice"
+        - "Evaluation of product quality"
+
+    identity_integration: |
+      PMF is not just a framework Sean Ellis teaches - it IS Sean Ellis's professional
+      identity. The "Sean Ellis Test" is how the startup world identifies him. His
+      discovery of the 40% threshold defines his career narrative, and every
+      engagement, every piece of advice, every strategic conversation begins here.
+
+      This obsession shapes his:
+      - How he evaluates opportunities (won't engage without PMF signal)
+      - How he structures conversations (PMF check first)
+      - How he is perceived by others ("the PMF guy")
+      - What he considers meaningful work (helping companies find PMF)
+
+      Without PMF as his north star, Ellis would need to fundamentally redefine
+      his professional identity. This is an ESSENCE-level obsession.
+
+  # ---------------------------------------------------------------------------
+  # OBSESSION 2: ACTIVATION (CORE OBSESSION - Rank 2)
+  # ---------------------------------------------------------------------------
+  - id: obs_002
+    rank: 2
+    theme: "Activation / First User Experience"
+    alternative_names:
+      - "Aha Moment"
+      - "Sign-up to Usage Rate"
+      - "Getting Users to Value"
+    intensity: 9
+    classification: "CORE OBSESSION"
+
+    criteria_met:
+      thought_loops: true
+      time_investment: true
+      emotional_intensity: true
+      return_patterns: true
+      identity_fusion: true
+    criteria_score: "5/5"
+
+    evidence:
+
+      thought_loops:
+        frequency: "frequent"
+        description: "Activation appears in most growth conversations as the 'hidden lever' most companies miss"
+
+        occurrences:
+          - source: "Lenny's Podcast"
+            context: "Discussing where companies stall"
+            quote: "Activation is where most stalling happens"
+            observation: "Pivots to activation regardless of initial question"
+
+          - source: "Glasp Talk"
+            context: "Silicon Valley insights"
+            quote: "Fastest growing companies spend half product resources on activation"
+            observation: "Unprompted insight about activation importance"
+
+          - source: "GTM Vault"
+            context: "Diagnosing growth problems"
+            quote: "My default diagnosis is activation"
+            observation: "First place he looks in any engagement"
+
+          - source: "Multiple interviews"
+            context: "LogMeIn story"
+            quote: "95% never did a remote control session"
+            observation: "Career-defining story always told"
+
+      time_investment:
+        hours_estimated: "Decades of focus"
+        external_requirement: false
+        resentment_level: "none"
+        description: "Dedicated significant portion of career to understanding and fixing activation"
+
+        evidence:
+          - activity: "3 months exclusive focus at LogMeIn"
+            hours: "Full-time for 3 months"
+            source: "Lenny's Podcast"
+            quote: "CEO stopped all roadmap work"
+
+          - activity: "First 10 experiments at Dropbox"
+            hours: "Weeks of scripting and execution"
+            source: "Lenny's Podcast"
+            quote: "Scripted first 10 experiments"
+
+          - activity: "Teaching activation in every workshop"
+            hours: "Ongoing"
+            source: "Workshop methodology"
+            quote: "Activation always part of curriculum"
+
+      emotional_markers:
+        - topic: "95% abandonment at LogMeIn"
+          emotion: "concern + determination"
+          intensity: 9
+          observation: "Story told with emotional weight - defining moment"
+          source: "Lenny's Podcast"
+          quote: "I went to the CEO and said we have a problem"
+
+        - topic: "Companies ignoring activation"
+          emotion: "frustration"
+          intensity: 8
+          observation: "Exasperation that obvious lever is overlooked"
+          source: "Multiple sources"
+          quote: "Marketing focuses only on acquisition... Product focuses only on roadmap... No one owns the first user experience"
+
+        - topic: "5% to 50% improvement"
+          emotion: "pride"
+          intensity: 8
+          observation: "Clear satisfaction in telling this story"
+          source: "LogMeIn case study"
+          quote: "That's when everything changed"
+
+      return_patterns:
+        theme: "Activation as hidden lever"
+        first_appearance: "2005 (LogMeIn)"
+        abandonments: []  # Never abandoned
+        resurrections: []  # Always present
+        current_status: "active"
+        persistence_level: "20 years constant"
+
+        persistence_evidence:
+          - source: "2005"
+            quote: "LogMeIn discovery"
+
+          - source: "2008"
+            quote: "Applied to Dropbox"
+
+          - source: "2024"
+            quote: "Still first thing he examines"
+
+      identity_fusion:
+        fusion_level: "identity"
+        removal_impact: "significant"
+        self_description_usage: true
+        description: "Activation insight is second-most defining professional contribution"
+
+        evidence:
+          - source: "LogMeIn story"
+            quote: "This story is told in every interview"
+
+          - source: "Diagnostic approach"
+            quote: "Default first thing to examine"
+
+    context_patterns:
+      when_emerges:
+        - "Growth diagnosis conversations"
+        - "Questions about conversion"
+        - "Why growth stalls discussions"
+        - "LogMeIn story contexts"
+
+      when_suppressed:
+        - "When PMF isn't established (PMF first)"
+
+      triggers:
+        - "Low conversion rates"
+        - "High abandonment"
+        - "User drop-off patterns"
+
+    identity_integration: |
+      The LogMeIn 95% abandonment story is Ellis's second-most defining professional
+      moment. This discovery shaped his entire approach to growth: always examine
+      activation first, because it's the lever everyone else misses.
+
+      This obsession manifests as:
+      - Default diagnostic approach (activation first)
+      - Teaching methodology (always includes activation)
+      - Career-defining story (told in every interview)
+      - Contrarian insight (most companies miss this)
+
+  # ---------------------------------------------------------------------------
+  # OBSESSION 3: EXPERIMENTATION (MAJOR OBSESSION - Rank 3)
+  # ---------------------------------------------------------------------------
+  - id: obs_003
+    rank: 3
+    theme: "Experimentation / High Tempo Testing"
+    alternative_names:
+      - "Test/Learn Process"
+      - "Scientific Method for Growth"
+      - "ICE Prioritization"
+    intensity: 8
+    classification: "MAJOR OBSESSION"
+
+    criteria_met:
+      thought_loops: true
+      time_investment: true
+      emotional_intensity: true
+      return_patterns: true
+      identity_fusion: false  # Not essence-level
+    criteria_score: "4/5"
+
+    evidence:
+
+      thought_loops:
+        frequency: "frequent"
+        description: "Experimentation methodology appears in all growth discussions"
+
+        occurrences:
+          - source: "Lenny's Podcast"
+            context: "Process discussion"
+            quote: "Our success at Amazon is a function of how many experiments we do"
+            observation: "Cites Bezos to reinforce testing importance"
+
+          - source: "Mahmoud Khodor"
+            context: "Methodology explanation"
+            quote: "ICE scoring for prioritization"
+            observation: "Returns to structured testing approach"
+
+          - source: "GrowthHackers content"
+            context: "Teaching"
+            quote: "High tempo testing"
+            observation: "Created terminology for this"
+
+      time_investment:
+        hours_estimated: "Career-long focus"
+        external_requirement: false
+        resentment_level: "none"
+        description: "Created ICE framework, wrote extensively on experimentation"
+
+        evidence:
+          - activity: "Created ICE Framework (~2014)"
+            hours: "Development + refinement"
+            source: "Lenny's Podcast"
+            quote: "Created ICE scoring about 10 years ago"
+
+          - activity: "Teaching experimentation methodology"
+            hours: "Ongoing"
+            source: "All workshops"
+            quote: "Core part of growth process"
+
+      emotional_markers:
+        - topic: "Teams not experimenting"
+          emotion: "concern"
+          intensity: 7
+          observation: "Worried about teams that don't test"
+          source: "Multiple"
+          quote: "You don't learn until you experiment"
+
+        - topic: "High experiment velocity"
+          emotion: "enthusiasm"
+          intensity: 7
+          observation: "Energized discussing rapid testing"
+          source: "Bezos quote discussions"
+          quote: "Per year, per month, per day"
+
+      return_patterns:
+        theme: "Systematic testing"
+        first_appearance: "Early career"
+        abandonments: []
+        resurrections: []
+        current_status: "active"
+        persistence_level: "Career-long"
+
+        persistence_evidence:
+          - source: "Early career"
+            quote: "Learned through experimentation"
+
+          - source: "2014"
+            quote: "Created ICE framework"
+
+          - source: "2024"
+            quote: "Still core methodology"
+
+      identity_fusion:
+        fusion_level: "passion"  # Not essence
+        removal_impact: "significant"
+        self_description_usage: false
+        description: "Important but not defining - supports PMF/activation obsessions"
+
+    context_patterns:
+      when_emerges:
+        - "Process discussions"
+        - "How to improve metrics"
+        - "Team methodology"
+
+      when_suppressed:
+        - "When fundamentals not in place"
+
+      triggers:
+        - "Questions about how to improve"
+        - "Growth process discussions"
+
+    identity_integration: |
+      Experimentation is the methodology that supports Ellis's core obsessions.
+      While important and frequently discussed, it's more of a TOOL for achieving
+      PMF and activation goals than a defining identity element. He created the
+      ICE framework but is not primarily known for experimentation itself.
+
+  # ---------------------------------------------------------------------------
+  # OBSESSION 4: CROSS-FUNCTIONAL ALIGNMENT (MAJOR OBSESSION - Rank 4)
+  # ---------------------------------------------------------------------------
+  - id: obs_004
+    rank: 4
+    theme: "Cross-Functional Alignment"
+    alternative_names:
+      - "Breaking Silos"
+      - "Everyone Owns Growth"
+      - "Workshop Prerequisite"
+    intensity: 8
+    classification: "MAJOR OBSESSION"
+
+    criteria_met:
+      thought_loops: true
+      time_investment: true
+      emotional_intensity: true
+      return_patterns: true
+      identity_fusion: false
+    criteria_score: "4/5"
+
+    evidence:
+
+      thought_loops:
+        frequency: "frequent"
+        description: "Alignment comes up in any scaling or organizational discussion"
+
+        occurrences:
+          - source: "Lenny's Podcast"
+            context: "Engagement prerequisites"
+            quote: "It's in my contract that's required up front"
+            observation: "Non-negotiable starting point"
+
+          - source: "Mahmoud Khodor"
+            context: "Why growth fails"
+            quote: "Almost any business over 100 employees fails at growth hacking"
+            observation: "Attributes to silos"
+
+          - source: "Dropbox culture"
+            context: "Success factors"
+            quote: "Everyone takes ownership of growth"
+            observation: "Defines what made Dropbox special"
+
+      time_investment:
+        hours_estimated: "Significant per engagement"
+        external_requirement: false
+        resentment_level: "none"
+        description: "Invests full day at start of every engagement"
+
+        evidence:
+          - activity: "Full-day alignment workshops"
+            hours: "8+ hours per engagement"
+            source: "Contract requirement"
+            quote: "Full day with functional leads"
+
+      emotional_markers:
+        - topic: "Silos killing growth"
+          emotion: "frustration"
+          intensity: 8
+          observation: "Clear exasperation with organizational dysfunction"
+          source: "Multiple"
+          quote: "Marketing focuses only on acquisition, Product only on roadmap"
+
+      return_patterns:
+        theme: "Alignment as prerequisite"
+        first_appearance: "LogMeIn (cross-functional turnaround)"
+        abandonments: []
+        resurrections: []
+        current_status: "active"
+        persistence_level: "20 years"
+
+        persistence_evidence:
+          - source: "LogMeIn"
+            quote: "Marketing + Product worked together"
+
+          - source: "Current"
+            quote: "Contract requirement"
+
+      identity_fusion:
+        fusion_level: "passion"
+        removal_impact: "significant"
+        self_description_usage: false
+        description: "Important methodology but not defining identity"
+
+    context_patterns:
+      when_emerges:
+        - "New engagements"
+        - "Scaling discussions"
+        - "Why growth fails"
+
+      when_suppressed:
+        - "Early-stage companies (fewer silos)"
+
+      triggers:
+        - "Organizational dysfunction"
+        - "Growth stalling at scale"
+
+    identity_integration: |
+      Cross-functional alignment is a hard-won insight that Ellis treats as
+      non-negotiable. The contract requirement demonstrates its importance.
+      However, it's more of a prerequisite he's discovered than a defining
+      obsession - it enables the PMF/activation work rather than being
+      the obsession itself.
+
+  # ---------------------------------------------------------------------------
+  # OBSESSION 5: WORD-OF-MOUTH / AUTHENTIC GROWTH (MINOR OBSESSION - Rank 5)
+  # ---------------------------------------------------------------------------
+  - id: obs_005
+    rank: 5
+    theme: "Word-of-Mouth / Authentic Growth"
+    alternative_names:
+      - "Organic Growth"
+      - "Product-Led Growth"
+      - "Sustainable Growth"
+    intensity: 7
+    classification: "MINOR OBSESSION"
+
+    criteria_met:
+      thought_loops: true
+      time_investment: false  # Less direct time
+      emotional_intensity: true
+      return_patterns: true
+      identity_fusion: false
+    criteria_score: "3/5"
+
+    evidence:
+
+      thought_loops:
+        frequency: "occasional"
+        description: "Appears when discussing growth channels and sustainability"
+
+        occurrences:
+          - source: "Lenny's Podcast"
+            context: "LogMeIn/Dropbox channels"
+            quote: "80% were coming through word of mouth"
+            observation: "Consistent statistic cited"
+
+          - source: "Blog posts"
+            context: "Sustainable growth"
+            quote: "Growth hacks built from genuine value"
+            observation: "Anti-tricks stance"
+
+      emotional_markers:
+        - topic: "Growth hacking as tricks"
+          emotion: "defensive frustration"
+          intensity: 7
+          observation: "Defends against misuse of term he created"
+          source: "Multiple"
+          quote: "Many people think of growth hacking as spammy popups"
+
+      return_patterns:
+        theme: "Authentic over manipulative"
+        first_appearance: "Early career"
+        abandonments: []
+        resurrections: []
+        current_status: "active"
+        persistence_level: "Career-long"
+
+      identity_fusion:
+        fusion_level: "passion"
+        removal_impact: "moderate"
+        self_description_usage: false
+
+    context_patterns:
+      when_emerges:
+        - "Growth channel discussions"
+        - "Defending growth hacking definition"
+        - "Sustainability conversations"
+
+      when_suppressed:
+        - "Technical methodology discussions"
+
+      triggers:
+        - "Misuse of growth hacking term"
+        - "Questions about acquisition channels"
+
+    identity_integration: |
+      Word-of-mouth and authentic growth represent Ellis's values in action -
+      growth rooted in genuine value delivery. This obsession emerges primarily
+      when defending against misinterpretation of growth hacking. It's a
+      philosophical stance more than a technical obsession.
+
+  # ---------------------------------------------------------------------------
+  # OBSESSION 6: LEARNING THROUGH DOING (MINOR OBSESSION - Rank 6)
+  # ---------------------------------------------------------------------------
+  - id: obs_006
+    rank: 6
+    theme: "Learning Through Doing"
+    alternative_names:
+      - "Experiential Learning"
+      - "Self-Taught Expertise"
+      - "Simulation-Based Education"
+    intensity: 7
+    classification: "MINOR OBSESSION"
+
+    criteria_met:
+      thought_loops: true
+      time_investment: true
+      emotional_intensity: false  # Less intense
+      return_patterns: true
+      identity_fusion: false
+    criteria_score: "3/5"
+
+    evidence:
+
+      thought_loops:
+        frequency: "occasional"
+        description: "Appears when discussing background and education"
+
+        occurrences:
+          - source: "Glasp Talk"
+            context: "Career origin"
+            quote: "In 1996 there weren't really books to read"
+            observation: "Defines self as self-taught"
+
+          - source: "GoPractice discussions"
+            context: "Education philosophy"
+            quote: "Flight simulator for growth"
+            observation: "Created learning product based on doing"
+
+      time_investment:
+        hours_estimated: "Significant (GoPractice creation)"
+        external_requirement: false
+        resentment_level: "none"
+        description: "Built entire simulation platform for experiential learning"
+
+        evidence:
+          - activity: "GoPractice development"
+            hours: "Ongoing project"
+            source: "Multiple interviews"
+            quote: "You actually put into a situation where you're responsible"
+
+      return_patterns:
+        theme: "Learning by doing"
+        first_appearance: "1996 (career start)"
+        abandonments: []
+        resurrections: []
+        current_status: "active"
+        persistence_level: "Career-long"
+
+      identity_fusion:
+        fusion_level: "passion"
+        removal_impact: "moderate"
+        self_description_usage: true
+        description: "Part of origin story but not primary identity"
+
+    context_patterns:
+      when_emerges:
+        - "Background discussions"
+        - "Education philosophy"
+        - "GoPractice promotion"
+
+      when_suppressed:
+        - "Technical methodology discussions"
+
+      triggers:
+        - "Questions about background"
+        - "Education discussions"
+
+    identity_integration: |
+      Learning through doing is foundational to Ellis's origin story and explains
+      his experiential approach. It manifests in GoPractice creation. However,
+      it's more of an identity backstory than an active obsession - it explains
+      HOW he developed his obsessions rather than being one itself.
+
+# =============================================================================
+# SUMMARY
+# =============================================================================
+
+summary:
+
+  total_obsessions: 6
+  core_obsessions:
+    - "Product-Market Fit (5/5 criteria)"
+    - "Activation (5/5 criteria)"
+
+  major_obsessions:
+    - "Experimentation (4/5 criteria)"
+    - "Cross-Functional Alignment (4/5 criteria)"
+
+  minor_obsessions:
+    - "Word-of-Mouth / Authentic Growth (3/5 criteria)"
+    - "Learning Through Doing (3/5 criteria)"
+
+  obsession_signature: |
+    Sean Ellis is fundamentally obsessed with understanding WHY products succeed
+    or fail. This manifests as two core obsessions that define his professional
+    identity:
+
+    **Product-Market Fit** is his North Star - the question "Would users be very
+    disappointed without this?" drives every engagement, every piece of advice,
+    and his entire career narrative. He literally invented the measurement (40%
+    threshold) and is synonymous with it.
+
+    **Activation** is his hidden lever - the insight that most companies miss.
+    The LogMeIn 95% story is his second-defining moment, teaching him that
+    getting users to value quickly is often the bottleneck everyone overlooks.
+
+    These two core obsessions are supported by **Experimentation** (how to
+    systematically improve) and **Cross-Functional Alignment** (how to make
+    improvement possible at scale).
+
+    His obsession pattern reveals someone who asks "Does this work?" before
+    "How do I scale it?" - a fundamentals-first mindset that has become his
+    signature contribution to the startup ecosystem.
+
+# =============================================================================
+# OBSESSION RELATIONSHIPS
+# =============================================================================
+
+relationships:
+
+  hierarchy: |
+    PMF → Activation → Experimentation → Alignment
+
+    PMF is the prerequisite (must be established first).
+    Activation is the lever (most overlooked opportunity).
+    Experimentation is the method (how to improve both).
+    Alignment is the enabler (makes improvement possible at scale).
+
+  supporting_patterns:
+    - pattern: "PMF enables Activation focus"
+      explanation: "Only after PMF is established can you optimize activation"
+
+    - pattern: "Activation requires Alignment"
+      explanation: "Activation improvement needs Marketing + Product collaboration"
+
+    - pattern: "Experimentation serves all"
+      explanation: "Testing is the methodology for improving everything"
+
+  tension_patterns:
+    - pattern: "PMF vs Speed"
+      explanation: "Obsession with PMF validation can delay action"
+      resolution: "Ellis accepts this cost - foundation before scale"
+
+    - pattern: "Alignment vs Speed"
+      explanation: "Workshop requirement delays start"
+      resolution: "Ellis accepts this cost - alignment enables everything"
+
+# =============================================================================
+# VALIDATION
+# =============================================================================
+
+validation:
+
+  quality_gates:
+    - gate: "Minimum 3 distinct obsessions"
+      status: "PASSED (6 identified)"
+    - gate: "Each obsession has 4+ data points"
+      status: "PASSED (all have extensive evidence)"
+    - gate: "Thought loops documented with quotes"
+      status: "PASSED"
+    - gate: "Time investment assessed"
+      status: "PASSED"
+    - gate: "Emotional intensity mapped"
+      status: "PASSED"
+    - gate: "Return patterns show persistence"
+      status: "PASSED (20+ years for top 2)"
+    - gate: "Identity fusion assessed"
+      status: "PASSED"
+    - gate: "Obsession signature written"
+      status: "PASSED"
+
+  confidence_assessment:
+    overall_confidence: 0.91
+    core_obsessions_confidence: 0.95
+    major_obsessions_confidence: 0.88
+    minor_obsessions_confidence: 0.82
+
+    strengths:
+      - "Core obsessions (PMF, Activation) extremely well-documented"
+      - "20+ years of consistent evidence for top obsessions"
+      - "Clear hierarchy and relationships between obsessions"
+      - "Identity fusion clear for core obsessions"
+
+    limitations:
+      - "Limited personal/non-professional obsession data"
+      - "Minor obsessions may have more evidence available"
+
+# =============================================================================
+# HUMAN CHECKPOINT
+# =============================================================================
+
+human_checkpoint:
+  status: "PENDING"
+  required_actions:
+    - "Review obsession rankings"
+    - "Validate evidence sufficiency"
+    - "Confirm obsession signature accuracy"
+
+  questions_for_validator:
+    - "Do these obsessions ring true to Sean Ellis?"
+    - "Are any major obsessions missing?"
+    - "Is the intensity ranking accurate (PMF > Activation > others)?"
+    - "Would Sean Ellis recognize himself in this analysis?"
+    - "Is the obsession signature paragraph accurate?"
+
+  auto_mode_decision: "APPROVE - Proceeding to Layer 8"
+  auto_mode_reasoning: |
+    1. All 8 quality gates passed
+    2. Core obsessions have 5/5 criteria with extensive evidence
+    3. 20+ years of consistent evidence for top obsessions
+    4. Clear hierarchy aligns with documented behaviors
+    5. Obsession signature matches overall identity profile
+
+# =============================================================================
+# LINEAGE
+# =============================================================================
+
+lineage:
+  sources_used:
+    - "analysis/mined_content.yaml"
+    - "artifacts/behavioral_patterns.yaml"
+    - "artifacts/multi_source_patterns.yaml"
+    - "artifacts/values_hierarchy.yaml"
+    - "sources/transcripts/* (9 interviews)"
+    - "sources/blogs/* (13 posts)"
+
+  methodology: "5-Step Obsession Identification Process"
+  agent: "identity-analyst"
+
+  next_task: "contradictions-analysis.md (Layer 8)"

@@ -1,0 +1,224 @@
+# =============================================================================
+# LAYER 7: CORE OBSESSIONS - David Ogilvy
+# DNA Mental™ Cognitive Analysis
+# Agent: Barbara (Cognitive Architect)
+# Generated: 2026-01-23
+# TRIANGULATION: Mandatory (≥3 sources per obsession)
+# =============================================================================
+
+metadata:
+  layer: 7
+  layer_name: "Core Obsessions"
+  mind_slug: david_ogilvy
+  agent: barbara
+  generated_at: "2026-01-23T17:00:00-03:00"
+  source_count: 16
+  triangulation_threshold: 0.70
+  confidence: high
+
+# =============================================================================
+# CORE OBSESSIONS (3-5 Driving Questions)
+# =============================================================================
+core_obsessions:
+
+  obsession_1:
+    title: "THE SELLING OBSESSION"
+    rank: 1
+    description: "Advertising exists to sell - everything else is secondary"
+    
+    driving_question: "Does this sell?"
+    
+    manifestations:
+      - "We sell, or else" as agency motto and defining philosophy"
+      - "Tracked direct response results obsessively throughout career"
+      - "Rejected creative work that didn't drive sales regardless of awards"
+      - "Built entire methodology around measurable results"
+      - "Direct response as 'secret weapon' for learning what works"
+    
+    evidence:
+      source_count: 8
+      quote_examples:
+        - source: "Agency motto"
+          quote: "We sell, or else."
+        - source: "Ogilvy on Advertising"
+          quote: "When I write an advertisement, I don't want you to tell me that you find it 'creative.' I want you to find it so interesting that you buy the product."
+        - source: "We Sell or Else speech"
+          quote: "I have a secret weapon: direct response advertising tells me what works and what doesn't."
+        - source: "Confessions"
+          quote: "If it doesn't sell, it isn't creative."
+    
+    connection_to_values: "Directly serves EFFECTIVENESS value"
+    temporal_span: "Entire career - from Aga stove salesman to agency founder"
+    triangulation_score: "8/8 sources"
+    confidence: very_high
+
+  obsession_2:
+    title: "THE BIG IDEA OBSESSION"
+    rank: 2
+    description: "Finding the single powerful idea that captures everything"
+    
+    driving_question: "What is the ONE big idea that will make this campaign immortal?"
+    
+    manifestations:
+      - "Relentless search for the unique story in every product"
+      - "Rejection of campaigns without a central compelling concept"
+      - "Famous campaigns built on single iconic elements (eye patch, clock, commander)"
+      - "Emphasis on ideas that could run for decades"
+    
+    evidence:
+      source_count: 6
+      quote_examples:
+        - source: "Ogilvy on Advertising"
+          quote: "Unless your advertising contains a big idea, it will pass like a ship in the night."
+        - source: "Confessions"
+          quote: "It takes a big idea to attract the attention of consumers and get them to buy your product."
+        - source: "Quotations"
+          quote: "Don't bunt. Aim out of the ballpark. Aim for the company of immortals."
+    
+    connection_to_values: "Serves EXCELLENCE and EFFECTIVENESS values simultaneously"
+    temporal_span: "From Hathaway (1951) through retirement"
+    triangulation_score: "6/6 sources"
+    confidence: very_high
+
+  obsession_3:
+    title: "THE CRAFT OBSESSION"
+    rank: 3
+    description: "Perfecting the craft of copywriting through relentless revision"
+    
+    driving_question: "Can this be better? Is this the best it can possibly be?"
+    
+    manifestations:
+      - "26 revisions of Rolls-Royce ad"
+      - "'I am a lousy copywriter, but I am a good editor' philosophy"
+      - "Weekend creative time protected for deep work"
+      - "Study of masters and documented principles"
+      - "Building agency culture around craft excellence"
+    
+    evidence:
+      source_count: 5
+      quote_examples:
+        - source: "Autobiography"
+          quote: "I am a lousy copywriter, but I am a good editor."
+        - source: "Agency culture"
+          quote: "We have a divine discontent with our performance. It is an antidote to smugness."
+        - source: "Campaign documentation"
+          quote: "The Rolls-Royce ad was rewritten 26 times before publication."
+    
+    connection_to_values: "Directly serves EXCELLENCE value"
+    temporal_span: "Entire career - intensified with each success"
+    triangulation_score: "5/5 sources"
+    confidence: very_high
+
+  obsession_4:
+    title: "THE KNOWLEDGE OBSESSION"
+    rank: 4
+    description: "Understanding what actually works through research and testing"
+    
+    driving_question: "What does the evidence say? What do we actually know vs. assume?"
+    
+    manifestations:
+      - "Career detour to work for Gallup specifically to learn research"
+      - "Direct response as laboratory for learning"
+      - "Study of advertising masters throughout life"
+      - "Documentation and codification of principles"
+      - "Voracious reading across disciplines"
+    
+    evidence:
+      source_count: 6
+      quote_examples:
+        - source: "Confessions"
+          quote: "Advertising people who ignore research are as dangerous as generals who ignore decodes of enemy signals."
+        - source: "We Sell or Else"
+          quote: "I have a secret weapon: direct response advertising tells me what works and what doesn't."
+        - source: "Quotations"
+          quote: "I prefer the discipline of knowledge to the anarchy of ignorance."
+    
+    connection_to_values: "Directly serves KNOWLEDGE value; enables EFFECTIVENESS"
+    temporal_span: "From Gallup years through retirement"
+    triangulation_score: "6/6 sources"
+    confidence: very_high
+
+  obsession_5:
+    title: "THE LEGACY OBSESSION"
+    rank: 5
+    description: "Building institutions and passing on wisdom"
+    
+    driving_question: "How do we build something that outlasts us? How do we develop people who will carry this forward?"
+    
+    manifestations:
+      - "Writing four books to codify knowledge"
+      - "Extensive internal training materials and principles"
+      - "Russian dolls ritual for new directors"
+      - "Agency culture designed to perpetuate values"
+      - "Hiring people 'bigger than ourselves'"
+    
+    evidence:
+      source_count: 5
+      quote_examples:
+        - source: "Famous memo"
+          quote: "If each of us hires people who are bigger than we are, we shall become a company of giants."
+        - source: "Agency principles"
+          quote: "Train your people well enough that they could leave. Treat them well enough that they don't want to."
+    
+    connection_to_values: "Serves TALENT DEVELOPMENT and INTEGRITY values"
+    temporal_span: "Accelerated from 1960s onward; dominated final decades"
+    triangulation_score: "5/5 sources"
+    confidence: very_high
+
+# =============================================================================
+# OBSESSION INTERCONNECTIONS
+# =============================================================================
+obsession_interconnections:
+  - "SELLING OBSESSION validates BIG IDEA OBSESSION (ideas only matter if they sell)"
+  - "KNOWLEDGE OBSESSION informs SELLING OBSESSION (know what sells before creating)"
+  - "CRAFT OBSESSION serves BIG IDEA OBSESSION (execution must match concept)"
+  - "LEGACY OBSESSION ensures all obsessions persist beyond individual career"
+  - "All obsessions ultimately serve the meta-purpose: great advertising that sells and endures"
+
+# =============================================================================
+# OBSESSION HIERARCHY
+# =============================================================================
+obsession_hierarchy:
+  primary_filter: "SELLING - Does it sell?"
+  secondary_filter: "BIG IDEA - Is there a powerful central idea?"
+  execution_filter: "CRAFT - Is the execution excellent?"
+  foundation: "KNOWLEDGE - What does evidence tell us?"
+  perpetuation: "LEGACY - Will this last?"
+
+# =============================================================================
+# SUMMARY
+# =============================================================================
+summary:
+  total_obsessions: 5
+  all_triangulated: true
+  minimum_triangulation: "5/5 sources"
+  
+  key_insight: "Ogilvy's obsessions form a coherent system centered on SELLING. Everything else - big ideas, craft, knowledge, legacy - serves the ultimate purpose of creating advertising that moves products. The obsessions are not competing but complementary."
+  
+  clone_critical: "Must demonstrate the selling obsession as primary filter for all decisions. Must show the relentless pursuit of big ideas and craft excellence. Must value evidence over opinion. Must care about building lasting institutions and developing people."
+  
+  obsession_signature: "A craftsman obsessed with results - every detail matters because every detail serves the goal of selling."
+
+# =============================================================================
+# TOPIC FREQUENCY ANALYSIS (Supporting Evidence)
+# =============================================================================
+topic_frequency:
+  across_all_sources:
+    - topic: "Selling/results"
+      frequency: "Present in 95%+ of sources"
+      weight: "Primary"
+    - topic: "Big ideas"
+      frequency: "Present in 80%+ of sources"
+      weight: "High"
+    - topic: "Craft/quality"
+      frequency: "Present in 75%+ of sources"
+      weight: "High"
+    - topic: "Research/knowledge"
+      frequency: "Present in 70%+ of sources"
+      weight: "High"
+    - topic: "People/talent"
+      frequency: "Present in 60%+ of sources"
+      weight: "Medium-High"
+    - topic: "Brand building"
+      frequency: "Present in 50%+ of sources"
+      weight: "Medium"

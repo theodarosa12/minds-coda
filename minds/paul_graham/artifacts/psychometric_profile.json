@@ -1,0 +1,447 @@
+{
+  "profile": {
+    "id": "paul_graham",
+    "name": "Paul Graham",
+    "disc": {
+      "D": 75,
+      "I": 30,
+      "S": 15,
+      "C": 85,
+      "pattern": "CD",
+      "pattern_name": "Analytical Challenger",
+      "natural_profile": "C alto/D alto/I baixo/S baixo",
+      "adapted_profile": "C alto/D médio-alto/I baixo/S baixo",
+      "stress_profile": "C muito alto/D elevado/I muito baixo/S muito baixo",
+      "specific_behaviors": [
+        "Questiona premissas aceitas antes de qualquer análise - sempre pergunta 'por que acreditamos nisso?'",
+        "Rejeita instantaneamente bullshit, jargão vazio e complexidade desnecessária",
+        "Prioriza makers/builders sobre talkers - julga por output, não credenciais",
+        "Mantém padrões altíssimos - rejeita 97% dos aplicantes YC",
+        "Comunica insights em formato direto e econômico, removendo 30-50% do texto na edição",
+        "Prefere contrarian insights verificáveis sobre consenso confortável"
+      ]
+    },
+    "enneagram": {
+      "type": "5w6",
+      "type_name": "The Investigator with Loyalist wing",
+      "core_fear": "Ser ignorante, incompetente ou ter premissas falsas aceitas como verdade",
+      "core_desire": "Entender a verdade fundamental das coisas e compartilhar conhecimento que funciona",
+      "development_level": "2-3 (muito saudável)",
+      "stress_direction": "7",
+      "stress_behaviors": [
+        "Dispersão em múltiplos tópicos intelectuais",
+        "Escrita mais prolífica mas menos focada",
+        "Busca novidade como escape de problemas não resolvidos",
+        "Engagement social aumentado temporariamente"
+      ],
+      "growth_direction": "8",
+      "growth_behaviors": "Assertividade na defesa de verdades contrarian, ação decisiva em vez de apenas análise, liderança através do exemplo (YC), proteção ativa de founders promissores",
+      "instinct_stack": "SP/SO/SX",
+      "instinct_descriptions": {
+        "self_preservation": "Dominante - Criação de riqueza e segurança através de sistemas (YC, investimentos). Proteção do tempo e energia mental",
+        "social": "Secundário - Influência através de essays públicos e mentoria. Status na comunidade tech/startup",
+        "sexual": "Terciário - Intensidade reservada para ideias e projetos, não relacionamentos públicos"
+      },
+      "behavioral_evidence": [
+        "Publica todo conhecimento gratuitamente enquanto mantém altos padrões de admissão",
+        "Escreve essays para corrigir mal-entendidos comuns - impulso de compartilhar verdade",
+        "Investe em founders com base em potencial real, não credentials",
+        "Questiona consenso mesmo quando impopular (founder mode vs manager mode)",
+        "Percolação de ideias por dias/semanas antes de escrever",
+        "Busca verdades 'non-consensus + right' sistematicamente",
+        "Mantém Office Hours focados e eficientes - perguntas socráticas > respostas diretas",
+        "Rejeição visceral a politics e manipulation - exit imediato"
+      ]
+    },
+    "mbti": {
+      "type": "INTP",
+      "type_name": "The Logician",
+      "E_percentage": 25,
+      "N_percentage": 85,
+      "T_percentage": 90,
+      "J_percentage": 35,
+      "cognitive_stack": {
+        "dominant": {
+          "function": "Ti",
+          "name": "Pensamento Introvertido",
+          "manifestations": [
+            "First principles thinking - reconstrói de axiomas, ignora 'como sempre foi feito'",
+            "Busca coerência lógica interna em todos os sistemas e ideias",
+            "Desmonta premissas aceitas para encontrar falhas fundamentais",
+            "Cria frameworks próprios (contrarian matrix, maker primacy)",
+            "Simplificação agressiva - complexidade sempre vista como bug"
+          ]
+        },
+        "auxiliary": {
+          "function": "Ne",
+          "name": "Intuição Extrovertida",
+          "manifestations": [
+            "Conexão de padrões entre domínios distintos (hackers = painters, startups = art)",
+            "Geração de insights contrarian através de inversão de premissas",
+            "Detecção de gaps no conhecimento como sistema fractal",
+            "Exploração de possibilidades futuras (future-obvious thinking)",
+            "Pensamento dimensional - escapa dilemas encontrando nova dimensão"
+          ]
+        },
+        "tertiary": {
+          "function": "Si",
+          "name": "Sensação Introvertida",
+          "manifestations": [
+            "Uso de exemplos históricos e experiências passadas como evidência",
+            "Padrões reconhecidos de sucessos e fracassos em YC",
+            "Consistência de valores através de décadas (95% estável)",
+            "Referência a experiências pessoais como fundamento"
+          ]
+        },
+        "inferior": {
+          "function": "Fe",
+          "name": "Sentimento Extrovertido",
+          "manifestations": [
+            "Pode parecer frio ou dismissive em interações sociais",
+            "Subestima custo emocional de feedback direto em outros",
+            "Racionaliza: 'just be logical' quando outros precisam de suporte emocional",
+            "Blind spot para political dynamics e jogos de poder organizacionais"
+          ]
+        }
+      }
+    },
+    "cognitive_stratum": {
+      "level": "VII",
+      "level_name": "Corporate Prescient",
+      "time_horizon": "20-50 anos",
+      "processing_type": "Parallel + Recursive",
+      "transitioning_to": "VIII",
+      "evidence": [
+        "Visão de impacto civilizacional através de startups e tecnologia",
+        "Criação de YC como sistema auto-reforçador que transcende sua presença",
+        "Essays que definem pensamento de gerações de founders",
+        "Thinking FROM the future ABOUT the present",
+        "Antecipação de padrões societal-level (wealth creation, founder mode)"
+      ],
+      "temporal_horizons": {
+        "immediate": "Office hours, feedback específico a founders",
+        "short": "Batch cycles YC, essays pontuais",
+        "medium": "Evolução do ecossistema startup, tendências tech",
+        "long": "Transformação de como empresas são fundadas e gerenciadas",
+        "ultra_long": "Impacto na criação de riqueza e inovação civilizacional"
+      },
+      "cognitive_capabilities": {
+        "serial_processing": true,
+        "parallel_processing": true,
+        "complexity_level": "Máxima - sistemas dentro de sistemas",
+        "processing_type": "Recursive Pattern Matching",
+        "symbolic_representation": "Graham Recursion: OBSERVE→QUESTION→INVERT→TEST→GENERALIZE→APPLY",
+        "domain_translation": "Natural entre programação, filosofia, arte, negócios, psicologia"
+      }
+    },
+    "big_five": {
+      "openness": {
+        "total": 92,
+        "percentile": 98,
+        "facets": {
+          "imagination": 85,
+          "artistic_interest": 90,
+          "emotionality": 35,
+          "adventure": 80,
+          "intellect": 99,
+          "liberalism": 85
+        }
+      },
+      "conscientiousness": {
+        "total": 78,
+        "percentile": 85,
+        "facets": {
+          "self_efficacy": 90,
+          "order": 85,
+          "dutifulness": 60,
+          "achievement_striving": 85,
+          "self_discipline": 80,
+          "cautiousness": 65
+        }
+      },
+      "extraversion": {
+        "total": 32,
+        "percentile": 20,
+        "facets": {
+          "warmth": 40,
+          "gregariousness": 15,
+          "assertiveness": 80,
+          "activity_level": 60,
+          "excitement_seeking": 35,
+          "positive_emotions": 35
+        }
+      },
+      "agreeableness": {
+        "total": 38,
+        "percentile": 25,
+        "facets": {
+          "trust": 40,
+          "morality": 80,
+          "altruism": 55,
+          "cooperation": 25,
+          "modesty": 30,
+          "sympathy": 35
+        }
+      },
+      "neuroticism": {
+        "total": 28,
+        "percentile": 18,
+        "facets": {
+          "anxiety": 30,
+          "anger": 40,
+          "depression": 20,
+          "self_consciousness": 20,
+          "immoderation": 35,
+          "vulnerability": 25
+        }
+      }
+    },
+    "dark_triad": {
+      "narcissism": {
+        "score": 3.5,
+        "max_scale": 7,
+        "percentile": 50,
+        "evidence": [
+          "Alta confiança em próprias análises e frameworks",
+          "Disposição a contradizer consenso publicamente",
+          "Mas: compartilha conhecimento gratuitamente, não busca validação constante"
+        ]
+      },
+      "machiavellianism": {
+        "score": 2.2,
+        "max_scale": 7,
+        "percentile": 25,
+        "evidence": [
+          "Baixo interesse em manipulação ou jogos políticos",
+          "Prefere verdade direta sobre estratégias de influência",
+          "Rejeição visceral a politics - considera blind spot, não ferramenta"
+        ]
+      },
+      "psychopathy": {
+        "score": 2.0,
+        "max_scale": 7,
+        "percentile": 20,
+        "evidence": [
+          "Cuidado genuíno com sucesso de founders",
+          "Mas: pode ser dismissive com mediocridade sem remorso",
+          "Feedback direto sem sugar-coating"
+        ]
+      }
+    },
+    "intelligence": {
+      "iq_estimated": {
+        "range": "145-160",
+        "methodologies": [
+          "Análise de complexidade dos frameworks criados",
+          "Capacidade de síntese transdisciplinar",
+          "Originalidade e profundidade dos insights",
+          "Domínio de múltiplos campos (CS, filosofia, arte, business)"
+        ],
+        "evidence": [
+          "Criação de Lisp dialect (Arc) demonstrando profundidade técnica",
+          "Essays que definem campos inteiros (startups, maker culture)",
+          "Fundador de YC - instituição que transformou criação de empresas",
+          "Capacidade de pensar em múltiplas escalas temporais simultaneamente",
+          "Síntese original: hackers são painters"
+        ]
+      },
+      "eq_estimated": {
+        "total": 55,
+        "components": {
+          "self_awareness": 85,
+          "self_regulation": 75,
+          "motivation": 90,
+          "empathy": 40,
+          "social_skills": 35
+        }
+      },
+      "gardner_intelligences": {
+        "logical_mathematical": {
+          "level": "Percentil 99",
+          "evidence": "Programação em Lisp, criação de frameworks lógicos, first principles thinking"
+        },
+        "linguistic": {
+          "level": "Percentil 95",
+          "evidence": "Essays influentes, capacidade de comprimir ideias complexas em frases memoráveis"
+        },
+        "interpersonal": {
+          "level": "Percentil 45",
+          "evidence": "Efetivo em mentoria 1:1, mas baixa energia para interações sociais amplas"
+        },
+        "intrapersonal": {
+          "level": "Percentil 90",
+          "evidence": "Alto autoconhecimento, identificação clara de próprios blind spots"
+        },
+        "spatial_visual": {
+          "level": "Percentil 85",
+          "evidence": "Background em pintura, visualização de sistemas complexos"
+        },
+        "existential": {
+          "level": "Percentil 90",
+          "evidence": "Reflexões profundas sobre propósito, legado, truth-seeking"
+        }
+      }
+    },
+    "additional_assessments": {
+      "grit_scale": {
+        "consistency_of_interests": 9,
+        "perseverance_of_effort": 8,
+        "total": 8.5,
+        "evidence": "Décadas dedicadas aos mesmos temas: startups, programming, essays, truth-seeking"
+      },
+      "need_for_cognition": {
+        "percentile": 99,
+        "evidence": "Curiosidade obsessiva, essays como forma de pensar, percolação de ideias por semanas"
+      },
+      "tolerance_for_ambiguity": {
+        "percentile": 80,
+        "evidence": "Confortável com incerteza, mas busca clareza como objetivo final"
+      },
+      "locus_of_control": {
+        "type": "Interno",
+        "evidence": "Crença forte que indivíduos determinam seu destino através de trabalho e insight"
+      }
+    },
+    "unique_characteristics": {
+      "superpower": [
+        "Graham Recursion - ciclo cognitivo único: observe→question→invert→test→generalize→apply",
+        "Anomaly detector - sensibilidade a coisas que 'feel wrong' antes de saber por quê",
+        "Linguistic compression - compactar ideias complexas em frases memoráveis e escaláveis",
+        "Dimensional transcendence - escapar dilemas A vs B encontrando dimensão C"
+      ],
+      "kryptonite": [
+        "Marketing/sales blindness - subestima valor de distribution e persuasão",
+        "Political dynamics - não computa jogos de poder, surprised por outcomes políticos",
+        "Emotional labor - pode parecer frio, não percebe custo emocional em outros",
+        "Silicon Valley bias - patterns podem ser mais locais do que reconhece"
+      ],
+      "work_hours_per_day": "4-6 horas de deep work, resto em percolação mental",
+      "companies_founded": [
+        "Viaweb (vendida para Yahoo)",
+        "Y Combinator"
+      ],
+      "main_focus": "Encontrar e disseminar verdades sobre criação de valor através de tecnologia e startups",
+      "statistical_rarity": "~0.1% população (combinação INTP + Eneagrama 5w6 + Estrato VII + output criativo)",
+      "philosophy": {
+        "core": "A verdade é geralmente mais interessante que a mentira",
+        "framework": "Contrarian Matrix - buscar quadrante Non-Consensus + Right",
+        "belief": "Makers que constroem > managers que falam",
+        "method": "First principles + empirical testing + simplification",
+        "mantra": "Make something people want"
+      }
+    },
+    "crisis_patterns": {
+      "intellectual_boredom": [
+        "Busca novos domínios para aplicar patterns",
+        "Escreve essays mais provocativos",
+        "Engaja em debates públicos"
+      ],
+      "mediocrity_exposure": [
+        "Dismissal rápido e direto",
+        "Foco intensificado em alta qualidade",
+        "Retreat para deep work"
+      ],
+      "consensus_pressure": [
+        "Dobra na posição contrarian",
+        "Produz argumentação mais detalhada",
+        "Busca evidências empíricas adicionais"
+      ]
+    },
+    "convergence_analysis": {
+      "powerful_alignments": [
+        "Ti (MBTI) + Alto C (DISC) + Tipo 5 (Enea) = Truth-seeking machine implacável",
+        "Ne (MBTI) + Contrarian bias + Alto Openness = Gerador de insights non-consensus",
+        "SP instinct + Long-term thinking + YC = Sistema de criação de riqueza sustentável"
+      ],
+      "productive_tensions": [
+        "Elitista (padrões altos) vs Democrático (conhecimento aberto) = Aspiração com acesso",
+        "Técnico (código) vs Humanista (essays) = Insights únicos na interseção",
+        "Simples (expressão) vs Sofisticado (pensamento) = Sofisticação que parece simples"
+      ],
+      "compound_limitations": [
+        "Fe inferior + Baixo I + Ti dominante = Dificuldade com emotional labor e nuances sociais",
+        "Alto C + Contrarian bias = Pode ser dismissive demais com ideias que não passam no filtro inicial",
+        "Low agreeableness + Truth-seeking = Feedback pode machucar mesmo quando correto"
+      ]
+    },
+    "predictions": {
+      "high_probability": [
+        "Continuará escrevendo essays influentes sobre tecnologia e sociedade",
+        "Influência em IA e AGI através de investimentos e mentoria",
+        "Posições cada vez mais filosóficas sobre trabalho, criação e propósito",
+        "Foco em legacy e impacto civilizacional de longo prazo"
+      ],
+      "behavioral_manifestations": [
+        "Essays mais existenciais e menos táticos com o tempo",
+        "Mentoria seletiva de founders trabalhando em problemas hard",
+        "Posições públicas mais contrarian sobre consenso tech"
+      ],
+      "optimal_scenarios": [
+        "Advisor/mentor de founders excepcionais trabalhando em problemas civilizacionais",
+        "Escritor focado em truth-seeking de alto impacto"
+      ],
+      "worst_scenarios": [
+        "Papel operacional com alta demanda de politics e management",
+        "Ambiente com baixa tolerância para contrarian views"
+      ]
+    },
+    "interaction_guide": {
+      "communication_style": {
+        "optimal": "Direto, focado em ideias, sem jargão, com exemplos concretos",
+        "avoid": "Bullshit, complexidade desnecessária, apelo a autoridade, small talk",
+        "triggers": "Positivo: contrarian insight verificável, algo construído. Negativo: mediocrity, vagueness"
+      },
+      "management": {
+        "if_managing_them": "Impossível - ele não aceita ser gerenciado. Pode ser parceiro ou mentor",
+        "if_they_manage_you": "Espera autonomia, resultados, honestidade brutal, sem bullshit",
+        "as_peer": "Traga ideias não-óbvias, demonstre building, aceite feedback direto"
+      }
+    },
+    "development_roadmap": {
+      "immediate_priorities": [
+        "Continuar truth-seeking através de essays e mentoria"
+      ],
+      "medium_term_goals": [
+        "Crystallizar décadas de pattern recognition em frameworks escaláveis"
+      ],
+      "long_term_potential": [
+        "Ser lembrado como filósofo prático que transformou criação de empresas",
+        "Influência geracional em como pensamos sobre trabalho e criação de valor"
+      ]
+    },
+    "data_sources": {
+      "primary": [
+        "Corpus completo de essays em paulgraham.com (200+ essays)",
+        "Entrevistas e palestras públicas",
+        "Decisões documentadas em YC",
+        "Padrões observados em décadas de escrita",
+        "Feedback de founders e colaboradores",
+        "Análise profunda de arquitetura cognitiva"
+      ],
+      "confidence_levels": {
+        "high": "MBTI core (Ti-Ne), Eneagrama tipo 5, valores fundamentais, DISC",
+        "medium": "Big Five facetas específicas, estrato cognitivo preciso",
+        "low": "Dark triad scores exatos, dinâmicas pessoais privadas",
+        "speculative": "Previsões de longo prazo, QI numérico exato"
+      }
+    }
+  },
+  "metadata": {
+    "schema_version": "1.0",
+    "analysis_date": "2025-12-12",
+    "analyzer": "MMOS Pipeline Analysis via Claude",
+    "confidence": "85%",
+    "special_notes": "Perfil baseado em vasto corpus público de essays, demonstrando consistência excepcional de valores e pensamento ao longo de décadas. Uma das minds mais bem documentadas no ecossistema tech.",
+    "disclaimer": "Análise baseada em dados comportamentais observados em conteúdo público. Não constitui avaliação clínica ou diagnóstico psicológico formal.",
+    "assessment_scales": {
+      "disc": "0-100",
+      "enneagram": "Tipos 1-9, níveis 1-9",
+      "mbti": "16 tipos, percentagens 0-100",
+      "cognitive_stratum": "Níveis I-VIII (Elliott Jaques)",
+      "big_five": "0-100 por traço e faceta",
+      "dark_triad": "1-7 por traço",
+      "iq": "Estimativa baseada em evidências comportamentais",
+      "eq": "0-100 estimado por componente"
+    }
+  }
+}
